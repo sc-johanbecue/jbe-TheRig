@@ -319,13 +319,13 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
         </div>
       </div>
 
-      <script
+      {/* <script
         defer
         src="https://static.cloudflareinsights.com/beacon.min.js/v84a3a4012de94ce1a686ba8c167c359c1696973893317"
         integrity="sha512-euoFGowhlaLqXsPWQ48qSkBSCFs3DPRyiwVu3FjR96cMPx+Fr+gpWRhIafcHwqwCqWS42RZhIudOvEI+Ckf6MA=="
         data-cf-beacon='{"rayId":"8643e4970aa42a34","version":"2024.2.4","token":"95d0ff46ebca47c7886903eb9234d320"}'
         crossOrigin="anonymous"
-      />
+      /> */}
     </>
   );
 };
