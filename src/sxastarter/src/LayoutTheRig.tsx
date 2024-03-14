@@ -235,7 +235,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
       </Head>
 
       {/* root placeholder for the app, which we add components to using route data */}
-      <div id="__next" className={mainClassPageEditing}>
+      <div className={mainClassPageEditing}>
         <style data-emotion="css cea17v" jsx>{`
           .css-cea17v {
             background: transparent;
