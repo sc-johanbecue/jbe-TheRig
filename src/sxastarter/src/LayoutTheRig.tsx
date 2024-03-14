@@ -236,7 +236,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
 
       {/* root placeholder for the app, which we add components to using route data */}
       <div className={mainClassPageEditing}>
-        <style data-emotion="css cea17v" jsx>{`
+        <style data-emotion="css cea17v">{`
           .css-cea17v {
             background: transparent;
             -webkit-transition: 0.3s;
@@ -260,12 +260,10 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
           }
         `}</style>
         <header className=" css-cea17v">
-          <div id="header">{route && <Placeholder name="headless-header" rendering={route} />}</div>
+          {route && <Placeholder name="headless-header" rendering={route} />}
         </header>
-        <main>
-          <div id="content">{route && <Placeholder name="headless-main" rendering={route} />}</div>
-        </main>
-        <style data-emotion="css 1xiwo48" jsx>{`
+        <main>{route && <Placeholder name="headless-main" rendering={route} />}</main>
+        <style data-emotion="css 1xiwo48">{`
           .css-1xiwo48 {
             padding: 64px 60px 48px 60px;
             height: 382px;
@@ -280,9 +278,9 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
           }
         `}</style>
         <footer className="css-1xiwo48">
-          <div id="footer">{route && <Placeholder name="headless-footer" rendering={route} />}</div>
+          {route && <Placeholder name="headless-footer" rendering={route} />}
         </footer>
-        <style data-emotion="css dy1auj" jsx>{`
+        <style data-emotion="css dy1auj">{`
           .css-dy1auj .Toastify__toast-container {
             min-width: 410px;
             -webkit-filter: none;

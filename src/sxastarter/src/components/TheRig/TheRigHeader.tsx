@@ -29,7 +29,7 @@ const TheRigHeaderDefaultComponent = (props: TheRigHeaderProps): JSX.Element => 
 export const Default = (props: TheRigHeaderProps): JSX.Element => {
   if (props.fields) {
     return (
-      <div>
+      <div id="header">
         <style data-emotion="css 58w1wt">
           {`
             .css-58w1wt {
