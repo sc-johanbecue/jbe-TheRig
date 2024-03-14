@@ -62,7 +62,7 @@ export const Default = (props: TheRigHeaderProps): JSX.Element => {
                 data-nimg="1"
                 className="css-xzc2ri"
                 style={{ color: 'transparent' }}
-                src="/header/rig_logo.svg"
+                src="https://therig.sa/header/rig_logo.svg"
               />
             </Link>
           </div>
