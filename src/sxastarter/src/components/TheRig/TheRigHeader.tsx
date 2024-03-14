@@ -221,7 +221,7 @@ export const Default = (props: TheRigHeaderProps): JSX.Element => {
                 `}
               </style>
               <button className="css-r2sx70">
-                <img src="/svg/moon-icon.svg" alt="" />
+                <img src="https://therig.sa/svg/moon-icon.svg" alt="" />
               </button>
               <style data-emotion="css 1tssrit">
                 {`
