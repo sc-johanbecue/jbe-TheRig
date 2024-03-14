@@ -41,7 +41,6 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
       <Scripts />
       <Head>
         <title>{fields?.Title?.value?.toString() || 'Page'}</title>
-        <link rel="icon" href={`${publicUrl}/favicon.ico`} />
         {headLinks.map((headLink) => (
           <link rel={headLink.rel} key={headLink.href} href={headLink.href} />
         ))}
@@ -52,10 +51,6 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
         <meta property="og:type" content={route?.templateName} data-attr="JSS-21.6.0" />
 
         <meta charSet="utf-8" />
-        <title>
-          The world&#x27;s first, offshore, adventure tourism destination. From adrenalin pumping
-          karting to extreme sports and submersibles, there&#x27;s something for everyone!{' '}
-        </title>
         <meta
           name="description"
           content="Welcome to THE RIG., the ultimate extreme destination in the Arabian Gulf. Get your adrenaline pumping with thrilling activities, relax in unique accommodations, and enjoy unparalleled hospitality. Book your offshore adventure today."
@@ -64,7 +59,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
           name="keywords"
           content="Adrenaline , Holiday Adventures: Zip Line, Scuba Diving, THERIG., extreme park, adrenaline "
         />
-        <link rel="icon" href="/the-rig-logo.png" />
+        <link rel="icon" href="https://therig.sa/the-rig-logo.png" />
         <meta name="robots" content="index, follow" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta
@@ -76,8 +71,6 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
           content="Welcome to THE RIG., the ultimate extreme destination in the Arabian Gulf. Get your adrenaline pumping with thrilling activities, relax in unique accommodations, and enjoy unparalleled hospitality. Book your offshore adventure today."
         />
         <meta property="og:url" content="https://therig.sa/" />
-        <meta property="og:image" content="https://therig.sa/bg/media-header.png" />
-        <meta property="og:type" content="website" />
         <meta property="og:site_name" content="The RIG." />
         <meta name="twitter:card" content="summary" />
         <meta
@@ -93,10 +86,8 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
         <link rel="alternate" hrefLang="en" href="https://therig.sa/" />
         <link rel="alternate" hrefLang="ar" href="https://therig.sa/ar/" />
         <link rel="alternate" hrefLang="x-default" href="https://therig.sa/" />
-        <link rel="canonical" href="https://therig.sa/" />
         <meta name="next-head-count" content="22" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
-        <link rel="icon" href="https://therig.sa/the-rig-logo.png" />
         <meta data-version="0.1.101" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link data-next-font="" rel="preconnect" href="/" crossOrigin="anonymous" />
