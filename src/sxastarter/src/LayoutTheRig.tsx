@@ -259,9 +259,9 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
             top: 0px;
           }
         `}</style>
-        <header className=" css-cea17v">
-          {route && <Placeholder name="headless-header" rendering={route} />}
-        </header>
+
+        {route && <Placeholder name="headless-header" rendering={route} />}
+
         <main>{route && <Placeholder name="headless-main" rendering={route} />}</main>
         <style data-emotion="css 1xiwo48">{`
           .css-1xiwo48 {
@@ -277,9 +277,9 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
             }
           }
         `}</style>
-        <footer className="css-1xiwo48">
-          {route && <Placeholder name="headless-footer" rendering={route} />}
-        </footer>
+
+        {route && <Placeholder name="headless-footer" rendering={route} />}
+
         <style data-emotion="css dy1auj">{`
           .css-dy1auj .Toastify__toast-container {
             min-width: 410px;

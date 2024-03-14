@@ -29,7 +29,7 @@ const TheRigHeaderDefaultComponent = (props: TheRigHeaderProps): JSX.Element => 
 export const Default = (props: TheRigHeaderProps): JSX.Element => {
   if (props.fields) {
     return (
-      <div id="header">
+      <header className=" css-cea17v">
         <style data-emotion="css 58w1wt">
           {`
             .css-58w1wt {
@@ -313,7 +313,7 @@ export const Default = (props: TheRigHeaderProps): JSX.Element => {
             </div>
           </div>
         </div>
-      </div>
+      </header>
     );
   }
 
