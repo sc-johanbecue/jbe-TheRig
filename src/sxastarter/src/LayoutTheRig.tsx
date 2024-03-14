@@ -111,7 +111,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
           href="https://therig.sa/_next/static/css/489fa6e788c2c9ab.css"
           data-n-p=""
         />
-        {/* <script defer src="https://therig.sa/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js" />
+        <script defer src="https://therig.sa/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js" />
         <script defer src="https://therig.sa/_next/static/chunks/webpack-7d607ad0e350eccb.js" />
         <script defer src="https://therig.sa/_next/static/chunks/framework-2c79e2a64abdb08b.js" />
         <script defer src="https://therig.sa/_next/static/chunks/main-2c344dd1b37f0ea7.js" />
@@ -129,7 +129,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
           defer
           src="https://therig.sa/_next/static/1A9z0Ik3x0u_Errt0Chgc/_buildManifest.js"
         />
-        <script defer src="https://therig.sa/_next/static/1A9z0Ik3x0u_Errt0Chgc/_ssgManifest.js" /> */}
+        <script defer src="https://therig.sa/_next/static/1A9z0Ik3x0u_Errt0Chgc/_ssgManifest.js" />
         <style data-href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;700&display=swap">
           @font-face
           {`
