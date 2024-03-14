@@ -124,12 +124,12 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
         <script defer src="https://therig.sa/_next/static/chunks/420-eafb122c24c6e0b1.js" />
         <script defer src="https://therig.sa/_next/static/chunks/258-f4e4822d18206e1d.js" />
         <script defer src="https://therig.sa/_next/static/chunks/484-dbf94c26d8162048.js" />
-        <script defer src="https://therig.sa/_next/static/chunks/pages/index-f68afcea7b094900.js" /> */}
+        <script defer src="https://therig.sa/_next/static/chunks/pages/index-f68afcea7b094900.js" />
         <script
           defer
           src="https://therig.sa/_next/static/1A9z0Ik3x0u_Errt0Chgc/_buildManifest.js"
         />
-        <script defer src="https://therig.sa/_next/static/1A9z0Ik3x0u_Errt0Chgc/_ssgManifest.js" />
+        <script defer src="https://therig.sa/_next/static/1A9z0Ik3x0u_Errt0Chgc/_ssgManifest.js" /> */}
         <style data-href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;700&display=swap">
           @font-face
           {`
