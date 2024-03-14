@@ -98,30 +98,127 @@ export const Default = (props: TheRigHeaderProps): JSX.Element => {
                   target="_blank"
                   href="https://twitter.com/THERIGsa"
                 >
-                  <div></div>
+                  <div>
+                    <div>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="19"
+                        height="18"
+                        viewBox="0 0 19 18"
+                        fill="none"
+                        className="injected-svg"
+                        data-src="https://therig.sa/footer/social/tw.svg"
+                        xmlnsXlink="http://www.w3.org/1999/xlink"
+                        role="img"
+                      >
+                        <path
+                          d="M0.0457559 0L7.29149 9.92807L0 18H1.64102L8.02471 10.9329L13.1826 18H18.767L11.1136 7.5135L17.9005 0H16.2595L10.3804 6.50866L5.63022 0H0.0457559ZM2.459 1.2387H5.02452L16.3534 16.7611H13.7879L2.459 1.2387Z"
+                          fill="#1D1D1B"
+                        ></path>
+                      </svg>
+                    </div>
+                  </div>
                 </Link>
                 <Link
                   className="enable css-rtflpr"
                   target="_blank"
                   href="https://www.linkedin.com/company/therigsa"
                 >
-                  <div></div>
+                  <div>
+                    <div>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="18"
+                        height="18"
+                        viewBox="0 0 18 18"
+                        fill="none"
+                        className="injected-svg"
+                        data-src="https://therig.sa/footer/social/li.svg"
+                        xmlnsXlink="http://www.w3.org/1999/xlink"
+                        role="img"
+                      >
+                        <path
+                          d="M3.05176e-05 2.41981C3.05176e-05 1.8426 0.202739 1.36641 0.608139 0.991237C1.01354 0.616051 1.54058 0.428467 2.18922 0.428467C2.82629 0.428467 3.34172 0.613159 3.73555 0.982579C4.14095 1.36353 4.34366 1.85991 4.34366 2.47176C4.34366 3.02587 4.14675 3.48762 3.75293 3.85704C3.34753 4.23799 2.8147 4.42847 2.15447 4.42847H2.1371C1.50002 4.42847 0.984592 4.23799 0.590764 3.85704C0.196936 3.47608 3.05176e-05 2.997 3.05176e-05 2.41981ZM0.225899 17.5713V6.00422H4.08304V17.5713H0.225899ZM6.22011 17.5713H10.0773V11.1124C10.0773 10.7084 10.1236 10.3967 10.2162 10.1774C10.3784 9.78488 10.6245 9.45298 10.9547 9.18171C11.2848 8.91042 11.6989 8.77478 12.1969 8.77478C13.4942 8.77478 14.1429 9.64635 14.1429 11.3895V17.5713H18V10.9393C18 9.23077 17.5946 7.93496 16.7838 7.05184C15.973 6.16872 14.9016 5.72717 13.5695 5.72717C12.0753 5.72717 10.9112 6.36786 10.0773 7.64924V7.68388H10.0599L10.0773 7.64924V6.00422H6.22011C6.24327 6.37362 6.25486 7.52225 6.25486 9.45011C6.25486 11.378 6.24327 14.085 6.22011 17.5713Z"
+                          fill="#1D1D1B"
+                        ></path>
+                      </svg>
+                    </div>
+                  </div>
                 </Link>
                 <Link className="disable 2-disable css-rtflpr" target="" href="javascript:void(0);">
-                  <div></div>
+                  <div>
+                    <div>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="19"
+                        height="15"
+                        viewBox="0 0 19 15"
+                        fill="none"
+                        className="injected-svg"
+                        data-src="https://therig.sa/footer/social/yt.svg"
+                        xmlnsXlink="http://www.w3.org/1999/xlink"
+                        role="img"
+                      >
+                        <path
+                          d="M9.92081 14.0201L6.02275 13.9473C4.76064 13.9219 3.49539 13.9726 2.25803 13.7096C0.375725 13.3166 0.242375 11.3898 0.102839 9.77362C-0.0894277 7.50145 -0.0149955 5.18804 0.347836 2.93484C0.552667 1.67056 1.35876 0.916149 2.60535 0.834055C6.81352 0.536124 11.0497 0.571432 15.2485 0.710428C15.692 0.72317 16.1385 0.792813 16.5757 0.872086C18.7341 1.25872 18.7868 3.44219 18.9267 5.28025C19.0662 7.13728 19.0073 9.00385 18.7406 10.8482C18.5266 12.3753 18.1173 13.656 16.3896 13.7796C14.225 13.9412 12.1101 14.0714 9.93937 14.03C9.93947 14.0201 9.927 14.0201 9.92081 14.0201ZM7.62913 10.1539C9.26035 9.19683 10.8604 8.25567 12.4823 7.30497C10.8481 6.34786 9.25102 5.4067 7.62913 4.45601V10.1539Z"
+                          fill="#1D1D1B"
+                        ></path>
+                      </svg>
+                    </div>
+                  </div>
                   <style data-emotion="css 1xr9vc3">{`.css-1xr9vc3{visibility:hidden;bottom:-29px;width:-webkit-max-content;width:-moz-max-content;width:max-content;padding:2px 6px;gap:8px;border-radius:4px;background:#494949;font-size:12px;font-style:normal;font-weight:300;line-height:160%;color:#FFF;text-align:center;position:absolute;z-index:1;}`}</style>
                   <div style={{ left: '-28px' }} className="toolTip css-1xr9vc3">
                     coming soon
                   </div>
                 </Link>
                 <Link className="disable 3-disable css-rtflpr" target="" href="javascript:void(0);">
-                  <div></div>
+                  <div>
+                    <div>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="18"
+                        height="18"
+                        viewBox="0 0 18 18"
+                        fill="none"
+                        className="injected-svg"
+                        data-src="https://therig.sa/footer/social/in.svg"
+                        xmlnsXlink="http://www.w3.org/1999/xlink"
+                        role="img"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M0 9C0 5.40486 0 3.60729 0.856692 2.31255C1.23925 1.73439 1.73439 1.23925 2.31255 0.856692C3.60729 0 5.40486 0 9 0C12.5951 0 14.3927 0 15.6874 0.856692C16.2656 1.23925 16.7608 1.73439 17.1433 2.31255C18 3.60729 18 5.40486 18 9C18 12.5951 18 14.3927 17.1433 15.6874C16.7608 16.2656 16.2656 16.7608 15.6874 17.1433C14.3927 18 12.5951 18 9 18C5.40486 18 3.60729 18 2.31255 17.1433C1.73439 16.7608 1.23925 16.2656 0.856692 15.6874C0 14.3927 0 12.5951 0 9ZM13.6593 9.00023C13.6593 11.5735 11.5732 13.6596 8.99984 13.6596C6.42652 13.6596 4.34043 11.5735 4.34043 9.00023C4.34043 6.42691 6.42652 4.34082 8.99984 4.34082C11.5732 4.34082 13.6593 6.42691 13.6593 9.00023ZM8.99984 12.0832C10.7025 12.0832 12.0828 10.7029 12.0828 9.00023C12.0828 7.29753 10.7025 5.91722 8.99984 5.91722C7.29714 5.91722 5.91684 7.29753 5.91684 9.00023C5.91684 10.7029 7.29714 12.0832 8.99984 12.0832ZM13.8433 5.20155C14.4479 5.20155 14.9381 4.71138 14.9381 4.10673C14.9381 3.50207 14.4479 3.0119 13.8433 3.0119C13.2386 3.0119 12.7485 3.50207 12.7485 4.10673C12.7485 4.71138 13.2386 5.20155 13.8433 5.20155Z"
+                          fill="#1D1D1B"
+                        ></path>
+                      </svg>
+                    </div>
+                  </div>
                   <div style={{ left: '-28px' }} className="toolTip css-1xr9vc3">
                     coming soon
                   </div>
                 </Link>
                 <Link className="disable 4-disable css-rtflpr" target="" href="javascript:void(0);">
-                  <div></div>
+                  <div>
+                    <div>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="10"
+                        height="18"
+                        viewBox="0 0 10 18"
+                        fill="none"
+                        className="injected-svg"
+                        data-src="https://therig.sa/footer/social/fb.svg"
+                        xmlnsXlink="http://www.w3.org/1999/xlink"
+                        role="img"
+                      >
+                        <path
+                          d="M6.46384 18V9.78936H9.35853L9.79192 6.5895H6.46376V4.54653C6.46376 3.6201 6.73394 2.98879 8.12938 2.98879L9.90907 2.98799V0.126072C9.60126 0.0871459 8.54474 0 7.31576 0C4.74974 0 2.993 1.49118 2.993 4.22972V6.5895H0.0908813V9.78936H2.993V17.9999H6.46384V18Z"
+                          fill="#1D1D1B"
+                        ></path>
+                      </svg>
+                    </div>
+                  </div>
                   <div style={{ left: '-28px' }} className="toolTip css-1xr9vc3">
                     coming soon
                   </div>

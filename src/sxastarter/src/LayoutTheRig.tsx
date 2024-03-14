@@ -262,6 +262,43 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
 
         {route && <Placeholder name="headless-header" rendering={route} />}
 
+        <style data-emotion="css 19tk58b">
+          {`
+          .css-19tk58b{
+            background:url(https://therig.sa/bg/sea.webp) no-repeat 50% 50%/cover;
+            position:relative;
+            z-index:20;
+            height:80vh;
+            -webkit-filter:none;
+            filter:none;
+          }
+          @media screen and (max-width: 899px){
+            .css-19tk58b{
+              height:816px;
+            }
+          }
+          @media screen and (min-width: 900px){
+            .css-19tk58b{
+              height:901px;
+            }
+          }
+          @media screen and (min-width: 1200px){
+            .css-19tk58b{
+              height:901px;
+            }
+          }
+          @media screen and (min-width: 1440px){
+            .css-19tk58b{
+              height:901px;
+            }
+          }
+          @media screen and (min-width: 1601px){
+            .css-19tk58b{
+              height:1150px;
+            }
+          }
+        `}
+        </style>
         <main>{route && <Placeholder name="headless-main" rendering={route} />}</main>
         <style data-emotion="css 1xiwo48">{`
           .css-1xiwo48 {
