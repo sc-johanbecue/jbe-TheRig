@@ -315,6 +315,52 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
           }
         `}</style>
 
+        <style data-emotion="css fy3zvu">{`
+          .css-fy3zvu{
+            background:#1D1D1B;
+            position:relative;
+            width:100%;
+            height:405px;
+          }
+          @media screen and (max-width: 900px){
+            .css-fy3zvu{
+              height:auto;
+            }
+          }
+          @media screen and (min-width: 1200px){
+            .css-fy3zvu .fact-grid .ar-grid-item:first-child{
+              max-width:25%;
+              -webkit-flex-basis:25%;
+              -ms-flex-preferred-size:25%;
+              flex-basis:25%;
+            }
+            .css-fy3zvu .fact-grid .ar-grid-item:nth-child(2){
+              max-width:15%;
+              -webkit-flex-basis:15%;
+              -ms-flex-preferred-size:15%;
+              flex-basis:15%;
+            }
+            .css-fy3zvu .fact-grid .en-grid-item:first-child{
+              max-width:25%;
+              -webkit-flex-basis:25%;
+              -ms-flex-preferred-size:25%;
+              flex-basis:25%;
+            }
+            .css-fy3zvu .fact-grid .en-grid-item:nth-child(2){
+              max-width:15%;
+              -webkit-flex-basis:15%;
+              -ms-flex-preferred-size:15%;
+              flex-basis:15%;
+            }
+          }
+          .css-fy3zvu .fact-grid .en-grid-item:last-child>div{
+            border:none;
+          }
+          .css-fy3zvu .fact-grid .ar-grid-item:first-child>div{
+            border:none;
+          }
+        `}</style>
+
         {route && <Placeholder name="headless-footer" rendering={route} />}
 
         <style data-emotion="css dy1auj">{`
