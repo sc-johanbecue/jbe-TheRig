@@ -3,11 +3,11 @@ import { Text, TextField } from '@sitecore-jss/sitecore-jss-nextjs';
 
 interface Fields {
   Title: TextField;
-  Fact1Text: TextField;
-  Fact2Text: TextField;
-  Fact3Text: TextField;
-  Fact4Text: TextField;
-  Fact5Text: TextField;
+  Fact1: TextField;
+  Fact2: TextField;
+  Fact3: TextField;
+  Fact4: TextField;
+  Fact5: TextField;
   Fact1Figure: TextField;
   Fact2Figure: TextField;
   Fact3Figure: TextField;
@@ -64,7 +64,7 @@ export const Default = (props: TheRigFactAndFiguresroProps): JSX.Element => {
                 <style data-emotion="css 1b171hf">{`.css-1b171hf{font-family:'Changa',sans-serif;font-weight:400;color:#FF6A39;font-weight:500;text-align:center;padding-top:10px;}.css-1b171hf span{font-size:18px;font-family:'Changa',sans-serif;font-weight:400;color:#ffffff;font-size:24px;font-style:normal;font-weight:500;line-height:160%;}@media screen and (max-width: 1439px){.css-1b171hf span{font-size:14px;padding-top:0px;}}`}</style>
                 <div className="css-1b171hf">
                   <span>
-                    <Text field={props.fields.Fact1Text} />
+                    <Text field={props.fields.Fact1} />
                   </span>
                 </div>
                 <hr className="breakLine " />
@@ -77,7 +77,7 @@ export const Default = (props: TheRigFactAndFiguresroProps): JSX.Element => {
                 </div>
                 <div className="css-1b171hf">
                   <span>
-                    <Text field={props.fields.Fact2Text} />
+                    <Text field={props.fields.Fact2} />
                   </span>
                 </div>
                 <hr className="breakLine " />
@@ -90,7 +90,7 @@ export const Default = (props: TheRigFactAndFiguresroProps): JSX.Element => {
                 </div>
                 <div className="css-1b171hf">
                   <span>
-                    <Text field={props.fields.Fact3Text} />
+                    <Text field={props.fields.Fact3} />
                   </span>
                 </div>
                 <hr className="breakLine " />
@@ -104,7 +104,7 @@ export const Default = (props: TheRigFactAndFiguresroProps): JSX.Element => {
                 <div className="css-1b171hf">
                   <span>
                     {' '}
-                    <Text field={props.fields.Fact4Text} />
+                    <Text field={props.fields.Fact4} />
                   </span>
                 </div>
                 <hr className="breakLine " />
@@ -117,7 +117,7 @@ export const Default = (props: TheRigFactAndFiguresroProps): JSX.Element => {
                 </div>
                 <div className="css-1b171hf">
                   <span>
-                    <Text field={props.fields.Fact5Text} />
+                    <Text field={props.fields.Fact5} />
                   </span>
                 </div>
                 <hr className="breakLine last" />
