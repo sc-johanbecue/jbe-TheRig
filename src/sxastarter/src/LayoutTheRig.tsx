@@ -361,6 +361,23 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
           }
         `}</style>
 
+        <style data-emotion="css i9vblt">{`
+          .css-i9vblt{
+            background:url('https://therig.sa/bg/egsBg.webp');
+            z-index:20;
+            height:890px;
+            position:relative;
+            background-repeat:no-repeat;
+            -webkit-background-size:cover;
+            background-size:cover;
+          }
+          @media screen and (max-width: 899px){
+            .css-i9vblt{
+              height:auto;
+            }
+          }
+        `}</style>
+
         {route && <Placeholder name="headless-footer" rendering={route} />}
 
         <style data-emotion="css dy1auj">{`
