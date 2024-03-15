@@ -361,6 +361,21 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
         data-cf-beacon='{"rayId":"8643e4970aa42a34","version":"2024.2.4","token":"95d0ff46ebca47c7886903eb9234d320"}'
         crossOrigin="anonymous"
       /> */}
+
+      <script defer src="https://therig.sa/_next/static/chunks/407-0b701f93c1c45baa.js" />
+      <script defer src="https://therig.sa/_next/static/chunks/45-1e62ff89a816174c.js" />
+      <script defer src="https://therig.sa/_next/static/chunks/pages/about-497fe4ec30a7d93e.js" />
+      <script defer src="https://therig.sa/_next/static/chunks/190-83c08bc2ec5e0bdf.js" />
+      <script defer src="https://therig.sa/_next/static/chunks/641-ef09a6859b1428bb.js" />
+      <script defer src="https://therig.sa/_next/static/chunks/707-550c01aaec79d951.js" />
+      <script defer src="https://therig.sa/_next/static/chunks/pages/press-29017a85477a96af.js" />
+      <script defer src="https://therig.sa/_next/static/chunks/709-0789c51d73337628.js" />
+      <script defer src="https://therig.sa/_next/static/chunks/pages/privacy-7e9a0d88da107ada.js" />
+      <script defer src="https://therig.sa/_next/static/chunks/pages/terms-2f117c12cb0c5b79.js" />
+      <script
+        defer
+        src="https://therig.sa/_next/static/chunks/pages/cookie_policy-5e6fcb9973ae9093.js"
+      />
     </>
   );
 };

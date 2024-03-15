@@ -13,12 +13,12 @@ interface Fields {
   MasterAsset: ImageField;
 }
 
-type TheRigHeaderProps = {
+type TheRigFooterProps = {
   params: { [key: string]: string };
   fields: Fields;
 };
 
-const TheRigHeaderDefaultComponent = (props: TheRigHeaderProps): JSX.Element => (
+const TheRigHeaderDefaultComponent = (props: TheRigFooterProps): JSX.Element => (
   <div className={`component promo ${props.params.styles}`}>
     <div className="component-content">
       <span className="is-empty-hint"></span>
@@ -26,7 +26,7 @@ const TheRigHeaderDefaultComponent = (props: TheRigHeaderProps): JSX.Element => 
   </div>
 );
 
-export const Default = (props: TheRigHeaderProps): JSX.Element => {
+export const Default = (props: TheRigFooterProps): JSX.Element => {
   if (props.fields) {
     return (
       <footer className="css-1xiwo48">
