@@ -299,6 +299,24 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
           }
         `}
         </style>
+
+        <style data-emotion="css i9vblt">{`
+          .css-i9vblt{
+            background:url('https://therig.sa/bg/egsBg.webp');
+            z-index:20;
+            height:890px;
+            position:relative;
+            background-repeat:no-repeat;
+            -webkit-background-size:cover;
+            background-size:cover;
+          }
+          @media screen and (max-width: 899px){
+            .css-i9vblt{
+              height:auto;
+            }
+          }
+        `}</style>
+
         <main>{route && <Placeholder name="headless-main" rendering={route} />}</main>
         <style data-emotion="css 1xiwo48">{`
           .css-1xiwo48 {
@@ -358,23 +376,6 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
           }
           .css-fy3zvu .fact-grid .ar-grid-item:first-child>div{
             border:none;
-          }
-        `}</style>
-
-        <style data-emotion="css i9vblt">{`
-          .css-i9vblt{
-            background:url('https://therig.sa/bg/egsBg.webp');
-            z-index:20;
-            height:890px;
-            position:relative;
-            background-repeat:no-repeat;
-            -webkit-background-size:cover;
-            background-size:cover;
-          }
-          @media screen and (max-width: 899px){
-            .css-i9vblt{
-              height:auto;
-            }
           }
         `}</style>
 
