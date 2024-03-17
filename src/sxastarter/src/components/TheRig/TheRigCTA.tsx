@@ -1,19 +1,10 @@
 import React from 'react';
-import { TextField } from '@sitecore-jss/sitecore-jss-nextjs';
-import Link from 'next/link';
+import { TextField, LinkField, Link as JssLink, Text } from '@sitecore-jss/sitecore-jss-nextjs';
 
 interface Fields {
   Title: TextField;
-  Fact1: TextField;
-  Fact2: TextField;
-  Fact3: TextField;
-  Fact4: TextField;
-  Fact5: TextField;
-  Fact1Figure: TextField;
-  Fact2Figure: TextField;
-  Fact3Figure: TextField;
-  Fact4Figure: TextField;
-  Fact5Figure: TextField;
+  Text: TextField;
+  Link: LinkField;
 }
 
 type TheRigCTA = {
@@ -39,11 +30,14 @@ export const Default = (props: TheRigCTA): JSX.Element => {
           alt=""
         />
         <div className="css-p2upxh">
-          <div className="css-1pp2eok">JOIN OUR TEAM</div>
-          <div className="css-scoelx">Ready to take on your next adventure?</div>
+          <div className="css-1pp2eok">
+            <Text field={props.fields.Title} />
+          </div>
+          <div className="css-scoelx">
+            <Text field={props.fields.Text} />
+          </div>
           <div className="css-r2wt59">
-            <Link className="css-1lzrdpk" href="/">
-              CONTACT US
+            <JssLink field={props.fields.Link}>
               <svg
                 className="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge css-6flbmm"
                 focusable="false"
@@ -54,7 +48,7 @@ export const Default = (props: TheRigCTA): JSX.Element => {
                 <path d="M6.41 6 5 7.41 9.58 12 5 16.59 6.41 18l6-6z"></path>
                 <path d="m13 6-1.41 1.41L16.17 12l-4.58 4.59L13 18l6-6z"></path>
               </svg>
-            </Link>
+            </JssLink>
           </div>
         </div>
       </div>
