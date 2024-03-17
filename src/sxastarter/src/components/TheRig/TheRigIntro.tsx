@@ -66,13 +66,13 @@ export const Default = (props: TheRigIntroProps): JSX.Element => {
               <div className="MuiGrid-root MuiGrid-direction-xs-row css-124fws5">
                 <p className="MuiTypography-root MuiTypography-body1 css-pheo6p">
                   <span>
-                    <JssRichText field={props.fields.Text} />
+                    <JssRichText field={props.fields.Text} style={{ color: '#FFFFFF' }} />
                   </span>
                 </p>
                 <div className="MuiGrid-root MuiGrid-direction-xs-row css-124fws5">
                   <button type="submit" style={{ display: 'inline-flex' }} className="css-e35sq3">
                     <span>
-                      <Text field={props.fields.CtaText} />
+                      <Text field={props.fields.CtaText} style={{ color: '#FFFFFF' }} />
                       <img
                         alt=""
                         loading="lazy"
