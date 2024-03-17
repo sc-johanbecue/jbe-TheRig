@@ -38,38 +38,8 @@ export const Default = (props: TheRigCTA): JSX.Element => {
           className="css-42e7fn"
           alt=""
         />
-        <style data-emotion="css p2upxh">{`
-              .css-p2upxh {
-                color: #ffffff;
-                width: 100% !important;
-                text-align: center;
-                color: undefined;
-              }
-            `}</style>
         <div className="css-p2upxh">
           <div className="css-1pp2eok">JOIN OUR TEAM</div>
-          <style data-emotion="css scoelx">{`
-                .css-scoelx {
-                  font-family: 'Changa', sans-serif !important;
-                  font-style: normal;
-                  font-size: 1.8rem;
-                  line-height: 3.3rem;
-                  font-weight: 300;
-                  margin-bottom: 32px;
-                  font-size: 16px;
-                  font-style: normal;
-                  font-weight: 300;
-                  line-height: 160%;
-                }
-                .css-scoelx strong {
-                  font-family: 'Changa', sans-serif !important;
-                  font-style: normal;
-                  font-size: 1.8rem;
-                  line-height: 3.3rem;
-                  font-weight: 300;
-                  font-weight: 300;
-                }
-              `}</style>
           <div className="css-scoelx">Ready to take on your next adventure?</div>
           <div className="css-r2wt59">
             <Link className="css-1lzrdpk" href="/">
