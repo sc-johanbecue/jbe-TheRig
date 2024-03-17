@@ -273,7 +273,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
 
       <Script id="my-script">{`
           document.addEventListener('DOMContentLoaded', (event) => {
-              const header = document.querySelector('header'); 
+              const header = document.querySelector('header');
               let lastScrollPosition = 0;
 
               window.addEventListener('scroll', () => {
