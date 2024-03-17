@@ -46,7 +46,7 @@ export const Default = (props: TheRigFormCTA): JSX.Element => {
                     value=""
                   />
                   <button type="submit" className="css-ilix0n">
-                    SUBSCRIBE
+                    SUBSCRIBE2
                     <svg
                       className="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge en-svg css-6flbmm"
                       focusable="false"
