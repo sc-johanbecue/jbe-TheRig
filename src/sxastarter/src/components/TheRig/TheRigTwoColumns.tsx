@@ -48,10 +48,16 @@ export const Default = (props: ComponentProps): JSX.Element => {
         <div className="css-a36zzi"></div>
 
         <div className="MuiGrid-root MuiGrid-container css-1v3kjg">
-          <div className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-6 css-1wxb4u1">
+          <div
+            className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-6 css-1wxb4u1"
+            id={id ? 'theRigColumnOne' + id : undefined}
+          >
             <Placeholder name={phKeyColumnOne} rendering={props.rendering} />
           </div>
-          <div className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-6 css-1lxviua">
+          <div
+            className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-6 css-1lxviua"
+            id={id ? 'theRigColumnTwo' + id : undefined}
+          >
             <Placeholder name={phKeyColumnTwo} rendering={props.rendering} />
           </div>
         </div>
