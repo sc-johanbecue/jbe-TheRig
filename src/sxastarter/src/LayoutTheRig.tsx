@@ -236,7 +236,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
 
       {/* root placeholder for the app, which we add components to using route data */}
       <div className={mainClassPageEditing}>
-        <style data-emotion="css cea17v">{`
+        <style jsx data-emotion="css cea17v">{`
           .css-cea17v {
             background: transparent;
             -webkit-transition: 0.3s;
@@ -262,62 +262,62 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
 
         {route && <Placeholder name="headless-header" rendering={route} />}
 
-        <style data-emotion="css 19tk58b">
+        <style jsx data-emotion="css 19tk58b">
           {`
-          .css-19tk58b{
-            background:url(https://therig.sa/bg/sea.webp) no-repeat 50% 50%/cover;
-            position:relative;
-            z-index:20;
-            height:80vh;
-            -webkit-filter:none;
-            filter:none;
-          }
-          @media screen and (max-width: 899px){
-            .css-19tk58b{
-              height:816px;
+            .css-19tk58b {
+              background: url(https://therig.sa/bg/sea.webp) no-repeat 50% 50% / cover;
+              position: relative;
+              z-index: 20;
+              height: 80vh;
+              -webkit-filter: none;
+              filter: none;
             }
-          }
-          @media screen and (min-width: 900px){
-            .css-19tk58b{
-              height:901px;
+            @media screen and (max-width: 899px) {
+              .css-19tk58b {
+                height: 816px;
+              }
             }
-          }
-          @media screen and (min-width: 1200px){
-            .css-19tk58b{
-              height:901px;
+            @media screen and (min-width: 900px) {
+              .css-19tk58b {
+                height: 901px;
+              }
             }
-          }
-          @media screen and (min-width: 1440px){
-            .css-19tk58b{
-              height:901px;
+            @media screen and (min-width: 1200px) {
+              .css-19tk58b {
+                height: 901px;
+              }
             }
-          }
-          @media screen and (min-width: 1601px){
-            .css-19tk58b{
-              height:1150px;
+            @media screen and (min-width: 1440px) {
+              .css-19tk58b {
+                height: 901px;
+              }
             }
-          }
-        `}
+            @media screen and (min-width: 1601px) {
+              .css-19tk58b {
+                height: 1150px;
+              }
+            }
+          `}
         </style>
 
-        <style data-emotion="css i9vblt">{`
-          .css-i9vblt{
-            background:url('https://therig.sa/bg/egsBg.webp');
-            z-index:20;
-            height:890px;
-            position:relative;
-            background-repeat:no-repeat;
-            -webkit-background-size:cover;
-            background-size:cover;
+        <style jsx data-emotion="css i9vblt">{`
+          .css-i9vblt {
+            background: url('https://therig.sa/bg/egsBg.webp');
+            z-index: 20;
+            height: 890px;
+            position: relative;
+            background-repeat: no-repeat;
+            -webkit-background-size: cover;
+            background-size: cover;
           }
-          @media screen and (max-width: 899px){
-            .css-i9vblt{
-              height:auto;
+          @media screen and (max-width: 899px) {
+            .css-i9vblt {
+              height: auto;
             }
           }
         `}</style>
 
-        <style data-emotion="css qvju8t">{`
+        <style jsx data-emotion="css qvju8t">{`
           .css-qvju8t {
             width: 100%;
             height: 340px;
@@ -339,7 +339,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
             }
           }
         `}</style>
-        <style data-emotion="css 17fx44v">{`
+        <style jsx data-emotion="css 17fx44v">{`
           .css-17fx44v {
             width: 100%;
             margin-left: auto;
@@ -380,13 +380,26 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
           }
         `}</style>
 
-        <style data-emotion="css 1lxviua">{`
+        <style jsx data-emotion="css 1lxviua">{`
+          .css-1lxviua {
+            box-sizing: border-box;
+            margin: 0;
+            -webkit-flex-direction: row;
+            -ms-flex-direction: row;
+            flex-direction: row;
+            -webkit-flex-basis: 100%;
+            -ms-flex-preferred-size: 100%;
+            flex-basis: 100%;
+            -webkit-box-flex: 0;
+            -webkit-flex-grow: 0;
+            -ms-flex-positive: 0;
+            flex-grow: 0;
+            max-width: 100%;
+            padding: 80px 50px 80px;
+            position: relative;
+          }
+          @media (min-width: 600px) {
             .css-1lxviua {
-              box-sizing: border-box;
-              margin: 0;
-              -webkit-flex-direction: row;
-              -ms-flex-direction: row;
-              flex-direction: row;
               -webkit-flex-basis: 100%;
               -ms-flex-preferred-size: 100%;
               flex-basis: 100%;
@@ -395,67 +408,55 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
               -ms-flex-positive: 0;
               flex-grow: 0;
               max-width: 100%;
+            }
+          }
+          @media (min-width: 900px) {
+            .css-1lxviua {
+              -webkit-flex-basis: 50%;
+              -ms-flex-preferred-size: 50%;
+              flex-basis: 50%;
+              -webkit-box-flex: 0;
+              -webkit-flex-grow: 0;
+              -ms-flex-positive: 0;
+              flex-grow: 0;
+              max-width: 50%;
+            }
+          }
+          @media (min-width: 1200px) {
+            .css-1lxviua {
+              -webkit-flex-basis: 50%;
+              -ms-flex-preferred-size: 50%;
+              flex-basis: 50%;
+              -webkit-box-flex: 0;
+              -webkit-flex-grow: 0;
+              -ms-flex-positive: 0;
+              flex-grow: 0;
+              max-width: 50%;
+            }
+          }
+          @media (min-width: 1536px) {
+            .css-1lxviua {
+              -webkit-flex-basis: 50%;
+              -ms-flex-preferred-size: 50%;
+              flex-basis: 50%;
+              -webkit-box-flex: 0;
+              -webkit-flex-grow: 0;
+              -ms-flex-positive: 0;
+              flex-grow: 0;
+              max-width: 50%;
+            }
+          }
+          @media screen and (max-width: 899px) {
+            .css-1lxviua {
+              background: url('https://therig.sa/bg/line-break-top.png') no-repeat 100% -80px/2000px
+                160px 160px #ff6a39;
               padding: 80px 50px 80px;
-              position: relative;
             }
-            @media (min-width: 600px) {
-              .css-1lxviua {
-                -webkit-flex-basis: 100%;
-                -ms-flex-preferred-size: 100%;
-                flex-basis: 100%;
-                -webkit-box-flex: 0;
-                -webkit-flex-grow: 0;
-                -ms-flex-positive: 0;
-                flex-grow: 0;
-                max-width: 100%;
-              }
-            }
-            @media (min-width: 900px) {
-              .css-1lxviua {
-                -webkit-flex-basis: 50%;
-                -ms-flex-preferred-size: 50%;
-                flex-basis: 50%;
-                -webkit-box-flex: 0;
-                -webkit-flex-grow: 0;
-                -ms-flex-positive: 0;
-                flex-grow: 0;
-                max-width: 50%;
-              }
-            }
-            @media (min-width: 1200px) {
-              .css-1lxviua {
-                -webkit-flex-basis: 50%;
-                -ms-flex-preferred-size: 50%;
-                flex-basis: 50%;
-                -webkit-box-flex: 0;
-                -webkit-flex-grow: 0;
-                -ms-flex-positive: 0;
-                flex-grow: 0;
-                max-width: 50%;
-              }
-            }
-            @media (min-width: 1536px) {
-              .css-1lxviua {
-                -webkit-flex-basis: 50%;
-                -ms-flex-preferred-size: 50%;
-                flex-basis: 50%;
-                -webkit-box-flex: 0;
-                -webkit-flex-grow: 0;
-                -ms-flex-positive: 0;
-                flex-grow: 0;
-                max-width: 50%;
-              }
-            }
-            @media screen and (max-width: 899px) {
-              .css-1lxviua {
-                background: url('https://therig.sa/bg/line-break-top.png') no-repeat 100% -80px/2000px 160px 160px #ff6a39;
-                padding: 80px 50px 80px;
-              }
-            }
-          `}</style>
+          }
+        `}</style>
 
         <main>{route && <Placeholder name="headless-main" rendering={route} />}</main>
-        <style data-emotion="css 1xiwo48">{`
+        <style jsx data-emotion="css 1xiwo48">{`
           .css-1xiwo48 {
             padding: 64px 60px 48px 60px;
             height: 382px;
@@ -470,55 +471,55 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
           }
         `}</style>
 
-        <style data-emotion="css fy3zvu">{`
-          .css-fy3zvu{
-            background:#1D1D1B;
-            position:relative;
-            width:100%;
-            height:405px;
+        <style jsx data-emotion="css fy3zvu">{`
+          .css-fy3zvu {
+            background: #1d1d1b;
+            position: relative;
+            width: 100%;
+            height: 405px;
           }
-          @media screen and (max-width: 900px){
-            .css-fy3zvu{
-              height:auto;
-            }
-          }
-          @media screen and (min-width: 1200px){
-            .css-fy3zvu .fact-grid .ar-grid-item:first-child{
-              max-width:25%;
-              -webkit-flex-basis:25%;
-              -ms-flex-preferred-size:25%;
-              flex-basis:25%;
-            }
-            .css-fy3zvu .fact-grid .ar-grid-item:nth-child(2){
-              max-width:15%;
-              -webkit-flex-basis:15%;
-              -ms-flex-preferred-size:15%;
-              flex-basis:15%;
-            }
-            .css-fy3zvu .fact-grid .en-grid-item:first-child{
-              max-width:25%;
-              -webkit-flex-basis:25%;
-              -ms-flex-preferred-size:25%;
-              flex-basis:25%;
-            }
-            .css-fy3zvu .fact-grid .en-grid-item:nth-child(2){
-              max-width:15%;
-              -webkit-flex-basis:15%;
-              -ms-flex-preferred-size:15%;
-              flex-basis:15%;
+          @media screen and (max-width: 900px) {
+            .css-fy3zvu {
+              height: auto;
             }
           }
-          .css-fy3zvu .fact-grid .en-grid-item:last-child>div{
-            border:none;
+          @media screen and (min-width: 1200px) {
+            .css-fy3zvu .fact-grid .ar-grid-item:first-child {
+              max-width: 25%;
+              -webkit-flex-basis: 25%;
+              -ms-flex-preferred-size: 25%;
+              flex-basis: 25%;
+            }
+            .css-fy3zvu .fact-grid .ar-grid-item:nth-child(2) {
+              max-width: 15%;
+              -webkit-flex-basis: 15%;
+              -ms-flex-preferred-size: 15%;
+              flex-basis: 15%;
+            }
+            .css-fy3zvu .fact-grid .en-grid-item:first-child {
+              max-width: 25%;
+              -webkit-flex-basis: 25%;
+              -ms-flex-preferred-size: 25%;
+              flex-basis: 25%;
+            }
+            .css-fy3zvu .fact-grid .en-grid-item:nth-child(2) {
+              max-width: 15%;
+              -webkit-flex-basis: 15%;
+              -ms-flex-preferred-size: 15%;
+              flex-basis: 15%;
+            }
           }
-          .css-fy3zvu .fact-grid .ar-grid-item:first-child>div{
-            border:none;
+          .css-fy3zvu .fact-grid .en-grid-item:last-child > div {
+            border: none;
+          }
+          .css-fy3zvu .fact-grid .ar-grid-item:first-child > div {
+            border: none;
           }
         `}</style>
 
         {route && <Placeholder name="headless-footer" rendering={route} />}
 
-        <style data-emotion="css dy1auj">{`
+        <style jsx data-emotion="css dy1auj">{`
           .css-dy1auj .Toastify__toast-container {
             min-width: 410px;
             -webkit-filter: none;
