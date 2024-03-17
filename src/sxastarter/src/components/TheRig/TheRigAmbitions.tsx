@@ -41,9 +41,9 @@ export const Default = (props: TheRigESG): JSX.Element => {
               <video
                 src="https://therig.sa/bg/egs.mp4"
                 preload="auto"
-                autoPlay={false}
-                loop={false}
-                playsInline={false}
+                autoPlay={true}
+                loop={true}
+                playsInline={true}
                 webkit-playsinline=""
                 x5-playsinline=""
                 style={{ width: '100%', height: '100%;' }}
@@ -54,7 +54,7 @@ export const Default = (props: TheRigESG): JSX.Element => {
         <div className="MuiContainer-root MuiContainer-maxWidthLg css-18czceh">
           <div className="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-md-12 MuiGrid-grid-sm-12 MuiGrid-grid-xs-12 MuiGrid-grid-lg-12 egs-grid css-48vdzh">
             <div className="css-108vj9e">
-              <JssRichText field={props.fields.Title} />
+              <JssRichText field={props.fields.Title} className="css-108vj9e" />
             </div>
             <div className="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-3 en-grid-item css-v57kt1">
               <div className="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-sm-12 MuiGrid-grid-xs-12 MuiGrid-grid-md-3 MuiGrid-grid-lg-3 egsGrid css-b3tb0r">

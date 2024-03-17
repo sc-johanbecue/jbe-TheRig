@@ -114,7 +114,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
         <script defer src="https://therig.sa/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js" />
         <script defer src="https://therig.sa/_next/static/chunks/webpack-7d607ad0e350eccb.js" />
         <script defer src="https://therig.sa/_next/static/chunks/framework-2c79e2a64abdb08b.js" />
-        {/* <script defer src="https://therig.sa/_next/static/chunks/main-2c344dd1b37f0ea7.js" /> */}
+        <script defer src="https://therig.sa/_next/static/chunks/main-2c344dd1b37f0ea7.js" />
         <script defer src="https://therig.sa/_next/static/chunks/pages/_app-c3938ff6c057bd4f.js" />
         <script defer src="https://therig.sa/_next/static/chunks/699-9c5e8f6d198c60f4.js" />
         <script defer src="https://therig.sa/_next/static/chunks/666-5a3c37bd48f296b8.js" />
