@@ -37,8 +37,7 @@ export const Default = (props: TheRigIntroProps): JSX.Element => {
           }
         `}</style>
         <img src="https://therig.sa/bg/linear.webp" className="css-179ykmo" alt="" />
-                    <style jsx>{`
-
+        <style jsx>{`
           .css-1f1qt3z {
             max-width: 1440px !important;
           }
@@ -48,8 +47,7 @@ export const Default = (props: TheRigIntroProps): JSX.Element => {
             }
           }
         `}</style>
-                    <style jsx>{`
-
+        <style jsx>{`
           .css-sjot2u {
             width: 100%;
             margin-left: auto;
@@ -78,8 +76,7 @@ export const Default = (props: TheRigIntroProps): JSX.Element => {
           }
         `}</style>
         <div className="MuiContainer-root MuiContainer-maxWidthLg css-sjot2u">
-                     <style jsx>{`
-
+          <style jsx>{`
             .css-124fws5 {
               min-width: 0;
               box-sizing: border-box;
@@ -87,8 +84,7 @@ export const Default = (props: TheRigIntroProps): JSX.Element => {
             }
           `}</style>
           <div className="MuiGrid-root MuiGrid-direction-xs-row css-124fws5">
-                        <style jsx>{`
-
+            <style jsx>{`
               .css-1ug0hhs {
                 width: 866px;
                 z-index: 20;
@@ -124,8 +120,7 @@ export const Default = (props: TheRigIntroProps): JSX.Element => {
               }
             `}</style>
             <div className="css-1ug0hhs">
-                                     <style jsx>{`
-
+              <style jsx>{`
                 .css-1vtk6j6 {
                   -webkit-filter: none;
                   filter: none;
@@ -167,8 +162,7 @@ export const Default = (props: TheRigIntroProps): JSX.Element => {
                 src="https://therig.sa/headerTitle/en-mbl-hero.svg"
               />
               <div className="MuiGrid-root MuiGrid-direction-xs-row css-124fws5">
-                            <style jsx>{`
-{`
+                <style jsx>{`
                   .css-srloyh {
                     font-family: 'Changa', sans-serif;
                     font-weight: 400;
@@ -188,7 +182,7 @@ export const Default = (props: TheRigIntroProps): JSX.Element => {
                     }
                   }
                 `}</style>
-            <style jsx>{`
+                <style jsx>{`
                   .css-pheo6p {
                     margin: 0;
                     font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
@@ -221,8 +215,7 @@ export const Default = (props: TheRigIntroProps): JSX.Element => {
                   </span>
                 </p>
                 <div className="MuiGrid-root MuiGrid-direction-xs-row css-124fws5">
-                            <style jsx>{`
-
+                  <style jsx>{`
                     .css-e35sq3 {
                       background-color: rgba(255, 255, 255, 0.05);
                       color: #ffffff;
@@ -259,8 +252,7 @@ export const Default = (props: TheRigIntroProps): JSX.Element => {
                   <button type="submit" style={{ display: 'inline-flex' }} className="css-e35sq3">
                     <span>
                       SUBSCRIBE
-                                  <style jsx>{`
-
+                      <style jsx>{`
                         .css-iiupvq {
                           width: 10px;
                           margin: 0 5px;
@@ -282,8 +274,7 @@ export const Default = (props: TheRigIntroProps): JSX.Element => {
                     </span>
                   </button>
                 </div>
-                            <style jsx>{`
-
+                <style jsx>{`
                   .css-11ant8a {
                     width: 38px;
                     height: 51px;
@@ -312,8 +303,7 @@ export const Default = (props: TheRigIntroProps): JSX.Element => {
             </div>
           </div>
         </div>
-                    <style jsx>{`
-
+        <style jsx>{`
           .css-zqttgr {
             position: absolute;
             min-width: 100%;
@@ -324,8 +314,7 @@ export const Default = (props: TheRigIntroProps): JSX.Element => {
             background: linear-gradient(180deg, rgba(1, 6, 13, 0) 0%, #01060d 100%);
           }
         `}</style>
-                   <style jsx>{`
-
+        <style jsx>{`
           .css-1peekm2 {
             box-sizing: border-box;
             -webkit-flex-direction: row;
@@ -341,7 +330,7 @@ export const Default = (props: TheRigIntroProps): JSX.Element => {
           }
         `}</style>
         <div className="MuiGrid-root css-1peekm2"></div>
-                    <style jsx>{`
+        <style jsx>{`
           .css-mizbsd {
             background: url('/rust/rust-top-straight.webp'), transparent 50% / cover no-repeat;
             mix-blend-mode: plus-darker;
