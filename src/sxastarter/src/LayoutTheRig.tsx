@@ -317,6 +317,143 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
           }
         `}</style>
 
+        <style data-emotion="css qvju8t">{`
+          .css-qvju8t {
+            width: 100%;
+            height: 340px;
+            margin: 0 !important;
+            padding: 0px 82px;
+            max-width: 100% !important;
+            background: #494949;
+            position: relative;
+          }
+          @media screen and (min-width: 1200px) {
+            .css-qvju8t {
+              padding: 0px !important;
+            }
+          }
+          @media screen and (max-width: 899px) {
+            .css-qvju8t {
+              padding: 0px !important;
+              height: auto;
+            }
+          }
+        `}</style>
+        <style data-emotion="css 17fx44v">{`
+          .css-17fx44v {
+            width: 100%;
+            margin-left: auto;
+            box-sizing: border-box;
+            margin-right: auto;
+            display: block;
+            padding-left: 16px;
+            padding-right: 16px;
+            width: 100%;
+            height: 340px;
+            margin: 0 !important;
+            padding: 0px 82px;
+            max-width: 100% !important;
+            background: #494949;
+            position: relative;
+          }
+          @media (min-width: 600px) {
+            .css-17fx44v {
+              padding-left: 24px;
+              padding-right: 24px;
+            }
+          }
+          @media (min-width: 1200px) {
+            .css-17fx44v {
+              max-width: 1200px;
+            }
+          }
+          @media screen and (min-width: 1200px) {
+            .css-17fx44v {
+              padding: 0px !important;
+            }
+          }
+          @media screen and (max-width: 899px) {
+            .css-17fx44v {
+              padding: 0px !important;
+              height: auto;
+            }
+          }
+        `}</style>
+
+        <style data-emotion="css 1lxviua">{`
+            .css-1lxviua {
+              box-sizing: border-box;
+              margin: 0;
+              -webkit-flex-direction: row;
+              -ms-flex-direction: row;
+              flex-direction: row;
+              -webkit-flex-basis: 100%;
+              -ms-flex-preferred-size: 100%;
+              flex-basis: 100%;
+              -webkit-box-flex: 0;
+              -webkit-flex-grow: 0;
+              -ms-flex-positive: 0;
+              flex-grow: 0;
+              max-width: 100%;
+              padding: 80px 50px 80px;
+              position: relative;
+            }
+            @media (min-width: 600px) {
+              .css-1lxviua {
+                -webkit-flex-basis: 100%;
+                -ms-flex-preferred-size: 100%;
+                flex-basis: 100%;
+                -webkit-box-flex: 0;
+                -webkit-flex-grow: 0;
+                -ms-flex-positive: 0;
+                flex-grow: 0;
+                max-width: 100%;
+              }
+            }
+            @media (min-width: 900px) {
+              .css-1lxviua {
+                -webkit-flex-basis: 50%;
+                -ms-flex-preferred-size: 50%;
+                flex-basis: 50%;
+                -webkit-box-flex: 0;
+                -webkit-flex-grow: 0;
+                -ms-flex-positive: 0;
+                flex-grow: 0;
+                max-width: 50%;
+              }
+            }
+            @media (min-width: 1200px) {
+              .css-1lxviua {
+                -webkit-flex-basis: 50%;
+                -ms-flex-preferred-size: 50%;
+                flex-basis: 50%;
+                -webkit-box-flex: 0;
+                -webkit-flex-grow: 0;
+                -ms-flex-positive: 0;
+                flex-grow: 0;
+                max-width: 50%;
+              }
+            }
+            @media (min-width: 1536px) {
+              .css-1lxviua {
+                -webkit-flex-basis: 50%;
+                -ms-flex-preferred-size: 50%;
+                flex-basis: 50%;
+                -webkit-box-flex: 0;
+                -webkit-flex-grow: 0;
+                -ms-flex-positive: 0;
+                flex-grow: 0;
+                max-width: 50%;
+              }
+            }
+            @media screen and (max-width: 899px) {
+              .css-1lxviua {
+                background: url('https://therig.sa/bg/line-break-top.png') no-repeat 100% -80px/2000px 160px 160px #ff6a39;
+                padding: 80px 50px 80px;
+              }
+            }
+          `}</style>
+
         <main>{route && <Placeholder name="headless-main" rendering={route} />}</main>
         <style data-emotion="css 1xiwo48">{`
           .css-1xiwo48 {
