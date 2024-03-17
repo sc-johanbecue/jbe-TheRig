@@ -41,8 +41,8 @@ export const Default = (props: TheRigIntroProps): JSX.Element => {
                 autoPlay={true}
                 loop={true}
                 playsInline={true}
-                webkit-playsinline=""
-                x5-playsinline=""
+                webkit-playsinline={true}
+                x5-playsinline={true}
                 style={{ width: '100%', height: '100%;' }}
               ></video>
             </div>
