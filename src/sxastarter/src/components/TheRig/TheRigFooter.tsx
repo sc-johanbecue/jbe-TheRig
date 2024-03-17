@@ -30,7 +30,7 @@ export const Default = (props: TheRigFooterProps): JSX.Element => {
   if (props.fields) {
     return (
       <footer className="css-1xiwo48">
-        <style jsx>
+        <style>
           {`
             .css-rn69un {
               position: absolute;
@@ -54,7 +54,7 @@ export const Default = (props: TheRigFooterProps): JSX.Element => {
           `}
         </style>
         <img src="https://therig.sa/rust/rust-mbl.png" className="css-rn69un" alt="" />
-        <style jsx>{`
+        <style>{`
           .css-1oguv67 {
             border-bottom: 2px solid #494949;
             padding-bottom: 32px;
@@ -62,7 +62,7 @@ export const Default = (props: TheRigFooterProps): JSX.Element => {
             max-width: 1440px;
           }
         `}</style>
-        <style jsx>{`
+        <style>{`
           .css-14epr7c {
             --Grid-columns: 12;
             --Grid-columnSpacing: 0px;
@@ -88,7 +88,7 @@ export const Default = (props: TheRigFooterProps): JSX.Element => {
           }
         `}</style>
         <div className="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row css-14epr7c">
-          <style jsx>{`
+          <style>{`
             .css-scklcb {
               --Grid-columns: 12;
               --Grid-columnSpacing1: var(--Grid-columnSpacing);
@@ -136,7 +136,7 @@ export const Default = (props: TheRigFooterProps): JSX.Element => {
             }
           `}</style>
           <div className="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-grid-sm-12 MuiGrid-grid-md-12 css-scklcb">
-            <style jsx>{`
+            <style>{`
               .css-1ecy7u2.show-pif {
                 display: none;
               }
@@ -151,7 +151,7 @@ export const Default = (props: TheRigFooterProps): JSX.Element => {
                 }
               }
             `}</style>
-            <style jsx>{`
+            <style>{`
               .css-16o6wsf {
                 --Grid-columns: 12;
                 --Grid-columnSpacing2: var(--Grid-columnSpacing1);
@@ -218,7 +218,7 @@ export const Default = (props: TheRigFooterProps): JSX.Element => {
               }
             `}</style>
             <div className="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-grid-sm-6 MuiGrid-grid-md-6 hide-pif css-16o6wsf">
-              <style jsx>{`
+              <style>{`
                 .css-1v7fosp {
                   -webkit-align-items: center;
                   -webkit-box-align: center;
@@ -230,7 +230,7 @@ export const Default = (props: TheRigFooterProps): JSX.Element => {
                   -webkit-transform: translate3d(0, 0, 0);
                 }
               `}</style>
-              <style jsx>{`
+              <style>{`
                 .css-11tvyti {
                   min-width: 0;
                   box-sizing: border-box;
@@ -249,7 +249,7 @@ export const Default = (props: TheRigFooterProps): JSX.Element => {
                 <img src="https://therig.sa/footer/rig_logo_white.svg" alt="THE RIG. logo" />
               </div>
             </div>
-            <style jsx>{`
+            <style>{`
               .css-1sw6vb {
                 min-width: 0;
                 box-sizing: border-box;
@@ -298,7 +298,7 @@ export const Default = (props: TheRigFooterProps): JSX.Element => {
               }
             `}</style>
             <div className="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-sm-6 MuiGrid-grid-md-6 css-1sw6vb">
-              <style jsx>{`
+              <style>{`
                 .css-172taml {
                   min-width: 0;
                   box-sizing: border-box;
@@ -318,7 +318,7 @@ export const Default = (props: TheRigFooterProps): JSX.Element => {
               </div>
             </div>
           </div>
-          <style jsx>{`
+          <style>{`
             .css-1bldu4w {
               --Grid-columns: 12;
               --Grid-columnSpacing1: var(--Grid-columnSpacing);
@@ -365,7 +365,7 @@ export const Default = (props: TheRigFooterProps): JSX.Element => {
             }
           `}</style>
           <div className="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-grid-sm-12 MuiGrid-grid-md-12 css-1bldu4w">
-            <style jsx>{`
+            <style>{`
               .css-6zothf {
                 min-width: 0;
                 box-sizing: border-box;
@@ -409,7 +409,7 @@ export const Default = (props: TheRigFooterProps): JSX.Element => {
               }
             `}</style>
             <div className="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-sm-12 MuiGrid-grid-md-6 MuiGrid-grid-lg-7 css-6zothf">
-              <style jsx>{`
+              <style>{`
                 .css-1cchult {
                   margin-bottom: 20px;
                 }
@@ -420,7 +420,7 @@ export const Default = (props: TheRigFooterProps): JSX.Element => {
                 }
               `}</style>
               <div className="css-1cchult">
-                <style jsx>{`
+                <style>{`
                   .css-10frtmk {
                     font-family: 'Changa', sans-serif !important;
                     font-style: normal;
@@ -463,7 +463,7 @@ export const Default = (props: TheRigFooterProps): JSX.Element => {
                   Press
                 </Link>
               </div>
-              <style jsx>{`
+              <style>{`
                 .css-jqavj3 {
                   display: -webkit-box;
                   display: -webkit-flex;
@@ -493,7 +493,7 @@ export const Default = (props: TheRigFooterProps): JSX.Element => {
                 }
               `}</style>
               <div className="css-jqavj3">
-                <style jsx>{`
+                <style>{`
                   .css-rtflpr {
                     width: 36px;
                     position: relative;
@@ -603,7 +603,7 @@ export const Default = (props: TheRigFooterProps): JSX.Element => {
                       </svg>
                     </div>
                   </div>
-                  <style jsx>{`
+                  <style>{`
                     .css-1xr9vc3 {
                       visibility: hidden;
                       bottom: -29px;
@@ -682,7 +682,7 @@ export const Default = (props: TheRigFooterProps): JSX.Element => {
                 </Link>
               </div>
             </div>
-            <style jsx>{`
+            <style>{`
               .css-1nbejvw {
                 --Grid-columns: 12;
                 --Grid-columnSpacing2: var(--Grid-columnSpacing1);
@@ -750,7 +750,7 @@ export const Default = (props: TheRigFooterProps): JSX.Element => {
               }
             `}</style>
             <div className="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-grid-lg-5 MuiGrid-grid-md-6 MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 css-1nbejvw">
-              <style jsx>{`
+              <style>{`
                 .css-xe0fef {
                   width: 100%;
                   display: -webkit-box;
@@ -769,7 +769,7 @@ export const Default = (props: TheRigFooterProps): JSX.Element => {
                   justify-content: space-between;
                 }
               `}</style>
-              <style jsx>{`
+              <style>{`
                 .css-1e2r27i {
                   -webkit-box-flex: 0;
                   -webkit-flex-grow: 0;
@@ -824,7 +824,7 @@ export const Default = (props: TheRigFooterProps): JSX.Element => {
                 }
               `}</style>
               <div className="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 css-1e2r27i">
-                <style jsx>{`
+                <style>{`
                   .css-1496lx8 {
                     font-family: 'Changa', sans-serif !important;
                     font-style: normal;
@@ -837,7 +837,7 @@ export const Default = (props: TheRigFooterProps): JSX.Element => {
                   }
                 `}</style>
                 <div className="css-1496lx8">BE THE FIRST TO KNOW</div>
-                <style jsx>{`
+                <style>{`
                   .css-yw3nq1 {
                     display: -webkit-box;
                     display: -webkit-flex;
@@ -854,7 +854,7 @@ export const Default = (props: TheRigFooterProps): JSX.Element => {
                   }
                 `}</style>
                 <form className="css-yw3nq1">
-                  <style jsx>{`
+                  <style>{`
                     .css-1w17zfj {
                       display: -webkit-box;
                       display: -webkit-flex;
@@ -879,7 +879,7 @@ export const Default = (props: TheRigFooterProps): JSX.Element => {
                     }
                   `}</style>
                   <div style={{ marginRight: '15px', marginLeft: '0px' }} className="css-1w17zfj">
-                    <style jsx>{`
+                    <style>{`
                       .css-vquyny {
                         background-color: transparent;
                         border: none;
@@ -939,7 +939,7 @@ export const Default = (props: TheRigFooterProps): JSX.Element => {
                       value=""
                     />
                   </div>
-                  <style jsx>{`
+                  <style>{`
                     .css-1xth1r {
                       font-family: 'Changa', sans-serif !important;
                       font-style: normal;
@@ -1034,7 +1034,7 @@ export const Default = (props: TheRigFooterProps): JSX.Element => {
                     style={{ backgroundColor: '#FFD26A' }}
                     className="css-1xth1r"
                   >
-                    <style jsx>{`
+                    <style>{`
                       .css-9c55vl {
                         font-family: 'Changa', sans-serif !important;
                         font-style: normal;
@@ -1044,7 +1044,7 @@ export const Default = (props: TheRigFooterProps): JSX.Element => {
                       }
                     `}</style>
                     <span className="css-9c55vl">Subscribe</span>
-                    <style jsx>{`
+                    <style>{`
                       .css-6flbmm {
                         -webkit-user-select: none;
                         -moz-user-select: none;
@@ -1074,7 +1074,7 @@ export const Default = (props: TheRigFooterProps): JSX.Element => {
                     </svg>
                   </button>
                 </form>
-                <style jsx>{`
+                <style>{`
                   .css-pl0z93 {
                     height: 27.2px;
                     display: none;
@@ -1085,7 +1085,7 @@ export const Default = (props: TheRigFooterProps): JSX.Element => {
             </div>
           </div>
         </div>
-        <style jsx>{`
+        <style>{`
           .css-18ua6wv {
             --Grid-columns: 12;
             --Grid-columnSpacing: 0px;
@@ -1110,7 +1110,7 @@ export const Default = (props: TheRigFooterProps): JSX.Element => {
           className="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row css-18ua6wv"
           style={{ maxWidth: '1440px', margin: 'auto' }}
         >
-          <style jsx>{`
+          <style>{`
             .css-2v2l7j {
               -webkit-box-pack: start;
               -ms-flex-pack: start;
@@ -1131,7 +1131,7 @@ export const Default = (props: TheRigFooterProps): JSX.Element => {
               }
             }
           `}</style>
-          <style jsx>{`
+          <style>{`
             .css-tq4q1u {
               -webkit-box-flex: 0;
               -webkit-flex-grow: 0;
@@ -1188,7 +1188,7 @@ export const Default = (props: TheRigFooterProps): JSX.Element => {
             }
           `}</style>
           <div className="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-6 css-tq4q1u">
-            <style jsx>{`
+            <style>{`
               .css-1hrf48z {
                 font-family: 'Changa', sans-serif !important;
                 font-style: normal;
@@ -1237,7 +1237,7 @@ export const Default = (props: TheRigFooterProps): JSX.Element => {
               Whistleblowing
             </Link>
           </div>
-          <style jsx>{`
+          <style>{`
             .css-1umk73g {
               font-family: 'Changa', sans-serif !important;
               font-style: normal;
@@ -1261,7 +1261,7 @@ export const Default = (props: TheRigFooterProps): JSX.Element => {
               }
             }
           `}</style>
-          <style jsx>{`
+          <style>{`
             .css-1jwntlb {
               -webkit-box-flex: 0;
               -webkit-flex-grow: 0;
@@ -1324,7 +1324,7 @@ export const Default = (props: TheRigFooterProps): JSX.Element => {
             COPYRIGHT © 2021 THE RIG. ALL RIGHTS RESERVED.
           </div>
         </div>
-        <style jsx>{`
+        <style>{`
           .css-1q37vrn {
             min-width: 0;
             box-sizing: border-box;
@@ -1369,7 +1369,7 @@ export const Default = (props: TheRigFooterProps): JSX.Element => {
           }
         `}</style>
         <div className="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-sm-6 MuiGrid-grid-md-6 show-pif css-1q37vrn">
-          <style jsx>{`
+          <style>{`
             .css-1p600jf {
               min-width: 0;
               box-sizing: border-box;
