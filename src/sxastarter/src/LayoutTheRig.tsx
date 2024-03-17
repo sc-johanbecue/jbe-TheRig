@@ -12,6 +12,7 @@ import {
 } from '@sitecore-jss/sitecore-jss-nextjs';
 import config from 'temp/config';
 import Scripts from 'src/Scripts';
+import Script from 'next/script';
 
 // Prefix public assets with a public URL to enable compatibility with Sitecore Experience Editor.
 // If you're not supporting the Experience Editor, you can remove this.
@@ -269,6 +270,33 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
         defer
         src="https://therig.sa/_next/static/chunks/pages/cookie_policy-5e6fcb9973ae9093.js"
       />
+
+      <Script id="my-script">{`
+          document.addEventListener('DOMContentLoaded', (event) => {
+              const header = document.querySelector('header'); 
+              let lastScrollPosition = 0;
+
+              window.addEventListener('scroll', () => {
+                  const currentScrollPosition = window.pageYOffset || document.documentElement.scrollTop;
+
+                  if (currentScrollPosition > 100) {
+                      // If scrolled down more than 100px, add 'even-smaller' class
+                      header.classList.remove('compressed css-1rmhix3');
+                      header.classList.add('compressed css-18u71s2');
+                  } else if (currentScrollPosition > 50) {
+                      // If scrolled down more than 50px, but less than 100px, add 'small' class
+                      header.classList.remove('css-cea17v');
+                      header.classList.add('compressed css-1rmhix3');
+                  } else {
+                      // If scrolled back to top, remove both classes
+                      header.classList.remove('compressed css-1rmhix3', 'compressed css-18u71s2');
+                      header.classList.add('css-cea17v');
+                  }
+
+                  lastScrollPosition = currentScrollPosition;
+              });
+          });
+      `}</Script>
     </>
   );
 };
