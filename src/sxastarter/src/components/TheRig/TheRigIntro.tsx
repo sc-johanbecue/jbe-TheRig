@@ -1,15 +1,17 @@
 import React from 'react';
-import { ImageField, TextField, RichTextField } from '@sitecore-jss/sitecore-jss-nextjs';
+import {
+  ImageField,
+  TextField,
+  RichTextField,
+  Text,
+  Image as JssImage,
+  RichText as JssRichText,
+} from '@sitecore-jss/sitecore-jss-nextjs';
 
 interface Fields {
-  Number: TextField;
-  Label: TextField;
-  Name: TextField;
-  Category: TextField;
-  Family: TextField;
-  ShortDescription: RichTextField;
-  LongDescription: RichTextField;
-  MasterAsset: ImageField;
+  Text: RichTextField;
+  Image: ImageField;
+  CTAText: TextField;
 }
 
 type TheRigIntroProps = {
@@ -49,7 +51,8 @@ export const Default = (props: TheRigIntroProps): JSX.Element => {
         <div className="MuiContainer-root MuiContainer-maxWidthLg css-sjot2u">
           <div className="MuiGrid-root MuiGrid-direction-xs-row css-124fws5">
             <div className="css-1ug0hhs">
-              <img
+              <JssImage
+                field={props.fields.Image}
                 alt=""
                 loading="lazy"
                 width="866"
@@ -63,14 +66,13 @@ export const Default = (props: TheRigIntroProps): JSX.Element => {
               <div className="MuiGrid-root MuiGrid-direction-xs-row css-124fws5">
                 <p className="MuiTypography-root MuiTypography-body1 css-pheo6p">
                   <span>
-                    The world’s first tourism destination on an offshore <br /> platform inspired by
-                    the design of offshore oil platforms
+                    <JssRichText field={props.fields.Text} />
                   </span>
                 </p>
                 <div className="MuiGrid-root MuiGrid-direction-xs-row css-124fws5">
                   <button type="submit" style={{ display: 'inline-flex' }} className="css-e35sq3">
                     <span>
-                      SUBSCRIBE
+                      <Text field={props.fields.CTAText} />
                       <img
                         alt=""
                         loading="lazy"
