@@ -32,7 +32,7 @@ export const Default = (props: TheRigESG): JSX.Element => {
   if (props.fields) {
     return (
       <div data-testid="egs-block-wrapper" className="css-i9vblt">
-        <style data-emotion="css q2d0bh">{`
+        <style jsx>{`
           .css--q2d0bh {
             padding: 240px 0px;
           }
@@ -57,7 +57,7 @@ export const Default = (props: TheRigESG): JSX.Element => {
             }
           }
         `}</style>
-        <style data-emotion="css 18czceh">{`
+        <style jsx>{`
           .css--18czceh {
             width: 100%;
             margin-left: auto;
@@ -101,7 +101,7 @@ export const Default = (props: TheRigESG): JSX.Element => {
           }
         `}</style>
         <div className="MuiContainer-root MuiContainer-maxWidthLg css-18czceh">
-          <style data-emotion="css 48vdzh">{`
+          <style jsx>{`
             .css--48vdzh {
               -webkit-box-flex: 0;
               -webkit-flex-grow: 0;
@@ -153,7 +153,7 @@ export const Default = (props: TheRigESG): JSX.Element => {
             }
           `}</style>
           <div className="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-md-12 MuiGrid-grid-sm-12 MuiGrid-grid-xs-12 MuiGrid-grid-lg-12 egs-grid css-48vdzh">
-            <style data-emotion="css 108vj9e">{`
+            <style jsx>{`
               .css--108vj9e {
                 font-family: 'Changa', sans-serif !important;
                 font-style: normal;
@@ -190,7 +190,7 @@ export const Default = (props: TheRigESG): JSX.Element => {
             <div className="css-108vj9e">
               <b>THE RIG.</b> ENVIRONMENT, SOCIAL AND GOVERNANCE AMBITION
             </div>
-            <style data-emotion="css v57kt1">{`
+            <style jsx>{`
               .css--v57kt1 {
                 --Grid-columns: 12;
                 --Grid-columnSpacing: 24px;
@@ -212,7 +212,7 @@ export const Default = (props: TheRigESG): JSX.Element => {
               }
             `}</style>
             <div className="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-3 en-grid-item css-v57kt1">
-              <style data-emotion="css b3tb0r">{`
+              <style jsx>{`
                 .css--b3tb0r {
                   -webkit-box-flex: 0;
                   -webkit-flex-grow: 0;
@@ -264,7 +264,7 @@ export const Default = (props: TheRigESG): JSX.Element => {
                 }
               `}</style>
               <div className="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-sm-12 MuiGrid-grid-xs-12 MuiGrid-grid-md-3 MuiGrid-grid-lg-3 egsGrid css-b3tb0r">
-                <style data-emotion="css 1yjs7k1">{`
+                <style jsx>{`
                   .css--1yjs7k1 {
                     border-inline-end: 1px solid #003b5c;
                   }
@@ -286,7 +286,7 @@ export const Default = (props: TheRigESG): JSX.Element => {
                   }
                 `}</style>
                 <div className="css-1yjs7k1">
-                  <style data-emotion="css 1hikysy">{`
+                  <style jsx>{`
                     .css--1hikysy {
                       display: -webkit-box;
                       display: -webkit-flex;
@@ -307,7 +307,7 @@ export const Default = (props: TheRigESG): JSX.Element => {
                     }
                   `}</style>
                   <div className="css-1hikysy">
-                    <style data-emotion="css 12mq798">{`
+                    <style jsx>{`
                       .css--12mq798 {
                         width: 80px;
                         height: 80px;
@@ -326,7 +326,7 @@ export const Default = (props: TheRigESG): JSX.Element => {
                       srcSet="https://therig.sa/_next/image/?url=%2Fegs%2F1.png&amp;w=96&amp;q=75 1x, https://therig.sa/_next/image/?url=%2Fegs%2F1.png&amp;w=256&amp;q=75 2x"
                       src="https://therig.sa/_next/image/?url=%2Fegs%2F1.png&amp;w=256&amp;q=75"
                     />
-                    <style data-emotion="css mxs5mc">{`
+                    <style jsx>{`
                       .css--mxs5mc {
                         font-family: 'Changa', sans-serif !important;
                         font-style: normal;
@@ -450,7 +450,7 @@ export const Default = (props: TheRigESG): JSX.Element => {
             </div>
           </div>
         </div>
-        <style data-emotion="css 13wifey">{`
+        <style jsx>{`
           .css--13wifey {
             background: url('https://therig.sa/rust/rust-top-straight.webp'),
               transparent 50% / cover no-repeat;

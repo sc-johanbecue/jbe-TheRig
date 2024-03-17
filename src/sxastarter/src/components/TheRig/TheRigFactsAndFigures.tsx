@@ -32,7 +32,7 @@ export const Default = (props: TheRigFactAndFiguresroProps): JSX.Element => {
   if (props.fields) {
     return (
       <div className="css-fy3zvu">
-        <style data-emotion="css 10r2m1s">{`
+        <style jsx>{`
           .css-10r2m1s {
             padding: 80px 60px;
             margin: 0px;
@@ -45,7 +45,7 @@ export const Default = (props: TheRigFactAndFiguresroProps): JSX.Element => {
           }
         `}</style>
         <div data-testid="FactsAndFigures" className="css-10r2m1s">
-          <style data-emotion="css tuxzvu">{`
+          <style jsx>{`
             .css-tuxzvu {
               box-sizing: border-box;
               display: -webkit-box;
@@ -75,7 +75,7 @@ export const Default = (props: TheRigFactAndFiguresroProps): JSX.Element => {
             className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-1 css-tuxzvu"
             style={{ margin: '0px' }}
           >
-            <style data-emotion="css 15j76c0">{`
+            <style jsx>{`
               .css-15j76c0 {
                 box-sizing: border-box;
                 margin: 0;
@@ -141,7 +141,7 @@ export const Default = (props: TheRigFactAndFiguresroProps): JSX.Element => {
               }
             `}</style>
             <div className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 css-15j76c0">
-              <style data-emotion="css 1npb3ao">{`
+              <style jsx>{`
                 .css-1npb3ao {
                   font-family: 'Changa', sans-serif;
                   font-weight: 400;
@@ -152,7 +152,7 @@ export const Default = (props: TheRigFactAndFiguresroProps): JSX.Element => {
                   color: #e1e5ee;
                 }
               `}</style>
-              <style data-emotion="css 1y5qbxs">{`
+              <style jsx>{`
                 .css-1y5qbxs {
                   margin: 0;
                   font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
@@ -177,7 +177,7 @@ export const Default = (props: TheRigFactAndFiguresroProps): JSX.Element => {
               </h2>
             </div>
           </div>
-          <style data-emotion="css 1d3bbye">{`
+          <style jsx>{`
             .css-1d3bbye {
               box-sizing: border-box;
               display: -webkit-box;
@@ -195,7 +195,7 @@ export const Default = (props: TheRigFactAndFiguresroProps): JSX.Element => {
             }
           `}</style>
           <div className="MuiGrid-root MuiGrid-container fact-grid css-1d3bbye">
-            <style data-emotion="css 1q09act">{`
+            <style jsx>{`
               .css-1q09act {
                 box-sizing: border-box;
                 margin: 0;
@@ -261,7 +261,7 @@ export const Default = (props: TheRigFactAndFiguresroProps): JSX.Element => {
               }
             `}</style>
             <div className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-2.4 MuiGrid-grid-lg-2.4 en-grid-item css-1q09act">
-              <style data-emotion="css 1wb1tnx">{`
+              <style jsx>{`
                 .css-1wb1tnx {
                   border-right: 2px solid #777777;
                 }
@@ -283,7 +283,7 @@ export const Default = (props: TheRigFactAndFiguresroProps): JSX.Element => {
                 }
               `}</style>
               <div className="css-1wb1tnx">
-                <style data-emotion="css 1q2jcol">{`
+                <style jsx>{`
                   .css-1q2jcol {
                     font-family: 'Changa', sans-serif;
                     font-weight: 400;
@@ -333,7 +333,7 @@ export const Default = (props: TheRigFactAndFiguresroProps): JSX.Element => {
                 <div className="css-1q2jcol">
                   <Text field={props.fields.Fact1Figure} />
                 </div>
-                <style data-emotion="css 1b171hf">{`
+                <style jsx>{`
                   .css-1b171hf {
                     font-family: 'Changa', sans-serif;
                     font-weight: 400;
@@ -422,7 +422,7 @@ export const Default = (props: TheRigFactAndFiguresroProps): JSX.Element => {
             </div>
           </div>
         </div>
-        <style data-emotion="css 1xjbe9x">{`
+        <style jsx>{`
           .css-1xjbe9x {
             position: absolute;
             bottom: -83px;
