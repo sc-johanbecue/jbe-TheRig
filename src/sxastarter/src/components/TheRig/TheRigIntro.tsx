@@ -11,7 +11,7 @@ import {
 interface Fields {
   Text: RichTextField;
   Image: ImageField;
-  CTAText: TextField;
+  CtaText: TextField;
 }
 
 type TheRigIntroProps = {
@@ -72,7 +72,7 @@ export const Default = (props: TheRigIntroProps): JSX.Element => {
                 <div className="MuiGrid-root MuiGrid-direction-xs-row css-124fws5">
                   <button type="submit" style={{ display: 'inline-flex' }} className="css-e35sq3">
                     <span>
-                      <Text field={props.fields.CTAText} />
+                      <Text field={props.fields.CtaText} />
                       <img
                         alt=""
                         loading="lazy"
