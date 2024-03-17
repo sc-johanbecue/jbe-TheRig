@@ -79,7 +79,7 @@ export const Default = (props: TheRigIntroProps): JSX.Element => {
                         decoding="async"
                         data-nimg="1"
                         className="css-iiupvq"
-                        style={{ color: 'transparent' }}
+                        style={{ color: 'transparent', display: 'inline-flex' }}
                         src="https://therig.sa/down.svg"
                       />
                     </span>
