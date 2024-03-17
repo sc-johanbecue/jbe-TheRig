@@ -1,18 +1,16 @@
 import React from 'react';
-import { TextField } from '@sitecore-jss/sitecore-jss-nextjs';
+import { TextField, ImageField, Image as JssImage, Text } from '@sitecore-jss/sitecore-jss-nextjs';
 
 interface Fields {
   Title: TextField;
-  Fact1: TextField;
-  Fact2: TextField;
-  Fact3: TextField;
-  Fact4: TextField;
-  Fact5: TextField;
-  Fact1Figure: TextField;
-  Fact2Figure: TextField;
-  Fact3Figure: TextField;
-  Fact4Figure: TextField;
-  Fact5Figure: TextField;
+  Ambition1Text: TextField;
+  Ambition1Image: ImageField;
+  Ambition2Text: TextField;
+  Ambition2Image: ImageField;
+  Ambition3Text: TextField;
+  Ambition3Image: ImageField;
+  Ambition4Text: TextField;
+  Ambition4Image: ImageField;
 }
 
 type TheRigESG = {
@@ -20,7 +18,7 @@ type TheRigESG = {
   fields: Fields;
 };
 
-const TheRigHeaderDefaultComponent = (props: TheRigESG): JSX.Element => (
+const TheRigAmbitionsDefaultComponent = (props: TheRigESG): JSX.Element => (
   <div className={`component promo ${props.params.styles}`}>
     <div className="component-content">
       <span className="is-empty-hint"></span>
@@ -51,14 +49,14 @@ export const Default = (props: TheRigESG): JSX.Element => {
         <div className="MuiContainer-root MuiContainer-maxWidthLg css-18czceh">
           <div className="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-md-12 MuiGrid-grid-sm-12 MuiGrid-grid-xs-12 MuiGrid-grid-lg-12 egs-grid css-48vdzh">
             <div className="css-108vj9e">
-              <b>THE RIG.</b> ENVIRONMENT, SOCIAL AND GOVERNANCE AMBITION
+              <Text field={props.fields.Title} />
             </div>
             <div className="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-3 en-grid-item css-v57kt1">
               <div className="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-sm-12 MuiGrid-grid-xs-12 MuiGrid-grid-md-3 MuiGrid-grid-lg-3 egsGrid css-b3tb0r">
                 <div className="css-1yjs7k1">
                   <div className="css-1hikysy">
-                    <img
-                      alt=""
+                    <JssImage
+                      field={props.fields.Ambition1Image}
                       loading="lazy"
                       width="80"
                       height="80"
@@ -66,11 +64,9 @@ export const Default = (props: TheRigESG): JSX.Element => {
                       data-nimg="1"
                       className="css-12mq798"
                       style={{ color: 'transparent' }}
-                      srcSet="https://therig.sa/_next/image/?url=%2Fegs%2F1.png&amp;w=96&amp;q=75 1x, https://therig.sa/_next/image/?url=%2Fegs%2F1.png&amp;w=256&amp;q=75 2x"
-                      src="https://therig.sa/_next/image/?url=%2Fegs%2F1.png&amp;w=256&amp;q=75"
                     />
                     <div className="css-mxs5mc">
-                      Maximize positive <br /> environmental impact
+                      <Text field={props.fields.Ambition1Text} />
                     </div>
                   </div>
                   <hr
@@ -87,8 +83,8 @@ export const Default = (props: TheRigESG): JSX.Element => {
               <div className="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-sm-12 MuiGrid-grid-xs-12 MuiGrid-grid-md-3 MuiGrid-grid-lg-3 egsGrid css-b3tb0r">
                 <div className="css-1yjs7k1">
                   <div className="css-1hikysy">
-                    <img
-                      alt=""
+                    <JssImage
+                      field={props.fields.Ambition2Image}
                       loading="lazy"
                       width="80"
                       height="80"
@@ -96,11 +92,9 @@ export const Default = (props: TheRigESG): JSX.Element => {
                       data-nimg="1"
                       className="css-12mq798"
                       style={{ color: 'transparent' }}
-                      srcSet="https://therig.sa/_next/image/?url=%2Fegs%2F2.png&amp;w=96&amp;q=75 1x, https://therig.sa/_next/image/?url=%2Fegs%2F2.png&amp;w=256&amp;q=75 2x"
-                      src="https://therig.sa/_next/image/?url=%2Fegs%2F2.png&amp;w=256&amp;q=75"
                     />
                     <div className="css-mxs5mc">
-                      Empower <br /> communities
+                      <Text field={props.fields.Ambition2Text} />
                     </div>
                   </div>
                   <hr
@@ -117,8 +111,8 @@ export const Default = (props: TheRigESG): JSX.Element => {
               <div className="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-sm-12 MuiGrid-grid-xs-12 MuiGrid-grid-md-3 MuiGrid-grid-lg-3 egsGrid css-b3tb0r">
                 <div className="css-1yjs7k1">
                   <div className="css-1hikysy">
-                    <img
-                      alt=""
+                    <JssImage
+                      field={props.fields.Ambition3Image}
                       loading="lazy"
                       width="80"
                       height="80"
@@ -126,11 +120,9 @@ export const Default = (props: TheRigESG): JSX.Element => {
                       data-nimg="1"
                       className="css-12mq798"
                       style={{ color: 'transparent' }}
-                      srcSet="https://therig.sa/_next/image/?url=%2Fegs%2F3.png&amp;w=96&amp;q=75 1x, https://therig.sa/_next/image/?url=%2Fegs%2F3.png&amp;w=256&amp;q=75 2x"
-                      src="https://therig.sa/_next/image/?url=%2Fegs%2F3.png&amp;w=256&amp;q=75"
                     />
                     <div className="css-mxs5mc">
-                      Facilitate eco <br /> experiences
+                      <Text field={props.fields.Ambition3Text} />
                     </div>
                   </div>
                   <hr
@@ -147,8 +139,8 @@ export const Default = (props: TheRigESG): JSX.Element => {
               <div className="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-sm-12 MuiGrid-grid-xs-12 MuiGrid-grid-md-3 MuiGrid-grid-lg-3 egsGrid css-b3tb0r">
                 <div className="css-1yjs7k1">
                   <div className="css-1hikysy">
-                    <img
-                      alt=""
+                    <JssImage
+                      field={props.fields.Ambition4Image}
                       loading="lazy"
                       width="80"
                       height="80"
@@ -156,11 +148,9 @@ export const Default = (props: TheRigESG): JSX.Element => {
                       data-nimg="1"
                       className="css-12mq798"
                       style={{ color: 'transparent' }}
-                      srcSet="https://therig.sa/_next/image/?url=%2Fegs%2F4.png&amp;w=96&amp;q=75 1x, https://therig.sa/_next/image/?url=%2Fegs%2F4.png&amp;w=256&amp;q=75 2x"
-                      src="https://therig.sa/_next/image/?url=%2Fegs%2F4.png&amp;w=256&amp;q=75"
                     />
                     <div className="css-mxs5mc">
-                      Operate <br /> Responsibly
+                      <Text field={props.fields.Ambition4Text} />
                     </div>
                   </div>
                   <hr
@@ -182,5 +172,5 @@ export const Default = (props: TheRigESG): JSX.Element => {
     );
   }
 
-  return <TheRigHeaderDefaultComponent {...props} />;
+  return <TheRigAmbitionsDefaultComponent {...props} />;
 };
