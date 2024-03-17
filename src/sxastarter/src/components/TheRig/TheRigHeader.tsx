@@ -1,5 +1,10 @@
 import React from 'react';
-import { ImageField, TextField, RichTextField } from '@sitecore-jss/sitecore-jss-nextjs';
+import {
+  ImageField,
+  TextField,
+  RichTextField,
+  useSitecoreContext,
+} from '@sitecore-jss/sitecore-jss-nextjs';
 import Link from 'next/link';
 
 interface Fields {
@@ -27,9 +32,12 @@ const TheRigHeaderDefaultComponent = (props: TheRigHeaderProps): JSX.Element => 
 );
 
 export const Default = (props: TheRigHeaderProps): JSX.Element => {
+  const { sitecoreContext } = useSitecoreContext();
+  const direction = sitecoreContext.language === 'ar-SA' ? 'rtl' : 'ltr';
+
   if (props.fields) {
     return (
-      <header className=" css-cea17v">
+      <header className="css-cea17v" dir={direction}>
         <div className="css-58w1wt">
           <div className="css-0">
             <Link href="/">

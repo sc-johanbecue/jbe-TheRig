@@ -44,8 +44,8 @@ export const Default = (props: TheRigCTA): JSX.Element => {
             <JssRichText field={props.fields.Text} />
           </div>
           <div className="css-r2wt59">
-            <JssLink field={props.fields.Link}>
-              <svg
+            <JssLink field={props.fields.Link} />
+            {/* <svg
                 className="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge css-6flbmm"
                 focusable="false"
                 aria-hidden="true"
@@ -55,7 +55,7 @@ export const Default = (props: TheRigCTA): JSX.Element => {
                 <path d="M6.41 6 5 7.41 9.58 12 5 16.59 6.41 18l6-6z"></path>
                 <path d="m13 6-1.41 1.41L16.17 12l-4.58 4.59L13 18l6-6z"></path>
               </svg>
-            </JssLink>
+            </JssLink> */}
           </div>
         </div>
       </div>
