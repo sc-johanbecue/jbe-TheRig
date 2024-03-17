@@ -1,15 +1,20 @@
 import React from 'react';
-import { TextField, ImageField, Image as JssImage, Text } from '@sitecore-jss/sitecore-jss-nextjs';
+import {
+  RichTextField,
+  ImageField,
+  Image as JssImage,
+  RichText as JssRichText,
+} from '@sitecore-jss/sitecore-jss-nextjs';
 
 interface Fields {
-  Title: TextField;
-  Ambition1Text: TextField;
+  Title: RichTextField;
+  Ambition1Text: RichTextField;
   Ambition1Image: ImageField;
-  Ambition2Text: TextField;
+  Ambition2Text: RichTextField;
   Ambition2Image: ImageField;
-  Ambition3Text: TextField;
+  Ambition3Text: RichTextField;
   Ambition3Image: ImageField;
-  Ambition4Text: TextField;
+  Ambition4Text: RichTextField;
   Ambition4Image: ImageField;
 }
 
@@ -49,7 +54,7 @@ export const Default = (props: TheRigESG): JSX.Element => {
         <div className="MuiContainer-root MuiContainer-maxWidthLg css-18czceh">
           <div className="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-md-12 MuiGrid-grid-sm-12 MuiGrid-grid-xs-12 MuiGrid-grid-lg-12 egs-grid css-48vdzh">
             <div className="css-108vj9e">
-              <Text field={props.fields.Title} />
+              <JssRichText field={props.fields.Title} />
             </div>
             <div className="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-3 en-grid-item css-v57kt1">
               <div className="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-sm-12 MuiGrid-grid-xs-12 MuiGrid-grid-md-3 MuiGrid-grid-lg-3 egsGrid css-b3tb0r">
@@ -66,7 +71,7 @@ export const Default = (props: TheRigESG): JSX.Element => {
                       style={{ color: 'transparent' }}
                     />
                     <div className="css-mxs5mc">
-                      <Text field={props.fields.Ambition1Text} />
+                      <JssRichText field={props.fields.Ambition1Text} />
                     </div>
                   </div>
                   <hr
@@ -94,7 +99,7 @@ export const Default = (props: TheRigESG): JSX.Element => {
                       style={{ color: 'transparent' }}
                     />
                     <div className="css-mxs5mc">
-                      <Text field={props.fields.Ambition2Text} />
+                      <JssRichText field={props.fields.Ambition2Text} />
                     </div>
                   </div>
                   <hr
@@ -122,7 +127,7 @@ export const Default = (props: TheRigESG): JSX.Element => {
                       style={{ color: 'transparent' }}
                     />
                     <div className="css-mxs5mc">
-                      <Text field={props.fields.Ambition3Text} />
+                      <JssRichText field={props.fields.Ambition3Text} />
                     </div>
                   </div>
                   <hr
@@ -150,7 +155,7 @@ export const Default = (props: TheRigESG): JSX.Element => {
                       style={{ color: 'transparent' }}
                     />
                     <div className="css-mxs5mc">
-                      <Text field={props.fields.Ambition4Text} />
+                      <JssRichText field={props.fields.Ambition4Text} />
                     </div>
                   </div>
                   <hr

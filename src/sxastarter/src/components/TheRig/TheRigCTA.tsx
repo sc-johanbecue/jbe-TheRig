@@ -1,9 +1,16 @@
 import React from 'react';
-import { TextField, LinkField, Link as JssLink, Text } from '@sitecore-jss/sitecore-jss-nextjs';
+import {
+  TextField,
+  LinkField,
+  Link as JssLink,
+  Text,
+  RichTextField,
+  RichText as JssRichText,
+} from '@sitecore-jss/sitecore-jss-nextjs';
 
 interface Fields {
   Title: TextField;
-  Text: TextField;
+  Text: RichTextField;
   Link: LinkField;
 }
 
@@ -34,7 +41,7 @@ export const Default = (props: TheRigCTA): JSX.Element => {
             <Text field={props.fields.Title} />
           </div>
           <div className="css-scoelx">
-            <Text field={props.fields.Text} />
+            <JssRichText field={props.fields.Text} />
           </div>
           <div className="css-r2wt59">
             <JssLink field={props.fields.Link}>
