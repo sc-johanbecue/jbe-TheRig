@@ -29,7 +29,7 @@ export const Default = (props: TheRigIntroProps): JSX.Element => {
   if (props.fields) {
     return (
       <div className="intro-wrapper css-19tk58b">
-        <style jsx data-emotion="css 179ykmo">{`
+        <style data-emotion="css 179ykmo">{`
           .css-179ykmo {
             position: absolute;
             top: 0px;
@@ -37,7 +37,7 @@ export const Default = (props: TheRigIntroProps): JSX.Element => {
           }
         `}</style>
         <img src="https://therig.sa/bg/linear.webp" className="css-179ykmo" alt="" />
-        <style jsx data-emotion="css 1f1qt3z">{`
+        <style data-emotion="css 1f1qt3z">{`
           .css-1f1qt3z {
             max-width: 1440px !important;
           }
@@ -47,7 +47,7 @@ export const Default = (props: TheRigIntroProps): JSX.Element => {
             }
           }
         `}</style>
-        <style jsx data-emotion="css sjot2u">{`
+        <style data-emotion="css sjot2u">{`
           .css-sjot2u {
             width: 100%;
             margin-left: auto;
@@ -76,7 +76,7 @@ export const Default = (props: TheRigIntroProps): JSX.Element => {
           }
         `}</style>
         <div className="MuiContainer-root MuiContainer-maxWidthLg css-sjot2u">
-          <style jsx data-emotion="css 124fws5">{`
+          <style data-emotion="css 124fws5">{`
             .css-124fws5 {
               min-width: 0;
               box-sizing: border-box;
@@ -84,7 +84,7 @@ export const Default = (props: TheRigIntroProps): JSX.Element => {
             }
           `}</style>
           <div className="MuiGrid-root MuiGrid-direction-xs-row css-124fws5">
-            <style jsx data-emotion="css 1ug0hhs">{`
+            <style data-emotion="css 1ug0hhs">{`
               .css-1ug0hhs {
                 width: 866px;
                 z-index: 20;
@@ -120,7 +120,7 @@ export const Default = (props: TheRigIntroProps): JSX.Element => {
               }
             `}</style>
             <div className="css-1ug0hhs">
-              <style jsx data-emotion="css 1vtk6j6">{`
+              <style data-emotion="css 1vtk6j6">{`
                 .css-1vtk6j6 {
                   -webkit-filter: none;
                   filter: none;
@@ -162,7 +162,7 @@ export const Default = (props: TheRigIntroProps): JSX.Element => {
                 src="https://therig.sa/headerTitle/en-mbl-hero.svg"
               />
               <div className="MuiGrid-root MuiGrid-direction-xs-row css-124fws5">
-                <style jsx data-emotion="css srloyh">{`
+                <style data-emotion="css srloyh">{`
                   .css-srloyh {
                     font-family: 'Changa', sans-serif;
                     font-weight: 400;
@@ -182,7 +182,7 @@ export const Default = (props: TheRigIntroProps): JSX.Element => {
                     }
                   }
                 `}</style>
-                <style jsx data-emotion="css pheo6p">{`
+                <style data-emotion="css pheo6p">{`
                   .css-pheo6p {
                     margin: 0;
                     font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
@@ -215,7 +215,7 @@ export const Default = (props: TheRigIntroProps): JSX.Element => {
                   </span>
                 </p>
                 <div className="MuiGrid-root MuiGrid-direction-xs-row css-124fws5">
-                  <style jsx data-emotion="css e35sq3">{`
+                  <style data-emotion="css e35sq3">{`
                     .css-e35sq3 {
                       background-color: rgba(255, 255, 255, 0.05);
                       color: #ffffff;
@@ -252,7 +252,7 @@ export const Default = (props: TheRigIntroProps): JSX.Element => {
                   <button type="submit" style={{ display: 'inline-flex' }} className="css-e35sq3">
                     <span>
                       SUBSCRIBE
-                      <style jsx data-emotion="css iiupvq">{`
+                      <style data-emotion="css iiupvq">{`
                         .css-iiupvq {
                           width: 10px;
                           margin: 0 5px;
@@ -274,7 +274,7 @@ export const Default = (props: TheRigIntroProps): JSX.Element => {
                     </span>
                   </button>
                 </div>
-                <style jsx data-emotion="css 11ant8a">{`
+                <style data-emotion="css 11ant8a">{`
                   .css-11ant8a {
                     width: 38px;
                     height: 51px;
@@ -303,7 +303,7 @@ export const Default = (props: TheRigIntroProps): JSX.Element => {
             </div>
           </div>
         </div>
-        <style jsx data-emotion="css zqttgr">{`
+        <style data-emotion="css zqttgr">{`
           .css-zqttgr {
             position: absolute;
             min-width: 100%;
@@ -314,7 +314,7 @@ export const Default = (props: TheRigIntroProps): JSX.Element => {
             background: linear-gradient(180deg, rgba(1, 6, 13, 0) 0%, #01060d 100%);
           }
         `}</style>
-        <style jsx data-emotion="css 1peekm2">{`
+        <style data-emotion="css 1peekm2">{`
           .css-1peekm2 {
             box-sizing: border-box;
             -webkit-flex-direction: row;
@@ -330,7 +330,7 @@ export const Default = (props: TheRigIntroProps): JSX.Element => {
           }
         `}</style>
         <div className="MuiGrid-root css-1peekm2"></div>
-        <style jsx data-emotion="css mizbsd">{`
+        <style data-emotion="css mizbsd">{`
           .css-mizbsd {
             background: url('/rust/rust-top-straight.webp'), transparent 50% / cover no-repeat;
             mix-blend-mode: plus-darker;

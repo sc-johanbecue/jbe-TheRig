@@ -30,7 +30,7 @@ export const Default = (props: TheRigHeaderProps): JSX.Element => {
   if (props.fields) {
     return (
       <header className=" css-cea17v">
-        <style jsx data-emotion="css 58w1wt">
+        <style data-emotion="css 58w1wt">
           {`
             .css-58w1wt {
               display: -webkit-box;
@@ -45,7 +45,7 @@ export const Default = (props: TheRigHeaderProps): JSX.Element => {
         <div className="css-58w1wt">
           <div className="css-0">
             <Link href="/">
-              <style jsx data-emotion="css xzc2ri">
+              <style data-emotion="css xzc2ri">
                 {`
                   .css-xzc2ri {
                     -webkit-transition: 0.3s;
@@ -66,7 +66,7 @@ export const Default = (props: TheRigHeaderProps): JSX.Element => {
               />
             </Link>
           </div>
-          <style jsx data-emotion="css f8bp36">
+          <style data-emotion="css f8bp36">
             {`
               .css-f8bp36 {
                 -webkit-box-flex: 1;
@@ -106,7 +106,7 @@ export const Default = (props: TheRigHeaderProps): JSX.Element => {
             `}
           </style>
           <div className="css-f8bp36">
-            <style jsx data-emotion="css lqzyi5">
+            <style data-emotion="css lqzyi5">
               {`
                 .css-lqzyi5 {
                   max-width: 530px;
@@ -138,7 +138,7 @@ export const Default = (props: TheRigHeaderProps): JSX.Element => {
             </style>
             <nav className="css-lqzyi5">
               <div dir="ltr">
-                <style jsx data-emotion="css an3xli">
+                <style data-emotion="css an3xli">
                   {`
                     .css-an3xli {
                       font-family: 'Changa', sans-serif !important;
@@ -180,7 +180,7 @@ export const Default = (props: TheRigHeaderProps): JSX.Element => {
                 </style>
                 <Link className=" css-an3xli" href="/about/">
                   ABOUT THE RIG.
-                  <style jsx data-emotion="css th6fei">
+                  <style data-emotion="css th6fei">
                     {`
                       .css-th6fei {
                         position: absolute;
@@ -208,7 +208,7 @@ export const Default = (props: TheRigHeaderProps): JSX.Element => {
                   <div className="underline css-th6fei"></div>
                 </Link>
               </div>
-              <style jsx data-emotion="css r2sx70">
+              <style data-emotion="css r2sx70">
                 {`
                   .css-r2sx70 {
                     cursor: pointer;
@@ -223,7 +223,7 @@ export const Default = (props: TheRigHeaderProps): JSX.Element => {
               <button className="css-r2sx70">
                 <img src="https://therig.sa/svg/moon-icon.svg" alt="" />
               </button>
-              <style jsx data-emotion="css 1tssrit">
+              <style data-emotion="css 1tssrit">
                 {`
                   .css-1tssrit {
                     font-family: 'Changa', sans-serif !important;
@@ -256,7 +256,7 @@ export const Default = (props: TheRigHeaderProps): JSX.Element => {
                 <div className="underline css-th6fei"></div>
               </Link>
             </nav>
-            <style jsx data-emotion="css 9qr6hs">
+            <style data-emotion="css 9qr6hs">
               {`
                 .css-9qr6hs {
                   position: absolute;

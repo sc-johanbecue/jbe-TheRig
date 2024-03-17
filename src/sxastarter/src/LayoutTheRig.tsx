@@ -236,7 +236,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
 
       {/* root placeholder for the app, which we add components to using route data */}
       <div className={mainClassPageEditing}>
-        <style jsx data-emotion="css cea17v">{`
+        <style data-emotion="css cea17v">{`
           .css-cea17v {
             background: transparent;
             -webkit-transition: 0.3s;
@@ -262,7 +262,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
 
         {route && <Placeholder name="headless-header" rendering={route} />}
 
-        <style jsx data-emotion="css 19tk58b">
+        <style data-emotion="css 19tk58b">
           {`
             .css-19tk58b {
               background: url(https://therig.sa/bg/sea.webp) no-repeat 50% 50% / cover;
@@ -300,7 +300,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
           `}
         </style>
 
-        <style jsx data-emotion="css i9vblt">{`
+        <style data-emotion="css i9vblt">{`
           .css-i9vblt {
             background: url('https://therig.sa/bg/egsBg.webp');
             z-index: 20;
@@ -318,7 +318,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
         `}</style>
 
         <main>{route && <Placeholder name="headless-main" rendering={route} />}</main>
-        <style jsx data-emotion="css 1xiwo48">{`
+        <style data-emotion="css 1xiwo48">{`
           .css-1xiwo48 {
             padding: 64px 60px 48px 60px;
             height: 382px;
@@ -333,7 +333,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
           }
         `}</style>
 
-        <style jsx data-emotion="css fy3zvu">{`
+        <style data-emotion="css fy3zvu">{`
           .css-fy3zvu {
             background: #1d1d1b;
             position: relative;
@@ -381,7 +381,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
 
         {route && <Placeholder name="headless-footer" rendering={route} />}
 
-        <style jsx data-emotion="css dy1auj">{`
+        <style data-emotion="css dy1auj">{`
           .css-dy1auj .Toastify__toast-container {
             min-width: 410px;
             -webkit-filter: none;
