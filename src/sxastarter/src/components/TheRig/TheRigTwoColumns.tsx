@@ -53,6 +53,13 @@ export const Default = (props: ComponentProps): JSX.Element => {
             id={id ? 'theRigColumnOne' + id : undefined}
           >
             <Placeholder name={phKeyColumnOne} rendering={props.rendering} />
+            <img
+              style={{ filter: 'brightness(0)' }}
+              src="https://therig.sa/bg/line-break-left.webp"
+              className="css-tfjqlz"
+              alt=""
+            />
+            <img src="https://therig.sa/rust/rustMbl.webp" className="css-ec8s0e" alt="" />
           </div>
           <div
             className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-6 css-1lxviua"
