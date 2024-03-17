@@ -30,7 +30,22 @@ export const Default = (props: TheRigIntroProps): JSX.Element => {
     return (
       <div className="intro-wrapper css-19tk58b">
         <img src="https://therig.sa/bg/linear.webp" className="css-179ykmo" alt="" />
-
+        <div className="css-8hvgb2">
+          <div typeof="video/mp4" className="css-ly8dp0">
+            <div style={{ width: '100%', height: '100%' }}>
+              <video
+                src="https://therig.sa/bg/TheRig_video.mp4"
+                preload="auto"
+                autoPlay={true}
+                loop={true}
+                playsInline={true}
+                webkit-playsinline=""
+                x5-playsinline=""
+                style={{ width: '100%', height: '100%;' }}
+              ></video>
+            </div>
+          </div>
+        </div>
         <div className="MuiContainer-root MuiContainer-maxWidthLg css-sjot2u">
           <div className="MuiGrid-root MuiGrid-direction-xs-row css-124fws5">
             <div className="css-1ug0hhs">
@@ -43,7 +58,7 @@ export const Default = (props: TheRigIntroProps): JSX.Element => {
                 data-nimg="1"
                 className="css-1vtk6j6"
                 style={{ color: 'transparent' }}
-                src="https://therig.sa/headerTitle/en-mbl-hero.svg"
+                src="https://therig.sa/headerTitle/en-desktop-hero.svg"
               />
               <div className="MuiGrid-root MuiGrid-direction-xs-row css-124fws5">
                 <p className="MuiTypography-root MuiTypography-body1 css-pheo6p">
@@ -70,7 +85,6 @@ export const Default = (props: TheRigIntroProps): JSX.Element => {
                     </span>
                   </button>
                 </div>
-
                 <img
                   alt="A world-first in adventure tourism"
                   loading="lazy"
@@ -87,7 +101,6 @@ export const Default = (props: TheRigIntroProps): JSX.Element => {
             </div>
           </div>
         </div>
-
         <div className="MuiGrid-root css-1peekm2"></div>
         <div className="css-mizbsd"></div>
       </div>
