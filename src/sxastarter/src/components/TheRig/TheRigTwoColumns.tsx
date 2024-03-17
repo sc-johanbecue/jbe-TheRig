@@ -26,7 +26,7 @@ type ComponentProps = {
   fields: Fields;
 };
 
-const TheRigHeaderDefaultComponent = (props: ComponentProps): JSX.Element => (
+const TheRigTwoColumnsDefaultComponent = (props: ComponentProps): JSX.Element => (
   <div className={`component promo ${props.params.styles}`}>
     <div className="component-content">
       <span className="is-empty-hint"></span>
@@ -130,5 +130,5 @@ export const Default = (props: ComponentProps): JSX.Element => {
     );
   }
 
-  return <TheRigHeaderDefaultComponent {...props} />;
+  return <TheRigTwoColumnsDefaultComponent {...props} />;
 };
