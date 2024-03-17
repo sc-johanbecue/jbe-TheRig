@@ -32,7 +32,7 @@ const TheRigCTADefaultComponent = (props: TheRigCTA): JSX.Element => (
 export const Default = (props: TheRigCTA): JSX.Element => {
   if (props.fields) {
     return (
-      <div className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-6 css-1lxviua">
+      <div>
         <img
           src="https://therig.sa/bg/line-break-career-partners.webp"
           className="css-42e7fn"
