@@ -271,7 +271,8 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
         src="https://therig.sa/_next/static/chunks/pages/cookie_policy-5e6fcb9973ae9093.js"
       />
 
-      <Script id="my-script">{`
+      <Script id="johan">
+        {`
           document.addEventListener('DOMContentLoaded', (event) => {
               const header = document.querySelector('header');
               let lastScrollPosition = 0;
@@ -296,7 +297,8 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                   lastScrollPosition = currentScrollPosition;
               });
           });
-      `}</Script>
+      `}
+      </Script>
     </>
   );
 };
