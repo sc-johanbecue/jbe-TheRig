@@ -55,7 +55,7 @@ export const Default = (props: TheRigHeaderProps): JSX.Element => {
     };
 
     // Add scroll event listener when the component mounts
-    document.addEventListener('scroll', handleScroll);
+    window.addEventListener('scroll', handleScroll);
   }); // The empty array means this effect runs only on mount and unmount
 
   if (props.fields) {
