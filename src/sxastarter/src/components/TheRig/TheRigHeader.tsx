@@ -63,7 +63,10 @@ export const Default = (props: TheRigHeaderProps): JSX.Element => {
 
   if (props.fields) {
     return (
-      <header className={headerClass ?? 'css-cea17v'} dir={direction}>
+      <header
+        className={headerClass === null || headerClass === '' ? 'css-cea17v' : headerClass}
+        dir={direction}
+      >
         <div className="css-58w1wt">
           <div className="css-0">
             <Link href="/">
