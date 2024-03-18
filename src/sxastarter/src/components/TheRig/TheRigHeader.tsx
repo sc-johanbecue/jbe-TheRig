@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import {
   ImageField,
   TextField,
@@ -35,9 +35,34 @@ export const Default = (props: TheRigHeaderProps): JSX.Element => {
   const { sitecoreContext } = useSitecoreContext();
   const direction = sitecoreContext.language === 'ar-SA' ? 'rtl' : 'ltr';
 
+  const [headerClass, setHeaderClass] = useState('');
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollPos = window.pageYOffset;
+
+      if (currentScrollPos > 100) {
+        // If scrolled down more than 100px, use 'even-smaller' class
+        setHeaderClass('compressed css-18u71s2');
+      } else if (currentScrollPos > 50) {
+        // If scrolled down more than 50px but less than 100px, use 'small' class
+        setHeaderClass('compressed css-1rmhix3');
+      } else {
+        // If not scrolled down much, header class is an empty string (default state)
+        setHeaderClass('css-cea17v');
+      }
+    };
+
+    // Add scroll event listener when the component mounts
+    window.addEventListener('scroll', handleScroll);
+
+    // Remove event listener when the component unmounts
+    return () => window.removeEventListener('scroll', handleScroll);
+  }); // The empty array means this effect runs only on mount and unmount
+
   if (props.fields) {
     return (
-      <header className="css-cea17v" dir={direction}>
+      <header className={headerClass} dir={direction}>
         <div className="css-58w1wt">
           <div className="css-0">
             <Link href="/">
