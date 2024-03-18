@@ -36,6 +36,7 @@ export const Default = (props: TheRigHeaderProps): JSX.Element => {
   const direction = sitecoreContext.language === 'ar-SA' ? 'rtl' : 'ltr';
 
   const [headerClass, setHeaderClass] = useState('');
+  setHeaderClass('css-cea17v');
 
   useEffect(() => {
     const handleScroll = () => {
@@ -54,7 +55,7 @@ export const Default = (props: TheRigHeaderProps): JSX.Element => {
     };
 
     // Add scroll event listener when the component mounts
-    window.addEventListener('scroll', handleScroll);
+    document.addEventListener('scroll', handleScroll);
   }); // The empty array means this effect runs only on mount and unmount
 
   if (props.fields) {
