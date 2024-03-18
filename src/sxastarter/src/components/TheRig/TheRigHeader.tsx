@@ -39,7 +39,7 @@ export const Default = (props: TheRigHeaderProps): JSX.Element => {
 
   useEffect(() => {
     const handleScroll = () => {
-      const currentScrollPos = window.pageYOffset;
+      const currentScrollPos = window.scrollY;
       alert('HELLO');
       if (currentScrollPos > 100) {
         // If scrolled down more than 100px, use 'even-smaller' class
@@ -55,9 +55,6 @@ export const Default = (props: TheRigHeaderProps): JSX.Element => {
 
     // Add scroll event listener when the component mounts
     window.addEventListener('scroll', handleScroll);
-
-    // Remove event listener when the component unmounts
-    return () => window.removeEventListener('scroll', handleScroll);
   }); // The empty array means this effect runs only on mount and unmount
 
   if (props.fields) {
