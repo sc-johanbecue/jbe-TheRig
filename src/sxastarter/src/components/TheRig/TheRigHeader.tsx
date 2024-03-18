@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useCallback } from 'react';
+import React from 'react';
 import {
   ImageField,
   TextField,
@@ -35,38 +35,9 @@ export const Default = (props: TheRigHeaderProps): JSX.Element => {
   const { sitecoreContext } = useSitecoreContext();
   const direction = sitecoreContext.language === 'ar-SA' ? 'rtl' : 'ltr';
 
-  const [headerClass, setHeaderClass] = useState('');
-
-  const onScroll = useCallback(() => {
-    const currentScrollPos = window.pageYOffset;
-    alert('HELLO');
-    if (currentScrollPos > 100) {
-      // If scrolled down more than 100px, use 'even-smaller' class
-      setHeaderClass('compressed css-18u71s2');
-    } else if (currentScrollPos > 50) {
-      // If scrolled down more than 50px but less than 100px, use 'small' class
-      setHeaderClass('compressed css-1rmhix3');
-    } else {
-      // If not scrolled down much, header class is an empty string (default state)
-      setHeaderClass('css-cea17v');
-    }
-  }, []);
-
-  useEffect(() => {
-    //add eventlistener to window
-    window.addEventListener('scroll', onScroll, { passive: true });
-    // remove event on unmount to prevent a memory leak with the cleanup
-    return () => {
-      window.removeEventListener('scroll', onScroll);
-    };
-  }, [onScroll]);
-
   if (props.fields) {
     return (
-      <header
-        className={headerClass === null || headerClass === '' ? 'css-cea17v' : headerClass}
-        dir={direction}
-      >
+      <header className="css-cea17v" dir={direction}>
         <div className="css-58w1wt">
           <div className="css-0">
             <Link href="/">
