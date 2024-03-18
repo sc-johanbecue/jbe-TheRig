@@ -61,7 +61,6 @@ export const Default = (props: TheRigIntroProps): JSX.Element => {
                 data-nimg="1"
                 className="css-1vtk6j6"
                 style={{ color: 'transparent' }}
-                src="https://therig.sa/headerTitle/en-desktop-hero.svg"
               />
               <div className="MuiGrid-root MuiGrid-direction-xs-row css-124fws5">
                 <p className="MuiTypography-root MuiTypography-body1 css-pheo6p">
