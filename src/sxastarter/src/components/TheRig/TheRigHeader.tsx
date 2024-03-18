@@ -40,7 +40,7 @@ export const Default = (props: TheRigHeaderProps): JSX.Element => {
   useEffect(() => {
     const handleScroll = () => {
       const currentScrollPos = window.pageYOffset;
-
+      alert('HELLO');
       if (currentScrollPos > 100) {
         // If scrolled down more than 100px, use 'even-smaller' class
         setHeaderClass('compressed css-18u71s2');
