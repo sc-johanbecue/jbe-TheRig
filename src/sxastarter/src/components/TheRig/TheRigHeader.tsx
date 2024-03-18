@@ -36,11 +36,10 @@ export const Default = (props: TheRigHeaderProps): JSX.Element => {
   const direction = sitecoreContext.language === 'ar-SA' ? 'rtl' : 'ltr';
 
   const [headerClass, setHeaderClass] = useState('');
-  setHeaderClass('css-cea17v');
 
   useEffect(() => {
     const handleScroll = () => {
-      const currentScrollPos = window.scrollY;
+      const currentScrollPos = window.pageYOffset;
       alert('HELLO');
       if (currentScrollPos > 100) {
         // If scrolled down more than 100px, use 'even-smaller' class
