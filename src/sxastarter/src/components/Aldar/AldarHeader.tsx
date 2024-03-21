@@ -17,7 +17,7 @@ const Header = (): JSX.Element => {
             <div className="header__r1-container">
               <div className="container">
                 <div className="header__r1-left">
-                  <Link href="/en" className="header__logo-container">
+                  <Link href="https://www.aldar.com/en" className="header__logo-container">
                     <img
                       src="https://cdn.aldar.com/-/media/project/aldar-tenant/aldar2/images/logos/aldar-logo-frame-15px2x.png?h=160&amp;iar=0&amp;w=160&amp;rev=3f4a43d31fed43e1960f0c04dd0c3799"
                       alt="Aldar Logo frame 15px2x"
@@ -29,7 +29,7 @@ const Header = (): JSX.Element => {
                   <nav className="header__main-nav_container">
                     <ul className="header__mobile-tabs">
                       <li>
-                        <Link href="/en" className="header__mobile-tab_link">
+                        <Link href="https://www.aldar.com/en" className="header__mobile-tab_link">
                           <figure>
                             <img
                               src="https://cdn.aldar.com/-/media/project/aldar-tenant/aldar2/images/icons/home.svg?h=22&amp;iar=0&amp;w=22&amp;rev=2f72649fef7e4b338b84ec432223dd7a"
@@ -43,7 +43,7 @@ const Header = (): JSX.Element => {
                       </li>
                       <li>
                         <Link
-                          href="/en/contact-us"
+                          href="https://www.aldar.com/en/contact-us"
                           className="header__mobile-tab_link"
                           target="|Custom"
                         >
@@ -84,7 +84,7 @@ const Header = (): JSX.Element => {
                         <ul className="header__commerce-nav_mobile">
                           <li>
                             <Link
-                              href="/en"
+                              href="https://www.aldar.com/en"
                               data-linkid="-{0}"
                               className="header__main-link"
                               data-id="{D9266420-1268-423E-AD67-0E47D399A1E3}"
@@ -94,7 +94,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en"
+                              href="https://www.aldar.com/en"
                               data-linkid="-{1}"
                               className="header__main-link"
                               data-id="{A8BD7C70-2D70-41EC-A93A-D6A914E1892F}"
@@ -106,7 +106,7 @@ const Header = (): JSX.Element => {
                         <ul className="header__main-nav">
                           <li className="">
                             <Link
-                              href="/en/about-abu-dhabi"
+                              href="https://www.aldar.com/en/about-abu-dhabi"
                               className="header__main-link "
                               data-id="{290FE6B7-3606-4C78-BD08-EB9B58CBD76D}"
                             >
@@ -116,7 +116,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li className="">
                             <Link
-                              href="/en/explore-aldar"
+                              href="https://www.aldar.com/en/explore-aldar"
                               className="header__main-link "
                               data-id="{C9DC014D-FE14-4A8D-990A-0D6C6FF93E58}"
                             >
@@ -176,14 +176,14 @@ const Header = (): JSX.Element => {
                         </button>
                         <ul className="header__main-nav">
                           <li className="h2--box header__parent-title">
-                            <Link href="/en/about-abu-dhabi">
+                            <Link href="https://www.aldar.com/en/about-abu-dhabi">
                               <span className="all-title">All</span>
                               Explore Abu Dhabi
                             </Link>
                           </li>
                           <li>
                             <Link
-                              href="/en/about-abu-dhabi/market-overview"
+                              href="https://www.aldar.com/en/about-abu-dhabi/market-overview"
                               className="header__sub-link link-only"
                               data-id="{8279EB7A-C24F-41D5-B0EF-C5AF1F22E83A}"
                             >
@@ -193,7 +193,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/about-abu-dhabi/golden-visa"
+                              href="https://www.aldar.com/en/about-abu-dhabi/golden-visa"
                               className="header__sub-link link-only"
                               data-id="{EEBC96FD-28D6-4B0C-A9DC-64C511199FED}"
                             >
@@ -203,7 +203,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/about-abu-dhabi/dari"
+                              href="https://www.aldar.com/en/about-abu-dhabi/dari"
                               className="header__sub-link link-only"
                               data-id="{1FB15AF7-A639-46D7-BC66-96C67A7064D3}"
                             >
@@ -233,7 +233,7 @@ const Header = (): JSX.Element => {
                         </button>
                         <ul className="header__main-nav">
                           <li className="h2--box header__parent-title">
-                            <Link href="/en/explore-aldar">
+                            <Link href="https://www.aldar.com/en/explore-aldar">
                               <span className="all-title">All</span>
                               Explore Aldar
                             </Link>
@@ -250,7 +250,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses"
+                              href="https://www.aldar.com/en/explore-aldar/businesses"
                               className="header__sub-link "
                               data-id="{AEC9BD11-5F5F-489C-B543-637033FF7DAA}"
                             >
@@ -260,7 +260,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/corporate-governance"
+                              href="https://www.aldar.com/en/explore-aldar/corporate-governance"
                               className="header__sub-link link-only"
                               data-id="{D62BACCF-B4EF-432A-8900-88FBB0441F0D}"
                             >
@@ -270,7 +270,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/sustainability"
+                              href="https://www.aldar.com/en/explore-aldar/sustainability"
                               className="header__sub-link "
                               data-id="{7C8E74B8-A1DE-40F4-B76E-AF2A1E2A8838}"
                             >
@@ -280,7 +280,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/aldar-brand"
+                              href="https://www.aldar.com/en/explore-aldar/aldar-brand"
                               className="header__sub-link link-only"
                               data-id="{065FB7C1-945D-4BEE-9318-1ED6A63F73C8}"
                             >
@@ -290,7 +290,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/live-aldar"
+                              href="https://www.aldar.com/en/explore-aldar/live-aldar"
                               className="header__sub-link "
                               data-id="{E1132B35-B5E2-47BC-8F4A-3170C279CAAC}"
                             >
@@ -300,7 +300,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/art"
+                              href="https://www.aldar.com/en/explore-aldar/art"
                               className="header__sub-link link-only"
                               data-id="{D01C59BB-FE5C-4F92-B877-41944156DF13}"
                             >
@@ -310,7 +310,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/innovation"
+                              href="https://www.aldar.com/en/explore-aldar/innovation"
                               className="header__sub-link "
                               data-id="{BCC2FA58-7881-4A0D-AE8E-036EA9EF0813}"
                             >
@@ -347,7 +347,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/about-aldar/story"
+                              href="https://www.aldar.com/en/explore-aldar/about-aldar/story"
                               className="header__sub-link link-only"
                               data-id="{FF0DB164-0BB2-448F-AC11-793181A264D2}"
                             >
@@ -357,7 +357,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/about-aldar/leadership"
+                              href="https://www.aldar.com/en/explore-aldar/about-aldar/leadership"
                               className="header__sub-link link-only"
                               data-id="{3F65314F-B4DE-4A4B-BCBA-6C0C20D96AD8}"
                             >
@@ -367,7 +367,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/about-aldar/culture-and-values"
+                              href="https://www.aldar.com/en/explore-aldar/about-aldar/culture-and-values"
                               className="header__sub-link "
                               data-id="{BDA7F4C7-4AE0-4733-AA7B-4CACA48A7F21}"
                             >
@@ -377,7 +377,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/about-aldar/strategy"
+                              href="https://www.aldar.com/en/explore-aldar/about-aldar/strategy"
                               className="header__sub-link link-only"
                               data-id="{8DFCE321-804A-4249-952B-39EDB8C87DD5}"
                             >
@@ -387,7 +387,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/about-aldar/sponsorships"
+                              href="https://www.aldar.com/en/explore-aldar/about-aldar/sponsorships"
                               className="header__sub-link link-only"
                               data-id="{1DF11A3E-D3B7-45CB-8F7B-7B0B7785A062}"
                             >
@@ -397,7 +397,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/about-aldar/procurement"
+                              href="https://www.aldar.com/en/explore-aldar/about-aldar/procurement"
                               className="header__sub-link "
                               data-id="{EDF08168-B6AE-4B3F-98A7-D1244D75E32D}"
                             >
@@ -417,7 +417,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/about-aldar/aldar-square"
+                              href="https://www.aldar.com/en/explore-aldar/about-aldar/aldar-square"
                               className="header__sub-link link-only"
                               data-id="{5145E4B4-7B02-4271-BD5F-6134DC3843B2}"
                             >
@@ -447,14 +447,14 @@ const Header = (): JSX.Element => {
                         </button>
                         <ul className="header__main-nav">
                           <li className="h2--box header__parent-title">
-                            <Link href="/en/explore-aldar/about-aldar/culture-and-values">
+                            <Link href="https://www.aldar.com/en/explore-aldar/about-aldar/culture-and-values">
                               <span className="all-title">All</span>
                               Culture and Values
                             </Link>
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/about-aldar/culture-and-values/values"
+                              href="https://www.aldar.com/en/explore-aldar/about-aldar/culture-and-values/values"
                               className="header__sub-link link-only"
                               data-id="{2FAEBCD7-E441-4BDA-B895-FD1DF647EDA7}"
                             >
@@ -464,7 +464,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/about-aldar/culture-and-values/talent"
+                              href="https://www.aldar.com/en/explore-aldar/about-aldar/culture-and-values/talent"
                               className="header__sub-link link-only"
                               data-id="{D18A3757-9269-42F3-85BB-E38FE6A93EAA}"
                             >
@@ -494,7 +494,7 @@ const Header = (): JSX.Element => {
                         </button>
                         <ul className="header__main-nav">
                           <li className="h2--box header__parent-title">
-                            <Link href="/en/explore-aldar/about-aldar/procurement">
+                            <Link href="https://www.aldar.com/en/explore-aldar/about-aldar/procurement">
                               <span className="all-title">All</span>
                               Procurement
                             </Link>
@@ -525,7 +525,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/about-aldar/procurement/workers-welfare"
+                              href="https://www.aldar.com/en/explore-aldar/about-aldar/procurement/workers-welfare"
                               className="header__sub-link link-only"
                               data-id="{49B912CF-0A89-4A05-95CA-793E73E5DCA7}"
                             >
@@ -535,7 +535,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/about-aldar/procurement/sustainability"
+                              href="https://www.aldar.com/en/explore-aldar/about-aldar/procurement/sustainability"
                               className="header__sub-link link-only"
                               data-id="{AFE0FC4B-D2BA-44DA-83D7-5DD9F2D58D54}"
                             >
@@ -545,7 +545,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/about-aldar/procurement/icv-program"
+                              href="https://www.aldar.com/en/explore-aldar/about-aldar/procurement/icv-program"
                               className="header__sub-link link-only"
                               data-id="{38FB3212-4A4E-4143-83FD-18D71CEEEDF0}"
                             >
@@ -555,7 +555,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/about-aldar/procurement/certifying-bodies"
+                              href="https://www.aldar.com/en/explore-aldar/about-aldar/procurement/certifying-bodies"
                               className="header__sub-link link-only"
                               data-id="{B9F339E2-A589-4CB6-AED4-E6C88A7D899F}"
                             >
@@ -684,7 +684,7 @@ const Header = (): JSX.Element => {
                         </button>
                         <ul className="header__main-nav">
                           <li className="h2--box header__parent-title">
-                            <Link href="/en/explore-aldar/businesses">
+                            <Link href="https://www.aldar.com/en/explore-aldar/businesses">
                               <span className="all-title">All</span>
                               Businesses
                             </Link>
@@ -711,7 +711,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/education"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/education"
                               className="header__sub-link "
                               data-id="{646AB515-B8A5-4A75-BC05-38C2E0420897}"
                             >
@@ -721,7 +721,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/hospitality"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/hospitality"
                               className="header__sub-link "
                               data-id="{51B9DA07-0D73-4291-B7ED-9B1DB8531A07}"
                             >
@@ -731,7 +731,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/aldar-projects"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/aldar-projects"
                               className="header__sub-link link-only"
                               data-id="{BA7DACBB-1A3A-486C-BA45-A71F6C9C06FF}"
                             >
@@ -768,7 +768,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential"
                               className="header__sub-link "
                               data-id="{43044A61-26FF-473C-AEBE-AD18E440B907}"
                             >
@@ -778,7 +778,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/land"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/land"
                               className="header__sub-link link-only"
                               data-id="{182B80BC-F491-4079-9175-2F3DE902561B}"
                             >
@@ -788,7 +788,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/partnerships"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/partnerships"
                               className="header__sub-link link-only"
                               data-id="{955A491D-7FB8-4357-B483-3A7F352F1A2D}"
                             >
@@ -818,14 +818,14 @@ const Header = (): JSX.Element => {
                         </button>
                         <ul className="header__main-nav">
                           <li className="h2--box header__parent-title">
-                            <Link href="/en/explore-aldar/businesses/development/residential">
+                            <Link href="https://www.aldar.com/en/explore-aldar/businesses/development/residential">
                               <span className="all-title">All</span>
                               Residential
                             </Link>
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/yas-island"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/yas-island"
                               className="header__sub-link "
                               data-id="{5C0895F4-07C3-4B2C-BF1C-DF5903421BB1}"
                             >
@@ -835,7 +835,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/saadiyat-island"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/saadiyat-island"
                               className="header__sub-link "
                               data-id="{8A4673AE-AEC4-4647-A162-58AC20BAA572}"
                             >
@@ -845,7 +845,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/reem-island"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/reem-island"
                               className="header__sub-link "
                               data-id="{2B6B4042-8B60-449E-9EB9-FF3292625768}"
                             >
@@ -855,7 +855,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/al-raha-beach"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/al-raha-beach"
                               className="header__sub-link "
                               data-id="{81D1982E-966A-46F3-9EAB-56ADAFAE5EE2}"
                             >
@@ -865,7 +865,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/other-destinations"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations"
                               className="header__sub-link "
                               data-id="{65B08FF6-EECF-4F0C-8B28-81944214EF00}"
                             >
@@ -895,14 +895,14 @@ const Header = (): JSX.Element => {
                         </button>
                         <ul className="header__main-nav">
                           <li className="h2--box header__parent-title">
-                            <Link href="/en/explore-aldar/businesses/development/residential/yas-island">
+                            <Link href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/yas-island">
                               <span className="all-title">All</span>
                               Yas Island
                             </Link>
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/yas-island/yas-island-sustainable-city"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/yas-island/yas-island-sustainable-city"
                               className="header__sub-link link-only"
                               data-id="{219BED00-434F-42BE-85F3-58ECEADCB9B0}"
                             >
@@ -912,7 +912,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/yas-island/yas-park-views"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/yas-island/yas-park-views"
                               className="header__sub-link link-only"
                               data-id="{CA5CD003-C276-48EC-9EC5-280DEA92F218}"
                             >
@@ -922,7 +922,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/yas-island/yas-acres-north-bay"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/yas-island/yas-acres-north-bay"
                               className="header__sub-link link-only"
                               data-id="{D45BF7CE-50D2-4A85-B815-93211C1D7FFF}"
                             >
@@ -932,7 +932,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/yas-island/yas-golf"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/yas-island/yas-golf"
                               className="header__sub-link link-only"
                               data-id="{414B5807-4FA7-4005-A467-938BE4F713CA}"
                             >
@@ -942,7 +942,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/yas-island/yas-golf-collection-views"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/yas-island/yas-golf-collection-views"
                               className="header__sub-link link-only"
                               data-id="{5296CD8B-B1CE-436C-BFA5-45C3FE8CE72B}"
                             >
@@ -952,7 +952,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/yas-island/yas-park-gate"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/yas-island/yas-park-gate"
                               className="header__sub-link link-only"
                               data-id="{17738A9C-5CDB-4887-8D73-E60867EB1696}"
                             >
@@ -962,7 +962,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/yas-island/lea-yas-island"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/yas-island/lea-yas-island"
                               className="header__sub-link "
                               data-id="{19B94A19-6AB8-4E29-A247-74E2FE61B4ED}"
                             >
@@ -972,7 +972,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/yas-island/mayan"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/yas-island/mayan"
                               className="header__sub-link "
                               data-id="{C695F154-E532-483F-B033-5FB289B2AD43}"
                             >
@@ -982,7 +982,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/yas-island/ansam"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/yas-island/ansam"
                               className="header__sub-link "
                               data-id="{ACCA0539-5AC4-4D0C-8AEA-2C0741AAA09F}"
                             >
@@ -992,7 +992,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/yas-island/noya"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/yas-island/noya"
                               className="header__sub-link "
                               data-id="{D52C21BD-F70B-4D42-916E-AF6ED174EE0D}"
                             >
@@ -1002,7 +1002,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/yas-island/noya-luma"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/yas-island/noya-luma"
                               className="header__sub-link "
                               data-id="{6D613337-9BBD-4055-B7A0-722285C0E323}"
                             >
@@ -1012,7 +1012,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/yas-island/noya-viva"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/yas-island/noya-viva"
                               className="header__sub-link "
                               data-id="{61C38DDA-2599-45C0-AD35-724C127D8DE7}"
                             >
@@ -1022,7 +1022,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/yas-island/yas-acres"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/yas-island/yas-acres"
                               className="header__sub-link "
                               data-id="{587035B8-266B-485C-9CAD-2020F1765E11}"
                             >
@@ -1032,7 +1032,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/yas-island/waters-edge"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/yas-island/waters-edge"
                               className="header__sub-link "
                               data-id="{3C970FC0-BA36-439E-AE69-77D45CD24D68}"
                             >
@@ -1042,7 +1042,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/yas-island/west-yas"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/yas-island/west-yas"
                               className="header__sub-link "
                               data-id="{E083243A-FC0D-4844-AE52-39A52811EA7F}"
                             >
@@ -1072,14 +1072,14 @@ const Header = (): JSX.Element => {
                         </button>
                         <ul className="header__main-nav">
                           <li className="h2--box header__parent-title">
-                            <Link href="/en/explore-aldar/businesses/development/residential/yas-island/lea-yas-island">
+                            <Link href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/yas-island/lea-yas-island">
                               <span className="all-title">All</span>
                               Lea Yas Island
                             </Link>
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/yas-island/lea-yas-island"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/yas-island/lea-yas-island"
                               className="header__sub-link link-only"
                               data-id="{3CEFEDE8-F617-481C-88F3-6C955836F1CE}"
                             >
@@ -1089,7 +1089,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/yas-island/lea-yas-island/project-features"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/yas-island/lea-yas-island/project-features"
                               className="header__sub-link link-only"
                               data-id="{43F6F372-A113-4F81-886D-05FA18C46941}"
                             >
@@ -1119,14 +1119,14 @@ const Header = (): JSX.Element => {
                         </button>
                         <ul className="header__main-nav">
                           <li className="h2--box header__parent-title">
-                            <Link href="/en/explore-aldar/businesses/development/residential/yas-island/mayan">
+                            <Link href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/yas-island/mayan">
                               <span className="all-title">All</span>
                               Mayan
                             </Link>
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/yas-island/mayan"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/yas-island/mayan"
                               className="header__sub-link link-only"
                               data-id="{3381DF01-1776-479D-B046-7F6515AC9246}"
                             >
@@ -1136,7 +1136,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/yas-island/mayan/project-features"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/yas-island/mayan/project-features"
                               className="header__sub-link link-only"
                               data-id="{5D15F9D5-437C-47A4-BC74-F3B482CBA143}"
                             >
@@ -1166,14 +1166,14 @@ const Header = (): JSX.Element => {
                         </button>
                         <ul className="header__main-nav">
                           <li className="h2--box header__parent-title">
-                            <Link href="/en/explore-aldar/businesses/development/residential/yas-island/ansam">
+                            <Link href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/yas-island/ansam">
                               <span className="all-title">All</span>
                               Ansam
                             </Link>
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/yas-island/ansam"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/yas-island/ansam"
                               className="header__sub-link link-only"
                               data-id="{74BD2660-2961-46FF-92EC-43AC71782B0F}"
                             >
@@ -1183,7 +1183,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/yas-island/ansam/project-features"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/yas-island/ansam/project-features"
                               className="header__sub-link link-only"
                               data-id="{A1A5A743-1822-43B2-87FE-433797240781}"
                             >
@@ -1213,14 +1213,14 @@ const Header = (): JSX.Element => {
                         </button>
                         <ul className="header__main-nav">
                           <li className="h2--box header__parent-title">
-                            <Link href="/en/explore-aldar/businesses/development/residential/yas-island/noya">
+                            <Link href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/yas-island/noya">
                               <span className="all-title">All</span>
                               Noya
                             </Link>
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/yas-island/noya"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/yas-island/noya"
                               className="header__sub-link link-only"
                               data-id="{90542F9F-EF74-46F9-8330-06363D6B4859}"
                             >
@@ -1230,7 +1230,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/yas-island/noya/project-features"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/yas-island/noya/project-features"
                               className="header__sub-link link-only"
                               data-id="{C786B3AD-2A12-4D57-A578-D236D2DDF2F8}"
                             >
@@ -1260,14 +1260,14 @@ const Header = (): JSX.Element => {
                         </button>
                         <ul className="header__main-nav">
                           <li className="h2--box header__parent-title">
-                            <Link href="/en/explore-aldar/businesses/development/residential/yas-island/noya-luma">
+                            <Link href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/yas-island/noya-luma">
                               <span className="all-title">All</span>
                               Noya Luma
                             </Link>
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/yas-island/noya-luma"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/yas-island/noya-luma"
                               className="header__sub-link link-only"
                               data-id="{EBC8D70B-EA8A-4165-A5D6-85209626777B}"
                             >
@@ -1277,7 +1277,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/yas-island/noya-luma/project-features"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/yas-island/noya-luma/project-features"
                               className="header__sub-link link-only"
                               data-id="{AC2C9C65-90B8-49C0-87EB-79A268E646FB}"
                             >
@@ -1307,14 +1307,14 @@ const Header = (): JSX.Element => {
                         </button>
                         <ul className="header__main-nav">
                           <li className="h2--box header__parent-title">
-                            <Link href="/en/explore-aldar/businesses/development/residential/yas-island/noya-viva">
+                            <Link href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/yas-island/noya-viva">
                               <span className="all-title">All</span>
                               Noya Viva
                             </Link>
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/yas-island/noya-viva"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/yas-island/noya-viva"
                               className="header__sub-link link-only"
                               data-id="{9477C767-6FF2-4033-99E4-2D5CD2512091}"
                             >
@@ -1324,7 +1324,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/yas-island/noya-viva/project-features"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/yas-island/noya-viva/project-features"
                               className="header__sub-link link-only"
                               data-id="{2BD88445-3827-4EBD-BD2C-DCD704FB031B}"
                             >
@@ -1354,14 +1354,14 @@ const Header = (): JSX.Element => {
                         </button>
                         <ul className="header__main-nav">
                           <li className="h2--box header__parent-title">
-                            <Link href="/en/explore-aldar/businesses/development/residential/yas-island/yas-acres">
+                            <Link href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/yas-island/yas-acres">
                               <span className="all-title">All</span>
                               Yas Acres
                             </Link>
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/yas-island/yas-acres"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/yas-island/yas-acres"
                               className="header__sub-link link-only"
                               data-id="{09922C21-7D5C-44AF-823D-BCC7BEAF13AA}"
                             >
@@ -1371,7 +1371,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/yas-island/yas-acres/project-features"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/yas-island/yas-acres/project-features"
                               className="header__sub-link link-only"
                               data-id="{59E2EC47-F085-4690-B203-F95F481B0219}"
                             >
@@ -1401,14 +1401,14 @@ const Header = (): JSX.Element => {
                         </button>
                         <ul className="header__main-nav">
                           <li className="h2--box header__parent-title">
-                            <Link href="/en/explore-aldar/businesses/development/residential/yas-island/waters-edge">
+                            <Link href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/yas-island/waters-edge">
                               <span className="all-title">All</span>
                               Water&apos;s Edge
                             </Link>
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/yas-island/waters-edge/buy"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/yas-island/waters-edge/buy"
                               className="header__sub-link link-only"
                               data-id="{13083ED4-AA91-4BFE-BE8F-0A4A6C4DE7A2}"
                             >
@@ -1418,7 +1418,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/yas-island/waters-edge"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/yas-island/waters-edge"
                               className="header__sub-link link-only"
                               data-id="{35A76A88-7DF2-4318-BA44-38A1A122E09B}"
                             >
@@ -1428,7 +1428,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/yas-island/waters-edge/project-features"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/yas-island/waters-edge/project-features"
                               className="header__sub-link link-only"
                               data-id="{7A6C070D-765A-4739-B4DA-7175918B9DEB}"
                             >
@@ -1458,14 +1458,14 @@ const Header = (): JSX.Element => {
                         </button>
                         <ul className="header__main-nav">
                           <li className="h2--box header__parent-title">
-                            <Link href="/en/explore-aldar/businesses/development/residential/yas-island/west-yas">
+                            <Link href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/yas-island/west-yas">
                               <span className="all-title">All</span>
                               West Yas
                             </Link>
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/yas-island/west-yas"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/yas-island/west-yas"
                               className="header__sub-link link-only"
                               data-id="{E5472269-53ED-4F27-87B3-F54C090DDD9C}"
                             >
@@ -1475,7 +1475,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/yas-island/west-yas/project-features"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/yas-island/west-yas/project-features"
                               className="header__sub-link link-only"
                               data-id="{408766EE-42C3-493C-9ABB-8CE2F3ECCBBE}"
                             >
@@ -1505,14 +1505,14 @@ const Header = (): JSX.Element => {
                         </button>
                         <ul className="header__main-nav">
                           <li className="h2--box header__parent-title">
-                            <Link href="/en/explore-aldar/businesses/development/residential/saadiyat-island">
+                            <Link href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/saadiyat-island">
                               <span className="all-title">All</span>
                               Saadiyat Island
                             </Link>
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/saadiyat-island/the-source"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/saadiyat-island/the-source"
                               className="header__sub-link link-only"
                               data-id="{9445FEAA-C7B8-414B-9D9C-97D10FF32738}"
                             >
@@ -1522,7 +1522,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/saadiyat-island/the-source-ii"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/saadiyat-island/the-source-ii"
                               className="header__sub-link link-only"
                               data-id="{46456FBE-BC5B-4106-9E8D-E9D1D8154A72}"
                             >
@@ -1532,7 +1532,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/saadiyat-island/grove-beach-views"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/saadiyat-island/grove-beach-views"
                               className="header__sub-link link-only"
                               data-id="{D06A62A9-3EEB-44B9-BFBD-9ECC0C7871BD}"
                             >
@@ -1542,7 +1542,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/saadiyat-island/grove-museum-views"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/saadiyat-island/grove-museum-views"
                               className="header__sub-link link-only"
                               data-id="{344D2864-02BD-4299-A4DB-33CF8B75BA85}"
                             >
@@ -1552,7 +1552,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/Aldar Tenant/Aldar2/Home/explore-aldar/businesses/development/residential/saadiyat-island/manarat-living"
+                              href="https://www.aldar.com/Aldar Tenant/Aldar2/Home/explore-aldar/businesses/development/residential/saadiyat-island/manarat-living"
                               className="header__sub-link link-only"
                               data-id="{54C3DDF6-CEC7-4A6A-8949-6A202F222D9B}"
                             >
@@ -1562,7 +1562,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/saadiyat-island/saadiyat-lagoons"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/saadiyat-island/saadiyat-lagoons"
                               className="header__sub-link link-only"
                               data-id="{FA699985-5BDA-4131-A51E-EB7D5954D25D}"
                             >
@@ -1572,7 +1572,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/saadiyat-island/jawaher-al-saadiyat"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/saadiyat-island/jawaher-al-saadiyat"
                               className="header__sub-link "
                               data-id="{0CC4A77B-1973-473D-9D3F-5B875E15F0A2}"
                             >
@@ -1582,7 +1582,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/saadiyat-island/mamsha-al-saadiyat"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/saadiyat-island/mamsha-al-saadiyat"
                               className="header__sub-link "
                               data-id="{5E1A5963-55D8-49DF-80D6-449201A45B1E}"
                             >
@@ -1592,7 +1592,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/saadiyat-island/saadiyat-reserve"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/saadiyat-island/saadiyat-reserve"
                               className="header__sub-link "
                               data-id="{716117E2-FAB3-414E-BE6F-E73688829072}"
                             >
@@ -1602,7 +1602,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/saadiyat-island/saadiyat-reserve-the-dunes"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/saadiyat-island/saadiyat-reserve-the-dunes"
                               className="header__sub-link "
                               data-id="{19E74DBE-88DE-44CE-A093-62DAE5D4BBDC}"
                             >
@@ -1632,14 +1632,14 @@ const Header = (): JSX.Element => {
                         </button>
                         <ul className="header__main-nav">
                           <li className="h2--box header__parent-title">
-                            <Link href="/en/explore-aldar/businesses/development/residential/saadiyat-island/jawaher-al-saadiyat">
+                            <Link href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/saadiyat-island/jawaher-al-saadiyat">
                               <span className="all-title">All</span>
                               Jawaher Al Saadiyat
                             </Link>
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/saadiyat-island/jawaher-al-saadiyat"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/saadiyat-island/jawaher-al-saadiyat"
                               className="header__sub-link link-only"
                               data-id="{A6817C4E-6B6C-4B31-8F27-D745DDCDCE58}"
                             >
@@ -1649,7 +1649,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/saadiyat-island/jawaher-al-saadiyat/project-features"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/saadiyat-island/jawaher-al-saadiyat/project-features"
                               className="header__sub-link link-only"
                               data-id="{8CD6E3A9-9869-4B59-BE70-BC62CDA575A1}"
                             >
@@ -1679,14 +1679,14 @@ const Header = (): JSX.Element => {
                         </button>
                         <ul className="header__main-nav">
                           <li className="h2--box header__parent-title">
-                            <Link href="/en/explore-aldar/businesses/development/residential/saadiyat-island/mamsha-al-saadiyat">
+                            <Link href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/saadiyat-island/mamsha-al-saadiyat">
                               <span className="all-title">All</span>
                               Mamsha Al Saadiyat
                             </Link>
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/saadiyat-island/mamsha-al-saadiyat/buy"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/saadiyat-island/mamsha-al-saadiyat/buy"
                               className="header__sub-link link-only"
                               data-id="{78CE4B43-B394-4AF4-8D9C-70BED692244D}"
                             >
@@ -1696,7 +1696,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/saadiyat-island/mamsha-al-saadiyat"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/saadiyat-island/mamsha-al-saadiyat"
                               className="header__sub-link link-only"
                               data-id="{6D82D8A5-42A7-4631-B80D-2BF8134C1F3C}"
                             >
@@ -1706,7 +1706,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/saadiyat-island/mamsha-al-saadiyat/project-features"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/saadiyat-island/mamsha-al-saadiyat/project-features"
                               className="header__sub-link link-only"
                               data-id="{D930468D-50DF-4CBC-A387-DBE30B1B0213}"
                             >
@@ -1736,14 +1736,14 @@ const Header = (): JSX.Element => {
                         </button>
                         <ul className="header__main-nav">
                           <li className="h2--box header__parent-title">
-                            <Link href="/en/explore-aldar/businesses/development/residential/saadiyat-island/saadiyat-reserve">
+                            <Link href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/saadiyat-island/saadiyat-reserve">
                               <span className="all-title">All</span>
                               Saadiyat Reserve
                             </Link>
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/saadiyat-island/saadiyat-reserve"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/saadiyat-island/saadiyat-reserve"
                               className="header__sub-link link-only"
                               data-id="{87C9CF73-2257-4E19-9645-2FF440CE295A}"
                             >
@@ -1753,7 +1753,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/saadiyat-island/saadiyat-reserve/project-features"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/saadiyat-island/saadiyat-reserve/project-features"
                               className="header__sub-link link-only"
                               data-id="{C5F4DB3D-7BA0-4734-A31A-B31B7A8F124D}"
                             >
@@ -1783,14 +1783,14 @@ const Header = (): JSX.Element => {
                         </button>
                         <ul className="header__main-nav">
                           <li className="h2--box header__parent-title">
-                            <Link href="/en/explore-aldar/businesses/development/residential/saadiyat-island/saadiyat-reserve-the-dunes">
+                            <Link href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/saadiyat-island/saadiyat-reserve-the-dunes">
                               <span className="all-title">All</span>
                               Saadiyat Reserve The Dunes
                             </Link>
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/saadiyat-island/saadiyat-reserve-the-dunes"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/saadiyat-island/saadiyat-reserve-the-dunes"
                               className="header__sub-link link-only"
                               data-id="{FDF06CEE-59B7-4D34-A482-2EB9036C5521}"
                             >
@@ -1800,7 +1800,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/saadiyat-island/saadiyat-reserve-the-dunes/project-features"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/saadiyat-island/saadiyat-reserve-the-dunes/project-features"
                               className="header__sub-link link-only"
                               data-id="{98975D74-61B3-4515-85CF-EF16F63F29F9}"
                             >
@@ -1830,14 +1830,14 @@ const Header = (): JSX.Element => {
                         </button>
                         <ul className="header__main-nav">
                           <li className="h2--box header__parent-title">
-                            <Link href="/en/explore-aldar/businesses/development/residential/reem-island">
+                            <Link href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/reem-island">
                               <span className="all-title">All</span>
                               Reem Island
                             </Link>
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/reem-island/reflection"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/reem-island/reflection"
                               className="header__sub-link "
                               data-id="{396335A9-6A83-4A49-98CF-F7651BF46CA6}"
                             >
@@ -1847,7 +1847,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/reem-island/shams-meera"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/reem-island/shams-meera"
                               className="header__sub-link "
                               data-id="{F3E7A1D1-E6DE-48E9-A01B-B12905802237}"
                             >
@@ -1857,7 +1857,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/reem-island/arc-towers"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/reem-island/arc-towers"
                               className="header__sub-link "
                               data-id="{CD3C4DC3-528F-49ED-A32E-1E87A14DC259}"
                             >
@@ -1867,7 +1867,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/reem-island/sun-and-sky-towers"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/reem-island/sun-and-sky-towers"
                               className="header__sub-link "
                               data-id="{B497B952-7B8C-404B-9591-6989DA475BF6}"
                             >
@@ -1877,7 +1877,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/reem-island/the-gate-towers"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/reem-island/the-gate-towers"
                               className="header__sub-link "
                               data-id="{6975077A-07FE-46EF-876E-35FC3BA56614}"
                             >
@@ -1887,7 +1887,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/reem-island/the-bridges"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/reem-island/the-bridges"
                               className="header__sub-link "
                               data-id="{17605E68-1FA6-4339-9AAB-5EA1E9680C94}"
                             >
@@ -1917,14 +1917,14 @@ const Header = (): JSX.Element => {
                         </button>
                         <ul className="header__main-nav">
                           <li className="h2--box header__parent-title">
-                            <Link href="/en/explore-aldar/businesses/development/residential/reem-island/reflection">
+                            <Link href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/reem-island/reflection">
                               <span className="all-title">All</span>
                               Reflection
                             </Link>
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/reem-island/reflection/buy"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/reem-island/reflection/buy"
                               className="header__sub-link link-only"
                               data-id="{EE5C8883-EB59-4A8C-A178-CD57FA1D5345}"
                             >
@@ -1934,7 +1934,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/reem-island/reflection"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/reem-island/reflection"
                               className="header__sub-link link-only"
                               data-id="{A58DA9A9-EC2B-414D-8ADE-610102C3D400}"
                             >
@@ -1944,7 +1944,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/reem-island/reflection/project-features"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/reem-island/reflection/project-features"
                               className="header__sub-link link-only"
                               data-id="{65A25586-3090-42D8-8660-9604F8FA96F9}"
                             >
@@ -1974,14 +1974,14 @@ const Header = (): JSX.Element => {
                         </button>
                         <ul className="header__main-nav">
                           <li className="h2--box header__parent-title">
-                            <Link href="/en/explore-aldar/businesses/development/residential/reem-island/shams-meera">
+                            <Link href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/reem-island/shams-meera">
                               <span className="all-title">All</span>
                               Meera
                             </Link>
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/reem-island/shams-meera/buy"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/reem-island/shams-meera/buy"
                               className="header__sub-link link-only"
                               data-id="{6F35A373-9CBE-4FFF-88C3-0F7ABD5FC51D}"
                             >
@@ -1991,7 +1991,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/reem-island/shams-meera"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/reem-island/shams-meera"
                               className="header__sub-link link-only"
                               data-id="{1C6E6158-29CB-4760-B0A1-2CEE86A6BC0F}"
                             >
@@ -2001,7 +2001,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/reem-island/shams-meera/project-features"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/reem-island/shams-meera/project-features"
                               className="header__sub-link link-only"
                               data-id="{46AC8CA8-2A20-4961-893A-035E364365D6}"
                             >
@@ -2031,14 +2031,14 @@ const Header = (): JSX.Element => {
                         </button>
                         <ul className="header__main-nav">
                           <li className="h2--box header__parent-title">
-                            <Link href="/en/explore-aldar/businesses/development/residential/reem-island/arc-towers">
+                            <Link href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/reem-island/arc-towers">
                               <span className="all-title">All</span>
                               Arc Towers
                             </Link>
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/reem-island/arc-towers/rent"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/reem-island/arc-towers/rent"
                               className="header__sub-link link-only"
                               data-id="{479F8C51-11B8-4F5D-B764-9310939B890A}"
                             >
@@ -2048,7 +2048,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/reem-island/arc-towers"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/reem-island/arc-towers"
                               className="header__sub-link link-only"
                               data-id="{168FD3A9-E851-47BC-BB19-54EAADAEAB81}"
                             >
@@ -2058,7 +2058,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/reem-island/arc-towers/project-features"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/reem-island/arc-towers/project-features"
                               className="header__sub-link link-only"
                               data-id="{4D889B4B-FCE5-4C68-9481-08675BD47F5E}"
                             >
@@ -2088,14 +2088,14 @@ const Header = (): JSX.Element => {
                         </button>
                         <ul className="header__main-nav">
                           <li className="h2--box header__parent-title">
-                            <Link href="/en/explore-aldar/businesses/development/residential/reem-island/sun-and-sky-towers">
+                            <Link href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/reem-island/sun-and-sky-towers">
                               <span className="all-title">All</span>
                               Sun and Sky Towers
                             </Link>
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/reem-island/sun-and-sky-towers/rent"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/reem-island/sun-and-sky-towers/rent"
                               className="header__sub-link link-only"
                               data-id="{A430D10D-E10F-4B8A-8B10-47B049928AB6}"
                             >
@@ -2105,7 +2105,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/reem-island/sun-and-sky-towers"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/reem-island/sun-and-sky-towers"
                               className="header__sub-link link-only"
                               data-id="{BE9F11B9-8C62-41F0-8BEF-F3978C42656D}"
                             >
@@ -2115,7 +2115,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/reem-island/sun-and-sky-towers/project-features"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/reem-island/sun-and-sky-towers/project-features"
                               className="header__sub-link link-only"
                               data-id="{CA0A9B35-4837-4318-982B-8B3FA503D927}"
                             >
@@ -2145,14 +2145,14 @@ const Header = (): JSX.Element => {
                         </button>
                         <ul className="header__main-nav">
                           <li className="h2--box header__parent-title">
-                            <Link href="/en/explore-aldar/businesses/development/residential/reem-island/the-gate-towers">
+                            <Link href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/reem-island/the-gate-towers">
                               <span className="all-title">All</span>
                               The Gate Towers
                             </Link>
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/reem-island/the-gate-towers/rent"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/reem-island/the-gate-towers/rent"
                               className="header__sub-link link-only"
                               data-id="{F67A64FB-13B2-48BE-B773-F7BBCCB3BADA}"
                             >
@@ -2162,7 +2162,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/reem-island/the-gate-towers"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/reem-island/the-gate-towers"
                               className="header__sub-link link-only"
                               data-id="{DA8DFF35-2AF7-497A-96ED-59033B741CEA}"
                             >
@@ -2172,7 +2172,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/reem-island/the-gate-towers/project-features"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/reem-island/the-gate-towers/project-features"
                               className="header__sub-link link-only"
                               data-id="{B7C6B6B1-0B24-4CCC-8502-0E113DA4F65D}"
                             >
@@ -2202,14 +2202,14 @@ const Header = (): JSX.Element => {
                         </button>
                         <ul className="header__main-nav">
                           <li className="h2--box header__parent-title">
-                            <Link href="/en/explore-aldar/businesses/development/residential/reem-island/the-bridges">
+                            <Link href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/reem-island/the-bridges">
                               <span className="all-title">All</span>
                               The Bridges
                             </Link>
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/reem-island/the-bridges/buy"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/reem-island/the-bridges/buy"
                               className="header__sub-link link-only"
                               data-id="{5B113795-13E3-49B3-BAC4-3FAECA30E750}"
                             >
@@ -2219,7 +2219,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/reem-island/the-bridges/rent"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/reem-island/the-bridges/rent"
                               className="header__sub-link link-only"
                               data-id="{AE20C0E1-CD79-4764-9E3A-8BCD0DCC7E4E}"
                             >
@@ -2229,7 +2229,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/reem-island/the-bridges"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/reem-island/the-bridges"
                               className="header__sub-link link-only"
                               data-id="{5FDC1F1E-02CF-4B99-A135-51D0BC6CB3E5}"
                             >
@@ -2239,7 +2239,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/reem-island/the-bridges/project-features"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/reem-island/the-bridges/project-features"
                               className="header__sub-link link-only"
                               data-id="{444D2676-6D78-4801-A153-85CE07FF3FD7}"
                             >
@@ -2269,14 +2269,14 @@ const Header = (): JSX.Element => {
                         </button>
                         <ul className="header__main-nav">
                           <li className="h2--box header__parent-title">
-                            <Link href="/en/explore-aldar/businesses/development/residential/al-raha-beach">
+                            <Link href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/al-raha-beach">
                               <span className="all-title">All</span>
                               Al Raha Beach
                             </Link>
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/al-raha-beach/al-bandar"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/al-raha-beach/al-bandar"
                               className="header__sub-link "
                               data-id="{1F83A43C-88A8-46F1-A945-3BA4F246ABA4}"
                             >
@@ -2286,7 +2286,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/al-raha-beach/al-hadeel"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/al-raha-beach/al-hadeel"
                               className="header__sub-link "
                               data-id="{980518E6-64F0-4BDA-9F13-27C0B58D6150}"
                             >
@@ -2296,7 +2296,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/al-raha-beach/al-muneera"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/al-raha-beach/al-muneera"
                               className="header__sub-link "
                               data-id="{E4F6B981-910A-47B6-A092-923FF18EE8C1}"
                             >
@@ -2306,7 +2306,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/al-raha-beach/al-zeina"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/al-raha-beach/al-zeina"
                               className="header__sub-link "
                               data-id="{71056207-DCB6-4CAA-901D-A78BF0D54195}"
                             >
@@ -2336,14 +2336,14 @@ const Header = (): JSX.Element => {
                         </button>
                         <ul className="header__main-nav">
                           <li className="h2--box header__parent-title">
-                            <Link href="/en/explore-aldar/businesses/development/residential/al-raha-beach/al-bandar">
+                            <Link href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/al-raha-beach/al-bandar">
                               <span className="all-title">All</span>
                               Al Bandar
                             </Link>
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/al-raha-beach/al-bandar"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/al-raha-beach/al-bandar"
                               className="header__sub-link link-only"
                               data-id="{A06F460C-4D7B-464F-8F48-B4E96F65D0BF}"
                             >
@@ -2353,7 +2353,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/al-raha-beach/al-bandar/project-features"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/al-raha-beach/al-bandar/project-features"
                               className="header__sub-link link-only"
                               data-id="{766DC3F7-DD0A-4514-B16E-19D4D390B177}"
                             >
@@ -2383,14 +2383,14 @@ const Header = (): JSX.Element => {
                         </button>
                         <ul className="header__main-nav">
                           <li className="h2--box header__parent-title">
-                            <Link href="/en/explore-aldar/businesses/development/residential/al-raha-beach/al-hadeel">
+                            <Link href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/al-raha-beach/al-hadeel">
                               <span className="all-title">All</span>
                               Al Hadeel
                             </Link>
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/al-raha-beach/al-hadeel/buy"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/al-raha-beach/al-hadeel/buy"
                               className="header__sub-link link-only"
                               data-id="{8CA2C15E-6A7B-45FA-8728-28E87C3AA96E}"
                             >
@@ -2400,7 +2400,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/al-raha-beach/al-hadeel"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/al-raha-beach/al-hadeel"
                               className="header__sub-link link-only"
                               data-id="{75B564DF-7A8C-4598-86A9-8776FC22226A}"
                             >
@@ -2410,7 +2410,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/al-raha-beach/al-hadeel/project-features"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/al-raha-beach/al-hadeel/project-features"
                               className="header__sub-link link-only"
                               data-id="{DE0A829B-9456-4A9B-AE6E-09A6AF3FD1F4}"
                             >
@@ -2440,14 +2440,14 @@ const Header = (): JSX.Element => {
                         </button>
                         <ul className="header__main-nav">
                           <li className="h2--box header__parent-title">
-                            <Link href="/en/explore-aldar/businesses/development/residential/al-raha-beach/al-muneera">
+                            <Link href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/al-raha-beach/al-muneera">
                               <span className="all-title">All</span>
                               Al Muneera
                             </Link>
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/al-raha-beach/al-muneera"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/al-raha-beach/al-muneera"
                               className="header__sub-link link-only"
                               data-id="{900C314A-FAEB-453F-B368-5B2233F8786E}"
                             >
@@ -2457,7 +2457,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/al-raha-beach/al-muneera/project-features"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/al-raha-beach/al-muneera/project-features"
                               className="header__sub-link link-only"
                               data-id="{2AA7EE96-8CB2-4562-B4AF-2490B0B79776}"
                             >
@@ -2487,14 +2487,14 @@ const Header = (): JSX.Element => {
                         </button>
                         <ul className="header__main-nav">
                           <li className="h2--box header__parent-title">
-                            <Link href="/en/explore-aldar/businesses/development/residential/al-raha-beach/al-zeina">
+                            <Link href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/al-raha-beach/al-zeina">
                               <span className="all-title">All</span>
                               Al Zeina
                             </Link>
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/al-raha-beach/al-zeina/rent"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/al-raha-beach/al-zeina/rent"
                               className="header__sub-link link-only"
                               data-id="{B2F62060-A5CE-4C20-9F08-6DD70E741A9D}"
                             >
@@ -2504,7 +2504,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/al-raha-beach/al-zeina"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/al-raha-beach/al-zeina"
                               className="header__sub-link link-only"
                               data-id="{A55FD004-3F0C-4B11-B53C-86517E86988D}"
                             >
@@ -2514,7 +2514,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/al-raha-beach/al-zeina/project-features"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/al-raha-beach/al-zeina/project-features"
                               className="header__sub-link link-only"
                               data-id="{A828138B-FABC-4A06-A84C-2DD7FA670E45}"
                             >
@@ -2544,14 +2544,14 @@ const Header = (): JSX.Element => {
                         </button>
                         <ul className="header__main-nav">
                           <li className="h2--box header__parent-title">
-                            <Link href="/en/explore-aldar/businesses/development/residential/other-destinations">
+                            <Link href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations">
                               <span className="all-title">All</span>
                               Other Destinations
                             </Link>
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/other-destinations/alghadeer"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/alghadeer"
                               className="header__sub-link "
                               data-id="{B523CA2D-1D14-4A08-A2D9-BA2F3209AD95}"
                             >
@@ -2561,7 +2561,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/other-destinations/al-reeman-i"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/al-reeman-i"
                               className="header__sub-link "
                               data-id="{A2D670C8-3C9D-4EEF-8AF6-7293849B9593}"
                             >
@@ -2571,7 +2571,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/other-destinations/fay-alreeman"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/fay-alreeman"
                               className="header__sub-link "
                               data-id="{65F6623B-B71F-47DE-94FE-401F6E6270FE}"
                             >
@@ -2581,7 +2581,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/other-destinations/fay-alreeman-ii"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/fay-alreeman-ii"
                               className="header__sub-link link-only"
                               data-id="{FFF66263-8BBC-41BE-9129-45BF91AE8CDF}"
                             >
@@ -2591,7 +2591,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/other-destinations/haven"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/haven"
                               className="header__sub-link link-only"
                               data-id="{8ABBC01F-7EE8-44DF-B40D-2D8461584488}"
                             >
@@ -2601,7 +2601,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/other-destinations/reeman-living-phase-2"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/reeman-living-phase-2"
                               className="header__sub-link link-only"
                               data-id="{74F1CCCF-9ECC-4A68-9E7D-8F0F64C434D2}"
                             >
@@ -2611,7 +2611,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/other-destinations/al-reeman-ii"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/al-reeman-ii"
                               className="header__sub-link "
                               data-id="{5CE39564-048D-4755-9FD1-57FEDECDD32E}"
                             >
@@ -2621,7 +2621,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/other-destinations/the-burj-mohammed-bin-rashid"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/the-burj-mohammed-bin-rashid"
                               className="header__sub-link "
                               data-id="{37E48DFC-0814-4DEC-A4FD-EB8E14FFB9BE}"
                             >
@@ -2631,7 +2631,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/other-destinations/al-oyoun-village"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/al-oyoun-village"
                               className="header__sub-link "
                               data-id="{FA773F02-4C48-44B5-9FD0-EED89C7B1224}"
                             >
@@ -2641,7 +2641,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/other-destinations/al-rayyana"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/al-rayyana"
                               className="header__sub-link "
                               data-id="{78DE6479-8EEC-452F-AFBF-A2891116350E}"
                             >
@@ -2651,7 +2651,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/other-destinations/eastern-mangroves"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/eastern-mangroves"
                               className="header__sub-link "
                               data-id="{66443945-C160-4BFD-8B84-C4FD7D0267A7}"
                             >
@@ -2661,7 +2661,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/other-destinations/nareel-island"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/nareel-island"
                               className="header__sub-link "
                               data-id="{87FB50B5-35AA-444E-A848-4DB8254CAC1C}"
                             >
@@ -2671,7 +2671,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/other-destinations/sas-al-nakhl-village"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/sas-al-nakhl-village"
                               className="header__sub-link "
                               data-id="{33C4F553-0DF5-4964-9025-21236A4595C2}"
                             >
@@ -2701,14 +2701,14 @@ const Header = (): JSX.Element => {
                         </button>
                         <ul className="header__main-nav">
                           <li className="h2--box header__parent-title">
-                            <Link href="/en/explore-aldar/businesses/development/residential/other-destinations/alghadeer">
+                            <Link href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/alghadeer">
                               <span className="all-title">All</span>
                               Alghadeer
                             </Link>
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/other-destinations/alghadeer/buy"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/alghadeer/buy"
                               className="header__sub-link link-only"
                               data-id="{18EDA008-CEF9-439A-BC63-444F65954194}"
                             >
@@ -2718,7 +2718,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/other-destinations/alghadeer"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/alghadeer"
                               className="header__sub-link link-only"
                               data-id="{19181505-6987-420F-AD21-D5085124903A}"
                             >
@@ -2728,7 +2728,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/other-destinations/alghadeer/project-features"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/alghadeer/project-features"
                               className="header__sub-link link-only"
                               data-id="{7866EA9C-093B-42C8-A790-3A9325551666}"
                             >
@@ -2758,14 +2758,14 @@ const Header = (): JSX.Element => {
                         </button>
                         <ul className="header__main-nav">
                           <li className="h2--box header__parent-title">
-                            <Link href="/en/explore-aldar/businesses/development/residential/other-destinations/al-reeman-i">
+                            <Link href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/al-reeman-i">
                               <span className="all-title">All</span>
                               Alreeman
                             </Link>
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/other-destinations/al-reeman-i/buy"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/al-reeman-i/buy"
                               className="header__sub-link link-only"
                               data-id="{EC95B9BB-A0A6-4976-BC1A-8749360CE872}"
                             >
@@ -2775,7 +2775,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/other-destinations/al-reeman-i"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/al-reeman-i"
                               className="header__sub-link link-only"
                               data-id="{D5BE6F4A-1784-4BC1-8D86-E9867A155BD2}"
                             >
@@ -2785,7 +2785,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/other-destinations/al-reeman-i/project-features"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/al-reeman-i/project-features"
                               className="header__sub-link link-only"
                               data-id="{E25201FA-C758-4E9A-A0AB-5FE6CB495288}"
                             >
@@ -2815,14 +2815,14 @@ const Header = (): JSX.Element => {
                         </button>
                         <ul className="header__main-nav">
                           <li className="h2--box header__parent-title">
-                            <Link href="/en/explore-aldar/businesses/development/residential/other-destinations/fay-alreeman">
+                            <Link href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/fay-alreeman">
                               <span className="all-title">All</span>
                               Fay Alreeman
                             </Link>
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/other-destinations/fay-alreeman"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/fay-alreeman"
                               className="header__sub-link link-only"
                               data-id="{21768820-5496-439C-8D75-05CCDAE43344}"
                             >
@@ -2832,7 +2832,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/other-destinations/fay-alreeman/project-features"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/fay-alreeman/project-features"
                               className="header__sub-link link-only"
                               data-id="{056FEDF9-ECAE-40E7-AE01-E9B8848A14ED}"
                             >
@@ -2862,14 +2862,14 @@ const Header = (): JSX.Element => {
                         </button>
                         <ul className="header__main-nav">
                           <li className="h2--box header__parent-title">
-                            <Link href="/en/explore-aldar/businesses/development/residential/other-destinations/al-reeman-ii">
+                            <Link href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/al-reeman-ii">
                               <span className="all-title">All</span>
                               Alreeman II
                             </Link>
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/other-destinations/al-reeman-ii"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/al-reeman-ii"
                               className="header__sub-link link-only"
                               data-id="{40B7FFA7-FB72-4657-A3D4-ECF4F9BAA858}"
                             >
@@ -2879,7 +2879,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/other-destinations/al-reeman-ii/project-features"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/al-reeman-ii/project-features"
                               className="header__sub-link link-only"
                               data-id="{5DD6BDCE-84BB-475D-813F-B90404C7BF73}"
                             >
@@ -2909,14 +2909,14 @@ const Header = (): JSX.Element => {
                         </button>
                         <ul className="header__main-nav">
                           <li className="h2--box header__parent-title">
-                            <Link href="/en/explore-aldar/businesses/development/residential/other-destinations/the-burj-mohammed-bin-rashid">
+                            <Link href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/the-burj-mohammed-bin-rashid">
                               <span className="all-title">All</span>
                               The Burj Mohammed Bin Rashid
                             </Link>
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/other-destinations/the-burj-mohammed-bin-rashid/rent"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/the-burj-mohammed-bin-rashid/rent"
                               className="header__sub-link link-only"
                               data-id="{B360D13F-D655-4B43-ADA8-057D83FF8BD0}"
                             >
@@ -2926,7 +2926,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/other-destinations/the-burj-mohammed-bin-rashid"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/the-burj-mohammed-bin-rashid"
                               className="header__sub-link link-only"
                               data-id="{C09CDAE1-C15A-4ACC-89F6-7FBE4396BCA3}"
                             >
@@ -2936,7 +2936,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/other-destinations/the-burj-mohammed-bin-rashid/project-features"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/the-burj-mohammed-bin-rashid/project-features"
                               className="header__sub-link link-only"
                               data-id="{D410D016-790E-4603-8A2C-CD47FF4BAA43}"
                             >
@@ -2966,14 +2966,14 @@ const Header = (): JSX.Element => {
                         </button>
                         <ul className="header__main-nav">
                           <li className="h2--box header__parent-title">
-                            <Link href="/en/explore-aldar/businesses/development/residential/other-destinations/al-oyoun-village">
+                            <Link href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/al-oyoun-village">
                               <span className="all-title">All</span>
                               Al Oyoun Village
                             </Link>
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/other-destinations/al-oyoun-village/rent"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/al-oyoun-village/rent"
                               className="header__sub-link link-only"
                               data-id="{740043E2-472F-4FB0-A354-2BC75580FB07}"
                             >
@@ -2983,7 +2983,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/other-destinations/al-oyoun-village"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/al-oyoun-village"
                               className="header__sub-link link-only"
                               data-id="{8EC0BEEF-7E3C-4F17-8CFF-3909AD77DA70}"
                             >
@@ -2993,7 +2993,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/other-destinations/al-oyoun-village/project-features"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/al-oyoun-village/project-features"
                               className="header__sub-link link-only"
                               data-id="{13284A22-30BD-4A8E-8E55-75557E44CB49}"
                             >
@@ -3023,14 +3023,14 @@ const Header = (): JSX.Element => {
                         </button>
                         <ul className="header__main-nav">
                           <li className="h2--box header__parent-title">
-                            <Link href="/en/explore-aldar/businesses/development/residential/other-destinations/al-rayyana">
+                            <Link href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/al-rayyana">
                               <span className="all-title">All</span>
                               Al Rayyana
                             </Link>
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/other-destinations/al-rayyana/rent"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/al-rayyana/rent"
                               className="header__sub-link link-only"
                               data-id="{B7940374-25CC-44D1-8FDC-2637C2A83763}"
                             >
@@ -3040,7 +3040,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/other-destinations/al-rayyana"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/al-rayyana"
                               className="header__sub-link link-only"
                               data-id="{1ACD3476-62FF-4373-9816-8464816782E3}"
                             >
@@ -3050,7 +3050,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/other-destinations/al-rayyana/project-features"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/al-rayyana/project-features"
                               className="header__sub-link link-only"
                               data-id="{FA20F481-3A0A-4106-8454-FF14846DE7A2}"
                             >
@@ -3080,14 +3080,14 @@ const Header = (): JSX.Element => {
                         </button>
                         <ul className="header__main-nav">
                           <li className="h2--box header__parent-title">
-                            <Link href="/en/explore-aldar/businesses/development/residential/other-destinations/eastern-mangroves">
+                            <Link href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/eastern-mangroves">
                               <span className="all-title">All</span>
                               Eastern Mangroves
                             </Link>
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/other-destinations/eastern-mangroves/rent"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/eastern-mangroves/rent"
                               className="header__sub-link link-only"
                               data-id="{0EFF00B2-36EA-4324-920F-9ABD6137FB3A}"
                             >
@@ -3097,7 +3097,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/other-destinations/eastern-mangroves"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/eastern-mangroves"
                               className="header__sub-link link-only"
                               data-id="{9AB12800-E0A1-4968-B3B6-615159757C3C}"
                             >
@@ -3107,7 +3107,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/other-destinations/eastern-mangroves/project-features"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/eastern-mangroves/project-features"
                               className="header__sub-link link-only"
                               data-id="{BAB9B051-7971-44A4-991F-8CA1060DA5A3}"
                             >
@@ -3137,14 +3137,14 @@ const Header = (): JSX.Element => {
                         </button>
                         <ul className="header__main-nav">
                           <li className="h2--box header__parent-title">
-                            <Link href="/en/explore-aldar/businesses/development/residential/other-destinations/nareel-island">
+                            <Link href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/nareel-island">
                               <span className="all-title">All</span>
                               Nareel Island
                             </Link>
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/other-destinations/nareel-island"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/nareel-island"
                               className="header__sub-link link-only"
                               data-id="{A588FB5E-BE62-45BB-A6EE-A57C88F22F63}"
                             >
@@ -3154,7 +3154,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/other-destinations/nareel-island/project-features"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/nareel-island/project-features"
                               className="header__sub-link link-only"
                               data-id="{A39600BA-DC28-44E9-A5F8-20CEA0588134}"
                             >
@@ -3184,14 +3184,14 @@ const Header = (): JSX.Element => {
                         </button>
                         <ul className="header__main-nav">
                           <li className="h2--box header__parent-title">
-                            <Link href="/en/explore-aldar/businesses/development/residential/other-destinations/sas-al-nakhl-village">
+                            <Link href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/sas-al-nakhl-village">
                               <span className="all-title">All</span>
                               Sas Al Nakhl Village
                             </Link>
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/other-destinations/sas-al-nakhl-village"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/sas-al-nakhl-village"
                               className="header__sub-link link-only"
                               data-id="{16F3A5AE-759B-41DD-87AD-538B798FB2DC}"
                             >
@@ -3201,7 +3201,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential/other-destinations/sas-al-nakhl-village/project-features"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/sas-al-nakhl-village/project-features"
                               className="header__sub-link link-only"
                               data-id="{9A697402-AD00-4FFD-AC3D-EBE471834E81}"
                             >
@@ -3238,7 +3238,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/investment/commercial"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/investment/commercial"
                               className="header__sub-link "
                               data-id="{5D5E561C-5907-41A9-AD36-42C290DA47C8}"
                             >
@@ -3248,7 +3248,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/investment/retail"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/investment/retail"
                               className="header__sub-link "
                               data-id="{26539EF0-A460-4DD0-814C-3D95293A4241}"
                             >
@@ -3278,14 +3278,14 @@ const Header = (): JSX.Element => {
                         </button>
                         <ul className="header__main-nav">
                           <li className="h2--box header__parent-title">
-                            <Link href="/en/explore-aldar/businesses/investment/commercial">
+                            <Link href="https://www.aldar.com/en/explore-aldar/businesses/investment/commercial">
                               <span className="all-title">All</span>
                               Commercial
                             </Link>
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/investment/commercial/offices"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/investment/commercial/offices"
                               className="header__sub-link link-only"
                               data-id="{30DCD8DE-491C-452A-BF4A-D2C30BB34045}"
                             >
@@ -3315,14 +3315,14 @@ const Header = (): JSX.Element => {
                         </button>
                         <ul className="header__main-nav">
                           <li className="h2--box header__parent-title">
-                            <Link href="/en/explore-aldar/businesses/investment/retail">
+                            <Link href="https://www.aldar.com/en/explore-aldar/businesses/investment/retail">
                               <span className="all-title">All</span>
                               Retail
                             </Link>
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/investment/retail/malls"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/investment/retail/malls"
                               className="header__sub-link link-only"
                               data-id="{CE9DFD8D-7668-41F1-A97B-B9CC085F1848}"
                             >
@@ -3332,7 +3332,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/investment/retail/communities"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/investment/retail/communities"
                               className="header__sub-link link-only"
                               data-id="{E5AC1E12-288C-46A3-8E4A-47AEBC861D73}"
                             >
@@ -3362,14 +3362,14 @@ const Header = (): JSX.Element => {
                         </button>
                         <ul className="header__main-nav">
                           <li className="h2--box header__parent-title">
-                            <Link href="/en/explore-aldar/businesses/education">
+                            <Link href="https://www.aldar.com/en/explore-aldar/businesses/education">
                               <span className="all-title">All</span>
                               Education
                             </Link>
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/education/academies"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/education/academies"
                               className="header__sub-link link-only"
                               data-id="{4692C89B-3318-4982-BE6C-F364A792FA2B}"
                             >
@@ -3379,7 +3379,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/education/our-schools"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/education/our-schools"
                               className="header__sub-link link-only"
                               data-id="{49345935-4AE4-4D0A-AF37-BF54C7B3EF4F}"
                             >
@@ -3389,7 +3389,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/education/aldar-training-academy"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/education/aldar-training-academy"
                               className="header__sub-link link-only"
                               data-id="{DE6E09D8-554B-45FE-B53A-C9CAD3528DB5}"
                             >
@@ -3419,14 +3419,14 @@ const Header = (): JSX.Element => {
                         </button>
                         <ul className="header__main-nav">
                           <li className="h2--box header__parent-title">
-                            <Link href="/en/explore-aldar/businesses/hospitality">
+                            <Link href="https://www.aldar.com/en/explore-aldar/businesses/hospitality">
                               <span className="all-title">All</span>
                               Hospitality
                             </Link>
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/hospitality/hotels"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/hospitality/hotels"
                               className="header__sub-link link-only"
                               data-id="{FCDBCFCE-4CEE-41FA-961C-53C9DF45AE00}"
                             >
@@ -3436,7 +3436,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/hospitality/golf-course"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/hospitality/golf-course"
                               className="header__sub-link link-only"
                               data-id="{D036E6EB-0A3E-4887-84F5-7130F59FA18D}"
                             >
@@ -3446,7 +3446,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/hospitality/beach-clubs"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/hospitality/beach-clubs"
                               className="header__sub-link link-only"
                               data-id="{A1F99369-F49C-452D-9149-EC2365E0DB55}"
                             >
@@ -3456,7 +3456,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/hospitality/marinas"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/hospitality/marinas"
                               className="header__sub-link link-only"
                               data-id="{E05CE5A0-1F06-4103-B8A0-774E546090B2}"
                             >
@@ -3466,7 +3466,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/businesses/hospitality/parks"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/hospitality/parks"
                               className="header__sub-link link-only"
                               data-id="{73190DEC-E14C-408D-BD66-4FAB0D6BD7F9}"
                             >
@@ -3496,14 +3496,14 @@ const Header = (): JSX.Element => {
                         </button>
                         <ul className="header__main-nav">
                           <li className="h2--box header__parent-title">
-                            <Link href="/en/explore-aldar/sustainability">
+                            <Link href="https://www.aldar.com/en/explore-aldar/sustainability">
                               <span className="all-title">All</span>
                               Sustainability
                             </Link>
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/sustainability/strategy"
+                              href="https://www.aldar.com/en/explore-aldar/sustainability/strategy"
                               className="header__sub-link link-only"
                               data-id="{B5EB0316-FB2D-48D2-B04A-A71EB98F108A}"
                             >
@@ -3513,7 +3513,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/sustainability/governance-and-policies"
+                              href="https://www.aldar.com/en/explore-aldar/sustainability/governance-and-policies"
                               className="header__sub-link link-only"
                               data-id="{D0429E8E-1137-495F-B944-185189735226}"
                             >
@@ -3523,7 +3523,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/sustainability/reporting"
+                              href="https://www.aldar.com/en/explore-aldar/sustainability/reporting"
                               className="header__sub-link link-only"
                               data-id="{155F87DD-395A-497E-A2D8-C493974DBDDD}"
                             >
@@ -3533,7 +3533,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/sustainability/netzero"
+                              href="https://www.aldar.com/en/explore-aldar/sustainability/netzero"
                               className="header__sub-link link-only"
                               data-id="{784C5843-44A6-45F4-A50D-3744F1CA7C89}"
                             >
@@ -3543,7 +3543,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/sustainability/corporate-social-responsibility"
+                              href="https://www.aldar.com/en/explore-aldar/sustainability/corporate-social-responsibility"
                               className="header__sub-link link-only"
                               data-id="{A22FC8BC-8906-44DD-9111-51FAB0CFDA98}"
                             >
@@ -3573,14 +3573,14 @@ const Header = (): JSX.Element => {
                         </button>
                         <ul className="header__main-nav">
                           <li className="h2--box header__parent-title">
-                            <Link href="/en/explore-aldar/live-aldar">
+                            <Link href="https://www.aldar.com/en/explore-aldar/live-aldar">
                               <span className="all-title">All</span>
                               Live Aldar
                             </Link>
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/live-aldar/year-of-sustainability"
+                              href="https://www.aldar.com/en/explore-aldar/live-aldar/year-of-sustainability"
                               className="header__sub-link link-only"
                               data-id="{D67003EC-D707-4F3F-8691-1ACAA3D8A833}"
                             >
@@ -3590,7 +3590,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/live-aldar/emirati-womens-day"
+                              href="https://www.aldar.com/en/explore-aldar/live-aldar/emirati-womens-day"
                               className="header__sub-link link-only"
                               data-id="{5BED3181-2327-43A8-895A-DDCDFA69D8DD}"
                             >
@@ -3600,7 +3600,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/live-aldar/ahal-aldar"
+                              href="https://www.aldar.com/en/explore-aldar/live-aldar/ahal-aldar"
                               className="header__sub-link link-only"
                               data-id="{0A999D4B-7AF3-4460-918B-9CE7A59E5B13}"
                             >
@@ -3610,7 +3610,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/live-aldar/aldar-stories"
+                              href="https://www.aldar.com/en/explore-aldar/live-aldar/aldar-stories"
                               className="header__sub-link link-only"
                               data-id="{B0CD045F-75F7-42CD-A6D3-EDF4100BFD4C}"
                             >
@@ -3620,7 +3620,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/live-aldar/in-focus"
+                              href="https://www.aldar.com/en/explore-aldar/live-aldar/in-focus"
                               className="header__sub-link link-only"
                               data-id="{423FBF61-A413-4359-94C8-C7202FF8BDC3}"
                             >
@@ -3650,14 +3650,14 @@ const Header = (): JSX.Element => {
                         </button>
                         <ul className="header__main-nav">
                           <li className="h2--box header__parent-title">
-                            <Link href="/en/explore-aldar/innovation">
+                            <Link href="https://www.aldar.com/en/explore-aldar/innovation">
                               <span className="all-title">All</span>
                               Innovation
                             </Link>
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/innovation/manassah3"
+                              href="https://www.aldar.com/en/explore-aldar/innovation/manassah3"
                               className="header__sub-link link-only"
                               data-id="{3C7FD7D4-7031-4088-A00A-AFEDE6B3AE53}"
                             >
@@ -3667,7 +3667,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/innovation/scale-up"
+                              href="https://www.aldar.com/en/explore-aldar/innovation/scale-up"
                               className="header__sub-link link-only"
                               data-id="{479D9BCF-6B82-4765-B3C1-0AD47A535877}"
                             >
@@ -3704,7 +3704,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/news-and-media"
+                              href="https://www.aldar.com/en/news-and-media"
                               className="header__sub-link link-only"
                               data-id="{6EDDB5A5-1B3E-4DC8-94B9-3F2C057226D3}"
                             >
@@ -3714,7 +3714,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/media/gallery"
+                              href="https://www.aldar.com/en/media/gallery"
                               className="header__sub-link link-only"
                               data-id="{2D5AC7A9-BC36-42A2-A979-AE0F9F91A55C}"
                             >
@@ -3724,7 +3724,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/blog"
+                              href="https://www.aldar.com/en/blog"
                               className="header__sub-link link-only"
                               data-id="{3740875F-9D20-4E51-8492-DF8B8937FCED}"
                             >
@@ -3801,7 +3801,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/investors/financial-calendar"
+                              href="https://www.aldar.com/en/investors/financial-calendar"
                               className="header__sub-link link-only"
                               data-id="{ECEB7D6B-8BC0-416A-8C96-1F722788AE58}"
                             >
@@ -3811,7 +3811,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/investors/company-announcements"
+                              href="https://www.aldar.com/en/investors/company-announcements"
                               className="header__sub-link link-only"
                               data-id="{CC96C208-2747-4766-98AB-FF980592A17F}"
                             >
@@ -3858,7 +3858,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/investors/reports/annual-reports"
+                              href="https://www.aldar.com/en/investors/reports/annual-reports"
                               className="header__sub-link link-only"
                               data-id="{A0F832BE-96D5-4499-B1D5-B164755C1A6F}"
                             >
@@ -3868,7 +3868,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/investors/reports/financial-statements"
+                              href="https://www.aldar.com/en/investors/reports/financial-statements"
                               className="header__sub-link link-only"
                               data-id="{E220C1C9-08BB-4404-9B83-2DC2903D42B1}"
                             >
@@ -3878,7 +3878,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/investors/reports/quarterly-results"
+                              href="https://www.aldar.com/en/investors/reports/quarterly-results"
                               className="header__sub-link link-only"
                               data-id="{F424634B-9982-4F07-82FD-80C3ECBE2D90}"
                             >
@@ -3888,7 +3888,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/investors/reports/investor-presentations"
+                              href="https://www.aldar.com/en/investors/reports/investor-presentations"
                               className="header__sub-link link-only"
                               data-id="{7294A2D5-21D6-45A6-85B9-80C4F60B9460}"
                             >
@@ -3898,7 +3898,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/investors/reports/sustainability-reports"
+                              href="https://www.aldar.com/en/investors/reports/sustainability-reports"
                               className="header__sub-link link-only"
                               data-id="{861870A4-2B6E-4AAD-988B-62F4A1DB4A31}"
                             >
@@ -3908,7 +3908,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/investors/reports/capital-markets-day"
+                              href="https://www.aldar.com/en/investors/reports/capital-markets-day"
                               className="header__sub-link link-only"
                               data-id="{50C2BEAF-5762-4592-B3F5-CCECA1A528DD}"
                             >
@@ -3918,7 +3918,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/investors/reports/factsheet"
+                              href="https://www.aldar.com/en/investors/reports/factsheet"
                               className="header__sub-link link-only"
                               data-id="{37F84296-BF15-4F19-B66E-821ACF071C30}"
                             >
@@ -3928,7 +3928,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/investors/reports/key-figures"
+                              href="https://www.aldar.com/en/investors/reports/key-figures"
                               className="header__sub-link link-only"
                               data-id="{2C59EFA3-CFE2-443E-B6E2-107AE0D8E39A}"
                             >
@@ -3965,7 +3965,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/investors/shareholders/share-information"
+                              href="https://www.aldar.com/en/investors/shareholders/share-information"
                               className="header__sub-link link-only"
                               data-id="{2226BFF2-7D85-4557-8428-B96C8E49B771}"
                             >
@@ -3975,7 +3975,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/investors/shareholders/dividends"
+                              href="https://www.aldar.com/en/investors/shareholders/dividends"
                               className="header__sub-link link-only"
                               data-id="{490C743E-70DB-4C03-A02B-C7916BBB8782}"
                             >
@@ -3985,7 +3985,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/explore-aldar/corporate-governance#AGM"
+                              href="https://www.aldar.com/en/explore-aldar/corporate-governance#AGM"
                               className="header__sub-link link-only"
                               data-id="{5658F475-5E4A-44E2-9E65-716B93C03568}"
                             >
@@ -4022,7 +4022,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/investors/debt/credit-ratings"
+                              href="https://www.aldar.com/en/investors/debt/credit-ratings"
                               className="header__sub-link link-only"
                               data-id="{CF6B51EE-7B05-4E66-95E7-6F26FCA32431}"
                             >
@@ -4032,7 +4032,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/investors/debt/issuances"
+                              href="https://www.aldar.com/en/investors/debt/issuances"
                               className="header__sub-link link-only"
                               data-id="{F7137ACD-5195-4FBF-AF5F-33D215161C82}"
                             >
@@ -4042,7 +4042,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/investors/debt/debt-investor-presentations"
+                              href="https://www.aldar.com/en/investors/debt/debt-investor-presentations"
                               className="header__sub-link link-only"
                               data-id="{9B9AE755-F4A0-4D3C-BF6F-AA1601906327}"
                             >
@@ -4079,7 +4079,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/investors/coverage/analyst-list"
+                              href="https://www.aldar.com/en/investors/coverage/analyst-list"
                               className="header__sub-link link-only"
                               data-id="{B9B7F8C1-CF6B-403C-92DB-E890072F970B}"
                             >
@@ -4089,7 +4089,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/investors/coverage/recommendation-overview"
+                              href="https://www.aldar.com/en/investors/coverage/recommendation-overview"
                               className="header__sub-link link-only"
                               data-id="{D9044F29-F6BB-4958-800A-B52ACDA01079}"
                             >
@@ -4126,7 +4126,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/investors/contact-us/contact-details"
+                              href="https://www.aldar.com/en/investors/contact-us/contact-details"
                               className="header__sub-link link-only"
                               data-id="{91DD581A-84F5-4B60-BE29-926773438CDF}"
                             >
@@ -4136,7 +4136,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/investors/contact-us/subscription-center"
+                              href="https://www.aldar.com/en/investors/contact-us/subscription-center"
                               className="header__sub-link link-only"
                               data-id="{9AE68490-E06D-4D0D-9A16-6F46BC25E699}"
                             >
@@ -4185,7 +4185,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/careers/graduate-programme"
+                              href="https://www.aldar.com/en/careers/graduate-programme"
                               className="header__sub-link link-only"
                               data-id="{CA3257B0-AB3A-4779-98B0-88FE1CE06153}"
                             >
@@ -4215,7 +4215,7 @@ const Header = (): JSX.Element => {
                         </button>
                         <ul className="header__main-nav">
                           <li className="h2--box header__parent-title">
-                            <Link href="/en">
+                            <Link href="https://www.aldar.com/en">
                               <span className="all-title">All</span>
                               Buy
                             </Link>
@@ -4232,7 +4232,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/buying-lands"
+                              href="https://www.aldar.com/en/buying-lands"
                               className="header__sub-link link-only"
                               data-id="{F9060D7D-AA8E-4C61-9B8E-D443479320A9}"
                             >
@@ -4262,14 +4262,14 @@ const Header = (): JSX.Element => {
                         </button>
                         <ul className="header__main-nav">
                           <li className="h2--box header__parent-title">
-                            <Link href="/en">
+                            <Link href="https://www.aldar.com/en">
                               <span className="all-title">All</span>
                               Rent
                             </Link>
                           </li>
                           <li>
                             <Link
-                              href="/en/rent-residential"
+                              href="https://www.aldar.com/en/rent-residential"
                               className="header__sub-link link-only"
                               data-id="{9F43B032-373E-40B6-A571-CE2FEA369D1B}"
                             >
@@ -4279,7 +4279,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/renting-commercial"
+                              href="https://www.aldar.com/en/renting-commercial"
                               className="header__sub-link link-only"
                               data-id="{57C183B5-C6BF-4FDF-A346-54DC3244E1FC}"
                             >
@@ -4289,7 +4289,7 @@ const Header = (): JSX.Element => {
                           </li>
                           <li>
                             <Link
-                              href="/en/retail-renting"
+                              href="https://www.aldar.com/en/retail-renting"
                               className="header__sub-link link-only"
                               data-id="{F6B4B6E2-16B2-4112-BE7E-97278204E21F}"
                             >
@@ -4368,14 +4368,14 @@ const Header = (): JSX.Element => {
                               data-language-code="en"
                               data-country-code="us"
                             >
-                              <Link href="/en">English</Link>
+                              <Link href="https://www.aldar.com/en">English</Link>
                             </li>
                             <li
                               className="language-selector-item"
                               data-language-code="ar"
                               data-country-code="sa"
                             >
-                              <Link href="/ar">العربية</Link>
+                              <Link href="https://www.aldar.com/ar">العربية</Link>
                             </li>
                           </ul>
                         </div>
@@ -4387,7 +4387,7 @@ const Header = (): JSX.Element => {
                   <nav>
                     <ul className="header__commerce-nav">
                       <li>
-                        <Link href="/en" className="header__main-link">
+                        <Link href="https://www.aldar.com/en" className="header__main-link">
                           Buy
                         </Link>
                         <div className="header__commerce-nav_dd">
@@ -4408,7 +4408,10 @@ const Header = (): JSX.Element => {
                               </Link>
                             </li>
                             <li>
-                              <Link href="/en/buying-lands" className="header__commerce-nav_link">
+                              <Link
+                                href="https://www.aldar.com/en/buying-lands"
+                                className="header__commerce-nav_link"
+                              >
                                 Building Plots
                               </Link>
                             </li>
@@ -4416,7 +4419,7 @@ const Header = (): JSX.Element => {
                         </div>
                       </li>
                       <li>
-                        <Link href="/en" className="header__main-link">
+                        <Link href="https://www.aldar.com/en" className="header__main-link">
                           Rent
                         </Link>
                         <div className="header__commerce-nav_dd">
@@ -4430,7 +4433,7 @@ const Header = (): JSX.Element => {
                           <ul className="header__commerce-nav_list">
                             <li>
                               <Link
-                                href="/en/rent-residential"
+                                href="https://www.aldar.com/en/rent-residential"
                                 className="header__commerce-nav_link"
                               >
                                 Residential
@@ -4438,14 +4441,17 @@ const Header = (): JSX.Element => {
                             </li>
                             <li>
                               <Link
-                                href="/en/renting-commercial"
+                                href="https://www.aldar.com/en/renting-commercial"
                                 className="header__commerce-nav_link"
                               >
                                 Commercial
                               </Link>
                             </li>
                             <li>
-                              <Link href="/en/retail-renting" className="header__commerce-nav_link">
+                              <Link
+                                href="https://www.aldar.com/en/retail-renting"
+                                className="header__commerce-nav_link"
+                              >
                                 Retail
                               </Link>
                             </li>
@@ -4477,14 +4483,14 @@ const Header = (): JSX.Element => {
                               data-language-code="en"
                               data-country-code="us"
                             >
-                              <Link href="/en">English</Link>
+                              <Link href="https://www.aldar.com/en">English</Link>
                             </li>
                             <li
                               className="language-selector-item"
                               data-language-code="ar"
                               data-country-code="sa"
                             >
-                              <Link href="/ar">العربية</Link>
+                              <Link href="https://www.aldar.com/ar">العربية</Link>
                             </li>
                           </ul>
                         </div>
@@ -4523,7 +4529,7 @@ const Header = (): JSX.Element => {
                     data-id="{8279EB7A-C24F-41D5-B0EF-C5AF1F22E83A}"
                   >
                     <Link
-                      href="/en/about-abu-dhabi/market-overview"
+                      href="https://www.aldar.com/en/about-abu-dhabi/market-overview"
                       className="header__menu-dropdown__item__link"
                       data-id="{8279EB7A-C24F-41D5-B0EF-C5AF1F22E83A}"
                     >
@@ -4535,7 +4541,7 @@ const Header = (): JSX.Element => {
                     data-id="{EEBC96FD-28D6-4B0C-A9DC-64C511199FED}"
                   >
                     <Link
-                      href="/en/about-abu-dhabi/golden-visa"
+                      href="https://www.aldar.com/en/about-abu-dhabi/golden-visa"
                       className="header__menu-dropdown__item__link"
                       data-id="{EEBC96FD-28D6-4B0C-A9DC-64C511199FED}"
                     >
@@ -4547,7 +4553,7 @@ const Header = (): JSX.Element => {
                     data-id="{1FB15AF7-A639-46D7-BC66-96C67A7064D3}"
                   >
                     <Link
-                      href="/en/about-abu-dhabi/dari"
+                      href="https://www.aldar.com/en/about-abu-dhabi/dari"
                       className="header__menu-dropdown__item__link"
                       data-id="{1FB15AF7-A639-46D7-BC66-96C67A7064D3}"
                     >
@@ -4573,7 +4579,7 @@ const Header = (): JSX.Element => {
                         data-id="{FF0DB164-0BB2-448F-AC11-793181A264D2}"
                       >
                         <Link
-                          href="/en/explore-aldar/about-aldar/story"
+                          href="https://www.aldar.com/en/explore-aldar/about-aldar/story"
                           className="header__menu-dropdown__item__link"
                         >
                           <span>Story</span>
@@ -4584,7 +4590,7 @@ const Header = (): JSX.Element => {
                         data-id="{3F65314F-B4DE-4A4B-BCBA-6C0C20D96AD8}"
                       >
                         <Link
-                          href="/en/explore-aldar/about-aldar/leadership"
+                          href="https://www.aldar.com/en/explore-aldar/about-aldar/leadership"
                           className="header__menu-dropdown__item__link"
                         >
                           <span>Leadership</span>
@@ -4595,7 +4601,7 @@ const Header = (): JSX.Element => {
                         data-id="{BDA7F4C7-4AE0-4733-AA7B-4CACA48A7F21}"
                       >
                         <Link
-                          href="/en/explore-aldar/about-aldar/culture-and-values"
+                          href="https://www.aldar.com/en/explore-aldar/about-aldar/culture-and-values"
                           className="header__menu-dropdown__item__link"
                         >
                           <span>Culture and Values</span>
@@ -4609,7 +4615,7 @@ const Header = (): JSX.Element => {
                             data-id="{2FAEBCD7-E441-4BDA-B895-FD1DF647EDA7}"
                           >
                             <Link
-                              href="/en/explore-aldar/about-aldar/culture-and-values/values"
+                              href="https://www.aldar.com/en/explore-aldar/about-aldar/culture-and-values/values"
                               className="header__menu-dropdown__item__link"
                             >
                               <span>Values</span>
@@ -4620,7 +4626,7 @@ const Header = (): JSX.Element => {
                             data-id="{D18A3757-9269-42F3-85BB-E38FE6A93EAA}"
                           >
                             <Link
-                              href="/en/explore-aldar/about-aldar/culture-and-values/talent"
+                              href="https://www.aldar.com/en/explore-aldar/about-aldar/culture-and-values/talent"
                               className="header__menu-dropdown__item__link"
                             >
                               <span>Talent</span>
@@ -4633,7 +4639,7 @@ const Header = (): JSX.Element => {
                         data-id="{8DFCE321-804A-4249-952B-39EDB8C87DD5}"
                       >
                         <Link
-                          href="/en/explore-aldar/about-aldar/strategy"
+                          href="https://www.aldar.com/en/explore-aldar/about-aldar/strategy"
                           className="header__menu-dropdown__item__link"
                         >
                           <span>Strategy</span>
@@ -4644,7 +4650,7 @@ const Header = (): JSX.Element => {
                         data-id="{1DF11A3E-D3B7-45CB-8F7B-7B0B7785A062}"
                       >
                         <Link
-                          href="/en/explore-aldar/about-aldar/sponsorships"
+                          href="https://www.aldar.com/en/explore-aldar/about-aldar/sponsorships"
                           className="header__menu-dropdown__item__link"
                         >
                           <span>Sponsorships</span>
@@ -4655,7 +4661,7 @@ const Header = (): JSX.Element => {
                         data-id="{EDF08168-B6AE-4B3F-98A7-D1244D75E32D}"
                       >
                         <Link
-                          href="/en/explore-aldar/about-aldar/procurement"
+                          href="https://www.aldar.com/en/explore-aldar/about-aldar/procurement"
                           className="header__menu-dropdown__item__link"
                         >
                           <span>Procurement</span>
@@ -4695,7 +4701,7 @@ const Header = (): JSX.Element => {
                             data-id="{49B912CF-0A89-4A05-95CA-793E73E5DCA7}"
                           >
                             <Link
-                              href="/en/explore-aldar/about-aldar/procurement/workers-welfare"
+                              href="https://www.aldar.com/en/explore-aldar/about-aldar/procurement/workers-welfare"
                               className="header__menu-dropdown__item__link"
                             >
                               <span>Workers Welfare</span>
@@ -4706,7 +4712,7 @@ const Header = (): JSX.Element => {
                             data-id="{AFE0FC4B-D2BA-44DA-83D7-5DD9F2D58D54}"
                           >
                             <Link
-                              href="/en/explore-aldar/about-aldar/procurement/sustainability"
+                              href="https://www.aldar.com/en/explore-aldar/about-aldar/procurement/sustainability"
                               className="header__menu-dropdown__item__link"
                             >
                               <span>Procurement Sustainability</span>
@@ -4717,7 +4723,7 @@ const Header = (): JSX.Element => {
                             data-id="{38FB3212-4A4E-4143-83FD-18D71CEEEDF0}"
                           >
                             <Link
-                              href="/en/explore-aldar/about-aldar/procurement/icv-program"
+                              href="https://www.aldar.com/en/explore-aldar/about-aldar/procurement/icv-program"
                               className="header__menu-dropdown__item__link"
                             >
                               <span>ICV Program</span>
@@ -4728,7 +4734,7 @@ const Header = (): JSX.Element => {
                             data-id="{B9F339E2-A589-4CB6-AED4-E6C88A7D899F}"
                           >
                             <Link
-                              href="/en/explore-aldar/about-aldar/procurement/certifying-bodies"
+                              href="https://www.aldar.com/en/explore-aldar/about-aldar/procurement/certifying-bodies"
                               className="header__menu-dropdown__item__link"
                             >
                               <span>Certifying Bodies</span>
@@ -4830,7 +4836,7 @@ const Header = (): JSX.Element => {
                         data-id="{5145E4B4-7B02-4271-BD5F-6134DC3843B2}"
                       >
                         <Link
-                          href="/en/explore-aldar/about-aldar/aldar-square"
+                          href="https://www.aldar.com/en/explore-aldar/about-aldar/aldar-square"
                           className="header__menu-dropdown__item__link"
                         >
                           <span>Aldar Square</span>
@@ -4843,7 +4849,7 @@ const Header = (): JSX.Element => {
                     data-id="{AEC9BD11-5F5F-489C-B543-637033FF7DAA}"
                   >
                     <Link
-                      href="/en/explore-aldar/businesses"
+                      href="https://www.aldar.com/en/explore-aldar/businesses"
                       className="header__menu-dropdown__item__link"
                       data-id="{AEC9BD11-5F5F-489C-B543-637033FF7DAA}"
                     >
@@ -4867,7 +4873,7 @@ const Header = (): JSX.Element => {
                             data-id="{43044A61-26FF-473C-AEBE-AD18E440B907}"
                           >
                             <Link
-                              href="/en/explore-aldar/businesses/development/residential"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/residential"
                               className="header__menu-dropdown__item__link"
                             >
                               <span>Residential</span>
@@ -4881,7 +4887,7 @@ const Header = (): JSX.Element => {
                                 data-id="{5C0895F4-07C3-4B2C-BF1C-DF5903421BB1}"
                               >
                                 <Link
-                                  href="/en/explore-aldar/businesses/development/residential/yas-island"
+                                  href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/yas-island"
                                   className="header__menu-dropdown__item__link"
                                 >
                                   <span>Yas Island</span>
@@ -4895,7 +4901,7 @@ const Header = (): JSX.Element => {
                                     data-id="{219BED00-434F-42BE-85F3-58ECEADCB9B0}"
                                   >
                                     <Link
-                                      href="/en/explore-aldar/businesses/development/residential/yas-island/yas-island-sustainable-city"
+                                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/yas-island/yas-island-sustainable-city"
                                       className="header__menu-dropdown__item__link"
                                     >
                                       <span>The Sustainable City</span>
@@ -4906,7 +4912,7 @@ const Header = (): JSX.Element => {
                                     data-id="{CA5CD003-C276-48EC-9EC5-280DEA92F218}"
                                   >
                                     <Link
-                                      href="/en/explore-aldar/businesses/development/residential/yas-island/yas-park-views"
+                                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/yas-island/yas-park-views"
                                       className="header__menu-dropdown__item__link"
                                     >
                                       <span>Yas Park Views</span>
@@ -4917,7 +4923,7 @@ const Header = (): JSX.Element => {
                                     data-id="{D45BF7CE-50D2-4A85-B815-93211C1D7FFF}"
                                   >
                                     <Link
-                                      href="/en/explore-aldar/businesses/development/residential/yas-island/yas-acres-north-bay"
+                                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/yas-island/yas-acres-north-bay"
                                       className="header__menu-dropdown__item__link"
                                     >
                                       <span>Yas Acres North Bay</span>
@@ -4928,7 +4934,7 @@ const Header = (): JSX.Element => {
                                     data-id="{414B5807-4FA7-4005-A467-938BE4F713CA}"
                                   >
                                     <Link
-                                      href="/en/explore-aldar/businesses/development/residential/yas-island/yas-golf"
+                                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/yas-island/yas-golf"
                                       className="header__menu-dropdown__item__link"
                                     >
                                       <span>Yas Golf Collection</span>
@@ -4939,7 +4945,7 @@ const Header = (): JSX.Element => {
                                     data-id="{5296CD8B-B1CE-436C-BFA5-45C3FE8CE72B}"
                                   >
                                     <Link
-                                      href="/en/explore-aldar/businesses/development/residential/yas-island/yas-golf-collection-views"
+                                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/yas-island/yas-golf-collection-views"
                                       className="header__menu-dropdown__item__link"
                                     >
                                       <span>Yas Golf Collection Views</span>
@@ -4950,7 +4956,7 @@ const Header = (): JSX.Element => {
                                     data-id="{17738A9C-5CDB-4887-8D73-E60867EB1696}"
                                   >
                                     <Link
-                                      href="/en/explore-aldar/businesses/development/residential/yas-island/yas-park-gate"
+                                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/yas-island/yas-park-gate"
                                       className="header__menu-dropdown__item__link"
                                     >
                                       <span>Yas Park Gate</span>
@@ -4961,7 +4967,7 @@ const Header = (): JSX.Element => {
                                     data-id="{19B94A19-6AB8-4E29-A247-74E2FE61B4ED}"
                                   >
                                     <Link
-                                      href="/en/explore-aldar/businesses/development/residential/yas-island/lea-yas-island"
+                                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/yas-island/lea-yas-island"
                                       className="header__menu-dropdown__item__link"
                                     >
                                       <span>Lea Yas Island</span>
@@ -4975,7 +4981,7 @@ const Header = (): JSX.Element => {
                                         data-id="{3CEFEDE8-F617-481C-88F3-6C955836F1CE}"
                                       >
                                         <Link
-                                          href="/en/explore-aldar/businesses/development/residential/yas-island/lea-yas-island"
+                                          href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/yas-island/lea-yas-island"
                                           className="header__menu-dropdown__item__link"
                                         >
                                           <span>About the project</span>
@@ -4986,7 +4992,7 @@ const Header = (): JSX.Element => {
                                         data-id="{43F6F372-A113-4F81-886D-05FA18C46941}"
                                       >
                                         <Link
-                                          href="/en/explore-aldar/businesses/development/residential/yas-island/lea-yas-island/project-features"
+                                          href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/yas-island/lea-yas-island/project-features"
                                           className="header__menu-dropdown__item__link"
                                         >
                                           <span>Features</span>
@@ -4999,7 +5005,7 @@ const Header = (): JSX.Element => {
                                     data-id="{C695F154-E532-483F-B033-5FB289B2AD43}"
                                   >
                                     <Link
-                                      href="/en/explore-aldar/businesses/development/residential/yas-island/mayan"
+                                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/yas-island/mayan"
                                       className="header__menu-dropdown__item__link"
                                     >
                                       <span>Mayan</span>
@@ -5013,7 +5019,7 @@ const Header = (): JSX.Element => {
                                         data-id="{3381DF01-1776-479D-B046-7F6515AC9246}"
                                       >
                                         <Link
-                                          href="/en/explore-aldar/businesses/development/residential/yas-island/mayan"
+                                          href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/yas-island/mayan"
                                           className="header__menu-dropdown__item__link"
                                         >
                                           <span>About the project</span>
@@ -5024,7 +5030,7 @@ const Header = (): JSX.Element => {
                                         data-id="{5D15F9D5-437C-47A4-BC74-F3B482CBA143}"
                                       >
                                         <Link
-                                          href="/en/explore-aldar/businesses/development/residential/yas-island/mayan/project-features"
+                                          href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/yas-island/mayan/project-features"
                                           className="header__menu-dropdown__item__link"
                                         >
                                           <span>Features</span>
@@ -5037,7 +5043,7 @@ const Header = (): JSX.Element => {
                                     data-id="{ACCA0539-5AC4-4D0C-8AEA-2C0741AAA09F}"
                                   >
                                     <Link
-                                      href="/en/explore-aldar/businesses/development/residential/yas-island/ansam"
+                                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/yas-island/ansam"
                                       className="header__menu-dropdown__item__link"
                                     >
                                       <span>Ansam</span>
@@ -5051,7 +5057,7 @@ const Header = (): JSX.Element => {
                                         data-id="{74BD2660-2961-46FF-92EC-43AC71782B0F}"
                                       >
                                         <Link
-                                          href="/en/explore-aldar/businesses/development/residential/yas-island/ansam"
+                                          href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/yas-island/ansam"
                                           className="header__menu-dropdown__item__link"
                                         >
                                           <span>About the project</span>
@@ -5062,7 +5068,7 @@ const Header = (): JSX.Element => {
                                         data-id="{A1A5A743-1822-43B2-87FE-433797240781}"
                                       >
                                         <Link
-                                          href="/en/explore-aldar/businesses/development/residential/yas-island/ansam/project-features"
+                                          href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/yas-island/ansam/project-features"
                                           className="header__menu-dropdown__item__link"
                                         >
                                           <span>Features</span>
@@ -5075,7 +5081,7 @@ const Header = (): JSX.Element => {
                                     data-id="{D52C21BD-F70B-4D42-916E-AF6ED174EE0D}"
                                   >
                                     <Link
-                                      href="/en/explore-aldar/businesses/development/residential/yas-island/noya"
+                                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/yas-island/noya"
                                       className="header__menu-dropdown__item__link"
                                     >
                                       <span>Noya</span>
@@ -5089,7 +5095,7 @@ const Header = (): JSX.Element => {
                                         data-id="{90542F9F-EF74-46F9-8330-06363D6B4859}"
                                       >
                                         <Link
-                                          href="/en/explore-aldar/businesses/development/residential/yas-island/noya"
+                                          href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/yas-island/noya"
                                           className="header__menu-dropdown__item__link"
                                         >
                                           <span>About the project</span>
@@ -5100,7 +5106,7 @@ const Header = (): JSX.Element => {
                                         data-id="{C786B3AD-2A12-4D57-A578-D236D2DDF2F8}"
                                       >
                                         <Link
-                                          href="/en/explore-aldar/businesses/development/residential/yas-island/noya/project-features"
+                                          href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/yas-island/noya/project-features"
                                           className="header__menu-dropdown__item__link"
                                         >
                                           <span>Features</span>
@@ -5113,7 +5119,7 @@ const Header = (): JSX.Element => {
                                     data-id="{6D613337-9BBD-4055-B7A0-722285C0E323}"
                                   >
                                     <Link
-                                      href="/en/explore-aldar/businesses/development/residential/yas-island/noya-luma"
+                                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/yas-island/noya-luma"
                                       className="header__menu-dropdown__item__link"
                                     >
                                       <span>Noya Luma</span>
@@ -5127,7 +5133,7 @@ const Header = (): JSX.Element => {
                                         data-id="{EBC8D70B-EA8A-4165-A5D6-85209626777B}"
                                       >
                                         <Link
-                                          href="/en/explore-aldar/businesses/development/residential/yas-island/noya-luma"
+                                          href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/yas-island/noya-luma"
                                           className="header__menu-dropdown__item__link"
                                         >
                                           <span>About the project</span>
@@ -5138,7 +5144,7 @@ const Header = (): JSX.Element => {
                                         data-id="{AC2C9C65-90B8-49C0-87EB-79A268E646FB}"
                                       >
                                         <Link
-                                          href="/en/explore-aldar/businesses/development/residential/yas-island/noya-luma/project-features"
+                                          href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/yas-island/noya-luma/project-features"
                                           className="header__menu-dropdown__item__link"
                                         >
                                           <span>Features</span>
@@ -5151,7 +5157,7 @@ const Header = (): JSX.Element => {
                                     data-id="{61C38DDA-2599-45C0-AD35-724C127D8DE7}"
                                   >
                                     <Link
-                                      href="/en/explore-aldar/businesses/development/residential/yas-island/noya-viva"
+                                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/yas-island/noya-viva"
                                       className="header__menu-dropdown__item__link"
                                     >
                                       <span>Noya Viva</span>
@@ -5165,7 +5171,7 @@ const Header = (): JSX.Element => {
                                         data-id="{9477C767-6FF2-4033-99E4-2D5CD2512091}"
                                       >
                                         <Link
-                                          href="/en/explore-aldar/businesses/development/residential/yas-island/noya-viva"
+                                          href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/yas-island/noya-viva"
                                           className="header__menu-dropdown__item__link"
                                         >
                                           <span>About the project</span>
@@ -5176,7 +5182,7 @@ const Header = (): JSX.Element => {
                                         data-id="{2BD88445-3827-4EBD-BD2C-DCD704FB031B}"
                                       >
                                         <Link
-                                          href="/en/explore-aldar/businesses/development/residential/yas-island/noya-viva/project-features"
+                                          href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/yas-island/noya-viva/project-features"
                                           className="header__menu-dropdown__item__link"
                                         >
                                           <span>Features</span>
@@ -5189,7 +5195,7 @@ const Header = (): JSX.Element => {
                                     data-id="{587035B8-266B-485C-9CAD-2020F1765E11}"
                                   >
                                     <Link
-                                      href="/en/explore-aldar/businesses/development/residential/yas-island/yas-acres"
+                                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/yas-island/yas-acres"
                                       className="header__menu-dropdown__item__link"
                                     >
                                       <span>Yas Acres</span>
@@ -5203,7 +5209,7 @@ const Header = (): JSX.Element => {
                                         data-id="{09922C21-7D5C-44AF-823D-BCC7BEAF13AA}"
                                       >
                                         <Link
-                                          href="/en/explore-aldar/businesses/development/residential/yas-island/yas-acres"
+                                          href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/yas-island/yas-acres"
                                           className="header__menu-dropdown__item__link"
                                         >
                                           <span>About the project</span>
@@ -5214,7 +5220,7 @@ const Header = (): JSX.Element => {
                                         data-id="{59E2EC47-F085-4690-B203-F95F481B0219}"
                                       >
                                         <Link
-                                          href="/en/explore-aldar/businesses/development/residential/yas-island/yas-acres/project-features"
+                                          href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/yas-island/yas-acres/project-features"
                                           className="header__menu-dropdown__item__link"
                                         >
                                           <span>Features</span>
@@ -5227,7 +5233,7 @@ const Header = (): JSX.Element => {
                                     data-id="{3C970FC0-BA36-439E-AE69-77D45CD24D68}"
                                   >
                                     <Link
-                                      href="/en/explore-aldar/businesses/development/residential/yas-island/waters-edge"
+                                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/yas-island/waters-edge"
                                       className="header__menu-dropdown__item__link"
                                     >
                                       <span>Water&apos;s Edge</span>
@@ -5241,7 +5247,7 @@ const Header = (): JSX.Element => {
                                         data-id="{13083ED4-AA91-4BFE-BE8F-0A4A6C4DE7A2}"
                                       >
                                         <Link
-                                          href="/en/explore-aldar/businesses/development/residential/yas-island/waters-edge/buy"
+                                          href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/yas-island/waters-edge/buy"
                                           className="header__menu-dropdown__item__link"
                                         >
                                           <span>Buy</span>
@@ -5252,7 +5258,7 @@ const Header = (): JSX.Element => {
                                         data-id="{35A76A88-7DF2-4318-BA44-38A1A122E09B}"
                                       >
                                         <Link
-                                          href="/en/explore-aldar/businesses/development/residential/yas-island/waters-edge"
+                                          href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/yas-island/waters-edge"
                                           className="header__menu-dropdown__item__link"
                                         >
                                           <span>About the project</span>
@@ -5263,7 +5269,7 @@ const Header = (): JSX.Element => {
                                         data-id="{7A6C070D-765A-4739-B4DA-7175918B9DEB}"
                                       >
                                         <Link
-                                          href="/en/explore-aldar/businesses/development/residential/yas-island/waters-edge/project-features"
+                                          href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/yas-island/waters-edge/project-features"
                                           className="header__menu-dropdown__item__link"
                                         >
                                           <span>Features</span>
@@ -5276,7 +5282,7 @@ const Header = (): JSX.Element => {
                                     data-id="{E083243A-FC0D-4844-AE52-39A52811EA7F}"
                                   >
                                     <Link
-                                      href="/en/explore-aldar/businesses/development/residential/yas-island/west-yas"
+                                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/yas-island/west-yas"
                                       className="header__menu-dropdown__item__link"
                                     >
                                       <span>West Yas</span>
@@ -5290,7 +5296,7 @@ const Header = (): JSX.Element => {
                                         data-id="{E5472269-53ED-4F27-87B3-F54C090DDD9C}"
                                       >
                                         <Link
-                                          href="/en/explore-aldar/businesses/development/residential/yas-island/west-yas"
+                                          href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/yas-island/west-yas"
                                           className="header__menu-dropdown__item__link"
                                         >
                                           <span>About the project</span>
@@ -5301,7 +5307,7 @@ const Header = (): JSX.Element => {
                                         data-id="{408766EE-42C3-493C-9ABB-8CE2F3ECCBBE}"
                                       >
                                         <Link
-                                          href="/en/explore-aldar/businesses/development/residential/yas-island/west-yas/project-features"
+                                          href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/yas-island/west-yas/project-features"
                                           className="header__menu-dropdown__item__link"
                                         >
                                           <span>Features</span>
@@ -5316,7 +5322,7 @@ const Header = (): JSX.Element => {
                                 data-id="{8A4673AE-AEC4-4647-A162-58AC20BAA572}"
                               >
                                 <Link
-                                  href="/en/explore-aldar/businesses/development/residential/saadiyat-island"
+                                  href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/saadiyat-island"
                                   className="header__menu-dropdown__item__link"
                                 >
                                   <span>Saadiyat Island</span>
@@ -5330,7 +5336,7 @@ const Header = (): JSX.Element => {
                                     data-id="{9445FEAA-C7B8-414B-9D9C-97D10FF32738}"
                                   >
                                     <Link
-                                      href="/en/explore-aldar/businesses/development/residential/saadiyat-island/the-source"
+                                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/saadiyat-island/the-source"
                                       className="header__menu-dropdown__item__link"
                                     >
                                       <span>The Source</span>
@@ -5341,7 +5347,7 @@ const Header = (): JSX.Element => {
                                     data-id="{46456FBE-BC5B-4106-9E8D-E9D1D8154A72}"
                                   >
                                     <Link
-                                      href="/en/explore-aldar/businesses/development/residential/saadiyat-island/the-source-ii"
+                                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/saadiyat-island/the-source-ii"
                                       className="header__menu-dropdown__item__link"
                                     >
                                       <span>The Source II</span>
@@ -5352,7 +5358,7 @@ const Header = (): JSX.Element => {
                                     data-id="{D06A62A9-3EEB-44B9-BFBD-9ECC0C7871BD}"
                                   >
                                     <Link
-                                      href="/en/explore-aldar/businesses/development/residential/saadiyat-island/grove-beach-views"
+                                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/saadiyat-island/grove-beach-views"
                                       className="header__menu-dropdown__item__link"
                                     >
                                       <span>Grove Beach Views</span>
@@ -5363,7 +5369,7 @@ const Header = (): JSX.Element => {
                                     data-id="{344D2864-02BD-4299-A4DB-33CF8B75BA85}"
                                   >
                                     <Link
-                                      href="/en/explore-aldar/businesses/development/residential/saadiyat-island/grove-museum-views"
+                                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/saadiyat-island/grove-museum-views"
                                       className="header__menu-dropdown__item__link"
                                     >
                                       <span>Grove Museum Views</span>
@@ -5374,7 +5380,7 @@ const Header = (): JSX.Element => {
                                     data-id="{54C3DDF6-CEC7-4A6A-8949-6A202F222D9B}"
                                   >
                                     <Link
-                                      href="/Aldar Tenant/Aldar2/Home/explore-aldar/businesses/development/residential/saadiyat-island/manarat-living"
+                                      href="https://www.aldar.com/Aldar Tenant/Aldar2/Home/explore-aldar/businesses/development/residential/saadiyat-island/manarat-living"
                                       className="header__menu-dropdown__item__link"
                                     >
                                       <span>Manarat Living</span>
@@ -5385,7 +5391,7 @@ const Header = (): JSX.Element => {
                                     data-id="{FA699985-5BDA-4131-A51E-EB7D5954D25D}"
                                   >
                                     <Link
-                                      href="/en/explore-aldar/businesses/development/residential/saadiyat-island/saadiyat-lagoons"
+                                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/saadiyat-island/saadiyat-lagoons"
                                       className="header__menu-dropdown__item__link"
                                     >
                                       <span>Saadiyat Lagoons</span>
@@ -5396,7 +5402,7 @@ const Header = (): JSX.Element => {
                                     data-id="{0CC4A77B-1973-473D-9D3F-5B875E15F0A2}"
                                   >
                                     <Link
-                                      href="/en/explore-aldar/businesses/development/residential/saadiyat-island/jawaher-al-saadiyat"
+                                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/saadiyat-island/jawaher-al-saadiyat"
                                       className="header__menu-dropdown__item__link"
                                     >
                                       <span>Jawaher Al Saadiyat</span>
@@ -5410,7 +5416,7 @@ const Header = (): JSX.Element => {
                                         data-id="{A6817C4E-6B6C-4B31-8F27-D745DDCDCE58}"
                                       >
                                         <Link
-                                          href="/en/explore-aldar/businesses/development/residential/saadiyat-island/jawaher-al-saadiyat"
+                                          href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/saadiyat-island/jawaher-al-saadiyat"
                                           className="header__menu-dropdown__item__link"
                                         >
                                           <span>About the Project</span>
@@ -5421,7 +5427,7 @@ const Header = (): JSX.Element => {
                                         data-id="{8CD6E3A9-9869-4B59-BE70-BC62CDA575A1}"
                                       >
                                         <Link
-                                          href="/en/explore-aldar/businesses/development/residential/saadiyat-island/jawaher-al-saadiyat/project-features"
+                                          href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/saadiyat-island/jawaher-al-saadiyat/project-features"
                                           className="header__menu-dropdown__item__link"
                                         >
                                           <span>Features</span>
@@ -5434,7 +5440,7 @@ const Header = (): JSX.Element => {
                                     data-id="{5E1A5963-55D8-49DF-80D6-449201A45B1E}"
                                   >
                                     <Link
-                                      href="/en/explore-aldar/businesses/development/residential/saadiyat-island/mamsha-al-saadiyat"
+                                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/saadiyat-island/mamsha-al-saadiyat"
                                       className="header__menu-dropdown__item__link"
                                     >
                                       <span>Mamsha Al Saadiyat</span>
@@ -5448,7 +5454,7 @@ const Header = (): JSX.Element => {
                                         data-id="{78CE4B43-B394-4AF4-8D9C-70BED692244D}"
                                       >
                                         <Link
-                                          href="/en/explore-aldar/businesses/development/residential/saadiyat-island/mamsha-al-saadiyat/buy"
+                                          href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/saadiyat-island/mamsha-al-saadiyat/buy"
                                           className="header__menu-dropdown__item__link"
                                         >
                                           <span>Buy</span>
@@ -5459,7 +5465,7 @@ const Header = (): JSX.Element => {
                                         data-id="{6D82D8A5-42A7-4631-B80D-2BF8134C1F3C}"
                                       >
                                         <Link
-                                          href="/en/explore-aldar/businesses/development/residential/saadiyat-island/mamsha-al-saadiyat"
+                                          href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/saadiyat-island/mamsha-al-saadiyat"
                                           className="header__menu-dropdown__item__link"
                                         >
                                           <span>About the Project</span>
@@ -5470,7 +5476,7 @@ const Header = (): JSX.Element => {
                                         data-id="{D930468D-50DF-4CBC-A387-DBE30B1B0213}"
                                       >
                                         <Link
-                                          href="/en/explore-aldar/businesses/development/residential/saadiyat-island/mamsha-al-saadiyat/project-features"
+                                          href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/saadiyat-island/mamsha-al-saadiyat/project-features"
                                           className="header__menu-dropdown__item__link"
                                         >
                                           <span>Features</span>
@@ -5483,7 +5489,7 @@ const Header = (): JSX.Element => {
                                     data-id="{716117E2-FAB3-414E-BE6F-E73688829072}"
                                   >
                                     <Link
-                                      href="/en/explore-aldar/businesses/development/residential/saadiyat-island/saadiyat-reserve"
+                                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/saadiyat-island/saadiyat-reserve"
                                       className="header__menu-dropdown__item__link"
                                     >
                                       <span>Saadiyat Reserve </span>
@@ -5497,7 +5503,7 @@ const Header = (): JSX.Element => {
                                         data-id="{87C9CF73-2257-4E19-9645-2FF440CE295A}"
                                       >
                                         <Link
-                                          href="/en/explore-aldar/businesses/development/residential/saadiyat-island/saadiyat-reserve"
+                                          href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/saadiyat-island/saadiyat-reserve"
                                           className="header__menu-dropdown__item__link"
                                         >
                                           <span>About the Project</span>
@@ -5508,7 +5514,7 @@ const Header = (): JSX.Element => {
                                         data-id="{C5F4DB3D-7BA0-4734-A31A-B31B7A8F124D}"
                                       >
                                         <Link
-                                          href="/en/explore-aldar/businesses/development/residential/saadiyat-island/saadiyat-reserve/project-features"
+                                          href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/saadiyat-island/saadiyat-reserve/project-features"
                                           className="header__menu-dropdown__item__link"
                                         >
                                           <span>Features</span>
@@ -5521,7 +5527,7 @@ const Header = (): JSX.Element => {
                                     data-id="{19E74DBE-88DE-44CE-A093-62DAE5D4BBDC}"
                                   >
                                     <Link
-                                      href="/en/explore-aldar/businesses/development/residential/saadiyat-island/saadiyat-reserve-the-dunes"
+                                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/saadiyat-island/saadiyat-reserve-the-dunes"
                                       className="header__menu-dropdown__item__link"
                                     >
                                       <span>Saadiyat Reserve The Dunes</span>
@@ -5535,7 +5541,7 @@ const Header = (): JSX.Element => {
                                         data-id="{FDF06CEE-59B7-4D34-A482-2EB9036C5521}"
                                       >
                                         <Link
-                                          href="/en/explore-aldar/businesses/development/residential/saadiyat-island/saadiyat-reserve-the-dunes"
+                                          href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/saadiyat-island/saadiyat-reserve-the-dunes"
                                           className="header__menu-dropdown__item__link"
                                         >
                                           <span>About the Project</span>
@@ -5546,7 +5552,7 @@ const Header = (): JSX.Element => {
                                         data-id="{98975D74-61B3-4515-85CF-EF16F63F29F9}"
                                       >
                                         <Link
-                                          href="/en/explore-aldar/businesses/development/residential/saadiyat-island/saadiyat-reserve-the-dunes/project-features"
+                                          href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/saadiyat-island/saadiyat-reserve-the-dunes/project-features"
                                           className="header__menu-dropdown__item__link"
                                         >
                                           <span>Features</span>
@@ -5561,7 +5567,7 @@ const Header = (): JSX.Element => {
                                 data-id="{2B6B4042-8B60-449E-9EB9-FF3292625768}"
                               >
                                 <Link
-                                  href="/en/explore-aldar/businesses/development/residential/reem-island"
+                                  href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/reem-island"
                                   className="header__menu-dropdown__item__link"
                                 >
                                   <span>Reem Island</span>
@@ -5575,7 +5581,7 @@ const Header = (): JSX.Element => {
                                     data-id="{396335A9-6A83-4A49-98CF-F7651BF46CA6}"
                                   >
                                     <Link
-                                      href="/en/explore-aldar/businesses/development/residential/reem-island/reflection"
+                                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/reem-island/reflection"
                                       className="header__menu-dropdown__item__link"
                                     >
                                       <span>Reflection</span>
@@ -5589,7 +5595,7 @@ const Header = (): JSX.Element => {
                                         data-id="{EE5C8883-EB59-4A8C-A178-CD57FA1D5345}"
                                       >
                                         <Link
-                                          href="/en/explore-aldar/businesses/development/residential/reem-island/reflection/buy"
+                                          href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/reem-island/reflection/buy"
                                           className="header__menu-dropdown__item__link"
                                         >
                                           <span>Buy</span>
@@ -5600,7 +5606,7 @@ const Header = (): JSX.Element => {
                                         data-id="{A58DA9A9-EC2B-414D-8ADE-610102C3D400}"
                                       >
                                         <Link
-                                          href="/en/explore-aldar/businesses/development/residential/reem-island/reflection"
+                                          href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/reem-island/reflection"
                                           className="header__menu-dropdown__item__link"
                                         >
                                           <span>About the project</span>
@@ -5611,7 +5617,7 @@ const Header = (): JSX.Element => {
                                         data-id="{65A25586-3090-42D8-8660-9604F8FA96F9}"
                                       >
                                         <Link
-                                          href="/en/explore-aldar/businesses/development/residential/reem-island/reflection/project-features"
+                                          href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/reem-island/reflection/project-features"
                                           className="header__menu-dropdown__item__link"
                                         >
                                           <span>Features</span>
@@ -5624,7 +5630,7 @@ const Header = (): JSX.Element => {
                                     data-id="{F3E7A1D1-E6DE-48E9-A01B-B12905802237}"
                                   >
                                     <Link
-                                      href="/en/explore-aldar/businesses/development/residential/reem-island/shams-meera"
+                                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/reem-island/shams-meera"
                                       className="header__menu-dropdown__item__link"
                                     >
                                       <span>Meera</span>
@@ -5638,7 +5644,7 @@ const Header = (): JSX.Element => {
                                         data-id="{6F35A373-9CBE-4FFF-88C3-0F7ABD5FC51D}"
                                       >
                                         <Link
-                                          href="/en/explore-aldar/businesses/development/residential/reem-island/shams-meera/buy"
+                                          href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/reem-island/shams-meera/buy"
                                           className="header__menu-dropdown__item__link"
                                         >
                                           <span>Buy</span>
@@ -5649,7 +5655,7 @@ const Header = (): JSX.Element => {
                                         data-id="{1C6E6158-29CB-4760-B0A1-2CEE86A6BC0F}"
                                       >
                                         <Link
-                                          href="/en/explore-aldar/businesses/development/residential/reem-island/shams-meera"
+                                          href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/reem-island/shams-meera"
                                           className="header__menu-dropdown__item__link"
                                         >
                                           <span>About the project</span>
@@ -5660,7 +5666,7 @@ const Header = (): JSX.Element => {
                                         data-id="{46AC8CA8-2A20-4961-893A-035E364365D6}"
                                       >
                                         <Link
-                                          href="/en/explore-aldar/businesses/development/residential/reem-island/shams-meera/project-features"
+                                          href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/reem-island/shams-meera/project-features"
                                           className="header__menu-dropdown__item__link"
                                         >
                                           <span>Features</span>
@@ -5673,7 +5679,7 @@ const Header = (): JSX.Element => {
                                     data-id="{CD3C4DC3-528F-49ED-A32E-1E87A14DC259}"
                                   >
                                     <Link
-                                      href="/en/explore-aldar/businesses/development/residential/reem-island/arc-towers"
+                                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/reem-island/arc-towers"
                                       className="header__menu-dropdown__item__link"
                                     >
                                       <span>Arc Towers</span>
@@ -5687,7 +5693,7 @@ const Header = (): JSX.Element => {
                                         data-id="{479F8C51-11B8-4F5D-B764-9310939B890A}"
                                       >
                                         <Link
-                                          href="/en/explore-aldar/businesses/development/residential/reem-island/arc-towers/rent"
+                                          href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/reem-island/arc-towers/rent"
                                           className="header__menu-dropdown__item__link"
                                         >
                                           <span>Rent</span>
@@ -5698,7 +5704,7 @@ const Header = (): JSX.Element => {
                                         data-id="{168FD3A9-E851-47BC-BB19-54EAADAEAB81}"
                                       >
                                         <Link
-                                          href="/en/explore-aldar/businesses/development/residential/reem-island/arc-towers"
+                                          href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/reem-island/arc-towers"
                                           className="header__menu-dropdown__item__link"
                                         >
                                           <span>About the project</span>
@@ -5709,7 +5715,7 @@ const Header = (): JSX.Element => {
                                         data-id="{4D889B4B-FCE5-4C68-9481-08675BD47F5E}"
                                       >
                                         <Link
-                                          href="/en/explore-aldar/businesses/development/residential/reem-island/arc-towers/project-features"
+                                          href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/reem-island/arc-towers/project-features"
                                           className="header__menu-dropdown__item__link"
                                         >
                                           <span>Features</span>
@@ -5722,7 +5728,7 @@ const Header = (): JSX.Element => {
                                     data-id="{B497B952-7B8C-404B-9591-6989DA475BF6}"
                                   >
                                     <Link
-                                      href="/en/explore-aldar/businesses/development/residential/reem-island/sun-and-sky-towers"
+                                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/reem-island/sun-and-sky-towers"
                                       className="header__menu-dropdown__item__link"
                                     >
                                       <span>Sun and Sky Towers </span>
@@ -5736,7 +5742,7 @@ const Header = (): JSX.Element => {
                                         data-id="{A430D10D-E10F-4B8A-8B10-47B049928AB6}"
                                       >
                                         <Link
-                                          href="/en/explore-aldar/businesses/development/residential/reem-island/sun-and-sky-towers/rent"
+                                          href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/reem-island/sun-and-sky-towers/rent"
                                           className="header__menu-dropdown__item__link"
                                         >
                                           <span>Rent</span>
@@ -5747,7 +5753,7 @@ const Header = (): JSX.Element => {
                                         data-id="{BE9F11B9-8C62-41F0-8BEF-F3978C42656D}"
                                       >
                                         <Link
-                                          href="/en/explore-aldar/businesses/development/residential/reem-island/sun-and-sky-towers"
+                                          href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/reem-island/sun-and-sky-towers"
                                           className="header__menu-dropdown__item__link"
                                         >
                                           <span>About the project</span>
@@ -5758,7 +5764,7 @@ const Header = (): JSX.Element => {
                                         data-id="{CA0A9B35-4837-4318-982B-8B3FA503D927}"
                                       >
                                         <Link
-                                          href="/en/explore-aldar/businesses/development/residential/reem-island/sun-and-sky-towers/project-features"
+                                          href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/reem-island/sun-and-sky-towers/project-features"
                                           className="header__menu-dropdown__item__link"
                                         >
                                           <span>Features</span>
@@ -5771,7 +5777,7 @@ const Header = (): JSX.Element => {
                                     data-id="{6975077A-07FE-46EF-876E-35FC3BA56614}"
                                   >
                                     <Link
-                                      href="/en/explore-aldar/businesses/development/residential/reem-island/the-gate-towers"
+                                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/reem-island/the-gate-towers"
                                       className="header__menu-dropdown__item__link"
                                     >
                                       <span>The Gate Towers </span>
@@ -5785,7 +5791,7 @@ const Header = (): JSX.Element => {
                                         data-id="{F67A64FB-13B2-48BE-B773-F7BBCCB3BADA}"
                                       >
                                         <Link
-                                          href="/en/explore-aldar/businesses/development/residential/reem-island/the-gate-towers/rent"
+                                          href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/reem-island/the-gate-towers/rent"
                                           className="header__menu-dropdown__item__link"
                                         >
                                           <span>Rent</span>
@@ -5796,7 +5802,7 @@ const Header = (): JSX.Element => {
                                         data-id="{DA8DFF35-2AF7-497A-96ED-59033B741CEA}"
                                       >
                                         <Link
-                                          href="/en/explore-aldar/businesses/development/residential/reem-island/the-gate-towers"
+                                          href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/reem-island/the-gate-towers"
                                           className="header__menu-dropdown__item__link"
                                         >
                                           <span>About the project</span>
@@ -5807,7 +5813,7 @@ const Header = (): JSX.Element => {
                                         data-id="{B7C6B6B1-0B24-4CCC-8502-0E113DA4F65D}"
                                       >
                                         <Link
-                                          href="/en/explore-aldar/businesses/development/residential/reem-island/the-gate-towers/project-features"
+                                          href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/reem-island/the-gate-towers/project-features"
                                           className="header__menu-dropdown__item__link"
                                         >
                                           <span>Features</span>
@@ -5820,7 +5826,7 @@ const Header = (): JSX.Element => {
                                     data-id="{17605E68-1FA6-4339-9AAB-5EA1E9680C94}"
                                   >
                                     <Link
-                                      href="/en/explore-aldar/businesses/development/residential/reem-island/the-bridges"
+                                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/reem-island/the-bridges"
                                       className="header__menu-dropdown__item__link"
                                     >
                                       <span>The Bridges</span>
@@ -5834,7 +5840,7 @@ const Header = (): JSX.Element => {
                                         data-id="{5B113795-13E3-49B3-BAC4-3FAECA30E750}"
                                       >
                                         <Link
-                                          href="/en/explore-aldar/businesses/development/residential/reem-island/the-bridges/buy"
+                                          href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/reem-island/the-bridges/buy"
                                           className="header__menu-dropdown__item__link"
                                         >
                                           <span>Buy</span>
@@ -5845,7 +5851,7 @@ const Header = (): JSX.Element => {
                                         data-id="{AE20C0E1-CD79-4764-9E3A-8BCD0DCC7E4E}"
                                       >
                                         <Link
-                                          href="/en/explore-aldar/businesses/development/residential/reem-island/the-bridges/rent"
+                                          href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/reem-island/the-bridges/rent"
                                           className="header__menu-dropdown__item__link"
                                         >
                                           <span>Rent</span>
@@ -5856,7 +5862,7 @@ const Header = (): JSX.Element => {
                                         data-id="{5FDC1F1E-02CF-4B99-A135-51D0BC6CB3E5}"
                                       >
                                         <Link
-                                          href="/en/explore-aldar/businesses/development/residential/reem-island/the-bridges"
+                                          href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/reem-island/the-bridges"
                                           className="header__menu-dropdown__item__link"
                                         >
                                           <span>About the project</span>
@@ -5867,7 +5873,7 @@ const Header = (): JSX.Element => {
                                         data-id="{444D2676-6D78-4801-A153-85CE07FF3FD7}"
                                       >
                                         <Link
-                                          href="/en/explore-aldar/businesses/development/residential/reem-island/the-bridges/project-features"
+                                          href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/reem-island/the-bridges/project-features"
                                           className="header__menu-dropdown__item__link"
                                         >
                                           <span>Features</span>
@@ -5882,7 +5888,7 @@ const Header = (): JSX.Element => {
                                 data-id="{81D1982E-966A-46F3-9EAB-56ADAFAE5EE2}"
                               >
                                 <Link
-                                  href="/en/explore-aldar/businesses/development/residential/al-raha-beach"
+                                  href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/al-raha-beach"
                                   className="header__menu-dropdown__item__link"
                                 >
                                   <span>Al Raha Beach</span>
@@ -5896,7 +5902,7 @@ const Header = (): JSX.Element => {
                                     data-id="{1F83A43C-88A8-46F1-A945-3BA4F246ABA4}"
                                   >
                                     <Link
-                                      href="/en/explore-aldar/businesses/development/residential/al-raha-beach/al-bandar"
+                                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/al-raha-beach/al-bandar"
                                       className="header__menu-dropdown__item__link"
                                     >
                                       <span>Al Bandar</span>
@@ -5910,7 +5916,7 @@ const Header = (): JSX.Element => {
                                         data-id="{A06F460C-4D7B-464F-8F48-B4E96F65D0BF}"
                                       >
                                         <Link
-                                          href="/en/explore-aldar/businesses/development/residential/al-raha-beach/al-bandar"
+                                          href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/al-raha-beach/al-bandar"
                                           className="header__menu-dropdown__item__link"
                                         >
                                           <span>About the project</span>
@@ -5921,7 +5927,7 @@ const Header = (): JSX.Element => {
                                         data-id="{766DC3F7-DD0A-4514-B16E-19D4D390B177}"
                                       >
                                         <Link
-                                          href="/en/explore-aldar/businesses/development/residential/al-raha-beach/al-bandar/project-features"
+                                          href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/al-raha-beach/al-bandar/project-features"
                                           className="header__menu-dropdown__item__link"
                                         >
                                           <span>Features</span>
@@ -5934,7 +5940,7 @@ const Header = (): JSX.Element => {
                                     data-id="{980518E6-64F0-4BDA-9F13-27C0B58D6150}"
                                   >
                                     <Link
-                                      href="/en/explore-aldar/businesses/development/residential/al-raha-beach/al-hadeel"
+                                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/al-raha-beach/al-hadeel"
                                       className="header__menu-dropdown__item__link"
                                     >
                                       <span>Al Hadeel</span>
@@ -5948,7 +5954,7 @@ const Header = (): JSX.Element => {
                                         data-id="{8CA2C15E-6A7B-45FA-8728-28E87C3AA96E}"
                                       >
                                         <Link
-                                          href="/en/explore-aldar/businesses/development/residential/al-raha-beach/al-hadeel/buy"
+                                          href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/al-raha-beach/al-hadeel/buy"
                                           className="header__menu-dropdown__item__link"
                                         >
                                           <span>Buy</span>
@@ -5959,7 +5965,7 @@ const Header = (): JSX.Element => {
                                         data-id="{75B564DF-7A8C-4598-86A9-8776FC22226A}"
                                       >
                                         <Link
-                                          href="/en/explore-aldar/businesses/development/residential/al-raha-beach/al-hadeel"
+                                          href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/al-raha-beach/al-hadeel"
                                           className="header__menu-dropdown__item__link"
                                         >
                                           <span>About the project</span>
@@ -5970,7 +5976,7 @@ const Header = (): JSX.Element => {
                                         data-id="{DE0A829B-9456-4A9B-AE6E-09A6AF3FD1F4}"
                                       >
                                         <Link
-                                          href="/en/explore-aldar/businesses/development/residential/al-raha-beach/al-hadeel/project-features"
+                                          href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/al-raha-beach/al-hadeel/project-features"
                                           className="header__menu-dropdown__item__link"
                                         >
                                           <span>Features</span>
@@ -5983,7 +5989,7 @@ const Header = (): JSX.Element => {
                                     data-id="{E4F6B981-910A-47B6-A092-923FF18EE8C1}"
                                   >
                                     <Link
-                                      href="/en/explore-aldar/businesses/development/residential/al-raha-beach/al-muneera"
+                                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/al-raha-beach/al-muneera"
                                       className="header__menu-dropdown__item__link"
                                     >
                                       <span>Al Muneera</span>
@@ -5997,7 +6003,7 @@ const Header = (): JSX.Element => {
                                         data-id="{900C314A-FAEB-453F-B368-5B2233F8786E}"
                                       >
                                         <Link
-                                          href="/en/explore-aldar/businesses/development/residential/al-raha-beach/al-muneera"
+                                          href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/al-raha-beach/al-muneera"
                                           className="header__menu-dropdown__item__link"
                                         >
                                           <span>About the project</span>
@@ -6008,7 +6014,7 @@ const Header = (): JSX.Element => {
                                         data-id="{2AA7EE96-8CB2-4562-B4AF-2490B0B79776}"
                                       >
                                         <Link
-                                          href="/en/explore-aldar/businesses/development/residential/al-raha-beach/al-muneera/project-features"
+                                          href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/al-raha-beach/al-muneera/project-features"
                                           className="header__menu-dropdown__item__link"
                                         >
                                           <span>Features</span>
@@ -6021,7 +6027,7 @@ const Header = (): JSX.Element => {
                                     data-id="{71056207-DCB6-4CAA-901D-A78BF0D54195}"
                                   >
                                     <Link
-                                      href="/en/explore-aldar/businesses/development/residential/al-raha-beach/al-zeina"
+                                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/al-raha-beach/al-zeina"
                                       className="header__menu-dropdown__item__link"
                                     >
                                       <span>Al Zeina</span>
@@ -6035,7 +6041,7 @@ const Header = (): JSX.Element => {
                                         data-id="{B2F62060-A5CE-4C20-9F08-6DD70E741A9D}"
                                       >
                                         <Link
-                                          href="/en/explore-aldar/businesses/development/residential/al-raha-beach/al-zeina/rent"
+                                          href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/al-raha-beach/al-zeina/rent"
                                           className="header__menu-dropdown__item__link"
                                         >
                                           <span>Rent</span>
@@ -6046,7 +6052,7 @@ const Header = (): JSX.Element => {
                                         data-id="{A55FD004-3F0C-4B11-B53C-86517E86988D}"
                                       >
                                         <Link
-                                          href="/en/explore-aldar/businesses/development/residential/al-raha-beach/al-zeina"
+                                          href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/al-raha-beach/al-zeina"
                                           className="header__menu-dropdown__item__link"
                                         >
                                           <span>About the project</span>
@@ -6057,7 +6063,7 @@ const Header = (): JSX.Element => {
                                         data-id="{A828138B-FABC-4A06-A84C-2DD7FA670E45}"
                                       >
                                         <Link
-                                          href="/en/explore-aldar/businesses/development/residential/al-raha-beach/al-zeina/project-features"
+                                          href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/al-raha-beach/al-zeina/project-features"
                                           className="header__menu-dropdown__item__link"
                                         >
                                           <span>Features</span>
@@ -6072,7 +6078,7 @@ const Header = (): JSX.Element => {
                                 data-id="{65B08FF6-EECF-4F0C-8B28-81944214EF00}"
                               >
                                 <Link
-                                  href="/en/explore-aldar/businesses/development/residential/other-destinations"
+                                  href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations"
                                   className="header__menu-dropdown__item__link"
                                 >
                                   <span>Other Destinations</span>
@@ -6086,7 +6092,7 @@ const Header = (): JSX.Element => {
                                     data-id="{B523CA2D-1D14-4A08-A2D9-BA2F3209AD95}"
                                   >
                                     <Link
-                                      href="/en/explore-aldar/businesses/development/residential/other-destinations/alghadeer"
+                                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/alghadeer"
                                       className="header__menu-dropdown__item__link"
                                     >
                                       <span>Alghadeer</span>
@@ -6100,7 +6106,7 @@ const Header = (): JSX.Element => {
                                         data-id="{18EDA008-CEF9-439A-BC63-444F65954194}"
                                       >
                                         <Link
-                                          href="/en/explore-aldar/businesses/development/residential/other-destinations/alghadeer/buy"
+                                          href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/alghadeer/buy"
                                           className="header__menu-dropdown__item__link"
                                         >
                                           <span>Buy</span>
@@ -6111,7 +6117,7 @@ const Header = (): JSX.Element => {
                                         data-id="{19181505-6987-420F-AD21-D5085124903A}"
                                       >
                                         <Link
-                                          href="/en/explore-aldar/businesses/development/residential/other-destinations/alghadeer"
+                                          href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/alghadeer"
                                           className="header__menu-dropdown__item__link"
                                         >
                                           <span>About the project</span>
@@ -6122,7 +6128,7 @@ const Header = (): JSX.Element => {
                                         data-id="{7866EA9C-093B-42C8-A790-3A9325551666}"
                                       >
                                         <Link
-                                          href="/en/explore-aldar/businesses/development/residential/other-destinations/alghadeer/project-features"
+                                          href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/alghadeer/project-features"
                                           className="header__menu-dropdown__item__link"
                                         >
                                           <span>Features</span>
@@ -6135,7 +6141,7 @@ const Header = (): JSX.Element => {
                                     data-id="{A2D670C8-3C9D-4EEF-8AF6-7293849B9593}"
                                   >
                                     <Link
-                                      href="/en/explore-aldar/businesses/development/residential/other-destinations/al-reeman-i"
+                                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/al-reeman-i"
                                       className="header__menu-dropdown__item__link"
                                     >
                                       <span>Alreeman </span>
@@ -6149,7 +6155,7 @@ const Header = (): JSX.Element => {
                                         data-id="{EC95B9BB-A0A6-4976-BC1A-8749360CE872}"
                                       >
                                         <Link
-                                          href="/en/explore-aldar/businesses/development/residential/other-destinations/al-reeman-i/buy"
+                                          href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/al-reeman-i/buy"
                                           className="header__menu-dropdown__item__link"
                                         >
                                           <span>Buy</span>
@@ -6160,7 +6166,7 @@ const Header = (): JSX.Element => {
                                         data-id="{D5BE6F4A-1784-4BC1-8D86-E9867A155BD2}"
                                       >
                                         <Link
-                                          href="/en/explore-aldar/businesses/development/residential/other-destinations/al-reeman-i"
+                                          href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/al-reeman-i"
                                           className="header__menu-dropdown__item__link"
                                         >
                                           <span>About the project</span>
@@ -6171,7 +6177,7 @@ const Header = (): JSX.Element => {
                                         data-id="{E25201FA-C758-4E9A-A0AB-5FE6CB495288}"
                                       >
                                         <Link
-                                          href="/en/explore-aldar/businesses/development/residential/other-destinations/al-reeman-i/project-features"
+                                          href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/al-reeman-i/project-features"
                                           className="header__menu-dropdown__item__link"
                                         >
                                           <span>Features</span>
@@ -6184,7 +6190,7 @@ const Header = (): JSX.Element => {
                                     data-id="{65F6623B-B71F-47DE-94FE-401F6E6270FE}"
                                   >
                                     <Link
-                                      href="/en/explore-aldar/businesses/development/residential/other-destinations/fay-alreeman"
+                                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/fay-alreeman"
                                       className="header__menu-dropdown__item__link"
                                     >
                                       <span>Fay Alreeman</span>
@@ -6198,7 +6204,7 @@ const Header = (): JSX.Element => {
                                         data-id="{21768820-5496-439C-8D75-05CCDAE43344}"
                                       >
                                         <Link
-                                          href="/en/explore-aldar/businesses/development/residential/other-destinations/fay-alreeman"
+                                          href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/fay-alreeman"
                                           className="header__menu-dropdown__item__link"
                                         >
                                           <span>About the project</span>
@@ -6209,7 +6215,7 @@ const Header = (): JSX.Element => {
                                         data-id="{056FEDF9-ECAE-40E7-AE01-E9B8848A14ED}"
                                       >
                                         <Link
-                                          href="/en/explore-aldar/businesses/development/residential/other-destinations/fay-alreeman/project-features"
+                                          href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/fay-alreeman/project-features"
                                           className="header__menu-dropdown__item__link"
                                         >
                                           <span>Features</span>
@@ -6222,7 +6228,7 @@ const Header = (): JSX.Element => {
                                     data-id="{FFF66263-8BBC-41BE-9129-45BF91AE8CDF}"
                                   >
                                     <Link
-                                      href="/en/explore-aldar/businesses/development/residential/other-destinations/fay-alreeman-ii"
+                                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/fay-alreeman-ii"
                                       className="header__menu-dropdown__item__link"
                                     >
                                       <span>Fay Alreeman II</span>
@@ -6233,7 +6239,7 @@ const Header = (): JSX.Element => {
                                     data-id="{8ABBC01F-7EE8-44DF-B40D-2D8461584488}"
                                   >
                                     <Link
-                                      href="/en/explore-aldar/businesses/development/residential/other-destinations/haven"
+                                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/haven"
                                       className="header__menu-dropdown__item__link"
                                     >
                                       <span>Haven</span>
@@ -6244,7 +6250,7 @@ const Header = (): JSX.Element => {
                                     data-id="{74F1CCCF-9ECC-4A68-9E7D-8F0F64C434D2}"
                                   >
                                     <Link
-                                      href="/en/explore-aldar/businesses/development/residential/other-destinations/reeman-living-phase-2"
+                                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/reeman-living-phase-2"
                                       className="header__menu-dropdown__item__link"
                                     >
                                       <span>Reeman Living</span>
@@ -6255,7 +6261,7 @@ const Header = (): JSX.Element => {
                                     data-id="{5CE39564-048D-4755-9FD1-57FEDECDD32E}"
                                   >
                                     <Link
-                                      href="/en/explore-aldar/businesses/development/residential/other-destinations/al-reeman-ii"
+                                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/al-reeman-ii"
                                       className="header__menu-dropdown__item__link"
                                     >
                                       <span>Alreeman II</span>
@@ -6269,7 +6275,7 @@ const Header = (): JSX.Element => {
                                         data-id="{40B7FFA7-FB72-4657-A3D4-ECF4F9BAA858}"
                                       >
                                         <Link
-                                          href="/en/explore-aldar/businesses/development/residential/other-destinations/al-reeman-ii"
+                                          href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/al-reeman-ii"
                                           className="header__menu-dropdown__item__link"
                                         >
                                           <span>About the project</span>
@@ -6280,7 +6286,7 @@ const Header = (): JSX.Element => {
                                         data-id="{5DD6BDCE-84BB-475D-813F-B90404C7BF73}"
                                       >
                                         <Link
-                                          href="/en/explore-aldar/businesses/development/residential/other-destinations/al-reeman-ii/project-features"
+                                          href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/al-reeman-ii/project-features"
                                           className="header__menu-dropdown__item__link"
                                         >
                                           <span>Features</span>
@@ -6293,7 +6299,7 @@ const Header = (): JSX.Element => {
                                     data-id="{37E48DFC-0814-4DEC-A4FD-EB8E14FFB9BE}"
                                   >
                                     <Link
-                                      href="/en/explore-aldar/businesses/development/residential/other-destinations/the-burj-mohammed-bin-rashid"
+                                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/the-burj-mohammed-bin-rashid"
                                       className="header__menu-dropdown__item__link"
                                     >
                                       <span>The Burj Mohammed Bin Rashid </span>
@@ -6307,7 +6313,7 @@ const Header = (): JSX.Element => {
                                         data-id="{B360D13F-D655-4B43-ADA8-057D83FF8BD0}"
                                       >
                                         <Link
-                                          href="/en/explore-aldar/businesses/development/residential/other-destinations/the-burj-mohammed-bin-rashid/rent"
+                                          href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/the-burj-mohammed-bin-rashid/rent"
                                           className="header__menu-dropdown__item__link"
                                         >
                                           <span>Rent</span>
@@ -6318,7 +6324,7 @@ const Header = (): JSX.Element => {
                                         data-id="{C09CDAE1-C15A-4ACC-89F6-7FBE4396BCA3}"
                                       >
                                         <Link
-                                          href="/en/explore-aldar/businesses/development/residential/other-destinations/the-burj-mohammed-bin-rashid"
+                                          href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/the-burj-mohammed-bin-rashid"
                                           className="header__menu-dropdown__item__link"
                                         >
                                           <span>About the project</span>
@@ -6329,7 +6335,7 @@ const Header = (): JSX.Element => {
                                         data-id="{D410D016-790E-4603-8A2C-CD47FF4BAA43}"
                                       >
                                         <Link
-                                          href="/en/explore-aldar/businesses/development/residential/other-destinations/the-burj-mohammed-bin-rashid/project-features"
+                                          href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/the-burj-mohammed-bin-rashid/project-features"
                                           className="header__menu-dropdown__item__link"
                                         >
                                           <span>Features</span>
@@ -6342,7 +6348,7 @@ const Header = (): JSX.Element => {
                                     data-id="{FA773F02-4C48-44B5-9FD0-EED89C7B1224}"
                                   >
                                     <Link
-                                      href="/en/explore-aldar/businesses/development/residential/other-destinations/al-oyoun-village"
+                                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/al-oyoun-village"
                                       className="header__menu-dropdown__item__link"
                                     >
                                       <span>Al Oyoun Village</span>
@@ -6356,7 +6362,7 @@ const Header = (): JSX.Element => {
                                         data-id="{740043E2-472F-4FB0-A354-2BC75580FB07}"
                                       >
                                         <Link
-                                          href="/en/explore-aldar/businesses/development/residential/other-destinations/al-oyoun-village/rent"
+                                          href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/al-oyoun-village/rent"
                                           className="header__menu-dropdown__item__link"
                                         >
                                           <span>Rent</span>
@@ -6367,7 +6373,7 @@ const Header = (): JSX.Element => {
                                         data-id="{8EC0BEEF-7E3C-4F17-8CFF-3909AD77DA70}"
                                       >
                                         <Link
-                                          href="/en/explore-aldar/businesses/development/residential/other-destinations/al-oyoun-village"
+                                          href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/al-oyoun-village"
                                           className="header__menu-dropdown__item__link"
                                         >
                                           <span>About the project</span>
@@ -6378,7 +6384,7 @@ const Header = (): JSX.Element => {
                                         data-id="{13284A22-30BD-4A8E-8E55-75557E44CB49}"
                                       >
                                         <Link
-                                          href="/en/explore-aldar/businesses/development/residential/other-destinations/al-oyoun-village/project-features"
+                                          href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/al-oyoun-village/project-features"
                                           className="header__menu-dropdown__item__link"
                                         >
                                           <span>Features</span>
@@ -6391,7 +6397,7 @@ const Header = (): JSX.Element => {
                                     data-id="{78DE6479-8EEC-452F-AFBF-A2891116350E}"
                                   >
                                     <Link
-                                      href="/en/explore-aldar/businesses/development/residential/other-destinations/al-rayyana"
+                                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/al-rayyana"
                                       className="header__menu-dropdown__item__link"
                                     >
                                       <span>Al Rayyana</span>
@@ -6405,7 +6411,7 @@ const Header = (): JSX.Element => {
                                         data-id="{B7940374-25CC-44D1-8FDC-2637C2A83763}"
                                       >
                                         <Link
-                                          href="/en/explore-aldar/businesses/development/residential/other-destinations/al-rayyana/rent"
+                                          href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/al-rayyana/rent"
                                           className="header__menu-dropdown__item__link"
                                         >
                                           <span>Rent</span>
@@ -6416,7 +6422,7 @@ const Header = (): JSX.Element => {
                                         data-id="{1ACD3476-62FF-4373-9816-8464816782E3}"
                                       >
                                         <Link
-                                          href="/en/explore-aldar/businesses/development/residential/other-destinations/al-rayyana"
+                                          href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/al-rayyana"
                                           className="header__menu-dropdown__item__link"
                                         >
                                           <span>About the project</span>
@@ -6427,7 +6433,7 @@ const Header = (): JSX.Element => {
                                         data-id="{FA20F481-3A0A-4106-8454-FF14846DE7A2}"
                                       >
                                         <Link
-                                          href="/en/explore-aldar/businesses/development/residential/other-destinations/al-rayyana/project-features"
+                                          href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/al-rayyana/project-features"
                                           className="header__menu-dropdown__item__link"
                                         >
                                           <span>Features</span>
@@ -6440,7 +6446,7 @@ const Header = (): JSX.Element => {
                                     data-id="{66443945-C160-4BFD-8B84-C4FD7D0267A7}"
                                   >
                                     <Link
-                                      href="/en/explore-aldar/businesses/development/residential/other-destinations/eastern-mangroves"
+                                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/eastern-mangroves"
                                       className="header__menu-dropdown__item__link"
                                     >
                                       <span>Eastern Mangroves</span>
@@ -6454,7 +6460,7 @@ const Header = (): JSX.Element => {
                                         data-id="{0EFF00B2-36EA-4324-920F-9ABD6137FB3A}"
                                       >
                                         <Link
-                                          href="/en/explore-aldar/businesses/development/residential/other-destinations/eastern-mangroves/rent"
+                                          href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/eastern-mangroves/rent"
                                           className="header__menu-dropdown__item__link"
                                         >
                                           <span>Rent</span>
@@ -6465,7 +6471,7 @@ const Header = (): JSX.Element => {
                                         data-id="{9AB12800-E0A1-4968-B3B6-615159757C3C}"
                                       >
                                         <Link
-                                          href="/en/explore-aldar/businesses/development/residential/other-destinations/eastern-mangroves"
+                                          href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/eastern-mangroves"
                                           className="header__menu-dropdown__item__link"
                                         >
                                           <span>About the project</span>
@@ -6476,7 +6482,7 @@ const Header = (): JSX.Element => {
                                         data-id="{BAB9B051-7971-44A4-991F-8CA1060DA5A3}"
                                       >
                                         <Link
-                                          href="/en/explore-aldar/businesses/development/residential/other-destinations/eastern-mangroves/project-features"
+                                          href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/eastern-mangroves/project-features"
                                           className="header__menu-dropdown__item__link"
                                         >
                                           <span>Features</span>
@@ -6489,7 +6495,7 @@ const Header = (): JSX.Element => {
                                     data-id="{87FB50B5-35AA-444E-A848-4DB8254CAC1C}"
                                   >
                                     <Link
-                                      href="/en/explore-aldar/businesses/development/residential/other-destinations/nareel-island"
+                                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/nareel-island"
                                       className="header__menu-dropdown__item__link"
                                     >
                                       <span>Nareel Island</span>
@@ -6503,7 +6509,7 @@ const Header = (): JSX.Element => {
                                         data-id="{A588FB5E-BE62-45BB-A6EE-A57C88F22F63}"
                                       >
                                         <Link
-                                          href="/en/explore-aldar/businesses/development/residential/other-destinations/nareel-island"
+                                          href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/nareel-island"
                                           className="header__menu-dropdown__item__link"
                                         >
                                           <span>About the project</span>
@@ -6514,7 +6520,7 @@ const Header = (): JSX.Element => {
                                         data-id="{A39600BA-DC28-44E9-A5F8-20CEA0588134}"
                                       >
                                         <Link
-                                          href="/en/explore-aldar/businesses/development/residential/other-destinations/nareel-island/project-features"
+                                          href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/nareel-island/project-features"
                                           className="header__menu-dropdown__item__link"
                                         >
                                           <span>Features</span>
@@ -6527,7 +6533,7 @@ const Header = (): JSX.Element => {
                                     data-id="{33C4F553-0DF5-4964-9025-21236A4595C2}"
                                   >
                                     <Link
-                                      href="/en/explore-aldar/businesses/development/residential/other-destinations/sas-al-nakhl-village"
+                                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/sas-al-nakhl-village"
                                       className="header__menu-dropdown__item__link"
                                     >
                                       <span>Sas Al Nakhl Village</span>
@@ -6541,7 +6547,7 @@ const Header = (): JSX.Element => {
                                         data-id="{16F3A5AE-759B-41DD-87AD-538B798FB2DC}"
                                       >
                                         <Link
-                                          href="/en/explore-aldar/businesses/development/residential/other-destinations/sas-al-nakhl-village"
+                                          href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/sas-al-nakhl-village"
                                           className="header__menu-dropdown__item__link"
                                         >
                                           <span>About the project</span>
@@ -6552,7 +6558,7 @@ const Header = (): JSX.Element => {
                                         data-id="{9A697402-AD00-4FFD-AC3D-EBE471834E81}"
                                       >
                                         <Link
-                                          href="/en/explore-aldar/businesses/development/residential/other-destinations/sas-al-nakhl-village/project-features"
+                                          href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/sas-al-nakhl-village/project-features"
                                           className="header__menu-dropdown__item__link"
                                         >
                                           <span>Features</span>
@@ -6569,7 +6575,7 @@ const Header = (): JSX.Element => {
                             data-id="{182B80BC-F491-4079-9175-2F3DE902561B}"
                           >
                             <Link
-                              href="/en/explore-aldar/businesses/development/land"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/land"
                               className="header__menu-dropdown__item__link"
                             >
                               <span>Land Portfolio</span>
@@ -6580,7 +6586,7 @@ const Header = (): JSX.Element => {
                             data-id="{955A491D-7FB8-4357-B483-3A7F352F1A2D}"
                           >
                             <Link
-                              href="/en/explore-aldar/businesses/development/partnerships"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/development/partnerships"
                               className="header__menu-dropdown__item__link"
                             >
                               <span>Partnerships</span>
@@ -6603,7 +6609,7 @@ const Header = (): JSX.Element => {
                             data-id="{5D5E561C-5907-41A9-AD36-42C290DA47C8}"
                           >
                             <Link
-                              href="/en/explore-aldar/businesses/investment/commercial"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/investment/commercial"
                               className="header__menu-dropdown__item__link"
                             >
                               <span>Commercial</span>
@@ -6617,7 +6623,7 @@ const Header = (): JSX.Element => {
                                 data-id="{30DCD8DE-491C-452A-BF4A-D2C30BB34045}"
                               >
                                 <Link
-                                  href="/en/explore-aldar/businesses/investment/commercial/offices"
+                                  href="https://www.aldar.com/en/explore-aldar/businesses/investment/commercial/offices"
                                   className="header__menu-dropdown__item__link"
                                 >
                                   <span>Offices</span>
@@ -6630,7 +6636,7 @@ const Header = (): JSX.Element => {
                             data-id="{26539EF0-A460-4DD0-814C-3D95293A4241}"
                           >
                             <Link
-                              href="/en/explore-aldar/businesses/investment/retail"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/investment/retail"
                               className="header__menu-dropdown__item__link"
                             >
                               <span>Retail</span>
@@ -6644,7 +6650,7 @@ const Header = (): JSX.Element => {
                                 data-id="{CE9DFD8D-7668-41F1-A97B-B9CC085F1848}"
                               >
                                 <Link
-                                  href="/en/explore-aldar/businesses/investment/retail/malls"
+                                  href="https://www.aldar.com/en/explore-aldar/businesses/investment/retail/malls"
                                   className="header__menu-dropdown__item__link"
                                 >
                                   <span>Our Malls</span>
@@ -6655,7 +6661,7 @@ const Header = (): JSX.Element => {
                                 data-id="{E5AC1E12-288C-46A3-8E4A-47AEBC861D73}"
                               >
                                 <Link
-                                  href="/en/explore-aldar/businesses/investment/retail/communities"
+                                  href="https://www.aldar.com/en/explore-aldar/businesses/investment/retail/communities"
                                   className="header__menu-dropdown__item__link"
                                 >
                                   <span>Retail Communities</span>
@@ -6671,7 +6677,7 @@ const Header = (): JSX.Element => {
                         data-id="{646AB515-B8A5-4A75-BC05-38C2E0420897}"
                       >
                         <Link
-                          href="/en/explore-aldar/businesses/education"
+                          href="https://www.aldar.com/en/explore-aldar/businesses/education"
                           className="header__menu-dropdown__item__link"
                         >
                           <span>Education</span>
@@ -6685,7 +6691,7 @@ const Header = (): JSX.Element => {
                             data-id="{4692C89B-3318-4982-BE6C-F364A792FA2B}"
                           >
                             <Link
-                              href="/en/explore-aldar/businesses/education/academies"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/education/academies"
                               className="header__menu-dropdown__item__link"
                             >
                               <span>Our Academies</span>
@@ -6696,7 +6702,7 @@ const Header = (): JSX.Element => {
                             data-id="{49345935-4AE4-4D0A-AF37-BF54C7B3EF4F}"
                           >
                             <Link
-                              href="/en/explore-aldar/businesses/education/our-schools"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/education/our-schools"
                               className="header__menu-dropdown__item__link"
                             >
                               <span>Our Schools</span>
@@ -6707,7 +6713,7 @@ const Header = (): JSX.Element => {
                             data-id="{DE6E09D8-554B-45FE-B53A-C9CAD3528DB5}"
                           >
                             <Link
-                              href="/en/explore-aldar/businesses/education/aldar-training-academy"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/education/aldar-training-academy"
                               className="header__menu-dropdown__item__link"
                             >
                               <span>Training Academy</span>
@@ -6721,7 +6727,7 @@ const Header = (): JSX.Element => {
                         data-id="{51B9DA07-0D73-4291-B7ED-9B1DB8531A07}"
                       >
                         <Link
-                          href="/en/explore-aldar/businesses/hospitality"
+                          href="https://www.aldar.com/en/explore-aldar/businesses/hospitality"
                           className="header__menu-dropdown__item__link"
                         >
                           <span>Hospitality</span>
@@ -6735,7 +6741,7 @@ const Header = (): JSX.Element => {
                             data-id="{FCDBCFCE-4CEE-41FA-961C-53C9DF45AE00}"
                           >
                             <Link
-                              href="/en/explore-aldar/businesses/hospitality/hotels"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/hospitality/hotels"
                               className="header__menu-dropdown__item__link"
                             >
                               <span>Hotels</span>
@@ -6746,7 +6752,7 @@ const Header = (): JSX.Element => {
                             data-id="{D036E6EB-0A3E-4887-84F5-7130F59FA18D}"
                           >
                             <Link
-                              href="/en/explore-aldar/businesses/hospitality/golf-course"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/hospitality/golf-course"
                               className="header__menu-dropdown__item__link"
                             >
                               <span>Golf Courses</span>
@@ -6757,7 +6763,7 @@ const Header = (): JSX.Element => {
                             data-id="{A1F99369-F49C-452D-9149-EC2365E0DB55}"
                           >
                             <Link
-                              href="/en/explore-aldar/businesses/hospitality/beach-clubs"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/hospitality/beach-clubs"
                               className="header__menu-dropdown__item__link"
                             >
                               <span>Beach Clubs</span>
@@ -6768,7 +6774,7 @@ const Header = (): JSX.Element => {
                             data-id="{E05CE5A0-1F06-4103-B8A0-774E546090B2}"
                           >
                             <Link
-                              href="/en/explore-aldar/businesses/hospitality/marinas"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/hospitality/marinas"
                               className="header__menu-dropdown__item__link"
                             >
                               <span>Marinas</span>
@@ -6779,7 +6785,7 @@ const Header = (): JSX.Element => {
                             data-id="{73190DEC-E14C-408D-BD66-4FAB0D6BD7F9}"
                           >
                             <Link
-                              href="/en/explore-aldar/businesses/hospitality/parks"
+                              href="https://www.aldar.com/en/explore-aldar/businesses/hospitality/parks"
                               className="header__menu-dropdown__item__link"
                             >
                               <span>Parks</span>
@@ -6793,7 +6799,7 @@ const Header = (): JSX.Element => {
                         data-id="{BA7DACBB-1A3A-486C-BA45-A71F6C9C06FF}"
                       >
                         <Link
-                          href="/en/explore-aldar/businesses/aldar-projects"
+                          href="https://www.aldar.com/en/explore-aldar/businesses/aldar-projects"
                           className="header__menu-dropdown__item__link"
                         >
                           <span>Projects</span>
@@ -6807,7 +6813,7 @@ const Header = (): JSX.Element => {
                     data-id="{D62BACCF-B4EF-432A-8900-88FBB0441F0D}"
                   >
                     <Link
-                      href="/en/explore-aldar/corporate-governance"
+                      href="https://www.aldar.com/en/explore-aldar/corporate-governance"
                       className="header__menu-dropdown__item__link"
                       data-id="{D62BACCF-B4EF-432A-8900-88FBB0441F0D}"
                     >
@@ -6820,7 +6826,7 @@ const Header = (): JSX.Element => {
                     data-id="{7C8E74B8-A1DE-40F4-B76E-AF2A1E2A8838}"
                   >
                     <Link
-                      href="/en/explore-aldar/sustainability"
+                      href="https://www.aldar.com/en/explore-aldar/sustainability"
                       className="header__menu-dropdown__item__link"
                       data-id="{7C8E74B8-A1DE-40F4-B76E-AF2A1E2A8838}"
                     >
@@ -6835,7 +6841,7 @@ const Header = (): JSX.Element => {
                         data-id="{B5EB0316-FB2D-48D2-B04A-A71EB98F108A}"
                       >
                         <Link
-                          href="/en/explore-aldar/sustainability/strategy"
+                          href="https://www.aldar.com/en/explore-aldar/sustainability/strategy"
                           className="header__menu-dropdown__item__link"
                         >
                           <span>Sustainability Strategy</span>
@@ -6847,7 +6853,7 @@ const Header = (): JSX.Element => {
                         data-id="{D0429E8E-1137-495F-B944-185189735226}"
                       >
                         <Link
-                          href="/en/explore-aldar/sustainability/governance-and-policies"
+                          href="https://www.aldar.com/en/explore-aldar/sustainability/governance-and-policies"
                           className="header__menu-dropdown__item__link"
                         >
                           <span>Governance & Policies</span>
@@ -6859,7 +6865,7 @@ const Header = (): JSX.Element => {
                         data-id="{155F87DD-395A-497E-A2D8-C493974DBDDD}"
                       >
                         <Link
-                          href="/en/explore-aldar/sustainability/reporting"
+                          href="https://www.aldar.com/en/explore-aldar/sustainability/reporting"
                           className="header__menu-dropdown__item__link"
                         >
                           <span>Reporting & Performance</span>
@@ -6871,7 +6877,7 @@ const Header = (): JSX.Element => {
                         data-id="{784C5843-44A6-45F4-A50D-3744F1CA7C89}"
                       >
                         <Link
-                          href="/en/explore-aldar/sustainability/netzero"
+                          href="https://www.aldar.com/en/explore-aldar/sustainability/netzero"
                           className="header__menu-dropdown__item__link"
                         >
                           <span>Net Zero</span>
@@ -6883,7 +6889,7 @@ const Header = (): JSX.Element => {
                         data-id="{A22FC8BC-8906-44DD-9111-51FAB0CFDA98}"
                       >
                         <Link
-                          href="/en/explore-aldar/sustainability/corporate-social-responsibility"
+                          href="https://www.aldar.com/en/explore-aldar/sustainability/corporate-social-responsibility"
                           className="header__menu-dropdown__item__link"
                         >
                           <span>Community Outreach</span>
@@ -6897,7 +6903,7 @@ const Header = (): JSX.Element => {
                     data-id="{065FB7C1-945D-4BEE-9318-1ED6A63F73C8}"
                   >
                     <Link
-                      href="/en/explore-aldar/aldar-brand"
+                      href="https://www.aldar.com/en/explore-aldar/aldar-brand"
                       className="header__menu-dropdown__item__link"
                       data-id="{065FB7C1-945D-4BEE-9318-1ED6A63F73C8}"
                     >
@@ -6910,7 +6916,7 @@ const Header = (): JSX.Element => {
                     data-id="{E1132B35-B5E2-47BC-8F4A-3170C279CAAC}"
                   >
                     <Link
-                      href="/en/explore-aldar/live-aldar"
+                      href="https://www.aldar.com/en/explore-aldar/live-aldar"
                       className="header__menu-dropdown__item__link"
                       data-id="{E1132B35-B5E2-47BC-8F4A-3170C279CAAC}"
                     >
@@ -6925,7 +6931,7 @@ const Header = (): JSX.Element => {
                         data-id="{D67003EC-D707-4F3F-8691-1ACAA3D8A833}"
                       >
                         <Link
-                          href="/en/explore-aldar/live-aldar/year-of-sustainability"
+                          href="https://www.aldar.com/en/explore-aldar/live-aldar/year-of-sustainability"
                           className="header__menu-dropdown__item__link"
                         >
                           <span>Year of Sustainability</span>
@@ -6937,7 +6943,7 @@ const Header = (): JSX.Element => {
                         data-id="{5BED3181-2327-43A8-895A-DDCDFA69D8DD}"
                       >
                         <Link
-                          href="/en/explore-aldar/live-aldar/emirati-womens-day"
+                          href="https://www.aldar.com/en/explore-aldar/live-aldar/emirati-womens-day"
                           className="header__menu-dropdown__item__link"
                         >
                           <span>Emirati Women&apos;s Day</span>
@@ -6949,7 +6955,7 @@ const Header = (): JSX.Element => {
                         data-id="{0A999D4B-7AF3-4460-918B-9CE7A59E5B13}"
                       >
                         <Link
-                          href="/en/explore-aldar/live-aldar/ahal-aldar"
+                          href="https://www.aldar.com/en/explore-aldar/live-aldar/ahal-aldar"
                           className="header__menu-dropdown__item__link"
                         >
                           <span>Ahal Aldar</span>
@@ -6961,7 +6967,7 @@ const Header = (): JSX.Element => {
                         data-id="{B0CD045F-75F7-42CD-A6D3-EDF4100BFD4C}"
                       >
                         <Link
-                          href="/en/explore-aldar/live-aldar/aldar-stories"
+                          href="https://www.aldar.com/en/explore-aldar/live-aldar/aldar-stories"
                           className="header__menu-dropdown__item__link"
                         >
                           <span>Aldar Stories</span>
@@ -6973,7 +6979,7 @@ const Header = (): JSX.Element => {
                         data-id="{423FBF61-A413-4359-94C8-C7202FF8BDC3}"
                       >
                         <Link
-                          href="/en/explore-aldar/live-aldar/in-focus"
+                          href="https://www.aldar.com/en/explore-aldar/live-aldar/in-focus"
                           className="header__menu-dropdown__item__link"
                         >
                           <span>In Focus</span>
@@ -6987,7 +6993,7 @@ const Header = (): JSX.Element => {
                     data-id="{D01C59BB-FE5C-4F92-B877-41944156DF13}"
                   >
                     <Link
-                      href="/en/explore-aldar/art"
+                      href="https://www.aldar.com/en/explore-aldar/art"
                       className="header__menu-dropdown__item__link"
                       data-id="{D01C59BB-FE5C-4F92-B877-41944156DF13}"
                     >
@@ -7000,7 +7006,7 @@ const Header = (): JSX.Element => {
                     data-id="{BCC2FA58-7881-4A0D-AE8E-036EA9EF0813}"
                   >
                     <Link
-                      href="/en/explore-aldar/innovation"
+                      href="https://www.aldar.com/en/explore-aldar/innovation"
                       className="header__menu-dropdown__item__link"
                       data-id="{BCC2FA58-7881-4A0D-AE8E-036EA9EF0813}"
                     >
@@ -7015,7 +7021,7 @@ const Header = (): JSX.Element => {
                         data-id="{3C7FD7D4-7031-4088-A00A-AFEDE6B3AE53}"
                       >
                         <Link
-                          href="/en/explore-aldar/innovation/manassah3"
+                          href="https://www.aldar.com/en/explore-aldar/innovation/manassah3"
                           className="header__menu-dropdown__item__link"
                         >
                           <span>Manassah</span>
@@ -7027,7 +7033,7 @@ const Header = (): JSX.Element => {
                         data-id="{479D9BCF-6B82-4765-B3C1-0AD47A535877}"
                       >
                         <Link
-                          href="/en/explore-aldar/innovation/scale-up"
+                          href="https://www.aldar.com/en/explore-aldar/innovation/scale-up"
                           className="header__menu-dropdown__item__link"
                         >
                           <span>Scale Up By Aldar</span>
@@ -7045,7 +7051,7 @@ const Header = (): JSX.Element => {
                     data-id="{6EDDB5A5-1B3E-4DC8-94B9-3F2C057226D3}"
                   >
                     <Link
-                      href="/en/news-and-media"
+                      href="https://www.aldar.com/en/news-and-media"
                       className="header__menu-dropdown__item__link"
                       data-id="{6EDDB5A5-1B3E-4DC8-94B9-3F2C057226D3}"
                     >
@@ -7058,7 +7064,7 @@ const Header = (): JSX.Element => {
                     data-id="{2D5AC7A9-BC36-42A2-A979-AE0F9F91A55C}"
                   >
                     <Link
-                      href="/en/media/gallery"
+                      href="https://www.aldar.com/en/media/gallery"
                       className="header__menu-dropdown__item__link"
                       data-id="{2D5AC7A9-BC36-42A2-A979-AE0F9F91A55C}"
                     >
@@ -7071,7 +7077,7 @@ const Header = (): JSX.Element => {
                     data-id="{3740875F-9D20-4E51-8492-DF8B8937FCED}"
                   >
                     <Link
-                      href="/en/blog"
+                      href="https://www.aldar.com/en/blog"
                       className="header__menu-dropdown__item__link"
                       data-id="{3740875F-9D20-4E51-8492-DF8B8937FCED}"
                     >
@@ -7099,7 +7105,7 @@ const Header = (): JSX.Element => {
                         data-id="{A0F832BE-96D5-4499-B1D5-B164755C1A6F}"
                       >
                         <Link
-                          href="/en/investors/reports/annual-reports"
+                          href="https://www.aldar.com/en/investors/reports/annual-reports"
                           className="header__menu-dropdown__item__link"
                         >
                           <span>Annual Reports</span>
@@ -7111,7 +7117,7 @@ const Header = (): JSX.Element => {
                         data-id="{E220C1C9-08BB-4404-9B83-2DC2903D42B1}"
                       >
                         <Link
-                          href="/en/investors/reports/financial-statements"
+                          href="https://www.aldar.com/en/investors/reports/financial-statements"
                           className="header__menu-dropdown__item__link"
                         >
                           <span>Financial Statements</span>
@@ -7123,7 +7129,7 @@ const Header = (): JSX.Element => {
                         data-id="{F424634B-9982-4F07-82FD-80C3ECBE2D90}"
                       >
                         <Link
-                          href="/en/investors/reports/quarterly-results"
+                          href="https://www.aldar.com/en/investors/reports/quarterly-results"
                           className="header__menu-dropdown__item__link"
                         >
                           <span>Quarterly Results</span>
@@ -7135,7 +7141,7 @@ const Header = (): JSX.Element => {
                         data-id="{7294A2D5-21D6-45A6-85B9-80C4F60B9460}"
                       >
                         <Link
-                          href="/en/investors/reports/investor-presentations"
+                          href="https://www.aldar.com/en/investors/reports/investor-presentations"
                           className="header__menu-dropdown__item__link"
                         >
                           <span>Investor Presentations</span>
@@ -7147,7 +7153,7 @@ const Header = (): JSX.Element => {
                         data-id="{861870A4-2B6E-4AAD-988B-62F4A1DB4A31}"
                       >
                         <Link
-                          href="/en/investors/reports/sustainability-reports"
+                          href="https://www.aldar.com/en/investors/reports/sustainability-reports"
                           className="header__menu-dropdown__item__link"
                         >
                           <span>Sustainability Reports</span>
@@ -7159,7 +7165,7 @@ const Header = (): JSX.Element => {
                         data-id="{50C2BEAF-5762-4592-B3F5-CCECA1A528DD}"
                       >
                         <Link
-                          href="/en/investors/reports/capital-markets-day"
+                          href="https://www.aldar.com/en/investors/reports/capital-markets-day"
                           className="header__menu-dropdown__item__link"
                         >
                           <span>Capital Markets Day</span>
@@ -7171,7 +7177,7 @@ const Header = (): JSX.Element => {
                         data-id="{37F84296-BF15-4F19-B66E-821ACF071C30}"
                       >
                         <Link
-                          href="/en/investors/reports/factsheet"
+                          href="https://www.aldar.com/en/investors/reports/factsheet"
                           className="header__menu-dropdown__item__link"
                         >
                           <span>Factsheet</span>
@@ -7183,7 +7189,7 @@ const Header = (): JSX.Element => {
                         data-id="{2C59EFA3-CFE2-443E-B6E2-107AE0D8E39A}"
                       >
                         <Link
-                          href="/en/investors/reports/key-figures"
+                          href="https://www.aldar.com/en/investors/reports/key-figures"
                           className="header__menu-dropdown__item__link"
                         >
                           <span>Key Figures</span>
@@ -7206,7 +7212,7 @@ const Header = (): JSX.Element => {
                         data-id="{2226BFF2-7D85-4557-8428-B96C8E49B771}"
                       >
                         <Link
-                          href="/en/investors/shareholders/share-information"
+                          href="https://www.aldar.com/en/investors/shareholders/share-information"
                           className="header__menu-dropdown__item__link"
                         >
                           <span>Share Information</span>
@@ -7218,7 +7224,7 @@ const Header = (): JSX.Element => {
                         data-id="{490C743E-70DB-4C03-A02B-C7916BBB8782}"
                       >
                         <Link
-                          href="/en/investors/shareholders/dividends"
+                          href="https://www.aldar.com/en/investors/shareholders/dividends"
                           className="header__menu-dropdown__item__link"
                         >
                           <span>Dividends</span>
@@ -7230,7 +7236,7 @@ const Header = (): JSX.Element => {
                         data-id="{5658F475-5E4A-44E2-9E65-716B93C03568}"
                       >
                         <Link
-                          href="/en/explore-aldar/corporate-governance#AGM"
+                          href="https://www.aldar.com/en/explore-aldar/corporate-governance#AGM"
                           className="header__menu-dropdown__item__link"
                         >
                           <span>AGM</span>
@@ -7253,7 +7259,7 @@ const Header = (): JSX.Element => {
                         data-id="{CF6B51EE-7B05-4E66-95E7-6F26FCA32431}"
                       >
                         <Link
-                          href="/en/investors/debt/credit-ratings"
+                          href="https://www.aldar.com/en/investors/debt/credit-ratings"
                           className="header__menu-dropdown__item__link"
                         >
                           <span>Credit Ratings</span>
@@ -7265,7 +7271,7 @@ const Header = (): JSX.Element => {
                         data-id="{F7137ACD-5195-4FBF-AF5F-33D215161C82}"
                       >
                         <Link
-                          href="/en/investors/debt/issuances"
+                          href="https://www.aldar.com/en/investors/debt/issuances"
                           className="header__menu-dropdown__item__link"
                         >
                           <span>Issuances</span>
@@ -7277,7 +7283,7 @@ const Header = (): JSX.Element => {
                         data-id="{9B9AE755-F4A0-4D3C-BF6F-AA1601906327}"
                       >
                         <Link
-                          href="/en/investors/debt/debt-investor-presentations"
+                          href="https://www.aldar.com/en/investors/debt/debt-investor-presentations"
                           className="header__menu-dropdown__item__link"
                         >
                           <span>Debt Investor Presentations</span>
@@ -7300,7 +7306,7 @@ const Header = (): JSX.Element => {
                         data-id="{B9B7F8C1-CF6B-403C-92DB-E890072F970B}"
                       >
                         <Link
-                          href="/en/investors/coverage/analyst-list"
+                          href="https://www.aldar.com/en/investors/coverage/analyst-list"
                           className="header__menu-dropdown__item__link"
                         >
                           <span>Analyst List</span>
@@ -7312,7 +7318,7 @@ const Header = (): JSX.Element => {
                         data-id="{D9044F29-F6BB-4958-800A-B52ACDA01079}"
                       >
                         <Link
-                          href="/en/investors/coverage/recommendation-overview"
+                          href="https://www.aldar.com/en/investors/coverage/recommendation-overview"
                           className="header__menu-dropdown__item__link"
                         >
                           <span>Recommendation Overview</span>
@@ -7326,7 +7332,7 @@ const Header = (): JSX.Element => {
                     data-id="{ECEB7D6B-8BC0-416A-8C96-1F722788AE58}"
                   >
                     <Link
-                      href="/en/investors/financial-calendar"
+                      href="https://www.aldar.com/en/investors/financial-calendar"
                       className="header__menu-dropdown__item__link"
                       data-id="{ECEB7D6B-8BC0-416A-8C96-1F722788AE58}"
                     >
@@ -7339,7 +7345,7 @@ const Header = (): JSX.Element => {
                     data-id="{CC96C208-2747-4766-98AB-FF980592A17F}"
                   >
                     <Link
-                      href="/en/investors/company-announcements"
+                      href="https://www.aldar.com/en/investors/company-announcements"
                       className="header__menu-dropdown__item__link"
                       data-id="{CC96C208-2747-4766-98AB-FF980592A17F}"
                     >
@@ -7361,7 +7367,7 @@ const Header = (): JSX.Element => {
                         data-id="{91DD581A-84F5-4B60-BE29-926773438CDF}"
                       >
                         <Link
-                          href="/en/investors/contact-us/contact-details"
+                          href="https://www.aldar.com/en/investors/contact-us/contact-details"
                           className="header__menu-dropdown__item__link"
                         >
                           <span>Contact Details</span>
@@ -7373,7 +7379,7 @@ const Header = (): JSX.Element => {
                         data-id="{9AE68490-E06D-4D0D-9A16-6F46BC25E699}"
                       >
                         <Link
-                          href="/en/investors/contact-us/subscription-center"
+                          href="https://www.aldar.com/en/investors/contact-us/subscription-center"
                           className="header__menu-dropdown__item__link"
                         >
                           <span>Subscription Center</span>
@@ -7406,7 +7412,7 @@ const Header = (): JSX.Element => {
                     data-id="{CA3257B0-AB3A-4779-98B0-88FE1CE06153}"
                   >
                     <Link
-                      href="/en/careers/graduate-programme"
+                      href="https://www.aldar.com/en/careers/graduate-programme"
                       className="header__menu-dropdown__item__link"
                       data-id="{CA3257B0-AB3A-4779-98B0-88FE1CE06153}"
                     >
@@ -7425,7 +7431,7 @@ const Header = (): JSX.Element => {
                 >
                   <li>
                     <Link
-                      href="/en/explore-aldar/businesses/development/residential/yas-island/lea-yas-island"
+                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/yas-island/lea-yas-island"
                       data-linkid="{D431F222-136A-40FB-8FC4-C594BEF5674C}"
                       className="header__submenu-item"
                       data-id="{3CEFEDE8-F617-481C-88F3-6C955836F1CE}"
@@ -7435,7 +7441,7 @@ const Header = (): JSX.Element => {
                   </li>
                   <li>
                     <Link
-                      href="/en/explore-aldar/businesses/development/residential/yas-island/lea-yas-island/project-features"
+                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/yas-island/lea-yas-island/project-features"
                       data-linkid="{4D24F9CD-FB29-4EF5-878A-C8BBFA349058}"
                       className="header__submenu-item"
                       data-id="{43F6F372-A113-4F81-886D-05FA18C46941}"
@@ -7451,7 +7457,7 @@ const Header = (): JSX.Element => {
                 >
                   <li>
                     <Link
-                      href="/en/explore-aldar/businesses/development/residential/yas-island/mayan"
+                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/yas-island/mayan"
                       data-linkid="{91D8D3C4-8CA3-43DD-93AC-643C06A8B7DA}"
                       className="header__submenu-item"
                       data-id="{3381DF01-1776-479D-B046-7F6515AC9246}"
@@ -7461,7 +7467,7 @@ const Header = (): JSX.Element => {
                   </li>
                   <li>
                     <Link
-                      href="/en/explore-aldar/businesses/development/residential/yas-island/mayan/project-features"
+                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/yas-island/mayan/project-features"
                       data-linkid="{CD141ABE-EF65-4E0A-A5AA-9E38389DFE21}"
                       className="header__submenu-item"
                       data-id="{5D15F9D5-437C-47A4-BC74-F3B482CBA143}"
@@ -7477,7 +7483,7 @@ const Header = (): JSX.Element => {
                 >
                   <li>
                     <Link
-                      href="/en/explore-aldar/businesses/development/residential/yas-island/ansam"
+                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/yas-island/ansam"
                       data-linkid="{ACD71176-159F-479E-BF95-478564706BAF}"
                       className="header__submenu-item"
                       data-id="{74BD2660-2961-46FF-92EC-43AC71782B0F}"
@@ -7487,7 +7493,7 @@ const Header = (): JSX.Element => {
                   </li>
                   <li>
                     <Link
-                      href="/en/explore-aldar/businesses/development/residential/yas-island/ansam/project-features"
+                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/yas-island/ansam/project-features"
                       data-linkid="{417D6B5B-3A22-4F19-8328-3D6C9E924E69}"
                       className="header__submenu-item"
                       data-id="{A1A5A743-1822-43B2-87FE-433797240781}"
@@ -7503,7 +7509,7 @@ const Header = (): JSX.Element => {
                 >
                   <li>
                     <Link
-                      href="/en/explore-aldar/businesses/development/residential/yas-island/noya"
+                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/yas-island/noya"
                       data-linkid="{9EF48127-1FDC-4521-BA66-02024DF23CFB}"
                       className="header__submenu-item"
                       data-id="{90542F9F-EF74-46F9-8330-06363D6B4859}"
@@ -7513,7 +7519,7 @@ const Header = (): JSX.Element => {
                   </li>
                   <li>
                     <Link
-                      href="/en/explore-aldar/businesses/development/residential/yas-island/noya/project-features"
+                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/yas-island/noya/project-features"
                       data-linkid="{62B83E63-C4C6-4310-9042-431E492123B9}"
                       className="header__submenu-item"
                       data-id="{C786B3AD-2A12-4D57-A578-D236D2DDF2F8}"
@@ -7529,7 +7535,7 @@ const Header = (): JSX.Element => {
                 >
                   <li>
                     <Link
-                      href="/en/explore-aldar/businesses/development/residential/yas-island/noya-luma"
+                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/yas-island/noya-luma"
                       data-linkid="{5305A7C4-3EFB-4BBA-BC48-A26B282DDCA5}"
                       className="header__submenu-item"
                       data-id="{EBC8D70B-EA8A-4165-A5D6-85209626777B}"
@@ -7539,7 +7545,7 @@ const Header = (): JSX.Element => {
                   </li>
                   <li>
                     <Link
-                      href="/en/explore-aldar/businesses/development/residential/yas-island/noya-luma/project-features"
+                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/yas-island/noya-luma/project-features"
                       data-linkid="{3128B7C9-6DDE-4311-9846-140A1FFF4D10}"
                       className="header__submenu-item"
                       data-id="{AC2C9C65-90B8-49C0-87EB-79A268E646FB}"
@@ -7555,7 +7561,7 @@ const Header = (): JSX.Element => {
                 >
                   <li>
                     <Link
-                      href="/en/explore-aldar/businesses/development/residential/yas-island/noya-viva"
+                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/yas-island/noya-viva"
                       data-linkid="{1803D367-13C9-453A-A045-0F8657732395}"
                       className="header__submenu-item"
                       data-id="{9477C767-6FF2-4033-99E4-2D5CD2512091}"
@@ -7565,7 +7571,7 @@ const Header = (): JSX.Element => {
                   </li>
                   <li>
                     <Link
-                      href="/en/explore-aldar/businesses/development/residential/yas-island/noya-viva/project-features"
+                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/yas-island/noya-viva/project-features"
                       data-linkid="{1383E10C-3AC4-4BF5-BA91-BF02730B5E41}"
                       className="header__submenu-item"
                       data-id="{2BD88445-3827-4EBD-BD2C-DCD704FB031B}"
@@ -7581,7 +7587,7 @@ const Header = (): JSX.Element => {
                 >
                   <li>
                     <Link
-                      href="/en/explore-aldar/businesses/development/residential/yas-island/yas-acres"
+                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/yas-island/yas-acres"
                       data-linkid="{0989FBEE-DAD6-4AEB-A225-827E2CBE6B84}"
                       className="header__submenu-item"
                       data-id="{09922C21-7D5C-44AF-823D-BCC7BEAF13AA}"
@@ -7591,7 +7597,7 @@ const Header = (): JSX.Element => {
                   </li>
                   <li>
                     <Link
-                      href="/en/explore-aldar/businesses/development/residential/yas-island/yas-acres/project-features"
+                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/yas-island/yas-acres/project-features"
                       data-linkid="{CDDF99F1-BD33-41D2-BC7B-8F07E39ACD83}"
                       className="header__submenu-item"
                       data-id="{59E2EC47-F085-4690-B203-F95F481B0219}"
@@ -7607,7 +7613,7 @@ const Header = (): JSX.Element => {
                 >
                   <li>
                     <Link
-                      href="/en/explore-aldar/businesses/development/residential/yas-island/waters-edge/buy"
+                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/yas-island/waters-edge/buy"
                       data-linkid="{B975586D-181D-4D22-88FE-1F1DFC72E59A}"
                       className="header__submenu-item"
                       data-id="{13083ED4-AA91-4BFE-BE8F-0A4A6C4DE7A2}"
@@ -7617,7 +7623,7 @@ const Header = (): JSX.Element => {
                   </li>
                   <li>
                     <Link
-                      href="/en/explore-aldar/businesses/development/residential/yas-island/waters-edge"
+                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/yas-island/waters-edge"
                       data-linkid="{CC20DA72-A421-466C-9049-434AFC85308A}"
                       className="header__submenu-item"
                       data-id="{35A76A88-7DF2-4318-BA44-38A1A122E09B}"
@@ -7627,7 +7633,7 @@ const Header = (): JSX.Element => {
                   </li>
                   <li>
                     <Link
-                      href="/en/explore-aldar/businesses/development/residential/yas-island/waters-edge/project-features"
+                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/yas-island/waters-edge/project-features"
                       data-linkid="{6B238147-C57A-4761-8622-8659DE106205}"
                       className="header__submenu-item"
                       data-id="{7A6C070D-765A-4739-B4DA-7175918B9DEB}"
@@ -7643,7 +7649,7 @@ const Header = (): JSX.Element => {
                 >
                   <li>
                     <Link
-                      href="/en/explore-aldar/businesses/development/residential/yas-island/west-yas"
+                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/yas-island/west-yas"
                       data-linkid="{49CD8B3E-F6DB-45F8-9461-11B627F564D6}"
                       className="header__submenu-item"
                       data-id="{E5472269-53ED-4F27-87B3-F54C090DDD9C}"
@@ -7653,7 +7659,7 @@ const Header = (): JSX.Element => {
                   </li>
                   <li>
                     <Link
-                      href="/en/explore-aldar/businesses/development/residential/yas-island/west-yas/project-features"
+                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/yas-island/west-yas/project-features"
                       data-linkid="{37D1D784-6081-43AE-A048-CE0C5C6344A2}"
                       className="header__submenu-item"
                       data-id="{408766EE-42C3-493C-9ABB-8CE2F3ECCBBE}"
@@ -7669,7 +7675,7 @@ const Header = (): JSX.Element => {
                 >
                   <li>
                     <Link
-                      href="/en/explore-aldar/businesses/development/residential/saadiyat-island/jawaher-al-saadiyat"
+                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/saadiyat-island/jawaher-al-saadiyat"
                       data-linkid="{2F0878AE-AECF-456F-9A11-E3DFDEF6466E}"
                       className="header__submenu-item"
                       data-id="{A6817C4E-6B6C-4B31-8F27-D745DDCDCE58}"
@@ -7679,7 +7685,7 @@ const Header = (): JSX.Element => {
                   </li>
                   <li>
                     <Link
-                      href="/en/explore-aldar/businesses/development/residential/saadiyat-island/jawaher-al-saadiyat/project-features"
+                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/saadiyat-island/jawaher-al-saadiyat/project-features"
                       data-linkid="{74B4C6F3-7609-4397-BD15-57D780F6993B}"
                       className="header__submenu-item"
                       data-id="{8CD6E3A9-9869-4B59-BE70-BC62CDA575A1}"
@@ -7695,7 +7701,7 @@ const Header = (): JSX.Element => {
                 >
                   <li>
                     <Link
-                      href="/en/explore-aldar/businesses/development/residential/saadiyat-island/mamsha-al-saadiyat/buy"
+                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/saadiyat-island/mamsha-al-saadiyat/buy"
                       data-linkid="{AB8ECDA0-5161-47ED-BE3B-D0DDE36FF8A8}"
                       className="header__submenu-item"
                       data-id="{78CE4B43-B394-4AF4-8D9C-70BED692244D}"
@@ -7705,7 +7711,7 @@ const Header = (): JSX.Element => {
                   </li>
                   <li>
                     <Link
-                      href="/en/explore-aldar/businesses/development/residential/saadiyat-island/mamsha-al-saadiyat"
+                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/saadiyat-island/mamsha-al-saadiyat"
                       data-linkid="{5ED13E24-93AC-49FF-BB23-A81C24917FE0}"
                       className="header__submenu-item"
                       data-id="{6D82D8A5-42A7-4631-B80D-2BF8134C1F3C}"
@@ -7715,7 +7721,7 @@ const Header = (): JSX.Element => {
                   </li>
                   <li>
                     <Link
-                      href="/en/explore-aldar/businesses/development/residential/saadiyat-island/mamsha-al-saadiyat/project-features"
+                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/saadiyat-island/mamsha-al-saadiyat/project-features"
                       data-linkid="{F2364E3D-19F5-4291-B36E-30ACAFF7839B}"
                       className="header__submenu-item"
                       data-id="{D930468D-50DF-4CBC-A387-DBE30B1B0213}"
@@ -7731,7 +7737,7 @@ const Header = (): JSX.Element => {
                 >
                   <li>
                     <Link
-                      href="/en/explore-aldar/businesses/development/residential/saadiyat-island/saadiyat-reserve"
+                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/saadiyat-island/saadiyat-reserve"
                       data-linkid="{5233D170-FE69-4804-A691-D01BDABC782D}"
                       className="header__submenu-item"
                       data-id="{87C9CF73-2257-4E19-9645-2FF440CE295A}"
@@ -7741,7 +7747,7 @@ const Header = (): JSX.Element => {
                   </li>
                   <li>
                     <Link
-                      href="/en/explore-aldar/businesses/development/residential/saadiyat-island/saadiyat-reserve/project-features"
+                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/saadiyat-island/saadiyat-reserve/project-features"
                       data-linkid="{C131859B-C002-4771-9E0A-376DAA35DD25}"
                       className="header__submenu-item"
                       data-id="{C5F4DB3D-7BA0-4734-A31A-B31B7A8F124D}"
@@ -7757,7 +7763,7 @@ const Header = (): JSX.Element => {
                 >
                   <li>
                     <Link
-                      href="/en/explore-aldar/businesses/development/residential/saadiyat-island/saadiyat-reserve-the-dunes"
+                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/saadiyat-island/saadiyat-reserve-the-dunes"
                       data-linkid="{9D55F6A7-4521-4FFB-ABEE-FFDE5B29DEC5}"
                       className="header__submenu-item"
                       data-id="{FDF06CEE-59B7-4D34-A482-2EB9036C5521}"
@@ -7767,7 +7773,7 @@ const Header = (): JSX.Element => {
                   </li>
                   <li>
                     <Link
-                      href="/en/explore-aldar/businesses/development/residential/saadiyat-island/saadiyat-reserve-the-dunes/project-features"
+                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/saadiyat-island/saadiyat-reserve-the-dunes/project-features"
                       data-linkid="{F80B03B1-CD9C-48E2-B4F3-C318E4B9D742}"
                       className="header__submenu-item"
                       data-id="{98975D74-61B3-4515-85CF-EF16F63F29F9}"
@@ -7783,7 +7789,7 @@ const Header = (): JSX.Element => {
                 >
                   <li>
                     <Link
-                      href="/en/explore-aldar/businesses/development/residential/reem-island/reflection/buy"
+                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/reem-island/reflection/buy"
                       data-linkid="{115DE78F-BBD7-4F80-ACF5-9D42CC78B0D4}"
                       className="header__submenu-item"
                       data-id="{EE5C8883-EB59-4A8C-A178-CD57FA1D5345}"
@@ -7793,7 +7799,7 @@ const Header = (): JSX.Element => {
                   </li>
                   <li>
                     <Link
-                      href="/en/explore-aldar/businesses/development/residential/reem-island/reflection"
+                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/reem-island/reflection"
                       data-linkid="{CC3ABB34-1A9D-4347-9F2D-3D93605727F2}"
                       className="header__submenu-item"
                       data-id="{A58DA9A9-EC2B-414D-8ADE-610102C3D400}"
@@ -7803,7 +7809,7 @@ const Header = (): JSX.Element => {
                   </li>
                   <li>
                     <Link
-                      href="/en/explore-aldar/businesses/development/residential/reem-island/reflection/project-features"
+                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/reem-island/reflection/project-features"
                       data-linkid="{246A9A6B-D926-470B-A2B8-1DF615515340}"
                       className="header__submenu-item"
                       data-id="{65A25586-3090-42D8-8660-9604F8FA96F9}"
@@ -7819,7 +7825,7 @@ const Header = (): JSX.Element => {
                 >
                   <li>
                     <Link
-                      href="/en/explore-aldar/businesses/development/residential/reem-island/shams-meera/buy"
+                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/reem-island/shams-meera/buy"
                       data-linkid="{056D1712-55A4-4DB5-BFF1-BEF52204E2B6}"
                       className="header__submenu-item"
                       data-id="{6F35A373-9CBE-4FFF-88C3-0F7ABD5FC51D}"
@@ -7829,7 +7835,7 @@ const Header = (): JSX.Element => {
                   </li>
                   <li>
                     <Link
-                      href="/en/explore-aldar/businesses/development/residential/reem-island/shams-meera"
+                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/reem-island/shams-meera"
                       data-linkid="{BC4EB050-12CE-49D3-B138-51C62AB6662F}"
                       className="header__submenu-item"
                       data-id="{1C6E6158-29CB-4760-B0A1-2CEE86A6BC0F}"
@@ -7839,7 +7845,7 @@ const Header = (): JSX.Element => {
                   </li>
                   <li>
                     <Link
-                      href="/en/explore-aldar/businesses/development/residential/reem-island/shams-meera/project-features"
+                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/reem-island/shams-meera/project-features"
                       data-linkid="{FF694EA0-2D55-4CC4-9B95-01F7E567895E}"
                       className="header__submenu-item"
                       data-id="{46AC8CA8-2A20-4961-893A-035E364365D6}"
@@ -7855,7 +7861,7 @@ const Header = (): JSX.Element => {
                 >
                   <li>
                     <Link
-                      href="/en/explore-aldar/businesses/development/residential/reem-island/arc-towers/rent"
+                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/reem-island/arc-towers/rent"
                       data-linkid="{F3E517B6-5F98-4BEE-9682-C8DA395A9277}"
                       className="header__submenu-item"
                       data-id="{479F8C51-11B8-4F5D-B764-9310939B890A}"
@@ -7865,7 +7871,7 @@ const Header = (): JSX.Element => {
                   </li>
                   <li>
                     <Link
-                      href="/en/explore-aldar/businesses/development/residential/reem-island/arc-towers"
+                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/reem-island/arc-towers"
                       data-linkid="{13EB8064-4EEE-4E7F-B2DC-3C0251EEC4F4}"
                       className="header__submenu-item"
                       data-id="{168FD3A9-E851-47BC-BB19-54EAADAEAB81}"
@@ -7875,7 +7881,7 @@ const Header = (): JSX.Element => {
                   </li>
                   <li>
                     <Link
-                      href="/en/explore-aldar/businesses/development/residential/reem-island/arc-towers/project-features"
+                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/reem-island/arc-towers/project-features"
                       data-linkid="{5ED9D638-FB28-4F3E-ADE1-013BCCA2CA1A}"
                       className="header__submenu-item"
                       data-id="{4D889B4B-FCE5-4C68-9481-08675BD47F5E}"
@@ -7891,7 +7897,7 @@ const Header = (): JSX.Element => {
                 >
                   <li>
                     <Link
-                      href="/en/explore-aldar/businesses/development/residential/reem-island/sun-and-sky-towers/rent"
+                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/reem-island/sun-and-sky-towers/rent"
                       data-linkid="{FF62D53A-326A-4495-8F9D-1345F0EA12BA}"
                       className="header__submenu-item"
                       data-id="{A430D10D-E10F-4B8A-8B10-47B049928AB6}"
@@ -7901,7 +7907,7 @@ const Header = (): JSX.Element => {
                   </li>
                   <li>
                     <Link
-                      href="/en/explore-aldar/businesses/development/residential/reem-island/sun-and-sky-towers"
+                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/reem-island/sun-and-sky-towers"
                       data-linkid="{F580DCEC-135F-416C-A5A0-5FB3B42BD87D}"
                       className="header__submenu-item"
                       data-id="{BE9F11B9-8C62-41F0-8BEF-F3978C42656D}"
@@ -7911,7 +7917,7 @@ const Header = (): JSX.Element => {
                   </li>
                   <li>
                     <Link
-                      href="/en/explore-aldar/businesses/development/residential/reem-island/sun-and-sky-towers/project-features"
+                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/reem-island/sun-and-sky-towers/project-features"
                       data-linkid="{D26DC6CA-E684-4A24-A578-E74EF9DD17BC}"
                       className="header__submenu-item"
                       data-id="{CA0A9B35-4837-4318-982B-8B3FA503D927}"
@@ -7927,7 +7933,7 @@ const Header = (): JSX.Element => {
                 >
                   <li>
                     <Link
-                      href="/en/explore-aldar/businesses/development/residential/reem-island/the-gate-towers/rent"
+                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/reem-island/the-gate-towers/rent"
                       data-linkid="{086606AF-15E8-452B-93F3-10C2E97BB3B2}"
                       className="header__submenu-item"
                       data-id="{F67A64FB-13B2-48BE-B773-F7BBCCB3BADA}"
@@ -7937,7 +7943,7 @@ const Header = (): JSX.Element => {
                   </li>
                   <li>
                     <Link
-                      href="/en/explore-aldar/businesses/development/residential/reem-island/the-gate-towers"
+                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/reem-island/the-gate-towers"
                       data-linkid="{40FF3E80-7D0B-458C-9FEC-6BD30E7EACEE}"
                       className="header__submenu-item"
                       data-id="{DA8DFF35-2AF7-497A-96ED-59033B741CEA}"
@@ -7947,7 +7953,7 @@ const Header = (): JSX.Element => {
                   </li>
                   <li>
                     <Link
-                      href="/en/explore-aldar/businesses/development/residential/reem-island/the-gate-towers/project-features"
+                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/reem-island/the-gate-towers/project-features"
                       data-linkid="{A89C5EFC-72C8-457D-B5AC-E1140C9A016F}"
                       className="header__submenu-item"
                       data-id="{B7C6B6B1-0B24-4CCC-8502-0E113DA4F65D}"
@@ -7963,7 +7969,7 @@ const Header = (): JSX.Element => {
                 >
                   <li>
                     <Link
-                      href="/en/explore-aldar/businesses/development/residential/reem-island/the-bridges/buy"
+                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/reem-island/the-bridges/buy"
                       data-linkid="{86F09EFC-2284-4EF5-BF8C-3162D6ABAEDD}"
                       className="header__submenu-item"
                       data-id="{5B113795-13E3-49B3-BAC4-3FAECA30E750}"
@@ -7973,7 +7979,7 @@ const Header = (): JSX.Element => {
                   </li>
                   <li>
                     <Link
-                      href="/en/explore-aldar/businesses/development/residential/reem-island/the-bridges/rent"
+                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/reem-island/the-bridges/rent"
                       data-linkid="{A5AE7FDC-B26C-4F0B-A42E-77236B2224EA}"
                       className="header__submenu-item"
                       data-id="{AE20C0E1-CD79-4764-9E3A-8BCD0DCC7E4E}"
@@ -7983,7 +7989,7 @@ const Header = (): JSX.Element => {
                   </li>
                   <li>
                     <Link
-                      href="/en/explore-aldar/businesses/development/residential/reem-island/the-bridges"
+                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/reem-island/the-bridges"
                       data-linkid="{2B1512CB-2A64-4C19-A761-4E2D764A83FC}"
                       className="header__submenu-item"
                       data-id="{5FDC1F1E-02CF-4B99-A135-51D0BC6CB3E5}"
@@ -7993,7 +7999,7 @@ const Header = (): JSX.Element => {
                   </li>
                   <li>
                     <Link
-                      href="/en/explore-aldar/businesses/development/residential/reem-island/the-bridges/project-features"
+                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/reem-island/the-bridges/project-features"
                       data-linkid="{F9F52F43-1F73-4D9E-8E31-325CCCB8B88A}"
                       className="header__submenu-item"
                       data-id="{444D2676-6D78-4801-A153-85CE07FF3FD7}"
@@ -8009,7 +8015,7 @@ const Header = (): JSX.Element => {
                 >
                   <li>
                     <Link
-                      href="/en/explore-aldar/businesses/development/residential/al-raha-beach/al-bandar"
+                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/al-raha-beach/al-bandar"
                       data-linkid="{130B5B9B-8E9C-4984-8459-AE180F8F4D19}"
                       className="header__submenu-item"
                       data-id="{A06F460C-4D7B-464F-8F48-B4E96F65D0BF}"
@@ -8019,7 +8025,7 @@ const Header = (): JSX.Element => {
                   </li>
                   <li>
                     <Link
-                      href="/en/explore-aldar/businesses/development/residential/al-raha-beach/al-bandar/project-features"
+                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/al-raha-beach/al-bandar/project-features"
                       data-linkid="{2C3800FB-21E0-4C9E-B311-4B7A44B6A288}"
                       className="header__submenu-item"
                       data-id="{766DC3F7-DD0A-4514-B16E-19D4D390B177}"
@@ -8035,7 +8041,7 @@ const Header = (): JSX.Element => {
                 >
                   <li>
                     <Link
-                      href="/en/explore-aldar/businesses/development/residential/al-raha-beach/al-hadeel/buy"
+                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/al-raha-beach/al-hadeel/buy"
                       data-linkid="{BB025750-8B12-4245-9B11-F9C8166CBA71}"
                       className="header__submenu-item"
                       data-id="{8CA2C15E-6A7B-45FA-8728-28E87C3AA96E}"
@@ -8045,7 +8051,7 @@ const Header = (): JSX.Element => {
                   </li>
                   <li>
                     <Link
-                      href="/en/explore-aldar/businesses/development/residential/al-raha-beach/al-hadeel"
+                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/al-raha-beach/al-hadeel"
                       data-linkid="{1D373F97-FBF7-4B51-93EA-5109C9C27C3B}"
                       className="header__submenu-item"
                       data-id="{75B564DF-7A8C-4598-86A9-8776FC22226A}"
@@ -8055,7 +8061,7 @@ const Header = (): JSX.Element => {
                   </li>
                   <li>
                     <Link
-                      href="/en/explore-aldar/businesses/development/residential/al-raha-beach/al-hadeel/project-features"
+                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/al-raha-beach/al-hadeel/project-features"
                       data-linkid="{DA542FA8-58AD-48F9-BA83-8B447585EE8B}"
                       className="header__submenu-item"
                       data-id="{DE0A829B-9456-4A9B-AE6E-09A6AF3FD1F4}"
@@ -8071,7 +8077,7 @@ const Header = (): JSX.Element => {
                 >
                   <li>
                     <Link
-                      href="/en/explore-aldar/businesses/development/residential/al-raha-beach/al-muneera"
+                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/al-raha-beach/al-muneera"
                       data-linkid="{FE405FF6-02FB-488B-ADAB-58A2AAC6D735}"
                       className="header__submenu-item"
                       data-id="{900C314A-FAEB-453F-B368-5B2233F8786E}"
@@ -8081,7 +8087,7 @@ const Header = (): JSX.Element => {
                   </li>
                   <li>
                     <Link
-                      href="/en/explore-aldar/businesses/development/residential/al-raha-beach/al-muneera/project-features"
+                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/al-raha-beach/al-muneera/project-features"
                       data-linkid="{04744DC6-1FF0-47DC-ACFE-4EDEE55074B5}"
                       className="header__submenu-item"
                       data-id="{2AA7EE96-8CB2-4562-B4AF-2490B0B79776}"
@@ -8097,7 +8103,7 @@ const Header = (): JSX.Element => {
                 >
                   <li>
                     <Link
-                      href="/en/explore-aldar/businesses/development/residential/al-raha-beach/al-zeina/rent"
+                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/al-raha-beach/al-zeina/rent"
                       data-linkid="{DA209DFF-C74E-4B96-BB48-BD8722CEB77B}"
                       className="header__submenu-item"
                       data-id="{B2F62060-A5CE-4C20-9F08-6DD70E741A9D}"
@@ -8107,7 +8113,7 @@ const Header = (): JSX.Element => {
                   </li>
                   <li>
                     <Link
-                      href="/en/explore-aldar/businesses/development/residential/al-raha-beach/al-zeina"
+                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/al-raha-beach/al-zeina"
                       data-linkid="{5C1F7856-6E7A-4C12-A3E7-2806C7776923}"
                       className="header__submenu-item"
                       data-id="{A55FD004-3F0C-4B11-B53C-86517E86988D}"
@@ -8117,7 +8123,7 @@ const Header = (): JSX.Element => {
                   </li>
                   <li>
                     <Link
-                      href="/en/explore-aldar/businesses/development/residential/al-raha-beach/al-zeina/project-features"
+                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/al-raha-beach/al-zeina/project-features"
                       data-linkid="{88F7A8CA-DB20-4592-BE21-2574E0CAC47C}"
                       className="header__submenu-item"
                       data-id="{A828138B-FABC-4A06-A84C-2DD7FA670E45}"
@@ -8133,7 +8139,7 @@ const Header = (): JSX.Element => {
                 >
                   <li>
                     <Link
-                      href="/en/explore-aldar/businesses/development/residential/other-destinations/alghadeer/buy"
+                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/alghadeer/buy"
                       data-linkid="{31860B8C-D11C-4123-B48C-F9953795D557}"
                       className="header__submenu-item"
                       data-id="{18EDA008-CEF9-439A-BC63-444F65954194}"
@@ -8143,7 +8149,7 @@ const Header = (): JSX.Element => {
                   </li>
                   <li>
                     <Link
-                      href="/en/explore-aldar/businesses/development/residential/other-destinations/alghadeer"
+                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/alghadeer"
                       data-linkid="{2D060F10-E07E-428D-8230-69E01341E8CD}"
                       className="header__submenu-item"
                       data-id="{19181505-6987-420F-AD21-D5085124903A}"
@@ -8153,7 +8159,7 @@ const Header = (): JSX.Element => {
                   </li>
                   <li>
                     <Link
-                      href="/en/explore-aldar/businesses/development/residential/other-destinations/alghadeer/project-features"
+                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/alghadeer/project-features"
                       data-linkid="{BE262FD0-77C6-48A2-9C34-FAAE6AB2E82C}"
                       className="header__submenu-item"
                       data-id="{7866EA9C-093B-42C8-A790-3A9325551666}"
@@ -8169,7 +8175,7 @@ const Header = (): JSX.Element => {
                 >
                   <li>
                     <Link
-                      href="/en/explore-aldar/businesses/development/residential/other-destinations/al-reeman-i/buy"
+                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/al-reeman-i/buy"
                       data-linkid="{370846BC-9AAB-495C-AA9E-581E759E00E5}"
                       className="header__submenu-item"
                       data-id="{EC95B9BB-A0A6-4976-BC1A-8749360CE872}"
@@ -8179,7 +8185,7 @@ const Header = (): JSX.Element => {
                   </li>
                   <li>
                     <Link
-                      href="/en/explore-aldar/businesses/development/residential/other-destinations/al-reeman-i"
+                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/al-reeman-i"
                       data-linkid="{E5B659A8-7ECC-49EA-B7FA-F8B3BAF69107}"
                       className="header__submenu-item"
                       data-id="{D5BE6F4A-1784-4BC1-8D86-E9867A155BD2}"
@@ -8189,7 +8195,7 @@ const Header = (): JSX.Element => {
                   </li>
                   <li>
                     <Link
-                      href="/en/explore-aldar/businesses/development/residential/other-destinations/al-reeman-i/project-features"
+                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/al-reeman-i/project-features"
                       data-linkid="{92FC94D3-4EA9-4002-BAC0-FF78D165B36E}"
                       className="header__submenu-item"
                       data-id="{E25201FA-C758-4E9A-A0AB-5FE6CB495288}"
@@ -8205,7 +8211,7 @@ const Header = (): JSX.Element => {
                 >
                   <li>
                     <Link
-                      href="/en/explore-aldar/businesses/development/residential/other-destinations/fay-alreeman"
+                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/fay-alreeman"
                       data-linkid="{1A56DB9D-BA0C-4BDF-950E-8FB2EA0CEB70}"
                       className="header__submenu-item"
                       data-id="{21768820-5496-439C-8D75-05CCDAE43344}"
@@ -8215,7 +8221,7 @@ const Header = (): JSX.Element => {
                   </li>
                   <li>
                     <Link
-                      href="/en/explore-aldar/businesses/development/residential/other-destinations/fay-alreeman/project-features"
+                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/fay-alreeman/project-features"
                       data-linkid="{9661454A-D7F2-4727-9C77-C16CAA9F332D}"
                       className="header__submenu-item"
                       data-id="{056FEDF9-ECAE-40E7-AE01-E9B8848A14ED}"
@@ -8231,7 +8237,7 @@ const Header = (): JSX.Element => {
                 >
                   <li>
                     <Link
-                      href="/en/explore-aldar/businesses/development/residential/other-destinations/al-reeman-ii"
+                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/al-reeman-ii"
                       data-linkid="{3945242A-9381-42A2-A7FC-E54948631DBB}"
                       className="header__submenu-item"
                       data-id="{40B7FFA7-FB72-4657-A3D4-ECF4F9BAA858}"
@@ -8241,7 +8247,7 @@ const Header = (): JSX.Element => {
                   </li>
                   <li>
                     <Link
-                      href="/en/explore-aldar/businesses/development/residential/other-destinations/al-reeman-ii/project-features"
+                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/al-reeman-ii/project-features"
                       data-linkid="{7191D7C1-162F-4B3D-8EF8-868076A3BCDC}"
                       className="header__submenu-item"
                       data-id="{5DD6BDCE-84BB-475D-813F-B90404C7BF73}"
@@ -8257,7 +8263,7 @@ const Header = (): JSX.Element => {
                 >
                   <li>
                     <Link
-                      href="/en/explore-aldar/businesses/development/residential/other-destinations/the-burj-mohammed-bin-rashid/rent"
+                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/the-burj-mohammed-bin-rashid/rent"
                       data-linkid="{D457593E-B005-4F50-8CC8-C21C61A7093B}"
                       className="header__submenu-item"
                       data-id="{B360D13F-D655-4B43-ADA8-057D83FF8BD0}"
@@ -8267,7 +8273,7 @@ const Header = (): JSX.Element => {
                   </li>
                   <li>
                     <Link
-                      href="/en/explore-aldar/businesses/development/residential/other-destinations/the-burj-mohammed-bin-rashid"
+                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/the-burj-mohammed-bin-rashid"
                       data-linkid="{7921C517-BEB1-4E40-B223-EFE578CD0E53}"
                       className="header__submenu-item"
                       data-id="{C09CDAE1-C15A-4ACC-89F6-7FBE4396BCA3}"
@@ -8277,7 +8283,7 @@ const Header = (): JSX.Element => {
                   </li>
                   <li>
                     <Link
-                      href="/en/explore-aldar/businesses/development/residential/other-destinations/the-burj-mohammed-bin-rashid/project-features"
+                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/the-burj-mohammed-bin-rashid/project-features"
                       data-linkid="{508B7DAC-06C1-482C-A9F3-B728A5DE0796}"
                       className="header__submenu-item"
                       data-id="{D410D016-790E-4603-8A2C-CD47FF4BAA43}"
@@ -8293,7 +8299,7 @@ const Header = (): JSX.Element => {
                 >
                   <li>
                     <Link
-                      href="/en/explore-aldar/businesses/development/residential/other-destinations/al-oyoun-village/rent"
+                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/al-oyoun-village/rent"
                       data-linkid="{0F7A859B-8A0D-45EC-A382-B582C3A039FB}"
                       className="header__submenu-item"
                       data-id="{740043E2-472F-4FB0-A354-2BC75580FB07}"
@@ -8303,7 +8309,7 @@ const Header = (): JSX.Element => {
                   </li>
                   <li>
                     <Link
-                      href="/en/explore-aldar/businesses/development/residential/other-destinations/al-oyoun-village"
+                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/al-oyoun-village"
                       data-linkid="{DDA45A9E-4CF3-4B24-B0C6-5F2BAB880618}"
                       className="header__submenu-item"
                       data-id="{8EC0BEEF-7E3C-4F17-8CFF-3909AD77DA70}"
@@ -8313,7 +8319,7 @@ const Header = (): JSX.Element => {
                   </li>
                   <li>
                     <Link
-                      href="/en/explore-aldar/businesses/development/residential/other-destinations/al-oyoun-village/project-features"
+                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/al-oyoun-village/project-features"
                       data-linkid="{FB89A840-64D0-4F81-A8CC-CC9A7A3A8371}"
                       className="header__submenu-item"
                       data-id="{13284A22-30BD-4A8E-8E55-75557E44CB49}"
@@ -8329,7 +8335,7 @@ const Header = (): JSX.Element => {
                 >
                   <li>
                     <Link
-                      href="/en/explore-aldar/businesses/development/residential/other-destinations/al-rayyana/rent"
+                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/al-rayyana/rent"
                       data-linkid="{F0524061-AF4D-4796-971D-884250EA1524}"
                       className="header__submenu-item"
                       data-id="{B7940374-25CC-44D1-8FDC-2637C2A83763}"
@@ -8339,7 +8345,7 @@ const Header = (): JSX.Element => {
                   </li>
                   <li>
                     <Link
-                      href="/en/explore-aldar/businesses/development/residential/other-destinations/al-rayyana"
+                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/al-rayyana"
                       data-linkid="{4746CE39-5B30-46B7-A403-E2E036D1A364}"
                       className="header__submenu-item"
                       data-id="{1ACD3476-62FF-4373-9816-8464816782E3}"
@@ -8349,7 +8355,7 @@ const Header = (): JSX.Element => {
                   </li>
                   <li>
                     <Link
-                      href="/en/explore-aldar/businesses/development/residential/other-destinations/al-rayyana/project-features"
+                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/al-rayyana/project-features"
                       data-linkid="{06C60D57-CEA9-4AB1-AF88-76101C87FC1D}"
                       className="header__submenu-item"
                       data-id="{FA20F481-3A0A-4106-8454-FF14846DE7A2}"
@@ -8365,7 +8371,7 @@ const Header = (): JSX.Element => {
                 >
                   <li>
                     <Link
-                      href="/en/explore-aldar/businesses/development/residential/other-destinations/eastern-mangroves/rent"
+                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/eastern-mangroves/rent"
                       data-linkid="{A0623CCF-FB4A-4614-8B7B-C59129A0C67B}"
                       className="header__submenu-item"
                       data-id="{0EFF00B2-36EA-4324-920F-9ABD6137FB3A}"
@@ -8375,7 +8381,7 @@ const Header = (): JSX.Element => {
                   </li>
                   <li>
                     <Link
-                      href="/en/explore-aldar/businesses/development/residential/other-destinations/eastern-mangroves"
+                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/eastern-mangroves"
                       data-linkid="{099BDBAB-E47C-46C9-A1F3-B50443E5CD49}"
                       className="header__submenu-item"
                       data-id="{9AB12800-E0A1-4968-B3B6-615159757C3C}"
@@ -8385,7 +8391,7 @@ const Header = (): JSX.Element => {
                   </li>
                   <li>
                     <Link
-                      href="/en/explore-aldar/businesses/development/residential/other-destinations/eastern-mangroves/project-features"
+                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/eastern-mangroves/project-features"
                       data-linkid="{82F73509-9BBE-401A-9916-087D3C8D1C05}"
                       className="header__submenu-item"
                       data-id="{BAB9B051-7971-44A4-991F-8CA1060DA5A3}"
@@ -8401,7 +8407,7 @@ const Header = (): JSX.Element => {
                 >
                   <li>
                     <Link
-                      href="/en/explore-aldar/businesses/development/residential/other-destinations/nareel-island"
+                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/nareel-island"
                       data-linkid="{C13BBDA7-221C-4963-BAD7-2DDC8702A597}"
                       className="header__submenu-item"
                       data-id="{A588FB5E-BE62-45BB-A6EE-A57C88F22F63}"
@@ -8411,7 +8417,7 @@ const Header = (): JSX.Element => {
                   </li>
                   <li>
                     <Link
-                      href="/en/explore-aldar/businesses/development/residential/other-destinations/nareel-island/project-features"
+                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/nareel-island/project-features"
                       data-linkid="{E7C932E0-E35A-42C2-9F80-A2C4D301B538}"
                       className="header__submenu-item"
                       data-id="{A39600BA-DC28-44E9-A5F8-20CEA0588134}"
@@ -8427,7 +8433,7 @@ const Header = (): JSX.Element => {
                 >
                   <li>
                     <Link
-                      href="/en/explore-aldar/businesses/development/residential/other-destinations/sas-al-nakhl-village"
+                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/sas-al-nakhl-village"
                       data-linkid="{76769AAC-8812-4751-9283-EBC45F165AD3}"
                       className="header__submenu-item"
                       data-id="{16F3A5AE-759B-41DD-87AD-538B798FB2DC}"
@@ -8437,7 +8443,7 @@ const Header = (): JSX.Element => {
                   </li>
                   <li>
                     <Link
-                      href="/en/explore-aldar/businesses/development/residential/other-destinations/sas-al-nakhl-village/project-features"
+                      href="https://www.aldar.com/en/explore-aldar/businesses/development/residential/other-destinations/sas-al-nakhl-village/project-features"
                       data-linkid="{BF159D44-972B-4400-93D4-13C362B2154B}"
                       className="header__submenu-item"
                       data-id="{9A697402-AD00-4FFD-AC3D-EBE471834E81}"
@@ -8527,34 +8533,40 @@ const Header = (): JSX.Element => {
                             <div className="component-content">
                               <ul className="quick-links__list">
                                 <li>
-                                  <Link href="/en/buy-residential">Buy (Residential)</Link>
+                                  <Link href="https://www.aldar.com/en/buy-residential">
+                                    Buy (Residential)
+                                  </Link>
                                 </li>
                                 <li>
-                                  <Link href="/en/renting-commercial">Commercial</Link>
+                                  <Link href="https://www.aldar.com/en/renting-commercial">
+                                    Commercial
+                                  </Link>
                                 </li>
                                 <li>
-                                  <Link href="/en/explore-aldar/businesses/education">
+                                  <Link href="https://www.aldar.com/en/explore-aldar/businesses/education">
                                     Education
                                   </Link>
                                 </li>
                                 <li>
                                   <Link
-                                    href="/en/explore-aldar/businesses/hospitality"
+                                    href="https://www.aldar.com/en/explore-aldar/businesses/hospitality"
                                     target="|Custom"
                                   >
                                     Hospitality and Leisure
                                   </Link>
                                 </li>
                                 <li>
-                                  <Link href="/en/explore-aldar/businesses/development/land">
+                                  <Link href="https://www.aldar.com/en/explore-aldar/businesses/development/land">
                                     Land Bank
                                   </Link>
                                 </li>
                                 <li>
-                                  <Link href="/en/rent-residential">Residential</Link>
+                                  <Link href="https://www.aldar.com/en/rent-residential">
+                                    Residential
+                                  </Link>
                                 </li>
                                 <li>
-                                  <Link href="/en/explore-aldar/businesses/investment/retail">
+                                  <Link href="https://www.aldar.com/en/explore-aldar/businesses/investment/retail">
                                     Retail
                                   </Link>
                                 </li>

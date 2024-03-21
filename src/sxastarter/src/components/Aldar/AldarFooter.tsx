@@ -20,12 +20,12 @@ const Footer = (): JSX.Element => {
                     </Link>
                   </li>
                   <li>
-                    <Link href="/en/buy-residential" className="footer__link">
+                    <Link href="https://www.aldar.com/en/buy-residential" className="footer__link">
                       Residential
                     </Link>
                   </li>
                   <li>
-                    <Link href="/en/buying-lands" className="footer__link">
+                    <Link href="https://www.aldar.com/en/buying-lands" className="footer__link">
                       Building Plots
                     </Link>
                   </li>
@@ -39,24 +39,27 @@ const Footer = (): JSX.Element => {
                     </Link>
                   </li>
                   <li>
-                    <Link href="/en/rent-residential" className="footer__link">
+                    <Link href="https://www.aldar.com/en/rent-residential" className="footer__link">
                       Residential
                     </Link>
                   </li>
                   <li>
-                    <Link href="/en/renting-commercial" className="footer__link">
+                    <Link
+                      href="https://www.aldar.com/en/renting-commercial"
+                      className="footer__link"
+                    >
                       Commercial
                     </Link>
                   </li>
                   <li>
-                    <Link href="/en/retail-renting" className="footer__link">
+                    <Link href="https://www.aldar.com/en/retail-renting" className="footer__link">
                       Retail
                     </Link>
                   </li>
                 </ul>
                 <ul className="no-chidren">
                   <li>
-                    <Link href="/en/faqslisting" className="footer__main-link">
+                    <Link href="https://www.aldar.com/en/faqslisting" className="footer__main-link">
                       FAQs
                       <sup></sup>
                       <span></span>
@@ -65,7 +68,10 @@ const Footer = (): JSX.Element => {
                 </ul>
                 <ul className="no-chidren">
                   <li>
-                    <Link href="/en/about-abu-dhabi" className="footer__main-link">
+                    <Link
+                      href="https://www.aldar.com/en/about-abu-dhabi"
+                      className="footer__main-link"
+                    >
                       Abu Dhabi
                       <sup></sup>
                       <span></span>
@@ -88,7 +94,7 @@ const Footer = (): JSX.Element => {
                 </ul>
                 <ul className="no-chidren">
                   <li>
-                    <Link href="/en/contact-us" className="footer__main-link">
+                    <Link href="https://www.aldar.com/en/contact-us" className="footer__main-link">
                       Contact Us
                       <sup></sup>
                       <span></span>
@@ -128,7 +134,10 @@ const Footer = (): JSX.Element => {
                     <div className="footer__subcolumn">
                       <ul className="title-only">
                         <li>
-                          <Link href="/en/about-abu-dhabi" className="footer_columns-title">
+                          <Link
+                            href="https://www.aldar.com/en/about-abu-dhabi"
+                            className="footer_columns-title"
+                          >
                             Explore Abu Dhabi
                             <sup className="sup-desktop"></sup>
                             <sup className="sup-mobile"></sup>
@@ -140,7 +149,7 @@ const Footer = (): JSX.Element => {
                       <ul>
                         <li>
                           <Link
-                            href="/en/about-abu-dhabi/market-overview"
+                            href="https://www.aldar.com/en/about-abu-dhabi/market-overview"
                             className="footer_columns-link internal"
                           >
                             <span className="footer_columns-title">Market Overview</span>
@@ -148,7 +157,7 @@ const Footer = (): JSX.Element => {
                         </li>
                         <li>
                           <Link
-                            href="/en/about-abu-dhabi/golden-visa"
+                            href="https://www.aldar.com/en/about-abu-dhabi/golden-visa"
                             className="footer_columns-link internal"
                           >
                             <span className="footer_columns-title">Golden Visa</span>
@@ -156,7 +165,7 @@ const Footer = (): JSX.Element => {
                         </li>
                         <li>
                           <Link
-                            href="/en/about-abu-dhabi/dari"
+                            href="https://www.aldar.com/en/about-abu-dhabi/dari"
                             className="footer_columns-link internal"
                           >
                             <span className="footer_columns-title">Dari</span>
@@ -177,7 +186,7 @@ const Footer = (): JSX.Element => {
                       <ul>
                         <li>
                           <Link
-                            href="/en/news-and-media"
+                            href="https://www.aldar.com/en/news-and-media"
                             className="footer_columns-link internal"
                             target="|Custom"
                           >
@@ -185,19 +194,28 @@ const Footer = (): JSX.Element => {
                           </Link>
                         </li>
                         <li>
-                          <Link href="/en/media/gallery" className="footer_columns-link internal">
+                          <Link
+                            href="https://www.aldar.com/en/media/gallery"
+                            className="footer_columns-link internal"
+                          >
                             <span className="footer_columns-title">Gallery</span>
                           </Link>
                         </li>
                         <li>
-                          <Link href="/en/blog" className="footer_columns-link internal">
+                          <Link
+                            href="https://www.aldar.com/en/blog"
+                            className="footer_columns-link internal"
+                          >
                             <span className="footer_columns-title">Blog</span>
                           </Link>
                         </li>
                       </ul>
                       <ul className="title-only">
                         <li>
-                          <Link href="/en/investors" className="footer_columns-title">
+                          <Link
+                            href="https://www.aldar.com/en/investors"
+                            className="footer_columns-title"
+                          >
                             Investors Relations
                             <sup className="sup-desktop"></sup>
                             <sup className="sup-mobile">06</sup>
@@ -209,7 +227,7 @@ const Footer = (): JSX.Element => {
                       <ul>
                         <li>
                           <Link
-                            href="/en/investors/reports"
+                            href="https://www.aldar.com/en/investors/reports"
                             className="footer_columns-link internal"
                           >
                             <span className="footer_columns-title">Reports & Presentations</span>
@@ -217,20 +235,23 @@ const Footer = (): JSX.Element => {
                         </li>
                         <li>
                           <Link
-                            href="/en/investors/shareholders"
+                            href="https://www.aldar.com/en/investors/shareholders"
                             className="footer_columns-link internal"
                           >
                             <span className="footer_columns-title">Shareholder Center</span>
                           </Link>
                         </li>
                         <li>
-                          <Link href="/en/investors/debt" className="footer_columns-link internal">
+                          <Link
+                            href="https://www.aldar.com/en/investors/debt"
+                            className="footer_columns-link internal"
+                          >
                             <span className="footer_columns-title">Debt Investors</span>
                           </Link>
                         </li>
                         <li>
                           <Link
-                            href="/en/investors/coverage"
+                            href="https://www.aldar.com/en/investors/coverage"
                             className="footer_columns-link internal"
                           >
                             <span className="footer_columns-title">Analyst Coverage</span>
@@ -238,7 +259,7 @@ const Footer = (): JSX.Element => {
                         </li>
                         <li>
                           <Link
-                            href="/en/investors/financial-calendar"
+                            href="https://www.aldar.com/en/investors/financial-calendar"
                             className="footer_columns-link internal"
                           >
                             <span className="footer_columns-title">Financial Calendar</span>
@@ -246,7 +267,7 @@ const Footer = (): JSX.Element => {
                         </li>
                         <li>
                           <Link
-                            href="/en/investors/company-announcements"
+                            href="https://www.aldar.com/en/investors/company-announcements"
                             className="footer_columns-link internal"
                           >
                             <span className="footer_columns-title">Company Announcements</span>
@@ -254,7 +275,7 @@ const Footer = (): JSX.Element => {
                         </li>
                         <li>
                           <Link
-                            href="/en/investors/contact-us"
+                            href="https://www.aldar.com/en/investors/contact-us"
                             className="footer_columns-link internal"
                           >
                             <span className="footer_columns-title">Contact Us</span>
@@ -285,7 +306,7 @@ const Footer = (): JSX.Element => {
                         </li>
                         <li>
                           <Link
-                            href="/en/careers/graduate-programme"
+                            href="https://www.aldar.com/en/careers/graduate-programme"
                             className="footer_columns-link internal"
                           >
                             <span className="footer_columns-title">Graduate programme</span>
@@ -298,7 +319,10 @@ const Footer = (): JSX.Element => {
                     <div className="footer__subcolumn">
                       <ul className="title-only">
                         <li>
-                          <Link href="/en/explore-aldar" className="footer_columns-title">
+                          <Link
+                            href="https://www.aldar.com/en/explore-aldar"
+                            className="footer_columns-title"
+                          >
                             Explore Aldar
                             <sup className="sup-desktop"></sup>
                             <sup className="sup-mobile"></sup>
@@ -324,7 +348,7 @@ const Footer = (): JSX.Element => {
                         </li>
                         <li>
                           <Link
-                            href="/en/explore-aldar/about-aldar/story"
+                            href="https://www.aldar.com/en/explore-aldar/about-aldar/story"
                             className="footer_columns-link internal"
                           >
                             Story
@@ -332,7 +356,7 @@ const Footer = (): JSX.Element => {
                         </li>
                         <li>
                           <Link
-                            href="/en/explore-aldar/about-aldar/leadership"
+                            href="https://www.aldar.com/en/explore-aldar/about-aldar/leadership"
                             className="footer_columns-link internal"
                           >
                             Leadership
@@ -340,7 +364,7 @@ const Footer = (): JSX.Element => {
                         </li>
                         <li>
                           <Link
-                            href="/en/explore-aldar/about-aldar/culture-and-values"
+                            href="https://www.aldar.com/en/explore-aldar/about-aldar/culture-and-values"
                             className="footer_columns-link internal"
                           >
                             Culture and Values
@@ -348,7 +372,7 @@ const Footer = (): JSX.Element => {
                         </li>
                         <li>
                           <Link
-                            href="/en/explore-aldar/about-aldar/strategy"
+                            href="https://www.aldar.com/en/explore-aldar/about-aldar/strategy"
                             className="footer_columns-link internal"
                           >
                             Strategy
@@ -356,7 +380,7 @@ const Footer = (): JSX.Element => {
                         </li>
                         <li>
                           <Link
-                            href="/en/explore-aldar/about-aldar/sponsorships"
+                            href="https://www.aldar.com/en/explore-aldar/about-aldar/sponsorships"
                             className="footer_columns-link internal"
                           >
                             Sponsorships
@@ -364,7 +388,7 @@ const Footer = (): JSX.Element => {
                         </li>
                         <li>
                           <Link
-                            href="/en/explore-aldar/about-aldar/procurement"
+                            href="https://www.aldar.com/en/explore-aldar/about-aldar/procurement"
                             className="footer_columns-link internal"
                           >
                             Procurement
@@ -372,7 +396,7 @@ const Footer = (): JSX.Element => {
                         </li>
                         <li>
                           <Link
-                            href="/en/explore-aldar/about-aldar/aldar-square"
+                            href="https://www.aldar.com/en/explore-aldar/about-aldar/aldar-square"
                             className="footer_columns-link internal"
                           >
                             Aldar Square
@@ -475,7 +499,7 @@ const Footer = (): JSX.Element => {
                         </li>
                         <li>
                           <Link
-                            href="/en/explore-aldar/businesses/development/residential"
+                            href="https://www.aldar.com/en/explore-aldar/businesses/development/residential"
                             className="footer_columns-link internal"
                           >
                             Residential
@@ -483,7 +507,7 @@ const Footer = (): JSX.Element => {
                         </li>
                         <li>
                           <Link
-                            href="/en/explore-aldar/businesses/development/land"
+                            href="https://www.aldar.com/en/explore-aldar/businesses/development/land"
                             className="footer_columns-link internal"
                           >
                             Land Portfolio
@@ -491,7 +515,7 @@ const Footer = (): JSX.Element => {
                         </li>
                         <li>
                           <Link
-                            href="/en/explore-aldar/businesses/development/partnerships"
+                            href="https://www.aldar.com/en/explore-aldar/businesses/development/partnerships"
                             className="footer_columns-link internal"
                           >
                             Partnerships
@@ -515,7 +539,7 @@ const Footer = (): JSX.Element => {
                         </li>
                         <li>
                           <Link
-                            href="/en/explore-aldar/businesses/investment/commercial"
+                            href="https://www.aldar.com/en/explore-aldar/businesses/investment/commercial"
                             className="footer_columns-link internal"
                           >
                             Commercial
@@ -523,7 +547,7 @@ const Footer = (): JSX.Element => {
                         </li>
                         <li>
                           <Link
-                            href="/en/explore-aldar/businesses/investment/retail"
+                            href="https://www.aldar.com/en/explore-aldar/businesses/investment/retail"
                             className="footer_columns-link internal"
                           >
                             Retail
@@ -533,7 +557,7 @@ const Footer = (): JSX.Element => {
                       <ul>
                         <li>
                           <Link
-                            href="/en/explore-aldar/businesses/education"
+                            href="https://www.aldar.com/en/explore-aldar/businesses/education"
                             className="footer_columns-title"
                           >
                             Education
@@ -545,7 +569,7 @@ const Footer = (): JSX.Element => {
                         </li>
                         <li className="touch-only">
                           <Link
-                            href="/en/explore-aldar/businesses/education"
+                            href="https://www.aldar.com/en/explore-aldar/businesses/education"
                             className="footer_columns-link"
                           >
                             All Education
@@ -558,7 +582,7 @@ const Footer = (): JSX.Element => {
                       <ul>
                         <li>
                           <Link
-                            href="/en/explore-aldar/businesses/hospitality"
+                            href="https://www.aldar.com/en/explore-aldar/businesses/hospitality"
                             className="footer_columns-title"
                           >
                             Hospitality
@@ -570,7 +594,7 @@ const Footer = (): JSX.Element => {
                         </li>
                         <li className="touch-only">
                           <Link
-                            href="/en/explore-aldar/businesses/hospitality"
+                            href="https://www.aldar.com/en/explore-aldar/businesses/hospitality"
                             className="footer_columns-link"
                           >
                             All Hospitality
@@ -583,7 +607,7 @@ const Footer = (): JSX.Element => {
                       <ul>
                         <li>
                           <Link
-                            href="/en/explore-aldar/businesses/aldar-projects"
+                            href="https://www.aldar.com/en/explore-aldar/businesses/aldar-projects"
                             className="footer_columns-title"
                           >
                             Projects
@@ -595,7 +619,7 @@ const Footer = (): JSX.Element => {
                         </li>
                         <li className="touch-only">
                           <Link
-                            href="/en/explore-aldar/businesses/aldar-projects"
+                            href="https://www.aldar.com/en/explore-aldar/businesses/aldar-projects"
                             className="footer_columns-link"
                           >
                             All Projects
@@ -608,7 +632,7 @@ const Footer = (): JSX.Element => {
                       <ul>
                         <li>
                           <Link
-                            href="/en/explore-aldar/corporate-governance"
+                            href="https://www.aldar.com/en/explore-aldar/corporate-governance"
                             className="footer_columns-title"
                           >
                             Corporate Governance
@@ -620,7 +644,7 @@ const Footer = (): JSX.Element => {
                         </li>
                         <li className="touch-only">
                           <Link
-                            href="/en/explore-aldar/corporate-governance"
+                            href="https://www.aldar.com/en/explore-aldar/corporate-governance"
                             className="footer_columns-link"
                           >
                             All Corporate Governance
@@ -633,7 +657,7 @@ const Footer = (): JSX.Element => {
                       <ul>
                         <li>
                           <Link
-                            href="/en/explore-aldar/sustainability"
+                            href="https://www.aldar.com/en/explore-aldar/sustainability"
                             className="footer_columns-title"
                           >
                             Sustainability
@@ -645,7 +669,7 @@ const Footer = (): JSX.Element => {
                         </li>
                         <li className="touch-only">
                           <Link
-                            href="/en/explore-aldar/sustainability"
+                            href="https://www.aldar.com/en/explore-aldar/sustainability"
                             className="footer_columns-link"
                           >
                             All Sustainability
@@ -653,7 +677,7 @@ const Footer = (): JSX.Element => {
                         </li>
                         <li>
                           <Link
-                            href="/en/explore-aldar/sustainability/strategy"
+                            href="https://www.aldar.com/en/explore-aldar/sustainability/strategy"
                             className="footer_columns-link internal"
                           >
                             Sustainability Strategy
@@ -661,7 +685,7 @@ const Footer = (): JSX.Element => {
                         </li>
                         <li>
                           <Link
-                            href="/en/explore-aldar/sustainability/governance-and-policies"
+                            href="https://www.aldar.com/en/explore-aldar/sustainability/governance-and-policies"
                             className="footer_columns-link internal"
                           >
                             Governance & Policies
@@ -669,7 +693,7 @@ const Footer = (): JSX.Element => {
                         </li>
                         <li>
                           <Link
-                            href="/en/explore-aldar/sustainability/reporting"
+                            href="https://www.aldar.com/en/explore-aldar/sustainability/reporting"
                             className="footer_columns-link internal"
                           >
                             Reporting & Performance
@@ -677,7 +701,7 @@ const Footer = (): JSX.Element => {
                         </li>
                         <li>
                           <Link
-                            href="/en/explore-aldar/sustainability/netzero"
+                            href="https://www.aldar.com/en/explore-aldar/sustainability/netzero"
                             className="footer_columns-link internal"
                           >
                             Net Zero
@@ -685,7 +709,7 @@ const Footer = (): JSX.Element => {
                         </li>
                         <li>
                           <Link
-                            href="/en/explore-aldar/sustainability/corporate-social-responsibility"
+                            href="https://www.aldar.com/en/explore-aldar/sustainability/corporate-social-responsibility"
                             className="footer_columns-link internal"
                           >
                             Community Outreach
@@ -698,7 +722,7 @@ const Footer = (): JSX.Element => {
                       <ul>
                         <li>
                           <Link
-                            href="/en/explore-aldar/aldar-brand"
+                            href="https://www.aldar.com/en/explore-aldar/aldar-brand"
                             className="footer_columns-title"
                           >
                             Aldar Brand
@@ -710,7 +734,7 @@ const Footer = (): JSX.Element => {
                         </li>
                         <li className="touch-only">
                           <Link
-                            href="/en/explore-aldar/aldar-brand"
+                            href="https://www.aldar.com/en/explore-aldar/aldar-brand"
                             className="footer_columns-link"
                           >
                             All Aldar Brand
@@ -723,7 +747,7 @@ const Footer = (): JSX.Element => {
                       <ul>
                         <li>
                           <Link
-                            href="/en/explore-aldar/live-aldar"
+                            href="https://www.aldar.com/en/explore-aldar/live-aldar"
                             className="footer_columns-title"
                           >
                             Live Aldar
@@ -734,13 +758,16 @@ const Footer = (): JSX.Element => {
                           </Link>
                         </li>
                         <li className="touch-only">
-                          <Link href="/en/explore-aldar/live-aldar" className="footer_columns-link">
+                          <Link
+                            href="https://www.aldar.com/en/explore-aldar/live-aldar"
+                            className="footer_columns-link"
+                          >
                             All Live Aldar
                           </Link>
                         </li>
                         <li>
                           <Link
-                            href="/en/explore-aldar/live-aldar/year-of-sustainability"
+                            href="https://www.aldar.com/en/explore-aldar/live-aldar/year-of-sustainability"
                             className="footer_columns-link internal"
                           >
                             Year of Sustainability
@@ -748,7 +775,7 @@ const Footer = (): JSX.Element => {
                         </li>
                         <li>
                           <Link
-                            href="/en/explore-aldar/live-aldar/emirati-womens-day"
+                            href="https://www.aldar.com/en/explore-aldar/live-aldar/emirati-womens-day"
                             className="footer_columns-link internal"
                           >
                             Emirati Women&apos;s Day
@@ -756,7 +783,7 @@ const Footer = (): JSX.Element => {
                         </li>
                         <li>
                           <Link
-                            href="/en/explore-aldar/live-aldar/in-focus"
+                            href="https://www.aldar.com/en/explore-aldar/live-aldar/in-focus"
                             className="footer_columns-link internal"
                           >
                             In Focus
@@ -764,7 +791,7 @@ const Footer = (): JSX.Element => {
                         </li>
                         <li>
                           <Link
-                            href="/en/explore-aldar/live-aldar/ahal-aldar"
+                            href="https://www.aldar.com/en/explore-aldar/live-aldar/ahal-aldar"
                             className="footer_columns-link internal"
                           >
                             Ahal Aldar
@@ -772,7 +799,7 @@ const Footer = (): JSX.Element => {
                         </li>
                         <li>
                           <Link
-                            href="/en/explore-aldar/live-aldar/aldar-stories"
+                            href="https://www.aldar.com/en/explore-aldar/live-aldar/aldar-stories"
                             className="footer_columns-link internal"
                           >
                             Aldar Stories
@@ -781,7 +808,10 @@ const Footer = (): JSX.Element => {
                       </ul>
                       <ul>
                         <li>
-                          <Link href="/en/explore-aldar/art" className="footer_columns-title">
+                          <Link
+                            href="https://www.aldar.com/en/explore-aldar/art"
+                            className="footer_columns-title"
+                          >
                             Art
                             <sup className="sup-desktop"></sup>
                             <sup className="sup-mobile"></sup>
@@ -790,7 +820,10 @@ const Footer = (): JSX.Element => {
                           </Link>
                         </li>
                         <li className="touch-only">
-                          <Link href="/en/explore-aldar/art" className="footer_columns-link">
+                          <Link
+                            href="https://www.aldar.com/en/explore-aldar/art"
+                            className="footer_columns-link"
+                          >
                             All Art
                           </Link>
                         </li>
@@ -801,7 +834,7 @@ const Footer = (): JSX.Element => {
                       <ul>
                         <li>
                           <Link
-                            href="/en/explore-aldar/innovation"
+                            href="https://www.aldar.com/en/explore-aldar/innovation"
                             className="footer_columns-title"
                           >
                             Innovation
@@ -812,13 +845,16 @@ const Footer = (): JSX.Element => {
                           </Link>
                         </li>
                         <li className="touch-only">
-                          <Link href="/en/explore-aldar/innovation" className="footer_columns-link">
+                          <Link
+                            href="https://www.aldar.com/en/explore-aldar/innovation"
+                            className="footer_columns-link"
+                          >
                             All Innovation
                           </Link>
                         </li>
                         <li>
                           <Link
-                            href="/en/explore-aldar/innovation/manassah3"
+                            href="https://www.aldar.com/en/explore-aldar/innovation/manassah3"
                             className="footer_columns-link internal"
                           >
                             Manassah
@@ -826,7 +862,7 @@ const Footer = (): JSX.Element => {
                         </li>
                         <li>
                           <Link
-                            href="/en/explore-aldar/innovation/scale-up"
+                            href="https://www.aldar.com/en/explore-aldar/innovation/scale-up"
                             className="footer_columns-link internal"
                           >
                             Scale Up By Aldar
@@ -839,7 +875,10 @@ const Footer = (): JSX.Element => {
                     <div className="footer__subcolumn">
                       <ul className="title-only">
                         <li>
-                          <Link href="/en/faqslisting" className="footer_columns-title">
+                          <Link
+                            href="https://www.aldar.com/en/faqslisting"
+                            className="footer_columns-title"
+                          >
                             FAQs
                             <sup className="sup-desktop"></sup>
                             <sup className="sup-mobile"></sup>
@@ -854,7 +893,10 @@ const Footer = (): JSX.Element => {
                     <div className="footer__subcolumn">
                       <ul className="title-only">
                         <li>
-                          <Link href="/en/about-abu-dhabi" className="footer_columns-title">
+                          <Link
+                            href="https://www.aldar.com/en/about-abu-dhabi"
+                            className="footer_columns-title"
+                          >
                             Abu Dhabi
                             <sup className="sup-desktop"></sup>
                             <sup className="sup-mobile"></sup>
@@ -889,7 +931,10 @@ const Footer = (): JSX.Element => {
                     <div className="footer__subcolumn">
                       <ul className="title-only">
                         <li>
-                          <Link href="/en/contact-us" className="footer_columns-title">
+                          <Link
+                            href="https://www.aldar.com/en/contact-us"
+                            className="footer_columns-title"
+                          >
                             Contact Us
                             <sup className="sup-desktop"></sup>
                             <sup className="sup-mobile"></sup>
@@ -1158,7 +1203,7 @@ const Footer = (): JSX.Element => {
                 <p className="footer__r2-content">800-ALDAR / 800-25327</p>
               </div>
               <div className="footer__contact-container">
-                <Link className="o-button" href="/en/contact-us">
+                <Link className="o-button" href="https://www.aldar.com/en/contact-us">
                   Contact Us
                 </Link>
               </div>
@@ -1166,12 +1211,15 @@ const Footer = (): JSX.Element => {
             <section className="container footer__r3-container">
               <ul>
                 <li>
-                  <Link href="/en/privacy-policy" className="footer__link">
+                  <Link href="https://www.aldar.com/en/privacy-policy" className="footer__link">
                     Privacy Policy
                   </Link>
                 </li>
                 <li>
-                  <Link href="/en/terms-and-conditions" className="footer__link">
+                  <Link
+                    href="https://www.aldar.com/en/terms-and-conditions"
+                    className="footer__link"
+                  >
                     Terms of Use
                   </Link>
                 </li>
