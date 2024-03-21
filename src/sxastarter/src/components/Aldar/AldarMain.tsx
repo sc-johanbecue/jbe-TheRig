@@ -996,14 +996,14 @@ const Header = (): JSX.Element => {
                       <div className="col-lg-8"></div>
                       <div className="col-12 col-lg-3">
                         <div className="box-component__iframe-container">
-                          <iframe
+                          {/* <iframe
                             className="full-height-iframe"
                             width="100%"
                             height="260"
                             scrolling="no"
                             frameBorder="0"
                             src="https://tools.eurolandir.com/tools/ticker/html/?companycode=ae-aldar&v=chart&lang=en-gb"
-                          ></iframe>
+                          ></iframe> */}
                         </div>
                       </div>
                     </div>
@@ -1654,7 +1654,7 @@ const Header = (): JSX.Element => {
             <template id="mediaGallery360ItemTemplate">
               <div className="swiper-slide">
                 <div className="gallery-popup__item gallery-popup__item--360">
-                  <iframe src="URL_PLACEHOLDER" width="949" height="606"></iframe>
+                  {/* <iframe src="URL_PLACEHOLDER" width="949" height="606"></iframe> */}
                 </div>
               </div>
             </template>
