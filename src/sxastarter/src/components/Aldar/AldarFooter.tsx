@@ -1116,6 +1116,32 @@ const Footer = (): JSX.Element => {
                             data-val-required="Please confirm you are not a robot."
                             data-val="true"
                           />
+                          <script type="text/javascript">
+                            {`
+                                var reCaptchaArray = reCaptchaArray || [];
+                                reCaptchaArray.push(
+                                  function() {
+                                    var _captchaInput = window.document.getElementById('fxb_42a085be-19b2-40a9-9cc4-a5083eaa7095_Fields_fab5fee7-ffbd-45b2-bc34-3035736de642__CaptchaValue');
+                                    var grcaptaId = window.grecaptcha.render('fxb_42a085be-19b2-40a9-9cc4-a5083eaa7095_Fields_fab5fee7-ffbd-45b2-bc34-3035736de642__CaptchaValue_wrapper',
+                                      {
+                                        'sitekey': '6LcDTCEaAAAAAHuNgORYY_zAGatiQipppS-ViFHJ',
+                                        'size': 'invisible',
+                                        'badge': 'bottomleft',
+                                        'callback': function(token) {
+                                            _captchaInput.value = token;
+                                            $(_captchaInput.form).valid();
+                                            $(_captchaInput.form).find('.aldar-input-submit input[type="submit"]').click();
+                                        },
+                                        'expired-callback': function(args) {
+                                          _captchaInput.value = '';
+                                        }
+                                        });
+                                        _captchaInput.form.onsubmit = function () { window.grecaptcha.execute(grcaptaId);};
+                                  }
+                                );
+                            `}
+                          </script>
+
                           <script
                             src="https://www.google.com/recaptcha/api.js?onload=loadReCaptchas&render=explicit&hl=en"
                             async
