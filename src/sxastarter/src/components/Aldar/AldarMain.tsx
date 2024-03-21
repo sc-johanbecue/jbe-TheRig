@@ -21,12 +21,14 @@ const Header = (): JSX.Element => {
                       </p>
                     </div>
                     <div className="cookie-banner__buttons">
-                      <Link
-                        href="javascript:void(0);"
+                      <a
+                        onClick={(e) => {
+                          e.preventDefault();
+                        }}
                         className="o-button -white cookie-banner__btn"
                       >
                         Accept
-                      </Link>
+                      </a>
                       <Link
                         className="cookie-banner__link "
                         href="https://www.aldar.com/en/privacy-policy"
@@ -70,13 +72,19 @@ const Header = (): JSX.Element => {
                           </div>
                         </div>
                         <div>
-                          <Link
-                            href="javascript:window.open('https://aldar.eu.qualtrics.com/jfe/form/SV_6QBWQ64ioCcHVqd','popUpWindow','height=500,width=400,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no, status=yes');"
+                          <a
+                            onClick={() => {
+                              window.open(
+                                'https://aldar.eu.qualtrics.com/jfe/form/SV_6QBWQ64ioCcHVqd',
+                                'popUpWindow',
+                                'height=500,width=400,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no,status=yes'
+                              );
+                            }}
                             target=""
                             className="cta-action-info"
                           >
                             Share your feedback
-                          </Link>
+                          </a>
                           <Link href="" className="cta-action">
                             <img
                               src="https://cdn.aldar.com/-/media/project/aldar-tenant/aldar2/images/floating-cta/icon-pointer.svg?iar=0&amp;rev=49ee4b9102af4e989d8347896c19341c"
@@ -97,18 +105,22 @@ const Header = (): JSX.Element => {
                     <div className="main-hero__controls">
                       <div className="swiper-pagination"></div>
                       <div className="o-button-group">
-                        <Link
+                        <a
                           className="o-button -white -square -left swiper-button-prev carousel-button__prev"
-                          href="javascript:void(0);"
+                          onClick={(e) => {
+                            e.preventDefault();
+                          }}
                         >
                           <span className="o-button_label"></span>
-                        </Link>
-                        <Link
+                        </a>
+                        <a
                           className="o-button -white -square swiper-button-next carousel-button__next"
-                          href="javascript:void(0);"
+                          onClick={(e) => {
+                            e.preventDefault();
+                          }}
                         >
                           <span className="o-button_label"></span>
-                        </Link>
+                        </a>
                       </div>
                     </div>
                     <div className="swiper-wrapper">
@@ -344,13 +356,15 @@ const Header = (): JSX.Element => {
             <div className="component promo promotion2-v2">
               <div className="component-content">
                 <div className="promotion__container">
-                  <Link
-                    href="javascript:void(0);"
+                  <a
+                    onClick={(e) => {
+                      e.preventDefault();
+                    }}
                     className="promotion__btn"
                     data-target="#promotion3"
                   >
                     <span className="body-text-bold-15">Promotions</span>
-                  </Link>
+                  </a>
                 </div>
                 <div className="main-hero__popup promotion" id="promotion3" data-animation="">
                   <button
@@ -938,18 +952,22 @@ const Header = (): JSX.Element => {
                   <div className="controls">
                     <div className="swiper-pagination"></div>
                     <div className="o-button-group">
-                      <Link
+                      <a
                         className="o-button -square -left swiper-button-prev carousel-button__prev"
-                        href="javascript:void(0);"
+                        onClick={(e) => {
+                          e.preventDefault();
+                        }}
                       >
                         <span className="o-button_label"></span>
-                      </Link>
-                      <Link
+                      </a>
+                      <a
                         className="o-button -square swiper-button-next carousel-button__next"
-                        href="javascript:void(0);"
+                        onClick={(e) => {
+                          e.preventDefault();
+                        }}
                       >
                         <span className="o-button_label"></span>
-                      </Link>
+                      </a>
                     </div>
                   </div>
                   <div
@@ -1186,18 +1204,22 @@ const Header = (): JSX.Element => {
                             <div className="swiper-pagination"></div>
                             <div className="nav">
                               <div className="o-button-group">
-                                <Link
+                                <a
                                   className="o-button -square -left swiper-button-prev carousel-button__prev "
-                                  href="javascript:void(0);"
+                                  onClick={(e) => {
+                                    e.preventDefault();
+                                  }}
                                 >
                                   <span className="o-button_label"></span>
-                                </Link>
-                                <Link
+                                </a>
+                                <a
                                   className="o-button -square swiper-button-next carousel-button__next "
-                                  href="javascript:void(0);"
+                                  onClick={(e) => {
+                                    e.preventDefault();
+                                  }}
                                 >
                                   <span className="o-button_label"></span>
-                                </Link>
+                                </a>
                               </div>
                             </div>
                           </div>
@@ -1617,18 +1639,22 @@ const Header = (): JSX.Element => {
                     <div className="swiper-wrapper">ITEMS_PLACEHOLDER</div>
                   </div>
                   <div className="o-button-group">
-                    <Link
+                    <a
                       className="o-button -left -white swiper-button-prev carousel-button__prev"
-                      href="javascript:void(0);"
+                      onClick={(e) => {
+                        e.preventDefault();
+                      }}
                     >
                       <span className="o-button_label"></span>
-                    </Link>
-                    <Link
+                    </a>
+                    <a
                       className="o-button -white swiper-button-next carousel-button__next"
-                      href="javascript:void(0);"
+                      onClick={(e) => {
+                        e.preventDefault();
+                      }}
                     >
                       <span className="o-button_label"></span>
-                    </Link>
+                    </a>
                   </div>
                   360BUTTON_PLACEHOLDER
                 </div>

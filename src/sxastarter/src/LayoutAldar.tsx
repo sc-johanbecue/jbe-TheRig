@@ -94,7 +94,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
           <div id="footer">{route && <Placeholder name="headless-footer" rendering={route} />}</div>
         </footer> */}
       </div>
-      {/* <script
+      <script
         defer
         src="https://www.aldar.com/sitecore%20modules/Web/ExperienceForms/scripts/jquery-3.6.0.min.js?v=1"
       ></script>
@@ -161,7 +161,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
       <script
         defer
         src="https://cdn.aldar.com/-/media/themes/aldar-tenant/global/aldar/scripts/optimized-min.js?rev=b7c252edce3c466298971f1b414116e5&t=20240206T151823Z"
-      ></script> */}
+      ></script>
     </>
   );
 };

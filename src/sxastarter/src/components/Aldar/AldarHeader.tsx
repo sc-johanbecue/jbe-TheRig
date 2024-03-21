@@ -4462,10 +4462,12 @@ const Header = (): JSX.Element => {
                   </nav>
                   <ul className="header__desktop-buttons">
                     <li>
-                      <Link
-                        href="javascript:void(0);"
+                      <a
+                        onClick={(e) => {
+                            e.preventDefault();
+                          }}
                         className="button__language notouch-only"
-                      ></Link>
+                      ></a>
                       <div className="component language-selector header__desktop-buttons-dd initialized">
                         <div className="component-content">
                           <div
