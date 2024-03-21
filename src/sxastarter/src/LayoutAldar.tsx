@@ -3,12 +3,18 @@
  */
 import React from 'react';
 import Head from 'next/head';
-import { LayoutServiceData, Field, HTMLLink, ImageField } from '@sitecore-jss/sitecore-jss-nextjs';
+import {
+  Placeholder,
+  LayoutServiceData,
+  Field,
+  HTMLLink,
+  ImageField,
+} from '@sitecore-jss/sitecore-jss-nextjs';
 import config from 'temp/config';
 import Scripts from 'src/Scripts';
 import AldarHeader from 'components/Aldar/AldarHeader';
 import AldarFooter from 'components/Aldar/AldarFooter';
-import AldarMain from 'components/Aldar/AldarMain';
+// import AldarMain from 'components/Aldar/AldarMain';
 
 // Prefix public assets with a public URL to enable compatibility with Sitecore Experience Editor.
 // If you're not supporting the Experience Editor, you can remove this.
@@ -85,10 +91,10 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
         {/* <header>
           <div id="header">{route && <Placeholder name="headless-header" rendering={route} />}</div>
         </header> */}
-        <AldarMain></AldarMain>
-        {/* <main>
+        {/* <AldarMain></AldarMain> */}
+        <main>
           <div id="content">{route && <Placeholder name="headless-main" rendering={route} />}</div>
-        </main> */}
+        </main>
         <AldarFooter></AldarFooter>
         {/* <footer>
           <div id="footer">{route && <Placeholder name="headless-footer" rendering={route} />}</div>
