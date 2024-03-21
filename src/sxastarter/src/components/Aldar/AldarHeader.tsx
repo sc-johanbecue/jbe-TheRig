@@ -4464,8 +4464,8 @@ const Header = (): JSX.Element => {
                     <li>
                       <a
                         onClick={(e) => {
-                            e.preventDefault();
-                          }}
+                          e.preventDefault();
+                        }}
                         className="button__language notouch-only"
                       ></a>
                       <div className="component language-selector header__desktop-buttons-dd initialized">
