@@ -605,7 +605,7 @@ const Header = (): JSX.Element => {
                     </div>
                   </div>
                   <div className="container h-100">
-                    <div className="row h-100 no-gutters">
+                    {/* <div className="row h-100 no-gutters">
                       <div className="col-2"></div>
                       <div className="col-9 col-md-5 col-lg-5">
                         <div className="hero__con">
@@ -630,7 +630,7 @@ const Header = (): JSX.Element => {
                           </div>
                         </div>
                       </div>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
