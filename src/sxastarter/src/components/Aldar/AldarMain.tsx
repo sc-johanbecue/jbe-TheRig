@@ -1154,7 +1154,7 @@ export const Default = (props: ComponentProps): JSX.Element => {
                 </section>
               </div>
             </div>
-            <div className="component popularCarousel margin-bottom-80">
+            {/* <div className="component popularCarousel margin-bottom-80">
               <div className="component-content">
                 <div
                   className="popular-news"
@@ -1396,7 +1396,7 @@ export const Default = (props: ComponentProps): JSX.Element => {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
             {/* <div className="component listing margin-bottom-80">
               <div className="component-content">
                 <div className="no-box-shadow">
