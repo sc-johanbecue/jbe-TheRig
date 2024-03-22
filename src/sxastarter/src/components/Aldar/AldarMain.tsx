@@ -1397,7 +1397,7 @@ export const Default = (props: ComponentProps): JSX.Element => {
                 </div>
               </div>
             </div>
-            <div className="component listing margin-bottom-80">
+            {/* <div className="component listing margin-bottom-80">
               <div className="component-content">
                 <div className="no-box-shadow">
                   <div
@@ -1527,8 +1527,8 @@ export const Default = (props: ComponentProps): JSX.Element => {
                   </div>
                 </div>
               </div>
-            </div>
-            <div className="component summary">
+            </div> */}
+            {/* <div className="component summary">
               <section className="contact" data-animation="">
                 <div className="container">
                   <div className="row">
@@ -1571,7 +1571,7 @@ export const Default = (props: ComponentProps): JSX.Element => {
                   </div>
                 </div>
               </section>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="component popup-component">
