@@ -1,16 +1,11 @@
 import React from 'react';
-import {
-  RichTextField,
-  RichText,
-  LinkField,
-  Link as JssLink,
-} from '@sitecore-jss/sitecore-jss-nextjs';
+import { TextField, Text, LinkField, Link as JssLink } from '@sitecore-jss/sitecore-jss-nextjs';
 import Link from 'next/link';
 
 interface Fields {
-  Heading: RichTextField;
-  Text: RichTextField;
-  SmallText: RichTextField;
+  Heading: TextField;
+  Text: TextField;
+  SmallText: TextField;
   Link: LinkField;
 }
 
@@ -40,7 +35,7 @@ export const Default = (props: AldarContentWithLinkListProps): JSX.Element => {
                 <div className="col-1 col-md-2"></div>
                 <div className="col-11 col-md-8">
                   <h2 className="h2 h2--box">
-                    <RichText field={props.fields.Heading} />
+                    <Text field={props.fields.Heading} />
                   </h2>
                 </div>
               </div>
@@ -53,13 +48,13 @@ export const Default = (props: AldarContentWithLinkListProps): JSX.Element => {
                     <p className="d-none d-md-block">
                       <p className="d-none d-md-block">
                         <span>
-                          <RichText field={props.fields.Text} />
+                          <Text field={props.fields.Text} />
                         </span>
                       </p>
                     </p>
                     <small className="d-none d-md-block">
                       <span>
-                        <RichText field={props.fields.SmallText} />
+                        <Text field={props.fields.SmallText} />
                       </span>
                     </small>
                     <JssLink field={props.fields.Link} />

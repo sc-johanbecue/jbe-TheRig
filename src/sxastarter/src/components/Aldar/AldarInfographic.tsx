@@ -1,9 +1,9 @@
 import React from 'react';
-import { RichTextField, RichText } from '@sitecore-jss/sitecore-jss-nextjs';
+import { TextField, Text } from '@sitecore-jss/sitecore-jss-nextjs';
 import Link from 'next/link';
 
 interface Fields {
-  Heading: RichTextField;
+  Heading: TextField;
 }
 
 type AldarInfographicProps = {
@@ -31,7 +31,7 @@ export const Default = (props: AldarInfographicProps): JSX.Element => {
                 <div className="col-10 col-lg-5 box-component__header-container">
                   <div className="box-component__header">
                     <h2 className="h2 h2--box box-component__heading">
-                      <RichText field={props.fields.Heading} />
+                      <Text field={props.fields.Heading} />
                     </h2>
                   </div>
                 </div>
