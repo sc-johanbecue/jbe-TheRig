@@ -1,7 +1,25 @@
 import React from 'react';
 import Link from 'next/link';
+import {
+  Placeholder,
+  ComponentParams,
+  ComponentRendering,
+} from '@sitecore-jss/sitecore-jss-nextjs';
 
-const Header = (): JSX.Element => {
+type ComponentProps = {
+  rendering: ComponentRendering & { params: ComponentParams };
+  params: { [key: string]: string };
+};
+
+const AldarMainDefaultComponent = (props: ComponentProps): JSX.Element => (
+  <div className={`component promo ${props.params.styles}`}>
+    <div className="component-content">
+      <span className="is-empty-hint"></span>
+    </div>
+  </div>
+);
+
+export const Default = (props: ComponentProps): JSX.Element => {
   return (
     <main>
       <div id="content" className="container-fluid no-padding">
@@ -631,6 +649,7 @@ const Header = (): JSX.Element => {
                         </div>
                       </div>
                     </div> */}
+                    <Placeholder name="content" rendering={props.rendering} />
                   </div>
                 </div>
               </div>
@@ -1698,6 +1717,6 @@ const Header = (): JSX.Element => {
       </div>
     </main>
   );
-};
 
-export default Header;
+  return <AldarMainDefaultComponent {...props} />;
+};
