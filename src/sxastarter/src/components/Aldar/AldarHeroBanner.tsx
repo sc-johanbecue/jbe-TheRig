@@ -62,14 +62,7 @@ export const Default = (props: AldarHeroBannerProps): JSX.Element => {
                       <RichText field={props.fields.SubTitle} />
                     </p>
                     <div className="hero__btn-container">
-                      <JssLink
-                        field={props.fields.Link}
-                        rel="noopener noreferrer"
-                        className="link o-button -white "
-                        target="_blank"
-                      >
-                        Download Report
-                      </JssLink>
+                      <JssLink field={props.fields.Link} />
                     </div>
                   </div>
                 </div>
