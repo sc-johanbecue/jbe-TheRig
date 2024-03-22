@@ -64,7 +64,6 @@ export const Default = (props: AldarHeroBannerProps): JSX.Element => {
                     <div className="hero__btn-container">
                       <JssLink
                         field={props.fields.Link}
-                        href="https://cdn.aldar.com/-/media/project/aldar-tenant/aldar2/aldar-sustainability-report-2023.pdf?rev=954080bc974d4fa1a8c33ad35fca4f04"
                         rel="noopener noreferrer"
                         className="link o-button -white "
                         target="_blank"

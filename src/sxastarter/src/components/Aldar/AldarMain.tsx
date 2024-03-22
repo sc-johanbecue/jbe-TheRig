@@ -604,7 +604,7 @@ export const Default = (props: ComponentProps): JSX.Element => {
                 </div>
               </div>
             </div>
-            <Placeholder name="content" rendering={props.rendering} />
+            <Placeholder key="aldarcontent" name="content" rendering={props.rendering} />
             <div className="component summary margin-bottom-80">
               <section className="facts padding-bottom-80" data-animation="">
                 <div className="container typos --box-shadow margin-bottom-40" data-animation="">
