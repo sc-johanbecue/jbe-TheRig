@@ -14,6 +14,7 @@ import config from 'temp/config';
 import Scripts from 'src/Scripts';
 import AldarHeader from 'components/Aldar/AldarHeader';
 import AldarFooter from 'components/Aldar/AldarFooter';
+import Link from 'next/link';
 
 // Prefix public assets with a public URL to enable compatibility with Sitecore Experience Editor.
 // If you're not supporting the Experience Editor, you can remove this.
@@ -90,7 +91,106 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
         {/* <header>
           <div id="header">{route && <Placeholder name="headless-header" rendering={route} />}</div>
         </header> */}
-        {route && <Placeholder name="headless-main" rendering={route} />}
+        <main>
+          <div id="content" className="container-fluid no-padding">
+            <div className="component container full-width">
+              <div className="component-content">
+                {route && <Placeholder name="headless-main" rendering={route} />}
+              </div>
+            </div>
+            <div className="component popup-component">
+              <div className="component-content">
+                <template id="mediaVideoTemplate">
+                  <div
+                    className="video-popup media-popup popup c d-flex align-items-center justify-content-center active"
+                    id="mediaVideo-popup"
+                  >
+                    <button className="video-popup__close body-text-bold-15 media-popup__close">
+                      <i className="close-icon"></i>
+                      Close
+                    </button>
+                    <div className="component video">
+                      <div className="component-content">
+                        <div className="sxa-video-wrapper">VIDEO_PLACEHOLDER</div>
+                        <div className="video-caption"></div>
+                      </div>
+                    </div>
+                  </div>
+                </template>
+                <template id="mediaGalleryTemplate">
+                  <div
+                    className="gallery-popup media-popup popup d-flex align-items-center justify-content-center active"
+                    id="mediaGallery-popup"
+                  >
+                    <button className="popup__close body-text-bold-15 media-popup__close">
+                      <i className="close-icon"></i> Close
+                    </button>
+                    <div className="gallery-popup__holder">
+                      <div
+                        className="swiper-container gallery-popup__carousel"
+                        data-swiperconfig="galleryPopup"
+                      >
+                        <div className="swiper-wrapper">ITEMS_PLACEHOLDER</div>
+                      </div>
+                      <div className="o-button-group">
+                        <a
+                          className="o-button -left -white swiper-button-prev carousel-button__prev"
+                          onClick={(e) => {
+                            e.preventDefault();
+                          }}
+                        >
+                          <span className="o-button_label"></span>
+                        </a>
+                        <a
+                          className="o-button -white swiper-button-next carousel-button__next"
+                          onClick={(e) => {
+                            e.preventDefault();
+                          }}
+                        >
+                          <span className="o-button_label"></span>
+                        </a>
+                      </div>
+                      360BUTTON_PLACEHOLDER
+                    </div>
+                  </div>
+                </template>
+                <template id="mediaGalleryItemTemplate">
+                  <div className="swiper-slide">
+                    <div className="gallery-popup__item">
+                      <figure>
+                        <img src="IMAGE_PLACEHOLDER" alt="" />
+
+                        <Link href="" className="gallery-popup__item-zoom">
+                          {/* onClick={() => zoomImage(this)} */}
+                        </Link>
+                      </figure>
+                      <div className="gallery-popup__inner">
+                        <h5 className="h5 gallery-popup__title">TITLE_PLACEHOLDER</h5>
+                        <p className="body-text-18 gallery-popup__desc">DESC_PLACEHOLDER</p>
+                      </div>
+                    </div>
+                  </div>
+                </template>
+                <template id="mediaGallery360ItemTemplate">
+                  <div className="swiper-slide">
+                    <div className="gallery-popup__item gallery-popup__item--360">
+                      {/* <iframe src="URL_PLACEHOLDER" width="949" height="606"></iframe> */}
+                    </div>
+                  </div>
+                </template>
+                <template id="mediaGellery360ButtonTemplate">
+                  <div className="gallery-popup__360">
+                    <Link href="" className="o-button -white view360">
+                      <span className="o-button_label"> 360 View</span>
+                      <div className="o-button_line"></div>
+                      <div className="o-button_line"></div>
+                    </Link>
+                  </div>
+                </template>
+              </div>
+            </div>
+          </div>
+        </main>
         {/* <main>
           <div id="content">{route && <Placeholder name="headless-main" rendering={route} />}</div>
         </main> */}

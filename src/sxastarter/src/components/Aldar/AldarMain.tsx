@@ -23,7 +23,7 @@ export const Default = (props: ComponentProps): JSX.Element => {
   return (
     <main>
       <div id="content" className="container-fluid no-padding">
-        <div className="component summary">
+        {/* <div className="component summary">
           <section className="cookie-banner">
             <div className="container">
               <div className="row">
@@ -60,10 +60,10 @@ export const Default = (props: ComponentProps): JSX.Element => {
               </div>
             </div>
           </section>
-        </div>
+        </div> */}
         <div className="component container full-width">
           <div className="component-content">
-            <div className="component content">
+            {/* <div className="component content">
               <div className="component-content">
                 <div className="floating-cta">
                   <div className="floating-cta__overlay"></div>
@@ -115,8 +115,8 @@ export const Default = (props: ComponentProps): JSX.Element => {
                   </div>
                 </div>
               </div>
-            </div>
-            <div className="component hero-banner-component sc-background-image-stretch">
+            </div> */}
+            {/* <div className="component hero-banner-component sc-background-image-stretch">
               <div className="component-content">
                 <div className="main-hero ">
                   <div className="swiper-container" data-swiperconfig="mainHero">
@@ -336,8 +336,8 @@ export const Default = (props: ComponentProps): JSX.Element => {
                   </div>
                 </div>
               </div>
-            </div>
-            <div className="component typos-component container --title-description margin-top-80">
+            </div> */}
+            {/* <div className="component typos-component container --title-description margin-top-80">
               <div className="component-content">
                 <div className="container typos" data-animation="">
                   <div className="row">
@@ -370,8 +370,8 @@ export const Default = (props: ComponentProps): JSX.Element => {
                   </div>
                 </div>
               </div>
-            </div>
-            <div className="component promo promotion2-v2">
+            </div> */}
+            {/* <div className="component promo promotion2-v2 JBEJBE">
               <div className="component-content">
                 <div className="promotion__container">
                   <a
@@ -473,11 +473,11 @@ export const Default = (props: ComponentProps): JSX.Element => {
                   </div>
                 </div>
               </div>
-            </div>
-            <div className="component promo margin-bottom-60">
+            </div> */}
+            {/* <div className="component promo margin-bottom-60">
               <div className="component-content"></div>
-            </div>
-            <div className="component infographic core-values__wrapper static-header margin-bottom-80">
+            </div> */}
+            {/* <div className="component infographic core-values__wrapper static-header margin-bottom-80">
               <div className="component-content">
                 <div
                   className="core-values container"
@@ -603,9 +603,9 @@ export const Default = (props: ComponentProps): JSX.Element => {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
             <Placeholder key="aldarcontent" name="content" rendering={props.rendering} />
-            <div className="component summary margin-bottom-80">
+            {/* <div className="component summary margin-bottom-80">
               <section className="facts padding-bottom-80" data-animation="">
                 <div className="container typos --box-shadow margin-bottom-40" data-animation="">
                   <div className="row">
@@ -697,8 +697,8 @@ export const Default = (props: ComponentProps): JSX.Element => {
                   </div>
                 </div>
               </section>
-            </div>
-            <div className="component promo margin-bottom-80">
+            </div> */}
+            {/* <div className="component promo margin-bottom-80">
               <div className="component-content">
                 <div className="staggered-box-with-image" style={{ position: 'relative' }}>
                   <section className="staggered-boxes ">
@@ -806,8 +806,8 @@ export const Default = (props: ComponentProps): JSX.Element => {
                   </section>
                 </div>
               </div>
-            </div>
-            <div className="component promo margin-bottom-80" id="enjoy-letters">
+            </div> */}
+            {/* <div className="component promo margin-bottom-80" id="enjoy-letters">
               <div className="component-content">
                 <div
                   className="related-list"
@@ -963,7 +963,7 @@ export const Default = (props: ComponentProps): JSX.Element => {
                   </div>
                 </template>
               </div>
-            </div>
+            </div> */}
             {/* <div className="component infographic">
               <div className="component-content">
                 <div className="box-component__wrapper box-component-with-external padding-bottom-40">
