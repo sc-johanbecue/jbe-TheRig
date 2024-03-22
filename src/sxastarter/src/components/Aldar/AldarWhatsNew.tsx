@@ -1,9 +1,9 @@
 import React from 'react';
-import { TextField, Text } from '@sitecore-jss/sitecore-jss-nextjs';
+import { RichTextField, RichText } from '@sitecore-jss/sitecore-jss-nextjs';
 import Link from 'next/link';
 
 interface Fields {
-  Heading: TextField;
+  Heading: RichTextField;
 }
 
 type AldarWhatsNewProps = {
@@ -37,7 +37,7 @@ export const Default = (props: AldarWhatsNewProps): JSX.Element => {
                   <div className="col-10 typos-container">
                     <div className="hdr-container hdr-container__split-between small-screen-spacing">
                       <h2 className="h2 h2--box heading">
-                        <Text field={props.fields.Heading} />
+                        <RichText field={props.fields.Heading} />
                       </h2>
                     </div>
                     <div className="controls ">

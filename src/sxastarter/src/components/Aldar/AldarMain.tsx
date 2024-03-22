@@ -964,7 +964,7 @@ export const Default = (props: ComponentProps): JSX.Element => {
                 </template>
               </div>
             </div>
-            <div className="component infographic">
+            {/* <div className="component infographic">
               <div className="component-content">
                 <div className="box-component__wrapper box-component-with-external padding-bottom-40">
                   <div className="box-component container" data-animation="boxComponent">
@@ -984,14 +984,14 @@ export const Default = (props: ComponentProps): JSX.Element => {
                       <div className="col-lg-8"></div>
                       <div className="col-12 col-lg-3">
                         <div className="box-component__iframe-container">
-                          {/* <iframe
+                           <iframe
                             className="full-height-iframe"
                             width="100%"
                             height="260"
                             scrolling="no"
                             frameBorder="0"
                             src="https://tools.eurolandir.com/tools/ticker/html/?companycode=ae-aldar&v=chart&lang=en-gb"
-                          ></iframe> */}
+                          ></iframe>
                         </div>
                       </div>
                     </div>
@@ -1061,8 +1061,8 @@ export const Default = (props: ComponentProps): JSX.Element => {
                   </div>
                 </div>
               </div>
-            </div>
-            <div className="component summary">
+            </div> */}
+            {/* <div className="component summary">
               <div className="tdb__with-list-link margin-bottom-80">
                 <section className="tdb tdb__with-list-links ">
                   <div className="container tdb__title">
@@ -1153,7 +1153,7 @@ export const Default = (props: ComponentProps): JSX.Element => {
                   </div>
                 </section>
               </div>
-            </div>
+            </div> */}
             {/* <div className="component popularCarousel margin-bottom-80">
               <div className="component-content">
                 <div

@@ -1,9 +1,14 @@
 import React from 'react';
-import { TextField, LinkField, Link as JssLink, Text } from '@sitecore-jss/sitecore-jss-nextjs';
+import {
+  RichTextField,
+  LinkField,
+  Link as JssLink,
+  RichText,
+} from '@sitecore-jss/sitecore-jss-nextjs';
 import Link from 'next/link';
 
 interface Fields {
-  Heading: TextField;
+  Heading: RichTextField;
   Link: LinkField;
 }
 
@@ -32,7 +37,7 @@ export const Default = (props: AldarContactUsProps): JSX.Element => {
                   <div className="col-1"></div>
                   <div className="col-10 col-md-6">
                     <h2 className="h3 h2--box typos__heading">
-                      <Text field={props.fields.Heading} />
+                      <RichText field={props.fields.Heading} />
                     </h2>
                   </div>
                   <div className="w-100 d-lg-none"></div>
