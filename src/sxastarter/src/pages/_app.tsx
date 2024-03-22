@@ -7,7 +7,7 @@ import Bootstrap from 'src/Bootstrap';
 import { AnonymousLogin, SetConfiguration } from 'src/services/Ordercloud/AuthenticationService';
 
 import { ChakraProvider, localStorageManager } from '@chakra-ui/react';
-import { Cookies, useCookies } from 'react-cookie';
+import { Cookies } from 'react-cookie'; //, useCookies
 import { useEffect, useState } from 'react';
 import { Tokens } from 'ordercloud-javascript-sdk';
 import { CONTENTHUB_TOKEN_COOKIE_KEY } from 'src/services/ContentHub/Constants';
