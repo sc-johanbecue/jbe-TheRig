@@ -3,6 +3,7 @@ import { I18nProvider } from 'next-localization';
 import { SitecorePageProps } from 'lib/page-props';
 import { getSession, SessionProvider } from 'next-auth/react';
 import Bootstrap from 'src/Bootstrap';
+
 import 'assets/main.scss';
 import { AnonymousLogin, SetConfiguration } from 'src/services/Ordercloud/AuthenticationService';
 
@@ -44,7 +45,7 @@ function App({ Component, pageProps }: AppProps<SitecorePageProps>): JSX.Element
     AutomaticLogin();
   }, []);
 
-  // const [cookie] = useCookies();
+  //const [cookie] = useCookies();
   const currenttheme = getCurrentTheme('');
 
   PageController.getContext().setLocaleLanguage(pageProps.locale);
