@@ -647,7 +647,7 @@ export const Default = (props: ComponentProps): JSX.Element => {
                             </Link>
                           </div>
                         </div>
-                      </div>
+                      </div> //
                     </div> */}
                     <Placeholder name="content" rendering={props.rendering} />
                   </div>
