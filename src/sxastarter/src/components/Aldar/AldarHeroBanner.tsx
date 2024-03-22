@@ -32,26 +32,49 @@ const AldarHeroBannerDefaultComponent = (props: AldarHeroBannerProps): JSX.Eleme
 export const Default = (props: AldarHeroBannerProps): JSX.Element => {
   if (props.fields) {
     return (
-      <div className="row h-100 no-gutters">
-        <div className="col-2"></div>
-        <div className="col-9 col-md-5 col-lg-5">
-          <div className="hero__con">
-            <h2 className="h2 h2--box hero__title">
-              <Text field={props.fields.Title} />
-            </h2>
-            <p className="body-text-18 hero__subTitle d-none d-lg-block">
-              <RichText field={props.fields.SubTitle} />
-            </p>
-            <div className="hero__btn-container">
-              <JssLink
-                field={props.fields.Link}
-                href="https://cdn.aldar.com/-/media/project/aldar-tenant/aldar2/aldar-sustainability-report-2023.pdf?rev=954080bc974d4fa1a8c33ad35fca4f04"
-                rel="noopener noreferrer"
-                className="link o-button -white "
-                target="_blank"
-              >
-                Download Report
-              </JssLink>
+      <div className="component promo margin-bottom-80">
+        <div className="component-content">
+          <div className="hero hero--560 " data-animation="hero">
+            <div className="container hero__bg-container">
+              <div className="row h-100 no-gutters">
+                <div className="col-12">
+                  <div className="hero__bg hero__bg--img">
+                    <div
+                      style={{
+                        backgroundImage:
+                          'url(https://cdn.aldar.com/-/media/project/aldar-tenant/aldar2/images/sustainability-new/aldar-sustainability-report-thumbnail-1920x747.jpg?rev=d168e9293d604ab0bc8d18ffcd3b3261)',
+                      }}
+                    ></div>
+                    <div className="hero__box-shadow"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="container h-100">
+              <div className="row h-100 no-gutters">
+                <div className="col-2"></div>
+                <div className="col-9 col-md-5 col-lg-5">
+                  <div className="hero__con">
+                    <h2 className="h2 h2--box hero__title">
+                      <Text field={props.fields.Title} />
+                    </h2>
+                    <p className="body-text-18 hero__subTitle d-none d-lg-block">
+                      <RichText field={props.fields.SubTitle} />
+                    </p>
+                    <div className="hero__btn-container">
+                      <JssLink
+                        field={props.fields.Link}
+                        href="https://cdn.aldar.com/-/media/project/aldar-tenant/aldar2/aldar-sustainability-report-2023.pdf?rev=954080bc974d4fa1a8c33ad35fca4f04"
+                        rel="noopener noreferrer"
+                        className="link o-button -white "
+                        target="_blank"
+                      >
+                        Download Report
+                      </JssLink>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>

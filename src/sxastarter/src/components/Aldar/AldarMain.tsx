@@ -604,56 +604,7 @@ export const Default = (props: ComponentProps): JSX.Element => {
                 </div>
               </div>
             </div>
-            <div className="component promo margin-bottom-80">
-              <div className="component-content">
-                <div className="hero hero--560 " data-animation="hero">
-                  <div className="container hero__bg-container">
-                    <div className="row h-100 no-gutters">
-                      <div className="col-12">
-                        <div className="hero__bg hero__bg--img">
-                          <div
-                            style={{
-                              backgroundImage:
-                                'url(https://cdn.aldar.com/-/media/project/aldar-tenant/aldar2/images/sustainability-new/aldar-sustainability-report-thumbnail-1920x747.jpg?rev=d168e9293d604ab0bc8d18ffcd3b3261)',
-                            }}
-                          ></div>
-                          <div className="hero__box-shadow"></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="container h-100">
-                    {/* <div className="row h-100 no-gutters">
-                      <div className="col-2"></div>
-                      <div className="col-9 col-md-5 col-lg-5">
-                        <div className="hero__con">
-                          <h2 className="h2 h2--box hero__title">
-                            Aldar 2023 Sustainability Report{' '}
-                          </h2>
-                          <p className="body-text-18 hero__subTitle d-none d-lg-block">
-                            This report charts the progress made over 2023 on Aldar&rsquo;s journey
-                            towards a more sustainable future, working hand-in-hand with our
-                            stakeholders to drive positive change across our business and our
-                            region.{' '}
-                          </p>
-                          <div className="hero__btn-container">
-                            <Link
-                              href="https://cdn.aldar.com/-/media/project/aldar-tenant/aldar2/aldar-sustainability-report-2023.pdf?rev=954080bc974d4fa1a8c33ad35fca4f04"
-                              rel="noopener noreferrer"
-                              className="link o-button -white "
-                              target="_blank"
-                            >
-                              Download Report
-                            </Link>
-                          </div>
-                        </div>
-                      </div> //
-                    </div> */}
-                    <Placeholder name="content" rendering={props.rendering} />
-                  </div>
-                </div>
-              </div>
-            </div>
+            <Placeholder name="content" rendering={props.rendering} />
             <div className="component summary margin-bottom-80">
               <section className="facts padding-bottom-80" data-animation="">
                 <div className="container typos --box-shadow margin-bottom-40" data-animation="">
