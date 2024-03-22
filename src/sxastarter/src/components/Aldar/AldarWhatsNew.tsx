@@ -1,9 +1,9 @@
 import React from 'react';
-import { TextField } from '@sitecore-jss/sitecore-jss-nextjs';
+import { TextField, Text } from '@sitecore-jss/sitecore-jss-nextjs';
 import Link from 'next/link';
 
 interface Fields {
-  Title: TextField;
+  Heading: TextField;
 }
 
 type AldarWhatsNewProps = {
@@ -36,7 +36,9 @@ export const Default = (props: AldarWhatsNewProps): JSX.Element => {
                   <div className="col-1"></div>
                   <div className="col-10 typos-container">
                     <div className="hdr-container hdr-container__split-between small-screen-spacing">
-                      <h2 className="h2 h2--box heading">What&apos;s new at Aldar</h2>
+                      <h2 className="h2 h2--box heading">
+                        <Text field={props.fields.Heading} />
+                      </h2>
                     </div>
                     <div className="controls ">
                       <div className="swiper-pagination"></div>
