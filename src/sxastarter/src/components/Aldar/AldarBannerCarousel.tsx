@@ -6,12 +6,12 @@ interface Fields {
   Heading: TextField;
 }
 
-type AldarStaggeredBoxesProps = {
+type AldarBannerCarouselProps = {
   params: { [key: string]: string };
   fields: Fields;
 };
 
-const AldarStaggeredBoxesDefaultComponent = (props: AldarStaggeredBoxesProps): JSX.Element => (
+const AldarBannerCarouselDefaultComponent = (props: AldarBannerCarouselProps): JSX.Element => (
   <div className={`component promo ${props.params.styles}`}>
     <div className="component-content">
       <span className="is-empty-hint"></span>
@@ -19,7 +19,7 @@ const AldarStaggeredBoxesDefaultComponent = (props: AldarStaggeredBoxesProps): J
   </div>
 );
 
-export const Default = (props: AldarStaggeredBoxesProps): JSX.Element => {
+export const Default = (props: AldarBannerCarouselProps): JSX.Element => {
   if (props.fields) {
     return (
       <div className="component hero-banner-component sc-background-image-stretch">
@@ -242,5 +242,5 @@ export const Default = (props: AldarStaggeredBoxesProps): JSX.Element => {
     );
   }
 
-  return <AldarStaggeredBoxesDefaultComponent {...props} />;
+  return <AldarBannerCarouselDefaultComponent {...props} />;
 };

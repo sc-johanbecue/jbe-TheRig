@@ -39,7 +39,7 @@ export const Default = (props: AldarContactUsProps): JSX.Element => {
                   <div className="col-1 d-lg-none"></div>
                   <div className="col-10 col-md-4 align-self-end">
                     <div className="typos__holder">
-                      <JssLink field={props.fields.Link} rel="noopener noreferrer" />
+                      <JssLink field={props.fields.Link} />
                     </div>
                   </div>
                 </div>
