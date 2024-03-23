@@ -8584,23 +8584,6 @@ const Header = (): JSX.Element => {
             </div>
           </div>
         </div>
-        <div className="component content">
-          <div className="component-content">
-            <div id="chat-only" className="floating-cta chat-only">
-              <div className="floating-cta__overlay"></div>
-              <div className="floating-cta__content">
-                <div className="cta-buttons">
-                  <Link className="open-chat closed" href={''}>
-                    {' '}
-                  </Link>
-                </div>
-              </div>
-            </div>
-            <Link href="https://wa.me/97180025327" className="floating-cta__whatsapp"></Link>
-            <Link href="https://wa.me/97180025327" className="floating-cta__whatsapp-mobile"></Link>
-            <div className="floating-cta__chat-mobile"></div>
-          </div>
-        </div>
       </div>
     </header>
   );
