@@ -39,33 +39,38 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
 
   useEffect(() => {
     const cssOneId = '489fa6e788c2c9ab'; // You could encode the CSS path itself to generate an ID.
-
-    // Check if the CSS is already added
-    if (!document.getElementById(cssOneId)) {
-      const head = document.head || document.getElementsByTagName('head')[0];
-      const link = document.createElement('link');
-      link.id = cssOneId;
-      link.rel = 'stylesheet';
-      link.type = 'text/css';
-      link.href = 'https://therig.sa/_next/static/css/489fa6e788c2c9ab.css';
-      link.media = 'all';
-      head.appendChild(link);
-    }
-
+    document.addEventListener('DOMContentLoaded', function () {
+      // Check if the CSS is already added
+      if (!document.getElementById(cssOneId)) {
+        const head = document.head || document.getElementsByTagName('head')[0];
+        const link = document.createElement('link');
+        link.id = cssOneId;
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = 'https://therig.sa/_next/static/css/489fa6e788c2c9ab.css';
+        link.media = 'all';
+        head.appendChild(link);
+      }
+    });
     const cssTwoId = '489fa6e788c2c9ab'; // You could encode the CSS path itself to generate an ID.
-
-    // Check if the CSS is already added
-    if (!document.getElementById(cssTwoId)) {
-      const head = document.head || document.getElementsByTagName('head')[0];
-      const link = document.createElement('link');
-      link.id = cssTwoId;
-      link.rel = 'stylesheet';
-      link.type = 'text/css';
-      link.href = 'https://therig.sa/_next/static/css/c21825ec9574f45e.css';
-      link.media = 'all';
-      head.appendChild(link);
-    }
-  }, []); // Empty dependency array means this effect runs once on mount
+    document.addEventListener(
+      'DOMContentLoaded',
+      function () {
+        // Check if the CSS is already added
+        if (!document.getElementById(cssTwoId)) {
+          const head = document.head || document.getElementsByTagName('head')[0];
+          const link = document.createElement('link');
+          link.id = cssTwoId;
+          link.rel = 'stylesheet';
+          link.type = 'text/css';
+          link.href = 'https://therig.sa/_next/static/css/c21825ec9574f45e.css';
+          link.media = 'all';
+          head.appendChild(link);
+        }
+      },
+      []
+    ); // Empty dependency array means this effect runs once on mount
+  });
 
   return (
     <>
