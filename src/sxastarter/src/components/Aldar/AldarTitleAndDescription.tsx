@@ -1,16 +1,19 @@
 import React from 'react';
-import { TextField, Text } from '@sitecore-jss/sitecore-jss-nextjs';
+import { TextField, Text, RichTextField, RichText } from '@sitecore-jss/sitecore-jss-nextjs';
 
 interface Fields {
   Heading: TextField;
+  Body: RichTextField;
 }
 
-type AldarFactsProps = {
+type AldarTitleAndDescriptionProps = {
   params: { [key: string]: string };
   fields: Fields;
 };
 
-const AldarFactsDefaultComponent = (props: AldarFactsProps): JSX.Element => (
+const AldarTitleAndDescriptionDefaultComponent = (
+  props: AldarTitleAndDescriptionProps
+): JSX.Element => (
   <div className={`component promo ${props.params.styles}`}>
     <div className="component-content">
       <span className="is-empty-hint"></span>
@@ -18,7 +21,7 @@ const AldarFactsDefaultComponent = (props: AldarFactsProps): JSX.Element => (
   </div>
 );
 
-export const Default = (props: AldarFactsProps): JSX.Element => {
+export const Default = (props: AldarTitleAndDescriptionProps): JSX.Element => {
   if (props.fields) {
     return (
       <div className="component typos-component container --title-description margin-top-80">
@@ -36,17 +39,7 @@ export const Default = (props: AldarFactsProps): JSX.Element => {
               <div className="col-10 col-md-7 ">
                 <div className="typos__holder">
                   <p className="body-text-18" />
-                  Welcome to a world of unparalleled luxury and sophistication, where your dreams of
-                  the perfect living space become a stunning reality. At Aldar, we pride ourselves
-                  on being at the forefront of creating innovative and iconic properties that
-                  redefine the very essence of modern living. Whether you are looking for apartments
-                  for rent in Abu Dhabi or villas for rent in Abu Dhabi, we offer a range of
-                  properties that cater to your every need and desire.&nbsp;
-                  <br />
-                  <br />
-                  With a commitment to excellence in every aspect of our business, we strive to
-                  exceed your expectations and provide you with the ultimate lifestyle experience.
-                  So come, explore our world of luxury and let us help you find your perfect home.
+                  <RichText field={props.fields.Body} />
                 </div>
               </div>
             </div>
@@ -56,5 +49,5 @@ export const Default = (props: AldarFactsProps): JSX.Element => {
     );
   }
 
-  return <AldarFactsDefaultComponent {...props} />;
+  return <AldarTitleAndDescriptionDefaultComponent {...props} />;
 };
