@@ -12,8 +12,7 @@ import {
 } from '@sitecore-jss/sitecore-jss-nextjs';
 import config from 'temp/config';
 import Scripts from 'src/Scripts';
-import 'https://therig.sa/_next/static/css/c21825ec9574f45e.css';
-import 'https://therig.sa/_next/static/css/489fa6e788c2c9ab.css';
+import 'assets/main.scss';
 
 // Prefix public assets with a public URL to enable compatibility with Sitecore Experience Editor.
 // If you're not supporting the Experience Editor, you can remove this.
