@@ -12,6 +12,8 @@ import {
 } from '@sitecore-jss/sitecore-jss-nextjs';
 import config from 'temp/config';
 import Scripts from 'src/Scripts';
+import 'https://therig.sa/_next/static/css/c21825ec9574f45e.css';
+import 'https://therig.sa/_next/static/css/489fa6e788c2c9ab.css';
 
 // Prefix public assets with a public URL to enable compatibility with Sitecore Experience Editor.
 // If you're not supporting the Experience Editor, you can remove this.
@@ -91,14 +93,6 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
         <meta data-version="0.1.101" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link data-next-font="" rel="preconnect" href="/" crossOrigin="anonymous" />
-        <link
-          rel="stylesheet"
-          href="https://sportingkampenhout.be/share/TheRigc21825ec9574f45e.css"
-        />
-        <link
-          rel="stylesheet"
-          href="https://sportingkampenhout.be/share/TheRig489fa6e788c2c9ab.css"
-        />
         <script defer src="https://therig.sa/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js" />
         <script defer src="https://therig.sa/_next/static/chunks/webpack-7d607ad0e350eccb.js" />
         <script defer src="https://therig.sa/_next/static/chunks/framework-2c79e2a64abdb08b.js" />
