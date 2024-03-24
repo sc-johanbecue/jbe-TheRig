@@ -2,6 +2,7 @@
  * This Layout is needed for Starter Kit.
  */
 import React from 'react';
+import { useEffect } from 'react';
 import Head from 'next/head';
 import {
   Placeholder,
@@ -12,7 +13,6 @@ import {
 } from '@sitecore-jss/sitecore-jss-nextjs';
 import config from 'temp/config';
 import Scripts from 'src/Scripts';
-import 'assets/main.scss';
 
 // Prefix public assets with a public URL to enable compatibility with Sitecore Experience Editor.
 // If you're not supporting the Experience Editor, you can remove this.
@@ -36,6 +36,36 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
   const fields = route?.fields as RouteFields;
   const isPageEditing = layoutData.sitecore.context.pageEditing;
   const mainClassPageEditing = isPageEditing ? 'editing-mode' : 'prod-mode';
+
+  useEffect(() => {
+    const cssOneId = '489fa6e788c2c9ab'; // You could encode the CSS path itself to generate an ID.
+
+    // Check if the CSS is already added
+    if (!document.getElementById(cssOneId)) {
+      const head = document.head || document.getElementsByTagName('head')[0];
+      const link = document.createElement('link');
+      link.id = cssOneId;
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = 'https://therig.sa/_next/static/css/489fa6e788c2c9ab.css';
+      link.media = 'all';
+      head.appendChild(link);
+    }
+
+    const cssTwoId = '489fa6e788c2c9ab'; // You could encode the CSS path itself to generate an ID.
+
+    // Check if the CSS is already added
+    if (!document.getElementById(cssTwoId)) {
+      const head = document.head || document.getElementsByTagName('head')[0];
+      const link = document.createElement('link');
+      link.id = cssTwoId;
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = 'https://therig.sa/_next/static/css/c21825ec9574f45e.css';
+      link.media = 'all';
+      head.appendChild(link);
+    }
+  }, []); // Empty dependency array means this effect runs once on mount
 
   return (
     <>
