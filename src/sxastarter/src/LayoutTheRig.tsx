@@ -38,8 +38,9 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
   const mainClassPageEditing = isPageEditing ? 'editing-mode' : 'prod-mode';
 
   useEffect(() => {
-    const cssOneId = '489fa6e788c2c9ab'; // You could encode the CSS path itself to generate an ID.
     document.addEventListener('DOMContentLoaded', function () {
+      const cssOneId = '489fa6e788c2c9ab'; // You could encode the CSS path itself to generate an ID.
+
       // Check if the CSS is already added
       if (!document.getElementById(cssOneId)) {
         const head = document.head || document.getElementsByTagName('head')[0];
@@ -51,26 +52,22 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
         link.media = 'all';
         head.appendChild(link);
       }
+
+      const cssTwoId = '489fa6e788c2c9ab'; // You could encode the CSS path itself to generate an ID.
+
+      // Check if the CSS is already added
+      if (!document.getElementById(cssTwoId)) {
+        const head = document.head || document.getElementsByTagName('head')[0];
+        const link = document.createElement('link');
+        link.id = cssTwoId;
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = 'https://therig.sa/_next/static/css/c21825ec9574f45e.css';
+        link.media = 'all';
+        head.appendChild(link);
+      }
     });
-    const cssTwoId = '489fa6e788c2c9ab'; // You could encode the CSS path itself to generate an ID.
-    document.addEventListener(
-      'DOMContentLoaded',
-      function () {
-        // Check if the CSS is already added
-        if (!document.getElementById(cssTwoId)) {
-          const head = document.head || document.getElementsByTagName('head')[0];
-          const link = document.createElement('link');
-          link.id = cssTwoId;
-          link.rel = 'stylesheet';
-          link.type = 'text/css';
-          link.href = 'https://therig.sa/_next/static/css/c21825ec9574f45e.css';
-          link.media = 'all';
-          head.appendChild(link);
-        }
-      },
-      []
-    ); // Empty dependency array means this effect runs once on mount
-  });
+  }, []); // Empty dependency array means this effect runs once on mount
 
   return (
     <>
