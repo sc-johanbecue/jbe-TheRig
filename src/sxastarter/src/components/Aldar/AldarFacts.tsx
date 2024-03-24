@@ -1,8 +1,26 @@
 import React from 'react';
-import { TextField, Text } from '@sitecore-jss/sitecore-jss-nextjs';
+import { TextField, Text, ImageField, Image as JssImage } from '@sitecore-jss/sitecore-jss-nextjs';
 
 interface Fields {
   Heading: TextField;
+  Description: TextField;
+  Image: ImageField;
+  Fact1Value: TextField;
+  Fact1Text: TextField;
+  Fact1Unit: TextField;
+  Fact1Image: ImageField;
+  Fact2Value: TextField;
+  Fact2Text: TextField;
+  Fact2Unit: TextField;
+  Fact2Image: ImageField;
+  Fact3Value: TextField;
+  Fact3Text: TextField;
+  Fact3Unit: TextField;
+  Fact3Image: ImageField;
+  Fact4Value: TextField;
+  Fact4Text: TextField;
+  Fact4Unit: TextField;
+  Fact4Image: ImageField;
 }
 
 type AldarFactsProps = {
@@ -27,7 +45,9 @@ export const Default = (props: AldarFactsProps): JSX.Element => {
             <div className="row">
               <div className="col-2"></div>
               <div className="col-10">
-                <p className="typos-lower-header-description">As of 2022</p>
+                <p className="typos-lower-header-description">
+                  <Text field={props.fields.Description} />
+                </p>
                 <h2 className="h2 h2--box typos__heading">
                   <Text field={props.fields.Heading} />
                 </h2>
@@ -47,54 +67,58 @@ export const Default = (props: AldarFactsProps): JSX.Element => {
                   <div className="row no-gutters facts__item-row">
                     <div className="col-12 col-lg-3 ">
                       <div className="facts__item with-border">
-                        <img
-                          src="https://cdn.aldar.com/-/media/project/aldar-tenant/aldar2/images/final-designed-icons/homepage-icons/aldar-in-numbers-1.svg?h=80&amp;iar=0&amp;w=80&amp;rev=63605cb08c20489ba25a88498ff85e57"
-                          alt="Agreement Icon"
-                          width="80"
-                          height="80"
-                        />
-                        <small>Over</small>
-                        <h3 className="h3">53,000</h3>
-                        <p className="body-text-14--medium">Residential Units</p>
+                        <JssImage field={props.fields.Fact1Image} width="80" height="80" />
+                        <small>
+                          <Text field={props.fields.Fact1Unit} />
+                        </small>
+                        <h3 className="h3">
+                          <Text field={props.fields.Fact1Value} />
+                        </h3>
+                        <p className="body-text-14--medium">
+                          <Text field={props.fields.Fact1Text} />
+                        </p>
                       </div>
                     </div>
                     <div className="col-12 col-lg-3 ">
                       <div className="facts__item with-border">
-                        <img
-                          src="https://cdn.aldar.com/-/media/project/aldar-tenant/aldar2/images/final-designed-icons/homepage-icons/aldar-in-numbers-2.svg?h=80&amp;iar=0&amp;w=80&amp;rev=5a447a1677dc4224b4fcf580bece9f49"
-                          alt="Table Icon "
-                          width="80"
-                          height="80"
-                        />
-                        <small>SQM</small>
-                        <h3 className="h3">1M+</h3>
-                        <p className="body-text-14--medium">Office Space</p>
+                        <JssImage field={props.fields.Fact2Image} width="80" height="80" />
+                        <small>
+                          <Text field={props.fields.Fact2Unit} />
+                        </small>
+                        <h3 className="h3">
+                          <Text field={props.fields.Fact2Value} />
+                        </h3>
+                        <p className="body-text-14--medium">
+                          <Text field={props.fields.Fact2Text} />
+                        </p>
                       </div>
                     </div>
                     <div className="col-12 col-lg-3 ">
                       <div className="facts__item with-border">
-                        <img
-                          src="https://cdn.aldar.com/-/media/project/aldar-tenant/aldar2/images/final-designed-icons/homepage-icons/aldar-in-numbers-3.svg?h=80&amp;iar=0&amp;w=80&amp;rev=ce1f96d8642e4fe98c6c3f3edc01fd01"
-                          alt="Briefcase icon"
-                          width="80"
-                          height="80"
-                        />
-                        <small>SQM/GLA</small>
-                        <h3 className="h3">600,000 +</h3>
-                        <p className="body-text-14--medium">Retail Space</p>
+                        <JssImage field={props.fields.Fact3Image} width="80" height="80" />
+                        <small>
+                          <Text field={props.fields.Fact3Unit} />
+                        </small>
+                        <h3 className="h3">
+                          <Text field={props.fields.Fact3Value} />
+                        </h3>
+                        <p className="body-text-14--medium">
+                          <Text field={props.fields.Fact3Text} />
+                        </p>
                       </div>
                     </div>
                     <div className="col-12 col-lg-3 ">
                       <div className="facts__item with-border">
-                        <img
-                          src="https://cdn.aldar.com/-/media/project/aldar-tenant/aldar2/images/final-designed-icons/homepage-icons/aldar-in-numbers-5.svg?h=80&amp;iar=0&amp;w=80&amp;rev=3f27a8539eee4d7d995762dfe349ac0c"
-                          alt="Hotel bell icon"
-                          width="80"
-                          height="80"
-                        />
-                        <small>rooms and suites</small>
-                        <h3 className="h3">2,758</h3>
-                        <p className="body-text-14--medium">Hospitality</p>
+                        <JssImage field={props.fields.Fact4Image} width="80" height="80" />
+                        <small>
+                          <Text field={props.fields.Fact4Unit} />
+                        </small>
+                        <h3 className="h3">
+                          <Text field={props.fields.Fact4Value} />
+                        </h3>
+                        <p className="body-text-14--medium">
+                          <Text field={props.fields.Fact4Text} />
+                        </p>
                       </div>
                     </div>
                   </div>
@@ -104,12 +128,7 @@ export const Default = (props: AldarFactsProps): JSX.Element => {
               <div className="col-2 d-lg-none"></div>
               <div className="col-10 col-lg-3">
                 <figure className="facts__image-container">
-                  <img
-                    src="https://cdn.aldar.com/-/media/project/aldar-tenant/aldar2/images/our-businesses/aldar-in-numbers.jpg?h=436&amp;iar=0&amp;w=372&amp;rev=040e4094dd894a488d71f1ae179089ed"
-                    alt="Aldar in Numbers Infographic"
-                    width="372"
-                    height="436"
-                  />
+                  <JssImage field={props.fields.Image} width="372" height="436" />
                 </figure>
               </div>
             </div>
