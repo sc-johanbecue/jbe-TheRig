@@ -37,38 +37,6 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
   const isPageEditing = layoutData.sitecore.context.pageEditing;
   const mainClassPageEditing = isPageEditing ? 'editing-mode' : 'prod-mode';
 
-  useEffect(() => {
-    document.addEventListener('DOMContentLoaded', function () {
-      const cssOneId = '489fa6e788c2c9ab'; // You could encode the CSS path itself to generate an ID.
-
-      // Check if the CSS is already added
-      if (!document.getElementById(cssOneId)) {
-        const head = document.head || document.getElementsByTagName('head')[0];
-        const link = document.createElement('link');
-        link.id = cssOneId;
-        link.rel = 'stylesheet';
-        link.type = 'text/css';
-        link.href = 'https://therig.sa/_next/static/css/489fa6e788c2c9ab.css';
-        link.media = 'all';
-        head.appendChild(link);
-      }
-
-      const cssTwoId = '489fa6e788c2c9ab'; // You could encode the CSS path itself to generate an ID.
-
-      // Check if the CSS is already added
-      if (!document.getElementById(cssTwoId)) {
-        const head = document.head || document.getElementsByTagName('head')[0];
-        const link = document.createElement('link');
-        link.id = cssTwoId;
-        link.rel = 'stylesheet';
-        link.type = 'text/css';
-        link.href = 'https://therig.sa/_next/static/css/c21825ec9574f45e.css';
-        link.media = 'all';
-        head.appendChild(link);
-      }
-    });
-  }, []); // Empty dependency array means this effect runs once on mount
-
   return (
     <>
       <Scripts />
@@ -142,6 +110,38 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
           defer
           src="https://therig.sa/_next/static/1A9z0Ik3x0u_Errt0Chgc/_buildManifest.js"
         />
+        <script id="cssOnLoad">
+          {`document.addEventListener('DOMContentLoaded', function () {
+      const cssOneId = '489fa6e788c2c9ab'; // You could encode the CSS path itself to generate an ID.
+
+      // Check if the CSS is already added
+      if (!document.getElementById(cssOneId)) {
+        const head = document.head || document.getElementsByTagName('head')[0];
+        const link = document.createElement('link');
+        link.id = cssOneId;
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = 'https://therig.sa/_next/static/css/489fa6e788c2c9ab.css';
+        link.media = 'all';
+        head.appendChild(link);
+      }
+
+      const cssTwoId = '489fa6e788c2c9ab'; // You could encode the CSS path itself to generate an ID.
+
+      // Check if the CSS is already added
+      if (!document.getElementById(cssTwoId)) {
+        const head = document.head || document.getElementsByTagName('head')[0];
+        const link = document.createElement('link');
+        link.id = cssTwoId;
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = 'https://therig.sa/_next/static/css/c21825ec9574f45e.css';
+        link.media = 'all';
+        head.appendChild(link);
+      }
+    })
+  `}
+        </script>
         <script defer src="https://therig.sa/_next/static/1A9z0Ik3x0u_Errt0Chgc/_ssgManifest.js" />
         <style data-href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;700&display=swap">
           @font-face
