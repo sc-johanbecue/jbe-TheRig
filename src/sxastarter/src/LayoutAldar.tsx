@@ -84,13 +84,18 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
         <meta property="twitter:title" content="Home" />
         <meta property="twitter:card" content="summary_large_image" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <style>
-          body, html
-          {`
-              overflow-x: initial!important;
-              overflow-y: initial!important;
-          `}
-        </style>
+        <style
+          id="bodyhtmlStyle"
+          dangerouslySetInnerHTML={{
+            __html: `
+                body, html
+                {
+                    overflow-x: initial!important;
+                    overflow-y: initial!important;
+                }
+          `,
+          }}
+        ></style>
       </Head>
 
       {/* root placeholder for the app, which we add components to using route data */}
