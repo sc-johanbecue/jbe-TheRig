@@ -46,7 +46,7 @@ const SitecorePage = ({
   const DPWorldSite = layoutData.sitecore.context.site?.name == 'DPWorld';
   const TheRigSite = layoutData.sitecore.context.site?.name == 'The Rig';
   const AldarSite = layoutData.sitecore.context.site?.name == 'Aldar';
-  const RollsRoyceSite = layoutData.sitecore.context.site?.name == 'RollsRoyce';
+  const RollsRoyceSite = layoutData.sitecore.context.site?.name == 'RR';
 
   return (
     <ComponentPropsContext value={componentProps}>
