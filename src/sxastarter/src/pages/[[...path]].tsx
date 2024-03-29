@@ -7,6 +7,7 @@ import LayoutLynkAndCo from 'src/LayoutLynkAndCo';
 import LayoutDPWorld from 'src/LayoutDPWorld';
 import LayoutTheRig from 'src/LayoutTheRig';
 import LayoutAldar from 'src/LayoutAldar';
+import LayoutRollsRoyce from 'src/LayoutRollsRoyce';
 import {
   RenderingType,
   SitecoreContext,
@@ -45,6 +46,7 @@ const SitecorePage = ({
   const DPWorldSite = layoutData.sitecore.context.site?.name == 'DPWorld';
   const TheRigSite = layoutData.sitecore.context.site?.name == 'The Rig';
   const AldarSite = layoutData.sitecore.context.site?.name == 'Aldar';
+  const RollsRoyceSite = layoutData.sitecore.context.site?.name == 'RollsRoyce';
 
   return (
     <ComponentPropsContext value={componentProps}>
@@ -79,6 +81,12 @@ const SitecorePage = ({
             <EditingComponentPlaceholder rendering={layoutData.sitecore.route} />
           ) : (
             <LayoutAldar layoutData={layoutData} headLinks={headLinks} />
+          )
+        ) : RollsRoyceSite ? (
+          isComponentRendering ? (
+            <EditingComponentPlaceholder rendering={layoutData.sitecore.route} />
+          ) : (
+            <LayoutRollsRoyce layoutData={layoutData} headLinks={headLinks} />
           )
         ) : DPWorldSite ? (
           isComponentRendering ? (
