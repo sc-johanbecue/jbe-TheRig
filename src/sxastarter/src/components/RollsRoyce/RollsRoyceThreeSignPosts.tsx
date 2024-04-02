@@ -39,7 +39,7 @@ export const Default = (props: RollsRoyceThreeSignPostsProps): JSX.Element => {
   const id = props.params.RenderingIdentifier;
   const phKeyColumnOne = `RollsRoyceSignPostsColumnOne-${props.params.DynamicPlaceholderId}`;
   const phKeyColumnTwo = `RollsRoyceSignPostsColumnTwo-${props.params.DynamicPlaceholderId}`;
-  const phKeyColumnThree = `RollsRoyceSignPostsColumnTwo-${props.params.DynamicPlaceholderId}`;
+  const phKeyColumnThree = `RollsRoyceSignPostsColumnThree-${props.params.DynamicPlaceholderId}`;
 
   if (props.fields) {
     return (
@@ -60,21 +60,13 @@ export const Default = (props: RollsRoyceThreeSignPostsProps): JSX.Element => {
                       className="three-signpost three-signpost1 center"
                       id={id ? 'RollsRoyceSignPostsColumnOne' + id : undefined}
                     >
-                      <Placeholder
-                        name={phKeyColumnOne}
-                        rendering={props.rendering}
-                        className="three-signpost three-signpost1 center"
-                      ></Placeholder>
+                      <Placeholder name={phKeyColumnOne} rendering={props.rendering}></Placeholder>
                     </article>
                     <article
                       className="three-signpost three-signpost2 center"
                       id={id ? 'RollsRoyceSignPostsColumnTwo' + id : undefined}
                     >
-                      <Placeholder
-                        name={phKeyColumnTwo}
-                        rendering={props.rendering}
-                        className="three-signpost three-signpost2 center"
-                      ></Placeholder>
+                      <Placeholder name={phKeyColumnTwo} rendering={props.rendering}></Placeholder>
                     </article>
                     <article
                       className="three-signpost three-signpost3 center"
@@ -83,7 +75,6 @@ export const Default = (props: RollsRoyceThreeSignPostsProps): JSX.Element => {
                       <Placeholder
                         name={phKeyColumnThree}
                         rendering={props.rendering}
-                        className="three-signpost three-signpost3 center"
                       ></Placeholder>
                     </article>
                   </div>
