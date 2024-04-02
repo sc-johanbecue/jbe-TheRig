@@ -49,7 +49,7 @@ export const Default = (props: RollsRoyceSignPostProps): JSX.Element => {
               </div>
               <div className="in-signpost">
                 <span className="rad-link">
-                  <JssLink field={props.fields.Cta} />
+                  <JssLink field={props.fields.Cta} className="attachment-link" />
                 </span>
               </div>
             </div>
