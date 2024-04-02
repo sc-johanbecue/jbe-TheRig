@@ -37,9 +37,9 @@ const RollsRoyceThreeSignPostsDefaultComponent = (
 
 export const Default = (props: RollsRoyceThreeSignPostsProps): JSX.Element => {
   const id = props.params.RenderingIdentifier;
-  const phKeyColumnOne = `RollsRoyceThreeSignPostsColumnOne-${props.params.DynamicPlaceholderId}`;
-  const phKeyColumnTwo = `RollsRoyceThreeSignPostsColumnTwo-${props.params.DynamicPlaceholderId}`;
-  const phKeyColumnThree = `RollsRoyceThreeSignPostsColumnThree-${props.params.DynamicPlaceholderId}`;
+  const phKeyColumnOne = `rollsRoyceThreeSignPostsColumnOne-${props.params.DynamicPlaceholderId}`;
+  const phKeyColumnTwo = `rollsRoyceThreeSignPostsColumnTwo-${props.params.DynamicPlaceholderId}`;
+  const phKeyColumnThree = `rollsRoyceThreeSignPostsColumnThree-${props.params.DynamicPlaceholderId}`;
 
   if (props.fields) {
     return (
