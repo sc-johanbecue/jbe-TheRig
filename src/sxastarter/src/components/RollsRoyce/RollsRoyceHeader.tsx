@@ -37,7 +37,10 @@ export const Default = (props: RollsRoyceHeaderProps): JSX.Element => {
           <div className="container-fluid">
             <div className="row-header justify-content-between">
               <div className="first-row">
-                <img src="/~/media/Images/R/Rolls-Royce/svg-icons/alert-icon.svg" alt="" />
+                <img
+                  src="https://www.rolls-royce.com/~/media/Images/R/Rolls-Royce/svg-icons/alert-icon.svg"
+                  alt=""
+                />
                 <div className="col-sm-12 col-md-7">
                   <div className="content__title">
                     <h4></h4>
@@ -62,7 +65,7 @@ export const Default = (props: RollsRoyceHeaderProps): JSX.Element => {
                   <div className="logo-inner">
                     <Link href="/" title="Rolls-Royce – link to home page">
                       <img
-                        src="/~/media/Images/R/Rolls-Royce/logo/rr-logo-svg.svg?h=96&amp;iar=0&amp;w=59"
+                        src="https://www.rolls-royce.com/~/media/Images/R/Rolls-Royce/logo/rr-logo-svg.svg?h=96&amp;iar=0&amp;w=59"
                         alt="Rolls-Royce – link to home page"
                         width="59"
                         height="96"
