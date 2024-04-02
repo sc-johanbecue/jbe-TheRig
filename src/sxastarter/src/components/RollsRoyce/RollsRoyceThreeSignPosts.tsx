@@ -37,9 +37,9 @@ const RollsRoyceThreeSignPostsDefaultComponent = (
 
 export const Default = (props: RollsRoyceThreeSignPostsProps): JSX.Element => {
   const id = props.params.RenderingIdentifier;
-  const phKeyColumnOne = `rollsRoyceSignPostsColumnOne-${props.params.DynamicPlaceholderId}`;
-  const phKeyColumnTwo = `rollsRoyceSignPostsColumnTwo-${props.params.DynamicPlaceholderId}`;
-  const phKeyColumnThree = `rollsRoyceSignPostsColumnThree-${props.params.DynamicPlaceholderId}`;
+  const phKeyColumnOne = `RollsRoyceThreeSignPostsColumnOne-${props.params.DynamicPlaceholderId}`;
+  const phKeyColumnTwo = `RollsRoyceThreeSignPostsColumnTwo-${props.params.DynamicPlaceholderId}`;
+  const phKeyColumnThree = `RollsRoyceThreeSignPostsColumnThree-${props.params.DynamicPlaceholderId}`;
 
   if (props.fields) {
     return (
@@ -58,19 +58,19 @@ export const Default = (props: RollsRoyceThreeSignPostsProps): JSX.Element => {
                   <div className="three-signpost-wrapper-inner">
                     <article
                       className="three-signpost three-signpost1 center"
-                      id={id ? 'RollsRoyceSignPostsColumnOne' + id : undefined}
+                      id={id ? 'RollsRoyceThreeSignPostsColumnOne' + id : undefined}
                     >
                       <Placeholder name={phKeyColumnOne} rendering={props.rendering} />
                     </article>
                     <article
                       className="three-signpost three-signpost2 center"
-                      id={id ? 'RollsRoyceSignPostsColumnTwo' + id : undefined}
+                      id={id ? 'RollsRoyceThreeSignPostsColumnTwo' + id : undefined}
                     >
                       <Placeholder name={phKeyColumnTwo} rendering={props.rendering} />
                     </article>
                     <article
                       className="three-signpost three-signpost3 center"
-                      id={id ? 'RollsRoyceSignPostsColumnThree' + id : undefined}
+                      id={id ? 'RollsRoyceThreeSignPostsColumnThree' + id : undefined}
                     >
                       <Placeholder name={phKeyColumnThree} rendering={props.rendering} />
                     </article>
