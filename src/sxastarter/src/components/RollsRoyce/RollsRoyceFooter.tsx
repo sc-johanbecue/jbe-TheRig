@@ -55,12 +55,12 @@ export const Default = (props: RollsRoyceFooterProps): JSX.Element => {
             <div className="fw-box2">
               <ul id="ftr-section-Homepage-level1">
                 <li id="ftr-nav-Homepage-level1" className="level1 first">
-                  <a href="/">
+                  <a href="https://www.rolls-royce.com/">
                     <span>Home</span>
                   </a>
                 </li>
                 <li id="ftr-nav-innovation-level1" className="level1 haschildren">
-                  <a href="/innovation.aspx">
+                  <a href="https://www.rolls-royce.com/innovation.aspx">
                     <span>Innovation</span>
                   </a>
                 </li>
@@ -68,37 +68,37 @@ export const Default = (props: RollsRoyceFooterProps): JSX.Element => {
                   id="ftr-nav-products-and-services-level1"
                   className="level1 selected haschildren"
                 >
-                  <a href="/products-and-services.aspx">
+                  <a href="https://www.rolls-royce.com/products-and-services.aspx">
                     <span>Products & Services</span>
                   </a>
                 </li>
                 <li id="ftr-nav-about-level1" className="level1 haschildren">
-                  <a href="/about.aspx">
+                  <a href="https://www.rolls-royce.com/about.aspx">
                     <span>About</span>
                   </a>
                 </li>
                 <li id="ftr-nav-contact-us-level1" className="level1 haschildren">
-                  <a href="/contact-us.aspx">
+                  <a href="https://www.rolls-royce.com/contact-us.aspx">
                     <span>Contact us</span>
                   </a>
                 </li>
                 <li id="ftr-nav-country-sites-level1" className="level1 haschildren">
-                  <a href="/country-sites/china-old-site.aspx">
+                  <a href="https://www.rolls-royce.com/country-sites/china-old-site.aspx">
                     <span>Country sites</span>
                   </a>
                 </li>
                 <li id="ftr-nav-sustainability-level1" className="level1 haschildren">
-                  <a href="/sustainability.aspx">
+                  <a href="https://www.rolls-royce.com/sustainability.aspx">
                     <span>Sustainability</span>
                   </a>
                 </li>
                 <li id="ftr-nav-investors-level1" className="level1 haschildren">
-                  <a href="/investors.aspx">
+                  <a href="https://www.rolls-royce.com/investors.aspx">
                     <span>Investors</span>
                   </a>
                 </li>
                 <li id="ftr-nav-media-level1" className="level1 haschildren">
-                  <a href="/media.aspx">
+                  <a href="https://www.rolls-royce.com/media.aspx">
                     <span>Media</span>
                   </a>
                 </li>
@@ -112,19 +112,29 @@ export const Default = (props: RollsRoyceFooterProps): JSX.Element => {
             <div className="fw-box3">
               <ul>
                 <li>
-                  <a href="/products-and-services.aspx">Products & Services</a>
+                  <a href="https://www.rolls-royce.com/products-and-services.aspx">
+                    Products & Services
+                  </a>
                 </li>
                 <li>
-                  <a href="/products-and-services/civil-aerospace.aspx">Civil Aerospace</a>
+                  <a href="https://www.rolls-royce.com/products-and-services/civil-aerospace.aspx">
+                    Civil Aerospace
+                  </a>
                 </li>
                 <li>
-                  <a href="/products-and-services/defence.aspx">Defence</a>
+                  <a href="https://www.rolls-royce.com/products-and-services/defence.aspx">
+                    Defence
+                  </a>
                 </li>
                 <li>
-                  <a href="/products-and-services/power-systems.aspx">Power Systems</a>
+                  <a href="https://www.rolls-royce.com/products-and-services/power-systems.aspx">
+                    Power Systems
+                  </a>
                 </li>
                 <li>
-                  <a href="/products-and-services/electrical.aspx">Electrical Aviation</a>
+                  <a href="https://www.rolls-royce.com/products-and-services/electrical.aspx">
+                    Electrical Aviation
+                  </a>
                 </li>
               </ul>
             </div>
@@ -191,20 +201,20 @@ export const Default = (props: RollsRoyceFooterProps): JSX.Element => {
               <span className="ftr-ttl">Stay in Touch</span>
               <div className="ftr-stay-in-touch">
                 <p>
-                  <a href="/investors/investor-contacts/alert-service.aspx">
+                  <a href="https://www.rolls-royce.com/investors/investor-contacts/alert-service.aspx">
                     <span className="icon-rss"></span>
                     <span>Sign up to get the latest news</span>
                   </a>
                 </p>
                 <p>
-                  <a href="/contact-us.aspx">
+                  <a href="https://www.rolls-royce.com/contact-us.aspx">
                     <span className="icon-icon-mail-cc"></span>
                     <span>Contact us</span>
                   </a>
                 </p>
                 <p>
                   <a
-                    href="/~/media/Files/R/Rolls-Royce/documents/contact-us/2023/vulnerability-disclosure-policy-2023.pdf"
+                    href="https://www.rolls-royce.com/~/media/Files/R/Rolls-Royce/documents/contact-us/2023/vulnerability-disclosure-policy-2023.pdf"
                     target="_blank"
                     title="PDF, 91KB, opens in a new window"
                   >
@@ -338,10 +348,12 @@ export const Default = (props: RollsRoyceFooterProps): JSX.Element => {
             <div className="fw-ftr-links">
               <ul>
                 <li>
-                  <a href="/site-services/site-map.aspx">Site map</a>
+                  <a href="https://www.rolls-royce.com/site-services/site-map.aspx">Site map</a>
                 </li>
                 <li>
-                  <a href="/site-services/use-of-cookies.aspx">Use of cookies</a>
+                  <a href="https://www.rolls-royce.com/site-services/use-of-cookies.aspx">
+                    Use of cookies
+                  </a>
                 </li>
                 <li>
                   <a id="cc-CookieSetting" href="javascript:;">
@@ -349,13 +361,17 @@ export const Default = (props: RollsRoyceFooterProps): JSX.Element => {
                   </a>
                 </li>
                 <li>
-                  <a href="/site-services/legal-information.aspx">Legal information</a>
+                  <a href="https://www.rolls-royce.com/site-services/legal-information.aspx">
+                    Legal information
+                  </a>
                 </li>
                 <li>
-                  <a href="/site-services/data-privacy.aspx">Data privacy</a>
+                  <a href="https://www.rolls-royce.com/site-services/data-privacy.aspx">
+                    Data privacy
+                  </a>
                 </li>
                 <li className="last">
-                  <a href="/site-services/anti-slavery-and-human-trafficking-statement.aspx">
+                  <a href="https://www.rolls-royce.com/site-services/anti-slavery-and-human-trafficking-statement.aspx">
                     Anti-slavery statement
                   </a>
                 </li>
