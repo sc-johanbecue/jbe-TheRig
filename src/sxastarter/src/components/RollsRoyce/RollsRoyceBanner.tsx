@@ -46,7 +46,10 @@ export const Default = (props: RollsRoyceBannerProps): JSX.Element => {
             />
           </div>
           <div className="full-width-banner-main">
-            <div className="full-width-banner-content box4-text-middle-left navy-blue">
+            <div
+              className="full-width-banner-content box4-text-middle-left navy-blue"
+              style={{ display: 'initial' }}
+            >
               <p>Civil Aerospace</p>
               <div className="full-width-banner-txt font24">
                 <p>
