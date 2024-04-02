@@ -6,12 +6,14 @@ interface Fields {
   ProductName: TextField;
   Image: ImageField;
 }
-type RollsRoyceSignPostProps = {
+type RollsRoyceProductListItemProps = {
   params: { [key: string]: string };
   fields: Fields;
 };
 
-const RollsRoyceSignPostDefaultComponent = (props: RollsRoyceSignPostProps): JSX.Element => (
+const RollsRoyceProductListItemDefaultComponent = (
+  props: RollsRoyceProductListItemProps
+): JSX.Element => (
   <div className={`component promo ${props.params.styles}`}>
     <div className="component-content">
       <span className="is-empty-hint"></span>
@@ -19,10 +21,13 @@ const RollsRoyceSignPostDefaultComponent = (props: RollsRoyceSignPostProps): JSX
   </div>
 );
 
-export const Default = (props: RollsRoyceSignPostProps): JSX.Element => {
+export const Default = (props: RollsRoyceProductListItemProps): JSX.Element => {
   if (props.fields) {
     return (
-      <div id="trent-7000" className="product-item equal-height product-item-1 first">
+      <div
+        id={props.fields.ProductName.value?.toString()}
+        className="product-item equal-height product-item-1 first"
+      >
         <div className="product-item-inner">
           <Link
             className="async-link"
@@ -36,7 +41,6 @@ export const Default = (props: RollsRoyceSignPostProps): JSX.Element => {
             <div className="product-item-bottom">
               <div className="product-item-title font18 mixbold">
                 <Text field={props.fields.ProductName} />
-                &nbsp;<span className="icon-chevron-right"></span>
               </div>
             </div>
           </Link>
@@ -45,5 +49,5 @@ export const Default = (props: RollsRoyceSignPostProps): JSX.Element => {
     );
   }
 
-  return <RollsRoyceSignPostDefaultComponent {...props} />;
+  return <RollsRoyceProductListItemDefaultComponent {...props} />;
 };
