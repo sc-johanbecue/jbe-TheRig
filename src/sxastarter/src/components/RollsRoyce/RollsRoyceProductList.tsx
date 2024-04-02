@@ -7,7 +7,6 @@ import {
   ComponentRendering,
 } from '@sitecore-jss/sitecore-jss-nextjs';
 import Link from 'next/link';
-import Image from 'next/image';
 
 interface Fields {
   Title: TextField;
@@ -59,7 +58,7 @@ export const Default = (props: RollsRoyceProductListProps): JSX.Element => {
                 >
                   <div className="product-item-top">
                     <div className="product-item-image">
-                      <Image
+                      <img
                         src="https://www.rolls-royce.com/~/media/Images/R/Rolls-Royce/content-images/aerospace/airlines-product-images/trent-7000.png?w=400"
                         alt=""
                       />
@@ -81,7 +80,7 @@ export const Default = (props: RollsRoyceProductListProps): JSX.Element => {
                 >
                   <div className="product-item-top">
                     <div className="product-item-image">
-                      <Image
+                      <img
                         src="https://www.rolls-royce.com/~/media/Images/R/Rolls-Royce/content-images/aerospace/airlines-product-images/trent-xwb.png?w=400"
                         alt=""
                       />
@@ -103,7 +102,7 @@ export const Default = (props: RollsRoyceProductListProps): JSX.Element => {
                 >
                   <div className="product-item-top">
                     <div className="product-item-image">
-                      <Image
+                      <img
                         src="https://www.rolls-royce.com/~/media/Images/R/Rolls-Royce/content-images/aerospace/airlines-product-images/trent-1000.png?w=400"
                         alt=""
                       />
@@ -125,7 +124,7 @@ export const Default = (props: RollsRoyceProductListProps): JSX.Element => {
                 >
                   <div className="product-item-top">
                     <div className="product-item-image">
-                      <Image
+                      <img
                         src="https://www.rolls-royce.com/~/media/Images/R/Rolls-Royce/content-images/aerospace/airlines-product-images/trent-900.png?w=400"
                         alt=""
                       />
@@ -147,7 +146,7 @@ export const Default = (props: RollsRoyceProductListProps): JSX.Element => {
                 >
                   <div className="product-item-top">
                     <div className="product-item-image">
-                      <Image
+                      <img
                         src="https://www.rolls-royce.com/~/media/Images/R/Rolls-Royce/content-images/aerospace/airlines-product-images/trent-500.png?w=400"
                         alt=""
                       />
@@ -169,7 +168,7 @@ export const Default = (props: RollsRoyceProductListProps): JSX.Element => {
                 >
                   <div className="product-item-top">
                     <div className="product-item-image">
-                      <Image
+                      <img
                         src="https://www.rolls-royce.com/~/media/Images/R/Rolls-Royce/content-images/aerospace/airlines-product-images/trent-800.png?w=400"
                         alt=""
                       />
@@ -191,7 +190,7 @@ export const Default = (props: RollsRoyceProductListProps): JSX.Element => {
                 >
                   <div className="product-item-top">
                     <div className="product-item-image">
-                      <Image
+                      <img
                         src="https://www.rolls-royce.com/~/media/Images/R/Rolls-Royce/content-images/aerospace/airlines-product-images/trent-700.png?w=400"
                         alt=""
                       />
@@ -213,7 +212,7 @@ export const Default = (props: RollsRoyceProductListProps): JSX.Element => {
                 >
                   <div className="product-item-top">
                     <div className="product-item-image">
-                      <Image
+                      <img
                         src="https://www.rolls-royce.com/~/media/Images/R/Rolls-Royce/content-images/aerospace/airlines-product-images/rb211-524g.png?w=400"
                         alt=""
                       />
