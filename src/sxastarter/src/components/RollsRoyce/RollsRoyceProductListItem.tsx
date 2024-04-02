@@ -26,7 +26,7 @@ export const Default = (props: RollsRoyceSignPostProps): JSX.Element => {
         <div className="product-item-inner">
           <Link
             className="async-link"
-            href="/products-and-services/civil-aerospace/widebody/trent-7000.aspx#section-our-designs"
+            href="https://www.rolls-royce.com/products-and-services/civil-aerospace/widebody/trent-7000.aspx#section-our-designs"
           >
             <div className="product-item-top">
               <div className="product-item-image">
