@@ -25,7 +25,9 @@ type RollsRoyceThreeSignPostsProps = {
   fields: Fields;
 };
 
-const RollsRoyceHeaderDefaultComponent = (props: RollsRoyceThreeSignPostsProps): JSX.Element => (
+const RollsRoyceThreeSignPostsDefaultComponent = (
+  props: RollsRoyceThreeSignPostsProps
+): JSX.Element => (
   <div className={`component promo ${props.params.styles}`}>
     <div className="component-content">
       <span className="is-empty-hint"></span>
@@ -94,5 +96,5 @@ export const Default = (props: RollsRoyceThreeSignPostsProps): JSX.Element => {
     );
   }
 
-  return <RollsRoyceHeaderDefaultComponent {...props} />;
+  return <RollsRoyceThreeSignPostsDefaultComponent {...props} />;
 };

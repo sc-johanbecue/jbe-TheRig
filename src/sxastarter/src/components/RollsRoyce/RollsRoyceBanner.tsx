@@ -13,12 +13,12 @@ interface Fields {
   MasterAsset: ImageField;
 }
 
-type RollsRoyceHeaderProps = {
+type RollsRoyceBannerProps = {
   params: { [key: string]: string };
   fields: Fields;
 };
 
-const RollsRoyceHeaderDefaultComponent = (props: RollsRoyceHeaderProps): JSX.Element => (
+const RollsRoyceBannerDefaultComponent = (props: RollsRoyceBannerProps): JSX.Element => (
   <div className={`component promo ${props.params.styles}`}>
     <div className="component-content">
       <span className="is-empty-hint"></span>
@@ -26,7 +26,7 @@ const RollsRoyceHeaderDefaultComponent = (props: RollsRoyceHeaderProps): JSX.Ele
   </div>
 );
 
-export const Default = (props: RollsRoyceHeaderProps): JSX.Element => {
+export const Default = (props: RollsRoyceBannerProps): JSX.Element => {
   if (props.fields) {
     return (
       <div className="full-width-banner" id="civil-aerospace">
@@ -68,5 +68,5 @@ export const Default = (props: RollsRoyceHeaderProps): JSX.Element => {
     );
   }
 
-  return <RollsRoyceHeaderDefaultComponent {...props} />;
+  return <RollsRoyceBannerDefaultComponent {...props} />;
 };

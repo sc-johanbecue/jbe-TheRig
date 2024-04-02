@@ -14,12 +14,12 @@ interface Fields {
   MasterAsset: ImageField;
 }
 
-type RollsRoyceHeaderProps = {
+type RollsRoyceSignPostProps = {
   params: { [key: string]: string };
   fields: Fields;
 };
 
-const RollsRoyceHeaderDefaultComponent = (props: RollsRoyceHeaderProps): JSX.Element => (
+const RollsRoyceSignPostDefaultComponent = (props: RollsRoyceSignPostProps): JSX.Element => (
   <div className={`component promo ${props.params.styles}`}>
     <div className="component-content">
       <span className="is-empty-hint"></span>
@@ -27,7 +27,7 @@ const RollsRoyceHeaderDefaultComponent = (props: RollsRoyceHeaderProps): JSX.Ele
   </div>
 );
 
-export const Default = (props: RollsRoyceHeaderProps): JSX.Element => {
+export const Default = (props: RollsRoyceSignPostProps): JSX.Element => {
   if (props.fields) {
     return (
       <>
@@ -69,5 +69,5 @@ export const Default = (props: RollsRoyceHeaderProps): JSX.Element => {
     );
   }
 
-  return <RollsRoyceHeaderDefaultComponent {...props} />;
+  return <RollsRoyceSignPostDefaultComponent {...props} />;
 };
