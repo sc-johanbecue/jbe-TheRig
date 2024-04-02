@@ -44,7 +44,6 @@ export const Default = (props: RollsRoyceProductListProps): JSX.Element => {
           <h2 className="">
             <Link className="mixbold-1 sec-ttl-link" href="https://www.rolls-royce.com/">
               <Text field={props.fields.Title} />
-              <span className="icon-chevron-right"></span>
             </Link>
           </h2>
           <div className="font24 fw-intro-text">
