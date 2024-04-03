@@ -34,7 +34,7 @@ const RollsRoyceSubSectionDefaultComponent = (props: RollsRoyceSubSectionProps):
 );
 
 export const Default = (props: RollsRoyceSubSectionProps): JSX.Element => {
-  const backgroundUrl = 'url(' + props.fields.Image.value?.src + 'center center / cover';
+  const backgroundStyle = `url(${props.fields.Image.value?.src} center center / cover`;
 
   if (props.fields) {
     return (
@@ -46,7 +46,7 @@ export const Default = (props: RollsRoyceSubSectionProps): JSX.Element => {
           id="technology-development"
           className="text-and-media-module module-wrapper new-module-spacing fullwidth-module"
           style={{
-            background: backgroundUrl,
+            background: backgroundStyle,
           }}
         >
           <div className="text-and-media-box-hidden">
