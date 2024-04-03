@@ -9,10 +9,70 @@ import {
 } from '@sitecore-jss/sitecore-jss-nextjs';
 
 interface Fields {
-  BannerTitle: TextField;
-  BannerParaphrase: TextField;
-  BannerBody: RichTextField;
-  BannerImage: ImageField;
+  data: {
+    datasource: {
+      BannerTitle: {
+        jsonValue: {
+          value: string;
+          editable: string;
+        };
+      };
+      BannerParaphrase: {
+        jsonValue: {
+          value: string;
+          editable: string;
+        };
+      };
+      BannerBody: {
+        jsonValue: {
+          value: string;
+          editable: string;
+        };
+      };
+      BannerImage: {
+        jsonValue: {
+          value: {
+            src: string;
+            alt: string;
+            width: string;
+            height: string;
+          };
+          editable: string;
+        };
+      };
+    };
+    contextItem: {
+      BannerTitle: {
+        jsonValue: {
+          value: string;
+          editable: string;
+        };
+      };
+      BannerParaphrase: {
+        jsonValue: {
+          value: string;
+          editable: string;
+        };
+      };
+      BannerBody: {
+        jsonValue: {
+          value: string;
+          editable: string;
+        };
+      };
+      BannerImage: {
+        jsonValue: {
+          value: {
+            src: string;
+            alt: string;
+            width: string;
+            height: string;
+          };
+          editable: string;
+        };
+      };
+    };
+  };
 }
 
 type RollsRoyceProductBannerProps = {
@@ -31,7 +91,29 @@ const RollsRoyceProductBannerDefaultComponent = (
 );
 
 export const Default = (props: RollsRoyceProductBannerProps): JSX.Element => {
-  const backgroundStyle = `url(${props.fields.BannerImage.value?.src}) no-repeat scroll center center`;
+  const datasource = props.fields?.data?.datasource || props.fields?.data?.contextItem;
+
+  const BannerTitle: TextField = {
+    value: datasource?.BannerTitle?.jsonValue?.value,
+    editable: datasource?.BannerTitle?.jsonValue?.editable,
+  };
+
+  const BannerParaphrase: TextField = {
+    value: datasource?.BannerParaphrase?.jsonValue?.value,
+    editable: datasource?.BannerParaphrase?.jsonValue?.editable,
+  };
+
+  const BannerBody: RichTextField = {
+    value: datasource?.BannerBody?.jsonValue?.value,
+    editable: datasource?.BannerBody?.jsonValue?.editable,
+  };
+
+  const BannerImage: ImageField = {
+    value: { src: datasource?.BannerImage?.jsonValue?.value?.src },
+    editable: datasource?.BannerImage?.jsonValue?.editable,
+  };
+
+  const backgroundStyle = `url(${BannerImage.value?.src}) no-repeat scroll center center`;
 
   if (props.fields) {
     return (
@@ -45,24 +127,24 @@ export const Default = (props: RollsRoyceProductBannerProps): JSX.Element => {
             }}
           >
             <div className="banner-mobi-img">
-              <Image field={props.fields.BannerImage} className="fw-mobi-banner-img" />
-              <Image field={props.fields.BannerImage} className="fw-1399-banner-img" />
+              <Image field={BannerImage} className="fw-mobi-banner-img" />
+              <Image field={BannerImage} className="fw-1399-banner-img" />
             </div>
 
             <div className="max-width-content-no-image">
               <div className="home-content-fw NavyBlue">
                 <div className="home-content-fw-inner White">
                   <p className="msBannerTitle trueBannerImage White">
-                    <Text field={props.fields.BannerTitle} />
+                    <Text field={BannerTitle} />
                   </p>
 
                   <div className="bannerpara White">
-                    <Text field={props.fields.BannerParaphrase} />
+                    <Text field={BannerParaphrase} />
                   </div>
 
                   <div className="fw-bnr-body-copy font18">
                     <p>
-                      <RichText field={props.fields.BannerBody} />
+                      <RichText field={BannerBody} />
                     </p>
                   </div>
                 </div>
