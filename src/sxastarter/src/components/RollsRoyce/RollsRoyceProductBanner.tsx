@@ -35,7 +35,7 @@ export const Default = (props: RollsRoyceProductBannerProps): JSX.Element => {
 
   if (props.fields) {
     return (
-      <div className={`homecontentwrapper add-padding-for-sticky ${props.params.styles}`}>
+      <div className="homecontentwrapper add-padding-for-sticky">
         <div className="home-banner-fw new-video-fw clearfix fw-video-container ">
           <div
             className="video_fade home-banner-fw-inner"
@@ -51,12 +51,12 @@ export const Default = (props: RollsRoyceProductBannerProps): JSX.Element => {
 
             <div className="max-width-content-no-image">
               <div className="home-content-fw NavyBlue">
-                <div className={`home-content-fw-inner White ${props.params.styles}`}>
-                  <p className={`msBannerTitle trueBannerImage White ${props.params.styles}`}>
+                <div className="home-content-fw-inner White">
+                  <p className="msBannerTitle trueBannerImage White">
                     <Text field={props.fields.BannerTitle} />
                   </p>
 
-                  <div className={`bannerpara White ${props.params.styles}`}>
+                  <div className="bannerpara White">
                     <Text field={props.fields.BannerParaphrase} />
                   </div>
 
@@ -82,7 +82,7 @@ export const Black = (props: RollsRoyceProductBannerProps): JSX.Element => {
 
   if (props.fields) {
     return (
-      <div className={`homecontentwrapper add-padding-for-sticky ${props.params.styles}`}>
+      <div className="homecontentwrapper add-padding-for-sticky">
         <div className="home-banner-fw new-video-fw clearfix fw-video-container ">
           <div
             className="video_fade home-banner-fw-inner"
@@ -98,12 +98,12 @@ export const Black = (props: RollsRoyceProductBannerProps): JSX.Element => {
 
             <div className="max-width-content-no-image">
               <div className="home-content-fw NavyBlue">
-                <div className={`home-content-fw-inner Black ${props.params.styles}`}>
-                  <p className={`msBannerTitle trueBannerImage Black ${props.params.styles}`}>
+                <div className="home-content-fw-inner">
+                  <p className="msBannerTitle trueBannerImage">
                     <Text field={props.fields.BannerTitle} />
                   </p>
 
-                  <div className={`bannerpara Black ${props.params.styles}`}>
+                  <div className="bannerpara">
                     <Text field={props.fields.BannerParaphrase} />
                   </div>
 
