@@ -234,8 +234,9 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
           type="text/css"
           media="all"
         />
-        <style jsx>
-          {`
+        <style
+          dangerouslySetInnerHTML={{
+            __html: `
             .section-textColorBlack .img-cnt-on-img-content,
             .section-textColorBlack .img-cnt-on-img-content a {
               color: #000000;
@@ -1151,8 +1152,9 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
             * {
               box-sizing: border-box;
             }
-          `}
-        </style>
+          `,
+          }}
+        />
         <script
           defer
           src="https://cdnjs.cloudflare.com/ajax/libs/es5-shim/4.5.14/es5-shim.min.js"
