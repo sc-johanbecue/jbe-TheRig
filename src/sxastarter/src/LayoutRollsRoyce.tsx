@@ -1109,8 +1109,6 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
             }
             [class*='col-'] {
               float: left;
-              padding: 15px;
-              border: 1px solid red;
             }
             .col-1 {
               width: 8.33%;
