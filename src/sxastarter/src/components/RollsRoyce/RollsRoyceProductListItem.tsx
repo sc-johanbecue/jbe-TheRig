@@ -9,7 +9,6 @@ interface Fields {
 type RollsRoyceProductListItemProps = {
   params: { [key: string]: string };
   fields: Fields;
-  url: string;
 };
 
 const RollsRoyceProductListItemDefaultComponent = (
@@ -30,7 +29,10 @@ export const Default = (props: RollsRoyceProductListItemProps): JSX.Element => {
         className="product-item equal-height product-item-1 first"
       >
         <div className="product-item-inner">
-          <Link className="async-link" href={props.url}>
+          <Link
+            className="async-link"
+            href="https://www.rolls-royce.com/products-and-services/civil-aerospace/widebody/trent-7000.aspx#section-our-designs"
+          >
             <div className="product-item-top">
               <div className="product-item-image">
                 <JssImage field={props.fields.Image} />
