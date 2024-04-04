@@ -58,12 +58,6 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
         <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <link
-          rel="stylesheet"
-          href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css"
-          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
-          crossOrigin="anonymous"
-        />
-        <link
           rel="shortcut icon"
           type="image/x-icon"
           href="https://www.rolls-royce.com/~/media/9CFC862FD30B4D54BB2ACBE6E9F7672A.ico"
@@ -1106,6 +1100,56 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
             }
             .home-content-fw-inner div p a:hover {
               color: #006dff !important;
+            }
+            .row::after {
+              content: '';
+              clear: both;
+              display: table;
+            }
+            [class*='col-'] {
+              float: left;
+              padding: 15px;
+              border: 1px solid red;
+            }
+            .col-1 {
+              width: 8.33%;
+            }
+            .col-2 {
+              width: 16.66%;
+            }
+            .col-3 {
+              width: 25%;
+            }
+            .col-4 {
+              width: 33.33%;
+            }
+            .col-5 {
+              width: 41.66%;
+            }
+            .col-6 {
+              width: 50%;
+            }
+            .col-7 {
+              width: 58.33%;
+            }
+            .col-8 {
+              width: 66.66%;
+            }
+            .col-9 {
+              width: 75%;
+            }
+            .col-10 {
+              width: 83.33%;
+            }
+            .col-11 {
+              width: 91.66%;
+            }
+            .col-12 {
+              width: 100%;
+            }
+
+            * {
+              box-sizing: border-box;
             }
           `}
         </style>
