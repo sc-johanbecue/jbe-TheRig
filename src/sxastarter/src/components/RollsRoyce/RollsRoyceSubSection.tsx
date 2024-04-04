@@ -34,7 +34,8 @@ const RollsRoyceSubSectionDefaultComponent = (props: RollsRoyceSubSectionProps):
 );
 
 export const Default = (props: RollsRoyceSubSectionProps): JSX.Element => {
-  const backgroundStyle = `url(${props.fields.Image.value?.src} center center / cover`;
+  const backgroundStyle = `url(${props.fields.Image.value?.src} no-repeat scroll center center`;
+  //center center / cover
 
   if (props.fields) {
     return (
