@@ -76,3 +76,50 @@ export const Default = (props: RollsRoyceProductBannerProps): JSX.Element => {
 
   return <RollsRoyceProductBannerDefaultComponent {...props} />;
 };
+
+export const Black = (props: RollsRoyceProductBannerProps): JSX.Element => {
+  const backgroundStyle = `url(${props.fields.BannerImage.value?.src}) no-repeat scroll center center`;
+
+  if (props.fields) {
+    return (
+      <div className={`homecontentwrapper add-padding-for-sticky ${props.params.styles}`}>
+        <div className="home-banner-fw new-video-fw clearfix fw-video-container ">
+          <div
+            className="video_fade home-banner-fw-inner"
+            style={{
+              background: backgroundStyle,
+              backgroundSize: 'cover',
+            }}
+          >
+            <div className="banner-mobi-img">
+              <Image field={props.fields.BannerImage} className="fw-mobi-banner-img" />
+              <Image field={props.fields.BannerImage} className="fw-1399-banner-img" />
+            </div>
+
+            <div className="max-width-content-no-image">
+              <div className="home-content-fw NavyBlue">
+                <div className={`home-content-fw-inner Black ${props.params.styles}`}>
+                  <p className={`msBannerTitle trueBannerImage Black ${props.params.styles}`}>
+                    <Text field={props.fields.BannerTitle} />
+                  </p>
+
+                  <div className={`bannerpara Black ${props.params.styles}`}>
+                    <Text field={props.fields.BannerParaphrase} />
+                  </div>
+
+                  <div className="fw-bnr-body-copy font18">
+                    <p>
+                      <RichText field={props.fields.BannerBody} />
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  return <RollsRoyceProductBannerDefaultComponent {...props} />;
+};
