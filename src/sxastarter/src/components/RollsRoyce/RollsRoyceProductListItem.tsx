@@ -9,6 +9,7 @@ interface Fields {
 type RollsRoyceProductListItemProps = {
   params: { [key: string]: string };
   fields: Fields;
+  url: string;
 };
 
 const RollsRoyceProductListItemDefaultComponent = (
@@ -44,6 +45,7 @@ export const Default = (props: RollsRoyceProductListItemProps): JSX.Element => {
               </div>
             </div>
           </Link>
+          <div>{props.url}</div>
         </div>
       </div>
     );
