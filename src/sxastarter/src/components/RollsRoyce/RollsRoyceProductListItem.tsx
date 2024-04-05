@@ -5,11 +5,12 @@ import Link from 'next/link';
 interface Fields {
   ProductName: TextField;
   Image: ImageField;
+  path: string;
 }
+
 type RollsRoyceProductListItemProps = {
   params: { [key: string]: string };
   fields: Fields;
-  url: string;
 };
 
 const RollsRoyceProductListItemDefaultComponent = (
@@ -45,7 +46,7 @@ export const Default = (props: RollsRoyceProductListItemProps): JSX.Element => {
               </div>
             </div>
           </Link>
-          <div>{props.url}</div>
+          <div>{props.fields.path}</div>
         </div>
       </div>
     );
