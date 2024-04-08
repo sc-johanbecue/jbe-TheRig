@@ -13,7 +13,7 @@ interface Fields {
   Fact3Figure: TextField;
   Fact4Figure: TextField;
   Fact5Figure: TextField;
-  url: {scheme: string, hostName: string, path: string};
+  url: { scheme: string; hostName: string; path: string };
 }
 
 type TheRigFactAndFiguresroProps = {
