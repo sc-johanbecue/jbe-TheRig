@@ -13,6 +13,9 @@ interface Fields {
   Fact3Figure: TextField;
   Fact4Figure: TextField;
   Fact5Figure: TextField;
+  url: {
+    path: string;
+  };
 }
 
 type TheRigFactAndFiguresroProps = {
@@ -117,7 +120,7 @@ export const Default = (props: TheRigFactAndFiguresroProps): JSX.Element => {
             </div>
           </div>
         </div>
-        <div className="css-1xjbe9x"></div>
+        <div className="css-1xjbe9x">Johan: {props.fields.url.path}</div>
       </div>
     );
   }
