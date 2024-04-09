@@ -173,6 +173,7 @@ export const Default = (props: TheRigESG): JSX.Element => {
           </div>
         </div>
         <div className="css-13wifey"></div>
+        <div></div>
       </div>
     );
   }
