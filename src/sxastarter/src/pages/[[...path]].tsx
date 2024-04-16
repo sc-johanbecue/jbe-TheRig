@@ -8,6 +8,7 @@ import LayoutDPWorld from 'src/LayoutDPWorld';
 import LayoutTheRig from 'src/LayoutTheRig';
 import LayoutAldar from 'src/LayoutAldar';
 import LayoutRollsRoyce from 'src/LayoutRollsRoyce';
+import LayoutBeaulieu from 'src/LayoutBeaulieu';
 import {
   RenderingType,
   SitecoreContext,
@@ -47,6 +48,7 @@ const SitecorePage = ({
   const TheRigSite = layoutData.sitecore.context.site?.name == 'The Rig';
   const AldarSite = layoutData.sitecore.context.site?.name == 'Aldar';
   const RollsRoyceSite = layoutData.sitecore.context.site?.name == 'RR';
+  const BeaulieuSite = layoutData.sitecore.context.site?.name == 'Beaulieu';
 
   return (
     <ComponentPropsContext value={componentProps}>
@@ -58,44 +60,22 @@ const SitecorePage = ({
           Sitecore Pages supports component rendering to avoid refreshing the entire page during component editing.
           If you are using Experience Editor only, this logic can be removed, Layout can be left.
         */}
-        {AmmegaSite ? (
-          isComponentRendering ? (
-            <EditingComponentPlaceholder rendering={layoutData.sitecore.route} />
-          ) : (
-            <LayoutAmmega layoutData={layoutData} headLinks={headLinks} />
-          )
-        ) : LynkAndCoSite ? (
-          isComponentRendering ? (
-            <EditingComponentPlaceholder rendering={layoutData.sitecore.route} />
-          ) : (
-            <LayoutLynkAndCo layoutData={layoutData} headLinks={headLinks} />
-          )
-        ) : TheRigSite ? (
-          isComponentRendering ? (
-            <EditingComponentPlaceholder rendering={layoutData.sitecore.route} />
-          ) : (
-            <LayoutTheRig layoutData={layoutData} headLinks={headLinks} />
-          )
-        ) : AldarSite ? (
-          isComponentRendering ? (
-            <EditingComponentPlaceholder rendering={layoutData.sitecore.route} />
-          ) : (
-            <LayoutAldar layoutData={layoutData} headLinks={headLinks} />
-          )
-        ) : RollsRoyceSite ? (
-          isComponentRendering ? (
-            <EditingComponentPlaceholder rendering={layoutData.sitecore.route} />
-          ) : (
-            <LayoutRollsRoyce layoutData={layoutData} headLinks={headLinks} />
-          )
-        ) : DPWorldSite ? (
-          isComponentRendering ? (
-            <EditingComponentPlaceholder rendering={layoutData.sitecore.route} />
-          ) : (
-            <LayoutDPWorld layoutData={layoutData} headLinks={headLinks} />
-          )
-        ) : isComponentRendering ? (
+        {isComponentRendering ? (
           <EditingComponentPlaceholder rendering={layoutData.sitecore.route} />
+        ) : AmmegaSite ? (
+          <LayoutAmmega layoutData={layoutData} headLinks={headLinks} />
+        ) : LynkAndCoSite ? (
+          <LayoutLynkAndCo layoutData={layoutData} headLinks={headLinks} />
+        ) : TheRigSite ? (
+          <LayoutTheRig layoutData={layoutData} headLinks={headLinks} />
+        ) : AldarSite ? (
+          <LayoutAldar layoutData={layoutData} headLinks={headLinks} />
+        ) : RollsRoyceSite ? (
+          <LayoutRollsRoyce layoutData={layoutData} headLinks={headLinks} />
+        ) : DPWorldSite ? (
+          <LayoutDPWorld layoutData={layoutData} headLinks={headLinks} />
+        ) : BeaulieuSite ? (
+          <LayoutBeaulieu layoutData={layoutData} headLinks={headLinks} />
         ) : (
           <Layout layoutData={layoutData} headLinks={headLinks} />
         )}
