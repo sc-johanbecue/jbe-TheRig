@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 
-const MobileMenu = (): JSX.Element => {
+const DubaiWTCMobileMenu = (): JSX.Element => {
   return (
     <div id="mobile_menu">
       <span className="close">&times;</span>
@@ -264,4 +264,4 @@ const MobileMenu = (): JSX.Element => {
   );
 };
 
-export default MobileMenu;
+export default DubaiWTCMobileMenu;
