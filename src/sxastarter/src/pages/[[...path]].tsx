@@ -9,6 +9,7 @@ import LayoutTheRig from 'src/LayoutTheRig';
 import LayoutAldar from 'src/LayoutAldar';
 import LayoutRollsRoyce from 'src/LayoutRollsRoyce';
 import LayoutBeaulieu from 'src/LayoutBeaulieu';
+import LayoutDubaiWTC from 'src/LayoutDubaiWTC';
 import {
   RenderingType,
   SitecoreContext,
@@ -49,6 +50,8 @@ const SitecorePage = ({
   const AldarSite = layoutData.sitecore.context.site?.name == 'Aldar';
   const RollsRoyceSite = layoutData.sitecore.context.site?.name == 'RR';
   const BeaulieuSite = layoutData.sitecore.context.site?.name == 'Beaulieu';
+  const DubaiWTCSite = layoutData.sitecore.context.site?.name == 'DubaiWTC';
+  const DubaiWTCSite2 = layoutData.sitecore.context.site?.name == 'DWTC';
 
   return (
     <ComponentPropsContext value={componentProps}>
@@ -76,6 +79,10 @@ const SitecorePage = ({
           <LayoutDPWorld layoutData={layoutData} headLinks={headLinks} />
         ) : BeaulieuSite ? (
           <LayoutBeaulieu layoutData={layoutData} headLinks={headLinks} />
+        ) : DubaiWTCSite ? (
+          <LayoutDubaiWTC layoutData={layoutData} headLinks={headLinks} />
+        ) : DubaiWTCSite2 ? (
+          <LayoutDubaiWTC layoutData={layoutData} headLinks={headLinks} />
         ) : (
           <Layout layoutData={layoutData} headLinks={headLinks} />
         )}
