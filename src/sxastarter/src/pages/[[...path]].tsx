@@ -50,8 +50,8 @@ const SitecorePage = ({
   const AldarSite = layoutData.sitecore.context.site?.name == 'Aldar';
   const RollsRoyceSite = layoutData.sitecore.context.site?.name == 'RR';
   const BeaulieuSite = layoutData.sitecore.context.site?.name == 'Beaulieu';
-  const DubaiWTCSite = layoutData.sitecore.context.site?.name == 'DubaiWTC';
-  const DubaiWTCSite2 = layoutData.sitecore.context.site?.name == 'DWTC';
+  const DubaiWTCSite = layoutData.sitecore.context.site?.name == 'dubaiwtc';
+  const DubaiWTCSite2 = layoutData.sitecore.context.site?.name == 'dwtc';
 
   return (
     <ComponentPropsContext value={componentProps}>
