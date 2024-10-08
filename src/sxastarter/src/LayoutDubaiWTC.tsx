@@ -960,7 +960,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           {route && <Placeholder name="headless-main" rendering={route} />}
                         </div>
                       </main>
-                      
+
                       {/*                        </div>
                                  </div>
                                  </div>
