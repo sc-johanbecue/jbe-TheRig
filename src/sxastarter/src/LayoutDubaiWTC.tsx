@@ -5,7 +5,7 @@
  * This Layout is needed for Starter Kit.
  */
 import MobileMenu from 'components/DubaiWTC/MobileMenu';
-import SideBarMenu from 'components/DubaiWTC/SideBarMenu';
+/*import SideBarMenu from 'components/DubaiWTC/DubaiWTCSideBarMenu';*/
 import React from 'react';
 import Head from 'next/head';
 import {

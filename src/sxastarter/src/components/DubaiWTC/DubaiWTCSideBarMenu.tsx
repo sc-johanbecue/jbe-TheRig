@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 
-const SideBarMenu = (): JSX.Element => {
+const DubaiWTCSideBarMenu = (): JSX.Element => {
   return (
     <div className="navbar-default sidebar pull-left" role="navigation">
       <div className="sidebar-nav navbar-collapse collapse navbar-collapse1">
@@ -263,4 +263,4 @@ const SideBarMenu = (): JSX.Element => {
   );
 };
 
-export default SideBarMenu;
+export default DubaiWTCSideBarMenu;
