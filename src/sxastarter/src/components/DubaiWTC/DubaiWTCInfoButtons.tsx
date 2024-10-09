@@ -23,8 +23,6 @@ const DubaiWTCInfoButtons = (props: DubaiWTCInfoButtonsProps): JSX.Element => {
   const { sitecoreContext } = useSitecoreContext();
   const isPageEditing = sitecoreContext.pageEditing;
 
-  const LinkImage = () => <JssImage field={props.fields.UserGuideImage} />;
-
   return (
     <div className="mi_button_wrapp np ">
       <div className="mi_video_btn_wrap">
@@ -45,12 +43,13 @@ const DubaiWTCInfoButtons = (props: DubaiWTCInfoButtonsProps): JSX.Element => {
         </div>
         <div className="mi_user_btn">
           {isPageEditing || !props.fields.UserGuideLink?.value?.href ? (
-            <JssLink field={props.fields.UserGuideLink}>
-              <LinkImage />
-            </JssLink>
+            <>
+              <JssImage field={props.fields.UserGuideImage}></JssImage>
+              <JssLink field={props.fields.UserGuideLink}></JssLink>
+            </>
           ) : (
             <JssLink field={props.fields.UserGuideLink}>
-              <LinkImage />
+              <JssImage field={props.fields.UserGuideImage} />
             </JssLink>
           )}
           <div className="" style={{ width: '200px', position: 'absolute', right: '10px' }}>
