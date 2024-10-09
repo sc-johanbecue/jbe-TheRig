@@ -44,12 +44,10 @@ const DubaiWTCInfoButtons = (props: DubaiWTCInfoButtonsProps): JSX.Element => {
           </div>
         </div>
         <div className="mi_user_btn">
-          <JssLink field={props.fields.UserGuideLink}>
-            <JssImage field={props.fields.UserGuideImage} />
-          </JssLink>
-
           {sitecoreContext.pageState === 'edit' || !props.fields.UserGuideLink?.value?.href ? (
-            <LinkImage />
+            <JssLink field={props.fields.UserGuideLink}>
+              <LinkImage />
+            </JssLink>
           ) : (
             <JssLink field={props.fields.UserGuideLink}>
               <LinkImage />
