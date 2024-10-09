@@ -24,7 +24,7 @@ const DubaiWTCInfoButtons = (props: DubaiWTCInfoButtonsProps): JSX.Element => {
   const isPageEditing = sitecoreContext.pageEditing;
 
   return (
-    <div className="mi_button_wrapp np ">
+    <div className="mi_button_wrapp np " style={isPageEditing ? { minHeight: '120px' } : {}}>
       <div className="mi_video_btn_wrap">
         <div className="mi_video_btn">
           <div className="col-xs-12 np video-tutorial ">
