@@ -1,10 +1,16 @@
 import Link from 'next/link';
 import React from 'react';
 
-import { LinkField, Link as JssLink } from '@sitecore-jss/sitecore-jss-nextjs';
+import {
+  LinkField,
+  Link as JssLink,
+  ImageField,
+  Image as JssImage,
+} from '@sitecore-jss/sitecore-jss-nextjs';
 
 interface Fields {
   UserGuideLink: LinkField;
+  UserGuideImage: ImageField;
 }
 
 type DubaiWTCInfoButtonsProps = {
@@ -45,7 +51,9 @@ const DubaiWTCInfoButtons = (props: DubaiWTCInfoButtonsProps): JSX.Element => {
                 alt=""
               />
             </Link>
-            <JssLink field={props.fields.UserGuideLink}></JssLink>
+            <JssLink field={props.fields.UserGuideLink}>
+              <JssImage field={props.fields.UserGuideImage} />
+            </JssLink>
           </div>
         </div>
       </div>
