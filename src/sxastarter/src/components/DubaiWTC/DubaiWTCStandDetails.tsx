@@ -1,6 +1,25 @@
 import React from 'react';
 
-const DubaiWTCStandDetails = (): JSX.Element => {
+import { TextField, Text } from '@sitecore-jss/sitecore-jss-nextjs';
+
+interface Fields {
+  Title: TextField;
+  StandNo: TextField;
+  HallNo: TextField;
+  Pavilion: TextField;
+  StandType: TextField;
+  StandArea: TextField;
+  StandWidth: TextField;
+  StandDepth: TextField;
+  OpenSides: TextField;
+}
+
+type DubaiWTCStandDetailsProps = {
+  params: { [key: string]: string };
+  fields: Fields;
+};
+
+const DubaiWTCStandDetails = (props: DubaiWTCStandDetailsProps): JSX.Element => {
   return (
     <div className="col-xs-12  whitebg mrg_bt30 formlabels">
       <div>
@@ -15,7 +34,10 @@ const DubaiWTCStandDetails = (): JSX.Element => {
             </div>
             <div className="col-xs-12 col-md-6 text-right np">
               <div className="col-xs-10  np width-auto np">
-                <h5 className="text-right">STAND DETAILS</h5>
+                <h5 className="text-right">
+                  {' '}
+                  <Text field={props.fields.Title} />
+                </h5>
               </div>
               <div className="col-xs-2 img_wrapper">
                 <img
@@ -28,35 +50,35 @@ const DubaiWTCStandDetails = (): JSX.Element => {
           <div className="col-xs-12 np">
             <div className="stdblk-container-col-8">
               <div className="std-block">
-                Stand No:
+                <Text field={props.fields.StandNo} />
                 <p>H4-B10</p>
               </div>
               <div className="std-block">
-                Hall No:
+                <Text field={props.fields.HallNo} />
                 <p>Hall 4</p>
               </div>
               <div className="std-block">
-                Pavilion:
+                <Text field={props.fields.Pavilion} />
                 <p>-</p>
               </div>
               <div className="std-block">
-                Stand Type:
+                <Text field={props.fields.StandType} />
                 <p>Space Only</p>
               </div>
               <div className="std-block">
-                Stand Area:
+                <Text field={props.fields.StandArea} />
                 <p>120.00 Sq.m </p>
               </div>
               <div className="std-block">
-                Stand Width:
+                <Text field={props.fields.StandWidth} />
                 <p>10.00</p>
               </div>
               <div className="std-block">
-                Stand Depth:
+                <Text field={props.fields.StandDepth} />
                 <p>12.00</p>
               </div>
               <div className="std-block">
-                Open Sides:
+                <Text field={props.fields.OpenSides} />
                 <p>4</p>
               </div>
             </div>
