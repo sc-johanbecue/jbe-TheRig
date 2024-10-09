@@ -33,7 +33,11 @@ const DubaiWTCStandDetails = (props: DubaiWTCStandDetailsProps): JSX.Element => 
         >
           <div className="col-xs-12 stand_block np" style={{ paddingLeft: '10px;' }}>
             <div className="col-xs-12 col-md-6 np">
-              <h5> Sitecore Middle East FZ-LLC</h5>
+              {isPageEditing ? (
+                <h5>************************</h5>
+              ) : (
+                <h5>Sitecore Middle East FZ-LLC</h5>
+              )}
             </div>
             <div className="col-xs-12 col-md-6 text-right np">
               <div className="col-xs-10  np width-auto np">
