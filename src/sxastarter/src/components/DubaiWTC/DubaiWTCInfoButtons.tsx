@@ -53,6 +53,7 @@ const DubaiWTCInfoButtons = (props: DubaiWTCInfoButtonsProps): JSX.Element => {
             </Link>
             <JssLink field={props.fields.UserGuideLink}></JssLink>
             <JssImage field={props.fields.UserGuideImage} />
+            <div>OK</div>
           </div>
         </div>
       </div>
