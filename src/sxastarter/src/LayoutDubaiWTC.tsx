@@ -589,7 +589,8 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                   href="https://dwtc.exhibitoronlinemanual.com/gitex-global-2024/dashboard/profile"
                                   className="mi_wel_msg"
                                 >
-                                  Welcome, Moatez Habayeb
+                                  Welcome,
+                                  {isPageEditing ? <>******* *******</> : <>Moatez Habayeb</>}
                                 </Link>
                               </li>
                             </ul>
