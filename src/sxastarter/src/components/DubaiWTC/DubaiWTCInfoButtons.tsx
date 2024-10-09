@@ -6,6 +6,7 @@ import {
   Link as JssLink,
   ImageField,
   Image as JssImage,
+  useSitecoreContext,
 } from '@sitecore-jss/sitecore-jss-nextjs';
 
 interface Fields {
@@ -19,6 +20,11 @@ type DubaiWTCInfoButtonsProps = {
 };
 
 const DubaiWTCInfoButtons = (props: DubaiWTCInfoButtonsProps): JSX.Element => {
+  const { sitecoreContext } = useSitecoreContext();
+  // const isPageEditing = sitecoreContext.pageEditing;
+
+  const LinkImage = () => <JssImage field={props.fields.UserGuideImage} />;
+
   return (
     <div className="mi_button_wrapp np ">
       <div className="mi_video_btn_wrap">
@@ -41,6 +47,14 @@ const DubaiWTCInfoButtons = (props: DubaiWTCInfoButtonsProps): JSX.Element => {
           <JssLink field={props.fields.UserGuideLink}>
             <JssImage field={props.fields.UserGuideImage} />
           </JssLink>
+
+          {sitecoreContext.pageState === 'edit' || !props.fields.UserGuideLink?.value?.href ? (
+            <LinkImage />
+          ) : (
+            <JssLink field={props.fields.UserGuideLink}>
+              <LinkImage />
+            </JssLink>
+          )}
           <div className="" style={{ width: '200px', position: 'absolute', right: '10px' }}>
             <Link
               data-type="a"
