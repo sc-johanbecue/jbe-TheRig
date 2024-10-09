@@ -1,7 +1,18 @@
 import Link from 'next/link';
 import React from 'react';
 
-const DubaiWTCStandDetails = (): JSX.Element => {
+import { LinkField, Link as JssLink } from '@sitecore-jss/sitecore-jss-nextjs';
+
+interface Fields {
+  UserGuideLink: LinkField;
+}
+
+type DubaiWTCInfoButtonsProps = {
+  params: { [key: string]: string };
+  fields: Fields;
+};
+
+const DubaiWTCInfoButtons = (props: DubaiWTCInfoButtonsProps): JSX.Element => {
   return (
     <div className="mi_button_wrapp np ">
       <div className="mi_video_btn_wrap">
@@ -34,6 +45,12 @@ const DubaiWTCStandDetails = (): JSX.Element => {
                 alt=""
               />
             </Link>
+            <JssLink field={props.fields.UserGuideLink}>
+              <img
+                src="https://dwtc.exhibitoronlinemanual.com//themes/frontend/images/VIEW USER GUIDE.svg"
+                alt=""
+              />
+            </JssLink>
           </div>
         </div>
       </div>
@@ -85,4 +102,4 @@ const DubaiWTCStandDetails = (): JSX.Element => {
   );
 };
 
-export default DubaiWTCStandDetails;
+export default DubaiWTCInfoButtons;
