@@ -1,7 +1,18 @@
 import React from 'react';
 import Link from 'next/link';
 
-const DubaiWTCOptionalForms = (): JSX.Element => {
+import { TextField, Text } from '@sitecore-jss/sitecore-jss-nextjs';
+
+interface Fields {
+  Title: TextField;
+}
+
+type DubaiWTCOptionalFormsProps = {
+  params: { [key: string]: string };
+  fields: Fields;
+};
+
+const DubaiWTCOptionalForms = (props: DubaiWTCOptionalFormsProps): JSX.Element => {
   return (
     <div className="col-xs-12 panelsection nm np">
       <div className="col-xs-12 np ">
@@ -11,7 +22,9 @@ const DubaiWTCOptionalForms = (): JSX.Element => {
               <div className="checklist_form_wrapper col-xs-12 whitebg">
                 <div className="col-xs-12 np">
                   <div className="col-xs-12 formname nplr_xs np">
-                    <h2 className="heading_page ">Optional Forms</h2>
+                    <h2 className="heading_page ">
+                      <Text field={props.fields.Title} />
+                    </h2>
                   </div>
                 </div>
                 <div className="my_message_table common_table col-xs-12 nplr">
