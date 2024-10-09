@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { TextField, Text } from '@sitecore-jss/sitecore-jss-nextjs';
+import { TextField, Text, useSitecoreContext } from '@sitecore-jss/sitecore-jss-nextjs';
 
 interface Fields {
   Title: TextField;
@@ -20,6 +20,9 @@ type DubaiWTCStandDetailsProps = {
 };
 
 const DubaiWTCStandDetails = (props: DubaiWTCStandDetailsProps): JSX.Element => {
+  const { sitecoreContext } = useSitecoreContext();
+  const isPageEditing = sitecoreContext.pageEditing;
+
   return (
     <div className="col-xs-12  whitebg mrg_bt30 formlabels">
       <div>
@@ -51,35 +54,35 @@ const DubaiWTCStandDetails = (props: DubaiWTCStandDetailsProps): JSX.Element => 
             <div className="stdblk-container-col-8">
               <div className="std-block">
                 <Text field={props.fields.StandNo} />
-                <p>H4-B10</p>
+                {isPageEditing ? <p>**-***</p> : <p>H4-B10</p>}
               </div>
               <div className="std-block">
                 <Text field={props.fields.HallNo} />
-                <p>Hall 4</p>
+                {isPageEditing ? <p>Hall **</p> : <p>Hall 4</p>}
               </div>
               <div className="std-block">
                 <Text field={props.fields.Pavilion} />
-                <p>-</p>
+                {isPageEditing ? <p>*</p> : <p>-</p>}
               </div>
               <div className="std-block">
                 <Text field={props.fields.StandType} />
-                <p>Space Only</p>
+                {isPageEditing ? <p>***** ****</p> : <p>Space Only</p>}
               </div>
               <div className="std-block">
                 <Text field={props.fields.StandArea} />
-                <p>120.00 Sq.m </p>
+                {isPageEditing ? <p>***.** Sq.m</p> : <p>120.00 Sq.m </p>}
               </div>
               <div className="std-block">
                 <Text field={props.fields.StandWidth} />
-                <p>10.00</p>
+                {isPageEditing ? <p>**.** </p> : <p>10.00</p>}
               </div>
               <div className="std-block">
                 <Text field={props.fields.StandDepth} />
-                <p>12.00</p>
+                {isPageEditing ? <p>**.** </p> : <p>12.00</p>}
               </div>
               <div className="std-block">
                 <Text field={props.fields.OpenSides} />
-                <p>4</p>
+                {isPageEditing ? <p>*</p> : <p>4</p>}
               </div>
             </div>
           </div>
