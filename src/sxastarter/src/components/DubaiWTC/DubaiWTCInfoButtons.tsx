@@ -32,7 +32,10 @@ const DubaiWTCInfoButtons = (props: DubaiWTCInfoButtonsProps): JSX.Element => {
             {isPageEditing || !props.fields.UserGuideLink?.value?.href ? (
               <>
                 <JssImage field={props.fields.UserGuideImage}></JssImage>
-                <JssLink field={props.fields.UserGuideLink}></JssLink>
+                <JssLink
+                  field={props.fields.UserGuideLink}
+                  style={{ marginLeft: '50px' }}
+                ></JssLink>
               </>
             ) : (
               <JssLink
@@ -62,7 +65,10 @@ const DubaiWTCInfoButtons = (props: DubaiWTCInfoButtonsProps): JSX.Element => {
             {isPageEditing || !props.fields.UserGuideLink?.value?.href ? (
               <>
                 <JssImage field={props.fields.UserGuideImage}></JssImage>
-                <JssLink field={props.fields.UserGuideLink}></JssLink>
+                <JssLink
+                  field={props.fields.UserGuideLink}
+                  style={{ marginLeft: '50px' }}
+                ></JssLink>
               </>
             ) : (
               <JssLink
