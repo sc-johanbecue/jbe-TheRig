@@ -42,17 +42,17 @@ const DubaiWTCInfoButtons = (props: DubaiWTCInfoButtonsProps): JSX.Element => {
           </div>
         </div>
         <div className="mi_user_btn">
-          {isPageEditing || !props.fields.UserGuideLink?.value?.href ? (
-            <>
-              <JssImage field={props.fields.UserGuideImage}></JssImage>
-              <JssLink field={props.fields.UserGuideLink}></JssLink>
-            </>
-          ) : (
-            <JssLink field={props.fields.UserGuideLink}>
-              <JssImage field={props.fields.UserGuideImage} />
-            </JssLink>
-          )}
           <div className="" style={{ width: '200px', position: 'absolute', right: '10px' }}>
+            {isPageEditing || !props.fields.UserGuideLink?.value?.href ? (
+              <>
+                <JssImage field={props.fields.UserGuideImage}></JssImage>
+                <JssLink field={props.fields.UserGuideLink}></JssLink>
+              </>
+            ) : (
+              <JssLink field={props.fields.UserGuideLink}>
+                <JssImage field={props.fields.UserGuideImage} />
+              </JssLink>
+            )}
             {/* <Link
               data-type="a"
               id=""
