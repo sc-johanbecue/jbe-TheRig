@@ -45,12 +45,7 @@ const DubaiWTCInfoButtons = (props: DubaiWTCInfoButtonsProps): JSX.Element => {
                 alt=""
               />
             </Link>
-            <JssLink field={props.fields.UserGuideLink}>
-              <img
-                src="https://dwtc.exhibitoronlinemanual.com//themes/frontend/images/VIEW USER GUIDE.svg"
-                alt=""
-              />
-            </JssLink>
+            <JssLink field={props.fields.UserGuideLink}></JssLink>
           </div>
         </div>
       </div>
