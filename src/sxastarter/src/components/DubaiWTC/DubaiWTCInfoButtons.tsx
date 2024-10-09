@@ -21,7 +21,7 @@ type DubaiWTCInfoButtonsProps = {
 
 const DubaiWTCInfoButtons = (props: DubaiWTCInfoButtonsProps): JSX.Element => {
   const { sitecoreContext } = useSitecoreContext();
-  // const isPageEditing = sitecoreContext.pageEditing;
+  const isPageEditing = sitecoreContext.pageEditing;
 
   const LinkImage = () => <JssImage field={props.fields.UserGuideImage} />;
 
@@ -44,7 +44,7 @@ const DubaiWTCInfoButtons = (props: DubaiWTCInfoButtonsProps): JSX.Element => {
           </div>
         </div>
         <div className="mi_user_btn">
-          {sitecoreContext.pageState === 'edit' || !props.fields.UserGuideLink?.value?.href ? (
+          {isPageEditing || !props.fields.UserGuideLink?.value?.href ? (
             <JssLink field={props.fields.UserGuideLink}>
               <LinkImage />
             </JssLink>
@@ -54,7 +54,7 @@ const DubaiWTCInfoButtons = (props: DubaiWTCInfoButtonsProps): JSX.Element => {
             </JssLink>
           )}
           <div className="" style={{ width: '200px', position: 'absolute', right: '10px' }}>
-            <Link
+            {/* <Link
               data-type="a"
               id=""
               href="https://dwtc.exhibitoronlinemanual.com/gitex-global-2024/media/s3download/Production/media/2014/22nd_Aug_EXHIBITOR_portal_user_guidelines_2024.pdf"
@@ -65,7 +65,7 @@ const DubaiWTCInfoButtons = (props: DubaiWTCInfoButtonsProps): JSX.Element => {
                 src="https://dwtc.exhibitoronlinemanual.com//themes/frontend/images/VIEW USER GUIDE.svg"
                 alt=""
               />
-            </Link>
+            </Link> */}
           </div>
         </div>
       </div>
