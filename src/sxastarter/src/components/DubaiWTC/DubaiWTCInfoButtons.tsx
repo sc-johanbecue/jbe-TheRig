@@ -11,6 +11,8 @@ import {
 interface Fields {
   UserGuideLink: LinkField;
   UserGuideImage: ImageField;
+  ViewTutorialLink: LinkField;
+  ViewTutorialImage: ImageField;
   GridViewLink: LinkField;
   ViewListLink: LinkField;
 }
@@ -39,12 +41,12 @@ const DubaiWTCInfoButtons = (props: DubaiWTCInfoButtonsProps): JSX.Element => {
               </>
             ) : (
               <JssLink
-                field={props.fields.UserGuideLink}
+                field={props.fields.ViewTutorialLink}
                 target="_blank"
                 rel="noopener noreferrer"
                 data-type="a"
               >
-                <JssImage field={props.fields.UserGuideImage} />
+                <JssImage field={props.fields.ViewTutorialImage} />
               </JssLink>
             )}
             {/* <Link
