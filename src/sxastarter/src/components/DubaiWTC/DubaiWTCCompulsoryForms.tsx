@@ -5,6 +5,12 @@ import { TextField, Text } from '@sitecore-jss/sitecore-jss-nextjs';
 
 interface Fields {
   Title: TextField;
+  FormName: TextField;
+  DeadlineDate: TextField;
+  TimeLeft: TextField;
+  FormStatus: TextField;
+  Action: TextField;
+  AddToCalendar: TextField;
 }
 
 type DubaiWTCCompulsoryFormsProps = {
@@ -37,12 +43,24 @@ const DubaiWTCCompulsoryForms = (props: DubaiWTCCompulsoryFormsProps): JSX.Eleme
                     >
                       <thead>
                         <tr>
-                          <th className="w285">Form Name</th>
-                          <th>Deadline Date</th>
-                          <th>Time Left</th>
-                          <th style={{ width: '25%', textWrap: 'nowrap' }}>Form Status </th>
-                          <th>Action</th>
-                          <th>Add To Calendar</th>
+                          <th className="w285">
+                            <Text field={props.fields.FormName} />
+                          </th>
+                          <th>
+                            <Text field={props.fields.DeadlineDate} />
+                          </th>
+                          <th>
+                            <Text field={props.fields.TimeLeft} />
+                          </th>
+                          <th style={{ width: '25%', textWrap: 'nowrap' }}>
+                            <Text field={props.fields.FormStatus} />
+                          </th>
+                          <th>
+                            <Text field={props.fields.Action} />
+                          </th>
+                          <th>
+                            <Text field={props.fields.AddToCalendar} />
+                          </th>
                         </tr>
                       </thead>
                       <tbody>
