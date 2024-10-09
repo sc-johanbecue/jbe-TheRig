@@ -38,6 +38,11 @@ const DubaiWTCInfoButtons = (props: DubaiWTCInfoButtonsProps): JSX.Element => {
           </div>
         </div>
         <div className="mi_user_btn">
+          <JssLink field={props.fields.UserGuideLink}>
+            <JssImage field={props.fields.UserGuideImage} />
+          </JssLink>
+          <JssImage field={props.fields.UserGuideImage} />
+          <div>OK</div>
           <div className="" style={{ width: '200px', position: 'absolute', right: '10px' }}>
             <Link
               data-type="a"
@@ -51,9 +56,6 @@ const DubaiWTCInfoButtons = (props: DubaiWTCInfoButtonsProps): JSX.Element => {
                 alt=""
               />
             </Link>
-            <JssLink field={props.fields.UserGuideLink}></JssLink>
-            <JssImage field={props.fields.UserGuideImage} />
-            <div>OK</div>
           </div>
         </div>
       </div>
