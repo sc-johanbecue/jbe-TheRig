@@ -1,6 +1,6 @@
 import React from 'react';
 
-const DubaiWTCStandDetails = (): JSX.Element => {
+const DubaiWTCLogin = (): JSX.Element => {
   return (
     <div
       id="ms_disclaimer"
@@ -150,4 +150,4 @@ const DubaiWTCStandDetails = (): JSX.Element => {
   );
 };
 
-export default DubaiWTCStandDetails;
+export default DubaiWTCLogin;
