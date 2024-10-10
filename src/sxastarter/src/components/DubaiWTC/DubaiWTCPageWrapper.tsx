@@ -1,10 +1,23 @@
 import React from 'react';
 
-import { Placeholder } from '@sitecore-jss/sitecore-jss-nextjs';
+import {
+  TextField,
+  Placeholder,
+  ComponentRendering,
+  ComponentParams,
+} from '@sitecore-jss/sitecore-jss-nextjs';
 
-const DubaiWTCPageWrapper = (layoutData): JSX.Element => {
-  const { route } = layoutData.sitecore;
+interface Fields {
+  Title: TextField;
+}
 
+type DubaiWTCPageWrapperProps = {
+  rendering: ComponentRendering & { params: ComponentParams };
+  params: { [key: string]: string };
+  fields: Fields;
+};
+
+const DubaiWTCPageWrapper = (props: DubaiWTCPageWrapperProps): JSX.Element => {
   return (
     <div id="page-wrapper">
       {/* /.row */}
@@ -66,7 +79,7 @@ const DubaiWTCPageWrapper = (layoutData): JSX.Element => {
                                      <div className="checklist_form_wrapper col-xs-12 whitebg">*/}
                   <main>
                     <div id="content">
-                      {route && <Placeholder name="headless-main" rendering={route} />}
+                      <Placeholder name="headless-main" rendering={props.rendering} />
                     </div>
                   </main>
 

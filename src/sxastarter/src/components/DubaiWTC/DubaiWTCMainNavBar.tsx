@@ -88,7 +88,7 @@ const DubaiWTCMainNavBar = (): JSX.Element => {
                                 >
                                   {/*placeholder="Switch Stand"*/}
                                   <option value="16525" selected>
-                                    H4-B10
+                                    {isPageEditing ? <>******</> : <>H4-B10</>}
                                   </option>
                                 </select>
                                 <span className="glyphicon mi-select     mi-icon-angle-down"></span>
