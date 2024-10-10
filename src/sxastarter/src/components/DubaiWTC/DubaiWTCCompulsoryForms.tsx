@@ -175,6 +175,7 @@ const DubaiWTCCompulsoryForms = (props: DubaiWTCCompulsoryFormsProps): JSX.Eleme
                                 data-type="a"
                                 href="https://dwtc.exhibitoronlinemanual.com/gitex-global-2024/forms/view/Zm9ybTNz"
                               >
+                                {' '}
                                 <i className="icon icon-eye-1"></i> View Form
                               </Link>
                             </td>
