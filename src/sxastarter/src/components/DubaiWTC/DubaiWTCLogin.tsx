@@ -106,7 +106,7 @@ const DubaiWTCLogin = (): JSX.Element => {
                             <div className="form-group"></div>
                             <div className="col-xs-12 text-center login-submit">
                               <a
-                                href="https://dubaiwtc.vercel.app/Portal"
+                                href="https://jbe-the-aciej8vty-johan-becues-projects.vercel.app/Portal"
                                 className="btn btn-danger form-xhttp-request"
                               >
                                 Exhibitor Login

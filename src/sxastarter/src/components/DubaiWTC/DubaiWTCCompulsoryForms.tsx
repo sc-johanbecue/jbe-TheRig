@@ -129,7 +129,10 @@ const DubaiWTCCompulsoryForms = (props: DubaiWTCCompulsoryFormsProps): JSX.Eleme
                               <span className="label label-active ">Submitted </span>
                             </td>
                             <td>
-                              <Link data-type="a" href="https://dubaiwtc.vercel.app/form">
+                              <Link
+                                data-type="a"
+                                href="https://jbe-the-aciej8vty-johan-becues-projects.vercel.app/form"
+                              >
                                 <i className="icon icon-eye-1"></i> View Form
                               </Link>
                             </td>
