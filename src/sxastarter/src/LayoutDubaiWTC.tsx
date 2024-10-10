@@ -461,7 +461,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
           </div>
           {/*        <div id="notice">
                </div>*/}
-          <div id="header">{route && <Placeholder name="sidebar" rendering={route} />}</div>
+          {route && <Placeholder name="sidebar" rendering={route} />}
         </div>
         <div id="page-wrapper">
           {/* /.row */}
