@@ -113,7 +113,12 @@ const DubaiWTCInfoButtons = (props: DubaiWTCInfoButtonsProps): JSX.Element => {
             }}
           >
             <span>
-              <i className="fa fa-th fa-2x" style={{ color: '#FFF' }}></i>
+              <img
+                alt=""
+                className="fa fa-th fa-2x"
+                style={{ color: '#FFF' }}
+                src="https://sportingkampenhout.be/share/9squares.png"
+              />
             </span>
           </JssLink>
           {/* <Link
@@ -153,7 +158,12 @@ const DubaiWTCInfoButtons = (props: DubaiWTCInfoButtonsProps): JSX.Element => {
             }}
           >
             <span>
-              <i className="fa fa-align-justify fa-2x" style={{ color: '#FFF' }}></i>
+              <img
+                alt=""
+                className="fa fa-align-justify fa-2x"
+                style={{ color: '#FFF' }}
+                src="https://sportingkampenhout.be/share/9squares.png"
+              />
             </span>
           </JssLink>
           {/* <Link
