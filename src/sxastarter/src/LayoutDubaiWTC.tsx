@@ -463,7 +463,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                </div>*/}
           {route && <Placeholder name="sidebar" rendering={route} />}
         </div>
-        {route && <Placeholder name="headless-main" rendering={route} />}
+        {route && <Placeholder name="wrappermain" rendering={route} />}
         <div className="footer_wrapper footerpanel" style={{ clear: 'both', position: 'relative' }}>
           <div id="footter_t"></div>
           <div id="highlighter_script"></div>
