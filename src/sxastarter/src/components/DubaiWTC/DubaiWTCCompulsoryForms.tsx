@@ -129,11 +129,7 @@ const DubaiWTCCompulsoryForms = (props: DubaiWTCCompulsoryFormsProps): JSX.Eleme
                               <span className="label label-active ">Submitted </span>
                             </td>
                             <td>
-                              <Link
-                                data-type="a"
-                                href="https://dwtc.exhibitoronlinemanual.com/gitex-global-2024/forms/view/Zm9ybTNj"
-                              >
-                                {' '}
+                              <Link data-type="a" href="https://dubaiwtc.vercel.app/form">
                                 <i className="icon icon-eye-1"></i> View Form
                               </Link>
                             </td>
