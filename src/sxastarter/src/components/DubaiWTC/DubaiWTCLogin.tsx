@@ -105,14 +105,20 @@ const DubaiWTCLogin = (): JSX.Element => {
                             </div>
                             <div className="form-group"></div>
                             <div className="col-xs-12 text-center login-submit">
-                              <input
+                              <a
+                                href="https://jbe-the-rig.vercel.app/Portal"
+                                className="btn btn-danger form-xhttp-request"
+                              >
+                                Exhibitor Login
+                              </a>
+                              {/* <input
                                 type="button"
                                 name="submit"
                                 value="Exhibitor Login"
                                 className="btn btn-danger form-xhttp-request"
                                 data-href="https://dwtc.exhibitoronlinemanual.com/gitex-global-2024/exb/login"
                                 data-qr="mi_encoded_string=PTArADA/VjNNUTz+FSNWCw==&amp;opd=content"
-                              />
+                              /> */}
                             </div>
                           </fieldset>
                         </form>
