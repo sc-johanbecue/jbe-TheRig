@@ -2,7 +2,7 @@ import Link from 'next/link';
 import React from 'react';
 import { useSitecoreContext } from '@sitecore-jss/sitecore-jss-nextjs';
 
-const DubaiWTCStandDetails = (): JSX.Element => {
+const DubaiWTCMainNavBar = (): JSX.Element => {
   const { sitecoreContext } = useSitecoreContext();
   const isPageEditing = sitecoreContext.pageEditing;
 
@@ -287,4 +287,4 @@ const DubaiWTCStandDetails = (): JSX.Element => {
   );
 };
 
-export default DubaiWTCStandDetails;
+export default DubaiWTCMainNavBar;
