@@ -13,6 +13,7 @@ import {
 } from '@sitecore-jss/sitecore-jss-nextjs';
 import config from 'temp/config';
 import Scripts from 'src/Scripts';
+import Link from 'next/link';
 
 // Prefix public assets with a public URL to enable compatibility with Sitecore Experience Editor.
 // If you're not supporting the Experience Editor, you can remove this.
@@ -257,7 +258,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                       <div className="border-anima"></div>
                       <div className="card-body">
                         <div className="d-flex flex-row justify-content-between">
-                          <a
+                          <Link
                             className="tagline left-tagline 11"
                             href="/en/stay"
                             style={{
@@ -270,7 +271,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                             }}
                           >
                             Hotels &amp; Resorts
-                          </a>
+                          </Link>
                         </div>
                         <h3
                           style={{
@@ -324,7 +325,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                       <div className="border-anima"></div>
                       <div className="card-body">
                         <div className="d-flex flex-row justify-content-between">
-                          <a
+                          <Link
                             className="tagline left-tagline 11"
                             href="/en/stay/exclusive-listing"
                             style={{
@@ -337,7 +338,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                             }}
                           >
                             Suites &amp; Villas
-                          </a>
+                          </Link>
                         </div>
                         <h3
                           style={{
@@ -391,7 +392,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                       <div className="border-anima"></div>
                       <div className="card-body">
                         <div className="d-flex flex-row justify-content-between">
-                          <a
+                          <Link
                             className="tagline left-tagline 11"
                             href="/en/dine/listing"
                             style={{
@@ -404,7 +405,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                             }}
                           >
                             Dining &amp; restaurants
-                          </a>
+                          </Link>
                         </div>
                         <h3
                           style={{
@@ -452,7 +453,8 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                 <div className="centerContentBox">
                   <div className="card-body">
                     <div className="d-flex flex-row justify-content-between">
-                      <a
+                      <Link
+                        href=""
                         className="tagline left-tagline"
                         style={{
                           fontSize: '0.75rem',
@@ -462,7 +464,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           letterSpacing: '0.075rem',
                           fontWeight: '500',
                         }}
-                      ></a>
+                      ></Link>
                     </div>
                     <h3
                       style={{
@@ -494,7 +496,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                       Embark on a culinary journey through Michelin-starred cuisine, poolside tapas,
                       and authentic local flavours.
                     </p>
-                    <a
+                    <Link
                       href="/en/dine/listing"
                       style={{
                         width: 'auto',
@@ -520,7 +522,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                       className="primary-button btn btn-outline-primary btn-block"
                     >
                       Our Restaurants
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -551,7 +553,8 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                   <div style={{ cursor: 'auto' }}>
                     <div className="card-body">
                       <div className="d-flex flex-row justify-content-between">
-                        <a
+                        <Link
+                          href=""
                           className="tagline left-tagline"
                           style={{
                             fontSize: '0.75rem',
@@ -561,7 +564,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                             letterSpacing: '0.075rem',
                             fontWeight: '500',
                           }}
-                        ></a>
+                        ></Link>
                       </div>
                       <h3
                         style={{
@@ -596,7 +599,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                       >
                         Exclusive rates, private access and bespoke experiences await your arrival.
                       </p>
-                      <a
+                      <Link
                         href="/en/join-now"
                         style={{
                           width: 'auto',
@@ -622,7 +625,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                         className="primary-button btn btn-outline-primary btn-block"
                       >
                         <span className="btn-text">Join Now</span>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -641,7 +644,8 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                 <div className="centerContentBox">
                   <div className="card-body">
                     <div className="d-flex flex-row justify-content-between">
-                      <a
+                      <Link
+                        href=""
                         className="tagline left-tagline"
                         style={{
                           fontSize: '0.75rem',
@@ -651,7 +655,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           letterSpacing: '0.075rem',
                           fontWeight: '500',
                         }}
-                      ></a>
+                      ></Link>
                     </div>
                     <h3
                       style={{
@@ -683,7 +687,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                       Our experiences and rituals are carefully curated to nurture you as an
                       individual and celebrate the beauty of mind and body.
                     </p>
-                    <a
+                    <Link
                       href="/en/rejuvenate/listing"
                       style={{
                         width: 'auto',
@@ -709,7 +713,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                       className="primary-button btn btn-outline-primary btn-block"
                     >
                       Start your journey
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -745,7 +749,8 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                         <div style={{ cursor: 'pointer' }}>
                           <div className="card-body">
                             <div className="d-flex flex-row justify-content-between">
-                              <a
+                              <Link
+                                href=""
                                 className="tagline left-tagline"
                                 style={{
                                   fontSize: '0.75rem',
@@ -755,7 +760,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                   letterSpacing: '0.075rem',
                                   fontWeight: 500,
                                 }}
-                              ></a>
+                              ></Link>
                             </div>
                             <h3
                               style={{
@@ -809,7 +814,8 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                         <div style={{ cursor: 'pointer' }}>
                           <div className="card-body">
                             <div className="d-flex flex-row justify-content-between">
-                              <a
+                              <Link
+                                href=""
                                 className="tagline left-tagline"
                                 style={{
                                   fontSize: '0.75rem',
@@ -819,7 +825,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                   letterSpacing: '0.075rem',
                                   fontWeight: 500,
                                 }}
-                              ></a>
+                              ></Link>
                             </div>
                             <h3
                               style={{
@@ -873,7 +879,8 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                         <div style={{ cursor: 'pointer' }}>
                           <div className="card-body">
                             <div className="d-flex flex-row justify-content-between">
-                              <a
+                              <Link
+                                href=""
                                 className="tagline left-tagline"
                                 style={{
                                   fontSize: '0.75rem',
@@ -883,7 +890,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                   letterSpacing: '0.075rem',
                                   fontWeight: 500,
                                 }}
-                              ></a>
+                              ></Link>
                             </div>
                             <h3
                               style={{
@@ -938,7 +945,8 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                         <div style={{ cursor: 'pointer' }}>
                           <div className="card-body">
                             <div className="d-flex flex-row justify-content-between">
-                              <a
+                              <Link
+                                href=""
                                 className="tagline left-tagline"
                                 style={{
                                   fontSize: '0.75rem',
@@ -948,7 +956,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                   letterSpacing: '0.075rem',
                                   fontWeight: 500,
                                 }}
-                              ></a>
+                              ></Link>
                             </div>
                             <h3
                               style={{
@@ -992,11 +1000,13 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                   <div className="contents-wrap">
                     <div className="social-wrapper">
                       <div className="newsletter-message">
-                        <a className="connect-text">Let&#x27;s stay in touch</a>
+                        <Link className="connect-text" href="">
+                          Let&#x27;s stay in touch
+                        </Link>
                         <div className="connect-newsletter-cta">
-                          <a href="/en/newsletter/signup">
+                          <Link href="/en/newsletter/signup">
                             <button>Newsletter sign-up</button>
-                          </a>
+                          </Link>
                         </div>
                       </div>
                       <div className="email-box">
@@ -1007,16 +1017,16 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           className="form-control"
                         />
                       </div>
-                      <a
+                      <Link
                         href="javascript:void(0)"
                         target="_self"
                         title="SUBSCRIBE"
                         className="arrow-link-molecule"
                       >
                         SUBSCRIBE
-                      </a>
+                      </Link>
                       <div className="social-icons">
-                        <a
+                        <Link
                           href="https://www.facebook.com/Jumeirah"
                           target="_blank"
                           rel="noopener noreferrer"
@@ -1025,8 +1035,8 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                             src="https://cdn.jumeirah.com/-/mediadh/dh/hospitality/jumeirah/social-media/redesign2024/facebook.svg?modified=20240326070902"
                             alt=""
                           />
-                        </a>
-                        <a
+                        </Link>
+                        <Link
                           href="https://www.instagram.com/jumeirah/?hl=en"
                           target="_blank"
                           rel="noopener noreferrer"
@@ -1035,8 +1045,8 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                             src="https://cdn.jumeirah.com/-/mediadh/dh/hospitality/jumeirah/social-media/redesign2024/instagram.svg?modified=20240326070904"
                             alt=""
                           />
-                        </a>
-                        <a
+                        </Link>
+                        <Link
                           href="https://twitter.com/jumeirah"
                           target="_blank"
                           rel="noopener noreferrer"
@@ -1045,8 +1055,8 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                             src="https://cdn.jumeirah.com/-/mediadh/dh/hospitality/jumeirah/social-media/redesign2024/social.svg?modified=20240326070931"
                             alt=""
                           />
-                        </a>
-                        <a
+                        </Link>
+                        <Link
                           href="https://www.youtube.com/@Jumeirah"
                           target="_blank"
                           rel="noopener noreferrer"
@@ -1055,8 +1065,8 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                             src="https://cdn.jumeirah.com/-/mediadh/dh/hospitality/jumeirah/social-media/redesign2024/youtube.svg?modified=20240326070905"
                             alt=""
                           />
-                        </a>
-                        <a
+                        </Link>
+                        <Link
                           href="https://www.linkedin.com/company/jumeirah/"
                           target="_blank"
                           rel="noopener noreferrer"
@@ -1065,7 +1075,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                             src="https://cdn.jumeirah.com/-/mediadh/dh/hospitality/jumeirah/social-media/redesign2024/footer/footer/social-media.svg?modified=20240508124452"
                             alt=""
                           />
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div className="footer-links-wrapper">
@@ -1073,39 +1083,39 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                         <div className="left-sided">
                           <ul className="link-area">
                             <li className="f-link">
-                              <a href="/en/jumeirah-group/about-jumeirah">About Jumeirah</a>
+                              <Link href="/en/jumeirah-group/about-jumeirah">About Jumeirah</Link>
                             </li>
                             <li className="f-link">
-                              <a href="/en/jumeirah-group/contact-us">Contact Us</a>
+                              <Link href="/en/jumeirah-group/contact-us">Contact Us</Link>
                             </li>
                             <li className="f-link">
-                              <a href="/en/careers">Careers</a>
+                              <Link href="/en/careers">Careers</Link>
                             </li>
                             <li className="f-link">
-                              <a href="/en/jumeirah-group/development">Hotel Development</a>
+                              <Link href="/en/jumeirah-group/development">Hotel Development</Link>
                             </li>
                           </ul>
                         </div>
                         <div className="right-sided">
                           <ul className="link-area">
                             <li className="f-link">
-                              <a href="/en/jumeirah-residences">Residences</a>
+                              <Link href="/en/jumeirah-residences">Residences</Link>
                             </li>
                             <li className="f-link">
-                              <a href="/en/jumeirah-group/faq">FAQs</a>
+                              <Link href="/en/jumeirah-group/faq">FAQs</Link>
                             </li>
                             <li className="f-link">
-                              <a href="/en/jumeirah-group/press-centre">Press Centre</a>
+                              <Link href="/en/jumeirah-group/press-centre">Press Centre</Link>
                             </li>
                             <li className="f-link">
-                              <a href="/en/jumeirah-group/terms-and-conditions/jumeirah-privacy-notice">
+                              <Link href="/en/jumeirah-group/terms-and-conditions/jumeirah-privacy-notice">
                                 Privacy Policy
-                              </a>
+                              </Link>
                             </li>
                             <li className="f-link">
-                              <a href="/en/jumeirah-group/terms-and-conditions/cookies-notice">
+                              <Link href="/en/jumeirah-group/terms-and-conditions/cookies-notice">
                                 Cookies Policy
-                              </a>
+                              </Link>
                             </li>
                           </ul>
                         </div>
