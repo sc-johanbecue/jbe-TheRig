@@ -713,6 +713,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                   </div>
                 </div>
               </div>
+              {route && <Placeholder name="headless-header" rendering={route} />}
             </div>
             <div>
               <footer className="full-bleed-rd FooterSection">
