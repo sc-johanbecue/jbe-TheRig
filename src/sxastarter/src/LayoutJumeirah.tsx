@@ -713,7 +713,6 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                   </div>
                 </div>
               </div>
-
             </div>
             <div>
               <footer className="full-bleed-rd FooterSection">
