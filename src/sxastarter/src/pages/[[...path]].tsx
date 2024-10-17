@@ -53,7 +53,7 @@ const SitecorePage = ({
   const BeaulieuSite = layoutData.sitecore.context.site?.name == 'Beaulieu';
   const DubaiWTCSite = layoutData.sitecore.context.site?.name == 'dubaiwtc';
   const DubaiWTCSite2 = layoutData.sitecore.context.site?.name == 'dwtc';
-  const JumeirahSite = layoutData.sitecore.context.site?.name == 'Jumeirah';
+  const JumeirahSite = layoutData.sitecore.context.site?.name == 'jumeirah';
 
   return (
     <ComponentPropsContext value={componentProps}>
