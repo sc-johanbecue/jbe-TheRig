@@ -1,0 +1,57 @@
+﻿---
+ID: "06a99613-8d27-452d-9739-f24a71dd2145"
+Parent: "ec72cec2-2105-405c-b267-642253b4a1f9"
+Template: "f1828a2c-7e5d-4bbd-98ca-320474871548"
+Path: /sitecore/media library/Project/The Rig/The Rig/Benefit4
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: "-/media/06A996138D27452D9739F24A71DD2145.ashx?h=16&thn=1&w=16"
+- ID: "22eac599-f13b-4607-a89d-c091763a467d"
+  Hint: Width
+  Value: 96
+- ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
+  Hint: Blob
+  BlobID: "650f1aa3-28e2-406d-9ea9-60238eeaa164"
+  Value: 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
+- ID: "6954b7c7-2487-423f-8600-436cb3b6dc0e"
+  Hint: Size
+  Value: 1771
+- ID: "6f47a0a5-9c94-4b48-abeb-42d38def6054"
+  Hint: Mime Type
+  Value: image/gif
+- ID: "c06867fe-9a43-4c7d-b739-48780492d06f"
+  Hint: Extension
+  Value: gif
+- ID: "cb09946f-3218-4823-87d2-d5007c199a96"
+  Hint: Dimensions
+  Value: 96 x 96
+- ID: "de2ca9e4-c117-4c8a-a139-1ff4b199d15a"
+  Hint: Height
+  Value: 96
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240317T140319Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "00990b5c-7ebf-477c-b71e-c92f87d905fb"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240317T140319Z

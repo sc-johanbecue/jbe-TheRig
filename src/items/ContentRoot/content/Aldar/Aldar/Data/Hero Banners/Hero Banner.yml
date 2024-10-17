@@ -1,0 +1,42 @@
+﻿---
+ID: "52a571e0-7137-40de-af77-404cb73e434f"
+Parent: "141e3a83-79d8-4ba6-8353-6459c022845c"
+Template: "f8ffa7c2-24ac-4743-bec2-2283f9abe6a2"
+Path: /sitecore/content/Aldar/Aldar/Data/Hero Banners/Hero Banner
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240322T151910Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "bce9e9d0-7f05-44fe-9cbb-7023a0056c6d"
+    - ID: "9e75d69b-53f1-438b-a839-8eef3e29c681"
+      Hint: Image
+      Value: |
+        <image mediaid="{2B2408F6-F00B-4814-840A-7F39876491F4}" alt="" height="" width="" hspace="" vspace="" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240322T174020Z
+    - ID: "e39b43c9-780a-4e81-a244-f226e4329962"
+      Hint: Link
+      Value: |
+        <link text="Download report" linktype="external" url="https://cdn.aldar.com/-/media/project/aldar-tenant/aldar2/aldar-sustainability-report-2023.pdf?rev=954080bc974d4fa1a8c33ad35fca4f04&amp;_gl=1*18rjnct*_gcl_au*MTAwNzI0NzM0OS4xNzExMDA4Mjkz" anchor="" title="Download report" class="link o-button -white" target="_blank" />

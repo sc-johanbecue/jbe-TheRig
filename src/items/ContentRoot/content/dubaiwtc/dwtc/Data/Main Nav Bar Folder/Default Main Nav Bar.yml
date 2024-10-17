@@ -1,0 +1,34 @@
+﻿---
+ID: "48e8c103-ef76-4ac6-bab1-be156070871c"
+Parent: "e5fb3eec-8357-4bbf-a67b-768850717483"
+Template: "cd457dc5-51e1-4819-9837-ca4a91fb78a8"
+Path: /sitecore/content/dubaiwtc/dwtc/Data/Main Nav Bar Folder/Default Main Nav Bar
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "05f14b65-cb6b-4c3f-874c-a48f07360a13"
+      Hint: Title
+      Value: Default Main Nav Bar
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241010T011058Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6754b65c-ef0d-452a-b6c4-f04c69f91200"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241010T011058Z

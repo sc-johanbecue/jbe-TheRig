@@ -1,0 +1,47 @@
+﻿---
+ID: "e811e1e9-6826-4a58-9fe6-c2a8698b2fec"
+Parent: "7afdeba5-cffa-4f11-a4e3-cab6c31a3033"
+Template: "76da0a8d-fc7e-42b2-af1e-205b49e43f98"
+Path: /sitecore/content/dubaiwtc/dwtc/Presentation/Available Renderings/Dubai WTC
+SharedFields:
+- ID: "715ae6c0-71c8-4744-ab4f-65362d20ad65"
+  Hint: Renderings
+  Value: |
+    {704B9A7B-CDAF-45B1-9D17-6358BB02445B}
+    {3B881011-F1CA-48AC-9432-C5251DBE5C57}
+    {EDA1D68E-3032-4AD8-858A-BAB0FC218B55}
+    {EBA4BDC7-16C0-4756-A4EB-7FC08AE5A68B}
+    {E3B05A80-EB7F-4333-B290-1A0A3D81B1F9}
+    {799D780C-4230-41EA-A193-6DF31219DAAF}
+    {9FF3808C-3845-40BE-A544-133B6F2798D4}
+    {C85B4204-2C22-4823-8AFF-BE7868A05617}
+    {1F15B6CA-856D-4A76-B9F2-8523ED88E7F3}
+    {DA61AD50-8FDB-4252-A68F-B4470B1C9FE8}
+    {4D5C3960-9E03-4FF7-BC3F-5ED13D20E578}
+    {7892ACB1-05DD-4E7D-B57F-725C45D7E993}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241008T204635Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "69b49cd5-cf01-4b84-af23-10934323592f"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241010T115322Z

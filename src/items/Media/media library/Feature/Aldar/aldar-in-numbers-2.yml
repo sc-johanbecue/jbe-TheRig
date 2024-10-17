@@ -1,0 +1,48 @@
+﻿---
+ID: "22a244d8-5a42-4b9e-bbe2-98a9970fbc81"
+Parent: "17c1dbad-b7ea-4a2c-8310-60979c1c3202"
+Template: "f1828a2c-7e5d-4bbd-98ca-320474871548"
+Path: "/sitecore/media library/Feature/Aldar/aldar-in-numbers-2"
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: "-/media/22A244D85A424B9EBBE298A9970FBC81.ashx?h=16&thn=1&w=16"
+- ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
+  Hint: Blob
+  BlobID: "c4b1d471-7433-4c97-a415-1dbfb9dbf6d8"
+  Value: PHN2ZyB3aWR0aD0iODAiIGhlaWdodD0iODAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj48cGF0aCBkPSJNMCAzNWgzOXYzOUgweiIgZmlsbD0iIzQwNDA0MiIvPjxwYXRoIGZpbGw9IiNEMkQyRDQiIGQ9Ik0yNi42NDggNTcuNzY0aDI2LjUzNlY0Ni4yMzdIMjYuNjQ4ek00Ny45MTUgMzguODE4aDkuOTMydi03LjU5N2gtOS45MzJ6Ii8+PHBhdGggZD0iTTI5LjE1OSAyMi43NjFjLjExNSAwIC4yMTIuMDguMjM3LjE4OGwuMDA3LjA1NnYxLjUxOGwtLjA3Mi4xNzMtMS4wMzMgMS4wMzJhLjI0NC4yNDQgMCAwIDEtLjM4NC0uMjk0bC4wNC0uMDUyLjk2LS45NnYtMS40MTdjMC0uMTE1LjA4LS4yMTIuMTg5LS4yMzdsLjA1Ni0uMDA3Wk01NC4xNiAzNS4wMmEuOTc2Ljk3NiAwIDEgMS0xLjk1MiAwIC45NzYuOTc2IDAgMCAxIDEuOTUyIDAiIGZpbGw9IiNGRkYiLz48cGF0aCBkPSJNMjYuNjQ4IDI0LjUxNWEyLjQ1NyAyLjQ1NyAwIDAgMCAyLjQ1NCAyLjQ1MyAyLjQ1NyAyLjQ1NyAwIDAgMCAyLjQ1NC0yLjQ1MyAyLjQ1NyAyLjQ1NyAwIDAgMC0yLjQ1NC0yLjQ1NCAyLjQ1NyAyLjQ1NyAwIDAgMC0yLjQ1NCAyLjQ1NFptLTEuMDg0IDBhMy41NDMgMy41NDMgMCAwIDEgMy41MzgtMy41MzkgMy41NDQgMy41NDQgMCAwIDEgMy41MzkgMy41MzkgMy41NDMgMy41NDMgMCAwIDEtMy41MzkgMy41MzggMy41NDIgMy41NDIgMCAwIDEtMy41MzgtMy41MzhaTTQ3LjAzIDM4Ljc5NWgxMS45MTR2LTguOEg0Ny4wM3Y4LjhabTEyLjg5IDEuOTUzSDQ2LjA1NWEuOTc1Ljk3NSAwIDAgMS0uOTc2LS45NzdWMjkuMDJjMC0uNTQuNDM2LS45NzcuOTc2LS45NzdINTkuOTJjLjU0IDAgLjk3Ni40MzguOTc2Ljk3N1YzOS43N2MwIC41NC0uNDM3Ljk3Ny0uOTc2Ljk3N1oiIGZpbGw9IiNGRkYiLz48cGF0aCBkPSJNNDUuNDE5IDM4LjgxN3YuMDA1aDE0LjgzM3YtLjAwNWgyLjk4OGMuMjcgMCAuNDkuMjIuNDkuNDl2NS41NTRhLjQ4Ni40ODYgMCAwIDEtLjQ4Ni40ODZINjAuNjh2MTUuMjZoLTYuNTNWNTkuMDhIMjUuNTgydjEuNTI3aC02LjUzdi0xNS4yNmgtMi41NjVBLjQ4OC40ODggMCAwIDEgMTYgNDQuODZ2LTUuNTU4YzAtLjI2OS4yMTYtLjQ4NS40ODUtLjQ4NWgyOC45MzRabTEzLjMwNyA2LjUzaC0yLjYyNXYxMy4zMDhoMi42MjVWNDUuMzQ3Wm0tMzUuMDk3IDBoLTIuNjI1djEzLjMwOGgyLjYyNVY0NS4zNDdabTMwLjUyIDBIMjUuNTgydjExLjc4aDI4LjU2N3YtMTEuNzhabTcuNjI5LTQuNTc3aC0xLjQ2MnYuMDA1SDQ1LjA3OHYtLjAwNkgxNy45NTJ2Mi42MjZoNDMuODI2VjQwLjc3WiIgZmlsbD0iIzg4OCIvPjwvZz48L3N2Zz4K
+- ID: "6954b7c7-2487-423f-8600-436cb3b6dc0e"
+  Hint: Size
+  Value: 1356
+- ID: "6f47a0a5-9c94-4b48-abeb-42d38def6054"
+  Hint: Mime Type
+  Value: image/svg+xml
+- ID: "c06867fe-9a43-4c7d-b739-48780492d06f"
+  Hint: Extension
+  Value: svg
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240324T180502Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a9cc0a35-849f-40e4-beed-313cdb124fad"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240324T180502Z

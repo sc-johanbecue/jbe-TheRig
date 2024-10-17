@@ -1,0 +1,23 @@
+{
+    "$schema": "../.sitecore/schemas/ModuleFile.schema.json",
+    "namespace": "XMCloudTheRig",
+    "items": {
+        "includes": [
+            {
+                "name": "Templates",
+                "path": "/sitecore/Templates/Project",
+                "allowedPushOperations": "CreateUpdateAndDelete"
+            },
+            {
+                "name": "ContentRoot",
+                "path": "/sitecore/Content",
+                "allowedPushOperations": "CreateUpdateAndDelete"
+            },
+            {
+                "name": "Media",
+                "path": "/sitecore/Media Library",
+                "allowedPushOperations": "CreateUpdateAndDelete"
+            }
+        ]
+    }
+}

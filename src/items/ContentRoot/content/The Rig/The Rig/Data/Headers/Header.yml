@@ -1,0 +1,34 @@
+﻿---
+ID: "4c5d5032-75c7-4dd5-a5e2-7c7676eb4f38"
+Parent: "867e5bd2-10e8-4847-a3f2-9a34bfb628bd"
+Template: "b918c27b-9ca8-4042-9abf-7a8c756fca97"
+Path: /sitecore/content/The Rig/The Rig/Data/Headers/Header
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240314T152305Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3c34f854-8804-43b2-825c-00c845574bd5"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d86d5fc7-05a4-4909-95a7-e9fa634ade6d"
+      Hint: Title
+      Value: Header
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240314T175333Z

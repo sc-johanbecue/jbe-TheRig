@@ -1,0 +1,31 @@
+﻿---
+ID: "0a4b8b88-bb48-4015-b9fe-b43b5ae63a87"
+Parent: "0027bd54-3d69-448e-b73f-8e521f8291f2"
+Template: "4dffd3e6-0a8b-4079-abae-9aa629c4dee4"
+Path: /sitecore/content/The Rig/The Rig/Home/Data/TwoColumns
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240317T124448Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9060d306-713b-4047-af40-65a1d46cc7a4"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240317T124448Z

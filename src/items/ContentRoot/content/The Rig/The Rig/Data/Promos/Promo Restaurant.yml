@@ -1,0 +1,45 @@
+﻿---
+ID: "9477858f-f4f5-4662-a408-2f5db837f86e"
+Parent: "2eadb315-0701-4ccc-a37d-5459faa148c3"
+Template: "dfed4457-d760-457a-bec1-c0dccdc44381"
+Path: /sitecore/content/The Rig/The Rig/Data/Promos/Promo Restaurant
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240318T101813Z
+    - ID: "28079f3a-896b-4273-be5f-59d0ebb7cd7d"
+      Hint: PromoText
+      Value: "<p><strong><em>Chef John Doe: Pioneering Gastronomy at Sea</em></strong></p><p><strong><em><br /></em></strong></p><p>Welcome to an unparalleled dining experience where the vastness of the ocean meets culinary excellence. At the helm of our revolutionary Michelin star restaurant on an oil rig is Chef John Doe, a visionary in the culinary world. Chef Doe's illustrious career is a testament to his passion for innovation, dedication to sustainability, and commitment to creating unforgettable dining experiences.</p><p><br /></p><p>Born into a family of culinary enthusiasts, Chef Doe's journey into the gastronomic world was destined. His early fascination with flavors led him to the prestigious Culinary Institute of America, where he honed his skills and graduated with honors. His culinary adventures took him from the bustling kitchens of New York to the refined dining rooms of Paris, where his unique blend of creativity and precision earned him a Michelin star at the famed La Mer Etoilée.</p><p><br /></p><p>Chef Doe's vision for a restaurant on an oil rig is not just a testament to his innovative spirit but also his dedication to challenging the norms of traditional dining settings. This venture combines his love for the sea with his passion for gastronomy, offering a unique experience that transcends boundaries. The restaurant, nestled on the robust structure of an oil rig, is a celebration of the ocean's bounty, showcasing sustainable seafood and locally-sourced ingredients in every dish.</p><p><br /></p><p>Under Chef Doe's guidance, the restaurant has become a culinary destination, attracting food enthusiasts and adventurers alike. His menus are a journey through the flavors of the world, infused with the freshness of the ocean and the richness of the earth. Each plate is a work of art, crafted with the utmost care and attention to detail, ensuring an experience that is as visually stunning as it is delicious.</p><p><br /></p><p>Chef Doe is more than just a chef; he is a storyteller, using his dishes to weave tales of the sea, sustainability, and culinary excellence. His work on the oil rig is a bold statement of his commitment to innovation, offering a dining experience that is not only memorable but also meaningful.</p><p><br /></p><p>Join us for a dining adventure where the horizon is endless, and the flavors are boundless. Discover the magic of Chef John Doe's cuisine, where every bite is a testament to his journey, his vision, and his unparalleled love for the culinary arts.</p><p><br /></p>"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3402bb91-e373-4095-b1a4-62b1d4c6d722"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240318T102937Z
+    - ID: "ef24bed2-46ab-4d53-ad1a-1019935a4e89"
+      Hint: PromoLink
+      Value: |
+        <link linktype="external" url="/" target="" text="Find our more about our chef...." title="" class=""/>
+    - ID: "f94b9858-c439-4291-863b-757b536c8b65"
+      Hint: PromoIcon
+      Value: |
+        <image mediaid="d93c5dda-2d31-4828-a7fa-077ca579b44e" />

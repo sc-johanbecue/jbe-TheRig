@@ -1,0 +1,31 @@
+﻿---
+ID: "8f0e9f2b-9ef9-4bb9-9935-bf36b88cb244"
+Parent: "2c0a49f6-9454-4f4e-9e4a-7a5198566a47"
+Template: "8645e068-cb98-43c4-9908-e2fd94b0e7de"
+Path: /sitecore/content/dubaiwtc/dwtc/Data/Info Buttons Folder
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241009T094220Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c9f61e77-af2c-47e2-8a79-c172adc64f65"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241009T094220Z

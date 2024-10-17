@@ -1,0 +1,50 @@
+﻿---
+ID: "fb351e09-433d-40df-b66f-3db1ffd56482"
+Parent: "8f0e9f2b-9ef9-4bb9-9935-bf36b88cb244"
+Template: "69afc7af-a9e4-4427-be33-4fe0398a2b97"
+Path: /sitecore/content/dubaiwtc/dwtc/Data/Info Buttons Folder/Default Info Buttons
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "11418fa9-996e-4022-9021-17f0e00e7639"
+      Hint: GridViewLink
+      Value: |
+        <link linktype="external" url="https://dwtc.exhibitoronlinemanual.com/gitex-global-2024/dashboard" text="*" title="Grid View" anchor=""/>
+    - ID: "1bc817b3-b66d-4c3d-aa77-256f3159b914"
+      Hint: UserGuideImage
+      Value: |
+        <image mediaid="01ad4812-3fb6-4d7d-8c1c-d46e3f69da29" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241009T094231Z
+    - ID: "30c8eaf7-df63-4723-8220-89191ea43d7d"
+      Hint: UserGuideLink
+      Value: |
+        <link linktype="external" url="https://dwtc.exhibitoronlinemanual.com/gitex-global-2024/media/s3download/Production/media/2014/22nd_Aug_EXHIBITOR_portal_user_guidelines_2024.pdf" text="User Guide Link" title="ssdfsff" anchor=""/>
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "667dab6f-42ef-4cda-9985-94c2eca2bba3"
+      Hint: ViewListLink
+      Value: |
+        <link linktype="external" url="https://dwtc.exhibitoronlinemanual.com/gitex-global-2024/dashboard" text="*" title="View List" anchor=""/>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "223ba6b2-9bb6-4e67-893d-2161c9a04b8c"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241010T114127Z

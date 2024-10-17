@@ -1,0 +1,37 @@
+﻿---
+ID: "f41fb2f3-080b-47f1-b3b7-ff7cf35928f8"
+Parent: "67836c5e-08ac-487f-abf2-9aae511a6e69"
+Template: "aac490a3-debc-4bf7-876c-987222866a8b"
+Path: /sitecore/content/Aldar/Aldar/Data/Content With Link Lists/Content With Link List
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240322T220916Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "434043a2-9c7c-47d2-a611-9c34628f4268"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240324T122917Z
+    - ID: "e5088a52-ef3a-4c54-bd6e-768b2c8d7879"
+      Hint: Heading
+      Value: Sustainability is at the heart of everything we do

@@ -1,0 +1,37 @@
+﻿---
+ID: "3a81ed5f-27ef-4caf-99f6-5a6e0fb2f1de"
+Parent: "d44deea7-ad33-4f0d-b563-19a96a18dba1"
+Template: "aa6a978e-c5af-48f0-8e45-fdb0a8e50098"
+Path: /sitecore/content/dubaiwtc/dwtc/Data/Compulsory Forms Folder/Default Compulsory Form
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241008T214947Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "7088a40c-b8b0-4708-bfa6-9f2d1616ae51"
+      Hint: Title
+      Value: Compulsory Forms
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f6f87d69-9b6b-4967-a41b-8b5fffa61ae8"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241009T214457Z

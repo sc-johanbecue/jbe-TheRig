@@ -1,0 +1,43 @@
+﻿---
+ID: "a463cd80-2449-452b-aa98-6fa82fc0a738"
+Parent: "c03694f2-bc89-4cb0-984b-1929f9ef28d9"
+Template: "9a97469b-6798-4bfc-9e22-ad3352600b6c"
+Path: /sitecore/content/dubaiwtc/dwtc/Data/Stand Details Folder/Default Stand Details
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "1896e8fd-7c88-4290-b299-db8c52f92904"
+      Hint: Title
+      Value: Stand Details
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241009T093608Z
+    - ID: "4ee67b2c-374e-4d3e-92ad-f52bf1f9798b"
+      Hint: StandNo
+      Value: "Stand No:"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5bde491f-aed7-4acb-9705-9fba67b2b5c5"
+      Hint: Pavilion
+      Value: "Pavilion:"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d3663ff8-ab54-462b-bc47-4e2d3fa3aa29"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241010T113936Z

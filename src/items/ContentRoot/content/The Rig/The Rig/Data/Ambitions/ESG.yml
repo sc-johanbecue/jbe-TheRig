@@ -1,0 +1,70 @@
+﻿---
+ID: "10f0f2dd-eb91-405e-b269-48859830492c"
+Parent: "c92f1a51-250a-4f3d-8253-7884057afb3d"
+Template: "945c1e63-76aa-4ee4-a262-a2bf252e1235"
+Path: /sitecore/content/The Rig/The Rig/Data/Ambitions/ESG
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04f4c48d-9bb1-483c-a6dd-542abf8b5c18"
+      Hint: Ambition1Image
+      Value: |
+        <image mediaid="{E87C05CF-AD26-4B19-B001-E204DE43308F}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240315T160736Z
+    - ID: "513fa3c9-6093-4c77-9c2e-249d11e8ae64"
+      Hint: Ambition4Image
+      Value: |
+        <image mediaid="{06A99613-8D27-452D-9739-F24A71DD2145}" />
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "60b87229-2467-4096-83e5-c79594bea79d"
+      Hint: Title
+      Value: <b>THE RIG.</b> ENVIRONMENT, SOCIAL AND GOVERNANCE AMBITION
+    - ID: "656d71fd-aa68-41a5-b82b-2a566a1960e5"
+      Hint: Ambition3Text
+      Value: Facilitate eco <br /> experiences
+    - ID: "745e3b26-e08c-4e5d-a2e1-fecc51f1b4f2"
+      Hint: Ambition4Text
+      Value: Operate <br /> Responsibly
+    - ID: "897ec707-a48a-44e5-b40b-11261a93a7a2"
+      Hint: Ambition2Text
+      Value: |
+        Empower <br />
+        communities
+    - ID: "8b45d595-3bcd-40ca-ae85-2e2f46cae4ad"
+      Hint: Ambition3Image
+      Value: |
+        <image mediaid="{750B9E84-1B4F-41FF-A089-8D6641D8389D}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1cd9c4c1-cc04-4031-b6bd-2e3773afd619"
+    - ID: "941ddba8-75bb-43fa-a65a-c5995b429f72"
+      Hint: Ambition1Text
+      Value: |
+        Maximize positive <br />
+        environmental impact
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240317T141703Z
+    - ID: "fa028e3d-18a1-462a-be4c-8d24b0f116a0"
+      Hint: Ambition2Image
+      Value: |
+        <image mediaid="{8BC2286E-DCC8-4E7D-9A2A-541B8EB25729}" />

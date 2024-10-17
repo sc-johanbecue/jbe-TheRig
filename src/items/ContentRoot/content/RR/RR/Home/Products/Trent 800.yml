@@ -1,0 +1,43 @@
+﻿---
+ID: "858cb5ba-8ca3-4c3b-8eeb-9ff8d2778e3b"
+Parent: "4d7b1d66-6ef3-4df4-9a1f-692dd269b5de"
+Template: "350a3688-00c7-4407-99bb-5b28b80bf599"
+Path: /sitecore/content/RR/RR/Home/Products/Trent 800
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{B0D4B0BC-5B8E-44D7-B976-FF913EDC7E10}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240402T221328Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "892d3640-cc7a-4cf5-8721-5329f2e25cdd"
+      Hint: Image
+      Value: |
+        <image mediaid="{872AFDAE-E244-48DA-A91C-F2255C943DDE}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "baf85d3c-d2d2-4d1b-be25-64db25af57fe"
+    - ID: "a8af1d23-dcf6-4f51-a50c-05259d1ae6e3"
+      Hint: ProductName
+      Value: Trent 800
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240403T002612Z

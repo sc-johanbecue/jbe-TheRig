@@ -1,0 +1,114 @@
+﻿---
+ID: "3d84b607-5a8d-48f5-bf40-60b09a39aead"
+Parent: "d468f5b5-fac7-4273-bfc4-0a8c26cc40f3"
+Template: "058d1faf-06aa-4ed1-9320-b06b3ff2de6a"
+Path: /sitecore/content/The Rig/The Rig/Data/Facts and Figures/Facts And Figures
+SharedFields:
+- ID: "06822a2b-ad0a-407b-b07b-79af6e01c514"
+  Hint: Fact1Figure
+  Value: +300K
+- ID: "739c46de-1564-41cb-b5aa-85fe12443d70"
+  Hint: Fact3Figure
+  Value: 800
+- ID: "7c24a0a6-e51e-4038-aa7a-7ef51852e02b"
+  Hint: Fact2Figure
+  Value: 3
+- ID: "a4d74a7c-03ed-4a9b-8d88-4b7123811af1"
+  Hint: Fact5Figure
+  Value: +70
+- ID: "a58f6829-eb30-42f2-85a0-d9275cae356f"
+  Hint: Fact4Figure
+  Value: 11
+Languages:
+- Language: "ar-SA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "045db4f4-a7f1-45a5-9685-979f84d63b07"
+      Hint: Fact5
+      Value: نشاط ترفيهي
+    - ID: "0e782fcf-0615-4ed1-84d1-75d1c1ce4509"
+      Hint: Fact3
+      Value: غرفة فندقية
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240318T052242Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\abdullah.zaher@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\abdullah.zaher@sitecore.com
+    - ID: "744a3165-b9f6-4c58-87d6-6e7e88909e02"
+      Hint: Fact1
+      Value: ألف متر مربع مساحة البناء
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "478b25d5-d142-43b9-bd0b-cda721fb1e65"
+    - ID: "affa03a5-ed65-4bee-b4b0-2aceb64e8ed9"
+      Hint: Fact4
+      Value: مطعم
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\abdullah.zaher@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240318T064609Z
+    - ID: "f4ad8295-f329-4601-bbf9-cd5d4ea66f9a"
+      Hint: Fact2
+      Value: فنادق
+    - ID: "f52259a2-d320-4621-9e49-83dcca786266"
+      Hint: Title
+      Value: أرقام وحقائق 
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "045db4f4-a7f1-45a5-9685-979f84d63b07"
+      Hint: Fact5
+      Value: Attractions Activities
+    - ID: "0e782fcf-0615-4ed1-84d1-75d1c1ce4509"
+      Hint: Fact3
+      Value: Hotel Rooms
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240315T134823Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "744a3165-b9f6-4c58-87d6-6e7e88909e02"
+      Hint: Fact1
+      Value: Gross floor area (m2)
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5b47f5f3-c57e-45e4-9e8a-f89ac63846a8"
+    - ID: "affa03a5-ed65-4bee-b4b0-2aceb64e8ed9"
+      Hint: Fact4
+      Value: Restaurants
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240318T101426Z
+    - ID: "f4ad8295-f329-4601-bbf9-cd5d4ea66f9a"
+      Hint: Fact2
+      Value: Hotels
+    - ID: "f52259a2-d320-4621-9e49-83dcca786266"
+      Hint: Title
+      Value: Fact And Figures

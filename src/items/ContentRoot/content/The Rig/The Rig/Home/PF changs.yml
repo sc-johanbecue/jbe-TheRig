@@ -1,0 +1,45 @@
+﻿---
+ID: "69aadee9-25fe-412a-a3e0-e7e765572e44"
+Parent: "87f7a673-116a-469b-af29-aeb2c8cb15d5"
+Template: "54d1cc61-22a3-4fab-8ae6-059a5e19487e"
+Path: /sitecore/content/The Rig/The Rig/Home/PF changs
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{64BD6C97-9BB4-4D4B-9645-AB3F42279B54}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240319T130422Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: PF changs
+    - ID: "505bce75-e9b7-493a-9c01-4d3d85982d3c"
+      Hint: OgTitle
+      Value: PF changs
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\abdullah.zaher@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\abdullah.zaher@sitecore.com
+    - ID: "6b628b8f-6d16-4f0f-a7f7-b8996adf19cf"
+      Hint: Title
+      Value: PF changs
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "26892f95-aa63-45a1-bfec-b8a06f1ff32e"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\abdullah.zaher@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240319T130422Z

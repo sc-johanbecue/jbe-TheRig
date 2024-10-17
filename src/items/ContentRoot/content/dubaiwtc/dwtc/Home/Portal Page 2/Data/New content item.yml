@@ -1,0 +1,34 @@
+﻿---
+ID: "83f1aa10-da15-46bb-b750-400aa01f02cf"
+Parent: "2f7c99bd-2509-4a3d-9b69-22b45d03f2ca"
+Template: "78af59f1-be34-472a-9df1-c2edba74733c"
+Path: /sitecore/content/dubaiwtc/dwtc/Home/Portal Page 2/Data/New content item
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241010T115353Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "89dfea40-f63b-4f04-bb84-8c45edc8f758"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241010T115353Z
+    - ID: "f125bdde-9190-4743-ac46-b1ee8eaaad19"
+      Hint: Title
+      Value: New content item

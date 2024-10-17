@@ -1,0 +1,42 @@
+﻿---
+ID: "149bc6bb-82c8-4558-8204-03f6d9f55111"
+Parent: "ab8da1cb-801f-4f66-abf0-9fbfcaf3319d"
+Template: "6e47f230-0a2b-43fb-b6fe-31ebaec53049"
+Path: /sitecore/content/The Rig/The Rig/Data/CTAs/Vendor registration
+SharedFields:
+- ID: "999decf8-0342-49f2-897c-dae04e9c3884"
+  Hint: Link
+  Value: |
+    <link text="Reach OUT" linktype="external" url="/" anchor="" class="css-1lzrdpk" target="" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240317T110357Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "55dc112b-27ab-4e47-b79f-09149b43ed5d"
+    - ID: "aae0a16e-4ce5-45f6-85c7-00daf48a6d99"
+      Hint: Title
+      Value: Vendor Registration
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d107bda8-2c79-4c70-b027-4e83d731d3d1"
+      Hint: Text
+      Value: Be part of the future of adventure tourism
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240317T110654Z

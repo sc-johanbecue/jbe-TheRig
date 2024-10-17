@@ -1,0 +1,52 @@
+﻿---
+ID: "957313f4-e249-4531-a187-3cf0e091ea0a"
+Parent: "6859aae1-c133-4461-a3bb-10d579c5861b"
+Template: "76da0a8d-fc7e-42b2-af1e-205b49e43f98"
+Path: /sitecore/content/Aldar/Aldar/Presentation/Available Renderings/Aldar
+BranchID: "209f458a-5f7c-4024-9bbb-c78ad6d21abc"
+SharedFields:
+- ID: "715ae6c0-71c8-4744-ab4f-65362d20ad65"
+  Hint: Renderings
+  Value: |
+    {DAA7C948-2FF4-4C0C-AEBA-BD53C9118303}
+    {38793120-6CCD-4E1A-90F8-F18E61BA3752}
+    {18874A44-EE21-49B1-9D28-41A878C7951A}
+    {1F101605-29EF-4B4A-BF1D-C4A7B0068BFC}
+    {56590EE7-6460-4D54-8382-DF1C204001AE}
+    {76732AFD-1130-4545-9C31-2FA8AB489E10}
+    {B38AEF1B-C379-4DD8-8212-2CDDA182D6F5}
+    {9EFC9831-49A9-4AF5-BACA-18697685D3E2}
+    {E1FC7DBA-C904-47B4-9605-F940837970BE}
+    {91C617C0-D080-4B9F-8A6A-5CEBAF61B911}
+    {E8D57D9C-F1F4-4F19-B6BF-C406035D3456}
+    {9BF849C3-CC1F-46FA-8F79-BC3EFDCA40E6}
+    {DEE1D07C-4B02-44E1-8EA4-2F2577BB3579}
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{EDD5B21F-2BD2-4290-81A2-68428363D312}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240321T102001Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "96498b59-5336-467c-9eb7-a5d636730e95"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240324T172654Z

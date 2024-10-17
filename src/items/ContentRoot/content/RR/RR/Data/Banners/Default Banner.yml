@@ -1,0 +1,44 @@
+﻿---
+ID: "41e662d8-af3e-4572-948a-e471832895da"
+Parent: "d11d214d-c8db-4408-be36-6f85583d5ab2"
+Template: "a800bceb-1b78-49a1-82ca-a34006395060"
+Path: /sitecore/content/RR/RR/Data/Banners/Default Banner
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240402T121657Z
+    - ID: "2b359c25-1d5b-4dd0-9a84-d42a5642d41b"
+      Hint: BannerImage
+      Value: |
+        <image mediaid="{AA64B891-5D74-4AAF-AE8B-B2C28A8F4189}" />
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "57a06cd7-cf9d-444d-a023-d2b69294a91b"
+      Hint: BannerBody
+      Value: |
+        Connecting the world through the Power of Trent
+        Leading the way in business aviation power
+        Enabling the transition to net zero flight
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "78772065-202a-40aa-b01f-f9b6c7d8461b"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d7b11484-4200-4dea-aabf-1f2a7d645e76"
+      Hint: BannerTitle
+      Value: Civil Aerospace
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240404T085704Z

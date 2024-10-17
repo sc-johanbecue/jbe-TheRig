@@ -1,0 +1,89 @@
+﻿---
+ID: "593a174e-9ab2-4684-b250-9ab89f285ff8"
+Parent: "b80b1fbb-a20f-4219-9580-a6458970fda3"
+Template: "23a017de-d158-4284-be4f-69cad6732ba6"
+Path: /sitecore/content/dubaiwtc/dwtc/Home/Portal
+BranchID: "45cf9f42-b3ac-4412-aab9-f8441c7e448e"
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{9A75EBEF-65E2-44CA-BCCC-B54428108D6F}" />
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{F558BEC9-C602-4D7A-B9A1-D0411C946EA4}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{0D310F3F-5AB9-4CEF-9DC6-8A376006115B}"
+              p:before="*"
+              s:ds="a463cd80-2449-452b-aa98-6fa82fc0a738"
+              s:id="{E3B05A80-EB7F-4333-B290-1A0A3D81B1F9}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
+              s:ph="/wrappermain/sxa-page/headless-main-0-1" />
+            <r
+              uid="{CA3FBED7-FC61-489A-A780-272EFBB2EEAD}"
+              p:after="r[@uid='{0D310F3F-5AB9-4CEF-9DC6-8A376006115B}']"
+              s:ds="fb351e09-433d-40df-b66f-3db1ffd56482"
+              s:id="{799D780C-4230-41EA-A193-6DF31219DAAF}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=2"
+              s:ph="/wrappermain/sxa-page/headless-main-0-1" />
+            <r
+              uid="{6C6B3E68-5ED0-4328-A9A6-A49287E22E28}"
+              p:after="r[@uid='{CA3FBED7-FC61-489A-A780-272EFBB2EEAD}']"
+              s:ds="3a81ed5f-27ef-4caf-99f6-5a6e0fb2f1de"
+              s:id="{EDA1D68E-3032-4AD8-858A-BAB0FC218B55}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=3"
+              s:ph="/wrappermain/sxa-page/headless-main-0-1" />
+            <r
+              uid="{03356A5A-86D8-403D-AF6E-BB71542ACCA5}"
+              p:after="*[1=2]"
+              s:ds="23b7ccfd-6f08-483b-b1cc-b8c546c883de"
+              s:id="{EBA4BDC7-16C0-4756-A4EB-7FC08AE5A68B}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=4"
+              s:ph="/wrappermain/sxa-page/headless-main-0-1" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241008T145915Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: dwtc
+    - ID: "505bce75-e9b7-493a-9c01-4d3d85982d3c"
+      Hint: OgTitle
+      Value: Home
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5fce459a-c3a2-4513-ae16-25f6a6371569"
+      Hint: Title
+      Value: dwtc
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b71d1a23-135e-4b11-af31-55395a0e43e6"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241010T022112Z

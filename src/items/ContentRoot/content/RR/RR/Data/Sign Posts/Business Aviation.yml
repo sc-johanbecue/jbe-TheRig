@@ -1,0 +1,45 @@
+﻿---
+ID: "7f67755b-ee32-4ce2-a8bd-308667a5430e"
+Parent: "af94436b-5558-4f93-8a55-5b1973460801"
+Template: "0a5236f7-db28-4b5d-ae2a-67afd47a4510"
+Path: /sitecore/content/RR/RR/Data/Sign Posts/Business Aviation
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "07806083-0b8d-4c57-a5df-5626c858ba80"
+      Hint: Text
+      Value: "Over the last six decades we have become the world's leading engine supplier in business aviation, powering some of the largest, fastest and longest-range business jets available."
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240402T130100Z
+    - ID: "2f2c3720-cc13-41a2-8027-1d0743a8d2b2"
+      Hint: Title
+      Value: Business Aviation
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "dec892d8-1562-4f63-81cf-054d134a16be"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d67604ce-1749-48c4-b117-b819cbcb8ba5"
+      Hint: Image
+      Value: |
+        <image mediaid="{6C936593-A46C-4822-83C9-4354FCDA9457}" />
+    - ID: "d78d6c36-67de-4031-8378-f7f67e192aee"
+      Hint: Cta
+      Value: |
+        <link text="LEARN MORE" linktype="external" url="https://www.rolls-royce.com/products-and-services/civil-aerospace/business-aviation.aspx" anchor="" class="attachment-link" target="" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240402T135313Z

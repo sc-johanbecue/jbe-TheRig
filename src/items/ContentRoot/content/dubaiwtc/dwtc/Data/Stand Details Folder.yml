@@ -1,0 +1,31 @@
+﻿---
+ID: "c03694f2-bc89-4cb0-984b-1929f9ef28d9"
+Parent: "2c0a49f6-9454-4f4e-9e4a-7a5198566a47"
+Template: "6b834e99-aa1b-4aa6-a280-bc0942d9885b"
+Path: /sitecore/content/dubaiwtc/dwtc/Data/Stand Details Folder
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241009T093550Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "96302a25-5670-4a85-b9ff-272207e28e1a"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241009T093550Z

@@ -95,7 +95,7 @@ export const Default = (props: TheRigFooterProps): JSX.Element => {
                   About THE RIG.
                 </Link>
                 <Link className="top css-10frtmk" href="/press/">
-                  Press
+                  Press1234
                 </Link>
               </div>
               <style data-emotion="css jqavj3">{`.css-jqavj3{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:start;-ms-flex-pack:start;-webkit-justify-content:start;justify-content:start;border-radius:2px;}.css-jqavj3 .disable{opacity:0.4;background:#777!important;}@media screen and (max-width: 899px){.css-jqavj3{-webkit-box-pack:start;-ms-flex-pack:start;-webkit-justify-content:start;justify-content:start;margin-bottom:40px;}}.css-jqavj3 .disable:hover .toolTip{visibility:visible;}`}</style>

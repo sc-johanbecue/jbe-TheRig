@@ -1,0 +1,40 @@
+﻿---
+ID: "1050ff1e-438c-42e2-9e9e-2fa4cf50c347"
+Parent: "062ba532-9f7a-488e-a665-6e15c8853131"
+Template: "78014339-36f9-41ac-a2ee-99dc73bfe9d7"
+Path: /sitecore/content/Aldar/Aldar/Data/Facts/Facts
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240324T172230Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "89c54809-92bb-477f-a68b-e5d133924eb9"
+      Hint: Fact3Value
+      Value: 600,000+
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4fb73128-ac5d-41bc-8aab-ff8d89856082"
+    - ID: "9e30c4d2-4366-4c0b-affa-de554411c36c"
+      Hint: Fact4Value
+      Value: 3000
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\abdullah.zaher@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240614T073609Z

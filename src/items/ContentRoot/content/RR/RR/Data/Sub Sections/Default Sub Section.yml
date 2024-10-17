@@ -1,0 +1,45 @@
+﻿---
+ID: "2aeb8a40-e9df-4967-ad4d-ed85d7bbe3eb"
+Parent: "39b98ec9-8f94-4c46-8a6f-724b2fe0a99d"
+Template: "ccfb6bdf-c088-4438-a0ff-0ad7c88bea47"
+Path: /sitecore/content/RR/RR/Data/Sub Sections/Default Sub Section
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "05134c9f-a39c-43f3-86c0-168ab29f6155"
+      Hint: Cta
+      Value: |
+        <link text="READ MORE" linktype="external" url="https://www.rolls-royce.com/products-and-services/civil-aerospace/future-products.aspx" anchor="" class="font18links mixbold fw-para-link" target="" />
+    - ID: "1947f6ae-9f59-465a-9792-2e0353b54eb0"
+      Hint: Text
+      Value: "Our engines are hugely competitive in today's market, but to keep pace with ever-changing, global demands, we know our future generation of engines need to be led by constant, thoughtful innovation."
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240402T230620Z
+    - ID: "282ad4c9-8052-4691-b8ee-d96a39150ffc"
+      Hint: Image
+      Value: |
+        <image mediaid="{5AC6876F-3C27-44C3-88A4-479BE3591628}" />
+    - ID: "38fc7e9d-afcb-4d2f-8953-42766eb85c6c"
+      Hint: Title
+      Value: Technology Development
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "298d88ae-dfa8-4d03-b32c-2cd06a90febb"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240402T231409Z

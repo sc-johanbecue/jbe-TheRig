@@ -1,0 +1,82 @@
+﻿---
+ID: "f4019ff5-32e4-4f05-9b67-f0e160640ceb"
+Parent: "9e75c7e4-93ab-4f6e-ae85-ee33cbc92600"
+Template: "16d95290-e9de-484a-93ae-c1fa232e6a6b"
+Path: /sitecore/content/The Rig/The Rig/Data/Intros/Intro
+Languages:
+- Language: "ar-SA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240318T051907Z
+    - ID: "328367bd-95c7-4e11-948e-fbeddb46362d"
+      Hint: CtaText
+      Value: اشترك
+    - ID: "3c572469-776d-468b-9014-42ca1e040eda"
+      Hint: Image
+      Value: |
+        <image mediaid="d607e459-470e-4880-a08e-ebbc574f969f" />
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\abdullah.zaher@sitecore.com
+    - ID: "590616a1-559a-4b6f-a7a0-73ca36f98309"
+      Hint: Text
+      Value: <p>أول مطعم عائم. في الدمام</p><p>أول وجهة سياحية في العالم على منصة بحرية مستوحى طرازُها وتصميمُها من منصات النفط البحرية</p>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\abdullah.zaher@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9c0e5c19-5f2e-4f7b-b35a-f6dbaf7419cd"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\abdullah.zaher@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240319T123817Z
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240314T232245Z
+    - ID: "328367bd-95c7-4e11-948e-fbeddb46362d"
+      Hint: CtaText
+      Value: BOOK NOW
+    - ID: "3c572469-776d-468b-9014-42ca1e040eda"
+      Hint: Image
+      Value: |
+        <image mediaid="105c2e76-d9ca-44d5-b894-64739bea61de" />
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "590616a1-559a-4b6f-a7a0-73ca36f98309"
+      Hint: Text
+      Value: <p>The first Michelin star restaurant</p><p>on an offshore platform</p>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "13506ba1-0d07-4c8a-a93a-697182181936"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240408T123728Z

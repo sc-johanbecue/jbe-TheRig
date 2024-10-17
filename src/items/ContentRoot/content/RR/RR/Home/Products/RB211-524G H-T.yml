@@ -1,0 +1,87 @@
+﻿---
+ID: "4bab4ac3-4e9f-40cd-a9c4-d225f4b6c1a2"
+Parent: "4d7b1d66-6ef3-4df4-9a1f-692dd269b5de"
+Template: "350a3688-00c7-4407-99bb-5b28b80bf599"
+Path: "/sitecore/content/RR/RR/Home/Products/RB211-524G H-T"
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{E29AE514-FF65-4EB1-BB2E-A657A5030913}"
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{02E8697F-548B-4876-AEE2-C1A4C977F6C2}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{95CAC5D3-6A0B-4567-A81B-A22D5E2B4BB3}"
+              p:before="*"
+              s:ds="4bab4ac3-4e9f-40cd-a9c4-d225f4b6c1a2"
+              s:id="{4B4C8553-468E-478D-9E0C-79EB5BCBE706}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
+              s:ph="headless-main" />
+            <r
+              uid="{F009A975-1DF4-4637-981E-B83D521B1048}"
+              p:after="*[1=2]"
+              s:ds="local:/Data/Default Catalog Page"
+              s:id="{AACABAB3-8F0C-4862-AAE1-C63CBDB7E150}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;NumberProducts=12&amp;NumberProductsPerGrid=3&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=2"
+              s:ph="headless-main" />
+          </d>
+        </r>
+    - ID: "1a6006e9-2bb5-4722-b3f6-3f9f02b1a153"
+      Hint: BannerParaphrase
+      Value: |
+        Providing power to the Boeing 747 and 767.
+        
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240402T221735Z
+    - ID: "26f1dd3b-59a3-403c-bc27-fd5b6c0dddf4"
+      Hint: BannerImage
+      Value: |
+        <image mediaid="49ef8710-3364-4431-9e3c-36088055e916" />
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "892d3640-cc7a-4cf5-8721-5329f2e25cdd"
+      Hint: Image
+      Value: |
+        <image mediaid="{6BE813E3-E98A-4DED-B0DC-2D654044C89F}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "837509bc-4b7d-4c6a-9351-51b9d5e021f5"
+    - ID: "a8af1d23-dcf6-4f51-a50c-05259d1ae6e3"
+      Hint: ProductName
+      Value: "RB211-524G/H & -T"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johan.becue@sitecore.com
+    - ID: "cf979028-0803-4c1e-bd74-ffa7dbbfc563"
+      Hint: BannerBody
+      Value: "<p>The RB211-524G/H&amp;-T engine powers over 75 aircraft in service today and is the first engine ever to achieve more than 27,500 hours on-wing.</p>"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240403T112636Z
+    - ID: "f401babc-2f0f-419c-9abb-18350cd2c04f"
+      Hint: BannerTitle
+      Value: The foundation for the Trent family  
