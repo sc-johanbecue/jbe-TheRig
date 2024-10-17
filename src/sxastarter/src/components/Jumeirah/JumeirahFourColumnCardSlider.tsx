@@ -19,7 +19,7 @@ type Props = {
   fields: Fields;
 };
 
-const JumeirahFooter = (props: Props): JSX.Element => {
+const JumeirahFourColumnCardSlider = (props: Props): JSX.Element => {
   const cardSliderPlaceholderKey = `cardSlider-${props.params.DynamicPlaceholderId}`;
   return (
     <div className="full-bleed-rd FourColumnCardSlider  container-fluid">
@@ -43,4 +43,4 @@ const JumeirahFooter = (props: Props): JSX.Element => {
   );
 };
 
-export default JumeirahFooter;
+export default JumeirahFourColumnCardSlider;

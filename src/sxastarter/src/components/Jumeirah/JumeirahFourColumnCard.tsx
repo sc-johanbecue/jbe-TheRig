@@ -14,6 +14,7 @@ interface Fields {
   Tagline: LinkField;
   Title: TextField;
   Text: TextField;
+  Link: LinkField;
 }
 
 type Props = {
@@ -21,7 +22,7 @@ type Props = {
   fields: Fields;
 };
 
-const JumeirahFooter = (props: Props): JSX.Element => {
+const JumeirahFourColumnCard = (props: Props): JSX.Element => {
   return (
     <div className="d-sm-flex justify-content-sm-center">
       <div
@@ -94,4 +95,4 @@ const JumeirahFooter = (props: Props): JSX.Element => {
   );
 };
 
-export default JumeirahFooter;
+export default JumeirahFourColumnCard;
