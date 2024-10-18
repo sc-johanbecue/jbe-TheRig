@@ -205,16 +205,14 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
         <noscript>You need to enable JavaScript to run this app.</noscript>
         <div id="root" className={mainClassPageEditing}>
           <div className=" container-fluid   false home      ">
-            {route && <Placeholder name="headless-header" rendering={route} />}
+            <div className="  ">
+              {route && <Placeholder name="headless-header" rendering={route} />}
+            </div>
             <div className="  ">
               {route && <Placeholder name="headless-main" rendering={route} />}
             </div>
-            <div>
-              <footer className="full-bleed-rd FooterSection">
-                <div id="footer">
-                  {route && <Placeholder name="headless-footer" rendering={route} />}
-                </div>
-              </footer>
+            <div className="  ">
+              {route && <Placeholder name="headless-footer" rendering={route} />}
             </div>
           </div>
         </div>
