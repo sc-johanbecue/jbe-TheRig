@@ -204,10 +204,11 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
         <script>{`if(self==top){var theBody=document.getElementsByTagName("body")[0];theBody.style.display="block"}else top.location=self.location`}</script>
         <noscript>You need to enable JavaScript to run this app.</noscript>
         <div id="root" className={mainClassPageEditing}>
-          <div className=" container-fluid   false home      ">
+          <div className=" container-fluid desktop-device false home">
             <div className="  ">
               {route && <Placeholder name="headless-header" rendering={route} />}
             </div>
+            <div className="  "></div>
             <div className="  ">
               {route && <Placeholder name="headless-main" rendering={route} />}
             </div>
