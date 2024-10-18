@@ -222,9 +222,6 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
             </div>
             <div className="  "></div>
             <div className="  ">
-
-             
-
               {route && <Placeholder name="headless-main" rendering={route} />}
             </div>
             <div>
