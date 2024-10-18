@@ -13,6 +13,7 @@ import {
 } from '@sitecore-jss/sitecore-jss-nextjs';
 import config from 'temp/config';
 import Scripts from 'src/Scripts';
+import Link from 'next/link';
 
 // Prefix public assets with a public URL to enable compatibility with Sitecore Experience Editor.
 // If you're not supporting the Experience Editor, you can remove this.
@@ -200,12 +201,12 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                         />
                       </div>
                       <div className="jum-logo">
-                        <a href="/en">
+                        <Link href="/en">
                           <img
                             src="https://cdn.jumeirah.com/-/mediadh/dh/hospitality/jumeirah/logo/redesign/jumeirah_logo_whitesvg.svg?modified=20240428154803"
                             alt=""
                           />
-                        </a>
+                        </Link>
                       </div>
                       <div className="action-items d-flex items-center">
                         <div className="items nav-bar ">
@@ -230,7 +231,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                 role="menuitem"
                                 className="dropdown-item"
                               >
-                                <a>العربـية</a>
+                                <Link href="">العربـية</Link>
                               </button>
                               <button
                                 type="button"
@@ -238,7 +239,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                 role="menuitem"
                                 className="dropdown-item"
                               >
-                                <a></a>
+                                <Link href=""></Link>
                               </button>
                               <button
                                 type="button"
@@ -246,7 +247,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                 role="menuitem"
                                 className="dropdown-item"
                               >
-                                <a>Deutsch</a>
+                                <Link href="">Deutsch</Link>
                               </button>
                               <button
                                 type="button"
@@ -254,7 +255,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                 role="menuitem"
                                 className="dropdown-item"
                               >
-                                <a>Français</a>
+                                <Link href="">Français</Link>
                               </button>
                               <button
                                 type="button"
@@ -262,7 +263,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                 role="menuitem"
                                 className="dropdown-item"
                               >
-                                <a>Русский</a>
+                                <Link href="">Русский</Link>
                               </button>
                               <button
                                 type="button"
@@ -270,7 +271,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                 role="menuitem"
                                 className="dropdown-item"
                               >
-                                <a>简体中文</a>
+                                <Link href="">简体中文</Link>
                               </button>
                               <button
                                 type="button"
@@ -278,7 +279,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                 role="menuitem"
                                 className="dropdown-item"
                               >
-                                <a>Español</a>
+                                <Link href="">Español</Link>
                               </button>
                               <button
                                 type="button"
@@ -286,7 +287,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                 role="menuitem"
                                 className="dropdown-item"
                               >
-                                <a>Italiano</a>
+                                <Link href="">Italiano</Link>
                               </button>
                               <button
                                 type="button"
@@ -294,7 +295,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                 role="menuitem"
                                 className="dropdown-item"
                               >
-                                <a>Indonesian</a>
+                                <Link href="">Indonesian</Link>
                               </button>
                             </div>
                           </div>
@@ -332,12 +333,12 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                     <div className="secondary-header">
                       <ul className="SecondaryNavRD navbar-nav">
                         <li className="nav-item">
-                          <a href="/en/stay" target="" title="" rel="" className="nav-link">
+                          <Link href="/en/stay" target="" title="" rel="" className="nav-link">
                             <span className="list-item ">Hotels &amp; Resorts</span>
-                          </a>
+                          </Link>
                         </li>
                         <li className="nav-item">
-                          <a
+                          <Link
                             href="/en/suites-and-villas"
                             target=""
                             title=""
@@ -345,15 +346,21 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                             className="nav-link"
                           >
                             <span className="list-item ">Suites &amp; Villas</span>
-                          </a>
+                          </Link>
                         </li>
                         <li className="nav-item">
-                          <a href="/en/dine/listing" target="" title="" rel="" className="nav-link">
+                          <Link
+                            href="/en/dine/listing"
+                            target=""
+                            title=""
+                            rel=""
+                            className="nav-link"
+                          >
                             <span className="list-item ">Dining</span>
-                          </a>
+                          </Link>
                         </li>
                         <li className="nav-item">
-                          <a
+                          <Link
                             href="/en/rejuvenate/listing"
                             target=""
                             title=""
@@ -361,10 +368,10 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                             className="nav-link"
                           >
                             <span className="list-item ">Well-being</span>
-                          </a>
+                          </Link>
                         </li>
                         <li className="nav-item">
-                          <a
+                          <Link
                             href="/en/article/inspiration"
                             target=""
                             title=""
@@ -372,15 +379,15 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                             className="nav-link"
                           >
                             <span className="list-item ">Inspiration</span>
-                          </a>
+                          </Link>
                         </li>
                         <li className="nav-item">
-                          <a href="/en/offers" target="" title="" rel="" className="nav-link">
+                          <Link href="/en/offers" target="" title="" rel="" className="nav-link">
                             <span className="list-item ">Exclusive Offers</span>
-                          </a>
+                          </Link>
                         </li>
                         <li className="nav-item">
-                          <a
+                          <Link
                             href="/en/events/listing"
                             target=""
                             title=""
@@ -388,12 +395,18 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                             className="nav-link"
                           >
                             <span className="list-item ">Events</span>
-                          </a>
+                          </Link>
                         </li>
                         <li className="nav-item">
-                          <a href="/en/guest-user" target="" title="" rel="" className="nav-link">
+                          <Link
+                            href="/en/guest-user"
+                            target=""
+                            title=""
+                            rel=""
+                            className="nav-link"
+                          >
                             <span className="list-item ">Jumeirah One</span>
-                          </a>
+                          </Link>
                         </li>
                       </ul>
                     </div>
