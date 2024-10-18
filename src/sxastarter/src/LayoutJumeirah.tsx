@@ -11,6 +11,7 @@ import {
   Field,
   HTMLLink,
   ImageField,
+  useSitecoreContext,
 } from '@sitecore-jss/sitecore-jss-nextjs';
 import config from 'temp/config';
 import Scripts from 'src/Scripts';
@@ -37,11 +38,14 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
   const fields = route?.fields as RouteFields;
   const isPageEditing = layoutData.sitecore.context.pageEditing;
   const mainClassPageEditing = isPageEditing ? 'editing-mode' : 'prod-mode';
+  const { sitecoreContext } = useSitecoreContext();
+  const lang = sitecoreContext.language || 'en'; // Default to 'en'
 
   return (
     <>
       <Scripts />
       <Head>
+        <html lang={lang} />
         <title>{fields?.Title?.value?.toString() || 'Page'}</title>
         <link rel="icon" href={`${publicUrl}/favicon.ico`} />
         {headLinks.map((headLink) => (
