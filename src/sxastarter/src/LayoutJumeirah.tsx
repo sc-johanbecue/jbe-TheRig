@@ -3,7 +3,7 @@
 /**
  * This Layout is needed for Starter Kit.
  */
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import Head from 'next/head';
 import {
   Placeholder,
@@ -38,6 +38,23 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
   const fields = route?.fields as RouteFields;
   const isPageEditing = layoutData.sitecore.context.pageEditing;
   const mainClassPageEditing = isPageEditing ? 'editing-mode' : 'prod-mode';
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const offset = window.scrollY;
+      if (offset > 0) {
+        setScrolled(true);
+      } else {
+        setScrolled(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
 
   return (
     <>
@@ -217,7 +234,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
             <div className="  ">
               <div className="HeaderSection w-100 p-0 index-4 ">
                 <div>
-                  <div className="main-header " style={{ display: 'block' }}>
+                  <div className={`main-header ${scrolled ? 'd-none' : ''}`}>
                     <div className="primary-header">
                       <div className="menu-icon d-block d-md-none">
                         <img
@@ -444,7 +461,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                       </ul>
                     </div>
                   </div>
-                  <div className="mini-nav ">
+                  <div className={`mini-nav ${scrolled ? '' : 'd-none'}`}>
                     <div className="items left-section">
                       <div className="menu-icon">
                         <img
