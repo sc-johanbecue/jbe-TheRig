@@ -479,12 +479,12 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                       </div>
                     </div>
                     <div className="jum-logo items">
-                      <a href="/en">
+                      <Link href="/en">
                         <img
                           src="https://www.jumeirah.com/static/media/black-beacon.f364eac28bc599f89fb6.png"
                           alt="logo"
                         />
-                      </a>
+                      </Link>
                     </div>
                     <div className="right-aligned-items">
                       <div className="items-wraper">
