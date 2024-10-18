@@ -37,7 +37,6 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
   const fields = route?.fields as RouteFields;
   const isPageEditing = layoutData.sitecore.context.pageEditing;
   const mainClassPageEditing = isPageEditing ? 'editing-mode' : 'prod-mode';
-  const direction = layoutData.sitecore.context.language === 'ar-SA' ? 'rtl' : 'ltr';
 
   return (
     <>
@@ -171,13 +170,13 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
       </Head>
 
       {/* root placeholder for the app, which we add components to using route data */}
-      <div className={mainClassPageEditing} dir={direction}>
+      <div className={mainClassPageEditing}>
         <header>
           <div id="header">{route && <Placeholder name="headless-header" rendering={route} />}</div>
         </header>
       </div>
 
-      <body dir={direction}>
+      <body>
         <script>{`if(self==top){var theBody=document.getElementsByTagName("body")[0];theBody.style.display="block"}else top.location=self.location`}</script>
         <noscript>You need to enable JavaScript to run this app.</noscript>
         <div id="root">
@@ -416,11 +415,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
               </div>
             </div>
             <div className="  ">
-              <div
-                className="full-bleed-rd HeroBannerWithVideo   
-   "
-                id="HeroBannerWithVideo"
-              >
+              <div className="full-bleed-rd HeroBannerWithVideo" id="HeroBannerWithVideo">
                 <div
                   className="video-background"
                   style={{
@@ -438,9 +433,8 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                       src="https://player.vimeo.com/video/941512408?autoplay=1&amp;loop=1&amp;title=0&amp;byline=0&amp;portrait=0&amp;muted=true&amp;dnt=true&amp;background=1"
                       frameBorder="0"
                       allowFullScreen
-                      title="Jumeirah"
+                      title=""
                       loading="lazy"
-                      data-ready="true"
                     ></iframe>
                   </div>
                 </div>
