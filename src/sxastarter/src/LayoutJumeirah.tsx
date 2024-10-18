@@ -196,9 +196,9 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
         <style>{`df-messenger{--df-messenger-button-titlebar-color:#9f9258;--df-messenger-chat-backgroundColor:#e2e2e2;--df-messenger-user-message:#f4f29d;--df-messenger-send-icon:#c5a61d}`}</style>
         <script defer src="https://www.jumeirah.com/static/js/main.e3277042.js"></script>
         <link href="https://www.jumeirah.com/static/css/main.8838062d.css" rel="stylesheet" />
-        <script>{`(window.BOOMR_mq=window.BOOMR_mq||[]).push(["addVar",{"rua.upush":"false","rua.cpush":"false","rua.upre":"false","rua.cpre":"false","rua.uprl":"false","rua.cprl":"false","rua.cprf":"false","rua.trans":"","rua.cook":"false","rua.ims":"false","rua.ufprl":"false","rua.cfprl":"false","rua.isuxp":"false","rua.texp":"norulematch","rua.ceh":"false","rua.ueh":"false","rua.ieh.st":"0"}]);`}</script>
+        <script>{`(window.BOOMR_mq=window.BOOMR_mq||[]).push(["addVar",{"rua.upush":"false","rua.cpush":"false","rua.upre":"false","rua.cpre":"false","rua.uprl":"false","rua.cprl":"false","rua.cprf":"false","rua.trans":"","rua.cook":"false","rua.ims":"false","rua.ufprl":"false","rua.cfprl":"false","rua.isuxp":"false","rua.texp":"norulematch","rua.ceh":"false","rua.ueh":"false","rua.ieh.st":{0}}]);`}</script>
         <script>
-          {`!function(e){var n="https://s.go-mpulse.net/boomerang/";if("False"=="True")e.BOOMR_config=e.BOOMR_config||{},e.BOOMR_config.PageParams=e.BOOMR_config.PageParams||{},e.BOOMR_config.PageParams.pci=!0,n="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="HNHQ2-3S8S4-AT4WB-V2SXU-YRK89",function(){function e(){if(!r){var e=document.createElement("script");e.id="boomr-scr-as",e.src=window.BOOMR.url,e.async=!0,o.appendChild(e),r=!0}}function t(e){r=!0;var n,t,a,i,d=document,O=window;if(window.BOOMR.snippetMethod=e?"if":"i",t=function(e,n){var t=d.createElement("script");t.id=n||"boomr-if-as",t.src=window.BOOMR.url,BOOMR_lstart=(new Date).getTime(),e=e||d.body,e.appendChild(t)},!window.addEventListener&&window.attachEvent&&navigator.userAgent.match(/MSIE [67]\./))return window.BOOMR.snippetMethod="s",void t(o,"boomr-async");a=document.createElement("IFRAME"),a.src="about:blank",a.title="",a.role="presentation",a.loading="eager",i=(a.frameElement||a).style,i.width=0,i.height=0,i.border=0,i.display="none",o.appendChild(a);try{O=a.contentWindow,d=O.document.open()}catch(_){n=document.domain,a.src="javascript:var d=document.open();d.domain='"+n+"';void 0;",O=a.contentWindow,d=O.document.open()}if(n)d._boomrl=function(){this.domain=n,t()},d.write("<bo"+"dy onload='document._boomrl();'>");else if(O._boomrl=function(){t()},O.addEventListener)O.addEventListener("load",O._boomrl,!1);else if(O.attachEvent)O.attachEvent("onload",O._boomrl);d.close()}function a(e){window.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!window.BOOMR||!window.BOOMR.version&&!window.BOOMR.snippetExecuted){window.BOOMR=window.BOOMR||{},window.BOOMR.snippetStart=(new Date).getTime(),window.BOOMR.snippetExecuted=!0,window.BOOMR.snippetVersion=14,window.BOOMR.url=n+"HNHQ2-3S8S4-AT4WB-V2SXU-YRK89";var i=document.currentScript||document.getElementsByTagName("script")[0],o=i.parentNode,r=!1,d=document.createElement("link");if(d.relList&&"function"==typeof d.relList.supports&&d.relList.supports("preload")&&"as"in d)window.BOOMR.snippetMethod="p",d.href=window.BOOMR.url,d.rel="preload",d.as="script",d.addEventListener("load",e),d.addEventListener("error",function(){t(!0)}),setTimeout(function(){if(!r)t(!0)},3e3),BOOMR_lstart=(new Date).getTime(),o.appendChild(d);else t(!1);if(window.addEventListener)window.addEventListener("load",a,!1);else if(window.attachEvent)window.attachEvent("onload",a)}}(),"".length>0)if(e&&"performance"in e&&e.performance&&"function"==typeof e.performance.setResourceTimingBufferSize)e.performance.setResourceTimingBufferSize();!function(){if(BOOMR=e.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var n=""=="true"?1:0,t="",a="2b725raxfvwcmzyqzsuq-f-d47393f0e-clientnsv4-s.akamaihd.net",i="false"=="true"?2:1,o={"ak.v":"39","ak.cp":"268163","ak.ai":parseInt("165976",10),"ak.ol":"0","ak.cr":42,"ak.ipv":4,"ak.proto":"h2","ak.rid":"120a58c2","ak.r":40610,"ak.a2":n,"ak.m":"dsca","ak.n":"essl","ak.bpcip":"208.127.174.0","ak.cport":41010,"ak.gh":"23.67.40.33","ak.quicv":"","ak.tlsv":"tls1.3","ak.0rtt":"","ak.0rtt.ed":"","ak.csrc":"-","ak.acc":"","ak.t":"1729154217","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==t1Ryut3uHZwvHDb32Wn3kx6TR3RIz0HlxUSpZZX+zeTC5XDLVnKqWCoKJ8qDUTtuYpPEKNLPVp95pJ4wN97cr1+BJTqSHgAdJm/0z1uH7FT5bueD+y5ZV7XZLI/v/b7dJGQcUzkELQrmKzcDIGt5DHW/AYjgxW/3ORiFhaxDDVk5TdadQjtX0pAThM7w4CniZKL8Jyp/dNYQ/Q9HxdchCS9d505rMeZbTBUMPrT5NZVFrK9FDZElfy9bsutZ5t1waUKz21FcFOxGJcH5QNouxXSN0CHJk1wVbdFiP5ouEgHj2n4T8ff68rNrxAQp8O/GWCEyTXO/+tgk3PTJDdHZq9xaj+JEklwOGORD37va2dIOv3RABxk/noKuj2ClNWgwHK62PZAu1I+CHCc0xtIWBKvMM0M9H54eL8y9+2OKwF0=","ak.pv":"174","ak.dpoabenc":"","ak.tf":i};if(""!==t)o["ak.ruds"]=t;var r={i:!1,av:function(n){var t="http.initiator";if(n&&(!n[t]||"spa_hard"===n[t]))o["ak.feo"]=void 0!==e.aFeoApplied?1:0,BOOMR.addVar(o)},rv:function(){var e=["ak.bpcip","ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.0rtt.ed","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(e)}};BOOMR.plugins.AK={akVars:o,akDNSPreFetchDomain:a,init:function(){if(!r.i){var e=BOOMR.subscribe;e("before_beacon",r.av,null,null),e("onbeacon",r.rv,null,null),r.i=!0}return this},is_complete:function(){return!0}}}}()}(window);`}
+          {`!function(e){var n="https://s.go-mpulse.net/boomerang/";if("False"=="True")e.BOOMR_config=e.BOOMR_config||{},e.BOOMR_config.PageParams=e.BOOMR_config.PageParams||{},e.BOOMR_config.PageParams.pci=!0,n="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="HNHQ2-3S8S4-AT4WB-V2SXU-YRK89",function(){function e(){if(!r){var e=document.createElement("script");e.id="boomr-scr-as",e.src=window.BOOMR.url,e.async=!0,o.appendChild(e),r=!0}}function t(e){r=!0;var n,t,a,i,d=document,O=window;if(window.BOOMR.snippetMethod=e?"if":"i",t=function(e,n){var t=d.createElement("script");t.id=n||"boomr-if-as",t.src=window.BOOMR.url,BOOMR_lstart=(new Date).getTime(),e=e||d.body,e.appendChild(t)},!window.addEventListener&&window.attachEvent&&navigator.userAgent.match(/MSIE [67]\./))return window.BOOMR.snippetMethod="s",void t(o,"boomr-async");a=document.createElement("IFRAME"),a.src="about:blank",a.title="",a.role="presentation",a.loading="eager",i=(a.frameElement||a).style,i.width=0,i.height=0,i.border=0,i.display="none",o.appendChild(a);try{O=a.contentWindow,d=O.document.open()}catch(_){n=document.domain,a.src="javascript:var d=document.open();d.domain='"+n+"';void 0;",O=a.contentWindow,d=O.document.open()}if(n)d._boomrl=function(){this.domain=n,t()},d.write("<bo"+"dy onload='document._boomrl();'>");else if(O._boomrl=function(){t()},O.addEventListener)O.addEventListener("load",O._boomrl,!1);else if(O.attachEvent)O.attachEvent("onload",O._boomrl);d.close()}function a(e){window.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!window.BOOMR||!window.BOOMR.version&&!window.BOOMR.snippetExecuted){window.BOOMR=window.BOOMR||{},window.BOOMR.snippetStart=(new Date).getTime(),window.BOOMR.snippetExecuted=!0,window.BOOMR.snippetVersion=14,window.BOOMR.url=n+"HNHQ2-3S8S4-AT4WB-V2SXU-YRK89";var i=document.currentScript||document.getElementsByTagName("script")[0],o=i.parentNode,r=!1,d=document.createElement("link");if(d.relList&&"function"==typeof d.relList.supports&&d.relList.supports("preload")&&"as"in d)window.BOOMR.snippetMethod="p",d.href=window.BOOMR.url,d.rel="preload",d.as="script",d.addEventListener("load",e),d.addEventListener("error",function(){t(!0)}),setTimeout(function(){if(!r)t(!0)},3e3),BOOMR_lstart=(new Date).getTime(),o.appendChild(d);else t(!1);if(window.addEventListener)window.addEventListener("load",a,!1);else if(window.attachEvent)window.attachEvent("onload",a)}}(),"".length>0)if(e&&"performance"in e&&e.performance&&"function"==typeof e.performance.setResourceTimingBufferSize)e.performance.setResourceTimingBufferSize();!function(){if(BOOMR=e.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var n=""=="true"?1:0,t="",a="2b725raxfvwcmzyqzsuq-f-d47393f0e-clientnsv4-s.akamaihd.net",i="false"=="true"?2:1,o={"ak.v":"39","ak.cp":"268163","ak.ai":parseInt("165976",10),"ak.ol":{0},"ak.cr":42,"ak.ipv":4,"ak.proto":"h2","ak.rid":"120a58c2","ak.r":40610,"ak.a2":n,"ak.m":"dsca","ak.n":"essl","ak.bpcip":"208.127.174.0","ak.cport":41010,"ak.gh":"23.67.40.33","ak.quicv":"","ak.tlsv":"tls1.3","ak.0rtt":"","ak.0rtt.ed":"","ak.csrc":"-","ak.acc":"","ak.t":"1729154217","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==t1Ryut3uHZwvHDb32Wn3kx6TR3RIz0HlxUSpZZX+zeTC5XDLVnKqWCoKJ8qDUTtuYpPEKNLPVp95pJ4wN97cr1+BJTqSHgAdJm/0z1uH7FT5bueD+y5ZV7XZLI/v/b7dJGQcUzkELQrmKzcDIGt5DHW/AYjgxW/3ORiFhaxDDVk5TdadQjtX0pAThM7w4CniZKL8Jyp/dNYQ/Q9HxdchCS9d505rMeZbTBUMPrT5NZVFrK9FDZElfy9bsutZ5t1waUKz21FcFOxGJcH5QNouxXSN0CHJk1wVbdFiP5ouEgHj2n4T8ff68rNrxAQp8O/GWCEyTXO/+tgk3PTJDdHZq9xaj+JEklwOGORD37va2dIOv3RABxk/noKuj2ClNWgwHK62PZAu1I+CHCc0xtIWBKvMM0M9H54eL8y9+2OKwF0=","ak.pv":"174","ak.dpoabenc":"","ak.tf":i};if(""!==t)o["ak.ruds"]=t;var r={i:!1,av:function(n){var t="http.initiator";if(n&&(!n[t]||"spa_hard"===n[t]))o["ak.feo"]=void 0!==e.aFeoApplied?1:0,BOOMR.addVar(o)},rv:function(){var e=["ak.bpcip","ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.0rtt.ed","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(e)}};BOOMR.plugins.AK={akVars:o,akDNSPreFetchDomain:a,init:function(){if(!r.i){var e=BOOMR.subscribe;e("before_beacon",r.av,null,null),e("onbeacon",r.rv,null,null),r.i=!0}return this},is_complete:function(){return!0}}}}()}(window);`}
         </script>
       </Head>
 
@@ -444,6 +444,154 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                       </ul>
                     </div>
                   </div>
+                  <div className="mini-nav ">
+                    <div className="items left-section">
+                      <div className="menu-icon">
+                        <img
+                          src="https://www.jumeirah.com/static/media/black-hamburger.80b3902374f20526c40699b5dc49fbc1.svg"
+                          alt="menu"
+                          style={{ height: '24px', width: '24px' }}
+                        />
+                      </div>
+                      <div className="search-icon">
+                        <img
+                          src="https://www.jumeirah.com/static/media/black-search.ce2b5832e5a903d1abf4235c24c13b1e.svg"
+                          alt="search"
+                          style={{ height: '24px', width: '24px' }}
+                        />
+                      </div>
+                    </div>
+                    <div className="jum-logo items">
+                      <a href="/en">
+                        <img
+                          src="https://www.jumeirah.com/static/media/black-beacon.f364eac28bc599f89fb6.png"
+                          alt="logo"
+                        />
+                      </a>
+                    </div>
+                    <div className="right-aligned-items">
+                      <div className="items-wraper">
+                        <div className=" items nav-bar">
+                          <div className="jumeirah-language-selector dropdown">
+                            <button
+                              type="button"
+                              aria-haspopup="true"
+                              aria-expanded="false"
+                              className="btn btn-secondary"
+                            >
+                              English
+                            </button>
+                            <div
+                              tabIndex={-1}
+                              role="menu"
+                              aria-hidden="true"
+                              className="dropdown-menu"
+                            >
+                              <button
+                                type="button"
+                                tabIndex={0}
+                                role="menuitem"
+                                className="dropdown-item"
+                              >
+                                <a>العربـية</a>
+                              </button>
+                              <button
+                                type="button"
+                                tabIndex={0}
+                                role="menuitem"
+                                className="dropdown-item"
+                              >
+                                <a></a>
+                              </button>
+                              <button
+                                type="button"
+                                tabIndex={0}
+                                role="menuitem"
+                                className="dropdown-item"
+                              >
+                                <a>Deutsch</a>
+                              </button>
+                              <button
+                                type="button"
+                                tabIndex={0}
+                                role="menuitem"
+                                className="dropdown-item"
+                              >
+                                <a>Français</a>
+                              </button>
+                              <button
+                                type="button"
+                                tabIndex={0}
+                                role="menuitem"
+                                className="dropdown-item"
+                              >
+                                <a>Русский</a>
+                              </button>
+                              <button
+                                type="button"
+                                tabIndex={0}
+                                role="menuitem"
+                                className="dropdown-item"
+                              >
+                                <a>简体中文</a>
+                              </button>
+                              <button
+                                type="button"
+                                tabIndex={0}
+                                role="menuitem"
+                                className="dropdown-item"
+                              >
+                                <a>Español</a>
+                              </button>
+                              <button
+                                type="button"
+                                tabIndex={0}
+                                role="menuitem"
+                                className="dropdown-item"
+                              >
+                                <a>Italiano</a>
+                              </button>
+                              <button
+                                type="button"
+                                tabIndex={0}
+                                role="menuitem"
+                                className="dropdown-item"
+                              >
+                                <a>Indonesian</a>
+                              </button>
+                            </div>
+                          </div>
+                          <div className="lang-selector-arrow"></div>
+                        </div>
+                        <div className="items">
+                          <div className="login-button flex-row">
+                            <div className="profile-icon">
+                              <img
+                                src="https://www.jumeirah.com/static/media/black-profile.e009b9b70a48ece4e8407d310fbe1f4d.svg"
+                                alt=""
+                              />
+                            </div>
+                            <div>
+                              <div
+                                id="jone-login"
+                                className="login-wrapper col-sm-12 col-lg-4 col-md-12  "
+                              >
+                                <div className="login-link text-black">
+                                  <span className="">Login</span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="items">My reservation</div>
+                      </div>
+                      <div className="items right-section">
+                        <button type="button" className="book-now  btn btn-secondary">
+                          RESERVE
+                        </button>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -464,7 +612,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                       id="vimeo-player"
                       className="false  not-a-reskin"
                       src="https://player.vimeo.com/video/941512408?autoplay=1&amp;loop=1&amp;title=0&amp;byline=0&amp;portrait=0&amp;muted=true&amp;dnt=true&amp;background=1"
-                      frameBorder="0"
+                      frameBorder={0}
                       allowFullScreen
                       title=""
                       loading="lazy"
