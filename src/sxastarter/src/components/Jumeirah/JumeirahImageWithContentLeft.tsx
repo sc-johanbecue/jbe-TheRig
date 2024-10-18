@@ -4,7 +4,7 @@ import {
   TextField,
   Text,
   ImageField,
-  //Image,
+  Image,
   LinkField,
   Link,
   ComponentParams,
@@ -42,9 +42,8 @@ const JumeirahImageWithContentLeft = (props: Props): JSX.Element => {
         className="story-card home card"
       >
         <div className="card-image-wrapper" style={{ cursor: 'auto' }}>
-          <img
-            alt="Card image cap"
-            src="https://cdn.jumeirah.com/-/mediadh/dh/hospitality/jumeirah/global-pages/home-page/home-page_jumeirah-one-membership.jpg?h=960&amp;w=1280&amp;modified=20240429180829"
+          <Image
+            field={props.fields.Image}
             width="802px"
             height="802px"
             style={{ objectFit: 'cover', width: '802px' }}
@@ -124,9 +123,7 @@ const JumeirahImageWithContentLeft = (props: Props): JSX.Element => {
               }}
               target="_self"
               className="primary-button btn btn-outline-primary btn-block"
-            >
-              <span className="btn-text">Join Now</span>
-            </Link>
+            />
           </div>
         </div>
       </div>
