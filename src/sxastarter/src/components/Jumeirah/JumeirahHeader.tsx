@@ -60,31 +60,10 @@ const JumeirahFooter = (): JSX.Element => {
                   </button>
                   <div tabIndex={-1} role="menu" aria-hidden="true" className="dropdown-menu">
                     <button type="button" tabIndex={0} role="menuitem" className="dropdown-item">
-                      <Link href="">العربـية</Link>
+                      <Link href="/ar">العربـية</Link>
                     </button>
                     <button type="button" tabIndex={0} role="menuitem" className="dropdown-item">
-                      <Link href=""></Link>
-                    </button>
-                    <button type="button" tabIndex={0} role="menuitem" className="dropdown-item">
-                      <Link href="">Deutsch</Link>
-                    </button>
-                    <button type="button" tabIndex={0} role="menuitem" className="dropdown-item">
-                      <Link href="">Français</Link>
-                    </button>
-                    <button type="button" tabIndex={0} role="menuitem" className="dropdown-item">
-                      <Link href="">Русский</Link>
-                    </button>
-                    <button type="button" tabIndex={0} role="menuitem" className="dropdown-item">
-                      <Link href="">简体中文</Link>
-                    </button>
-                    <button type="button" tabIndex={0} role="menuitem" className="dropdown-item">
-                      <Link href="">Español</Link>
-                    </button>
-                    <button type="button" tabIndex={0} role="menuitem" className="dropdown-item">
-                      <Link href="">Italiano</Link>
-                    </button>
-                    <button type="button" tabIndex={0} role="menuitem" className="dropdown-item">
-                      <Link href="">Indonesian</Link>
+                      <Link href="/en"></Link>
                     </button>
                   </div>
                 </div>

@@ -106,54 +106,6 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
           lang="x-default"
           href="https://www.jumeirah.com/en"
         />
-        <link
-          data-react-helmet="true"
-          rel="alternate"
-          lang="en"
-          href="https://www.jumeirah.com/en"
-        />
-        <link
-          data-react-helmet="true"
-          rel="alternate"
-          lang="de"
-          href="https://www.jumeirah.com/de"
-        />
-        <link
-          data-react-helmet="true"
-          rel="alternate"
-          lang="fr"
-          href="https://www.jumeirah.com/fr"
-        />
-        <link
-          data-react-helmet="true"
-          rel="alternate"
-          lang="ru"
-          href="https://www.jumeirah.com/ru"
-        />
-        <link
-          data-react-helmet="true"
-          rel="alternate"
-          lang="zh"
-          href="https://www.jumeirah.com/zh"
-        />
-        <link
-          data-react-helmet="true"
-          rel="alternate"
-          lang="es"
-          href="https://www.jumeirah.com/es"
-        />
-        <link
-          data-react-helmet="true"
-          rel="alternate"
-          lang="it"
-          href="https://www.jumeirah.com/it"
-        />
-        <link
-          data-react-helmet="true"
-          rel="alternate"
-          lang="id"
-          href="https://www.jumeirah.com/id"
-        />
         <meta charSet="utf-8" />
         <meta
           name="viewport"
