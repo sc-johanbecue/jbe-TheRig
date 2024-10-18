@@ -188,14 +188,14 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                     <div className="primary-header">
                       <div className="menu-icon d-block d-md-none">
                         <img
-                          src="/static/media/white-hamburger.fe154352164530b63dd61630741a1f0a.svg"
+                          src="https://www.jumeirah.com/static/media/white-hamburger.fe154352164530b63dd61630741a1f0a.svg"
                           alt="menu"
                           style={{ height: '24px', width: '24px' }}
                         />
                       </div>
                       <div className="search-icon left-wrapper">
                         <img
-                          src="/static/media/white-search.162267a5520f0668860de15b2e658b9a.svg"
+                          src="https://www.jumeirah.com/static/media/white-search.162267a5520f0668860de15b2e658b9a.svg"
                           alt="menu"
                           style={{ height: '24px', width: '24px' }}
                         />
@@ -417,7 +417,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
             <div className="  ">
               <div
                 className="full-bleed-rd HeroBannerWithVideo   
-                  "
+   "
                 id="HeroBannerWithVideo"
               >
                 <div
@@ -434,11 +434,12 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                     <iframe
                       id="vimeo-player"
                       className="false  not-a-reskin"
-                      src=""
+                      src="https://player.vimeo.com/video/941512408?autoplay=1&amp;loop=1&amp;title=0&amp;byline=0&amp;portrait=0&amp;muted=true&amp;dnt=true&amp;background=1"
                       frameBorder="0"
                       allowFullScreen
-                      title=""
+                      title="Jumeirah"
                       loading="lazy"
+                      data-ready="true"
                     ></iframe>
                   </div>
                 </div>
