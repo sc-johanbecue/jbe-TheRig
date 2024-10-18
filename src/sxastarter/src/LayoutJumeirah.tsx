@@ -510,7 +510,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                 role="menuitem"
                                 className="dropdown-item"
                               >
-                                <a>العربـية</a>
+                                <Link href="">العربـية</Link>
                               </button>
                               <button
                                 type="button"
@@ -518,7 +518,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                 role="menuitem"
                                 className="dropdown-item"
                               >
-                                <a></a>
+                                <Link href=""></Link>
                               </button>
                               <button
                                 type="button"
@@ -526,7 +526,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                 role="menuitem"
                                 className="dropdown-item"
                               >
-                                <a>Deutsch</a>
+                                <Link href="">Deutsch</Link>
                               </button>
                               <button
                                 type="button"
@@ -534,7 +534,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                 role="menuitem"
                                 className="dropdown-item"
                               >
-                                <a>Français</a>
+                                <Link href="">Français</Link>
                               </button>
                               <button
                                 type="button"
@@ -542,7 +542,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                 role="menuitem"
                                 className="dropdown-item"
                               >
-                                <a>Русский</a>
+                                <Link href="">Русский</Link>
                               </button>
                               <button
                                 type="button"
@@ -550,7 +550,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                 role="menuitem"
                                 className="dropdown-item"
                               >
-                                <a>简体中文</a>
+                                <Link href="">简体中文</Link>
                               </button>
                               <button
                                 type="button"
@@ -558,7 +558,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                 role="menuitem"
                                 className="dropdown-item"
                               >
-                                <a>Español</a>
+                                <Link href="">Español</Link>
                               </button>
                               <button
                                 type="button"
@@ -566,7 +566,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                 role="menuitem"
                                 className="dropdown-item"
                               >
-                                <a>Italiano</a>
+                                <Link href="">Italiano</Link>
                               </button>
                               <button
                                 type="button"
@@ -574,7 +574,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                 role="menuitem"
                                 className="dropdown-item"
                               >
-                                <a>Indonesian</a>
+                                <Link href="">Indonesian</Link>
                               </button>
                             </div>
                           </div>
