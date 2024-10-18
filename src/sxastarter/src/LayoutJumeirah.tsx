@@ -159,6 +159,32 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
         <meta http-equiv="X-UA-Compatible" content="IE=11" />
         <meta name="csrf-token" content="" />
         <meta name="yandex-verification" content="b635670737a668ab" />
+        <script
+          type="text/javascript"
+          async
+          src="https://cdnjs.cloudflare.com/ajax/libs/js-sha256/0.9.0/sha256.min.js"
+        ></script>
+        <script
+          type="text/javascript"
+          async
+          src="https://www.googletagmanager.com/gtag/destination?id=DC-5453241&amp;l=dataLayer&amp;cx=c"
+        ></script>
+        <script
+          type="text/javascript"
+          async
+          src="https://www.googletagmanager.com/gtm.js?id=GTM-529JMGM&amp;l=dataLayer"
+        ></script>
+        <script
+          type="text/javascript"
+          async
+          src="https://www.googletagmanager.com/gtm.js?id=GTM-KFNMWKPL&amp;l=dataLayer"
+        ></script>
+        <script async src="https://www.googletagmanager.com/gtm.js?id=GTM-5K3ZSGQ8"></script>
+        <script
+          type="text/javascript"
+          async
+          src="https://www.googletagmanager.com/gtag/destination?id=AW-1007407178&amp;l=dataLayer&amp;cx=c"
+        ></script>
         <script>{`if(document&&void 0!==typeof document){let e=document.getElementsByTagName("head");const n=document.createElement("script");n.src="https://cdnjs.cloudflare.com/ajax/libs/js-sha256/0.11.0/sha256.min.js",n.integrity="sha512-ILKpRqba412W8PeOVNfPfJ95lNQ5iOOqTqZNHPbpKjHaYmaxsKme/XILmAamM8qnXnYQt+fM0jI5woK2ikbh7Q==",n.crossorigin="anonymous",n.referrerpolicy="no-referrer",e&&e[0]&&e[0].appendChild(n);(()=>{if("undefined"!=typeof window&&window&&navigator.userAgent.includes("Instagram")){/iPad|iPhone|iPod/.test(navigator.userAgent)&&!window.MSStream?window.open(window.location.href,"_blank"):window.location="intent:"+window.location.href+"#Intent;end"}})()}</script><script>void 0!==typeof window&&function(){function a(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],a("consent","default",{ad_personalization:"denied",ad_storage:"denied",ad_user_data:"denied",analytics_storage:"denied",functionality_storage:"denied",personalization_storage:"denied",security_storage:"granted",wait_for_update:500,region:["GB","CN","SA","AT","BE","BG","HR","CY","CZ","DK","EE","FI","FR","DE","GR","HU","IE","IT","LV","LT","LU","MT","NL","PL","PT","RO","SK","SI","ES","SE","NO","IS","LI"]}),a("set","ads_data_redaction",!0),a("set","url_passthrough",!1)}(window,document)</script><script>var isB2B=function(){if(void 0!==typeof window){var n=window.location.pathname;return!(!n.includes("agent-booking")&&!n.includes("business-admin"))}},sevenRoomIframe=function(){if(void 0!==typeof window){var n=window.location.pathname;return!(!n.includes("restaurant-booking")&&!n.includes("booking/restaurant-booking"))}}</script><script>isB2B()?function(e,t,a,n,r){e[n]=e[n]||[],e[n].push({"gtm.start":(new Date).getTime(),event:"gtm.js"});var m=t.getElementsByTagName(a)[0],s=t.createElement(a);s.async=!0,s.src="https://www.googletagmanager.com/gtm.js?id=GTM-MJ9RN7J",m.parentNode.insertBefore(s,m)}(window,document,"script","dataLayer"):function(e,t,a,n,r){let m=e.location.pathname;if(e[n]=e[n]||[],!m.includes("recruitment-privacy-notice")&&!m.includes("recruitment-privacy-policy")&&!m.includes("Cookies-Notice-Jumeirah-Recruitment")){e[n].push({"gtm.start":(new Date).getTime(),event:"gtm.js"});var s=t.getElementsByTagName(a)[0],i=t.createElement(a);i.async=!0,i.src="https://www.googletagmanager.com/gtm.js?id=GTM-5K3ZSGQ8",s.parentNode.insertBefore(i,s)}}(window,document,"script","dataLayer"),sevenRoomIframe()&&function(e,t,a,n,r){e[n]=e[n]||[],e[n].push({"gtm.start":(new Date).getTime(),event:"gtm.js"});var m=t.getElementsByTagName(a)[0],s=t.createElement(a);s.async=!0,s.src="https://www.googletagmanager.com/gtm.js?id=GTM-WG4TWX6",m.parentNode.insertBefore(s,m)}(window,document,"script","dataLayer")`}</script>
         <style>{`df-messenger{--df-messenger-button-titlebar-color:#9f9258;--df-messenger-chat-backgroundColor:#e2e2e2;--df-messenger-user-message:#f4f29d;--df-messenger-send-icon:#c5a61d}`}</style>
         <script defer src="https://www.jumeirah.com/static/js/main.e3277042.js"></script>
@@ -305,7 +331,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           <div className="login-button flex-row">
                             <div className="profile-icon">
                               <img
-                                src="/static/media/white-profile.05db31ac4360eefca1e6d94842b6c8e4.svg"
+                                src="https://www.jumeirah.com/en/static/media/white-profile.05db31ac4360eefca1e6d94842b6c8e4.svg"
                                 alt=""
                               />
                             </div>
