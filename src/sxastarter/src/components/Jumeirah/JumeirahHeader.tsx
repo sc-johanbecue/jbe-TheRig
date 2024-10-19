@@ -1,7 +1,27 @@
 import Link from 'next/link';
 import React, { useEffect, useState } from 'react';
+import { LinkField, Link as JssLink } from '@sitecore-jss/sitecore-jss-nextjs';
 
-const JumeirahFooter = (): JSX.Element => {
+interface Fields {
+  SecondaryLink1: LinkField;
+  SecondaryLink2: LinkField;
+  SecondaryLink3: LinkField;
+  SecondaryLink4: LinkField;
+  SecondaryLink5: LinkField;
+  SecondaryLink6: LinkField;
+  SecondaryLink7: LinkField;
+  SecondaryLink8: LinkField;
+  PrimaryLink1: LinkField;
+  PrimaryLink2: LinkField;
+  PrimaryLink3: LinkField;
+}
+
+type Props = {
+  params: { [key: string]: string };
+  fields: Fields;
+};
+
+const JumeirahHeader = (props: Props): JSX.Element => {
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
@@ -80,16 +100,18 @@ const JumeirahFooter = (): JSX.Element => {
                   <div>
                     <div id="jone-login" className="login-wrapper col-sm-12 col-lg-4 col-md-12  ">
                       <div className="login-link text-white">
-                        <span className="">Login</span>
+                        <JssLink field={props.fields.PrimaryLink1} />
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div className="items ">My reservation</div>
+              <div className="items ">
+                <JssLink field={props.fields.PrimaryLink2} />
+              </div>
               <div className="items">
                 <button type="button" className="book-now btn btn-secondary">
-                  RESERVE
+                  <JssLink field={props.fields.PrimaryLink3} />
                 </button>
               </div>
             </div>
@@ -98,44 +120,68 @@ const JumeirahFooter = (): JSX.Element => {
           <div className="secondary-header">
             <ul className="SecondaryNavRD navbar-nav">
               <li className="nav-item">
-                <Link href="/en/stay" target="" title="" rel="" className="nav-link">
-                  <span className="list-item ">Hotels &amp; Resorts</span>
-                </Link>
+                <JssLink
+                  field={props.fields.SecondaryLink1}
+                  target=""
+                  rel=""
+                  className="nav-link"
+                />
               </li>
               <li className="nav-item">
-                <Link href="/en/suites-and-villas" target="" title="" rel="" className="nav-link">
-                  <span className="list-item ">Suites &amp; Villas</span>
-                </Link>
+                <JssLink
+                  field={props.fields.SecondaryLink2}
+                  target=""
+                  rel=""
+                  className="nav-link"
+                />
               </li>
               <li className="nav-item">
-                <Link href="/en/dine/listing" target="" title="" rel="" className="nav-link">
-                  <span className="list-item ">Dining</span>
-                </Link>
+                <JssLink
+                  field={props.fields.SecondaryLink3}
+                  target=""
+                  rel=""
+                  className="nav-link"
+                />
               </li>
               <li className="nav-item">
-                <Link href="/en/rejuvenate/listing" target="" title="" rel="" className="nav-link">
-                  <span className="list-item ">Well-being</span>
-                </Link>
+                <JssLink
+                  field={props.fields.SecondaryLink4}
+                  target=""
+                  rel=""
+                  className="nav-link"
+                />
               </li>
               <li className="nav-item">
-                <Link href="/en/article/inspiration" target="" title="" rel="" className="nav-link">
-                  <span className="list-item ">Inspiration</span>
-                </Link>
+                <JssLink
+                  field={props.fields.SecondaryLink5}
+                  target=""
+                  rel=""
+                  className="nav-link"
+                />
               </li>
               <li className="nav-item">
-                <Link href="/en/offers" target="" title="" rel="" className="nav-link">
-                  <span className="list-item ">Exclusive Offers</span>
-                </Link>
+                <JssLink
+                  field={props.fields.SecondaryLink6}
+                  target=""
+                  rel=""
+                  className="nav-link"
+                />
               </li>
               <li className="nav-item">
-                <Link href="/en/events/listing" target="" title="" rel="" className="nav-link">
-                  <span className="list-item ">Events</span>
-                </Link>
+                <JssLink
+                  field={props.fields.SecondaryLink7}
+                  target=""
+                  rel=""
+                  className="nav-link"
+                />
               </li>
               <li className="nav-item">
-                <Link href="/en/guest-user" target="" title="" rel="" className="nav-link">
-                  <span className="list-item ">Jumeirah One</span>
-                </Link>
+                <JssLink
+                  field={props.fields.SecondaryLink8}
+                  target=""
+                  rel=""
+                  className="nav-link"
+                />
               </li>
             </ul>
           </div>
@@ -240,4 +286,4 @@ const JumeirahFooter = (): JSX.Element => {
   );
 };
 
-export default JumeirahFooter;
+export default JumeirahHeader;
