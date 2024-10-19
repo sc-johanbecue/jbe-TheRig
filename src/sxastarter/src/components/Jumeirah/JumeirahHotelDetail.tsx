@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 
 const JumeirahHotelDetail = (): JSX.Element => {
@@ -55,7 +56,8 @@ const JumeirahHotelDetail = (): JSX.Element => {
         <div className="SecTitleWithDesc Burj Al Arab Jumeirah" id="SecTitleWithDesc">
           <div style={{ textAlign: 'center', maxWidth: '42.75rem' }} className="card-body">
             <div className="d-flex flex-row justify-content-between">
-              <a
+              <Link
+                href=""
                 className="tagline left-tagline"
                 style={{
                   fontSize: '0.75rem',
@@ -65,7 +67,7 @@ const JumeirahHotelDetail = (): JSX.Element => {
                   letterSpacing: '0.075rem',
                   fontWeight: 500,
                 }}
-              ></a>
+              ></Link>
             </div>
             <h3
               style={{
@@ -135,9 +137,9 @@ const JumeirahHotelDetail = (): JSX.Element => {
                 />
               </figure>
             </div>
-            <a className="gallery-btn" href="/en/stay/dubai/burj-al-arab-jumeirah/gallery">
+            <Link className="gallery-btn" href="/en/stay/dubai/burj-al-arab-jumeirah/gallery">
               View Gallery
-            </a>
+            </Link>
           </div>
         </div>
         <div className="full-bleed-rd TwoColumnBigcardWithTitleDesc false container-fluid">
@@ -148,7 +150,8 @@ const JumeirahHotelDetail = (): JSX.Element => {
             </div>
             <div style={{ textAlign: 'center', maxWidth: '460px' }} className="card-body">
               <div className="d-flex flex-row justify-content-between">
-                <a
+                <Link
+                  href=""
                   className="tagline left-tagline"
                   style={{
                     fontSize: '0.75rem',
@@ -158,7 +161,7 @@ const JumeirahHotelDetail = (): JSX.Element => {
                     letterSpacing: '0.075rem',
                     fontWeight: 500,
                   }}
-                ></a>
+                ></Link>
               </div>
               <p
                 style={{
@@ -201,7 +204,7 @@ const JumeirahHotelDetail = (): JSX.Element => {
                 <div className="border-anima"></div>
                 <div className="card-body">
                   <div className="d-flex flex-row justify-content-between">
-                    <a
+                    <Link
                       className="tagline left-tagline 11"
                       href="/en/stay/dubai/burj-al-arab-jumeirah/accommodation"
                       style={{
@@ -214,7 +217,7 @@ const JumeirahHotelDetail = (): JSX.Element => {
                       }}
                     >
                       Suites
-                    </a>
+                    </Link>
                   </div>
                   <h3
                     style={{
@@ -268,7 +271,7 @@ const JumeirahHotelDetail = (): JSX.Element => {
                 <div className="border-anima"></div>
                 <div className="card-body">
                   <div className="d-flex flex-row justify-content-between">
-                    <a
+                    <Link
                       className="tagline left-tagline 11"
                       href="/en/stay/dubai/burj-al-arab-jumeirah/accommodation"
                       style={{
@@ -281,7 +284,7 @@ const JumeirahHotelDetail = (): JSX.Element => {
                       }}
                     >
                       Royal Suites
-                    </a>
+                    </Link>
                   </div>
                   <h3
                     style={{
@@ -313,12 +316,12 @@ const JumeirahHotelDetail = (): JSX.Element => {
             </div>
           </div>
           <div className="accommodation-btn-container">
-            <a
+            <Link
               className="accommodation-btn"
               href="/en/stay/dubai/burj-al-arab-jumeirah/accommodation"
             >
               ALL SUITES
-            </a>
+            </Link>
           </div>
         </div>
       </div>
