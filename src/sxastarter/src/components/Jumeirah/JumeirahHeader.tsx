@@ -120,68 +120,44 @@ const JumeirahHeader = (props: Props): JSX.Element => {
           <div className="secondary-header">
             <ul className="SecondaryNavRD navbar-nav">
               <li className="nav-item">
-                <JssLink
-                  field={props.fields.SecondaryLink1}
-                  target=""
-                  rel=""
-                  className="nav-link"
-                />
+                <JssLink field={props.fields.SecondaryLink1} target="" rel="" className="nav-link">
+                  <span className="list-item">{props.fields.SecondaryLink1.value.text}</span>
+                </JssLink>
               </li>
               <li className="nav-item">
-                <JssLink
-                  field={props.fields.SecondaryLink2}
-                  target=""
-                  rel=""
-                  className="nav-link"
-                />
+                <JssLink field={props.fields.SecondaryLink2} target="" rel="" className="nav-link">
+                  <span className="list-item">{props.fields.SecondaryLink2.value.text}</span>
+                </JssLink>
               </li>
               <li className="nav-item">
-                <JssLink
-                  field={props.fields.SecondaryLink3}
-                  target=""
-                  rel=""
-                  className="nav-link"
-                />
+                <JssLink field={props.fields.SecondaryLink3} target="" rel="" className="nav-link">
+                  <span className="list-item">{props.fields.SecondaryLink3.value.text}</span>
+                </JssLink>
               </li>
               <li className="nav-item">
-                <JssLink
-                  field={props.fields.SecondaryLink4}
-                  target=""
-                  rel=""
-                  className="nav-link"
-                />
+                <JssLink field={props.fields.SecondaryLink4} target="" rel="" className="nav-link">
+                  <span className="list-item">{props.fields.SecondaryLink4.value.text}</span>
+                </JssLink>
               </li>
               <li className="nav-item">
-                <JssLink
-                  field={props.fields.SecondaryLink5}
-                  target=""
-                  rel=""
-                  className="nav-link"
-                />
+                <JssLink field={props.fields.SecondaryLink5} target="" rel="" className="nav-link">
+                  <span className="list-item">{props.fields.SecondaryLink5.value.text}</span>
+                </JssLink>
               </li>
               <li className="nav-item">
-                <JssLink
-                  field={props.fields.SecondaryLink6}
-                  target=""
-                  rel=""
-                  className="nav-link"
-                />
+                <JssLink field={props.fields.SecondaryLink6} target="" rel="" className="nav-link">
+                  <span className="list-item">{props.fields.SecondaryLink6.value.text}</span>
+                </JssLink>
               </li>
               <li className="nav-item">
-                <JssLink
-                  field={props.fields.SecondaryLink7}
-                  target=""
-                  rel=""
-                  className="nav-link"
-                />
+                <JssLink field={props.fields.SecondaryLink7} target="" rel="" className="nav-link">
+                  <span className="list-item">{props.fields.SecondaryLink7.value.text}</span>
+                </JssLink>
               </li>
               <li className="nav-item">
-                <JssLink
-                  field={props.fields.SecondaryLink8}
-                  target=""
-                  rel=""
-                  className="nav-link"
-                />
+                <JssLink field={props.fields.SecondaryLink8} target="" rel="" className="nav-link">
+                  <span className="list-item">{props.fields.SecondaryLink8.value.text}</span>
+                </JssLink>
               </li>
             </ul>
           </div>
