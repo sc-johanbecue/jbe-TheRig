@@ -8,6 +8,7 @@ import {
   ImageField,
   ComponentParams,
   ComponentRendering,
+  LinkFieldValue,
 } from '@sitecore-jss/sitecore-jss-nextjs';
 
 interface Fields {
@@ -34,12 +35,7 @@ interface Fields {
       };
       Video: {
         jsonValue: {
-          value: {
-            href: string;
-            title: string;
-          };
-          editableFirstPart: string;
-          editableLastPart: string;
+          value: LinkFieldValue;
         };
       };
       Image: {
@@ -69,11 +65,7 @@ interface Fields {
       };
       Video: {
         jsonValue: {
-          value: {
-            href: string;
-            title: string;
-          };
-          editable: string;
+          value: LinkFieldValue;
         };
       };
       Image: {
@@ -127,11 +119,7 @@ const JumeirahHotelDetail = (props: Props, price): JSX.Element => {
   };
 
   const videoField: LinkField = {
-    value: {
-      href: datasource?.Video.jsonValue.value.href,
-      title: datasource?.Video?.jsonValue.value.title,
-      editable: true,
-    },
+    value: datasource?.Video?.jsonValue?.value,
   };
 
   return (
