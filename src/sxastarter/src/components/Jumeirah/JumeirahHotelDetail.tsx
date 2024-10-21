@@ -24,6 +24,7 @@ export const getServerSideProps = async () => {
   return {
     props: {
       price: data.price, // Assuming the JSON object has a 'price' field
+      price2: 45,
     },
   };
 };
@@ -34,7 +35,7 @@ type Props = {
   fields: Fields;
 };
 
-const JumeirahHotelDetail = (props: Props, { price }): JSX.Element => {
+const JumeirahHotelDetail = (props: Props, { price, price2 }): JSX.Element => {
   return (
     <div id="root">
       <div className="container-fluid false hotel">
@@ -177,7 +178,9 @@ const JumeirahHotelDetail = (props: Props, { price }): JSX.Element => {
         <div className="full-bleed-rd TwoColumnBigcardWithTitleDesc false container-fluid">
           <div className="SecTitleWithDesc" id="SecTitleWithDesc" style={{ minHeight: '8rem' }}>
             <div className="accommodation-title-container">
-              <p className="accommodation-title">Accommodation (from {price})</p>
+              <p className="accommodation-title">
+                Accommodation (from {price} and {price2})
+              </p>
               <div className="header-title-line"></div>
             </div>
             <div style={{ textAlign: 'center', maxWidth: '460px' }} className="card-body">
