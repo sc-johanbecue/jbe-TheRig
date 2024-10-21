@@ -93,7 +93,7 @@ const JumeirahHeader = (props: Props): JSX.Element => {
                 <div className="login-button flex-row">
                   <div className="profile-icon">
                     <img
-                      src="https://www.jumeirah.com/en/static/media/white-profile.05db31ac4360eefca1e6d94842b6c8e4.svg"
+                      src="https://www.jumeirah.com/static/media/white-profile.05db31ac4360eefca1e6d94842b6c8e4.svg"
                       alt=""
                     />
                   </div>

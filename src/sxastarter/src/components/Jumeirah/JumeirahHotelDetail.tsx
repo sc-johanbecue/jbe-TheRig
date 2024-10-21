@@ -1,7 +1,29 @@
 import Link from 'next/link';
 import React from 'react';
 
-const JumeirahHotelDetail = (): JSX.Element => {
+import {
+  TextField,
+  Text,
+  LinkField,
+  ImageField,
+  ComponentParams,
+  ComponentRendering,
+} from '@sitecore-jss/sitecore-jss-nextjs';
+
+interface Fields {
+  Image: ImageField;
+  Title: TextField;
+  Text: TextField;
+  Video: LinkField;
+}
+
+type Props = {
+  rendering: ComponentRendering & { params: ComponentParams };
+  params: { [key: string]: string };
+  fields: Fields;
+};
+
+const JumeirahHotelDetail = (props: Props): JSX.Element => {
   return (
     <div id="root">
       <div className="container-fluid false hotel">
@@ -12,8 +34,7 @@ const JumeirahHotelDetail = (): JSX.Element => {
           <div
             className="video-background"
             style={{
-              background:
-                'linear-gradient(180deg, rgba(0, 0, 0, 0.00) 45.17%, rgba(0, 0, 0, 0.32) 100%), url("https://cdn.jumeirah.com/-/mediadh/dh/hospitality/jumeirah/hotels/dubai/jumeirah-burj-al-arab/new-website-content/baa-hotel-home-page/hotel-hero/baa_hero-image.jpg?h=1235&w=2880&modified=20240608193902")',
+              background: `linear-gradient(180deg, rgba(0, 0, 0, 0.00) 45.17%, rgba(0, 0, 0, 0.32) 100%), url("${props.fields.Image.value?.src}")`,
               backgroundBlendMode: 'darken',
               backgroundPosition: 'center',
               backgroundSize: 'cover',
@@ -23,7 +44,7 @@ const JumeirahHotelDetail = (): JSX.Element => {
               <iframe
                 id="vimeo-player"
                 className="hotel-video not-a-reskin"
-                src=""
+                src={`${props.fields.Video.value.href}`}
                 frameBorder="0"
                 allowFullScreen
                 title=""
@@ -34,7 +55,9 @@ const JumeirahHotelDetail = (): JSX.Element => {
         </div>
         <div className="full-bleed-rd NavigationTab-wrapper" id="NavigationTab">
           <div className="continer-wrapper">
-            <span className="hotel-title">Jumeirah Burj Al Arab</span>
+            <span className="hotel-title">
+              <Text field={props.fields.Title} />
+            </span>
             <div className="vertical-line"></div>
             <div className="link-items"></div>
           </div>
@@ -80,6 +103,7 @@ const JumeirahHotelDetail = (): JSX.Element => {
               }}
               className="card-title"
             >
+              <Text field={props.fields.Title} />
               Jumeirah Burj Al Arab
             </h3>
             <p
@@ -92,9 +116,7 @@ const JumeirahHotelDetail = (): JSX.Element => {
               }}
               className="text-lg card-text"
             >
-              Inside the sail-like facade, Jumeirah Burj Al Arab plays host to a collection of
-              extraordinary suites and restaurants, including Michelin-starred Al Muntaha, an
-              award-winning spa, and breathtaking beach club, Sal.
+              <Text field={props.fields.Title} />
             </p>
           </div>
         </div>
