@@ -36,6 +36,7 @@ interface Fields {
         jsonValue: {
           value: {
             href: string;
+            title: string;
           };
           editableFirstPart: string;
           editableLastPart: string;
@@ -70,6 +71,7 @@ interface Fields {
         jsonValue: {
           value: {
             href: string;
+            title: string;
           };
           editable: string;
         };
@@ -95,7 +97,18 @@ type Props = {
   fields: Fields;
 };
 
-const JumeirahHotelDetail = (props: Props): JSX.Element => {
+export const getServerSideProps = async () => {
+  const res = await fetch('https://dummyjson.com/products/1'); // Replace with your API URL
+  const data = await res.json();
+
+  return {
+    props: {
+      price: data.price, // Assuming the JSON object has a 'price' field
+    },
+  };
+};
+
+const JumeirahHotelDetail = (props: Props, price): JSX.Element => {
   const datasource = props.fields?.data?.datasource || props.fields?.data?.contextItem;
 
   const titleField: TextField = {
@@ -114,9 +127,11 @@ const JumeirahHotelDetail = (props: Props): JSX.Element => {
   };
 
   const videoField: LinkField = {
-    value: datasource.Video?.jsonValue?.value,
-    editableFirstPart: datasource.Video?.jsonValue?.editableFirstPart,
-    editableLastPart: datasource.Video?.jsonValue?.editableLastPart,
+    value: {
+      href: datasource?.Video.jsonValue.value.href,
+      title: datasource?.Video?.jsonValue.value.title,
+      editable: true,
+    },
   };
 
   return (
@@ -261,7 +276,7 @@ const JumeirahHotelDetail = (props: Props): JSX.Element => {
         <div className="full-bleed-rd TwoColumnBigcardWithTitleDesc false container-fluid">
           <div className="SecTitleWithDesc" id="SecTitleWithDesc" style={{ minHeight: '8rem' }}>
             <div className="accommodation-title-container">
-              <p className="accommodation-title">Accommodation</p>
+              <p className="accommodation-title">Accommodation (Starting from: ${price})</p>
               <div className="header-title-line"></div>
             </div>
             <div style={{ textAlign: 'center', maxWidth: '460px' }} className="card-body">
