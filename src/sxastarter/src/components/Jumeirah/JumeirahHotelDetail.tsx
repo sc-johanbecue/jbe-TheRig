@@ -37,8 +37,7 @@ interface Fields {
           value: {
             href: string;
           };
-          editableFirstPart: string;
-          editableLastPart: string;
+          editable: string;
         };
       };
       Image: {
@@ -71,8 +70,7 @@ interface Fields {
           value: {
             href: string;
           };
-          editableFirstPart: string;
-          editableLastPart: string;
+          editable: string;
         };
       };
       Image: {
@@ -122,8 +120,6 @@ const JumeirahHotelDetail = (props: Props): JSX.Element => {
 
   const videoField: LinkField = {
     value: video?.jsonValue?.value,
-    editableFirstPart: video?.jsonValue?.editableFirstPart,
-    editableLastPart: video?.jsonValue?.editableLastPart,
   };
 
   return (
