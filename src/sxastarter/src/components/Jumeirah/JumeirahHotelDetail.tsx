@@ -135,7 +135,7 @@ const JumeirahHotelDetail = (props: Props, price): JSX.Element => {
               <iframe
                 id="vimeo-player"
                 className="hotel-video not-a-reskin"
-                src={`${videoField.value.href}`}
+                src="" //{`${videoField.value.href}`}
                 frameBorder="0"
                 allowFullScreen
                 title=""
