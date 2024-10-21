@@ -4,11 +4,10 @@ import React from 'react';
 import {
   TextField,
   Text,
-  LinkField,
+  //   LinkField,
   ImageField,
   ComponentParams,
   ComponentRendering,
-  LinkFieldValue,
 } from '@sitecore-jss/sitecore-jss-nextjs';
 
 interface Fields {
@@ -24,11 +23,6 @@ interface Fields {
         jsonValue: {
           value: string;
           editable: string;
-        };
-      };
-      Video: {
-        jsonValue: {
-          value: LinkFieldValue;
         };
       };
       Image: {
@@ -54,11 +48,6 @@ interface Fields {
         jsonValue: {
           value: string;
           editable: string;
-        };
-      };
-      Video: {
-        jsonValue: {
-          value: LinkFieldValue;
         };
       };
       Image: {
@@ -109,10 +98,6 @@ const JumeirahHotelDetail = (props: Props, price): JSX.Element => {
   const imageField: ImageField = {
     value: datasource.Image?.jsonValue?.value,
     editable: datasource.Image?.jsonValue?.editable,
-  };
-
-  const videoField: LinkField = {
-    value: datasource?.Video?.jsonValue?.value,
   };
 
   return (
