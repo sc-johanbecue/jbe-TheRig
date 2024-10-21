@@ -12,13 +12,6 @@ import {
 } from '@sitecore-jss/sitecore-jss-nextjs';
 
 interface Fields {
-  Image: ImageField;
-  Title: TextField;
-  Text: TextField;
-  Video: LinkField;
-}
-
-interface Fields {
   data: {
     datasource: {
       Title: {
