@@ -15,19 +15,8 @@ interface Fields {
   Title: TextField;
   Text: TextField;
   Video: LinkField;
+  PriceUrl: LinkField;
 }
-
-export const getServerSideProps = async () => {
-  const res = await fetch('https://dummyjson.com/products/1'); // Replace with your API URL
-  const data = await res.json();
-
-  return {
-    props: {
-      price: data.price, // Assuming the JSON object has a 'price' field
-      price2: 45,
-    },
-  };
-};
 
 type Props = {
   rendering: ComponentRendering & { params: ComponentParams };
@@ -39,9 +28,9 @@ const JumeirahHotelDetail = (props: Props): JSX.Element => {
   const [price, setPrice] = useState(null);
 
   useEffect(() => {
-    const fetchPrice = async () => {
+    const fetchPrice = async (props: Props) => {
       try {
-        const response = await fetch('https://dummyjson.com/products/1'); // Replace with your API URL
+        const response = await fetch(`${props.fields.PriceUrl.value.href}`); // Replace with your API URL
         const data = await response.json();
         setPrice(data.price); // Assuming the JSON object has a 'price' field
       } catch (error) {
@@ -49,8 +38,8 @@ const JumeirahHotelDetail = (props: Props): JSX.Element => {
       }
     };
 
-    fetchPrice();
-  }, []);
+    fetchPrice(props);
+  }, [props]);
 
   return (
     <div id="root">
