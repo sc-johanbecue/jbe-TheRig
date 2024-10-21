@@ -4,48 +4,18 @@ import React from 'react';
 import {
   TextField,
   Text,
+  LinkField,
+  ImageField,
   ComponentParams,
   ComponentRendering,
 } from '@sitecore-jss/sitecore-jss-nextjs';
 
 interface Fields {
-  data: {
-    datasource: {
-      Title: {
-        jsonValue: {
-          value: string;
-          editable: string;
-        };
-      };
-      Text: {
-        jsonValue: {
-          value: string;
-          editable: string;
-        };
-      };
-    };
-    contextItem: {
-      Title: {
-        jsonValue: {
-          value: string;
-          editable: string;
-        };
-      };
-      Text: {
-        jsonValue: {
-          value: string;
-          editable: string;
-        };
-      };
-    };
-  };
+  Image: ImageField;
+  Title: TextField;
+  Text: TextField;
+  Video: LinkField;
 }
-
-type Props = {
-  rendering: ComponentRendering & { params: ComponentParams };
-  params: { [key: string]: string };
-  fields: Fields;
-};
 
 export const getServerSideProps = async () => {
   const res = await fetch('https://dummyjson.com/products/1'); // Replace with your API URL
@@ -58,19 +28,13 @@ export const getServerSideProps = async () => {
   };
 };
 
-const JumeirahHotelDetail = (props: Props, price): JSX.Element => {
-  const datasource = props.fields?.data?.datasource || props.fields?.data?.contextItem;
+type Props = {
+  rendering: ComponentRendering & { params: ComponentParams };
+  params: { [key: string]: string };
+  fields: Fields;
+};
 
-  const titleField: TextField = {
-    value: datasource.Title?.jsonValue?.value,
-    editable: datasource.Title?.jsonValue?.editable,
-  };
-
-  const textField: TextField = {
-    value: datasource.Text?.jsonValue?.value,
-    editable: datasource.Text?.jsonValue?.editable,
-  };
-
+const JumeirahHotelDetail = (props: Props, { price }): JSX.Element => {
   return (
     <div id="root">
       <div className="container-fluid false hotel">
@@ -81,7 +45,7 @@ const JumeirahHotelDetail = (props: Props, price): JSX.Element => {
           <div
             className="video-background"
             style={{
-              background: `linear-gradient(180deg, rgba(0, 0, 0, 0.00) 45.17%, rgba(0, 0, 0, 0.32) 100%), url("")`,
+              background: `linear-gradient(180deg, rgba(0, 0, 0, 0.00) 45.17%, rgba(0, 0, 0, 0.32) 100%), url("${props.fields.Image.value?.src}")`,
               backgroundBlendMode: 'darken',
               backgroundPosition: 'center',
               backgroundSize: 'cover',
@@ -91,7 +55,7 @@ const JumeirahHotelDetail = (props: Props, price): JSX.Element => {
               <iframe
                 id="vimeo-player"
                 className="hotel-video not-a-reskin"
-                src="" //{`${videoField.value.href}`}
+                src={`${props.fields.Video.value.href}`}
                 frameBorder="0"
                 allowFullScreen
                 title=""
@@ -103,7 +67,7 @@ const JumeirahHotelDetail = (props: Props, price): JSX.Element => {
         <div className="full-bleed-rd NavigationTab-wrapper" id="NavigationTab">
           <div className="continer-wrapper">
             <span className="hotel-title">
-              <Text field={titleField} />
+              <Text field={props.fields.Title} />
             </span>
             <div className="vertical-line"></div>
             <div className="link-items"></div>
@@ -150,7 +114,7 @@ const JumeirahHotelDetail = (props: Props, price): JSX.Element => {
               }}
               className="card-title"
             >
-              <Text field={titleField} />
+              <Text field={props.fields.Title} />
             </h3>
             <p
               style={{
@@ -162,7 +126,7 @@ const JumeirahHotelDetail = (props: Props, price): JSX.Element => {
               }}
               className="text-lg card-text"
             >
-              <Text field={textField} />
+              <Text field={props.fields.Text} />
             </p>
           </div>
         </div>
@@ -213,7 +177,7 @@ const JumeirahHotelDetail = (props: Props, price): JSX.Element => {
         <div className="full-bleed-rd TwoColumnBigcardWithTitleDesc false container-fluid">
           <div className="SecTitleWithDesc" id="SecTitleWithDesc" style={{ minHeight: '8rem' }}>
             <div className="accommodation-title-container">
-              <p className="accommodation-title">Accommodation (Starting from: ${price})</p>
+              <p className="accommodation-title">Accommodation (from {price})</p>
               <div className="header-title-line"></div>
             </div>
             <div style={{ textAlign: 'center', maxWidth: '460px' }} className="card-body">
