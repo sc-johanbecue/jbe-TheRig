@@ -4,9 +4,6 @@ import React from 'react';
 import {
   TextField,
   Text,
-  LinkField,
-  Link,
-  ImageField,
   ComponentParams,
   ComponentRendering,
 } from '@sitecore-jss/sitecore-jss-nextjs';
