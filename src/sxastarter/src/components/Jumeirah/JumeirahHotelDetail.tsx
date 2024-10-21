@@ -41,7 +41,7 @@ const JumeirahHotelDetail = (props: Props): JSX.Element => {
   useEffect(() => {
     const fetchPrice = async () => {
       try {
-        const response = await fetch('https://example.com/api/price'); // Replace with your API URL
+        const response = await fetch('https://dummyjson.com/products/1'); // Replace with your API URL
         const data = await response.json();
         setPrice(data.price); // Assuming the JSON object has a 'price' field
       } catch (error) {
