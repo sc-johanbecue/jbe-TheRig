@@ -17,6 +17,79 @@ interface Fields {
   Video: LinkField;
 }
 
+interface Fields {
+  data: {
+    datasource: {
+      Title: {
+        jsonValue: {
+          value: string;
+          editable: string;
+        };
+      };
+      Text: {
+        jsonValue: {
+          value: string;
+          editable: string;
+        };
+      };
+      Video: {
+        jsonValue: {
+          value: {
+            href: string;
+          };
+          editableFirstPart: string;
+          editableLastPart: string;
+        };
+      };
+      Image: {
+        jsonValue: {
+          value: {
+            src: string;
+            alt: string;
+            width: string;
+            height: string;
+          };
+          editable: string;
+        };
+      };
+    };
+    contextItem: {
+      Title: {
+        jsonValue: {
+          value: string;
+          editable: string;
+        };
+      };
+      Text: {
+        jsonValue: {
+          value: string;
+          editable: string;
+        };
+      };
+      Video: {
+        jsonValue: {
+          value: {
+            href: string;
+          };
+          editableFirstPart: string;
+          editableLastPart: string;
+        };
+      };
+      Image: {
+        jsonValue: {
+          value: {
+            src: string;
+            alt: string;
+            width: string;
+            height: string;
+          };
+          editable: string;
+        };
+      };
+    };
+  };
+}
+
 type Props = {
   rendering: ComponentRendering & { params: ComponentParams };
   params: { [key: string]: string };
@@ -24,6 +97,35 @@ type Props = {
 };
 
 const JumeirahHotelDetail = (props: Props): JSX.Element => {
+  const datasource = props.fields?.data?.datasource;
+  const contextItem = props.fields?.data?.contextItem;
+
+  const title = datasource?.Title || contextItem?.Title;
+  const text = datasource?.Text || contextItem?.Text;
+  const image = datasource?.Image || contextItem?.Image;
+  const video = datasource?.Video || contextItem?.Video;
+
+  const titleField: TextField = {
+    value: title?.jsonValue?.value,
+    editable: title?.jsonValue?.editable,
+  };
+
+  const textField: TextField = {
+    value: text?.jsonValue?.value,
+    editable: text?.jsonValue?.editable,
+  };
+
+  const imageField: ImageField = {
+    value: image?.jsonValue?.value,
+    editable: image?.jsonValue?.editable,
+  };
+
+  const videoField: LinkField = {
+    value: video?.jsonValue?.value,
+    editableFirstPart: video?.jsonValue?.editableFirstPart,
+    editableLastPart: video?.jsonValue?.editableLastPart,
+  };
+
   return (
     <div id="root">
       <div className="container-fluid false hotel">
@@ -34,7 +136,7 @@ const JumeirahHotelDetail = (props: Props): JSX.Element => {
           <div
             className="video-background"
             style={{
-              background: `linear-gradient(180deg, rgba(0, 0, 0, 0.00) 45.17%, rgba(0, 0, 0, 0.32) 100%), url("${props.fields.Image.value?.src}")`,
+              background: `linear-gradient(180deg, rgba(0, 0, 0, 0.00) 45.17%, rgba(0, 0, 0, 0.32) 100%), url("${imageField.value?.src}")`,
               backgroundBlendMode: 'darken',
               backgroundPosition: 'center',
               backgroundSize: 'cover',
@@ -44,7 +146,7 @@ const JumeirahHotelDetail = (props: Props): JSX.Element => {
               <iframe
                 id="vimeo-player"
                 className="hotel-video not-a-reskin"
-                src={`${props.fields.Video.value.href}`}
+                src={`${videoField.value.href}`}
                 frameBorder="0"
                 allowFullScreen
                 title=""
@@ -56,7 +158,7 @@ const JumeirahHotelDetail = (props: Props): JSX.Element => {
         <div className="full-bleed-rd NavigationTab-wrapper" id="NavigationTab">
           <div className="continer-wrapper">
             <span className="hotel-title">
-              <Text field={props.fields.Title} />
+              <Text field={titleField} />
             </span>
             <div className="vertical-line"></div>
             <div className="link-items"></div>
@@ -103,7 +205,7 @@ const JumeirahHotelDetail = (props: Props): JSX.Element => {
               }}
               className="card-title"
             >
-              <Text field={props.fields.Title} />
+              <Text field={titleField} />
             </h3>
             <p
               style={{
@@ -115,7 +217,7 @@ const JumeirahHotelDetail = (props: Props): JSX.Element => {
               }}
               className="text-lg card-text"
             >
-              <Text field={props.fields.Text} />
+              <Text field={textField} />
             </p>
           </div>
         </div>
