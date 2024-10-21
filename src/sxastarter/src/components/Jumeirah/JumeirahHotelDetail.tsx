@@ -104,7 +104,6 @@ const JumeirahHotelDetail = (props: Props): JSX.Element => {
               className="card-title"
             >
               <Text field={props.fields.Title} />
-              Jumeirah Burj Al Arab
             </h3>
             <p
               style={{
@@ -116,7 +115,7 @@ const JumeirahHotelDetail = (props: Props): JSX.Element => {
               }}
               className="text-lg card-text"
             >
-              <Text field={props.fields.Title} />
+              <Text field={props.fields.Text} />
             </p>
           </div>
         </div>
