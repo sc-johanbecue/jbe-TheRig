@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 
 import {
   TextField,
@@ -35,7 +35,23 @@ type Props = {
   fields: Fields;
 };
 
-const JumeirahHotelDetail = (props: Props, { price, price2 }): JSX.Element => {
+const JumeirahHotelDetail = (props: Props): JSX.Element => {
+  const [price, setPrice] = useState(null);
+
+  useEffect(() => {
+    const fetchPrice = async () => {
+      try {
+        const response = await fetch('https://example.com/api/price'); // Replace with your API URL
+        const data = await response.json();
+        setPrice(data.price); // Assuming the JSON object has a 'price' field
+      } catch (error) {
+        console.error('Error fetching price:', error);
+      }
+    };
+
+    fetchPrice();
+  }, []);
+
   return (
     <div id="root">
       <div className="container-fluid false hotel">
@@ -178,9 +194,7 @@ const JumeirahHotelDetail = (props: Props, { price, price2 }): JSX.Element => {
         <div className="full-bleed-rd TwoColumnBigcardWithTitleDesc false container-fluid">
           <div className="SecTitleWithDesc" id="SecTitleWithDesc" style={{ minHeight: '8rem' }}>
             <div className="accommodation-title-container">
-              <p className="accommodation-title">
-                Accommodation (from {price} and {price2})
-              </p>
+              <p className="accommodation-title">Accommodation (from {price})</p>
               <div className="header-title-line"></div>
             </div>
             <div style={{ textAlign: 'center', maxWidth: '460px' }} className="card-body">
