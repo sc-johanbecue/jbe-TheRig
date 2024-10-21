@@ -4,7 +4,8 @@ import React from 'react';
 import {
   TextField,
   Text,
-  //   LinkField,
+  LinkField,
+  Link,
   ImageField,
   ComponentParams,
   ComponentRendering,
@@ -25,17 +26,6 @@ interface Fields {
           editable: string;
         };
       };
-      Image: {
-        jsonValue: {
-          value: {
-            src: string;
-            alt: string;
-            width: string;
-            height: string;
-          };
-          editable: string;
-        };
-      };
     };
     contextItem: {
       Title: {
@@ -47,17 +37,6 @@ interface Fields {
       Text: {
         jsonValue: {
           value: string;
-          editable: string;
-        };
-      };
-      Image: {
-        jsonValue: {
-          value: {
-            src: string;
-            alt: string;
-            width: string;
-            height: string;
-          };
           editable: string;
         };
       };
@@ -95,11 +74,6 @@ const JumeirahHotelDetail = (props: Props, price): JSX.Element => {
     editable: datasource.Text?.jsonValue?.editable,
   };
 
-  const imageField: ImageField = {
-    value: datasource.Image?.jsonValue?.value,
-    editable: datasource.Image?.jsonValue?.editable,
-  };
-
   return (
     <div id="root">
       <div className="container-fluid false hotel">
@@ -110,7 +84,7 @@ const JumeirahHotelDetail = (props: Props, price): JSX.Element => {
           <div
             className="video-background"
             style={{
-              background: `linear-gradient(180deg, rgba(0, 0, 0, 0.00) 45.17%, rgba(0, 0, 0, 0.32) 100%), url("${imageField.value?.src}")`,
+              background: `linear-gradient(180deg, rgba(0, 0, 0, 0.00) 45.17%, rgba(0, 0, 0, 0.32) 100%), url("")`,
               backgroundBlendMode: 'darken',
               backgroundPosition: 'center',
               backgroundSize: 'cover',
