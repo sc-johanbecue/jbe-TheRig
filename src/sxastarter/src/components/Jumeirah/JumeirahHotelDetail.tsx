@@ -37,7 +37,8 @@ interface Fields {
           value: {
             href: string;
           };
-          editable: string;
+          editableFirstPart: string;
+          editableLastPart: string;
         };
       };
       Image: {
@@ -95,31 +96,27 @@ type Props = {
 };
 
 const JumeirahHotelDetail = (props: Props): JSX.Element => {
-  const datasource = props.fields?.data?.datasource;
-  const contextItem = props.fields?.data?.contextItem;
-
-  const title = datasource?.Title || contextItem?.Title;
-  const text = datasource?.Text || contextItem?.Text;
-  const image = datasource?.Image || contextItem?.Image;
-  const video = datasource?.Video || contextItem?.Video;
+  const datasource = props.fields?.data?.datasource || props.fields?.data?.contextItem;
 
   const titleField: TextField = {
-    value: title?.jsonValue?.value,
-    editable: title?.jsonValue?.editable,
+    value: datasource.Title?.jsonValue?.value,
+    editable: datasource.Title?.jsonValue?.editable,
   };
 
   const textField: TextField = {
-    value: text?.jsonValue?.value,
-    editable: text?.jsonValue?.editable,
+    value: datasource.Text?.jsonValue?.value,
+    editable: datasource.Text?.jsonValue?.editable,
   };
 
   const imageField: ImageField = {
-    value: image?.jsonValue?.value,
-    editable: image?.jsonValue?.editable,
+    value: datasource.Image?.jsonValue?.value,
+    editable: datasource.Image?.jsonValue?.editable,
   };
 
   const videoField: LinkField = {
-    value: video?.jsonValue?.value,
+    value: datasource.Video?.jsonValue?.value,
+    editableFirstPart: datasource.Video?.jsonValue?.editableFirstPart,
+    editableLastPart: datasource.Video?.jsonValue?.editableLastPart,
   };
 
   return (
