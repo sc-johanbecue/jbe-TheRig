@@ -280,7 +280,8 @@ const JumeirahHotelDetail = (props: Props): JSX.Element => {
                     }}
                     className="text-lg card-text"
                   >
-                    Exquisitely designed spaces overlooking the resort, lagoon, or shimmering ocean..
+                    Exquisitely designed spaces overlooking the resort, lagoon, or shimmering
+                    ocean..
                   </p>
                 </div>
               </div>
