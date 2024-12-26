@@ -12,6 +12,7 @@ import {
 } from '@sitecore-jss/sitecore-jss-nextjs';
 import config from 'temp/config';
 import Scripts from 'src/Scripts';
+import Link from 'next/link';
 
 // Prefix public assets with a public URL to enable compatibility with Sitecore Experience Editor.
 // If you're not supporting the Experience Editor, you can remove this.
@@ -65,16 +66,16 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
           <div id="footer">{route && <Placeholder name="headless-footer" rendering={route} />}</div>
         </footer>
 
-        <a
+        <Link
           href="#content"
           className="absolute left-[-9999px] top-auto h-1 w-1 overflow-hidden focus:left-0 focus:top-[98px] focus:z-[1000] focus:h-auto focus:w-auto focus:bg-blue focus:p-4 focus:font-bold focus:text-white focus:no-underline"
         >
           Skip to content
-        </a>
+        </Link>
         <nav className="sticky top-0 z-50 flex w-full items-center bg-white px-6 py-6 h-24 md:px-16 md:py-8 text-blue">
           <div className="flex w-full items-center">
             <div className="flex w-2/12 items-center" data-testid="logotype">
-              <a
+              <Link
                 className="z-30 flex text-2xl font-semibold transition duration-300 ease-in-out"
                 aria-label="Home"
                 href="/"
@@ -102,33 +103,33 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                   <path d="M103.712 0.633545H110L99.3121 16.2234V26.289H94.0756V16.2924L83.3936 0.633545H89.7517L96.7839 11.2682L103.712 0.633545Z"></path>
                   <path d="M59.635 34.4403V35.5498L60.7805 34.9232V39.6657H61.9667V33.5665H61.1294L59.635 34.4403Z"></path>
                 </svg>
-              </a>
+              </Link>
             </div>
             <div className="w-8/12">
               <ul className="hidden justify-center lg:flex lg:items-center">
                 <li>
-                  <a
+                  <Link
                     href="/our-purpose"
                     className="hover-underline mx-2 block px-0 pb-1 text-center text-sm leading-none xl:mx-3 2xl:mx-4 2xl:text-base"
                   >
                     Our Purpose
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     href="/our-brands"
                     className="underlined hover-underline mx-2 block px-0 pb-1 text-center text-sm leading-none xl:mx-3 2xl:mx-4 2xl:text-base"
                   >
                     Our Brands
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     href="/sustainability"
                     className="hover-underline mx-2 block px-0 pb-1 text-center text-sm leading-none xl:mx-3 2xl:mx-4 2xl:text-base"
                   >
                     Sustainability
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -139,9 +140,9 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
           <div className="absolute z-10 ml-16 mt-5 hidden md:block">
             <ul className="flex" aria-label="Breadcrumb">
               <li className="opacity-[0.56] last-of-type:font-bold last-of-type:opacity-100">
-                <a href="/" className="flex cursor-pointer items-center text-xs !text-blue">
+                <Link href="/" className="flex cursor-pointer items-center text-xs !text-blue">
                   HOMEPAGE
-                </a>
+                </Link>
               </li>
               <li className="opacity-[0.56] last-of-type:font-bold last-of-type:opacity-100">
                 <span className="flex items-center text-xs !text-blue" aria-current="page">
@@ -162,20 +163,20 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
           </div>
           <div className="relative">
             <div className="grid h-[calc(100vh-96px)] md:grid-cols-2">
-              <a href="/our-brands/prestige-brands" className="relative cursor-pointer">
+              <Link href="/our-brands/prestige-brands" className="relative cursor-pointer">
                 <img
                   className="rounded-bl-[50%]"
                   src="https://images.contentstack.io/v3/assets/blted39bd312054daca/blt165846d642936dd1/650b0289cd4063e122735b46/lancaster-our-brands.jpg"
                   alt="Prestige Brands"
                 />
-              </a>
-              <a href="/our-brands/consumer-brands" className="relative cursor-pointer">
+              </Link>
+              <Link href="/our-brands/consumer-brands" className="relative cursor-pointer">
                 <img
                   className="rounded-bl-[50%]"
                   src="https://images.contentstack.io/v3/assets/blted39bd312054daca/blt2a3008fca7c54236/650d639814893a01acce4b6f/sally-hansen-new-our-brands-v2.jpg"
                   alt="Consumer Brands"
                 />
-              </a>
+              </Link>
             </div>
           </div>
         </main>
@@ -183,8 +184,8 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
           <div className="container-fluid">
             <div className="row">
               <div className="col-sm-12">
-                &copy; 2024 Coty Inc. - <a href="/privacy-policy">Privacy Policy</a> -{' '}
-                <a href="/terms-of-use">Terms of Use</a>
+                &copy; 2024 Coty Inc. - <Link href="/privacy-policy">Privacy Policy</Link> -{' '}
+                <Link href="/terms-of-use">Terms of Use</Link>
               </div>
             </div>
           </div>
