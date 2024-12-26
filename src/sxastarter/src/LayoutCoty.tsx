@@ -13,7 +13,7 @@ import {
 import config from 'temp/config';
 import Scripts from 'src/Scripts';
 import Link from 'next/link';
-import 'src/styles/cotystyles.css';
+//import 'src/styles/cotystyles.css';
 
 // Prefix public assets with a public URL to enable compatibility with Sitecore Experience Editor.
 // If you're not supporting the Experience Editor, you can remove this.
