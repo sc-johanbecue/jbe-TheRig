@@ -55,7 +55,7 @@ const SitecorePage = ({
   const DubaiWTCSite = layoutData.sitecore.context.site?.name == 'dubaiwtc';
   const DubaiWTCSite2 = layoutData.sitecore.context.site?.name == 'dwtc';
   const JumeirahSite = layoutData.sitecore.context.site?.name == 'jumeirah';
-  const CotySite = layoutData.sitecore.context.site?.name?.toLowerCase() == 'Coty';
+  const CotySite = layoutData.sitecore.context.site?.name?.toLowerCase() == 'coty';
 
   return (
     <ComponentPropsContext value={componentProps}>
