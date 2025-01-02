@@ -12,6 +12,7 @@ import {
 } from '@sitecore-jss/sitecore-jss-nextjs';
 import config from 'temp/config';
 import Scripts from 'src/Scripts';
+import Link from 'next/link';
 
 // Prefix public assets with a public URL to enable compatibility with Sitecore Experience Editor.
 // If you're not supporting the Experience Editor, you can remove this.
@@ -88,14 +89,14 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
           <div id="footer">{route && <Placeholder name="headless-footer" rendering={route} />}</div>
         </footer>
 
-        <a href="#content" className="absolute left-[-9999px] focus:left-0 focus:top-[98px]">
+        <Link href="#content" className="absolute left-[-9999px] focus:left-0 focus:top-[98px]">
           Skip to content
-        </a>
+        </Link>
 
         <nav className="sticky top-0 z-50 flex w-full bg-white px-6 py-6">
           <div className="flex w-full items-center">
             <div className="flex w-2/12">
-              <a href="/" aria-label="Home">
+              <Link href="/" aria-label="Home">
                 <svg
                   width="128"
                   height="47"
@@ -119,28 +120,28 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                   <path d="M103.712 0.633545H110L99.3121 16.2234V26.289H94.0756V16.2924L83.3936 0.633545H89.7517L96.7839 11.2682L103.712 0.633545Z"></path>
                   <path d="M59.635 34.4403V35.5498L60.7805 34.9232V39.6657H61.9667V33.5665H61.1294L59.635 34.4403Z"></path>
                 </svg>
-              </a>
+              </Link>
             </div>
             <ul className="hidden lg:flex lg:items-center">
               <li>
-                <a href="/our-purpose" className="hover-underline">
+                <Link href="/our-purpose" className="hover-underline">
                   Our Purpose
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/our-brands" className="hover-underline">
+                <Link href="/our-brands" className="hover-underline">
                   Our Brands
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/sustainability" className="hover-underline">
+                <Link href="/sustainability" className="hover-underline">
                   Sustainability
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/innovation" className="hover-underline">
+                <Link href="/innovation" className="hover-underline">
                   Innovation
-                </a>
+                </Link>
               </li>
             </ul>
             <div className="flex w-2/12">
@@ -166,17 +167,17 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
 
             <section className="flex flex-col items-center pb-10 pt-20">
               <div className="relative h-32 w-1/2">
-                <a href="https://www.burberry.com">
+                <Link href="https://www.burberry.com">
                   <img
                     src="/images/burberry-logo.svg"
                     alt="Burberry Logo"
                     className="object-contain w-full h-full"
                   />
-                </a>
+                </Link>
               </div>
-              <a href="https://www.burberry.com" className="text-blue underline">
+              <Link href="https://www.burberry.com" className="text-blue underline">
                 Visit Website
-              </a>
+              </Link>
             </section>
 
             <section className="flex border-t border-blue">
@@ -208,88 +209,88 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                 <div className="flex-1 pr-3 last:pr-0">
                   <ul className="max-w-[230px] space-y-2">
                     <li>
-                      <a className="hover:underline" href="/contact-us">
+                      <Link className="hover:underline" href="/contact-us">
                         Contact Us
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
+                      <Link
                         href="https://supplier.coty.com"
                         className="hover:underline"
                         target="_blank"
                         rel="noreferrer"
                       >
                         Supplier Portal
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a className="hover:underline" href="/terms-use">
+                      <Link className="hover:underline" href="/terms-use">
                         Terms of Use
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
+                      <Link
                         href="https://careers.coty.com/"
                         className="hover:underline"
                         target="_blank"
                         rel="noreferrer"
                       >
                         Careers
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
+                      <Link
                         href="https://investors.coty.com/home/default.aspx"
                         className="hover:underline"
                         target="_blank"
                         rel="noreferrer"
                       >
                         Investors
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
+                      <Link
                         href="https://assets.contentstack.io/v3/assets/blted39bd312054daca/blt46196b3a33d2d0ca/Coty-Modern-Slavery-Statement-2024.pdf"
                         className="hover:underline"
                         target="_blank"
                         rel="noreferrer"
                       >
                         Modern Slavery Act &amp; Transparency in Supply Chains Statement
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>
                 <div className="flex-1 pr-3 last:pr-0">
                   <ul className="max-w-[230px] space-y-2">
                     <li>
-                      <a className="hover:underline" href="/faq">
+                      <Link className="hover:underline" href="/faq">
                         FAQ
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a className="hover:underline" href="/sustainability/esg-reporting-hub">
+                      <Link className="hover:underline" href="/sustainability/esg-reporting-hub">
                         Our Policies
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a className="hover:underline" href="/privacy-policy">
+                      <Link className="hover:underline" href="/privacy-policy">
                         Privacy Policy
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a className="hover:underline" href="/cookie-policy">
+                      <Link className="hover:underline" href="/cookie-policy">
                         Cookie Policy
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
+                      <Link
                         href="https://app.convercent.com/en-us/LandingPage/5c667d90-60bd-e711-80df-000d3ab6ebad"
                         className="hover:underline"
                         target="_blank"
                         rel="noreferrer"
                       >
                         Ethics &amp; Compliance Hotline
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>
@@ -297,7 +298,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
               <div className="mt-8 flex flex-col items-center text-sm sm:items-start">
                 <div className="mb-4 hidden md:block">Follow Coty</div>
                 <div className="flex justify-center gap-[1.6rem] w-full max-w-[188px] justify-between md:max-w-[176px]">
-                  <a
+                  <Link
                     target="_blank"
                     rel="noreferrer"
                     data-testid="social-list-item"
@@ -405,8 +406,8 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                         />
                       </noscript>
                     </span>
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     target="_blank"
                     rel="noreferrer"
                     data-testid="social-list-item"
@@ -514,8 +515,8 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                         />
                       </noscript>
                     </span>
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     target="_blank"
                     rel="noreferrer"
                     data-testid="social-list-item"
@@ -623,8 +624,8 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                         />
                       </noscript>
                     </span>
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     target="_blank"
                     rel="noreferrer"
                     data-testid="social-list-item"
@@ -732,7 +733,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                         />
                       </noscript>
                     </span>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
