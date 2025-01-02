@@ -88,11 +88,6 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
         <footer>
           <div id="footer">{route && <Placeholder name="headless-footer" rendering={route} />}</div>
         </footer>
-
-        <Link href="#content" className="absolute left-[-9999px] focus:left-0 focus:top-[98px]">
-          Skip to content
-        </Link>
-
         <nav className="sticky top-0 z-50 flex w-full items-center bg-white px-6 py-6 h-24 md:px-16 md:py-8  text-blue ">
           <div className="flex w-full items-center ">
             <div className="flex w-2/12 items-center" data-testid="logotype">
