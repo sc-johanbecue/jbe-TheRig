@@ -1396,7 +1396,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                   <div className="block z-0 w-full overflow-hidden">
                     <img
                       alt="Burberry Hero Banner"
-                      src="https://images.contentstack.io/v3/assets/blted39bd312054daca/bltee9c547f629408c0/634e7b4f885d1d218e4873ca/burberry-hero-banner-s.jpg?width=3840&quality=100&auto=webp"
+                      src="https://images.contentstack.io/v3/assets/blted39bd312054daca/blt6c72117c6bb7ef30/636b92090ec18d1559006d89/Coty-Predtige-Brands-Burberry-hero_xl.jpg?width=1200&quality=100&auto=webp"
                       // layout="fill"
                       // objectFit="cover"
                       // priority
@@ -1636,19 +1636,15 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                         data-nimg="intrinsic"
                         className="cursor-pointer"
                         style={{
-                          position: 'absolute',
-                          inset: '0px',
-                          boxSizing: 'border-box',
-                          padding: '0px',
-                          border: 'none',
-                          margin: 'auto',
                           display: 'block',
-                          width: '0px',
-                          height: '0px',
-                          minWidth: '100%',
                           maxWidth: '100%',
-                          minHeight: '100%',
-                          maxHeight: '100%',
+                          width: 'initial',
+                          height: 'initial',
+                          background: 'none',
+                          opacity: 1,
+                          border: '0px',
+                          margin: '0px',
+                          padding: '0px',
                         }}
                       />
                     </span>
