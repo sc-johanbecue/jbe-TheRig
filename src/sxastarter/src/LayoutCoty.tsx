@@ -13,6 +13,7 @@ import {
 import config from 'temp/config';
 import Scripts from 'src/Scripts';
 import Link from 'next/link';
+import Image from 'next/image';
 
 // Prefix public assets with a public URL to enable compatibility with Sitecore Experience Editor.
 // If you're not supporting the Experience Editor, you can remove this.
@@ -156,46 +157,100 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
 
         <main id="content" tabIndex={-1}>
           <h1 className="sr-only">Page Details - Brand Page - Burberry</h1>
-          <div>
-            <section className="relative h-[440px] overflow-hidden rounded-br-[272px]">
-              <img
-                src="/images/burberry-hero.jpg"
-                alt="Burberry Hero"
-                className="object-cover w-full h-full"
-              />
-            </section>
-
-            <section className="flex flex-col items-center pb-10 pt-20">
-              <div className="relative h-32 w-1/2">
-                <Link href="https://www.burberry.com">
-                  <img
-                    src="/images/burberry-logo.svg"
+          <div className="pt-24">
+            <div className="absolute z-[9] ml-16 mt-5 hidden md:block">
+              <ul className="flex" aria-label="Breadcrumb">
+                <li className="opacity-[0.56] last-of-type:font-bold last-of-type:opacity-100">
+                  <Link href="/">
+                    <a className="flex cursor-pointer items-center text-xs !text-white">HOMEPAGE</a>
+                  </Link>
+                </li>
+                <li className="opacity-[0.56] last-of-type:font-bold last-of-type:opacity-100">
+                  <Link href="/our-brands">
+                    <a className="flex cursor-pointer items-center text-xs !text-white">
+                      <svg
+                        width="6"
+                        height="10"
+                        viewBox="0 0 6 10"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                        className="mx-2 !stroke-white"
+                      >
+                        <path d="M5 9L1 5L5 1" />
+                      </svg>
+                      OUR BRANDS
+                    </a>
+                  </Link>
+                </li>
+                <li className="opacity-[0.56] last-of-type:font-bold last-of-type:opacity-100">
+                  <Link href="/our-brands/prestige-brands">
+                    <a className="flex cursor-pointer items-center text-xs !text-white">
+                      <svg
+                        width="6"
+                        height="10"
+                        viewBox="0 0 6 10"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                        className="mx-2 !stroke-white"
+                      >
+                        <path d="M5 9L1 5L5 1" />
+                      </svg>
+                      PRESTIGE BRANDS
+                    </a>
+                  </Link>
+                </li>
+                <li className="opacity-[0.56] last-of-type:font-bold last-of-type:opacity-100">
+                  <span className="flex items-center text-xs !text-white" aria-current="page">
+                    <svg
+                      width="6"
+                      height="10"
+                      viewBox="0 0 6 10"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="mx-2 !stroke-white"
+                    >
+                      <path d="M5 9L1 5L5 1" />
+                    </svg>
+                    BURBERRY
+                  </span>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <div style={{ willChange: 'transform', transform: 'translateY(-3.16949%)' }}>
+                <div className="banner_gradient__7umfc relative h-[440px] overflow-hidden rounded-br-[195px] md:rounded-br-[272px]">
+                  <div className="block z-0 w-full overflow-hidden">
+                    <Image
+                      alt="Burberry Hero Banner"
+                      src="https://images.contentstack.io/v3/assets/blted39bd312054daca/bltee9c547f629408c0/634e7b4f885d1d218e4873ca/burberry-hero-banner-s.jpg?width=3840&quality=100&auto=webp"
+                      layout="fill"
+                      objectFit="cover"
+                      priority
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="flex flex-col items-center pb-10 pt-[60px] md:pb-16 md:pt-20">
+              <div className="relative h-20 w-2/3 md:h-32 md:w-1/2 max-h-[64px]">
+                <a target="_blank" rel="noopener noreferrer" href="https://www.burberry.com">
+                  <Image
                     alt="Burberry Logo"
-                    className="object-contain w-full h-full"
+                    src="https://images.contentstack.io/v3/assets/blted39bd312054daca/bltb7053bcb8736c65e/634e7b4fe20f8c3ac1fd75d4/burberry-logo.svg?width=3840&quality=50&auto=webp"
+                    layout="fill"
+                    objectFit="contain"
                   />
-                </Link>
+                </a>
               </div>
-              <Link href="https://www.burberry.com" className="text-blue underline">
-                Visit Website
-              </Link>
-            </section>
-
-            <section className="flex border-t border-blue">
-              <div className="w-1/2">
-                <img
-                  src="/images/burberry-about.jpg"
-                  alt="About Burberry"
-                  className="object-cover w-full h-full"
-                />
-              </div>
-              <div className="w-1/2">
-                <p className="uppercase text-darkGray">About</p>
-                <p className="text-blue">
-                  British luxury fashion house established in 1856 by Thomas Burberry headquartered
-                  in London, England.
-                </p>
-              </div>
-            </section>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-sm font-bold tracking-wider text-blue underline underline-offset-[7px] even:mt-5 md:even:mt-[35px]"
+                href="https://www.burberry.com"
+              >
+                VISIT WEBSITE
+              </a>
+            </div>
           </div>
         </main>
 
