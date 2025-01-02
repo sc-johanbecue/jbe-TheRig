@@ -56,17 +56,21 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
           content="British luxury fashion house established in 1856 by Thomas Burberry headquartered in London, England."
         />
         <meta name="keywords" content="Burberry" />
-        <link rel="shortcut icon" href="/favicon.ico" type="image/vnd.microsoft.icon" />
-        <link rel="icon" href="/favicon-16x16.png" sizes="16x16" />
-        <link rel="icon" href="/favicon-32x32.png" sizes="32x32" />
-        <link rel="icon" href="/favicon-96x96.png" sizes="96x96" />
+        <link
+          rel="shortcut icon"
+          href="https://www.coty.com/favicon.ico"
+          type="image/vnd.microsoft.icon"
+        />
+        <link rel="icon" href="https://www.coty.com/favicon-16x16.png" sizes="16x16" />
+        <link rel="icon" href="https://www.coty.com/favicon-32x32.png" sizes="32x32" />
+        <link rel="icon" href="https://www.coty.com/favicon-96x96.png" sizes="96x96" />
         <link
           rel="stylesheet"
-          href="https://www.sportingkampenhout.be/sitecore/Coty ea348a8ec5ce6481.css"
+          href="https://www.sportingkampenhout.be/sitecore/Cotyea348a8ec5ce6481.css"
         />
         <link
           rel="stylesheet"
-          href="https://www.sportingkampenhout.be/sitecore/Coty 9741213a0e947ea8.css"
+          href="https://www.sportingkampenhout.be/sitecore/Coty9741213a0e947ea8.css"
         />
         <script async src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"></script>
       </Head>
