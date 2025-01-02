@@ -94,10 +94,14 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
           Skip to content
         </Link>
 
-        <nav className="sticky top-0 z-50 flex w-full bg-white px-6 py-6">
-          <div className="flex w-full items-center">
-            <div className="flex w-2/12">
-              <Link href="/" aria-label="Home">
+        <nav className="sticky top-0 z-50 flex w-full items-center bg-white px-6 py-6 h-24 md:px-16 md:py-8  text-blue ">
+          <div className="flex w-full items-center ">
+            <div className="flex w-2/12 items-center" data-testid="logotype">
+              <a
+                className="z-30 flex text-2xl font-semibold transition duration-300 ease-in-out"
+                aria-label="Home"
+                href="/"
+              >
                 <svg
                   width="128"
                   height="47"
@@ -121,40 +125,1214 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                   <path d="M103.712 0.633545H110L99.3121 16.2234V26.289H94.0756V16.2924L83.3936 0.633545H89.7517L96.7839 11.2682L103.712 0.633545Z"></path>
                   <path d="M59.635 34.4403V35.5498L60.7805 34.9232V39.6657H61.9667V33.5665H61.1294L59.635 34.4403Z"></path>
                 </svg>
-              </Link>
+              </a>
             </div>
-            <ul className="hidden lg:flex lg:items-center">
-              <li>
-                <Link href="/our-purpose" className="hover-underline">
-                  Our Purpose
-                </Link>
-              </li>
-              <li>
-                <Link href="/our-brands" className="hover-underline">
-                  Our Brands
-                </Link>
-              </li>
-              <li>
-                <Link href="/sustainability" className="hover-underline">
-                  Sustainability
-                </Link>
-              </li>
-              <li>
-                <Link href="/innovation" className="hover-underline">
-                  Innovation
-                </Link>
-              </li>
-            </ul>
-            <div className="flex w-2/12">
-              <button aria-label="Click to search">
-                <svg width="20" height="20">
-                  <path d="M18.9388 25.4558C12.0935 25.4558 6.54426 19.9065 6.54426 13.0612C6.54426 6.21589 12.0935 0.666665 18.9388 0.666665C25.7841 0.666665 31.3333 6.21589 31.3333 13.0612" />
+            <div className="w-8/12">
+              <ul className="hidden justify-center lg:flex lg:items-center">
+                <li className="">
+                  <div className="relative w-full w-fit">
+                    <div className="w-full  block w-fit" data-testid="navigation-element">
+                      <a
+                        aria-expanded="false"
+                        aria-controls="menu-dropdown-horizontal-menu-our-purpose"
+                        className="  hover-underline mx-2 block px-0 pb-1 text-center text-sm leading-none xl:mx-3 2xl:mx-4 2xl:text-base "
+                        href="/our-purpose"
+                      >
+                        Our Purpose
+                      </a>
+                    </div>
+                    <div
+                      className="absolute -left-4 bottom-0 translate-y-full pt-4  overflow-hidden transition-all ease-out lg:duration-[0ms] opacity-0 duration-200"
+                      data-testid="menu-dropdown-horizontal-menu-our-purpose"
+                      id="menu-dropdown-horizontal-menu-our-purpose"
+                      style={{ maxHeight: '0px', visibility: 'hidden' }}
+                    >
+                      <ul className="relative flex flex-col rounded-tr-[48px] border-2 border-solid border-lightGray bg-white px-8 py-6">
+                        <li className="first-of-type:pt-0 pt-2 ">
+                          <span
+                            className="absolute -top-[7px] z-50 inline"
+                            style={{
+                              left: '54.5px',
+                              width: '10px',
+                              height: '10px',
+                              background: 'rgb(255, 255, 255)',
+                              borderStyle: 'solid',
+                              borderWidth: '1px 0px 0px 1px',
+                              borderColor: 'lightgray transparent transparent lightgray',
+                              transform: 'rotate(45deg)',
+                            }}
+                          ></span>
+                          <a
+                            tabIndex={-1}
+                            className="hover-underline relative whitespace-nowrap pb-1 text-left opacity-60 lg:opacity-100   text-sm"
+                            href="/our-purpose"
+                          >
+                            Who We Are
+                          </a>
+                        </li>
+                        <li className="first-of-type:pt-0 pt-2 ">
+                          <span
+                            className="absolute -top-[7px] z-50 inline"
+                            style={{
+                              left: '54.5px',
+                              width: '10px',
+                              height: '10px',
+                              background: 'rgb(255, 255, 255)',
+                              borderStyle: 'solid',
+                              borderWidth: '1px 0px 0px 1px',
+                              borderColor: 'lightgray transparent transparent lightgray',
+                              transform: 'rotate(45deg)',
+                            }}
+                          ></span>
+                          <a
+                            tabIndex={-1}
+                            className="hover-underline relative whitespace-nowrap pb-1 text-left opacity-60 lg:opacity-100   text-sm"
+                            href="/our-heritage"
+                          >
+                            Our Heritage
+                          </a>
+                        </li>
+                        <li className="first-of-type:pt-0 pt-2 ">
+                          <span
+                            className="absolute -top-[7px] z-50 inline"
+                            style={{
+                              left: '54.5px',
+                              width: '10px',
+                              height: '10px',
+                              background: 'rgb(255, 255, 255)',
+                              borderStyle: 'solid',
+                              borderWidth: '1px 0px 0px 1px',
+                              borderColor: 'lightgray transparent transparent lightgray',
+                              transform: 'rotate(45deg)',
+                            }}
+                          ></span>
+                          <a
+                            tabIndex={-1}
+                            className="hover-underline relative whitespace-nowrap pb-1 text-left opacity-60 lg:opacity-100   text-sm"
+                            href="/our-leaders"
+                          >
+                            Our Leaders
+                          </a>
+                        </li>
+                        <li className="first-of-type:pt-0 pt-2 ">
+                          <span
+                            className="absolute -top-[7px] z-50 inline"
+                            style={{
+                              left: '54.5px',
+                              width: '10px',
+                              height: '10px',
+                              background: 'rgb(255, 255, 255)',
+                              borderStyle: 'solid',
+                              borderWidth: '1px 0px 0px 1px',
+                              borderColor: 'lightgray transparent transparent lightgray',
+                              transform: 'rotate(45deg)',
+                            }}
+                          ></span>
+                          <a
+                            tabIndex={-1}
+                            className="hover-underline relative whitespace-nowrap pb-1 text-left opacity-60 lg:opacity-100   text-sm"
+                            href="/undefine-beauty"
+                          >
+                            #UndefineBeauty
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <li className="">
+                  <a
+                    className="  hover-underline mx-2 block px-0 pb-1 text-center text-sm leading-none xl:mx-3 2xl:mx-4 2xl:text-base "
+                    href="/our-brands"
+                  >
+                    Our Brands
+                  </a>
+                </li>
+                <li className="">
+                  <div className="relative w-full w-fit">
+                    <div className="w-full  block w-fit" data-testid="navigation-element">
+                      <a
+                        aria-expanded="false"
+                        aria-controls="menu-dropdown-horizontal-menu-sustainability"
+                        className="  hover-underline mx-2 block px-0 pb-1 text-center text-sm leading-none xl:mx-3 2xl:mx-4 2xl:text-base "
+                        href="/sustainability"
+                      >
+                        Sustainability
+                      </a>
+                    </div>
+                    <div
+                      className="absolute -left-4 bottom-0 translate-y-full pt-4  overflow-hidden transition-all ease-out lg:duration-[0ms] opacity-0 duration-200"
+                      data-testid="menu-dropdown-horizontal-menu-sustainability"
+                      id="menu-dropdown-horizontal-menu-sustainability"
+                      style={{ maxHeight: '0px', visibility: 'hidden' }}
+                    >
+                      <ul className="relative flex flex-col rounded-tr-[48px] border-2 border-solid border-lightGray bg-white px-8 py-6">
+                        <li className="first-of-type:pt-0 pt-2 ">
+                          <span
+                            className="absolute -top-[7px] z-50 inline"
+                            style={{
+                              left: '68.5px',
+                              width: '10px',
+                              height: '10px',
+                              background: 'rgb(255, 255, 255)',
+                              borderStyle: 'solid',
+                              borderWidth: '1px 0px 0px 1px',
+                              borderColor: 'lightgray transparent transparent lightgray',
+                              transform: 'rotate(45deg)',
+                            }}
+                          ></span>
+                          <a
+                            tabIndex={-1}
+                            className="hover-underline relative whitespace-nowrap pb-1 text-left opacity-60 lg:opacity-100   text-sm"
+                            href="/sustainability"
+                          >
+                            Beauty That Lasts
+                          </a>
+                        </li>
+                        <li className="first-of-type:pt-0 pt-2 ">
+                          <span
+                            className="absolute -top-[7px] z-50 inline"
+                            style={{
+                              left: '68.5px',
+                              width: '10px',
+                              height: '10px',
+                              background: 'rgb(255, 255, 255)',
+                              borderStyle: 'solid',
+                              borderWidth: '1px 0px 0px 1px',
+                              borderColor: 'lightgray transparent transparent lightgray',
+                              transform: 'rotate(45deg)',
+                            }}
+                          ></span>
+                          <a
+                            tabIndex={-1}
+                            className="hover-underline relative whitespace-nowrap pb-1 text-left opacity-60 lg:opacity-100   text-sm"
+                            href="/sustainability/goals-targets"
+                          >
+                            Goals and Targets
+                          </a>
+                        </li>
+                        <li className="first-of-type:pt-0 pt-2 ">
+                          <span
+                            className="absolute -top-[7px] z-50 inline"
+                            style={{
+                              left: '68.5px',
+                              width: '10px',
+                              height: '10px',
+                              background: 'rgb(255, 255, 255)',
+                              borderStyle: 'solid',
+                              borderWidth: '1px 0px 0px 1px',
+                              borderColor: 'lightgray transparent transparent lightgray',
+                              transform: 'rotate(45deg)',
+                            }}
+                          ></span>
+                          <a
+                            tabIndex={-1}
+                            className="hover-underline relative whitespace-nowrap pb-1 text-left opacity-60 lg:opacity-100   text-sm"
+                            href="/sustainability/beauty-of-our-planet"
+                          >
+                            Beauty of our Planet
+                          </a>
+                        </li>
+                        <li className="first-of-type:pt-0 pt-2 ">
+                          <span
+                            className="absolute -top-[7px] z-50 inline"
+                            style={{
+                              left: '68.5px',
+                              width: '10px',
+                              height: '10px',
+                              background: 'rgb(255, 255, 255)',
+                              borderStyle: 'solid',
+                              borderWidth: '1px 0px 0px 1px',
+                              borderColor: 'lightgray transparent transparent lightgray',
+                              transform: 'rotate(45deg)',
+                            }}
+                          ></span>
+                          <a
+                            tabIndex={-1}
+                            className="hover-underline relative whitespace-nowrap pb-1 text-left opacity-60 lg:opacity-100   text-sm"
+                            href="/sustainability/beauty-of-our-people"
+                          >
+                            Beauty of our People
+                          </a>
+                        </li>
+                        <li className="first-of-type:pt-0 pt-2 ">
+                          <span
+                            className="absolute -top-[7px] z-50 inline"
+                            style={{
+                              left: '68.5px',
+                              width: '10px',
+                              height: '10px',
+                              background: 'rgb(255, 255, 255)',
+                              borderStyle: 'solid',
+                              borderWidth: '1px 0px 0px 1px',
+                              borderColor: 'lightgray transparent transparent lightgray',
+                              transform: 'rotate(45deg)',
+                            }}
+                          ></span>
+                          <a
+                            tabIndex={-1}
+                            className="hover-underline relative whitespace-nowrap pb-1 text-left opacity-60 lg:opacity-100   text-sm"
+                            href="/sustainability/governed-beautifully"
+                          >
+                            Governed Beautifully
+                          </a>
+                        </li>
+                        <li className="first-of-type:pt-0 pt-2 ">
+                          <span
+                            className="absolute -top-[7px] z-50 inline"
+                            style={{
+                              left: '68.5px',
+                              width: '10px',
+                              height: '10px',
+                              background: 'rgb(255, 255, 255)',
+                              borderStyle: 'solid',
+                              borderWidth: '1px 0px 0px 1px',
+                              borderColor: 'lightgray transparent transparent lightgray',
+                              transform: 'rotate(45deg)',
+                            }}
+                          ></span>
+                          <a
+                            tabIndex={-1}
+                            className="hover-underline relative whitespace-nowrap pb-1 text-left opacity-60 lg:opacity-100   text-sm"
+                            href="/sustainability/esg-reporting-hub"
+                          >
+                            ESG Reporting Hub
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <li className="">
+                  <a
+                    className="  hover-underline mx-2 block px-0 pb-1 text-center text-sm leading-none xl:mx-3 2xl:mx-4 2xl:text-base "
+                    href="/innovation"
+                  >
+                    Innovation
+                  </a>
+                </li>
+                <li className="">
+                  <a
+                    className="  hover-underline mx-2 block px-0 pb-1 text-center text-sm leading-none xl:mx-3 2xl:mx-4 2xl:text-base "
+                    href="/your-career"
+                  >
+                    Your Career
+                  </a>
+                </li>
+                <li className="">
+                  <a
+                    className="  hover-underline mx-2 block px-0 pb-1 text-center text-sm leading-none xl:mx-3 2xl:mx-4 2xl:text-base "
+                    href="/news"
+                  >
+                    News
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div className="flex w-2/12 min-w-[80px] items-center justify-between gap-4 md:min-w-min md:justify-center md:gap-8">
+              <div className="min-w-8 hidden lg:block" data-testid="countries-selector">
+                <div>
+                  <div className="relative inline-block text-left" data-headlessui-state="">
+                    <div>
+                      <span id=":r88:" className="sr-only">
+                        Country
+                      </span>
+                      <div
+                        className="border-blue inline-flex w-full justify-center border-0 border-b pt-2 text-sm font-semibold md:pt-0"
+                        role="combobox"
+                        aria-expanded="false"
+                        aria-haspopup="menu"
+                        aria-labelledby=":r88:"
+                        id=":r87:"
+                        data-headlessui-state=""
+                        aria-controls=":r89:"
+                      >
+                        EN
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 20 20"
+                          fill="currentColor"
+                          aria-hidden="true"
+                          className="text-blue -mr-1 h-5 w-5"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+                            clip-rule="evenodd"
+                          ></path>
+                        </svg>
+                      </div>
+                    </div>
+                    <div
+                      className="absolute right-0 top-2 z-10 w-10 border border-blue bg-white font-semibold md:top-0"
+                      hidden={false}
+                      id=":r89:"
+                      role="menu"
+                      tabIndex={0}
+                      data-headlessui-state=""
+                      style={{ display: 'none' }}
+                      aria-labelledby=":r87:"
+                    >
+                      <button
+                        className="flex w-full cursor-pointer pl-[2px] text-sm text-blue"
+                        data-testid="countries-link"
+                        data-option-index="0"
+                        aria-current="true"
+                        id="headlessui-menu-item-:r8c:"
+                        role="menuitem"
+                        tabIndex={-1}
+                        data-headlessui-state=""
+                      >
+                        EN
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 20 20"
+                          fill="currentColor"
+                          aria-hidden="true"
+                          className="w-4"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
+                            clip-rule="evenodd"
+                          ></path>
+                        </svg>
+                      </button>
+                      <button
+                        className="flex w-full cursor-pointer pl-[2px] text-sm text-blue"
+                        data-testid="countries-link"
+                        data-option-index="1"
+                        aria-current="false"
+                        id="headlessui-menu-item-:r8d:"
+                        role="menuitem"
+                        tabIndex={-1}
+                        data-headlessui-state=""
+                      >
+                        FR
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="hidden h-8 gap-x-4 justify-end lg:flex">
+                <a
+                  target="_blank"
+                  className="min-w-[90px] border px-5 border-blue whitespace-nowrap rounded-br-2xl py-2 text-center text-base leading-4 transition duration-300 ease-in-out hover:border-transparent hover:bg-blue hover:text-white"
+                  href="https://careers.coty.com/go/Open-Positions/8765801"
+                >
+                  OPEN POSITIONS
+                </a>
+              </div>
+              <button
+                data-testid="search-bar"
+                aria-label="Click to search"
+                className="relative z-50"
+              >
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 32 33"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    className="transition duration-700 ease-in-out"
+                    d="M18.9388 25.4558C12.0935 25.4558 6.54426 19.9065 6.54426 13.0612C6.54426 6.21589 12.0935 0.666665 18.9388 0.666665C25.7841 0.666665 31.3333 6.21589 31.3333 13.0612C31.3333 19.9065 25.7841 25.4558 18.9388 25.4558Z"
+                    stroke="#002554"
+                    stroke-width="1.33333"
+                  ></path>
+                  <line
+                    className="transition duration-700 ease-in-out"
+                    x1="10.2671"
+                    y1="22.6755"
+                    x2="0.471133"
+                    y2="32.4714"
+                    stroke="#002554"
+                    stroke-width="1.33333"
+                  ></line>
                 </svg>
               </button>
+              <div className="relative z-50 block h-[26px] w-6 lg:hidden ">
+                <button
+                  className="flex min-h-[24px] flex-col items-center justify-between gap-y-2 py-2"
+                  aria-label="Open menu"
+                  aria-expanded="false"
+                  aria-controls="menu-mobile"
+                  aria-haspopup="true"
+                >
+                  <span className="h-px w-6 bg-blue transition duration-700 ease-in-out "></span>
+                  <span className="h-px w-6 bg-blue transition duration-700 ease-in-out "></span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            id="menu-mobile"
+            className="fixed inset-0 z-20 overflow-auto bg-blue text-white lg:hidden"
+            aria-describedby=":r8e:"
+            style={{
+              visibility: 'hidden',
+              transform: 'translateY(-100%)',
+              transition: 'transform 1000ms cubic-bezier(0.4, 0, 0.2, 1), visibility linear 1500ms',
+            }}
+          >
+            <span id=":r8e:" className="sr-only">
+              Primary mobile menu
+            </span>
+            <div className="mx-auto flex h-full max-w-screen-sm flex-col px-5 pt-20">
+              <ul className="mt-6 border-t border-white">
+                <li className="flex w-full flex-col items-center">
+                  <div className="relative w-full border-b border-white">
+                    <div
+                      className="w-full  flex items-center justify-between"
+                      data-testid="navigation-element"
+                    >
+                      <a
+                        aria-expanded="false"
+                        aria-controls="menu-dropdown-vertical-menu-our-purpose"
+                        className="  w-full py-5 text-3xl font-bold uppercase sm:text-4xl"
+                        href="/our-purpose"
+                      >
+                        Our Purpose
+                      </a>
+                      <button
+                        tabIndex={-1}
+                        className="p-4 transition-transform ease-out -rotate-90"
+                      >
+                        <svg
+                          width="10"
+                          height="18"
+                          viewBox="0 0 10 18"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path d="M9 17L5 13L0.999999 9L9 1" stroke="#FFFFFF"></path>
+                        </svg>
+                      </button>
+                    </div>
+                    <div
+                      className=" overflow-hidden transition-all ease-out lg:duration-[0ms] opacity-0 duration-200"
+                      data-testid="menu-dropdown-vertical-menu-our-purpose"
+                      id="menu-dropdown-vertical-menu-our-purpose"
+                      style={{ maxHeight: '0px', visibility: 'hidden' }}
+                    >
+                      <ul className="relative flex flex-col rounded-tr-[48px] mb-5 bg-transparent">
+                        <li className="first-of-type:pt-0 py-3 uppercase ">
+                          <span
+                            className="absolute -top-[7px] z-50 hidden"
+                            style={{
+                              left: '24px',
+                              width: '10px',
+                              height: '10px',
+                              background: 'rgb(255, 255, 255)',
+                              borderStyle: 'solid',
+                              borderWidth: '1px 0px 0px 1px',
+                              borderColor: 'lightgray transparent transparent lightgray',
+                              transform: 'rotate(45deg);',
+                            }}
+                          ></span>
+                          <a
+                            tabIndex={-1}
+                            className="hover-underline relative whitespace-nowrap pb-1 text-left opacity-60 lg:opacity-100   text-lg"
+                            href="/our-purpose"
+                          >
+                            Who We Are
+                          </a>
+                        </li>
+                        <li className="first-of-type:pt-0 py-3 uppercase ">
+                          <span
+                            className="absolute -top-[7px] z-50 hidden"
+                            style={{
+                              left: '24px',
+                              width: '10px',
+                              height: '10px',
+                              background: 'rgb(255, 255, 255)',
+                              borderStyle: 'solid',
+                              borderWidth: '1px 0px 0px 1px',
+                              borderColor: 'lightgray transparent transparent lightgray',
+                              transform: 'rotate(45deg);',
+                            }}
+                          ></span>
+                          <a
+                            tabIndex={-1}
+                            className="hover-underline relative whitespace-nowrap pb-1 text-left opacity-60 lg:opacity-100   text-lg"
+                            href="/our-heritage"
+                          >
+                            Our Heritage
+                          </a>
+                        </li>
+                        <li className="first-of-type:pt-0 py-3 uppercase ">
+                          <span
+                            className="absolute -top-[7px] z-50 hidden"
+                            style={{
+                              left: '24px',
+                              width: '10px',
+                              height: '10px',
+                              background: 'rgb(255, 255, 255)',
+                              borderStyle: 'solid',
+                              borderWidth: '1px 0px 0px 1px',
+                              borderColor: 'lightgray transparent transparent lightgray',
+                              transform: 'rotate(45deg);',
+                            }}
+                          ></span>
+                          <a
+                            tabIndex={-1}
+                            className="hover-underline relative whitespace-nowrap pb-1 text-left opacity-60 lg:opacity-100   text-lg"
+                            href="/our-leaders"
+                          >
+                            Our Leaders
+                          </a>
+                        </li>
+                        <li className="first-of-type:pt-0 py-3 uppercase ">
+                          <span
+                            className="absolute -top-[7px] z-50 hidden"
+                            style={{
+                              left: '24px',
+                              width: '10px',
+                              height: '10px',
+                              background: 'rgb(255, 255, 255)',
+                              borderStyle: 'solid',
+                              borderWidth: '1px 0px 0px 1px',
+                              borderColor: 'lightgray transparent transparent lightgray',
+                              transform: 'rotate(45deg);',
+                            }}
+                          ></span>
+                          <a
+                            tabIndex={-1}
+                            className="hover-underline relative whitespace-nowrap pb-1 text-left opacity-60 lg:opacity-100   text-lg"
+                            href="/undefine-beauty"
+                          >
+                            #UndefineBeauty
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <li className="flex w-full flex-col items-center">
+                  <a
+                    className="border-b border-white  w-full py-5 text-3xl font-bold uppercase sm:text-4xl"
+                    href="/our-brands"
+                  >
+                    Our Brands
+                  </a>
+                </li>
+                <li className="flex w-full flex-col items-center">
+                  <div className="relative w-full border-b border-white">
+                    <div
+                      className="w-full  flex items-center justify-between"
+                      data-testid="navigation-element"
+                    >
+                      <a
+                        aria-expanded="false"
+                        aria-controls="menu-dropdown-vertical-menu-sustainability"
+                        className="  w-full py-5 text-3xl font-bold uppercase sm:text-4xl"
+                        href="/sustainability"
+                      >
+                        Sustainability
+                      </a>
+                      <button
+                        tabIndex={-1}
+                        className="p-4 transition-transform ease-out -rotate-90"
+                      >
+                        <svg
+                          width="10"
+                          height="18"
+                          viewBox="0 0 10 18"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path d="M9 17L5 13L0.999999 9L9 1" stroke="#FFFFFF"></path>
+                        </svg>
+                      </button>
+                    </div>
+                    <div
+                      className=" overflow-hidden transition-all ease-out lg:duration-[0ms] opacity-0 duration-200"
+                      data-testid="menu-dropdown-vertical-menu-sustainability"
+                      id="menu-dropdown-vertical-menu-sustainability"
+                      style={{ maxHeight: '0px', visibility: 'hidden' }}
+                    >
+                      <ul className="relative flex flex-col rounded-tr-[48px] mb-5 bg-transparent">
+                        <li className="first-of-type:pt-0 py-3 uppercase ">
+                          <span
+                            className="absolute -top-[7px] z-50 hidden"
+                            style={{
+                              left: '24px',
+                              width: '10px',
+                              height: '10px',
+                              background: 'rgb(255, 255, 255)',
+                              borderStyle: 'solid',
+                              borderWidth: '1px 0px 0px 1px',
+                              borderColor: 'lightgray transparent transparent lightgray',
+                              transform: 'rotate(45deg);',
+                            }}
+                          ></span>
+                          <a
+                            tabIndex={-1}
+                            className="hover-underline relative whitespace-nowrap pb-1 text-left opacity-60 lg:opacity-100   text-lg"
+                            href="/sustainability"
+                          >
+                            Beauty That Lasts
+                          </a>
+                        </li>
+                        <li className="first-of-type:pt-0 py-3 uppercase ">
+                          <span
+                            className="absolute -top-[7px] z-50 hidden"
+                            style={{
+                              left: '24px',
+                              width: '10px',
+                              height: '10px',
+                              background: 'rgb(255, 255, 255)',
+                              borderStyle: 'solid',
+                              borderWidth: '1px 0px 0px 1px',
+                              borderColor: 'lightgray transparent transparent lightgray',
+                              transform: 'rotate(45deg);',
+                            }}
+                          ></span>
+                          <a
+                            tabIndex={-1}
+                            className="hover-underline relative whitespace-nowrap pb-1 text-left opacity-60 lg:opacity-100   text-lg"
+                            href="/sustainability/goals-targets"
+                          >
+                            Goals and Targets
+                          </a>
+                        </li>
+                        <li className="first-of-type:pt-0 py-3 uppercase ">
+                          <span
+                            className="absolute -top-[7px] z-50 hidden"
+                            style={{
+                              left: '24px',
+                              width: '10px',
+                              height: '10px',
+                              background: 'rgb(255, 255, 255)',
+                              borderStyle: 'solid',
+                              borderWidth: '1px 0px 0px 1px',
+                              borderColor: 'lightgray transparent transparent lightgray',
+                              transform: 'rotate(45deg);',
+                            }}
+                          ></span>
+                          <a
+                            tabIndex={-1}
+                            className="hover-underline relative whitespace-nowrap pb-1 text-left opacity-60 lg:opacity-100   text-lg"
+                            href="/sustainability/beauty-of-our-planet"
+                          >
+                            Beauty of our Planet
+                          </a>
+                        </li>
+                        <li className="first-of-type:pt-0 py-3 uppercase ">
+                          <span
+                            className="absolute -top-[7px] z-50 hidden"
+                            style={{
+                              left: '24px',
+                              width: '10px',
+                              height: '10px',
+                              background: 'rgb(255, 255, 255)',
+                              borderStyle: 'solid',
+                              borderWidth: '1px 0px 0px 1px',
+                              borderColor: 'lightgray transparent transparent lightgray',
+                              transform: 'rotate(45deg);',
+                            }}
+                          ></span>
+                          <a
+                            tabIndex={-1}
+                            className="hover-underline relative whitespace-nowrap pb-1 text-left opacity-60 lg:opacity-100   text-lg"
+                            href="/sustainability/beauty-of-our-people"
+                          >
+                            Beauty of our People
+                          </a>
+                        </li>
+                        <li className="first-of-type:pt-0 py-3 uppercase ">
+                          <span
+                            className="absolute -top-[7px] z-50 hidden"
+                            style={{
+                              left: '24px',
+                              width: '10px',
+                              height: '10px',
+                              background: 'rgb(255, 255, 255)',
+                              borderStyle: 'solid',
+                              borderWidth: '1px 0px 0px 1px',
+                              borderColor: 'lightgray transparent transparent lightgray',
+                              transform: 'rotate(45deg)',
+                            }}
+                          ></span>
+                          <a
+                            tabIndex={-1}
+                            className="hover-underline relative whitespace-nowrap pb-1 text-left opacity-60 lg:opacity-100   text-lg"
+                            href="/sustainability/governed-beautifully"
+                          >
+                            Governed Beautifully
+                          </a>
+                        </li>
+                        <li className="first-of-type:pt-0 py-3 uppercase ">
+                          <span
+                            className="absolute -top-[7px] z-50 hidden"
+                            style={{
+                              left: '24px',
+                              width: '10px',
+                              height: '10px',
+                              background: 'rgb(255, 255, 255)',
+                              borderStyle: 'solid',
+                              borderWidth: '1px 0px 0px 1px',
+                              borderColor: 'lightgray transparent transparent lightgray',
+                              transform: 'rotate(45deg);',
+                            }}
+                          ></span>
+                          <a
+                            tabIndex={-1}
+                            className="hover-underline relative whitespace-nowrap pb-1 text-left opacity-60 lg:opacity-100   text-lg"
+                            href="/sustainability/esg-reporting-hub"
+                          >
+                            ESG Reporting Hub
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <li className="flex w-full flex-col items-center">
+                  <a
+                    className="border-b border-white  w-full py-5 text-3xl font-bold uppercase sm:text-4xl"
+                    href="/innovation"
+                  >
+                    Innovation
+                  </a>
+                </li>
+                <li className="flex w-full flex-col items-center">
+                  <a
+                    className="border-b border-white  w-full py-5 text-3xl font-bold uppercase sm:text-4xl"
+                    href="/your-career"
+                  >
+                    Your Career
+                  </a>
+                </li>
+                <li className="flex w-full flex-col items-center">
+                  <a
+                    className="border-b border-white  w-full py-5 text-3xl font-bold uppercase sm:text-4xl"
+                    href="/news"
+                  >
+                    News
+                  </a>
+                </li>
+              </ul>
+              <div className="mt-[42px] flex justify-evenly gap-y-4 mb-4">
+                <a
+                  target="_blank"
+                  className="text-xl font-medium uppercase opacity-60 transition duration-300 ease-in-out hover:opacity-100"
+                  href="https://careers.coty.com/go/Open-Positions/8765801"
+                >
+                  Open positions
+                </a>
+                <a
+                  target="_blank"
+                  className="text-xl font-medium uppercase opacity-60 transition duration-300 ease-in-out hover:opacity-100"
+                  href="/news"
+                >
+                  News
+                </a>
+              </div>
+              <div className="mt-[42px] flex justify-evenly gap-y-4 pb-8">
+                <div className="flex justify-center gap-[1.6rem] mt-2 flex w-full max-w-[136px] items-center justify-between self-center">
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    data-testid="social-list-item"
+                    href="https://www.facebook.com/COTYInc/?ref=page_internal"
+                  >
+                    <span
+                      style={{
+                        boxSizing: 'border-box',
+                        display: 'inline-block',
+                        overflow: 'hidden',
+                        width: 'initial',
+                        height: 'initial',
+                        background: 'none',
+                        opacity: 1,
+                        border: '0px',
+                        margin: '0px',
+                        padding: '0px',
+                        position: 'relative',
+                        maxWidth: '100%',
+                      }}
+                    >
+                      <span
+                        style={{
+                          boxSizing: 'border-box',
+                          display: 'block',
+                          width: 'initial',
+                          height: 'initial',
+                          background: 'none',
+                          opacity: 1,
+                          border: '0px',
+                          margin: '0px',
+                          padding: '0px',
+                          maxWidth: '100%',
+                        }}
+                      >
+                        <img
+                          alt=""
+                          aria-hidden="true"
+                          src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2716%27%20height=%2716%27/%3e"
+                          style={{
+                            display: 'block',
+                            maxWidth: '100%',
+                            width: 'initial',
+                            height: 'initial',
+                            background: 'none',
+                            opacity: 1,
+                            border: '0px',
+                            margin: '0px',
+                            padding: '0px',
+                          }}
+                        />
+                      </span>
+                      <img
+                        alt="facebook.svg"
+                        srcSet="https://images.contentstack.io/v3/assets/blted39bd312054daca/blt2f59f9a354f27e0a/623b141f7c24b44cb0bf3d68/facebook.svg?width=16&amp;quality=50&amp;auto=webp 1x, https://images.contentstack.io/v3/assets/blted39bd312054daca/blt2f59f9a354f27e0a/623b141f7c24b44cb0bf3d68/facebook.svg?width=32&amp;quality=50&amp;auto=webp 2x"
+                        src="https://images.contentstack.io/v3/assets/blted39bd312054daca/blt2f59f9a354f27e0a/623b141f7c24b44cb0bf3d68/facebook.svg?width=32&amp;quality=50&amp;auto=webp"
+                        decoding="async"
+                        data-nimg="intrinsic"
+                        className="cursor-pointer"
+                        style={{
+                          position: 'absolute',
+                          inset: '0px',
+                          boxSizing: 'border-box',
+                          padding: '0px',
+                          border: 'none',
+                          margin: 'auto',
+                          display: 'block',
+                          width: '0px',
+                          height: '0px',
+                          minWidth: '100%',
+                          maxWidth: '100%',
+                          minHeight: '100%',
+                          maxHeight: '100%',
+                        }}
+                      />
+                    </span>
+                  </a>
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    data-testid="social-list-item"
+                    href="https://twitter.com/COTYInc"
+                  >
+                    <span
+                      style={{
+                        boxSizing: 'border-box',
+                        display: 'inline-block',
+                        overflow: 'hidden',
+                        width: 'initial',
+                        height: 'initial',
+                        background: 'none',
+                        opacity: 1,
+                        border: '0px',
+                        margin: '0px',
+                        padding: '0px',
+                        position: 'relative',
+                        maxWidth: '100%;',
+                      }}
+                    >
+                      <span
+                        style={{
+                          boxSizing: 'border-box',
+                          display: 'block',
+                          width: 'initial',
+                          height: 'initial',
+                          background: 'none',
+                          opacity: 1,
+                          border: '0px',
+                          margin: '0px',
+                          padding: '0px',
+                          maxWidth: '100%',
+                        }}
+                      >
+                        <img
+                          alt=""
+                          aria-hidden="true"
+                          src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2716%27%20height=%2716%27/%3e"
+                          style={{
+                            display: 'block',
+                            maxWidth: '100%',
+                            width: 'initial',
+                            height: 'initial',
+                            background: 'none',
+                            opacity: 1,
+                            border: '0px',
+                            margin: '0px',
+                            padding: '0px',
+                          }}
+                        />
+                      </span>
+                      <img
+                        alt="twitter.svg"
+                        srcSet="https://images.contentstack.io/v3/assets/blted39bd312054daca/bltae3da7ec72868e4a/623b157398622e5de9392b40/twitter.svg?width=16&amp;quality=50&amp;auto=webp 1x, https://images.contentstack.io/v3/assets/blted39bd312054daca/bltae3da7ec72868e4a/623b157398622e5de9392b40/twitter.svg?width=32&amp;quality=50&amp;auto=webp 2x"
+                        src="https://images.contentstack.io/v3/assets/blted39bd312054daca/bltae3da7ec72868e4a/623b157398622e5de9392b40/twitter.svg?width=32&amp;quality=50&amp;auto=webp"
+                        decoding="async"
+                        data-nimg="intrinsic"
+                        className="cursor-pointer"
+                        style={{
+                          position: 'absolute',
+                          inset: '0px',
+                          boxSizing: 'border-box',
+                          padding: '0px',
+                          border: 'none',
+                          margin: 'auto',
+                          display: 'block',
+                          width: '0px',
+                          height: '0px',
+                          minWidth: '100%',
+                          maxWidth: '100%',
+                          minHeight: '100%',
+                          maxHeight: '100%',
+                        }}
+                      />
+                    </span>
+                  </a>
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    data-testid="social-list-item"
+                    href="https://www.instagram.com/cotyinc"
+                  >
+                    <span
+                      style={{
+                        boxSizing: 'border-box',
+                        display: 'inline-block',
+                        overflow: 'hidden',
+                        width: 'initial',
+                        height: 'initial',
+                        background: 'none',
+                        opacity: 1,
+                        border: '0px',
+                        margin: '0px',
+                        padding: '0px',
+                        position: 'relative',
+                        maxWidth: '100%',
+                      }}
+                    >
+                      <span
+                        style={{
+                          boxSizing: 'border-box',
+                          display: 'block',
+                          width: 'initial',
+                          height: 'initial',
+                          background: 'none',
+                          opacity: 1,
+                          border: '0px',
+                          margin: '0px',
+                          padding: '0px',
+                          maxWidth: '100%',
+                        }}
+                      >
+                        <img
+                          alt=""
+                          aria-hidden="true"
+                          src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2716%27%20height=%2716%27/%3e"
+                          style={{
+                            display: 'block',
+                            maxWidth: '100%',
+                            width: 'initial',
+                            height: 'initial',
+                            background: 'none',
+                            opacity: 1,
+                            border: '0px',
+                            margin: '0px',
+                            padding: '0px',
+                          }}
+                        />
+                      </span>
+                      <img
+                        alt="instagram.svg"
+                        srcSet="https://images.contentstack.io/v3/assets/blted39bd312054daca/blt1385c7d5d3fc46d9/623b14ac159fc76504c17780/instagram.svg?width=16&amp;quality=50&amp;auto=webp 1x, https://images.contentstack.io/v3/assets/blted39bd312054daca/blt1385c7d5d3fc46d9/623b14ac159fc76504c17780/instagram.svg?width=32&amp;quality=50&amp;auto=webp 2x"
+                        src="https://images.contentstack.io/v3/assets/blted39bd312054daca/blt1385c7d5d3fc46d9/623b14ac159fc76504c17780/instagram.svg?width=32&amp;quality=50&amp;auto=webp"
+                        decoding="async"
+                        data-nimg="intrinsic"
+                        className="cursor-pointer"
+                        style={{
+                          position: 'absolute',
+                          inset: '0px',
+                          boxSizing: 'border-box',
+                          padding: '0px',
+                          border: 'none',
+                          margin: 'auto',
+                          display: 'block',
+                          width: '0px',
+                          height: '0px',
+                          minWidth: '100%',
+                          maxWidth: '100%',
+                          minHeight: '100%',
+                          maxHeight: '100%',
+                        }}
+                      />
+                    </span>
+                  </a>
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    data-testid="social-list-item"
+                    href="https://in.linkedin.com/company/coty"
+                  >
+                    <span
+                      style={{
+                        boxSizing: 'border-box',
+                        display: 'inline-block',
+                        overflow: 'hidden',
+                        width: 'initial',
+                        height: 'initial',
+                        background: 'none',
+                        opacity: 1,
+                        border: '0px',
+                        margin: '0px',
+                        padding: '0px',
+                        position: 'relative',
+                        maxWidth: '100%',
+                      }}
+                    >
+                      <span
+                        style={{
+                          boxSizing: 'border-box',
+                          display: 'block',
+                          width: 'initial',
+                          height: 'initial',
+                          background: 'none',
+                          opacity: 1,
+                          border: '0px',
+                          margin: '0px',
+                          padding: '0px',
+                          maxWidth: '100%',
+                        }}
+                      >
+                        <img
+                          alt=""
+                          aria-hidden="true"
+                          src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2716%27%20height=%2716%27/%3e"
+                          style={{
+                            display: 'block',
+                            maxWidth: '100%',
+                            width: 'initial',
+                            height: 'initial',
+                            background: 'none',
+                            opacity: 1,
+                            border: '0px',
+                            margin: '0px',
+                            padding: '0px',
+                          }}
+                        />
+                      </span>
+                      <img
+                        alt="linkedin.svg"
+                        srcSet="https://images.contentstack.io/v3/assets/blted39bd312054daca/blt69d99ba37c9de5ba/623b15c3714afc639a7b22cb/linkedin.svg?width=16&amp;quality=50&amp;auto=webp 1x, https://images.contentstack.io/v3/assets/blted39bd312054daca/blt69d99ba37c9de5ba/623b15c3714afc639a7b22cb/linkedin.svg?width=32&amp;quality=50&amp;auto=webp 2x"
+                        src="https://images.contentstack.io/v3/assets/blted39bd312054daca/blt69d99ba37c9de5ba/623b15c3714afc639a7b22cb/linkedin.svg?width=32&amp;quality=50&amp;auto=webp"
+                        decoding="async"
+                        data-nimg="intrinsic"
+                        className="cursor-pointer"
+                        style={{
+                          position: 'absolute',
+                          inset: '0px',
+                          boxSizing: 'border-box',
+                          padding: '0px',
+                          border: 'none',
+                          margin: 'auto',
+                          display: 'block',
+                          width: '0px',
+                          height: '0px',
+                          minWidth: '100%',
+                          maxWidth: '100%',
+                          minHeight: '100%',
+                          maxHeight: '100%',
+                        }}
+                      />
+                    </span>
+                  </a>
+                </div>
+                <div className="block max-w-[50px] lg:hidden">
+                  <div>
+                    <div className="relative inline-block text-left" data-headlessui-state="">
+                      <div>
+                        <span id=":r8g:" className="sr-only">
+                          Country
+                        </span>
+                        <div
+                          className="border-white inline-flex w-full justify-center border-0 border-b pt-2 text-sm font-semibold md:pt-0"
+                          role="combobox"
+                          aria-expanded="false"
+                          aria-haspopup="menu"
+                          aria-labelledby=":r8g:"
+                          id=":r8f:"
+                          data-headlessui-state=""
+                          aria-controls=":r8h:"
+                        >
+                          EN
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 20 20"
+                            fill="currentColor"
+                            aria-hidden="true"
+                            className="text-white -mr-1 h-5 w-5"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+                              clip-rule="evenodd"
+                            ></path>
+                          </svg>
+                        </div>
+                      </div>
+                      <div
+                        className="absolute right-0 top-2 z-10 w-10 border border-blue bg-white font-semibold md:top-0"
+                        hidden={false}
+                        id=":r8h:"
+                        role="menu"
+                        tabIndex={0}
+                        data-headlessui-state=""
+                        aria-labelledby=":r8f:"
+                        style={{ display: 'none' }}
+                      >
+                        <button
+                          className="flex w-full cursor-pointer pl-[2px] text-sm text-blue"
+                          data-testid="countries-link"
+                          data-option-index="0"
+                          aria-current="true"
+                          id="headlessui-menu-item-:r8k:"
+                          role="menuitem"
+                          tabIndex={-1}
+                          data-headlessui-state=""
+                        >
+                          EN
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 20 20"
+                            fill="currentColor"
+                            aria-hidden="true"
+                            className="w-4"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
+                              clip-rule="evenodd"
+                            ></path>
+                          </svg>
+                        </button>
+                        <button
+                          className="flex w-full cursor-pointer pl-[2px] text-sm text-blue"
+                          data-testid="countries-link"
+                          data-option-index="1"
+                          aria-current="false"
+                          id="headlessui-menu-item-:r8l:"
+                          role="menuitem"
+                          tabIndex={-1}
+                          data-headlessui-state=""
+                        >
+                          FR
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </nav>
-
         <main id="content" tabIndex={-1}>
           <h1 className="sr-only">Page Details - Brand Page - Burberry</h1>
           <div className="pt-24">
