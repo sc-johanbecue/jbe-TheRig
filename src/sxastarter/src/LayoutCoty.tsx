@@ -1636,15 +1636,15 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                         data-nimg="intrinsic"
                         className="cursor-pointer"
                         style={{
-                          display: 'block',
-                          maxWidth: '100%',
-                          width: 'initial',
-                          height: 'initial',
-                          background: 'none',
-                          opacity: 1,
-                          border: '0px',
-                          margin: '0px',
+                          position: 'absolute',
+                          inset: '0px',
+                          boxSizing: 'border-box',
                           padding: '0px',
+                          border: 'none',
+                          margin: 'auto',
+                          display: 'block',
+                          width: '0px',
+                          height: '0px',
                         }}
                       />
                     </span>
