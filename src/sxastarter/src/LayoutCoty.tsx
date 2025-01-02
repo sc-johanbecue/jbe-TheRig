@@ -13,7 +13,6 @@ import {
 import config from 'temp/config';
 import Scripts from 'src/Scripts';
 import Link from 'next/link';
-import Image from 'next/image';
 
 // Prefix public assets with a public URL to enable compatibility with Sitecore Experience Editor.
 // If you're not supporting the Experience Editor, you can remove this.
