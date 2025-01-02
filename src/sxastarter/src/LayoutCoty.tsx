@@ -1400,12 +1400,12 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
               <div style={{ willChange: 'transform', transform: 'translateY(-3.16949%)' }}>
                 <div className="banner_gradient__7umfc relative h-[440px] overflow-hidden rounded-br-[195px] md:rounded-br-[272px]">
                   <div className="block z-0 w-full overflow-hidden">
-                    <Image
+                    <img
                       alt="Burberry Hero Banner"
                       src="https://images.contentstack.io/v3/assets/blted39bd312054daca/bltee9c547f629408c0/634e7b4f885d1d218e4873ca/burberry-hero-banner-s.jpg?width=3840&quality=100&auto=webp"
-                      layout="fill"
-                      objectFit="cover"
-                      priority
+                      // layout="fill"
+                      // objectFit="cover"
+                      // priority
                     />
                   </div>
                 </div>
@@ -1414,11 +1414,11 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
             <div className="flex flex-col items-center pb-10 pt-[60px] md:pb-16 md:pt-20">
               <div className="relative h-20 w-2/3 md:h-32 md:w-1/2 max-h-[64px]">
                 <Link target="_blank" rel="noopener noreferrer" href="https://www.burberry.com">
-                  <Image
+                  <img
                     alt="Burberry Logo"
                     src="https://images.contentstack.io/v3/assets/blted39bd312054daca/bltb7053bcb8736c65e/634e7b4fe20f8c3ac1fd75d4/burberry-logo.svg?width=3840&quality=50&auto=webp"
-                    layout="fill"
-                    objectFit="contain"
+                    // layout="fill"
+                    // objectFit="contain"
                   />
                 </Link>
               </div>
