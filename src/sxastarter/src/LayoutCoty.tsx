@@ -97,7 +97,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
         <nav className="sticky top-0 z-50 flex w-full items-center bg-white px-6 py-6 h-24 md:px-16 md:py-8  text-blue ">
           <div className="flex w-full items-center ">
             <div className="flex w-2/12 items-center" data-testid="logotype">
-              <a
+              <Link
                 className="z-30 flex text-2xl font-semibold transition duration-300 ease-in-out"
                 aria-label="Home"
                 href="/"
@@ -125,21 +125,21 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                   <path d="M103.712 0.633545H110L99.3121 16.2234V26.289H94.0756V16.2924L83.3936 0.633545H89.7517L96.7839 11.2682L103.712 0.633545Z"></path>
                   <path d="M59.635 34.4403V35.5498L60.7805 34.9232V39.6657H61.9667V33.5665H61.1294L59.635 34.4403Z"></path>
                 </svg>
-              </a>
+              </Link>
             </div>
             <div className="w-8/12">
               <ul className="hidden justify-center lg:flex lg:items-center">
                 <li className="">
                   <div className="relative w-full w-fit">
                     <div className="w-full  block w-fit" data-testid="navigation-element">
-                      <a
+                      <Link
                         aria-expanded="false"
                         aria-controls="menu-dropdown-horizontal-menu-our-purpose"
                         className="  hover-underline mx-2 block px-0 pb-1 text-center text-sm leading-none xl:mx-3 2xl:mx-4 2xl:text-base "
                         href="/our-purpose"
                       >
                         Our Purpose
-                      </a>
+                      </Link>
                     </div>
                     <div
                       className="absolute -left-4 bottom-0 translate-y-full pt-4  overflow-hidden transition-all ease-out lg:duration-[0ms] opacity-0 duration-200"
@@ -162,13 +162,13 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                               transform: 'rotate(45deg)',
                             }}
                           ></span>
-                          <a
+                          <Link
                             tabIndex={-1}
                             className="hover-underline relative whitespace-nowrap pb-1 text-left opacity-60 lg:opacity-100   text-sm"
                             href="/our-purpose"
                           >
                             Who We Are
-                          </a>
+                          </Link>
                         </li>
                         <li className="first-of-type:pt-0 pt-2 ">
                           <span
@@ -184,13 +184,13 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                               transform: 'rotate(45deg)',
                             }}
                           ></span>
-                          <a
+                          <Link
                             tabIndex={-1}
                             className="hover-underline relative whitespace-nowrap pb-1 text-left opacity-60 lg:opacity-100   text-sm"
                             href="/our-heritage"
                           >
                             Our Heritage
-                          </a>
+                          </Link>
                         </li>
                         <li className="first-of-type:pt-0 pt-2 ">
                           <span
@@ -206,13 +206,13 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                               transform: 'rotate(45deg)',
                             }}
                           ></span>
-                          <a
+                          <Link
                             tabIndex={-1}
                             className="hover-underline relative whitespace-nowrap pb-1 text-left opacity-60 lg:opacity-100   text-sm"
                             href="/our-leaders"
                           >
                             Our Leaders
-                          </a>
+                          </Link>
                         </li>
                         <li className="first-of-type:pt-0 pt-2 ">
                           <span
@@ -228,37 +228,37 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                               transform: 'rotate(45deg)',
                             }}
                           ></span>
-                          <a
+                          <Link
                             tabIndex={-1}
                             className="hover-underline relative whitespace-nowrap pb-1 text-left opacity-60 lg:opacity-100   text-sm"
                             href="/undefine-beauty"
                           >
                             #UndefineBeauty
-                          </a>
+                          </Link>
                         </li>
                       </ul>
                     </div>
                   </div>
                 </li>
                 <li className="">
-                  <a
+                  <Link
                     className="  hover-underline mx-2 block px-0 pb-1 text-center text-sm leading-none xl:mx-3 2xl:mx-4 2xl:text-base "
                     href="/our-brands"
                   >
                     Our Brands
-                  </a>
+                  </Link>
                 </li>
                 <li className="">
                   <div className="relative w-full w-fit">
                     <div className="w-full  block w-fit" data-testid="navigation-element">
-                      <a
+                      <Link
                         aria-expanded="false"
                         aria-controls="menu-dropdown-horizontal-menu-sustainability"
                         className="  hover-underline mx-2 block px-0 pb-1 text-center text-sm leading-none xl:mx-3 2xl:mx-4 2xl:text-base "
                         href="/sustainability"
                       >
                         Sustainability
-                      </a>
+                      </Link>
                     </div>
                     <div
                       className="absolute -left-4 bottom-0 translate-y-full pt-4  overflow-hidden transition-all ease-out lg:duration-[0ms] opacity-0 duration-200"
@@ -281,13 +281,13 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                               transform: 'rotate(45deg)',
                             }}
                           ></span>
-                          <a
+                          <Link
                             tabIndex={-1}
                             className="hover-underline relative whitespace-nowrap pb-1 text-left opacity-60 lg:opacity-100   text-sm"
                             href="/sustainability"
                           >
                             Beauty That Lasts
-                          </a>
+                          </Link>
                         </li>
                         <li className="first-of-type:pt-0 pt-2 ">
                           <span
@@ -303,13 +303,13 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                               transform: 'rotate(45deg)',
                             }}
                           ></span>
-                          <a
+                          <Link
                             tabIndex={-1}
                             className="hover-underline relative whitespace-nowrap pb-1 text-left opacity-60 lg:opacity-100   text-sm"
                             href="/sustainability/goals-targets"
                           >
                             Goals and Targets
-                          </a>
+                          </Link>
                         </li>
                         <li className="first-of-type:pt-0 pt-2 ">
                           <span
@@ -325,13 +325,13 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                               transform: 'rotate(45deg)',
                             }}
                           ></span>
-                          <a
+                          <Link
                             tabIndex={-1}
                             className="hover-underline relative whitespace-nowrap pb-1 text-left opacity-60 lg:opacity-100   text-sm"
                             href="/sustainability/beauty-of-our-planet"
                           >
                             Beauty of our Planet
-                          </a>
+                          </Link>
                         </li>
                         <li className="first-of-type:pt-0 pt-2 ">
                           <span
@@ -347,13 +347,13 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                               transform: 'rotate(45deg)',
                             }}
                           ></span>
-                          <a
+                          <Link
                             tabIndex={-1}
                             className="hover-underline relative whitespace-nowrap pb-1 text-left opacity-60 lg:opacity-100   text-sm"
                             href="/sustainability/beauty-of-our-people"
                           >
                             Beauty of our People
-                          </a>
+                          </Link>
                         </li>
                         <li className="first-of-type:pt-0 pt-2 ">
                           <span
@@ -369,13 +369,13 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                               transform: 'rotate(45deg)',
                             }}
                           ></span>
-                          <a
+                          <Link
                             tabIndex={-1}
                             className="hover-underline relative whitespace-nowrap pb-1 text-left opacity-60 lg:opacity-100   text-sm"
                             href="/sustainability/governed-beautifully"
                           >
                             Governed Beautifully
-                          </a>
+                          </Link>
                         </li>
                         <li className="first-of-type:pt-0 pt-2 ">
                           <span
@@ -391,41 +391,41 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                               transform: 'rotate(45deg)',
                             }}
                           ></span>
-                          <a
+                          <Link
                             tabIndex={-1}
                             className="hover-underline relative whitespace-nowrap pb-1 text-left opacity-60 lg:opacity-100   text-sm"
                             href="/sustainability/esg-reporting-hub"
                           >
                             ESG Reporting Hub
-                          </a>
+                          </Link>
                         </li>
                       </ul>
                     </div>
                   </div>
                 </li>
                 <li className="">
-                  <a
+                  <Link
                     className="  hover-underline mx-2 block px-0 pb-1 text-center text-sm leading-none xl:mx-3 2xl:mx-4 2xl:text-base "
                     href="/innovation"
                   >
                     Innovation
-                  </a>
+                  </Link>
                 </li>
                 <li className="">
-                  <a
+                  <Link
                     className="  hover-underline mx-2 block px-0 pb-1 text-center text-sm leading-none xl:mx-3 2xl:mx-4 2xl:text-base "
                     href="/your-career"
                   >
                     Your Career
-                  </a>
+                  </Link>
                 </li>
                 <li className="">
-                  <a
+                  <Link
                     className="  hover-underline mx-2 block px-0 pb-1 text-center text-sm leading-none xl:mx-3 2xl:mx-4 2xl:text-base "
                     href="/news"
                   >
                     News
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -515,13 +515,13 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                 </div>
               </div>
               <div className="hidden h-8 gap-x-4 justify-end lg:flex">
-                <a
+                <Link
                   target="_blank"
                   className="min-w-[90px] border px-5 border-blue whitespace-nowrap rounded-br-2xl py-2 text-center text-base leading-4 transition duration-300 ease-in-out hover:border-transparent hover:bg-blue hover:text-white"
                   href="https://careers.coty.com/go/Open-Positions/8765801"
                 >
                   OPEN POSITIONS
-                </a>
+                </Link>
               </div>
               <button
                 data-testid="search-bar"
@@ -587,14 +587,14 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                       className="w-full  flex items-center justify-between"
                       data-testid="navigation-element"
                     >
-                      <a
+                      <Link
                         aria-expanded="false"
                         aria-controls="menu-dropdown-vertical-menu-our-purpose"
                         className="  w-full py-5 text-3xl font-bold uppercase sm:text-4xl"
                         href="/our-purpose"
                       >
                         Our Purpose
-                      </a>
+                      </Link>
                       <button
                         tabIndex={-1}
                         className="p-4 transition-transform ease-out -rotate-90"
@@ -631,13 +631,13 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                               transform: 'rotate(45deg);',
                             }}
                           ></span>
-                          <a
+                          <Link
                             tabIndex={-1}
                             className="hover-underline relative whitespace-nowrap pb-1 text-left opacity-60 lg:opacity-100   text-lg"
                             href="/our-purpose"
                           >
                             Who We Are
-                          </a>
+                          </Link>
                         </li>
                         <li className="first-of-type:pt-0 py-3 uppercase ">
                           <span
@@ -653,13 +653,13 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                               transform: 'rotate(45deg);',
                             }}
                           ></span>
-                          <a
+                          <Link
                             tabIndex={-1}
                             className="hover-underline relative whitespace-nowrap pb-1 text-left opacity-60 lg:opacity-100   text-lg"
                             href="/our-heritage"
                           >
                             Our Heritage
-                          </a>
+                          </Link>
                         </li>
                         <li className="first-of-type:pt-0 py-3 uppercase ">
                           <span
@@ -675,13 +675,13 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                               transform: 'rotate(45deg);',
                             }}
                           ></span>
-                          <a
+                          <Link
                             tabIndex={-1}
                             className="hover-underline relative whitespace-nowrap pb-1 text-left opacity-60 lg:opacity-100   text-lg"
                             href="/our-leaders"
                           >
                             Our Leaders
-                          </a>
+                          </Link>
                         </li>
                         <li className="first-of-type:pt-0 py-3 uppercase ">
                           <span
@@ -697,25 +697,25 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                               transform: 'rotate(45deg);',
                             }}
                           ></span>
-                          <a
+                          <Link
                             tabIndex={-1}
                             className="hover-underline relative whitespace-nowrap pb-1 text-left opacity-60 lg:opacity-100   text-lg"
                             href="/undefine-beauty"
                           >
                             #UndefineBeauty
-                          </a>
+                          </Link>
                         </li>
                       </ul>
                     </div>
                   </div>
                 </li>
                 <li className="flex w-full flex-col items-center">
-                  <a
+                  <Link
                     className="border-b border-white  w-full py-5 text-3xl font-bold uppercase sm:text-4xl"
                     href="/our-brands"
                   >
                     Our Brands
-                  </a>
+                  </Link>
                 </li>
                 <li className="flex w-full flex-col items-center">
                   <div className="relative w-full border-b border-white">
@@ -723,14 +723,14 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                       className="w-full  flex items-center justify-between"
                       data-testid="navigation-element"
                     >
-                      <a
+                      <Link
                         aria-expanded="false"
                         aria-controls="menu-dropdown-vertical-menu-sustainability"
                         className="  w-full py-5 text-3xl font-bold uppercase sm:text-4xl"
                         href="/sustainability"
                       >
                         Sustainability
-                      </a>
+                      </Link>
                       <button
                         tabIndex={-1}
                         className="p-4 transition-transform ease-out -rotate-90"
@@ -767,13 +767,13 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                               transform: 'rotate(45deg);',
                             }}
                           ></span>
-                          <a
+                          <Link
                             tabIndex={-1}
                             className="hover-underline relative whitespace-nowrap pb-1 text-left opacity-60 lg:opacity-100   text-lg"
                             href="/sustainability"
                           >
                             Beauty That Lasts
-                          </a>
+                          </Link>
                         </li>
                         <li className="first-of-type:pt-0 py-3 uppercase ">
                           <span
@@ -789,13 +789,13 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                               transform: 'rotate(45deg);',
                             }}
                           ></span>
-                          <a
+                          <Link
                             tabIndex={-1}
                             className="hover-underline relative whitespace-nowrap pb-1 text-left opacity-60 lg:opacity-100   text-lg"
                             href="/sustainability/goals-targets"
                           >
                             Goals and Targets
-                          </a>
+                          </Link>
                         </li>
                         <li className="first-of-type:pt-0 py-3 uppercase ">
                           <span
@@ -811,13 +811,13 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                               transform: 'rotate(45deg);',
                             }}
                           ></span>
-                          <a
+                          <Link
                             tabIndex={-1}
                             className="hover-underline relative whitespace-nowrap pb-1 text-left opacity-60 lg:opacity-100   text-lg"
                             href="/sustainability/beauty-of-our-planet"
                           >
                             Beauty of our Planet
-                          </a>
+                          </Link>
                         </li>
                         <li className="first-of-type:pt-0 py-3 uppercase ">
                           <span
@@ -833,13 +833,13 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                               transform: 'rotate(45deg);',
                             }}
                           ></span>
-                          <a
+                          <Link
                             tabIndex={-1}
                             className="hover-underline relative whitespace-nowrap pb-1 text-left opacity-60 lg:opacity-100   text-lg"
                             href="/sustainability/beauty-of-our-people"
                           >
                             Beauty of our People
-                          </a>
+                          </Link>
                         </li>
                         <li className="first-of-type:pt-0 py-3 uppercase ">
                           <span
@@ -855,13 +855,13 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                               transform: 'rotate(45deg)',
                             }}
                           ></span>
-                          <a
+                          <Link
                             tabIndex={-1}
                             className="hover-underline relative whitespace-nowrap pb-1 text-left opacity-60 lg:opacity-100   text-lg"
                             href="/sustainability/governed-beautifully"
                           >
                             Governed Beautifully
-                          </a>
+                          </Link>
                         </li>
                         <li className="first-of-type:pt-0 py-3 uppercase ">
                           <span
@@ -877,62 +877,62 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                               transform: 'rotate(45deg);',
                             }}
                           ></span>
-                          <a
+                          <Link
                             tabIndex={-1}
                             className="hover-underline relative whitespace-nowrap pb-1 text-left opacity-60 lg:opacity-100   text-lg"
                             href="/sustainability/esg-reporting-hub"
                           >
                             ESG Reporting Hub
-                          </a>
+                          </Link>
                         </li>
                       </ul>
                     </div>
                   </div>
                 </li>
                 <li className="flex w-full flex-col items-center">
-                  <a
+                  <Link
                     className="border-b border-white  w-full py-5 text-3xl font-bold uppercase sm:text-4xl"
                     href="/innovation"
                   >
                     Innovation
-                  </a>
+                  </Link>
                 </li>
                 <li className="flex w-full flex-col items-center">
-                  <a
+                  <Link
                     className="border-b border-white  w-full py-5 text-3xl font-bold uppercase sm:text-4xl"
                     href="/your-career"
                   >
                     Your Career
-                  </a>
+                  </Link>
                 </li>
                 <li className="flex w-full flex-col items-center">
-                  <a
+                  <Link
                     className="border-b border-white  w-full py-5 text-3xl font-bold uppercase sm:text-4xl"
                     href="/news"
                   >
                     News
-                  </a>
+                  </Link>
                 </li>
               </ul>
               <div className="mt-[42px] flex justify-evenly gap-y-4 mb-4">
-                <a
+                <Link
                   target="_blank"
                   className="text-xl font-medium uppercase opacity-60 transition duration-300 ease-in-out hover:opacity-100"
                   href="https://careers.coty.com/go/Open-Positions/8765801"
                 >
                   Open positions
-                </a>
-                <a
+                </Link>
+                <Link
                   target="_blank"
                   className="text-xl font-medium uppercase opacity-60 transition duration-300 ease-in-out hover:opacity-100"
                   href="/news"
                 >
                   News
-                </a>
+                </Link>
               </div>
               <div className="mt-[42px] flex justify-evenly gap-y-4 pb-8">
                 <div className="flex justify-center gap-[1.6rem] mt-2 flex w-full max-w-[136px] items-center justify-between self-center">
-                  <a
+                  <Link
                     target="_blank"
                     rel="noreferrer"
                     data-testid="social-list-item"
@@ -1009,8 +1009,8 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                         }}
                       />
                     </span>
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     target="_blank"
                     rel="noreferrer"
                     data-testid="social-list-item"
@@ -1087,8 +1087,8 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                         }}
                       />
                     </span>
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     target="_blank"
                     rel="noreferrer"
                     data-testid="social-list-item"
@@ -1165,8 +1165,8 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                         }}
                       />
                     </span>
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     target="_blank"
                     rel="noreferrer"
                     data-testid="social-list-item"
@@ -1243,7 +1243,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                         }}
                       />
                     </span>
-                  </a>
+                  </Link>
                 </div>
                 <div className="block max-w-[50px] lg:hidden">
                   <div>
@@ -1340,12 +1340,14 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
               <ul className="flex" aria-label="Breadcrumb">
                 <li className="opacity-[0.56] last-of-type:font-bold last-of-type:opacity-100">
                   <Link href="/">
-                    <a className="flex cursor-pointer items-center text-xs !text-white">HOMEPAGE</a>
+                    <Link className="flex cursor-pointer items-center text-xs !text-white" href="">
+                      HOMEPAGE
+                    </Link>
                   </Link>
                 </li>
                 <li className="opacity-[0.56] last-of-type:font-bold last-of-type:opacity-100">
                   <Link href="/our-brands">
-                    <a className="flex cursor-pointer items-center text-xs !text-white">
+                    <Link className="flex cursor-pointer items-center text-xs !text-white" href="">
                       <svg
                         width="6"
                         height="10"
@@ -1357,12 +1359,12 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                         <path d="M5 9L1 5L5 1" />
                       </svg>
                       OUR BRANDS
-                    </a>
+                    </Link>
                   </Link>
                 </li>
                 <li className="opacity-[0.56] last-of-type:font-bold last-of-type:opacity-100">
                   <Link href="/our-brands/prestige-brands">
-                    <a className="flex cursor-pointer items-center text-xs !text-white">
+                    <Link className="flex cursor-pointer items-center text-xs !text-white" href="">
                       <svg
                         width="6"
                         height="10"
@@ -1374,7 +1376,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                         <path d="M5 9L1 5L5 1" />
                       </svg>
                       PRESTIGE BRANDS
-                    </a>
+                    </Link>
                   </Link>
                 </li>
                 <li className="opacity-[0.56] last-of-type:font-bold last-of-type:opacity-100">
@@ -1411,23 +1413,23 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
             </div>
             <div className="flex flex-col items-center pb-10 pt-[60px] md:pb-16 md:pt-20">
               <div className="relative h-20 w-2/3 md:h-32 md:w-1/2 max-h-[64px]">
-                <a target="_blank" rel="noopener noreferrer" href="https://www.burberry.com">
+                <Link target="_blank" rel="noopener noreferrer" href="https://www.burberry.com">
                   <Image
                     alt="Burberry Logo"
                     src="https://images.contentstack.io/v3/assets/blted39bd312054daca/bltb7053bcb8736c65e/634e7b4fe20f8c3ac1fd75d4/burberry-logo.svg?width=3840&quality=50&auto=webp"
                     layout="fill"
                     objectFit="contain"
                   />
-                </a>
+                </Link>
               </div>
-              <a
+              <Link
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-sm font-bold tracking-wider text-blue underline underline-offset-[7px] even:mt-5 md:even:mt-[35px]"
                 href="https://www.burberry.com"
               >
                 VISIT WEBSITE
-              </a>
+              </Link>
             </div>
           </div>
         </main>
