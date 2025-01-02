@@ -1426,6 +1426,237 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
               </Link>
             </div>
           </div>
+          <div className="mb-[72px] flex border-t-[1px] border-blue md:mb-[136px] md:h-[512px] md:border-y">
+            <div className="mx-auto flex max-w-[1440px] flex-col px-4  md:flex-row">
+              <div className="flex justify-center md:w-1/2">
+                <div className="h-[568px] w-full overflow-hidden rounded-bl-[190px] md:w-[432px]">
+                  <div
+                    className="block   h-full z-0 w-full overflow-hidden "
+                    style={{ marginBottom: '-2.5%' }}
+                  >
+                    <div
+                      style={{
+                        marginTop: '-5%',
+                        height: '110%',
+                        willChange: 'transform',
+                        transform: 'translateY(0.48798%)',
+                      }}
+                    >
+                      <span
+                        style={{
+                          boxSizing: 'border-box',
+                          display: 'block',
+                          overflow: 'hidden',
+                          width: 'initial',
+                          height: 'initial',
+                          background: 'none',
+                          opacity: 1,
+                          border: '0px',
+                          margin: '0px',
+                          padding: '0px',
+                          position: 'absolute',
+                          inset: '0px',
+                        }}
+                      >
+                        <img
+                          alt="burberry-about-image.jpg"
+                          src="https://images.contentstack.io/v3/assets/blted39bd312054daca/blt666856fefde62909/634e7b4f6a938c238802b738/burberry-about-image.jpg?width=3840&amp;quality=50&amp;auto=webp"
+                          decoding="async"
+                          data-nimg="fill"
+                          className=""
+                          sizes="100vw"
+                          srcSet="https://images.contentstack.io/v3/assets/blted39bd312054daca/blt666856fefde62909/634e7b4f6a938c238802b738/burberry-about-image.jpg?width=640&amp;quality=50&amp;auto=webp 640w, https://images.contentstack.io/v3/assets/blted39bd312054daca/blt666856fefde62909/634e7b4f6a938c238802b738/burberry-about-image.jpg?width=750&amp;quality=50&amp;auto=webp 750w, https://images.contentstack.io/v3/assets/blted39bd312054daca/blt666856fefde62909/634e7b4f6a938c238802b738/burberry-about-image.jpg?width=828&amp;quality=50&amp;auto=webp 828w, https://images.contentstack.io/v3/assets/blted39bd312054daca/blt666856fefde62909/634e7b4f6a938c238802b738/burberry-about-image.jpg?width=1080&amp;quality=50&amp;auto=webp 1080w, https://images.contentstack.io/v3/assets/blted39bd312054daca/blt666856fefde62909/634e7b4f6a938c238802b738/burberry-about-image.jpg?width=1200&amp;quality=50&amp;auto=webp 1200w, https://images.contentstack.io/v3/assets/blted39bd312054daca/blt666856fefde62909/634e7b4f6a938c238802b738/burberry-about-image.jpg?width=1920&amp;quality=50&amp;auto=webp 1920w, https://images.contentstack.io/v3/assets/blted39bd312054daca/blt666856fefde62909/634e7b4f6a938c238802b738/burberry-about-image.jpg?width=2048&amp;quality=50&amp;auto=webp 2048w, https://images.contentstack.io/v3/assets/blted39bd312054daca/blt666856fefde62909/634e7b4f6a938c238802b738/burberry-about-image.jpg?width=3840&amp;quality=50&amp;auto=webp 3840w"
+                          style={{
+                            position: 'absolute',
+                            inset: '0px',
+                            boxSizing: 'border-box',
+                            padding: '0px',
+                            border: 'none',
+                            margin: 'auto',
+                            display: 'block',
+                            width: '0px',
+                            height: '0px',
+                            minWidth: '100%',
+                            maxWidth: '100%',
+                            minHeight: '100%',
+                            maxHeight: '100%',
+                            objectFit: 'cover',
+                          }}
+                        />
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="content-wrapper relative mt-11 flex flex-col md:mt-0 md:w-1/2 md:pl-[66px] md:pr-[72px] md:pt-[17px] lg:pl-[96px] lg:pr-[132px] lg:pt-[47px] xl:pl-[126px] xl:pr-[162px]  xl:pt-[77px]">
+                <div className="bg-blue w-px h-full mx-2 absolute left-0 top-[8%] mx-0 hidden h-[84%] w-px bg-blue md:block"></div>
+                <p className="mb-[21px] text-xs uppercase text-darkGray">About</p>
+                <p className="description mb-[38px] text-xl leading-8 text-blue">
+                  British luxury fashion house established in 1856 by Thomas Burberry headquartered
+                  in London, England.
+                </p>
+                <div className="flex justify-center gap-[1.6rem] !justify-start gap-6">
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    data-testid="social-list-item"
+                    href="https://www.facebook.com/Burberry"
+                  >
+                    <span
+                      style={{
+                        boxSizing: 'border-box',
+                        display: 'inline-block',
+                        overflow: 'hidden',
+                        width: 'initial',
+                        height: 'initial',
+                        background: 'none',
+                        opacity: 1,
+                        border: '0px',
+                        margin: '0px',
+                        padding: '0px',
+                        position: 'relative',
+                        maxWidth: '100%',
+                      }}
+                    >
+                      <span
+                        style={{
+                          boxSizing: 'border-box',
+                          display: 'block',
+                          width: 'initial',
+                          height: 'initial',
+                          background: 'none',
+                          opacity: 1,
+                          border: '0px',
+                          margin: '0px',
+                          padding: '0px',
+                          maxWidth: '100%',
+                        }}
+                      >
+                        <img
+                          alt=""
+                          aria-hidden="true"
+                          src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2724%27%20height=%2724%27/%3e"
+                          style={{
+                            display: 'block',
+                            maxWidth: '100%',
+                            width: 'initial',
+                            height: 'initial',
+                            background: 'none',
+                            opacity: 1,
+                            border: '0px',
+                            margin: '0px',
+                            padding: '0px',
+                          }}
+                        />
+                      </span>
+                      <img
+                        alt="facebook-blue.svg"
+                        srcSet="https://images.contentstack.io/v3/assets/blted39bd312054daca/bltb78dba0796904a83/62849a83466b1b559357c160/facebook-blue.svg?width=32&amp;quality=50&amp;auto=webp 1x, https://images.contentstack.io/v3/assets/blted39bd312054daca/bltb78dba0796904a83/62849a83466b1b559357c160/facebook-blue.svg?width=48&amp;quality=50&amp;auto=webp 2x"
+                        src="https://images.contentstack.io/v3/assets/blted39bd312054daca/bltb78dba0796904a83/62849a83466b1b559357c160/facebook-blue.svg?width=48&amp;quality=50&amp;auto=webp"
+                        decoding="async"
+                        data-nimg="intrinsic"
+                        className="cursor-pointer"
+                        style={{
+                          position: 'absolute',
+                          inset: '0px',
+                          boxSizing: 'border-box',
+                          padding: '0px',
+                          border: 'none',
+                          margin: 'auto',
+                          display: 'block',
+                          width: '0px',
+                          height: '0px',
+                          minWidth: '100%',
+                          maxWidth: '100%',
+                          minHeight: '100%',
+                          maxHeight: '100%',
+                        }}
+                      />
+                    </span>
+                  </a>
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    data-testid="social-list-item"
+                    href="https://www.instagram.com/burberrybeauty"
+                  >
+                    <span
+                      style={{
+                        boxSizing: 'border-box',
+                        display: 'inline-block',
+                        overflow: 'hidden',
+                        width: 'initial',
+                        height: 'initial',
+                        background: 'none',
+                        opacity: 1,
+                        border: '0px',
+                        margin: '0px',
+                        padding: '0px',
+                        position: 'relative',
+                        maxWidth: '100%',
+                      }}
+                    />
+                    <span
+                      style={{
+                        boxSizing: 'border-box',
+                        display: 'block',
+                        width: 'initial',
+                        height: 'initial',
+                        background: 'none',
+                        opacity: 1,
+                        border: '0px',
+                        margin: '0px',
+                        padding: '0px',
+                        maxWidth: '100%',
+                      }}
+                    >
+                      <img
+                        alt=""
+                        aria-hidden="true"
+                        src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2724%27%20height=%2724%27/%3e"
+                        style={{
+                          display: 'block',
+                          maxWidth: '100%',
+                          width: 'initial',
+                          height: 'initial',
+                          background: 'none',
+                          opacity: 1,
+                          border: '0px',
+                          margin: '0px',
+                          padding: '0px',
+                        }}
+                      />
+                    </span>
+                    <span>
+                      <img
+                        alt="instagram-blue.svg"
+                        srcSet="https://images.contentstack.io/v3/assets/blted39bd312054daca/bltcd48b92436a56adb/62849a34d5f9386926e63b10/instagram-blue.svg?width=32&amp;quality=50&amp;auto=webp 1x, https://images.contentstack.io/v3/assets/blted39bd312054daca/bltcd48b92436a56adb/62849a34d5f9386926e63b10/instagram-blue.svg?width=48&amp;quality=50&amp;auto=webp 2x"
+                        src="https://images.contentstack.io/v3/assets/blted39bd312054daca/bltcd48b92436a56adb/62849a34d5f9386926e63b10/instagram-blue.svg?width=48&amp;quality=50&amp;auto=webp"
+                        decoding="async"
+                        data-nimg="intrinsic"
+                        className="cursor-pointer"
+                        style={{
+                          position: 'absolute',
+                          inset: '0px',
+                          boxSizing: 'border-box',
+                          padding: '0px',
+                          border: 'none',
+                          margin: 'auto',
+                          display: 'block',
+                          width: '0px',
+                          height: '0px',
+                          minWidth: '100%',
+                          maxWidth: '100%',
+                          minHeight: '100%',
+                          maxHeight: '100%',
+                        }}
+                      />
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
         </main>
 
         <footer className="relative z-10 flex min-h-[66.66vh] flex-col bg-blue px-6 pb-8 text-white md:min-h-[50vh] md:px-12">
