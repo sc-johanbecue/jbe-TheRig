@@ -4,7 +4,7 @@
         <system.webServer>
             <httpProtocol>
                 <customHeaders>
-                    <add xdt:Transform="SetAttributes" xdt:Locator="Match(name)" name="Content-Security-Policy" value="https://lpoc-p-001.sitecorecontenthub.cloud/"/>
+                    <add xdt:Transform="SetAttributes" xdt:Locator="Match(name)" name="Content-Security-Policy" value="img-src 'self' https://lpoc-p-001.sitecorecontenthub.cloud; child-src 'self' https://lpoc-p-001.sitecorecontenthub.cloud; connect-src 'self' https://lpoc-p-001.sitecorecontenthub.cloud;" />
                 </customHeaders>
             </httpProtocol>
         </system.webServer>
