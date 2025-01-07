@@ -5,14 +5,18 @@ import {
   ImageField,
   TextField,
   RichTextField,
+  LinkField,
+  Link as JssLink,
   Text,
   Image as JssImage,
 } from '@sitecore-jss/sitecore-jss-nextjs';
 
 interface Fields {
   Title: TextField;
-  Content: RichTextField;
-  Image: ImageField;
+  Description: RichTextField;
+  BannerImage: ImageField;
+  AboutImage: ImageField;
+  HomepageLink: LinkField;
 }
 
 type ComponentProps = {
@@ -90,7 +94,7 @@ const Header = (props: ComponentProps): JSX.Element => {
             <div className="banner_gradient__7umfc relative h-[440px] overflow-hidden rounded-br-[195px] md:rounded-br-[272px]">
               <div className="block z-0 w-full overflow-hidden">
                 <JssImage
-                  field={props.fields.Image}
+                  field={props.fields.BannerImage}
                   alt="Burberry Hero Banner"
                   src="https://images.contentstack.io/v3/assets/blted39bd312054daca/blt6c72117c6bb7ef30/636b92090ec18d1559006d89/Coty-Predtige-Brands-Burberry-hero_xl.jpg?width=1200&quality=100&auto=webp"
                   // layout="fill"
@@ -112,14 +116,15 @@ const Header = (props: ComponentProps): JSX.Element => {
               />
             </Link>
           </div>
-          <Link
+          <JssLink
+            field={props.fields.HomepageLink}
             target="_blank"
             rel="noopener noreferrer"
             className="text-sm font-bold tracking-wider text-blue underline underline-offset-[7px] even:mt-5 md:even:mt-[35px]"
             href="https://www.burberry.com"
           >
             VISIT WEBSITE
-          </Link>
+          </JssLink>
         </div>
       </div>
       <div className="mb-[72px] flex border-t-[1px] border-blue md:mb-[136px] md:h-[512px] md:border-y">
@@ -154,14 +159,13 @@ const Header = (props: ComponentProps): JSX.Element => {
                       inset: '0px',
                     }}
                   >
-                    <img
+                    <JssImage
+                      field={props.fields.AboutImage}
                       alt="burberry-about-image.jpg"
-                      src="https://images.contentstack.io/v3/assets/blted39bd312054daca/blt666856fefde62909/634e7b4f6a938c238802b738/burberry-about-image.jpg?width=3840&amp;quality=50&amp;auto=webp"
                       decoding="async"
                       data-nimg="fill"
                       className=""
                       sizes="100vw"
-                      srcSet="https://images.contentstack.io/v3/assets/blted39bd312054daca/blt666856fefde62909/634e7b4f6a938c238802b738/burberry-about-image.jpg?width=640&amp;quality=50&amp;auto=webp 640w, https://images.contentstack.io/v3/assets/blted39bd312054daca/blt666856fefde62909/634e7b4f6a938c238802b738/burberry-about-image.jpg?width=750&amp;quality=50&amp;auto=webp 750w, https://images.contentstack.io/v3/assets/blted39bd312054daca/blt666856fefde62909/634e7b4f6a938c238802b738/burberry-about-image.jpg?width=828&amp;quality=50&amp;auto=webp 828w, https://images.contentstack.io/v3/assets/blted39bd312054daca/blt666856fefde62909/634e7b4f6a938c238802b738/burberry-about-image.jpg?width=1080&amp;quality=50&amp;auto=webp 1080w, https://images.contentstack.io/v3/assets/blted39bd312054daca/blt666856fefde62909/634e7b4f6a938c238802b738/burberry-about-image.jpg?width=1200&amp;quality=50&amp;auto=webp 1200w, https://images.contentstack.io/v3/assets/blted39bd312054daca/blt666856fefde62909/634e7b4f6a938c238802b738/burberry-about-image.jpg?width=1920&amp;quality=50&amp;auto=webp 1920w, https://images.contentstack.io/v3/assets/blted39bd312054daca/blt666856fefde62909/634e7b4f6a938c238802b738/burberry-about-image.jpg?width=2048&amp;quality=50&amp;auto=webp 2048w, https://images.contentstack.io/v3/assets/blted39bd312054daca/blt666856fefde62909/634e7b4f6a938c238802b738/burberry-about-image.jpg?width=3840&amp;quality=50&amp;auto=webp 3840w"
                       style={{
                         position: 'absolute',
                         inset: '0px',
@@ -188,9 +192,7 @@ const Header = (props: ComponentProps): JSX.Element => {
             <div className="bg-blue w-px h-full mx-2 absolute left-0 top-[8%] mx-0 hidden h-[84%] w-px bg-blue md:block"></div>
             <p className="mb-[21px] text-xs uppercase text-darkGray">About</p>
             <p className="description mb-[38px] text-xl leading-8 text-blue">
-              <Text field={props.fields.Content}></Text>
-              British luxury fashion house established in 1856 by Thomas Burberry headquartered in
-              London, England.
+              <Text field={props.fields.Description}></Text>
             </p>
             <div className="flex justify-center gap-[1.6rem] !justify-start gap-6">
               <a

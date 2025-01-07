@@ -77,7 +77,6 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
 
       {/* root placeholder for the app, which we add components to using route data */}
       <div className={mainClassPageEditing}>
-        <div>Name: {layoutData.sitecore.context.site?.name}</div>
         <nav className="sticky top-0 z-50 flex w-full items-center bg-white px-6 py-6 h-24 md:px-16 md:py-8  text-blue ">
           {route && <Placeholder name="headless-header" rendering={route} />}
         </nav>
