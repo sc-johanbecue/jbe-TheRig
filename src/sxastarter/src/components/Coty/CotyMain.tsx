@@ -107,8 +107,13 @@ const Header = (props: ComponentProps): JSX.Element => {
         </div>
         <div className="flex flex-col items-center pb-10 pt-[60px] md:pb-16 md:pt-20">
           <div className="relative h-20 w-2/3 md:h-32 md:w-1/2 max-h-[64px]">
-            <Link target="_blank" rel="noopener noreferrer" href="https://www.burberry.com">
-              <Text field={props.fields.Title} style="font-size:40px;"></Text>
+            <Link
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.burberry.com"
+              style={{ fontSize: '40px;' }}
+            >
+              <Text field={props.fields.Title}></Text>
             </Link>
           </div>
           <JssLink
