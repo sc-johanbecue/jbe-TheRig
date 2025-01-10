@@ -111,7 +111,7 @@ const Header = (props: ComponentProps): JSX.Element => {
         >
           <div
             className="relative h-20 w-2/3 md:h-32 md:w-1/2 max-h-[64px]"
-            style={{ fontSize: '40px;', fontWeight: '700' }}
+            style={{ fontSize: '50px', fontWeight: '700' }}
           >
             <Text field={props.fields.Title}></Text>
           </div>
