@@ -110,7 +110,7 @@ const Header = (props: ComponentProps): JSX.Element => {
           style={{ fontSize: '40px;', fontWeight: '700' }}
         >
           <div
-            className="relative h-20 w-2/3 md:h-32 md:w-1/2 max-h-[64px]"
+            className="items-center h-20 w-2/3 md:h-32 max-h-[64px]"
             style={{ fontSize: '50px', fontWeight: '700' }}
           >
             <Text field={props.fields.Title}></Text>
