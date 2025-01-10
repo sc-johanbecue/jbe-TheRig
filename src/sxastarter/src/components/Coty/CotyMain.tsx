@@ -97,7 +97,6 @@ const Header = (props: ComponentProps): JSX.Element => {
               <div className="block z-0 w-full overflow-hidden">
                 <JssImage
                   field={props.fields.BannerImage}
-                  alt="Burberry Hero Banner"
                   // layout="fill"
                   // objectFit="cover"
                   // priority
@@ -109,12 +108,7 @@ const Header = (props: ComponentProps): JSX.Element => {
         <div className="flex flex-col items-center pb-10 pt-[60px] md:pb-16 md:pt-20">
           <div className="relative h-20 w-2/3 md:h-32 md:w-1/2 max-h-[64px]">
             <Link target="_blank" rel="noopener noreferrer" href="https://www.burberry.com">
-              <img
-                alt="Burberry Logo"
-                src="https://images.contentstack.io/v3/assets/blted39bd312054daca/bltb7053bcb8736c65e/634e7b4fe20f8c3ac1fd75d4/burberry-logo.svg?width=3840&quality=50&auto=webp"
-                // layout="fill"
-                // objectFit="contain"
-              />
+              <Text field={props.fields.Title} style="font-size:40px;"></Text>
             </Link>
           </div>
           <JssLink
