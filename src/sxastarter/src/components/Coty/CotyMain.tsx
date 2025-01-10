@@ -105,10 +105,13 @@ const Header = (props: ComponentProps): JSX.Element => {
             </div>
           </div>
         </div>
-        <div className="flex flex-col items-center pb-10 pt-[60px] md:pb-16 md:pt-20">
+        <div
+          className="flex flex-col items-center pb-10 pt-[60px] md:pb-16 md:pt-20"
+          style={{ fontSize: '40px;', fontWeight: '700' }}
+        >
           <div
             className="relative h-20 w-2/3 md:h-32 md:w-1/2 max-h-[64px]"
-            style={{ fontSize: '40px;' }}
+            style={{ fontSize: '40px;', fontWeight: '700' }}
           >
             <Text field={props.fields.Title}></Text>
           </div>
