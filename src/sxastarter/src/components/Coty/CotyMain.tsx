@@ -27,7 +27,9 @@ type ComponentProps = {
 const Header = (props: ComponentProps): JSX.Element => {
   return (
     <>
-      <h1 className="sr-only">Page Details - Brand Page - Burberry</h1>
+      <h1 className="sr-only">
+        Page Details - Brand Page - <Text field={props.fields.Title}></Text>
+      </h1>
       <div className="pt-24">
         <div className="absolute z-[9] ml-16 mt-5 hidden md:block">
           <ul className="flex" aria-label="Breadcrumb">
@@ -84,7 +86,7 @@ const Header = (props: ComponentProps): JSX.Element => {
                 >
                   <path d="M5 9L1 5L5 1" />
                 </svg>
-                BURBERRY
+                <Text field={props.fields.Title}></Text>
               </span>
             </li>
           </ul>
@@ -96,7 +98,6 @@ const Header = (props: ComponentProps): JSX.Element => {
                 <JssImage
                   field={props.fields.BannerImage}
                   alt="Burberry Hero Banner"
-                  src="https://images.contentstack.io/v3/assets/blted39bd312054daca/blt6c72117c6bb7ef30/636b92090ec18d1559006d89/Coty-Predtige-Brands-Burberry-hero_xl.jpg?width=1200&quality=100&auto=webp"
                   // layout="fill"
                   // objectFit="cover"
                   // priority
@@ -122,9 +123,7 @@ const Header = (props: ComponentProps): JSX.Element => {
             rel="noopener noreferrer"
             className="text-sm font-bold tracking-wider text-blue underline underline-offset-[7px] even:mt-5 md:even:mt-[35px]"
             href="https://www.burberry.com"
-          >
-            VISIT WEBSITE
-          </JssLink>
+          />
         </div>
       </div>
       <div className="mb-[72px] flex border-t-[1px] border-blue md:mb-[136px] md:h-[512px] md:border-y">
@@ -161,7 +160,6 @@ const Header = (props: ComponentProps): JSX.Element => {
                   >
                     <JssImage
                       field={props.fields.AboutImage}
-                      alt="burberry-about-image.jpg"
                       decoding="async"
                       data-nimg="fill"
                       className=""
