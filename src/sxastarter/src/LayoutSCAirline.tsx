@@ -314,7 +314,10 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                     className="image flynow-tilt"
                     data-tilt-options='{ "glare": false, "maxGlare": 0, "maxTilt": 3, "speed": 700, "scale": 1.02 }'
                   >
-                    <img src="./assets/media/banner/plane.png" alt="" />
+                    <img
+                      src="https://www.sportingkampenhout.be/Sitecore/airline/assets/media/banner/plane.png"
+                      alt=""
+                    />
                   </div>
                 </div>
               </div>
