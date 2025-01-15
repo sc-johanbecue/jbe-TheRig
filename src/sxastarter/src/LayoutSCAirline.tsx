@@ -91,9 +91,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
         <header className="main_header_arae">
           {route && <Placeholder name="headless-header" rendering={route} />}
         </header>
-        <main>
-          <div id="content">{route && <Placeholder name="headless-main" rendering={route} />}</div>
-        </main>
+        <section>{route && <Placeholder name="headless-main" rendering={route} />}</section>
         <footer id="footer_area">
           {route && <Placeholder name="headless-footer" rendering={route} />}
         </footer>
