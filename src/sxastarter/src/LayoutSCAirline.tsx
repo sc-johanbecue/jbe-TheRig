@@ -86,6 +86,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
       </Head>
 
       {/* root placeholder for the app, which we add components to using route data */}
+      <noscript>You need to enable JavaScript to run this app.</noscript>
       <div className={mainClassPageEditing} id="root">
         <header className="main_header_arae">
           {route && <Placeholder name="headless-header" rendering={route} />}
@@ -99,7 +100,6 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
         {route && <Placeholder name="headless-copyright" rendering={route} />}
       </div>
 
-      <noscript>You need to enable JavaScript to run this app.</noscript>
       <div id="root">
         <section id="home_one_banner">
           <div className="container">
