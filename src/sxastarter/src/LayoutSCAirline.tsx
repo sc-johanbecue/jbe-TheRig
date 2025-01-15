@@ -53,58 +53,32 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
         <meta property="og:image" content={fields?.OgImage?.value?.src?.toString()} />
         <meta property="og:type" content={route?.templateName} data-attr="JSS-21.6.0" />
 
-        <meta charSet="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="FlyNow HTML5 Template" />
-        <link rel="shortcut icon" type="image/x-icon" href="assets/media/favicon.png" />
+        <meta charSet="utf-8" />
+        <link rel="icon" href="https://www.sportingkampenhout.be/Sitecore/airline/favicon.ico" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <meta name="theme-color" content="#000000" />
+        <meta name="description" content="Web site created using create-react-app" />
         <link
-          rel="stylesheet"
-          href="https://www.sportingkampenhout.be/Sitecore/airline/assets/css/vendor/font-awesome.css"
+          rel="apple-touch-icon"
+          href="https://www.sportingkampenhout.be/Sitecore/airline/logo192.png"
         />
         <link
-          rel="stylesheet"
-          href="https://www.sportingkampenhout.be/Sitecore/airline/assets/css/fonts/icomoon/style.css"
+          rel="manifest"
+          href="https://www.sportingkampenhout.be/Sitecore/airline/manifest.json"
         />
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+        <script
+          defer
+          src="https://www.sportingkampenhout.be/Sitecore/airline/static/js/main.e22c0515.js"
+        ></script>
         <link
+          href="https://www.sportingkampenhout.be/Sitecore/airline/static/css/main.6dddffd7.css"
           rel="stylesheet"
-          href="https://www.sportingkampenhout.be/Sitecore/airline/assets/css/vendor/bootstrap.min.css"
         />
-        <link
-          rel="stylesheet"
-          href="https://www.sportingkampenhout.be/Sitecore/airline/assets/css/vendor/slick.css"
-        />
-        <link
-          rel="stylesheet"
-          href="https://www.sportingkampenhout.be/Sitecore/airline/assets/css/vendor/slick-theme.css"
-        />
-        <link
-          rel="stylesheet"
-          href="https://www.sportingkampenhout.be/Sitecore/airline/assets/css/vendor/datetime.css"
-        />
-        <link
-          rel="stylesheet"
-          href="https://www.sportingkampenhout.be/Sitecore/airline/assets/css/vendor/calendar/classic.css"
-        />
-        <link
-          rel="stylesheet"
-          href="https://www.sportingkampenhout.be/Sitecore/airline/assets/css/vendor/calendar/classic.date.css"
-        />
-        <link
-          rel="stylesheet"
-          href="https://www.sportingkampenhout.be/Sitecore/airline/assets/css/vendor/jquery.timepicker.min.css"
-        />
-        <link
-          rel="stylesheet"
-          href="https://www.sportingkampenhout.be/Sitecore/airline/assets/css/vendor/ui-autocomplete.css"
-        />
-        <link
-          rel="stylesheet"
-          href="https://www.sportingkampenhout.be/Sitecore/airline/assets/css/vendor/sal.css"
-        />
-        <link
-          rel="stylesheet"
-          href="https://www.sportingkampenhout.be/Sitecore/airline/assets/css/app.css"
+        <meta
+          id="ConnectiveDocSignExtentionInstalled"
+          name="ConnectiveDocSignExtentionInstalled"
+          data-extension-version="1.0.7"
         />
       </Head>
 
@@ -131,26 +105,26 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                 <div className="col-lg-6 col-md-6">
                   <ul className="topbar-list">
                     <li>
-                      <a href="/#!">
+                      <a href="https://www.sportingkampenhout.be/Sitecore/airline/#!">
                         <i className="fab fa-facebook"></i>
                       </a>
-                      <a href="/#!">
+                      <a href="https://www.sportingkampenhout.be/Sitecore/airline/#!">
                         <i className="fab fa-twitter-square"></i>
                       </a>
-                      <a href="/#!">
+                      <a href="https://www.sportingkampenhout.be/Sitecore/airline/#!">
                         <i className="fab fa-instagram"></i>
                       </a>
-                      <a href="/#!">
+                      <a href="https://www.sportingkampenhout.be/Sitecore/airline/#!">
                         <i className="fab fa-linkedin"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="/#!">
+                      <a href="https://www.sportingkampenhout.be/Sitecore/airline/#!">
                         <span>+011 234 567 89</span>
                       </a>
                     </li>
                     <li>
-                      <a href="/#!">
+                      <a href="https://www.sportingkampenhout.be/Sitecore/airline/#!">
                         <span>contact@domain.com</span>
                       </a>
                     </li>
@@ -159,10 +133,12 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                 <div className="col-lg-6 col-md-6">
                   <ul className="topbar-others-options">
                     <li>
-                      <a href="/login">Login</a>
+                      <a href="https://www.sportingkampenhout.be/Sitecore/airline/login">Login</a>
                     </li>
                     <li>
-                      <a href="/register">Sign up</a>
+                      <a href="https://www.sportingkampenhout.be/Sitecore/airline/register">
+                        Sign up
+                      </a>
                     </li>
                   </ul>
                 </div>
@@ -176,7 +152,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                   <div className="row">
                     <div className="col-lg-6">
                       <div className="logo">
-                        <a href="/">
+                        <a href="https://www.sportingkampenhout.be/Sitecore/airline/">
                           <img
                             src="data:image/png;base64,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"
                             alt="logo"
@@ -191,7 +167,10 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
             <div className="main-navbar">
               <div className="container">
                 <nav className="navbar navbar-expand-md navbar-light">
-                  <a className="navbar-brand" href="/">
+                  <a
+                    className="navbar-brand"
+                    href="https://www.sportingkampenhout.be/Sitecore/airline/"
+                  >
                     <img
                       src="data:image/png;base64,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"
                       alt="logo"
@@ -200,59 +179,92 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                   <div className="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
                     <ul className="navbar-nav">
                       <li className="nav-item">
-                        <a className="nav-link active" href="/">
+                        <a
+                          className="nav-link active"
+                          href="https://www.sportingkampenhout.be/Sitecore/airline/"
+                        >
                           Home
                         </a>
                       </li>
                       <li className="nav-item">
-                        <a className="nav-link active" href="/">
+                        <a
+                          className="nav-link active"
+                          href="https://www.sportingkampenhout.be/Sitecore/airline/"
+                        >
                           Categories<i className="fas fa-angle-down"></i>
                         </a>
                         <ul className="dropdown-menu">
                           <li className="nav-item">
-                            <a className="nav-link" href="/">
+                            <a
+                              className="nav-link"
+                              href="https://www.sportingkampenhout.be/Sitecore/airline/"
+                            >
                               Tours
                             </a>
                             <ul className="dropdown-menu">
                               <li className="nav-item">
-                                <a className="nav-link" href="/tour-search">
+                                <a
+                                  className="nav-link"
+                                  href="https://www.sportingkampenhout.be/Sitecore/airline/tour-search"
+                                >
                                   Tour Grid
                                 </a>
                               </li>
                               <li className="nav-item">
-                                <a className="nav-link" href="/tour-details">
+                                <a
+                                  className="nav-link"
+                                  href="https://www.sportingkampenhout.be/Sitecore/airline/tour-details"
+                                >
                                   Tour Details
                                 </a>
                               </li>
                               <li className="nav-item">
-                                <a className="nav-link" href="/tour-booking">
+                                <a
+                                  className="nav-link"
+                                  href="https://www.sportingkampenhout.be/Sitecore/airline/tour-booking"
+                                >
                                   Tour Booking
                                 </a>
                               </li>
                               <li className="nav-item">
-                                <a className="nav-link" href="/top-destinations">
+                                <a
+                                  className="nav-link"
+                                  href="https://www.sportingkampenhout.be/Sitecore/airline/top-destinations"
+                                >
                                   Top Destination
                                 </a>
                               </li>
                               <li className="nav-item">
-                                <a className="nav-link" href="/destinations-details">
+                                <a
+                                  className="nav-link"
+                                  href="https://www.sportingkampenhout.be/Sitecore/airline/destinations-details"
+                                >
                                   Destination Details
                                 </a>
                               </li>
                             </ul>
                           </li>
                           <li className="nav-item">
-                            <a className="nav-link" href="/">
+                            <a
+                              className="nav-link"
+                              href="https://www.sportingkampenhout.be/Sitecore/airline/"
+                            >
                               Flights
                             </a>
                             <ul className="dropdown-menu">
                               <li className="nav-item">
-                                <a className="nav-link" href="/flight-search">
+                                <a
+                                  className="nav-link"
+                                  href="https://www.sportingkampenhout.be/Sitecore/airline/flight-search"
+                                >
                                   Flight
                                 </a>
                               </li>
                               <li className="nav-item">
-                                <a className="nav-link" href="/booking-confirmation">
+                                <a
+                                  className="nav-link"
+                                  href="https://www.sportingkampenhout.be/Sitecore/airline/booking-confirmation"
+                                >
                                   Flight Booking
                                 </a>
                               </li>
@@ -261,104 +273,161 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                         </ul>
                       </li>
                       <li className="nav-item">
-                        <a className="nav-link active" href="/">
+                        <a
+                          className="nav-link active"
+                          href="https://www.sportingkampenhout.be/Sitecore/airline/"
+                        >
                           Page<i className="fas fa-angle-down"></i>
                         </a>
                         <ul className="dropdown-menu">
                           <li className="nav-item">
-                            <a className="nav-link" href="/about">
+                            <a
+                              className="nav-link"
+                              href="https://www.sportingkampenhout.be/Sitecore/airline/about"
+                            >
                               About
                             </a>
                           </li>
                           <li className="nav-item">
-                            <a className="nav-link" href="/tour-guids">
+                            <a
+                              className="nav-link"
+                              href="https://www.sportingkampenhout.be/Sitecore/airline/tour-guids"
+                            >
                               Team
                             </a>
                           </li>
                           <li className="nav-item">
-                            <a className="nav-link" href="/testimonials">
+                            <a
+                              className="nav-link"
+                              href="https://www.sportingkampenhout.be/Sitecore/airline/testimonials"
+                            >
                               Testimonials
                             </a>
                           </li>
                           <li className="nav-item">
-                            <a className="nav-link" href="/faqs">
+                            <a
+                              className="nav-link"
+                              href="https://www.sportingkampenhout.be/Sitecore/airline/faqs"
+                            >
                               FAQ
                             </a>
                           </li>
                           <li className="nav-item">
-                            <a className="nav-link" href="/booking-confirmation">
+                            <a
+                              className="nav-link"
+                              href="https://www.sportingkampenhout.be/Sitecore/airline/booking-confirmation"
+                            >
                               Booking Confirmation
                             </a>
                           </li>
                           <li className="nav-item">
-                            <a className="nav-link" href="/become-expert">
+                            <a
+                              className="nav-link"
+                              href="https://www.sportingkampenhout.be/Sitecore/airline/become-expert"
+                            >
                               {' '}
                               Become Expert
                             </a>
                           </li>
                           <li className="nav-item">
-                            <a className="nav-link" href="/">
+                            <a
+                              className="nav-link"
+                              href="https://www.sportingkampenhout.be/Sitecore/airline/"
+                            >
                               User Pages
                             </a>
                             <ul className="dropdown-menu">
                               <li className="nav-item">
-                                <a className="nav-link" href="/login">
+                                <a
+                                  className="nav-link"
+                                  href="https://www.sportingkampenhout.be/Sitecore/airline/login"
+                                >
                                   Login
                                 </a>
                               </li>
                               <li className="nav-item">
-                                <a className="nav-link" href="/register">
+                                <a
+                                  className="nav-link"
+                                  href="https://www.sportingkampenhout.be/Sitecore/airline/register"
+                                >
                                   Register
                                 </a>
                               </li>
                               <li className="nav-item">
-                                <a className="nav-link" href="/forget-password">
+                                <a
+                                  className="nav-link"
+                                  href="https://www.sportingkampenhout.be/Sitecore/airline/forget-password"
+                                >
                                   Forget Password
                                 </a>
                               </li>
                               <li className="nav-item">
-                                <a className="nav-link" href="/verifyOTP">
+                                <a
+                                  className="nav-link"
+                                  href="https://www.sportingkampenhout.be/Sitecore/airline/verifyOTP"
+                                >
                                   Verify OTP
                                 </a>
                               </li>
                               <li className="nav-item">
-                                <a className="nav-link" href="/reset-password">
+                                <a
+                                  className="nav-link"
+                                  href="https://www.sportingkampenhout.be/Sitecore/airline/reset-password"
+                                >
                                   Reset Password
                                 </a>
                               </li>
                             </ul>
                           </li>
                           <li className="nav-item">
-                            <a className="nav-link" href="/privacy-policy">
+                            <a
+                              className="nav-link"
+                              href="https://www.sportingkampenhout.be/Sitecore/airline/privacy-policy"
+                            >
                               Privacy Policy
                             </a>
                           </li>
                           <li className="nav-item">
-                            <a className="nav-link" href="/*">
+                            <a
+                              className="nav-link"
+                              href="https://www.sportingkampenhout.be/Sitecore/airline/*"
+                            >
                               404 Error
                             </a>
                           </li>
                         </ul>
                       </li>
                       <li className="nav-item">
-                        <a className="nav-link active" href="/">
+                        <a
+                          className="nav-link active"
+                          href="https://www.sportingkampenhout.be/Sitecore/airline/"
+                        >
                           News<i className="fas fa-angle-down"></i>
                         </a>
                         <ul className="dropdown-menu">
                           <li className="nav-item">
-                            <a className="nav-link" href="/news">
+                            <a
+                              className="nav-link"
+                              href="https://www.sportingkampenhout.be/Sitecore/airline/news"
+                            >
                               News
                             </a>
                           </li>
                           <li className="nav-item">
-                            <a className="nav-link" href="/news-details">
+                            <a
+                              className="nav-link"
+                              href="https://www.sportingkampenhout.be/Sitecore/airline/news-details"
+                            >
                               News Details
                             </a>
                           </li>
                         </ul>
                       </li>
                       <li className="nav-item">
-                        <a className="nav-link active" href="/contact">
+                        <a
+                          className="nav-link active"
+                          href="https://www.sportingkampenhout.be/Sitecore/airline/contact"
+                        >
                           Contact
                         </a>
                       </li>
@@ -370,7 +439,10 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                         </a>
                       </div>
                       <div className="option-item">
-                        <a className="btn  btn_navber" href="/become-expert">
+                        <a
+                          className="btn  btn_navber"
+                          href="https://www.sportingkampenhout.be/Sitecore/airline/become-expert"
+                        >
                           Become Expert
                         </a>
                       </div>
@@ -420,60 +492,93 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           <div>
                             <ul className="navbar-nav">
                               <li className="nav-item">
-                                <a className="nav-link active" href="/">
+                                <a
+                                  className="nav-link active"
+                                  href="https://www.sportingkampenhout.be/Sitecore/airline/"
+                                >
                                   Home
                                 </a>
                               </li>
                               <li className="nav-item">
-                                <a className="nav-link active" href="/">
+                                <a
+                                  className="nav-link active"
+                                  href="https://www.sportingkampenhout.be/Sitecore/airline/"
+                                >
                                   Categories<i className="fas fa-angle-down"></i>
                                 </a>
                                 <div className="nav-item">
                                   <ul className="dropdown-menu">
                                     <li className="nav-item">
-                                      <a className="nav-link" href="/">
+                                      <a
+                                        className="nav-link"
+                                        href="https://www.sportingkampenhout.be/Sitecore/airline/"
+                                      >
                                         Tours
                                       </a>
                                       <ul className="dropdown-menu">
                                         <li className="nav-item">
-                                          <a className="nav-link" href="/tour-search">
+                                          <a
+                                            className="nav-link"
+                                            href="https://www.sportingkampenhout.be/Sitecore/airline/tour-search"
+                                          >
                                             Tour Grid
                                           </a>
                                         </li>
                                         <li className="nav-item">
-                                          <a className="nav-link" href="/tour-details">
+                                          <a
+                                            className="nav-link"
+                                            href="https://www.sportingkampenhout.be/Sitecore/airline/tour-details"
+                                          >
                                             Tour Details
                                           </a>
                                         </li>
                                         <li className="nav-item">
-                                          <a className="nav-link" href="/tour-booking">
+                                          <a
+                                            className="nav-link"
+                                            href="https://www.sportingkampenhout.be/Sitecore/airline/tour-booking"
+                                          >
                                             Tour Booking
                                           </a>
                                         </li>
                                         <li className="nav-item">
-                                          <a className="nav-link" href="/top-destinations">
+                                          <a
+                                            className="nav-link"
+                                            href="https://www.sportingkampenhout.be/Sitecore/airline/top-destinations"
+                                          >
                                             Top Destination
                                           </a>
                                         </li>
                                         <li className="nav-item">
-                                          <a className="nav-link" href="/destinations-details">
+                                          <a
+                                            className="nav-link"
+                                            href="https://www.sportingkampenhout.be/Sitecore/airline/destinations-details"
+                                          >
                                             Destination Details
                                           </a>
                                         </li>
                                       </ul>
                                     </li>
                                     <li className="nav-item">
-                                      <a className="nav-link" href="/">
+                                      <a
+                                        className="nav-link"
+                                        href="https://www.sportingkampenhout.be/Sitecore/airline/"
+                                      >
                                         Flights
                                       </a>
                                       <ul className="dropdown-menu">
                                         <li className="nav-item">
-                                          <a className="nav-link" href="/flight-search">
+                                          <a
+                                            className="nav-link"
+                                            href="https://www.sportingkampenhout.be/Sitecore/airline/flight-search"
+                                          >
                                             Flight
                                           </a>
                                         </li>
                                         <li className="nav-item">
-                                          <a className="nav-link" href="/booking-confirmation">
+                                          <a
+                                            className="nav-link"
+                                            href="https://www.sportingkampenhout.be/Sitecore/airline/booking-confirmation"
+                                          >
                                             Flight Booking
                                           </a>
                                         </li>
@@ -483,81 +588,126 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                 </div>
                               </li>
                               <li className="nav-item">
-                                <a className="nav-link active" href="/">
+                                <a
+                                  className="nav-link active"
+                                  href="https://www.sportingkampenhout.be/Sitecore/airline/"
+                                >
                                   Page<i className="fas fa-angle-down"></i>
                                 </a>
                                 <div className="nav-item">
                                   <ul className="dropdown-menu">
                                     <li className="nav-item">
-                                      <a className="nav-link" href="/about">
+                                      <a
+                                        className="nav-link"
+                                        href="https://www.sportingkampenhout.be/Sitecore/airline/about"
+                                      >
                                         About
                                       </a>
                                     </li>
                                     <li className="nav-item">
-                                      <a className="nav-link" href="/tour-guids">
+                                      <a
+                                        className="nav-link"
+                                        href="https://www.sportingkampenhout.be/Sitecore/airline/tour-guids"
+                                      >
                                         Team
                                       </a>
                                     </li>
                                     <li className="nav-item">
-                                      <a className="nav-link" href="/testimonials">
+                                      <a
+                                        className="nav-link"
+                                        href="https://www.sportingkampenhout.be/Sitecore/airline/testimonials"
+                                      >
                                         Testimonials
                                       </a>
                                     </li>
                                     <li className="nav-item">
-                                      <a className="nav-link" href="/faqs">
+                                      <a
+                                        className="nav-link"
+                                        href="https://www.sportingkampenhout.be/Sitecore/airline/faqs"
+                                      >
                                         FAQ
                                       </a>
                                     </li>
                                     <li className="nav-item">
-                                      <a className="nav-link" href="/booking-confirmation">
+                                      <a
+                                        className="nav-link"
+                                        href="https://www.sportingkampenhout.be/Sitecore/airline/booking-confirmation"
+                                      >
                                         Booking Confirmation
                                       </a>
                                     </li>
                                     <li className="nav-item">
-                                      <a className="nav-link" href="/become-expert">
+                                      <a
+                                        className="nav-link"
+                                        href="https://www.sportingkampenhout.be/Sitecore/airline/become-expert"
+                                      >
                                         {' '}
                                         Become Expert
                                       </a>
                                     </li>
                                     <li className="nav-item">
-                                      <a className="nav-link" href="/">
+                                      <a
+                                        className="nav-link"
+                                        href="https://www.sportingkampenhout.be/Sitecore/airline/"
+                                      >
                                         User Pages
                                       </a>
                                       <ul className="dropdown-menu">
                                         <li className="nav-item">
-                                          <a className="nav-link" href="/login">
+                                          <a
+                                            className="nav-link"
+                                            href="https://www.sportingkampenhout.be/Sitecore/airline/login"
+                                          >
                                             Login
                                           </a>
                                         </li>
                                         <li className="nav-item">
-                                          <a className="nav-link" href="/register">
+                                          <a
+                                            className="nav-link"
+                                            href="https://www.sportingkampenhout.be/Sitecore/airline/register"
+                                          >
                                             Register
                                           </a>
                                         </li>
                                         <li className="nav-item">
-                                          <a className="nav-link" href="/forget-password">
+                                          <a
+                                            className="nav-link"
+                                            href="https://www.sportingkampenhout.be/Sitecore/airline/forget-password"
+                                          >
                                             Forget Password
                                           </a>
                                         </li>
                                         <li className="nav-item">
-                                          <a className="nav-link" href="/verifyOTP">
+                                          <a
+                                            className="nav-link"
+                                            href="https://www.sportingkampenhout.be/Sitecore/airline/verifyOTP"
+                                          >
                                             Verify OTP
                                           </a>
                                         </li>
                                         <li className="nav-item">
-                                          <a className="nav-link" href="/reset-password">
+                                          <a
+                                            className="nav-link"
+                                            href="https://www.sportingkampenhout.be/Sitecore/airline/reset-password"
+                                          >
                                             Reset Password
                                           </a>
                                         </li>
                                       </ul>
                                     </li>
                                     <li className="nav-item">
-                                      <a className="nav-link" href="/privacy-policy">
+                                      <a
+                                        className="nav-link"
+                                        href="https://www.sportingkampenhout.be/Sitecore/airline/privacy-policy"
+                                      >
                                         Privacy Policy
                                       </a>
                                     </li>
                                     <li className="nav-item">
-                                      <a className="nav-link" href="/*">
+                                      <a
+                                        className="nav-link"
+                                        href="https://www.sportingkampenhout.be/Sitecore/airline/*"
+                                      >
                                         404 Error
                                       </a>
                                     </li>
@@ -565,18 +715,27 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                 </div>
                               </li>
                               <li className="nav-item">
-                                <a className="nav-link active" href="/">
+                                <a
+                                  className="nav-link active"
+                                  href="https://www.sportingkampenhout.be/Sitecore/airline/"
+                                >
                                   News<i className="fas fa-angle-down"></i>
                                 </a>
                                 <div className="nav-item">
                                   <ul className="dropdown-menu">
                                     <li className="nav-item">
-                                      <a className="nav-link" href="/news">
+                                      <a
+                                        className="nav-link"
+                                        href="https://www.sportingkampenhout.be/Sitecore/airline/news"
+                                      >
                                         News
                                       </a>
                                     </li>
                                     <li className="nav-item">
-                                      <a className="nav-link" href="/news-details">
+                                      <a
+                                        className="nav-link"
+                                        href="https://www.sportingkampenhout.be/Sitecore/airline/news-details"
+                                      >
                                         News Details
                                       </a>
                                     </li>
@@ -584,7 +743,10 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                 </div>
                               </li>
                               <li className="nav-item">
-                                <a className="nav-link active" href="/contact">
+                                <a
+                                  className="nav-link active"
+                                  href="https://www.sportingkampenhout.be/Sitecore/airline/contact"
+                                >
                                   Contact
                                 </a>
                               </li>
@@ -1740,10 +1902,13 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
               <div className="col-lg-3 col-md-6 col-sm-6 col-12">
                 <div className="imagination_boxed">
                   <a href="top-destinations.html">
-                    <img src="/static/media/imagination1.b9e565683d8614e0a5b4.png" alt="img" />
+                    <img
+                      src="https://www.sportingkampenhout.be/Sitecore/airline/static/media/imagination1.b9e565683d8614e0a5b4.png"
+                      alt="img"
+                    />
                   </a>
                   <h3>
-                    <a href="/#!">
+                    <a href="https://www.sportingkampenhout.be/Sitecore/airline/#!">
                       7% Discount for all<span>Airlines</span>
                     </a>
                   </h3>
@@ -1752,10 +1917,13 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
               <div className="col-lg-3 col-md-6 col-sm-6 col-12">
                 <div className="imagination_boxed">
                   <a href="top-destinations.html">
-                    <img src="/static/media/imagination2.7b067dc7665c7cf6f236.png" alt="img" />
+                    <img
+                      src="https://www.sportingkampenhout.be/Sitecore/airline/static/media/imagination2.7b067dc7665c7cf6f236.png"
+                      alt="img"
+                    />
                   </a>
                   <h3>
-                    <a href="/#!">
+                    <a href="https://www.sportingkampenhout.be/Sitecore/airline/#!">
                       Travel around<span>the world</span>
                     </a>
                   </h3>
@@ -1764,10 +1932,13 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
               <div className="col-lg-3 col-md-6 col-sm-6 col-12">
                 <div className="imagination_boxed">
                   <a href="top-destinations.html">
-                    <img src="/static/media/imagination3.dbae66bae69b2fed2fb6.png" alt="img" />
+                    <img
+                      src="https://www.sportingkampenhout.be/Sitecore/airline/static/media/imagination3.dbae66bae69b2fed2fb6.png"
+                      alt="img"
+                    />
                   </a>
                   <h3>
-                    <a href="/#!">
+                    <a href="https://www.sportingkampenhout.be/Sitecore/airline/#!">
                       Luxury resorts<span>top deals</span>
                     </a>
                   </h3>
@@ -1788,7 +1959,10 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
             <div className="row">
               <div className="col-lg-6 col-md-12 col-sm-12 col-12">
                 <div className="destinations_content_box img_animation">
-                  <img src="/static/media/big-img.b56e4b126d8cdc425c95.png" alt="img" />
+                  <img
+                    src="https://www.sportingkampenhout.be/Sitecore/airline/static/media/big-img.b56e4b126d8cdc425c95.png"
+                    alt="img"
+                  />
                   <div className="destinations_content_inner">
                     <h2>Up to</h2>
                     <div className="destinations_big_offer">
@@ -1798,7 +1972,10 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                       </h6>
                     </div>
                     <h2>Holiday packages</h2>
-                    <a className="btn btn_theme btn_md" href="/#!">
+                    <a
+                      className="btn btn_theme btn_md"
+                      href="https://www.sportingkampenhout.be/Sitecore/airline/#!"
+                    >
                       Book now
                     </a>
                   </div>
@@ -1808,91 +1985,126 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                 <div className="row">
                   <div className="col-lg-4 col-md-4 col-sm-12 col-12">
                     <div className="destinations_content_box img_animation">
-                      <a href="/#!">
-                        <img src="/static/media/destination1.916f20475212163261c7.png" alt="img" />
+                      <a href="https://www.sportingkampenhout.be/Sitecore/airline/#!">
+                        <img
+                          src="https://www.sportingkampenhout.be/Sitecore/airline/static/media/destination1.916f20475212163261c7.png"
+                          alt="img"
+                        />
                       </a>
                       <div className="destinations_content_inner">
                         <h3>
-                          <a href="/">China</a>
+                          <a href="https://www.sportingkampenhout.be/Sitecore/airline/">China</a>
                         </h3>
                       </div>
                     </div>
                     <div className="destinations_content_box img_animation">
-                      <a href="/#!">
-                        <img src="/static/media/destination2.29fb638d593a102958b4.png" alt="img" />
+                      <a href="https://www.sportingkampenhout.be/Sitecore/airline/#!">
+                        <img
+                          src="https://www.sportingkampenhout.be/Sitecore/airline/static/media/destination2.29fb638d593a102958b4.png"
+                          alt="img"
+                        />
                       </a>
                       <div className="destinations_content_inner">
                         <h3>
-                          <a href="/">Darjeeling</a>
+                          <a href="https://www.sportingkampenhout.be/Sitecore/airline/">
+                            Darjeeling
+                          </a>
                         </h3>
                       </div>
                     </div>
                     <div className="destinations_content_box img_animation">
-                      <a href="/#!">
-                        <img src="/static/media/destination3.3fec9f5935a0179d0ca8.png" alt="img" />
+                      <a href="https://www.sportingkampenhout.be/Sitecore/airline/#!">
+                        <img
+                          src="https://www.sportingkampenhout.be/Sitecore/airline/static/media/destination3.3fec9f5935a0179d0ca8.png"
+                          alt="img"
+                        />
                       </a>
                       <div className="destinations_content_inner">
                         <h3>
-                          <a href="/">Malaysia</a>
-                        </h3>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-lg-4 col-md-4 col-sm-12 col-12">
-                    <div className="destinations_content_box img_animation">
-                      <a href="/#!">
-                        <img src="/static/media/destination4.d65143d658f6074949ea.png" alt="img" />
-                      </a>
-                      <div className="destinations_content_inner">
-                        <h3>
-                          <a href="/#!">Gangtok</a>
-                        </h3>
-                      </div>
-                    </div>
-                    <div className="destinations_content_box img_animation">
-                      <a href="/#!">
-                        <img src="/static/media/destination5.bcf61ab9e079f438bc9f.png" alt="img" />
-                      </a>
-                      <div className="destinations_content_inner">
-                        <h3>
-                          <a href="/#!">Thailand</a>
-                        </h3>
-                      </div>
-                    </div>
-                    <div className="destinations_content_box img_animation">
-                      <a href="/#!">
-                        <img src="/static/media/destination6.1555d99894afafd18abb.png" alt="img" />
-                      </a>
-                      <div className="destinations_content_inner">
-                        <h3>
-                          <a href="/#!">Australia</a>
+                          <a href="https://www.sportingkampenhout.be/Sitecore/airline/">Malaysia</a>
                         </h3>
                       </div>
                     </div>
                   </div>
                   <div className="col-lg-4 col-md-4 col-sm-12 col-12">
                     <div className="destinations_content_box img_animation">
-                      <a href="/">
-                        <img src="/static/media/destination7.81908c1df834294e9fcb.png" alt="img" />
+                      <a href="https://www.sportingkampenhout.be/Sitecore/airline/#!">
+                        <img
+                          src="https://www.sportingkampenhout.be/Sitecore/airline/static/media/destination4.d65143d658f6074949ea.png"
+                          alt="img"
+                        />
                       </a>
                       <div className="destinations_content_inner">
                         <h3>
-                          <a href="/">London</a>
+                          <a href="https://www.sportingkampenhout.be/Sitecore/airline/#!">
+                            Gangtok
+                          </a>
                         </h3>
                       </div>
                     </div>
                     <div className="destinations_content_box img_animation">
-                      <a href="/">
-                        <img src="/static/media/destination8.16cc6886161d3c9c1d26.png" alt="img" />
+                      <a href="https://www.sportingkampenhout.be/Sitecore/airline/#!">
+                        <img
+                          src="https://www.sportingkampenhout.be/Sitecore/airline/static/media/destination5.bcf61ab9e079f438bc9f.png"
+                          alt="img"
+                        />
                       </a>
                       <div className="destinations_content_inner">
                         <h3>
-                          <a href="/">USA</a>
+                          <a href="https://www.sportingkampenhout.be/Sitecore/airline/#!">
+                            Thailand
+                          </a>
+                        </h3>
+                      </div>
+                    </div>
+                    <div className="destinations_content_box img_animation">
+                      <a href="https://www.sportingkampenhout.be/Sitecore/airline/#!">
+                        <img
+                          src="https://www.sportingkampenhout.be/Sitecore/airline/static/media/destination6.1555d99894afafd18abb.png"
+                          alt="img"
+                        />
+                      </a>
+                      <div className="destinations_content_inner">
+                        <h3>
+                          <a href="https://www.sportingkampenhout.be/Sitecore/airline/#!">
+                            Australia
+                          </a>
+                        </h3>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-lg-4 col-md-4 col-sm-12 col-12">
+                    <div className="destinations_content_box img_animation">
+                      <a href="https://www.sportingkampenhout.be/Sitecore/airline/">
+                        <img
+                          src="https://www.sportingkampenhout.be/Sitecore/airline/static/media/destination7.81908c1df834294e9fcb.png"
+                          alt="img"
+                        />
+                      </a>
+                      <div className="destinations_content_inner">
+                        <h3>
+                          <a href="https://www.sportingkampenhout.be/Sitecore/airline/">London</a>
+                        </h3>
+                      </div>
+                    </div>
+                    <div className="destinations_content_box img_animation">
+                      <a href="https://www.sportingkampenhout.be/Sitecore/airline/">
+                        <img
+                          src="https://www.sportingkampenhout.be/Sitecore/airline/static/media/destination8.16cc6886161d3c9c1d26.png"
+                          alt="img"
+                        />
+                      </a>
+                      <div className="destinations_content_inner">
+                        <h3>
+                          <a href="https://www.sportingkampenhout.be/Sitecore/airline/">USA</a>
                         </h3>
                       </div>
                     </div>
                     <div className="destinations_content_box">
-                      <a href="/" className="btn btn_theme btn_md w-100">
+                      <a
+                        href="https://www.sportingkampenhout.be/Sitecore/airline/"
+                        className="btn btn_theme btn_md w-100"
+                      >
                         View all
                       </a>
                     </div>
@@ -1982,8 +2194,11 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                       <div className="col-lg-3 col-md-6 col-sm-6 col-12">
                         <div className="theme_common_box_two img_hover">
                           <div className="theme_two_box_img">
-                            <a href="/tour-details">
-                              <img src="/static/media/hotel1.7e5c5eee3784f788957e.png" alt="img" />
+                            <a href="https://www.sportingkampenhout.be/Sitecore/airline/tour-details">
+                              <img
+                                src="https://www.sportingkampenhout.be/Sitecore/airline/static/media/hotel1.7e5c5eee3784f788957e.png"
+                                alt="img"
+                              />
                             </a>
                             <p>
                               <i className="fas fa-map-marker-alt"></i>New beach, Thailand
@@ -1994,7 +2209,9 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </div>
                           <div className="theme_two_box_content">
                             <h4>
-                              <a href="/tour-details">Kantua hotel, Thailand</a>
+                              <a href="https://www.sportingkampenhout.be/Sitecore/airline/tour-details">
+                                Kantua hotel, Thailand
+                              </a>
                             </h4>
                             <p>
                               <span className="review_rating">4.8/5 Excellent</span>
@@ -2009,8 +2226,11 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                       <div className="col-lg-3 col-md-6 col-sm-6 col-12">
                         <div className="theme_common_box_two img_hover">
                           <div className="theme_two_box_img">
-                            <a href="/tour-details">
-                              <img src="/static/media/hotel2.3e4b06c0456866ba2d94.png" alt="img" />
+                            <a href="https://www.sportingkampenhout.be/Sitecore/airline/tour-details">
+                              <img
+                                src="https://www.sportingkampenhout.be/Sitecore/airline/static/media/hotel2.3e4b06c0456866ba2d94.png"
+                                alt="img"
+                              />
                             </a>
                             <p>
                               <i className="fas fa-map-marker-alt"></i>Indonesia
@@ -2018,7 +2238,9 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </div>
                           <div className="theme_two_box_content">
                             <h4>
-                              <a href="/tour-details">Hotel paradise international</a>
+                              <a href="https://www.sportingkampenhout.be/Sitecore/airline/tour-details">
+                                Hotel paradise international
+                              </a>
                             </h4>
                             <p>
                               <span className="review_rating">4.8/5 Excellent</span>
@@ -2033,8 +2255,11 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                       <div className="col-lg-3 col-md-6 col-sm-6 col-12">
                         <div className="theme_common_box_two img_hover">
                           <div className="theme_two_box_img">
-                            <a href="/tour-details">
-                              <img src="/static/media/hotel3.7daea2be758071426c02.png" alt="img" />
+                            <a href="https://www.sportingkampenhout.be/Sitecore/airline/tour-details">
+                              <img
+                                src="https://www.sportingkampenhout.be/Sitecore/airline/static/media/hotel3.7daea2be758071426c02.png"
+                                alt="img"
+                              />
                             </a>
                             <p>
                               <i className="fas fa-map-marker-alt"></i>Kualalampur
@@ -2042,7 +2267,9 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </div>
                           <div className="theme_two_box_content">
                             <h4>
-                              <a href="/tour-details">Hotel kualalampur</a>
+                              <a href="https://www.sportingkampenhout.be/Sitecore/airline/tour-details">
+                                Hotel kualalampur
+                              </a>
                             </h4>
                             <p>
                               <span className="review_rating">4.8/5 Excellent</span>
@@ -2057,8 +2284,11 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                       <div className="col-lg-3 col-md-6 col-sm-6 col-12">
                         <div className="theme_common_box_two img_hover">
                           <div className="theme_two_box_img">
-                            <a href="/tour-details">
-                              <img src="/static/media/hotel4.2f5a764952dd511e35fa.png" alt="img" />
+                            <a href="https://www.sportingkampenhout.be/Sitecore/airline/tour-details">
+                              <img
+                                src="https://www.sportingkampenhout.be/Sitecore/airline/static/media/hotel4.2f5a764952dd511e35fa.png"
+                                alt="img"
+                              />
                             </a>
                             <p>
                               <i className="fas fa-map-marker-alt"></i>Mariana island
@@ -2069,7 +2299,9 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </div>
                           <div className="theme_two_box_content">
                             <h4>
-                              <a href="/tour-details">Hotel deluxe</a>
+                              <a href="https://www.sportingkampenhout.be/Sitecore/airline/tour-details">
+                                Hotel deluxe
+                              </a>
                             </h4>
                             <p>
                               <span className="review_rating">4.8/5 Excellent</span>
@@ -2084,8 +2316,11 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                       <div className="col-lg-3 col-md-6 col-sm-6 col-12">
                         <div className="theme_common_box_two img_hover">
                           <div className="theme_two_box_img">
-                            <a href="/tour-details">
-                              <img src="/static/media/hotel5.a6f0242835c6b60b9c4b.png" alt="img" />
+                            <a href="https://www.sportingkampenhout.be/Sitecore/airline/tour-details">
+                              <img
+                                src="https://www.sportingkampenhout.be/Sitecore/airline/static/media/hotel5.a6f0242835c6b60b9c4b.png"
+                                alt="img"
+                              />
                             </a>
                             <p>
                               <i className="fas fa-map-marker-alt"></i>imgKathmundu, Nepal
@@ -2093,7 +2328,9 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </div>
                           <div className="theme_two_box_content">
                             <h4>
-                              <a href="/tour-details">Hotel rajavumi</a>
+                              <a href="https://www.sportingkampenhout.be/Sitecore/airline/tour-details">
+                                Hotel rajavumi
+                              </a>
                             </h4>
                             <p>
                               <span className="review_rating">4.1/5 Excellent</span>
@@ -2108,8 +2345,11 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                       <div className="col-lg-3 col-md-6 col-sm-6 col-12">
                         <div className="theme_common_box_two img_hover">
                           <div className="theme_two_box_img">
-                            <a href="/tour-details">
-                              <img src="/static/media/hotel6.71ece295cac75a47c576.png" alt="img" />
+                            <a href="https://www.sportingkampenhout.be/Sitecore/airline/tour-details">
+                              <img
+                                src="https://www.sportingkampenhout.be/Sitecore/airline/static/media/hotel6.71ece295cac75a47c576.png"
+                                alt="img"
+                              />
                             </a>
                             <p>
                               <i className="fas fa-map-marker-alt"></i>Beach view
@@ -2117,7 +2357,9 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </div>
                           <div className="theme_two_box_content">
                             <h4>
-                              <a href="/tour-details">Thailand grand suit</a>
+                              <a href="https://www.sportingkampenhout.be/Sitecore/airline/tour-details">
+                                Thailand grand suit
+                              </a>
                             </h4>
                             <p>
                               <span className="review_rating">4.8/5 Excellent</span>
@@ -2132,8 +2374,11 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                       <div className="col-lg-3 col-md-6 col-sm-6 col-12">
                         <div className="theme_common_box_two img_hover">
                           <div className="theme_two_box_img">
-                            <a href="/tour-details">
-                              <img src="/static/media/hotel7.031accfb26a2e1d6c6f5.png" alt="img" />
+                            <a href="https://www.sportingkampenhout.be/Sitecore/airline/tour-details">
+                              <img
+                                src="https://www.sportingkampenhout.be/Sitecore/airline/static/media/hotel7.031accfb26a2e1d6c6f5.png"
+                                alt="img"
+                              />
                             </a>
                             <p>
                               <i className="fas fa-map-marker-alt"></i>Long island
@@ -2141,7 +2386,9 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </div>
                           <div className="theme_two_box_content">
                             <h4>
-                              <a href="/tour-details">Zefi resort and spa</a>
+                              <a href="https://www.sportingkampenhout.be/Sitecore/airline/tour-details">
+                                Zefi resort and spa
+                              </a>
                             </h4>
                             <p>
                               <span className="review_rating">4.8/5 Excellent</span>
@@ -2156,8 +2403,11 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                       <div className="col-lg-3 col-md-6 col-sm-6 col-12">
                         <div className="theme_common_box_two img_hover">
                           <div className="theme_two_box_img">
-                            <a href="/tour-details">
-                              <img src="/static/media/hotel8.980e6eaf416d34809cf6.png" alt="img" />
+                            <a href="https://www.sportingkampenhout.be/Sitecore/airline/tour-details">
+                              <img
+                                src="https://www.sportingkampenhout.be/Sitecore/airline/static/media/hotel8.980e6eaf416d34809cf6.png"
+                                alt="img"
+                              />
                             </a>
                             <p>
                               <i className="fas fa-map-marker-alt"></i>Philippine
@@ -2165,7 +2415,9 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </div>
                           <div className="theme_two_box_content">
                             <h4>
-                              <a href="/tour-details">Manila international resort</a>
+                              <a href="https://www.sportingkampenhout.be/Sitecore/airline/tour-details">
+                                Manila international resort
+                              </a>
                             </h4>
                             <p>
                               <span className="review_rating">4.8/5 Excellent</span>
@@ -2189,8 +2441,11 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                       <div className="col-lg-3 col-md-6 col-sm-6 col-12">
                         <div className="theme_common_box_two img_hover">
                           <div className="theme_two_box_img">
-                            <a href="/tour-details">
-                              <img src="/static/media/hotel1.7e5c5eee3784f788957e.png" alt="img" />
+                            <a href="https://www.sportingkampenhout.be/Sitecore/airline/tour-details">
+                              <img
+                                src="https://www.sportingkampenhout.be/Sitecore/airline/static/media/hotel1.7e5c5eee3784f788957e.png"
+                                alt="img"
+                              />
                             </a>
                             <p>
                               <i className="fas fa-map-marker-alt"></i>New beach, Thailand
@@ -2201,7 +2456,9 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </div>
                           <div className="theme_two_box_content">
                             <h4>
-                              <a href="/tour-details">Kantua hotel, Thailand</a>
+                              <a href="https://www.sportingkampenhout.be/Sitecore/airline/tour-details">
+                                Kantua hotel, Thailand
+                              </a>
                             </h4>
                             <p>
                               <span className="review_rating">4.8/5 Excellent</span>
@@ -2216,8 +2473,11 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                       <div className="col-lg-3 col-md-6 col-sm-6 col-12">
                         <div className="theme_common_box_two img_hover">
                           <div className="theme_two_box_img">
-                            <a href="/tour-details">
-                              <img src="/static/media/hotel2.3e4b06c0456866ba2d94.png" alt="img" />
+                            <a href="https://www.sportingkampenhout.be/Sitecore/airline/tour-details">
+                              <img
+                                src="https://www.sportingkampenhout.be/Sitecore/airline/static/media/hotel2.3e4b06c0456866ba2d94.png"
+                                alt="img"
+                              />
                             </a>
                             <p>
                               <i className="fas fa-map-marker-alt"></i>Indonesia
@@ -2225,7 +2485,9 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </div>
                           <div className="theme_two_box_content">
                             <h4>
-                              <a href="/tour-details">Hotel paradise international</a>
+                              <a href="https://www.sportingkampenhout.be/Sitecore/airline/tour-details">
+                                Hotel paradise international
+                              </a>
                             </h4>
                             <p>
                               <span className="review_rating">4.8/5 Excellent</span>
@@ -2240,8 +2502,11 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                       <div className="col-lg-3 col-md-6 col-sm-6 col-12">
                         <div className="theme_common_box_two img_hover">
                           <div className="theme_two_box_img">
-                            <a href="/tour-details">
-                              <img src="/static/media/hotel3.7daea2be758071426c02.png" alt="img" />
+                            <a href="https://www.sportingkampenhout.be/Sitecore/airline/tour-details">
+                              <img
+                                src="https://www.sportingkampenhout.be/Sitecore/airline/static/media/hotel3.7daea2be758071426c02.png"
+                                alt="img"
+                              />
                             </a>
                             <p>
                               <i className="fas fa-map-marker-alt"></i>Kualalampur
@@ -2249,7 +2514,9 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </div>
                           <div className="theme_two_box_content">
                             <h4>
-                              <a href="/tour-details">Hotel kualalampur</a>
+                              <a href="https://www.sportingkampenhout.be/Sitecore/airline/tour-details">
+                                Hotel kualalampur
+                              </a>
                             </h4>
                             <p>
                               <span className="review_rating">4.8/5 Excellent</span>
@@ -2264,8 +2531,11 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                       <div className="col-lg-3 col-md-6 col-sm-6 col-12">
                         <div className="theme_common_box_two img_hover">
                           <div className="theme_two_box_img">
-                            <a href="/tour-details">
-                              <img src="/static/media/hotel4.2f5a764952dd511e35fa.png" alt="img" />
+                            <a href="https://www.sportingkampenhout.be/Sitecore/airline/tour-details">
+                              <img
+                                src="https://www.sportingkampenhout.be/Sitecore/airline/static/media/hotel4.2f5a764952dd511e35fa.png"
+                                alt="img"
+                              />
                             </a>
                             <p>
                               <i className="fas fa-map-marker-alt"></i>Mariana island
@@ -2276,7 +2546,9 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </div>
                           <div className="theme_two_box_content">
                             <h4>
-                              <a href="/tour-details">Hotel deluxe</a>
+                              <a href="https://www.sportingkampenhout.be/Sitecore/airline/tour-details">
+                                Hotel deluxe
+                              </a>
                             </h4>
                             <p>
                               <span className="review_rating">4.8/5 Excellent</span>
@@ -2291,8 +2563,11 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                       <div className="col-lg-3 col-md-6 col-sm-6 col-12">
                         <div className="theme_common_box_two img_hover">
                           <div className="theme_two_box_img">
-                            <a href="/tour-details">
-                              <img src="/static/media/hotel5.a6f0242835c6b60b9c4b.png" alt="img" />
+                            <a href="https://www.sportingkampenhout.be/Sitecore/airline/tour-details">
+                              <img
+                                src="https://www.sportingkampenhout.be/Sitecore/airline/static/media/hotel5.a6f0242835c6b60b9c4b.png"
+                                alt="img"
+                              />
                             </a>
                             <p>
                               <i className="fas fa-map-marker-alt"></i>imgKathmundu, Nepal
@@ -2300,7 +2575,9 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </div>
                           <div className="theme_two_box_content">
                             <h4>
-                              <a href="/tour-details">Hotel rajavumi</a>
+                              <a href="https://www.sportingkampenhout.be/Sitecore/airline/tour-details">
+                                Hotel rajavumi
+                              </a>
                             </h4>
                             <p>
                               <span className="review_rating">4.1/5 Excellent</span>
@@ -2315,8 +2592,11 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                       <div className="col-lg-3 col-md-6 col-sm-6 col-12">
                         <div className="theme_common_box_two img_hover">
                           <div className="theme_two_box_img">
-                            <a href="/tour-details">
-                              <img src="/static/media/hotel6.71ece295cac75a47c576.png" alt="img" />
+                            <a href="https://www.sportingkampenhout.be/Sitecore/airline/tour-details">
+                              <img
+                                src="https://www.sportingkampenhout.be/Sitecore/airline/static/media/hotel6.71ece295cac75a47c576.png"
+                                alt="img"
+                              />
                             </a>
                             <p>
                               <i className="fas fa-map-marker-alt"></i>Beach view
@@ -2324,7 +2604,9 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </div>
                           <div className="theme_two_box_content">
                             <h4>
-                              <a href="/tour-details">Thailand grand suit</a>
+                              <a href="https://www.sportingkampenhout.be/Sitecore/airline/tour-details">
+                                Thailand grand suit
+                              </a>
                             </h4>
                             <p>
                               <span className="review_rating">4.8/5 Excellent</span>
@@ -2348,8 +2630,11 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                       <div className="col-lg-3 col-md-6 col-sm-6 col-12">
                         <div className="theme_common_box_two img_hover">
                           <div className="theme_two_box_img">
-                            <a href="/tour-details">
-                              <img src="/static/media/hotel5.a6f0242835c6b60b9c4b.png" alt="img" />
+                            <a href="https://www.sportingkampenhout.be/Sitecore/airline/tour-details">
+                              <img
+                                src="https://www.sportingkampenhout.be/Sitecore/airline/static/media/hotel5.a6f0242835c6b60b9c4b.png"
+                                alt="img"
+                              />
                             </a>
                             <p>
                               <i className="fas fa-map-marker-alt"></i>imgKathmundu, Nepal
@@ -2357,7 +2642,9 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </div>
                           <div className="theme_two_box_content">
                             <h4>
-                              <a href="/tour-details">Hotel rajavumi</a>
+                              <a href="https://www.sportingkampenhout.be/Sitecore/airline/tour-details">
+                                Hotel rajavumi
+                              </a>
                             </h4>
                             <p>
                               <span className="review_rating">4.1/5 Excellent</span>
@@ -2372,8 +2659,11 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                       <div className="col-lg-3 col-md-6 col-sm-6 col-12">
                         <div className="theme_common_box_two img_hover">
                           <div className="theme_two_box_img">
-                            <a href="/tour-details">
-                              <img src="/static/media/hotel6.71ece295cac75a47c576.png" alt="img" />
+                            <a href="https://www.sportingkampenhout.be/Sitecore/airline/tour-details">
+                              <img
+                                src="https://www.sportingkampenhout.be/Sitecore/airline/static/media/hotel6.71ece295cac75a47c576.png"
+                                alt="img"
+                              />
                             </a>
                             <p>
                               <i className="fas fa-map-marker-alt"></i>Beach view
@@ -2381,7 +2671,9 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </div>
                           <div className="theme_two_box_content">
                             <h4>
-                              <a href="/tour-details">Thailand grand suit</a>
+                              <a href="https://www.sportingkampenhout.be/Sitecore/airline/tour-details">
+                                Thailand grand suit
+                              </a>
                             </h4>
                             <p>
                               <span className="review_rating">4.8/5 Excellent</span>
@@ -2396,8 +2688,11 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                       <div className="col-lg-3 col-md-6 col-sm-6 col-12">
                         <div className="theme_common_box_two img_hover">
                           <div className="theme_two_box_img">
-                            <a href="/tour-details">
-                              <img src="/static/media/hotel7.031accfb26a2e1d6c6f5.png" alt="img" />
+                            <a href="https://www.sportingkampenhout.be/Sitecore/airline/tour-details">
+                              <img
+                                src="https://www.sportingkampenhout.be/Sitecore/airline/static/media/hotel7.031accfb26a2e1d6c6f5.png"
+                                alt="img"
+                              />
                             </a>
                             <p>
                               <i className="fas fa-map-marker-alt"></i>Long island
@@ -2405,7 +2700,9 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </div>
                           <div className="theme_two_box_content">
                             <h4>
-                              <a href="/tour-details">Zefi resort and spa</a>
+                              <a href="https://www.sportingkampenhout.be/Sitecore/airline/tour-details">
+                                Zefi resort and spa
+                              </a>
                             </h4>
                             <p>
                               <span className="review_rating">4.8/5 Excellent</span>
@@ -2420,8 +2717,11 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                       <div className="col-lg-3 col-md-6 col-sm-6 col-12">
                         <div className="theme_common_box_two img_hover">
                           <div className="theme_two_box_img">
-                            <a href="/tour-details">
-                              <img src="/static/media/hotel8.980e6eaf416d34809cf6.png" alt="img" />
+                            <a href="https://www.sportingkampenhout.be/Sitecore/airline/tour-details">
+                              <img
+                                src="https://www.sportingkampenhout.be/Sitecore/airline/static/media/hotel8.980e6eaf416d34809cf6.png"
+                                alt="img"
+                              />
                             </a>
                             <p>
                               <i className="fas fa-map-marker-alt"></i>Philippine
@@ -2429,7 +2729,9 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </div>
                           <div className="theme_two_box_content">
                             <h4>
-                              <a href="/tour-details">Manila international resort</a>
+                              <a href="https://www.sportingkampenhout.be/Sitecore/airline/tour-details">
+                                Manila international resort
+                              </a>
                             </h4>
                             <p>
                               <span className="review_rating">4.8/5 Excellent</span>
@@ -2453,8 +2755,11 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                       <div className="col-lg-3 col-md-6 col-sm-6 col-12">
                         <div className="theme_common_box_two img_hover">
                           <div className="theme_two_box_img">
-                            <a href="/tour-details">
-                              <img src="/static/media/hotel4.2f5a764952dd511e35fa.png" alt="img" />
+                            <a href="https://www.sportingkampenhout.be/Sitecore/airline/tour-details">
+                              <img
+                                src="https://www.sportingkampenhout.be/Sitecore/airline/static/media/hotel4.2f5a764952dd511e35fa.png"
+                                alt="img"
+                              />
                             </a>
                             <p>
                               <i className="fas fa-map-marker-alt"></i>Mariana island
@@ -2465,7 +2770,9 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </div>
                           <div className="theme_two_box_content">
                             <h4>
-                              <a href="/tour-details">Hotel deluxe</a>
+                              <a href="https://www.sportingkampenhout.be/Sitecore/airline/tour-details">
+                                Hotel deluxe
+                              </a>
                             </h4>
                             <p>
                               <span className="review_rating">4.8/5 Excellent</span>
@@ -2480,8 +2787,11 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                       <div className="col-lg-3 col-md-6 col-sm-6 col-12">
                         <div className="theme_common_box_two img_hover">
                           <div className="theme_two_box_img">
-                            <a href="/tour-details">
-                              <img src="/static/media/hotel5.a6f0242835c6b60b9c4b.png" alt="img" />
+                            <a href="https://www.sportingkampenhout.be/Sitecore/airline/tour-details">
+                              <img
+                                src="https://www.sportingkampenhout.be/Sitecore/airline/static/media/hotel5.a6f0242835c6b60b9c4b.png"
+                                alt="img"
+                              />
                             </a>
                             <p>
                               <i className="fas fa-map-marker-alt"></i>imgKathmundu, Nepal
@@ -2489,7 +2799,9 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </div>
                           <div className="theme_two_box_content">
                             <h4>
-                              <a href="/tour-details">Hotel rajavumi</a>
+                              <a href="https://www.sportingkampenhout.be/Sitecore/airline/tour-details">
+                                Hotel rajavumi
+                              </a>
                             </h4>
                             <p>
                               <span className="review_rating">4.1/5 Excellent</span>
@@ -2504,8 +2816,11 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                       <div className="col-lg-3 col-md-6 col-sm-6 col-12">
                         <div className="theme_common_box_two img_hover">
                           <div className="theme_two_box_img">
-                            <a href="/tour-details">
-                              <img src="/static/media/hotel6.71ece295cac75a47c576.png" alt="img" />
+                            <a href="https://www.sportingkampenhout.be/Sitecore/airline/tour-details">
+                              <img
+                                src="https://www.sportingkampenhout.be/Sitecore/airline/static/media/hotel6.71ece295cac75a47c576.png"
+                                alt="img"
+                              />
                             </a>
                             <p>
                               <i className="fas fa-map-marker-alt"></i>Beach view
@@ -2513,7 +2828,9 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </div>
                           <div className="theme_two_box_content">
                             <h4>
-                              <a href="/tour-details">Thailand grand suit</a>
+                              <a href="https://www.sportingkampenhout.be/Sitecore/airline/tour-details">
+                                Thailand grand suit
+                              </a>
                             </h4>
                             <p>
                               <span className="review_rating">4.8/5 Excellent</span>
@@ -2528,8 +2845,11 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                       <div className="col-lg-3 col-md-6 col-sm-6 col-12">
                         <div className="theme_common_box_two img_hover">
                           <div className="theme_two_box_img">
-                            <a href="/tour-details">
-                              <img src="/static/media/hotel7.031accfb26a2e1d6c6f5.png" alt="img" />
+                            <a href="https://www.sportingkampenhout.be/Sitecore/airline/tour-details">
+                              <img
+                                src="https://www.sportingkampenhout.be/Sitecore/airline/static/media/hotel7.031accfb26a2e1d6c6f5.png"
+                                alt="img"
+                              />
                             </a>
                             <p>
                               <i className="fas fa-map-marker-alt"></i>Long island
@@ -2537,7 +2857,9 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </div>
                           <div className="theme_two_box_content">
                             <h4>
-                              <a href="/tour-details">Zefi resort and spa</a>
+                              <a href="https://www.sportingkampenhout.be/Sitecore/airline/tour-details">
+                                Zefi resort and spa
+                              </a>
                             </h4>
                             <p>
                               <span className="review_rating">4.8/5 Excellent</span>
@@ -2552,8 +2874,11 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                       <div className="col-lg-3 col-md-6 col-sm-6 col-12">
                         <div className="theme_common_box_two img_hover">
                           <div className="theme_two_box_img">
-                            <a href="/tour-details">
-                              <img src="/static/media/hotel8.980e6eaf416d34809cf6.png" alt="img" />
+                            <a href="https://www.sportingkampenhout.be/Sitecore/airline/tour-details">
+                              <img
+                                src="https://www.sportingkampenhout.be/Sitecore/airline/static/media/hotel8.980e6eaf416d34809cf6.png"
+                                alt="img"
+                              />
                             </a>
                             <p>
                               <i className="fas fa-map-marker-alt"></i>Philippine
@@ -2561,7 +2886,9 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </div>
                           <div className="theme_two_box_content">
                             <h4>
-                              <a href="/tour-details">Manila international resort</a>
+                              <a href="https://www.sportingkampenhout.be/Sitecore/airline/tour-details">
+                                Manila international resort
+                              </a>
                             </h4>
                             <p>
                               <span className="review_rating">4.8/5 Excellent</span>
@@ -2585,7 +2912,10 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
             <div className="row">
               <div className="col-lg-6 col-md-12 col-sm-12 col-12">
                 <div className="offer_area_box d-none-phone img_animation">
-                  <img src="/static/media/offer1.1cc63cca0b9e3a9cb641.png" alt="img" />
+                  <img
+                    src="https://www.sportingkampenhout.be/Sitecore/airline/static/media/offer1.1cc63cca0b9e3a9cb641.png"
+                    alt="img"
+                  />
                   <div className="offer_area_content">
                     <h2>Special Offers</h2>
                     <p>
@@ -2593,7 +2923,10 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                       eos et accusam et justo duo dolores et ea rebum. Stet clita kasd dolor sit
                       amet. Lorem ipsum dolor sit amet.
                     </p>
-                    <a className="btn btn_theme btn_md" href="/#!">
+                    <a
+                      className="btn btn_theme btn_md"
+                      href="https://www.sportingkampenhout.be/Sitecore/airline/#!"
+                    >
                       Holiday deals
                     </a>
                   </div>
@@ -2601,14 +2934,20 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
               </div>
               <div className="col-lg-3 col-md-6 col-sm-12 col-12">
                 <div className="offer_area_box img_animation">
-                  <img src="/static/media/offer2.18ee11a637d736bb1ccf.png" alt="img" />
+                  <img
+                    src="https://www.sportingkampenhout.be/Sitecore/airline/static/media/offer2.18ee11a637d736bb1ccf.png"
+                    alt="img"
+                  />
                   <div className="offer_area_content">
                     <h2>News letter</h2>
                     <p>
                       Invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero
                       eos et.
                     </p>
-                    <a className="btn btn_theme btn_md" href="/#!">
+                    <a
+                      className="btn btn_theme btn_md"
+                      href="https://www.sportingkampenhout.be/Sitecore/airline/#!"
+                    >
                       Subscribe now
                     </a>
                   </div>
@@ -2616,14 +2955,20 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
               </div>
               <div className="col-lg-3 col-md-6 col-sm-12 col-12">
                 <div className="offer_area_box img_animation">
-                  <img src="/static/media/offer3.701ffbe92f95aac2a837.png" alt="img" />
+                  <img
+                    src="https://www.sportingkampenhout.be/Sitecore/airline/static/media/offer3.701ffbe92f95aac2a837.png"
+                    alt="img"
+                  />
                   <div className="offer_area_content">
                     <h2>Travel tips</h2>
                     <p>
                       Invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero
                       eos et.
                     </p>
-                    <a className="btn btn_theme btn_md" href="/#!">
+                    <a
+                      className="btn btn_theme btn_md"
+                      href="https://www.sportingkampenhout.be/Sitecore/airline/#!"
+                    >
                       Get tips
                     </a>
                   </div>
@@ -2660,9 +3005,9 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                         >
                           <div className="theme_common_box_two img_hover">
                             <div className="theme_two_box_img">
-                              <a href="/#!">
+                              <a href="https://www.sportingkampenhout.be/Sitecore/airline/#!">
                                 <img
-                                  src="/static/media/hotel5.a6f0242835c6b60b9c4b.png"
+                                  src="https://www.sportingkampenhout.be/Sitecore/airline/static/media/hotel5.a6f0242835c6b60b9c4b.png"
                                   alt="img"
                                 />
                               </a>
@@ -2672,7 +3017,9 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                             </div>
                             <div className="theme_two_box_content">
                               <h4>
-                                <a href="/#!">Hotel rajavumi</a>
+                                <a href="https://www.sportingkampenhout.be/Sitecore/airline/#!">
+                                  Hotel rajavumi
+                                </a>
                               </h4>
                               <p>
                                 <span className="review_rating">4.1/5 Excellent</span>
@@ -2690,9 +3037,9 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                         >
                           <div className="theme_common_box_two img_hover">
                             <div className="theme_two_box_img">
-                              <a href="/#!">
+                              <a href="https://www.sportingkampenhout.be/Sitecore/airline/#!">
                                 <img
-                                  src="/static/media/hotel6.71ece295cac75a47c576.png"
+                                  src="https://www.sportingkampenhout.be/Sitecore/airline/static/media/hotel6.71ece295cac75a47c576.png"
                                   alt="img"
                                 />
                               </a>
@@ -2702,7 +3049,9 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                             </div>
                             <div className="theme_two_box_content">
                               <h4>
-                                <a href="/#!">Thailand grand suit</a>
+                                <a href="https://www.sportingkampenhout.be/Sitecore/airline/#!">
+                                  Thailand grand suit
+                                </a>
                               </h4>
                               <p>
                                 <span className="review_rating">4.8/5 Excellent</span>
@@ -2720,9 +3069,9 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                         >
                           <div className="theme_common_box_two img_hover">
                             <div className="theme_two_box_img">
-                              <a href="/#!">
+                              <a href="https://www.sportingkampenhout.be/Sitecore/airline/#!">
                                 <img
-                                  src="/static/media/hotel7.031accfb26a2e1d6c6f5.png"
+                                  src="https://www.sportingkampenhout.be/Sitecore/airline/static/media/hotel7.031accfb26a2e1d6c6f5.png"
                                   alt="img"
                                 />
                               </a>
@@ -2732,7 +3081,9 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                             </div>
                             <div className="theme_two_box_content">
                               <h4>
-                                <a href="/#!">Zefi resort and spa</a>
+                                <a href="https://www.sportingkampenhout.be/Sitecore/airline/#!">
+                                  Zefi resort and spa
+                                </a>
                               </h4>
                               <p>
                                 <span className="review_rating">4.8/5 Excellent</span>
@@ -2750,9 +3101,9 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                         >
                           <div className="theme_common_box_two img_hover">
                             <div className="theme_two_box_img">
-                              <a href="/#!">
+                              <a href="https://www.sportingkampenhout.be/Sitecore/airline/#!">
                                 <img
-                                  src="/static/media/hotel8.980e6eaf416d34809cf6.png"
+                                  src="https://www.sportingkampenhout.be/Sitecore/airline/static/media/hotel8.980e6eaf416d34809cf6.png"
                                   alt="img"
                                 />
                               </a>
@@ -2762,7 +3113,9 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                             </div>
                             <div className="theme_two_box_content">
                               <h4>
-                                <a href="/#!">Manila international resort</a>
+                                <a href="https://www.sportingkampenhout.be/Sitecore/airline/#!">
+                                  Manila international resort
+                                </a>
                               </h4>
                               <p>
                                 <span className="review_rating">4.8/5 Excellent</span>
@@ -2780,9 +3133,9 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                         >
                           <div className="theme_common_box_two img_hover">
                             <div className="theme_two_box_img">
-                              <a href="/#!">
+                              <a href="https://www.sportingkampenhout.be/Sitecore/airline/#!">
                                 <img
-                                  src="/static/media/hotel1.7e5c5eee3784f788957e.png"
+                                  src="https://www.sportingkampenhout.be/Sitecore/airline/static/media/hotel1.7e5c5eee3784f788957e.png"
                                   alt="img"
                                 />
                               </a>
@@ -2795,7 +3148,9 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                             </div>
                             <div className="theme_two_box_content">
                               <h4>
-                                <a href="/#!">Kantua hotel, Thailand</a>
+                                <a href="https://www.sportingkampenhout.be/Sitecore/airline/#!">
+                                  Kantua hotel, Thailand
+                                </a>
                               </h4>
                               <p>
                                 <span className="review_rating">4.8/5 Excellent</span>
@@ -2813,9 +3168,9 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                         >
                           <div className="theme_common_box_two img_hover">
                             <div className="theme_two_box_img">
-                              <a href="/#!">
+                              <a href="https://www.sportingkampenhout.be/Sitecore/airline/#!">
                                 <img
-                                  src="/static/media/hotel2.3e4b06c0456866ba2d94.png"
+                                  src="https://www.sportingkampenhout.be/Sitecore/airline/static/media/hotel2.3e4b06c0456866ba2d94.png"
                                   alt="img"
                                 />
                               </a>
@@ -2825,7 +3180,9 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                             </div>
                             <div className="theme_two_box_content">
                               <h4>
-                                <a href="/#!">Hotel paradise international</a>
+                                <a href="https://www.sportingkampenhout.be/Sitecore/airline/#!">
+                                  Hotel paradise international
+                                </a>
                               </h4>
                               <p>
                                 <span className="review_rating">4.8/5 Excellent</span>
@@ -2843,9 +3200,9 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                         >
                           <div className="theme_common_box_two img_hover">
                             <div className="theme_two_box_img">
-                              <a href="/#!">
+                              <a href="https://www.sportingkampenhout.be/Sitecore/airline/#!">
                                 <img
-                                  src="/static/media/hotel3.7daea2be758071426c02.png"
+                                  src="https://www.sportingkampenhout.be/Sitecore/airline/static/media/hotel3.7daea2be758071426c02.png"
                                   alt="img"
                                 />
                               </a>
@@ -2855,7 +3212,9 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                             </div>
                             <div className="theme_two_box_content">
                               <h4>
-                                <a href="/#!">Hotel kualalampur</a>
+                                <a href="https://www.sportingkampenhout.be/Sitecore/airline/#!">
+                                  Hotel kualalampur
+                                </a>
                               </h4>
                               <p>
                                 <span className="review_rating">4.8/5 Excellent</span>
@@ -2873,9 +3232,9 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                         >
                           <div className="theme_common_box_two img_hover">
                             <div className="theme_two_box_img">
-                              <a href="/#!">
+                              <a href="https://www.sportingkampenhout.be/Sitecore/airline/#!">
                                 <img
-                                  src="/static/media/hotel4.2f5a764952dd511e35fa.png"
+                                  src="https://www.sportingkampenhout.be/Sitecore/airline/static/media/hotel4.2f5a764952dd511e35fa.png"
                                   alt="img"
                                 />
                               </a>
@@ -2888,7 +3247,9 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                             </div>
                             <div className="theme_two_box_content">
                               <h4>
-                                <a href="/#!">Hotel deluxe</a>
+                                <a href="https://www.sportingkampenhout.be/Sitecore/airline/#!">
+                                  Hotel deluxe
+                                </a>
                               </h4>
                               <p>
                                 <span className="review_rating">4.8/5 Excellent</span>
@@ -2906,9 +3267,9 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                         >
                           <div className="theme_common_box_two img_hover">
                             <div className="theme_two_box_img">
-                              <a href="/#!">
+                              <a href="https://www.sportingkampenhout.be/Sitecore/airline/#!">
                                 <img
-                                  src="/static/media/hotel5.a6f0242835c6b60b9c4b.png"
+                                  src="https://www.sportingkampenhout.be/Sitecore/airline/static/media/hotel5.a6f0242835c6b60b9c4b.png"
                                   alt="img"
                                 />
                               </a>
@@ -2918,7 +3279,9 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                             </div>
                             <div className="theme_two_box_content">
                               <h4>
-                                <a href="/#!">Hotel rajavumi</a>
+                                <a href="https://www.sportingkampenhout.be/Sitecore/airline/#!">
+                                  Hotel rajavumi
+                                </a>
                               </h4>
                               <p>
                                 <span className="review_rating">4.1/5 Excellent</span>
@@ -2936,9 +3299,9 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                         >
                           <div className="theme_common_box_two img_hover">
                             <div className="theme_two_box_img">
-                              <a href="/#!">
+                              <a href="https://www.sportingkampenhout.be/Sitecore/airline/#!">
                                 <img
-                                  src="/static/media/hotel6.71ece295cac75a47c576.png"
+                                  src="https://www.sportingkampenhout.be/Sitecore/airline/static/media/hotel6.71ece295cac75a47c576.png"
                                   alt="img"
                                 />
                               </a>
@@ -2948,7 +3311,9 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                             </div>
                             <div className="theme_two_box_content">
                               <h4>
-                                <a href="/#!">Thailand grand suit</a>
+                                <a href="https://www.sportingkampenhout.be/Sitecore/airline/#!">
+                                  Thailand grand suit
+                                </a>
                               </h4>
                               <p>
                                 <span className="review_rating">4.8/5 Excellent</span>
@@ -2966,9 +3331,9 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                         >
                           <div className="theme_common_box_two img_hover">
                             <div className="theme_two_box_img">
-                              <a href="/#!">
+                              <a href="https://www.sportingkampenhout.be/Sitecore/airline/#!">
                                 <img
-                                  src="/static/media/hotel7.031accfb26a2e1d6c6f5.png"
+                                  src="https://www.sportingkampenhout.be/Sitecore/airline/static/media/hotel7.031accfb26a2e1d6c6f5.png"
                                   alt="img"
                                 />
                               </a>
@@ -2978,7 +3343,9 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                             </div>
                             <div className="theme_two_box_content">
                               <h4>
-                                <a href="/#!">Zefi resort and spa</a>
+                                <a href="https://www.sportingkampenhout.be/Sitecore/airline/#!">
+                                  Zefi resort and spa
+                                </a>
                               </h4>
                               <p>
                                 <span className="review_rating">4.8/5 Excellent</span>
@@ -2996,9 +3363,9 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                         >
                           <div className="theme_common_box_two img_hover">
                             <div className="theme_two_box_img">
-                              <a href="/#!">
+                              <a href="https://www.sportingkampenhout.be/Sitecore/airline/#!">
                                 <img
-                                  src="/static/media/hotel8.980e6eaf416d34809cf6.png"
+                                  src="https://www.sportingkampenhout.be/Sitecore/airline/static/media/hotel8.980e6eaf416d34809cf6.png"
                                   alt="img"
                                 />
                               </a>
@@ -3008,7 +3375,9 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                             </div>
                             <div className="theme_two_box_content">
                               <h4>
-                                <a href="/#!">Manila international resort</a>
+                                <a href="https://www.sportingkampenhout.be/Sitecore/airline/#!">
+                                  Manila international resort
+                                </a>
                               </h4>
                               <p>
                                 <span className="review_rating">4.8/5 Excellent</span>
@@ -3026,9 +3395,9 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                         >
                           <div className="theme_common_box_two img_hover">
                             <div className="theme_two_box_img">
-                              <a href="/#!">
+                              <a href="https://www.sportingkampenhout.be/Sitecore/airline/#!">
                                 <img
-                                  src="/static/media/hotel1.7e5c5eee3784f788957e.png"
+                                  src="https://www.sportingkampenhout.be/Sitecore/airline/static/media/hotel1.7e5c5eee3784f788957e.png"
                                   alt="img"
                                 />
                               </a>
@@ -3041,7 +3410,9 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                             </div>
                             <div className="theme_two_box_content">
                               <h4>
-                                <a href="/#!">Kantua hotel, Thailand</a>
+                                <a href="https://www.sportingkampenhout.be/Sitecore/airline/#!">
+                                  Kantua hotel, Thailand
+                                </a>
                               </h4>
                               <p>
                                 <span className="review_rating">4.8/5 Excellent</span>
@@ -3059,9 +3430,9 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                         >
                           <div className="theme_common_box_two img_hover">
                             <div className="theme_two_box_img">
-                              <a href="/#!">
+                              <a href="https://www.sportingkampenhout.be/Sitecore/airline/#!">
                                 <img
-                                  src="/static/media/hotel2.3e4b06c0456866ba2d94.png"
+                                  src="https://www.sportingkampenhout.be/Sitecore/airline/static/media/hotel2.3e4b06c0456866ba2d94.png"
                                   alt="img"
                                 />
                               </a>
@@ -3071,7 +3442,9 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                             </div>
                             <div className="theme_two_box_content">
                               <h4>
-                                <a href="/#!">Hotel paradise international</a>
+                                <a href="https://www.sportingkampenhout.be/Sitecore/airline/#!">
+                                  Hotel paradise international
+                                </a>
                               </h4>
                               <p>
                                 <span className="review_rating">4.8/5 Excellent</span>
@@ -3089,9 +3462,9 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                         >
                           <div className="theme_common_box_two img_hover">
                             <div className="theme_two_box_img">
-                              <a href="/#!">
+                              <a href="https://www.sportingkampenhout.be/Sitecore/airline/#!">
                                 <img
-                                  src="/static/media/hotel3.7daea2be758071426c02.png"
+                                  src="https://www.sportingkampenhout.be/Sitecore/airline/static/media/hotel3.7daea2be758071426c02.png"
                                   alt="img"
                                 />
                               </a>
@@ -3101,7 +3474,9 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                             </div>
                             <div className="theme_two_box_content">
                               <h4>
-                                <a href="/#!">Hotel kualalampur</a>
+                                <a href="https://www.sportingkampenhout.be/Sitecore/airline/#!">
+                                  Hotel kualalampur
+                                </a>
                               </h4>
                               <p>
                                 <span className="review_rating">4.8/5 Excellent</span>
@@ -3119,9 +3494,9 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                         >
                           <div className="theme_common_box_two img_hover">
                             <div className="theme_two_box_img">
-                              <a href="/#!">
+                              <a href="https://www.sportingkampenhout.be/Sitecore/airline/#!">
                                 <img
-                                  src="/static/media/hotel4.2f5a764952dd511e35fa.png"
+                                  src="https://www.sportingkampenhout.be/Sitecore/airline/static/media/hotel4.2f5a764952dd511e35fa.png"
                                   alt="img"
                                 />
                               </a>
@@ -3134,7 +3509,9 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                             </div>
                             <div className="theme_two_box_content">
                               <h4>
-                                <a href="/#!">Hotel deluxe</a>
+                                <a href="https://www.sportingkampenhout.be/Sitecore/airline/#!">
+                                  Hotel deluxe
+                                </a>
                               </h4>
                               <p>
                                 <span className="review_rating">4.8/5 Excellent</span>
@@ -3262,7 +3639,9 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </div>
                           <div className="tab_destinations_conntent">
                             <h3>
-                              <a href="/destinations-details">Everest trek to Base Camp</a>
+                              <a href="https://www.sportingkampenhout.be/Sitecore/airline/destinations-details">
+                                Everest trek to Base Camp
+                              </a>
                             </h3>
                             <p>
                               Price starts at <span>$105.00</span>
@@ -3282,7 +3661,9 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </div>
                           <div className="tab_destinations_conntent">
                             <h3>
-                              <a href="/destinations-details">Kathmundu tour</a>
+                              <a href="https://www.sportingkampenhout.be/Sitecore/airline/destinations-details">
+                                Kathmundu tour
+                              </a>
                             </h3>
                             <p>
                               Price starts at <span>$85.00</span>
@@ -3302,7 +3683,9 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </div>
                           <div className="tab_destinations_conntent">
                             <h3>
-                              <a href="/destinations-details">Beautiful pokhara</a>
+                              <a href="https://www.sportingkampenhout.be/Sitecore/airline/destinations-details">
+                                Beautiful pokhara
+                              </a>
                             </h3>
                             <p>
                               Price starts at <span>$100.00</span>
@@ -3322,7 +3705,9 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </div>
                           <div className="tab_destinations_conntent">
                             <h3>
-                              <a href="/destinations-details">Annapurna region</a>
+                              <a href="https://www.sportingkampenhout.be/Sitecore/airline/destinations-details">
+                                Annapurna region
+                              </a>
                             </h3>
                             <p>
                               Price starts at <span>$75.00</span>
@@ -3342,7 +3727,9 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </div>
                           <div className="tab_destinations_conntent">
                             <h3>
-                              <a href="/destinations-details">Chitwan national park</a>
+                              <a href="https://www.sportingkampenhout.be/Sitecore/airline/destinations-details">
+                                Chitwan national park
+                              </a>
                             </h3>
                             <p>
                               Price starts at <span>$105.00</span>
@@ -3362,7 +3749,9 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </div>
                           <div className="tab_destinations_conntent">
                             <h3>
-                              <a href="/destinations-details">Langtang region</a>
+                              <a href="https://www.sportingkampenhout.be/Sitecore/airline/destinations-details">
+                                Langtang region
+                              </a>
                             </h3>
                             <p>
                               Price starts at <span>$105.00</span>
@@ -3391,7 +3780,9 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </div>
                           <div className="tab_destinations_conntent">
                             <h3>
-                              <a href="/destinations-details">Everest trek to Base Camp</a>
+                              <a href="https://www.sportingkampenhout.be/Sitecore/airline/destinations-details">
+                                Everest trek to Base Camp
+                              </a>
                             </h3>
                             <p>
                               Price starts at <span>$105.00</span>
@@ -3411,7 +3802,9 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </div>
                           <div className="tab_destinations_conntent">
                             <h3>
-                              <a href="/destinations-details">Kathmundu tour</a>
+                              <a href="https://www.sportingkampenhout.be/Sitecore/airline/destinations-details">
+                                Kathmundu tour
+                              </a>
                             </h3>
                             <p>
                               Price starts at <span>$85.00</span>
@@ -3431,7 +3824,9 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </div>
                           <div className="tab_destinations_conntent">
                             <h3>
-                              <a href="/destinations-details">Beautiful pokhara</a>
+                              <a href="https://www.sportingkampenhout.be/Sitecore/airline/destinations-details">
+                                Beautiful pokhara
+                              </a>
                             </h3>
                             <p>
                               Price starts at <span>$100.00</span>
@@ -3451,7 +3846,9 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </div>
                           <div className="tab_destinations_conntent">
                             <h3>
-                              <a href="/destinations-details">Annapurna region</a>
+                              <a href="https://www.sportingkampenhout.be/Sitecore/airline/destinations-details">
+                                Annapurna region
+                              </a>
                             </h3>
                             <p>
                               Price starts at <span>$75.00</span>
@@ -3471,7 +3868,9 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </div>
                           <div className="tab_destinations_conntent">
                             <h3>
-                              <a href="/destinations-details">Chitwan national park</a>
+                              <a href="https://www.sportingkampenhout.be/Sitecore/airline/destinations-details">
+                                Chitwan national park
+                              </a>
                             </h3>
                             <p>
                               Price starts at <span>$105.00</span>
@@ -3491,7 +3890,9 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </div>
                           <div className="tab_destinations_conntent">
                             <h3>
-                              <a href="/destinations-details">Langtang region</a>
+                              <a href="https://www.sportingkampenhout.be/Sitecore/airline/destinations-details">
+                                Langtang region
+                              </a>
                             </h3>
                             <p>
                               Price starts at <span>$105.00</span>
@@ -3520,7 +3921,9 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </div>
                           <div className="tab_destinations_conntent">
                             <h3>
-                              <a href="/destinations-details">Everest trek to Base Camp</a>
+                              <a href="https://www.sportingkampenhout.be/Sitecore/airline/destinations-details">
+                                Everest trek to Base Camp
+                              </a>
                             </h3>
                             <p>
                               Price starts at <span>$105.00</span>
@@ -3540,7 +3943,9 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </div>
                           <div className="tab_destinations_conntent">
                             <h3>
-                              <a href="/destinations-details">Kathmundu tour</a>
+                              <a href="https://www.sportingkampenhout.be/Sitecore/airline/destinations-details">
+                                Kathmundu tour
+                              </a>
                             </h3>
                             <p>
                               Price starts at <span>$85.00</span>
@@ -3560,7 +3965,9 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </div>
                           <div className="tab_destinations_conntent">
                             <h3>
-                              <a href="/destinations-details">Beautiful pokhara</a>
+                              <a href="https://www.sportingkampenhout.be/Sitecore/airline/destinations-details">
+                                Beautiful pokhara
+                              </a>
                             </h3>
                             <p>
                               Price starts at <span>$100.00</span>
@@ -3580,7 +3987,9 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </div>
                           <div className="tab_destinations_conntent">
                             <h3>
-                              <a href="/destinations-details">Annapurna region</a>
+                              <a href="https://www.sportingkampenhout.be/Sitecore/airline/destinations-details">
+                                Annapurna region
+                              </a>
                             </h3>
                             <p>
                               Price starts at <span>$75.00</span>
@@ -3600,7 +4009,9 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </div>
                           <div className="tab_destinations_conntent">
                             <h3>
-                              <a href="/destinations-details">Chitwan national park</a>
+                              <a href="https://www.sportingkampenhout.be/Sitecore/airline/destinations-details">
+                                Chitwan national park
+                              </a>
                             </h3>
                             <p>
                               Price starts at <span>$105.00</span>
@@ -3620,7 +4031,9 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </div>
                           <div className="tab_destinations_conntent">
                             <h3>
-                              <a href="/destinations-details">Langtang region</a>
+                              <a href="https://www.sportingkampenhout.be/Sitecore/airline/destinations-details">
+                                Langtang region
+                              </a>
                             </h3>
                             <p>
                               Price starts at <span>$105.00</span>
@@ -3649,7 +4062,9 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </div>
                           <div className="tab_destinations_conntent">
                             <h3>
-                              <a href="/destinations-details">Everest trek to Base Camp</a>
+                              <a href="https://www.sportingkampenhout.be/Sitecore/airline/destinations-details">
+                                Everest trek to Base Camp
+                              </a>
                             </h3>
                             <p>
                               Price starts at <span>$105.00</span>
@@ -3669,7 +4084,9 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </div>
                           <div className="tab_destinations_conntent">
                             <h3>
-                              <a href="/destinations-details">Kathmundu tour</a>
+                              <a href="https://www.sportingkampenhout.be/Sitecore/airline/destinations-details">
+                                Kathmundu tour
+                              </a>
                             </h3>
                             <p>
                               Price starts at <span>$85.00</span>
@@ -3689,7 +4106,9 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </div>
                           <div className="tab_destinations_conntent">
                             <h3>
-                              <a href="/destinations-details">Beautiful pokhara</a>
+                              <a href="https://www.sportingkampenhout.be/Sitecore/airline/destinations-details">
+                                Beautiful pokhara
+                              </a>
                             </h3>
                             <p>
                               Price starts at <span>$100.00</span>
@@ -3709,7 +4128,9 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </div>
                           <div className="tab_destinations_conntent">
                             <h3>
-                              <a href="/destinations-details">Annapurna region</a>
+                              <a href="https://www.sportingkampenhout.be/Sitecore/airline/destinations-details">
+                                Annapurna region
+                              </a>
                             </h3>
                             <p>
                               Price starts at <span>$75.00</span>
@@ -3729,7 +4150,9 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </div>
                           <div className="tab_destinations_conntent">
                             <h3>
-                              <a href="/destinations-details">Chitwan national park</a>
+                              <a href="https://www.sportingkampenhout.be/Sitecore/airline/destinations-details">
+                                Chitwan national park
+                              </a>
                             </h3>
                             <p>
                               Price starts at <span>$105.00</span>
@@ -3749,7 +4172,9 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </div>
                           <div className="tab_destinations_conntent">
                             <h3>
-                              <a href="/destinations-details">Langtang region</a>
+                              <a href="https://www.sportingkampenhout.be/Sitecore/airline/destinations-details">
+                                Langtang region
+                              </a>
                             </h3>
                             <p>
                               Price starts at <span>$105.00</span>
@@ -3778,7 +4203,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                 <div className="home_news_left_wrapper">
                   <div className="home_news_item">
                     <div className="home_news_img">
-                      <a href="/#!">
+                      <a href="https://www.sportingkampenhout.be/Sitecore/airline/#!">
                         <img
                           src="data:image/png;base64,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"
                           alt="img"
@@ -3787,12 +4212,14 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                     </div>
                     <div className="home_news_content">
                       <h3>
-                        <a href="/#!">
+                        <a href="https://www.sportingkampenhout.be/Sitecore/airline/#!">
                           Revolutionising the travel industry, one partnership at a time
                         </a>
                       </h3>
                       <p>
-                        <a href="/#!">26 Oct 2021</a>{' '}
+                        <a href="https://www.sportingkampenhout.be/Sitecore/airline/#!">
+                          26 Oct 2021
+                        </a>{' '}
                         <span>
                           {' '}
                           <i className="fas fa-circle"></i>5min read
@@ -3802,7 +4229,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                   </div>
                   <div className="home_news_item">
                     <div className="home_news_img">
-                      <a href="/#!">
+                      <a href="https://www.sportingkampenhout.be/Sitecore/airline/#!">
                         <img
                           src="data:image/png;base64,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"
                           alt="img"
@@ -3811,12 +4238,14 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                     </div>
                     <div className="home_news_content">
                       <h3>
-                        <a href="/#!">
+                        <a href="https://www.sportingkampenhout.be/Sitecore/airline/#!">
                           t is a long established fact that a reader will be distracted.
                         </a>
                       </h3>
                       <p>
-                        <a href="/#!">26 Oct 2021</a>{' '}
+                        <a href="https://www.sportingkampenhout.be/Sitecore/airline/#!">
+                          26 Oct 2021
+                        </a>{' '}
                         <span>
                           {' '}
                           <i className="fas fa-circle"></i>3min read
@@ -3826,7 +4255,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                   </div>
                   <div className="home_news_item">
                     <div className="home_news_img">
-                      <a href="/#!">
+                      <a href="https://www.sportingkampenhout.be/Sitecore/airline/#!">
                         <img
                           src="data:image/png;base64,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"
                           alt="img"
@@ -3835,10 +4264,14 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                     </div>
                     <div className="home_news_content">
                       <h3>
-                        <a href="/#!">There are many variations of passages of sum available</a>
+                        <a href="https://www.sportingkampenhout.be/Sitecore/airline/#!">
+                          There are many variations of passages of sum available
+                        </a>
                       </h3>
                       <p>
-                        <a href="/#!">26 Oct 2021</a>{' '}
+                        <a href="https://www.sportingkampenhout.be/Sitecore/airline/#!">
+                          26 Oct 2021
+                        </a>{' '}
                         <span>
                           {' '}
                           <i className="fas fa-circle"></i>2min read
@@ -3848,7 +4281,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                   </div>
                   <div className="home_news_item">
                     <div className="home_news_img">
-                      <a href="/#!">
+                      <a href="https://www.sportingkampenhout.be/Sitecore/airline/#!">
                         <img
                           src="data:image/png;base64,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"
                           alt="img"
@@ -3857,10 +4290,14 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                     </div>
                     <div className="home_news_content">
                       <h3>
-                        <a href="/#!">Contrary to popular belief, Lorem Ipsum is not simply.</a>
+                        <a href="https://www.sportingkampenhout.be/Sitecore/airline/#!">
+                          Contrary to popular belief, Lorem Ipsum is not simply.
+                        </a>
                       </h3>
                       <p>
-                        <a href="/#!">26 Oct 2021</a>{' '}
+                        <a href="https://www.sportingkampenhout.be/Sitecore/airline/#!">
+                          26 Oct 2021
+                        </a>{' '}
                         <span>
                           {' '}
                           <i className="fas fa-circle"></i>5min read
@@ -3870,7 +4307,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                   </div>
                   <div className="home_news_item">
                     <div className="seeall_link">
-                      <a href="/#!">
+                      <a href="https://www.sportingkampenhout.be/Sitecore/airline/#!">
                         See all article <i className="fas fa-arrow-right"></i>
                       </a>
                     </div>
@@ -3880,12 +4317,17 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
               <div className="col-lg-6">
                 <div className="home_news_big">
                   <div className="news_home_bigest img_hover">
-                    <a href="/#!">
-                      <img src="/static/media/news-big.885368950e555b40e938.png" alt="img" />
+                    <a href="https://www.sportingkampenhout.be/Sitecore/airline/#!">
+                      <img
+                        src="https://www.sportingkampenhout.be/Sitecore/airline/static/media/news-big.885368950e555b40e938.png"
+                        alt="img"
+                      />
                     </a>
                   </div>
                   <h3>
-                    <a href="/#!">There are many variations of passages available but</a>{' '}
+                    <a href="https://www.sportingkampenhout.be/Sitecore/airline/#!">
+                      There are many variations of passages available but
+                    </a>{' '}
                   </h3>
                   <p>
                     It is a long established fact that a reader will be distracted by the readable
@@ -3896,7 +4338,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                     long established fact that a reader will be distracted content of a page when
                     looking at its layout.
                   </p>
-                  <a href="/#!">
+                  <a href="https://www.sportingkampenhout.be/Sitecore/airline/#!">
                     Read full article <i className="fas fa-arrow-right"></i>
                   </a>
                 </div>
@@ -3996,22 +4438,30 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                 <div className="footer_link_area">
                   <ul>
                     <li>
-                      <a href="/about">About Us</a>
+                      <a href="https://www.sportingkampenhout.be/Sitecore/airline/about">
+                        About Us
+                      </a>
                     </li>
                     <li>
-                      <a href="/testimonials">Testimonials</a>
+                      <a href="https://www.sportingkampenhout.be/Sitecore/airline/testimonials">
+                        Testimonials
+                      </a>
                     </li>
                     <li>
-                      <a href="/faqs">Rewards</a>
+                      <a href="https://www.sportingkampenhout.be/Sitecore/airline/faqs">Rewards</a>
                     </li>
                     <li>
-                      <a href="/about">Work with Us</a>
+                      <a href="https://www.sportingkampenhout.be/Sitecore/airline/about">
+                        Work with Us
+                      </a>
                     </li>
                     <li>
-                      <a href="/tour-guids">Meet the Team </a>
+                      <a href="https://www.sportingkampenhout.be/Sitecore/airline/tour-guids">
+                        Meet the Team{' '}
+                      </a>
                     </li>
                     <li>
-                      <a href="/news">Blog</a>
+                      <a href="https://www.sportingkampenhout.be/Sitecore/airline/news">Blog</a>
                     </li>
                   </ul>
                 </div>
@@ -4023,22 +4473,30 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                 <div className="footer_link_area">
                   <ul>
                     <li>
-                      <a href="/about">Account</a>
+                      <a href="https://www.sportingkampenhout.be/Sitecore/airline/about">Account</a>
                     </li>
                     <li>
-                      <a href="/faqs">Faq</a>
+                      <a href="https://www.sportingkampenhout.be/Sitecore/airline/faqs">Faq</a>
                     </li>
                     <li>
-                      <a href="/testimonials">Legal</a>
+                      <a href="https://www.sportingkampenhout.be/Sitecore/airline/testimonials">
+                        Legal
+                      </a>
                     </li>
                     <li>
-                      <a href="/contact">Contact</a>
+                      <a href="https://www.sportingkampenhout.be/Sitecore/airline/contact">
+                        Contact
+                      </a>
                     </li>
                     <li>
-                      <a href="/top-destinations">Affiliate Program</a>
+                      <a href="https://www.sportingkampenhout.be/Sitecore/airline/top-destinations">
+                        Affiliate Program
+                      </a>
                     </li>
                     <li>
-                      <a href="/privacy-policy">Privacy Policy</a>
+                      <a href="https://www.sportingkampenhout.be/Sitecore/airline/privacy-policy">
+                        Privacy Policy
+                      </a>
                     </li>
                   </ul>
                 </div>
@@ -4050,22 +4508,34 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                 <div className="footer_link_area">
                   <ul>
                     <li>
-                      <a href="/about">Community program</a>
+                      <a href="https://www.sportingkampenhout.be/Sitecore/airline/about">
+                        Community program
+                      </a>
                     </li>
                     <li>
-                      <a href="/faqs">Investor Relations</a>
+                      <a href="https://www.sportingkampenhout.be/Sitecore/airline/faqs">
+                        Investor Relations
+                      </a>
                     </li>
                     <li>
-                      <a href="/testimonials">Rewards Program</a>
+                      <a href="https://www.sportingkampenhout.be/Sitecore/airline/testimonials">
+                        Rewards Program
+                      </a>
                     </li>
                     <li>
-                      <a href="/contact">PointsPLUS</a>
+                      <a href="https://www.sportingkampenhout.be/Sitecore/airline/contact">
+                        PointsPLUS
+                      </a>
                     </li>
                     <li>
-                      <a href="/top-destinations">Partners</a>
+                      <a href="https://www.sportingkampenhout.be/Sitecore/airline/top-destinations">
+                        Partners
+                      </a>
                     </li>
                     <li>
-                      <a href="/privacy-policy">List My Hotel</a>
+                      <a href="https://www.sportingkampenhout.be/Sitecore/airline/privacy-policy">
+                        List My Hotel
+                      </a>
                     </li>
                   </ul>
                 </div>
@@ -4077,22 +4547,30 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                 <div className="footer_link_area">
                   <ul>
                     <li>
-                      <a href="/about">Chicago</a>
+                      <a href="https://www.sportingkampenhout.be/Sitecore/airline/about">Chicago</a>
                     </li>
                     <li>
-                      <a href="/faqs">New York</a>
+                      <a href="https://www.sportingkampenhout.be/Sitecore/airline/faqs">New York</a>
                     </li>
                     <li>
-                      <a href="/testimonials">San Francisco</a>
+                      <a href="https://www.sportingkampenhout.be/Sitecore/airline/testimonials">
+                        San Francisco
+                      </a>
                     </li>
                     <li>
-                      <a href="/contact">California</a>
+                      <a href="https://www.sportingkampenhout.be/Sitecore/airline/contact">
+                        California
+                      </a>
                     </li>
                     <li>
-                      <a href="/top-destinations">Ohio</a>
+                      <a href="https://www.sportingkampenhout.be/Sitecore/airline/top-destinations">
+                        Ohio
+                      </a>
                     </li>
                     <li>
-                      <a href="/privacy-policy">Alaska</a>
+                      <a href="https://www.sportingkampenhout.be/Sitecore/airline/privacy-policy">
+                        Alaska
+                      </a>
                     </li>
                   </ul>
                 </div>
@@ -4121,7 +4599,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
         </div>
       </div>
       <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-      <script src="./assets/js/bootstrap.bundle.js"></script>
+      <script src="https://www.sportingkampenhout.be/Sitecore/airline/assets/js/bootstrap.bundle.js"></script>
     </>
   );
 };
