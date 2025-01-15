@@ -58,18 +58,54 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="FlyNow HTML5 Template" />
         <link rel="shortcut icon" type="image/x-icon" href="assets/media/favicon.png" />
-        <link rel="stylesheet" href="assets/css/vendor/font-awesome.css" />
-        <link rel="stylesheet" href="assets/css/fonts/icomoon/style.css" />
-        <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css" />
-        <link rel="stylesheet" href="assets/css/vendor/slick.css" />
-        <link rel="stylesheet" href="assets/css/vendor/slick-theme.css" />
-        <link rel="stylesheet" href="assets/css/vendor/datetime.css" />
-        <link rel="stylesheet" href="assets/css/vendor/calendar/classic.css" />
-        <link rel="stylesheet" href="assets/css/vendor/calendar/classic.date.css" />
-        <link rel="stylesheet" href="assets/css/vendor/jquery.timepicker.min.css" />
-        <link rel="stylesheet" href="assets/css/vendor/ui-autocomplete.css" />
-        <link rel="stylesheet" href="assets/css/vendor/sal.css" />
-        <link rel="stylesheet" href="assets/css/app.css" />
+        <link
+          rel="stylesheet"
+          href="https://www.sportingkampenhout.be/Sitecore/airline/assets/css/vendor/font-awesome.css"
+        />
+        <link
+          rel="stylesheet"
+          href="https://www.sportingkampenhout.be/Sitecore/airline/assets/css/fonts/icomoon/style.css"
+        />
+        <link
+          rel="stylesheet"
+          href="https://www.sportingkampenhout.be/Sitecore/airline/assets/css/vendor/bootstrap.min.css"
+        />
+        <link
+          rel="stylesheet"
+          href="https://www.sportingkampenhout.be/Sitecore/airline/assets/css/vendor/slick.css"
+        />
+        <link
+          rel="stylesheet"
+          href="https://www.sportingkampenhout.be/Sitecore/airline/assets/css/vendor/slick-theme.css"
+        />
+        <link
+          rel="stylesheet"
+          href="https://www.sportingkampenhout.be/Sitecore/airline/assets/css/vendor/datetime.css"
+        />
+        <link
+          rel="stylesheet"
+          href="https://www.sportingkampenhout.be/Sitecore/airline/assets/css/vendor/calendar/classic.css"
+        />
+        <link
+          rel="stylesheet"
+          href="https://www.sportingkampenhout.be/Sitecore/airline/assets/css/vendor/calendar/classic.date.css"
+        />
+        <link
+          rel="stylesheet"
+          href="https://www.sportingkampenhout.be/Sitecore/airline/assets/css/vendor/jquery.timepicker.min.css"
+        />
+        <link
+          rel="stylesheet"
+          href="https://www.sportingkampenhout.be/Sitecore/airline/assets/css/vendor/ui-autocomplete.css"
+        />
+        <link
+          rel="stylesheet"
+          href="https://www.sportingkampenhout.be/Sitecore/airline/assets/css/vendor/sal.css"
+        />
+        <link
+          rel="stylesheet"
+          href="https://www.sportingkampenhout.be/Sitecore/airline/assets/css/app.css"
+        />
       </Head>
 
       {/* root placeholder for the app, which we add components to using route data */}
