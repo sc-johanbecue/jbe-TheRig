@@ -63,11 +63,9 @@ export const Default = (props: AirlineTopBarProps): JSX.Element => {
               <ul className="topbar-others-options">
                 <li>
                   <JssLink field={props.fields.OptionLink1} />
-                  <a href="https://www.sportingkampenhout.be/Sitecore/airline/login">Login</a>
                 </li>
                 <li>
                   <JssLink field={props.fields.OptionLink2} />
-                  <a href="https://www.sportingkampenhout.be/Sitecore/airline/register">Sign up</a>
                 </li>
               </ul>
             </div>
