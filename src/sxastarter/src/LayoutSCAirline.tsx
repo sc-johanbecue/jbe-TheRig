@@ -66,7 +66,10 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
           rel="manifest"
           href="https://www.sportingkampenhout.be/Sitecore/airline/manifest.json"
         />
-        <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+        <link
+          rel="stylesheet"
+          href="https://www.sportingkampenhout.be/Sitecore/airline/assets/css/bootstrap.min.css"
+        />
         <script
           defer
           src="https://www.sportingkampenhout.be/Sitecore/airline/static/js/main.e22c0515.js"
