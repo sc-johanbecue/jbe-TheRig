@@ -102,52 +102,6 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
       <noscript>You need to enable JavaScript to run this app.</noscript>
       <div id="root">
         <header className="main_header_arae">
-          <div className="topbar-area">
-            <div className="container">
-              <div className="row align-items-center">
-                <div className="col-lg-6 col-md-6">
-                  <ul className="topbar-list">
-                    <li>
-                      <a href="https://www.sportingkampenhout.be/Sitecore/airline/#!">
-                        <i className="fab fa-facebook"></i>
-                      </a>
-                      <a href="https://www.sportingkampenhout.be/Sitecore/airline/#!">
-                        <i className="fab fa-twitter-square"></i>
-                      </a>
-                      <a href="https://www.sportingkampenhout.be/Sitecore/airline/#!">
-                        <i className="fab fa-instagram"></i>
-                      </a>
-                      <a href="https://www.sportingkampenhout.be/Sitecore/airline/#!">
-                        <i className="fab fa-linkedin"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://www.sportingkampenhout.be/Sitecore/airline/#!">
-                        <span>+011 234 567 89</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://www.sportingkampenhout.be/Sitecore/airline/#!">
-                        <span>contact@domain.com</span>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-                <div className="col-lg-6 col-md-6">
-                  <ul className="topbar-others-options">
-                    <li>
-                      <a href="https://www.sportingkampenhout.be/Sitecore/airline/login">Login</a>
-                    </li>
-                    <li>
-                      <a href="https://www.sportingkampenhout.be/Sitecore/airline/register">
-                        Sign up
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
           <div className="navbar-area">
             <div className="main-responsive-nav">
               <div className="container">
