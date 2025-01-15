@@ -944,7 +944,7 @@ export const Default = (props: SearchFormProps): JSX.Element => {
                                             </button>
                                             <button type="button" className="label-select-btn">
                                               <span className="MuiButton-label">
-                                                First className{' '}
+                                                First className
                                               </span>
                                             </button>
                                           </div>
