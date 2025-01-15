@@ -12,6 +12,7 @@ import LayoutBeaulieu from 'src/LayoutBeaulieu';
 import LayoutDubaiWTC from 'src/LayoutDubaiWTC';
 import LayoutJumeirah from 'src/LayoutJumeirah';
 import LayoutCoty from 'src/LayoutCoty';
+import LayoutSCAirline from 'src/LayoutSCAirline';
 import {
   RenderingType,
   SitecoreContext,
@@ -56,6 +57,8 @@ const SitecorePage = ({
   const DubaiWTCSite2 = layoutData.sitecore.context.site?.name == 'dwtc';
   const JumeirahSite = layoutData.sitecore.context.site?.name == 'jumeirah';
   const CotySite = layoutData.sitecore.context.site?.name?.toLowerCase() == 'coty'.toLowerCase();
+  const AirlineSite =
+    layoutData.sitecore.context.site?.name?.toLowerCase() == 'airline'.toLowerCase();
 
   return (
     <ComponentPropsContext value={componentProps}>
@@ -91,6 +94,8 @@ const SitecorePage = ({
           <LayoutDubaiWTC layoutData={layoutData} headLinks={headLinks} />
         ) : CotySite ? (
           <LayoutCoty layoutData={layoutData} headLinks={headLinks} />
+        ) : AirlineSite ? (
+          <LayoutSCAirline layoutData={layoutData} headLinks={headLinks} />
         ) : (
           <Layout layoutData={layoutData} headLinks={headLinks} />
         )}
