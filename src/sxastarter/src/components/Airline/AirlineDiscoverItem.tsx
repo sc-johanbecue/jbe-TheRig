@@ -26,20 +26,17 @@ const AirlineDiscoverItemDefaultComponent = (props: AirlineDiscoverItemProps): J
 
 export const Default = (props: AirlineDiscoverItemProps): JSX.Element => {
   if (props.fields) {
+    const href =
+      props.fields.Link.value.href != ''
+        ? props.fields.Link.value.href
+        : props.fields.Link.value.anchor;
     return (
       <div className="imagination_boxed">
-        <a href="top-destinations.html">
+        <a href={href}>
           <JssImage field={props.fields.Image}></JssImage>
-          <img
-            src="https://www.sportingkampenhout.be/Sitecore/airline/static/media/imagination1.b9e565683d8614e0a5b4.png"
-            alt="img"
-          />
         </a>
         <h3>
           <JssLink field={props.fields.Link}></JssLink>
-          <a href="https://www.sportingkampenhout.be/Sitecore/airline/#!">
-            7% Discount for all<span>Airlines</span>
-          </a>
         </h3>
       </div>
     );
