@@ -88,7 +88,18 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
       {/* root placeholder for the app, which we add components to using route data */}
       <noscript>You need to enable JavaScript to run this app.</noscript>
       <div className={mainClassPageEditing} id="root">
-        <header className="main_header_arae">
+        <header>
+          <div id="header">{route && <Placeholder name="headless-header" rendering={route} />}</div>
+        </header>
+        <main>
+          <div id="content">{route && <Placeholder name="headless-main" rendering={route} />}</div>
+        </main>
+        <footer>
+          <div id="footer">{route && <Placeholder name="headless-footer" rendering={route} />}</div>
+        </footer>
+        <div>{route && <Placeholder name="headless-copyright" rendering={route} />}</div>
+
+        {/* <header className="main_header_arae">
           {route && <Placeholder name="headless-header" rendering={route} />}
         </header>
         <section style={{ paddingTop: '100px' }}>
@@ -97,7 +108,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
         <footer id="footer_area">
           {route && <Placeholder name="headless-footer" rendering={route} />}
         </footer>
-        {route && <Placeholder name="headless-copyright" rendering={route} />}
+        {route && <Placeholder name="headless-copyright" rendering={route} />} */}
       </div>
       <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
       <script src="https://www.sportingkampenhout.be/Sitecore/airline/assets/js/bootstrap.bundle.js"></script>
