@@ -57,11 +57,15 @@ export const Default = (props: AirlineDealProps): JSX.Element => {
             <p>
               <i className="fas fa-map-marker-alt"></i> <Text field={props.fields.Location} />
             </p>
-            <div className="discount_tab">
-              <span>
-                <Text field={props.fields.Discount} />
-              </span>
-            </div>
+            {isPageEditing || props.fields.Discount.value != '' ? (
+              <div className="discount_tab">
+                <span>
+                  <Text field={props.fields.Discount} />
+                </span>
+              </div>
+            ) : (
+              <></>
+            )}
           </div>
           <div className="theme_two_box_content">
             <h4>
