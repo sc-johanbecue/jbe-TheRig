@@ -75,8 +75,9 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
           src="https://www.sportingkampenhout.be/Sitecore/airline/static/js/main.e22c0515.js"
         ></script>
         <script src="https://kit.fontawesome.com/f733f636bb.js" crossOrigin="anonymous"></script>
+        {/* https://www.sportingkampenhout.be/Sitecore/airline/static/css/main.6dddffd7.css */}
         <link
-          href="https://www.sportingkampenhout.be/Sitecore/airline/static/css/main.6dddffd7.css"
+          href="https://xmc-sitecoresaa9e21-jbetherig-custom.sitecorecloud.io/-/media/Feature/Airline/styling/main"
           rel="stylesheet"
         />
         <link
