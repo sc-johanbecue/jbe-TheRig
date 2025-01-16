@@ -116,7 +116,11 @@ export const Default = (props: AirlineHotDealsProps): JSX.Element => {
                   aria-labelledby="nav-hotels-tab"
                 >
                   <div className="row">
-                    <Placeholder name={phKeyHotDealsTab1Items} rendering={props.rendering} />
+                    <Placeholder
+                      name={phKeyHotDealsTab1Items}
+                      key={'hotDealsTab1Items'}
+                      rendering={props.rendering}
+                    />
                   </div>
                 </div>
                 <div
@@ -126,7 +130,11 @@ export const Default = (props: AirlineHotDealsProps): JSX.Element => {
                   aria-labelledby="nav-tours-tab"
                 >
                   <div className="row">
-                    <Placeholder name={phKeyHotDealsTab2Items} rendering={props.rendering} />
+                    <Placeholder
+                      name={phKeyHotDealsTab2Items}
+                      key={'hotDealsTab2Items'}
+                      rendering={props.rendering}
+                    />
                   </div>
                 </div>
                 <div
@@ -136,7 +144,11 @@ export const Default = (props: AirlineHotDealsProps): JSX.Element => {
                   aria-labelledby="nav-space-tab"
                 >
                   <div className="row">
-                    <Placeholder name={phKeyHotDealsTab3Items} rendering={props.rendering} />
+                    <Placeholder
+                      name={phKeyHotDealsTab3Items}
+                      key={'hotDealsTab3Items'}
+                      rendering={props.rendering}
+                    />
                   </div>
                 </div>
                 <div
@@ -146,7 +158,11 @@ export const Default = (props: AirlineHotDealsProps): JSX.Element => {
                   aria-labelledby="nav-events-tab"
                 >
                   <div className="row">
-                    <Placeholder name={phKeyHotDealsTab4Items} rendering={props.rendering} />
+                    <Placeholder
+                      name={phKeyHotDealsTab4Items}
+                      key={'hotDealsTab4Items'}
+                      rendering={props.rendering}
+                    />
                   </div>
                 </div>
               </div>
