@@ -5,12 +5,14 @@ interface Fields {
   Title: TextField;
 }
 
-type AirlineTopBarProps = {
+type AirlineTopDestinationsProps = {
   params: { [key: string]: string };
   fields: Fields;
 };
 
-const AirlineTopBarDefaultComponent = (props: AirlineTopBarProps): JSX.Element => (
+const AirlineTopDestinationsDefaultComponent = (
+  props: AirlineTopDestinationsProps
+): JSX.Element => (
   <div className={`component promo ${props.params.styles}`}>
     <div className="component-content">
       <span className="is-empty-hint"></span>
@@ -18,7 +20,7 @@ const AirlineTopBarDefaultComponent = (props: AirlineTopBarProps): JSX.Element =
   </div>
 );
 
-export const Default = (props: AirlineTopBarProps): JSX.Element => {
+export const Default = (props: AirlineTopDestinationsProps): JSX.Element => {
   if (props.fields) {
     return (
       <section id="top_destinations" className="section_padding_top">
@@ -187,5 +189,5 @@ export const Default = (props: AirlineTopBarProps): JSX.Element => {
     );
   }
 
-  return <AirlineTopBarDefaultComponent {...props} />;
+  return <AirlineTopDestinationsDefaultComponent {...props} />;
 };
