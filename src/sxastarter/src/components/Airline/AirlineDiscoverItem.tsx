@@ -27,13 +27,15 @@ const AirlineDiscoverItemDefaultComponent = (props: AirlineDiscoverItemProps): J
 export const Default = (props: AirlineDiscoverItemProps): JSX.Element => {
   if (props.fields) {
     return (
-      <div className="imagination_boxed">
-        <JssLink field={props.fields.Link}>
-          <JssImage field={props.fields.Image} />
-        </JssLink>
-        <h3>
-          <JssLink field={props.fields.Link}></JssLink>
-        </h3>
+      <div className="col-lg-3 col-md-6 col-sm-6 col-12">
+        <div className="imagination_boxed">
+          <JssLink field={props.fields.Link}>
+            <JssImage field={props.fields.Image} />
+          </JssLink>
+          <h3>
+            <JssLink field={props.fields.Link}></JssLink>
+          </h3>
+        </div>
       </div>
     );
   }

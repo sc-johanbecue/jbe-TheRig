@@ -43,39 +43,7 @@ export const Default = (props: AirlineDiscoverProps): JSX.Element => {
                 </h5>
               </div>
             </div>
-            <div className="col-lg-3 col-md-6 col-sm-6 col-12">
-              <Placeholder name={phKeyDiscoverItems} rendering={props.rendering} />
-            </div>
-            <div className="col-lg-3 col-md-6 col-sm-6 col-12">
-              <div className="imagination_boxed">
-                <a href="top-destinations.html">
-                  <img
-                    src="https://www.sportingkampenhout.be/Sitecore/airline/static/media/imagination2.7b067dc7665c7cf6f236.png"
-                    alt="img"
-                  />
-                </a>
-                <h3>
-                  <a href="https://www.sportingkampenhout.be/Sitecore/airline/#!">
-                    Travel around<span>the world</span>
-                  </a>
-                </h3>
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-6 col-sm-6 col-12">
-              <div className="imagination_boxed">
-                <a href="top-destinations.html">
-                  <img
-                    src="https://www.sportingkampenhout.be/Sitecore/airline/static/media/imagination3.dbae66bae69b2fed2fb6.png"
-                    alt="img"
-                  />
-                </a>
-                <h3>
-                  <a href="https://www.sportingkampenhout.be/Sitecore/airline/#!">
-                    Luxury resorts<span>top deals</span>
-                  </a>
-                </h3>
-              </div>
-            </div>
+            <Placeholder name={phKeyDiscoverItems} rendering={props.rendering} />
           </div>
         </div>
       </section>
