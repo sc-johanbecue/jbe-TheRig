@@ -6,12 +6,13 @@ import {
   Link as JssLink,
   ImageField,
   Image as JssImage,
+  useSitecoreContext,
 } from '@sitecore-jss/sitecore-jss-nextjs';
 
 interface Fields {
   Link: LinkField;
   Image: ImageField;
-  City: TextField;
+  Location: TextField;
   Country: TextField;
   Hotel: TextField;
   Discount: TextField;
@@ -35,17 +36,26 @@ const AirlineDealDefaultComponent = (props: AirlineDealProps): JSX.Element => (
 );
 
 export const Default = (props: AirlineDealProps): JSX.Element => {
+  const { sitecoreContext } = useSitecoreContext();
+  const isPageEditing = sitecoreContext.pageEditing;
+
   if (props.fields) {
     return (
       <div className="col-lg-3 col-md-6 col-sm-6 col-12">
         <div className="theme_common_box_two img_hover">
           <div className="theme_two_box_img">
-            <JssLink field={props.fields.Link}>
-              <JssImage field={props.fields.Image} />
-            </JssLink>
+            {isPageEditing ? (
+              <>
+                <JssLink field={props.fields.Link} />
+                <JssImage field={props.fields.Image} />
+              </>
+            ) : (
+              <JssLink field={props.fields.Link}>
+                <JssImage field={props.fields.Image} />
+              </JssLink>
+            )}
             <p>
-              <i className="fas fa-map-marker-alt"></i> <Text field={props.fields.City} />,{' '}
-              <Text field={props.fields.Country} />
+              <i className="fas fa-map-marker-alt"></i> <Text field={props.fields.Location} />
             </p>
             <div className="discount_tab">
               <span>
@@ -55,9 +65,15 @@ export const Default = (props: AirlineDealProps): JSX.Element => {
           </div>
           <div className="theme_two_box_content">
             <h4>
-              <JssLink field={props.fields.Link}>
-                <Text field={props.fields.Hotel} />, <Text field={props.fields.Country} />
-              </JssLink>
+              {isPageEditing ? (
+                <>
+                  <Text field={props.fields.Hotel} />, <Text field={props.fields.Country} />
+                </>
+              ) : (
+                <JssLink field={props.fields.Link}>
+                  <Text field={props.fields.Hotel} />, <Text field={props.fields.Country} />
+                </JssLink>
+              )}
             </h4>
             <p>
               <span className="review_rating">
