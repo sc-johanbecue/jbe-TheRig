@@ -9,7 +9,8 @@ import {
 } from '@sitecore-jss/sitecore-jss-nextjs';
 
 interface Fields {
-  Title: TextField;
+  Text: TextField;
+  SpanText: TextField;
   Link: LinkField;
   Image: ImageField;
 }
@@ -37,7 +38,8 @@ export const Default = (props: AirlineDiscoverItemProps): JSX.Element => {
           </JssLink>
           <h3>
             <JssLink field={props.fields.Link}>
-              <Text field={props.fields.Title} />
+              <Text field={props.fields.Text} />
+              <Text field={props.fields.SpanText} />
             </JssLink>
           </h3>
         </div>
