@@ -1,5 +1,11 @@
 import React from 'react';
-import { TextField, Text } from '@sitecore-jss/sitecore-jss-nextjs';
+import {
+  TextField,
+  Text,
+  Placeholder,
+  ComponentParams,
+  ComponentRendering,
+} from '@sitecore-jss/sitecore-jss-nextjs';
 
 interface Fields {
   Title: TextField;
@@ -10,6 +16,7 @@ interface Fields {
 }
 
 type AirlineHotDealsProps = {
+  rendering: ComponentRendering & { params: ComponentParams };
   params: { [key: string]: string };
   fields: Fields;
 };
@@ -23,6 +30,11 @@ const AirlineHotDealsDefaultComponent = (props: AirlineHotDealsProps): JSX.Eleme
 );
 
 export const Default = (props: AirlineHotDealsProps): JSX.Element => {
+  const phKeyHotDealsTab1Items = `hotDealsTab1Items-${props.params.DynamicPlaceholderId}`;
+  const phKeyHotDealsTab2Items = `hotDealsTab2Items-${props.params.DynamicPlaceholderId}`;
+  const phKeyHotDealsTab3Items = `hotDealsTab3Items-${props.params.DynamicPlaceholderId}`;
+  const phKeyHotDealsTab4Items = `hotDealsTab4Items-${props.params.DynamicPlaceholderId}`;
+
   if (props.fields) {
     return (
       <section id="explore_area" className="section_padding_top">
@@ -104,6 +116,7 @@ export const Default = (props: AirlineHotDealsProps): JSX.Element => {
                   aria-labelledby="nav-hotels-tab"
                 >
                   <div className="row">
+                    <Placeholder name={phKeyHotDealsTab1Items} rendering={props.rendering} />
                     <div className="col-lg-3 col-md-6 col-sm-6 col-12">
                       <div className="theme_common_box_two img_hover">
                         <div className="theme_two_box_img">
@@ -351,6 +364,7 @@ export const Default = (props: AirlineHotDealsProps): JSX.Element => {
                   aria-labelledby="nav-tours-tab"
                 >
                   <div className="row">
+                    <Placeholder name={phKeyHotDealsTab2Items} rendering={props.rendering} />
                     <div className="col-lg-3 col-md-6 col-sm-6 col-12">
                       <div className="theme_common_box_two img_hover">
                         <div className="theme_two_box_img">
@@ -540,6 +554,7 @@ export const Default = (props: AirlineHotDealsProps): JSX.Element => {
                   aria-labelledby="nav-space-tab"
                 >
                   <div className="row">
+                    <Placeholder name={phKeyHotDealsTab3Items} rendering={props.rendering} />
                     <div className="col-lg-3 col-md-6 col-sm-6 col-12">
                       <div className="theme_common_box_two img_hover">
                         <div className="theme_two_box_img">
@@ -665,6 +680,7 @@ export const Default = (props: AirlineHotDealsProps): JSX.Element => {
                   aria-labelledby="nav-events-tab"
                 >
                   <div className="row">
+                    <Placeholder name={phKeyHotDealsTab4Items} rendering={props.rendering} />
                     <div className="col-lg-3 col-md-6 col-sm-6 col-12">
                       <div className="theme_common_box_two img_hover">
                         <div className="theme_two_box_img">
