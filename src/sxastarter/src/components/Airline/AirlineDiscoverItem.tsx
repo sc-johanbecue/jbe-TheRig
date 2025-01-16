@@ -6,6 +6,7 @@ import {
   Link as JssLink,
   Text,
   TextField,
+  useSitecoreContext,
 } from '@sitecore-jss/sitecore-jss-nextjs';
 
 interface Fields {
@@ -29,13 +30,24 @@ const AirlineDiscoverItemDefaultComponent = (props: AirlineDiscoverItemProps): J
 );
 
 export const Default = (props: AirlineDiscoverItemProps): JSX.Element => {
+  const { sitecoreContext } = useSitecoreContext();
+  const isPageEditing = sitecoreContext.pageEditing;
+
   if (props.fields) {
     return (
       <div className="col-lg-3 col-md-6 col-sm-6 col-12">
         <div className="imagination_boxed">
-          <JssLink field={props.fields.Link}>
-            <JssImage field={props.fields.Image} />
-          </JssLink>
+          {isPageEditing ? (
+            <>
+              <JssImage field={props.fields.Image} />
+              <JssLink field={props.fields.Link} />
+            </>
+          ) : (
+            <JssLink field={props.fields.Link}>
+              <JssImage field={props.fields.Image} />
+            </JssLink>
+          )}
+
           <h3>
             <JssLink field={props.fields.Link}>
               <Text field={props.fields.Text} />
