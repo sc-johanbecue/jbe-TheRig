@@ -67,11 +67,11 @@ export const Default = (props: AirlineDealProps): JSX.Element => {
             <h4>
               {isPageEditing ? (
                 <>
-                  <Text field={props.fields.Hotel} />, <Text field={props.fields.Country} />
+                  <Text field={props.fields.Hotel} />
                 </>
               ) : (
                 <JssLink field={props.fields.Link}>
-                  <Text field={props.fields.Hotel} />, <Text field={props.fields.Country} />
+                  <Text field={props.fields.Hotel} />
                 </JssLink>
               )}
             </h4>
