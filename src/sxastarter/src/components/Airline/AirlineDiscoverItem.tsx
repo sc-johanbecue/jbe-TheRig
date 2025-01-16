@@ -51,7 +51,7 @@ export const Default = (props: AirlineDiscoverItemProps): JSX.Element => {
           <h3>
             <JssLink field={props.fields.Link}>
               <Text field={props.fields.Text} />
-              <br />
+              {!isPageEditing ? <br /> : <></>}
               <Text field={props.fields.SpanText} />
             </JssLink>
           </h3>
