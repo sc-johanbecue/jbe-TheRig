@@ -78,6 +78,10 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
           href="https://www.sportingkampenhout.be/Sitecore/airline/static/css/main.6dddffd7.css"
           rel="stylesheet"
         />
+        <link
+          href="https://www.sportingkampenhout.be/Sitecore/airline/static/css/assets/css/fontawesome.all.min.css"
+          rel="stylesheet"
+        />
         <meta
           id="ConnectiveDocSignExtentionInstalled"
           name="ConnectiveDocSignExtentionInstalled"
