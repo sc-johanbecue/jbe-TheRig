@@ -74,21 +74,22 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
           defer
           src="https://www.sportingkampenhout.be/Sitecore/airline/static/js/main.e22c0515.js"
         ></script>
-        <script src="https://kit.fontawesome.com/f733f636bb.js" crossOrigin="anonymous"></script>
+        
         {/* https://www.sportingkampenhout.be/Sitecore/airline/static/css/main.6dddffd7.css */}
         <link
           href="https://xmc-sitecoresaa9e21-jbetherig-custom.sitecorecloud.io/-/media/Feature/Airline/styling/main"
           rel="stylesheet"
         />
-        <link
+        {/* <link
           href="https://www.sportingkampenhout.be/Sitecore/airline/static/css/assets/css/fontawesome.all.min.css"
           rel="stylesheet"
-        />
+        /> */}
         <meta
           id="ConnectiveDocSignExtentionInstalled"
           name="ConnectiveDocSignExtentionInstalled"
           data-extension-version="1.0.7"
         />
+        <script src="https://kit.fontawesome.com/f733f636bb.js" crossOrigin="anonymous"></script>
       </Head>
 
       {/* root placeholder for the app, which we add components to using route data */}
