@@ -118,7 +118,7 @@ export const Default = (props: AirlineHotDealsProps): JSX.Element => {
                   <div className="row">
                     <Placeholder
                       name={phKeyHotDealsTab1Items}
-                      key={'hotDealsTab1Items'}
+                      key={phKeyHotDealsTab1Items}
                       rendering={props.rendering}
                     />
                   </div>
@@ -132,7 +132,7 @@ export const Default = (props: AirlineHotDealsProps): JSX.Element => {
                   <div className="row">
                     <Placeholder
                       name={phKeyHotDealsTab2Items}
-                      key={'hotDealsTab2Items'}
+                      key={phKeyHotDealsTab2Items}
                       rendering={props.rendering}
                     />
                   </div>
@@ -146,7 +146,7 @@ export const Default = (props: AirlineHotDealsProps): JSX.Element => {
                   <div className="row">
                     <Placeholder
                       name={phKeyHotDealsTab3Items}
-                      key={'hotDealsTab3Items'}
+                      key={phKeyHotDealsTab3Items}
                       rendering={props.rendering}
                     />
                   </div>
@@ -160,7 +160,7 @@ export const Default = (props: AirlineHotDealsProps): JSX.Element => {
                   <div className="row">
                     <Placeholder
                       name={phKeyHotDealsTab4Items}
-                      key={'hotDealsTab4Items'}
+                      key={phKeyHotDealsTab4Items}
                       rendering={props.rendering}
                     />
                   </div>
