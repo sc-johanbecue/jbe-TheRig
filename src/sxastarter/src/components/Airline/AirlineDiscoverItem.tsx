@@ -4,9 +4,12 @@ import {
   Image as JssImage,
   LinkField,
   Link as JssLink,
+  Text,
+  TextField,
 } from '@sitecore-jss/sitecore-jss-nextjs';
 
 interface Fields {
+  Title: TextField;
   Link: LinkField;
   Image: ImageField;
 }
@@ -33,7 +36,9 @@ export const Default = (props: AirlineDiscoverItemProps): JSX.Element => {
             <JssImage field={props.fields.Image} />
           </JssLink>
           <h3>
-            <JssLink field={props.fields.Link}></JssLink>
+            <JssLink field={props.fields.Link}>
+              <Text field={props.fields.Title} />
+            </JssLink>
           </h3>
         </div>
       </div>
