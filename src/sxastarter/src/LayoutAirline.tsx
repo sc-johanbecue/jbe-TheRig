@@ -106,9 +106,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
         <header className="main_header_arae">
           {route && <Placeholder name="headless-header" rendering={route} />}
         </header>
-        <section style={{ paddingTop: '100px' }}>
-          {route && <Placeholder name="headless-main" rendering={route} />}
-        </section>
+        {route && <Placeholder name="headless-main" rendering={route} />}
         <footer id="footer_area">
           {route && <Placeholder name="headless-footer" rendering={route} />}
         </footer>
