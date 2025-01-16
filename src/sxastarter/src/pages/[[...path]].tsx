@@ -12,7 +12,7 @@ import LayoutBeaulieu from 'src/LayoutBeaulieu';
 import LayoutDubaiWTC from 'src/LayoutDubaiWTC';
 import LayoutJumeirah from 'src/LayoutJumeirah';
 import LayoutCoty from 'src/LayoutCoty';
-import LayoutSCAirline from 'src/LayoutSCAirline';
+import LayoutAirline from 'src/LayoutAirline';
 import {
   RenderingType,
   SitecoreContext,
@@ -95,7 +95,7 @@ const SitecorePage = ({
         ) : CotySite ? (
           <LayoutCoty layoutData={layoutData} headLinks={headLinks} />
         ) : AirlineSite ? (
-          <LayoutSCAirline layoutData={layoutData} headLinks={headLinks} />
+          <LayoutAirline layoutData={layoutData} headLinks={headLinks} />
         ) : (
           <Layout layoutData={layoutData} headLinks={headLinks} />
         )}
