@@ -30,10 +30,10 @@ const AirlineHotDealsDefaultComponent = (props: AirlineHotDealsProps): JSX.Eleme
 );
 
 export const Default = (props: AirlineHotDealsProps): JSX.Element => {
-  const phKeyHotDealsTab1Items = `hotDealsTab1Items-${props.params.DynamicPlaceholderId}`;
-  const phKeyHotDealsTab2Items = `hotDealsTab2Items-${props.params.DynamicPlaceholderId}`;
-  const phKeyHotDealsTab3Items = `hotDealsTab3Items-${props.params.DynamicPlaceholderId}`;
-  const phKeyHotDealsTab4Items = `hotDealsTab4Items-${props.params.DynamicPlaceholderId}`;
+  const phKeyHotDealsTabOneItems = `hotDealsTabOneItems-${props.params.DynamicPlaceholderId}`;
+  const phKeyHotDealsTabTwoItems = `hotDealsTabTwoItems-${props.params.DynamicPlaceholderId}`;
+  const phKeyHotDealsTabThreeItems = `hotDealsTabThreeItems-${props.params.DynamicPlaceholderId}`;
+  const phKeyHotDealsTabFourItems = `hotDealsTabFourItems-${props.params.DynamicPlaceholderId}`;
 
   if (props.fields) {
     return (
@@ -117,8 +117,8 @@ export const Default = (props: AirlineHotDealsProps): JSX.Element => {
                 >
                   <div className="row">
                     <Placeholder
-                      name={phKeyHotDealsTab1Items}
-                      key={phKeyHotDealsTab1Items}
+                      name={phKeyHotDealsTabOneItems}
+                      key={phKeyHotDealsTabOneItems}
                       rendering={props.rendering}
                     />
                   </div>
@@ -131,8 +131,8 @@ export const Default = (props: AirlineHotDealsProps): JSX.Element => {
                 >
                   <div className="row">
                     <Placeholder
-                      name={phKeyHotDealsTab2Items}
-                      key={phKeyHotDealsTab2Items}
+                      name={phKeyHotDealsTabTwoItems}
+                      key={phKeyHotDealsTabTwoItems}
                       rendering={props.rendering}
                     />
                   </div>
@@ -145,8 +145,8 @@ export const Default = (props: AirlineHotDealsProps): JSX.Element => {
                 >
                   <div className="row">
                     <Placeholder
-                      name={phKeyHotDealsTab3Items}
-                      key={phKeyHotDealsTab3Items}
+                      name={phKeyHotDealsTabThreeItems}
+                      key={phKeyHotDealsTabThreeItems}
                       rendering={props.rendering}
                     />
                   </div>
@@ -159,8 +159,8 @@ export const Default = (props: AirlineHotDealsProps): JSX.Element => {
                 >
                   <div className="row">
                     <Placeholder
-                      name={phKeyHotDealsTab4Items}
-                      key={phKeyHotDealsTab4Items}
+                      name={phKeyHotDealsTabFourItems}
+                      key={phKeyHotDealsTabFourItems}
                       rendering={props.rendering}
                     />
                   </div>
