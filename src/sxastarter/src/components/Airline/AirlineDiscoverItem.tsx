@@ -26,15 +26,11 @@ const AirlineDiscoverItemDefaultComponent = (props: AirlineDiscoverItemProps): J
 
 export const Default = (props: AirlineDiscoverItemProps): JSX.Element => {
   if (props.fields) {
-    const href =
-      props.fields.Link.value.href != ''
-        ? props.fields.Link.value.href
-        : props.fields.Link.value.anchor;
     return (
       <div className="imagination_boxed">
-        <a href={href}>
-          <JssImage field={props.fields.Image}></JssImage>
-        </a>
+        <JssLink field={props.fields.Link}>
+          <JssImage field={props.fields.Image} />
+        </JssLink>
         <h3>
           <JssLink field={props.fields.Link}></JssLink>
         </h3>
