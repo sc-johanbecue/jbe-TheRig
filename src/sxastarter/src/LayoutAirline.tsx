@@ -3,7 +3,7 @@
 /**
  * This Layout is needed for Starter Kit.
  */
-import React from 'react';
+import React, { useEffect } from 'react';
 import Head from 'next/head';
 import {
   Placeholder,
@@ -37,6 +37,36 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
   const fields = route?.fields as RouteFields;
   const isPageEditing = layoutData.sitecore.context.pageEditing;
   const mainClassPageEditing = isPageEditing ? 'editing-mode' : 'prod-mode';
+
+
+  useEffect(() => {
+    // Function to adjust the div's position
+    const moveDivIfCloseToOrigin = () => {
+      const div = document.querySelector('.sc-jss-empty-placeholder') as HTMLElement | null;
+
+      if (div) {
+        const rect = div.getBoundingClientRect();
+
+        // Check if the starting coordinates are within 100px of the top-left corner
+        if (rect.y < 100) {
+          // Move the div 200 pixels lower
+          div.style.transform = 'translateY(160px)'; // Set transform property
+          div.style.transition = 'transform 0.3s ease'; // Add smooth transition
+        }
+      }
+    };
+
+    moveDivIfCloseToOrigin();
+
+    // Cleanup function to reset the position when the component unmounts
+    return () => {
+      const div = document.querySelector('.sc-jss-empty-placeholder') as HTMLElement | null;
+      if (div) {
+        div.style.transform = ''; // Reset transform property
+        div.style.transition = ''; // Reset transition property
+      }
+    };
+  }, []); // Run once on mount
 
   return (
     <>
@@ -74,16 +104,11 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
           defer
           src="https://www.sportingkampenhout.be/Sitecore/airline/static/js/main.e22c0515.js"
         ></script>
-
         {/* https://www.sportingkampenhout.be/Sitecore/airline/static/css/main.6dddffd7.css */}
         <link
           href="https://xmc-sitecoresaa9e21-jbetherig-custom.sitecorecloud.io/-/media/Feature/Airline/styling/main"
           rel="stylesheet"
         />
-        {/* <link
-          href="https://www.sportingkampenhout.be/Sitecore/airline/static/css/assets/css/fontawesome.all.min.css"
-          rel="stylesheet"
-        /> */}
         <meta
           id="ConnectiveDocSignExtentionInstalled"
           name="ConnectiveDocSignExtentionInstalled"
