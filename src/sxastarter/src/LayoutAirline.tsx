@@ -46,10 +46,10 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
       if (div) {
         const rect = div.getBoundingClientRect();
 
-        // Check if the starting coordinates are within 100px of the top-left corner
-        if (rect.y < 100) {
-          // Move the div 200 pixels lower
-          div.style.transform = 'translateY(160px)'; // Set transform property
+        // Check if the starting coordinates are within 40px from the top of the page
+        if (rect.y < 40) {
+          // Move the div 145 pixels lower
+          div.style.transform = 'translateY(145px)'; // Set transform property
           div.style.transition = 'transform 0.3s ease'; // Add smooth transition
         }
       }
