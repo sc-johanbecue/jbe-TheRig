@@ -1,9 +1,10 @@
 import React from 'react';
-import { TextField, Text } from '@sitecore-jss/sitecore-jss-nextjs';
+import { TextField, Text, ImageField } from '@sitecore-jss/sitecore-jss-nextjs';
 
 interface Fields {
   Title: TextField;
   Subtitle: TextField;
+  Image: ImageField;
 }
 
 type AirlineBannerProps = {
@@ -20,9 +21,10 @@ const AirlineBannerDefaultComponent = (props: AirlineBannerProps): JSX.Element =
 );
 
 export const Default = (props: AirlineBannerProps): JSX.Element => {
+  const backgroundImageUrl = props.fields.Image.value?.src;
   if (props.fields) {
     return (
-      <section id="home_one_banner">
+      <section id="home_one_banner" style={{ backgroundImage: backgroundImageUrl }}>
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-12">
