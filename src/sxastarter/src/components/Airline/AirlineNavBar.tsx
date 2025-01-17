@@ -1,6 +1,4 @@
 import React from 'react';
-import { useEffect, useState } from 'react';
-import { useRouter } from 'next/router';
 import {
   Image as JssImage,
   ImageField,
@@ -29,24 +27,9 @@ const AirlineNavBarDefaultComponent = (props: AirlineNavBarProps): JSX.Element =
 
 export const Default = (props: AirlineNavBarProps): JSX.Element => {
   const phKeyNavigation = `navigation-${props.params.DynamicPlaceholderId}`;
-
-  const router = useRouter();
-  const [isHomePage, setIsHomePage] = useState(false);
-
-  useEffect(() => {
-    // Check if the current route is the homepage
-    const currentPath = router.asPath;
-    setIsHomePage(currentPath === '/' || currentPath === '/home'); // Adjust as per your site's homepage path
-  }, [router.asPath]);
-
   if (props.fields) {
     return (
-      <div
-        className="navbar-area"
-        style={{
-          backgroundColor: isHomePage ? 'transparent' : 'black',
-        }}
-      >
+      <div className="navbar-area">
         <div className="main-responsive-nav">
           <div className="container">
             <div className="main-responsive-menu">

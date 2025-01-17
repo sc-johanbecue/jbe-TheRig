@@ -3,7 +3,9 @@
 /**
  * This Layout is needed for Starter Kit.
  */
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
+import { useRouter } from 'next/router';
+
 import Head from 'next/head';
 import {
   Placeholder,
@@ -66,6 +68,15 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
       }
     };
   }, []); // Run once on mount
+
+  const router = useRouter();
+  const [isHomePage, setIsHomePage] = useState(false);
+
+  useEffect(() => {
+    // Check if the current route is the homepage
+    const currentPath = router.asPath;
+    setIsHomePage(currentPath === '/' || currentPath === '/home'); // Adjust as per your site's homepage path
+  }, [router.asPath]);
 
   return (
     <>
@@ -130,7 +141,12 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
         </footer> */}
         {/* <div>{route && <Placeholder name="headless-copyright" rendering={route} />}</div> */}
 
-        <header className="main_header_arae">
+        <header
+          className="main_header_arae"
+          style={{
+            backgroundColor: isHomePage ? 'transparent' : '#10659F',
+          }}
+        >
           {route && <Placeholder name="headless-header" rendering={route} />}
         </header>
         {route && <Placeholder name="headless-main" rendering={route} />}
