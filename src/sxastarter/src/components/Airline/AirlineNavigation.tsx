@@ -52,11 +52,7 @@ export const Default = (props: NavigationProps): JSX.Element => {
   const { sitecoreContext } = useSitecoreContext();
 
   if (!Object.values(props.fields).length) {
-    return (
-      <>
-        [Navigation]
-      </>
-    );
+    return <>[Navigation]</>;
   }
 
   const handleToggleMenu = (event?: React.MouseEvent<HTMLElement>, flag?: boolean): void => {
