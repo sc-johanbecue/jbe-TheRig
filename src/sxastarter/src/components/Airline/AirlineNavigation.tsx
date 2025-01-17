@@ -99,20 +99,15 @@ const NavigationList = (props: NavigationProps) => {
 
   return (
     <li className="nav-item" key={props.fields.Id} tabIndex={0}>
-      <div
-        className={`navigation-title ${children.length ? 'child' : ''}`}
-        onClick={() => setActive(() => !active)}
+      <Link
+        className="nav-link active"
+        field={getLinkField(props)}
+        editable={sitecoreContext.pageEditing}
+        onClick={props.handleClick}
       >
-        <Link
-          className="nav-link active"
-          field={getLinkField(props)}
-          editable={sitecoreContext.pageEditing}
-          onClick={props.handleClick}
-        >
-          {getNavigationText(props)}
-        </Link>
-      </div>
-      {children.length > 0 ? <ul className="clearfix">{children}</ul> : null}
+        {getNavigationText(props)}
+      </Link>
+      {children.length > 0 ? <ul className="dropdown-menu">{children}</ul> : null}
     </li>
   );
 };
