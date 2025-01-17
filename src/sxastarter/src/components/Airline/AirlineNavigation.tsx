@@ -53,9 +53,9 @@ export const Default = (props: NavigationProps): JSX.Element => {
 
   if (!Object.values(props.fields).length) {
     return (
-      <div className="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
+      <>
         [Navigation]
-      </div>
+      </>
     );
   }
 
