@@ -44,7 +44,7 @@ export const Default = (props: AirlineNavBarProps): JSX.Element => {
       <div
         className="navbar-area"
         style={{
-          background: isHomePage ? 'transparent' : 'black',
+          backgroundColor: isHomePage ? 'transparent' : 'black',
         }}
       >
         <div className="main-responsive-nav">
