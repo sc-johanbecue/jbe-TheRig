@@ -26,7 +26,7 @@ const AirlineNavBarDefaultComponent = (props: AirlineNavBarProps): JSX.Element =
 );
 
 export const Default = (props: AirlineNavBarProps): JSX.Element => {
-  const phKeyDiscoverItems = `discoverItems-${props.params.DynamicPlaceholderId}`;
+  const phKeyNavigation = `navigation-${props.params.DynamicPlaceholderId}`;
 
   if (props.fields) {
     return (
@@ -56,7 +56,7 @@ export const Default = (props: AirlineNavBarProps): JSX.Element => {
                 <JssImage field={props.fields.Logo}></JssImage>
               </a>
               <div className="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
-                <Placeholder name={phKeyDiscoverItems} rendering={props.rendering} />
+                <Placeholder name={phKeyNavigation} rendering={props.rendering} />
                 {/* <ul className="navbar-nav">
                   <li className="nav-item">
                     <a
