@@ -78,11 +78,7 @@ export const Default = (props: NavigationProps): JSX.Element => {
       />
     ));
 
-  return (
-    <div className="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
-      <ul className="navbar-nav">{list}</ul>
-    </div>
-  );
+  return <ul className="navbar-nav">{list}</ul>;
 };
 
 const NavigationList = (props: NavigationProps) => {
