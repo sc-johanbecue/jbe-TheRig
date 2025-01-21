@@ -13,6 +13,7 @@ import LayoutDubaiWTC from 'src/LayoutDubaiWTC';
 import LayoutJumeirah from 'src/LayoutJumeirah';
 import LayoutCoty from 'src/LayoutCoty';
 import LayoutAirline from 'src/LayoutAirline';
+import LayoutEuroConsumers from 'src/LayoutEuroConsumers';
 import {
   RenderingType,
   SitecoreContext,
@@ -59,6 +60,8 @@ const SitecorePage = ({
   const CotySite = layoutData.sitecore.context.site?.name?.toLowerCase() == 'coty'.toLowerCase();
   const AirlineSite =
     layoutData.sitecore.context.site?.name?.toLowerCase() == 'airline'.toLowerCase();
+  const EuroConsumersSite =
+    layoutData.sitecore.context.site?.name?.toLowerCase() == 'euroconsumers'.toLowerCase();
 
   return (
     <ComponentPropsContext value={componentProps}>
@@ -96,6 +99,8 @@ const SitecorePage = ({
           <LayoutCoty layoutData={layoutData} headLinks={headLinks} />
         ) : AirlineSite ? (
           <LayoutAirline layoutData={layoutData} headLinks={headLinks} />
+        ) : EuroConsumersSite ? (
+          <LayoutEuroConsumers layoutData={layoutData} headLinks={headLinks} />
         ) : (
           <Layout layoutData={layoutData} headLinks={headLinks} />
         )}
