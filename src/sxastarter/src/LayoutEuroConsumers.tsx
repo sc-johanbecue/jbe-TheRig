@@ -16,6 +16,16 @@ import Scripts from 'src/Scripts';
 import Script from 'next/script';
 import Link from 'next/link';
 
+import { useState } from "react";
+
+export default function ToggleImages() {
+  const [isExpanded, setIsExpanded] = useState(false);
+
+  const handleToggle = () => {
+    setIsExpanded((prevState) => !prevState);
+  };
+
+
 // Prefix public assets with a public URL to enable compatibility with Sitecore Experience Editor.
 // If you're not supporting the Experience Editor, you can remove this.
 const publicUrl = config.publicUrl;
@@ -484,39 +494,40 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
           <div className="skin__wrapper constrained">
             {/* desktop */}
             <div className="hide-on-mobile relative">
-              <label htmlFor="checkbox-skin-desktop" className="toggler">
-                <img
-                  data-src="https://www.test-aankoop.be/-/media/ta/mkg/skins/winterskincollapsed1050x70nl.jpg?rev&la=nl-BE&h=70&mw=1050&w=1050&hash=697620EF7B10837E5FA5C1B9757B9DD2"
-                  className=" collapsed"
-                  height={70}
-                  data-selector="skin-collapsed-image"
-                  alt=""
-                  data-plugin="imageComponent"
-                  width={1050}
-                />
-                <img
-                  data-src="https://www.test-aankoop.be/-/media/ta/mkg/skins/wintersoldenskinexpanded1050x230nl.jpg?rev&la=nl-BE&h=230&mw=1050&w=1050&hash=24F3469DB636A34BEA648135274E4FD3"
-                  className=" expanded"
-                  data-selector="skin-expanded-image"
-                  alt=""
-                  data-plugin="imageComponent"
-                />
-              </label>
-              <div>
-                <Link
-                  href="https://www.test-aankoop.be/acties/ratemydeal/wintersolden?prm_id_c=RMD-Winter2025&cop_id_c=Website&par_id_c=Skinbanner"
-                  className="btn btn--pill"
-                  data-selector="skin-link"
-                >
-                  Ik vergelijk!
-                </Link>
-                <label
-                  htmlFor="checkbox-skin-desktop"
-                  className="icon-chevron-down"
-                  style={{ color: 'White' }}
-                />
-              </div>
-            </div>
+      <label htmlFor="checkbox-skin-desktop" className="toggler">
+        <img
+          data-src="https://www.test-aankoop.be/-/media/ta/mkg/skins/winterskincollapsed1050x70nl.jpg?rev&la=nl-BE&h=70&mw=1050&w=1050&hash=697620EF7B10837E5FA5C1B9757B9DD2"
+          className={isExpanded ? "collapsed" : "expanded"}
+          height={70}
+          data-selector="skin-collapsed-image"
+          alt=""
+          data-plugin="imageComponent"
+          width={1050}
+        />
+        <img
+          data-src="https://www.test-aankoop.be/-/media/ta/mkg/skins/wintersoldenskinexpanded1050x230nl.jpg?rev&la=nl-BE&h=230&mw=1050&w=1050&hash=24F3469DB636A34BEA648135274E4FD3"
+          className={isExpanded ? "expanded" : "collapsed"}
+          data-selector="skin-expanded-image"
+          alt=""
+          data-plugin="imageComponent"
+        />
+      </label>
+      <div>
+        <Link
+          href="https://www.test-aankoop.be/acties/ratemydeal/wintersolden?prm_id_c=RMD-Winter2025&cop_id_c=Website&par_id_c=Skinbanner"
+          className="btn btn--pill"
+          data-selector="skin-link"
+        >
+          Ik vergelijk!
+        </Link>
+        <label
+          htmlFor="checkbox-skin-desktop"
+          className={isExpanded ? "icon-chevron-up" : "icon-chevron-down"}
+          style={{ color: "White" }}
+          onClick={handleToggle}
+        />
+      </div>
+    </div>
             {/* mobile */}
             <div className="flex__row no-margin mobile-only">
               <div className="flex__col flex__col-xs-1" />
