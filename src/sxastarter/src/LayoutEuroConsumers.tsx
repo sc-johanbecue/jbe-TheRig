@@ -16,8 +16,6 @@ import Scripts from 'src/Scripts';
 import Script from 'next/script';
 import Link from 'next/link';
 
-import { useState } from 'react';
-
 // Prefix public assets with a public URL to enable compatibility with Sitecore Experience Editor.
 // If you're not supporting the Experience Editor, you can remove this.
 const publicUrl = config.publicUrl;
@@ -40,12 +38,6 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
   const fields = route?.fields as RouteFields;
   const isPageEditing = layoutData.sitecore.context.pageEditing;
   const mainClassPageEditing = isPageEditing ? 'editing-mode' : 'prod-mode';
-
-  const [isExpanded, setIsExpanded] = useState(false);
-
-  const handleToggle = () => {
-    setIsExpanded((prevState) => !prevState);
-  };
 
   return (
     <>
