@@ -14,6 +14,7 @@ import {
 import config from 'temp/config';
 import Scripts from 'src/Scripts';
 import Script from 'next/script';
+import Link from 'next/link';
 
 // Prefix public assets with a public URL to enable compatibility with Sitecore Experience Editor.
 // If you're not supporting the Experience Editor, you can remove this.
@@ -502,13 +503,13 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                 />
               </label>
               <div>
-                <a
+                <Link
                   href="https://www.test-aankoop.be/acties/ratemydeal/wintersolden?prm_id_c=RMD-Winter2025&cop_id_c=Website&par_id_c=Skinbanner"
                   className="btn btn--pill"
                   data-selector="skin-link"
                 >
                   Ik vergelijk!
-                </a>
+                </Link>
                 <label
                   htmlFor="checkbox-skin-desktop"
                   className="icon-chevron-down"
@@ -520,7 +521,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
             <div className="flex__row no-margin mobile-only">
               <div className="flex__col flex__col-xs-1" />
               <div className="flex__col no-padding">
-                <a
+                <Link
                   href="https://www.test-aankoop.be/acties/ratemydeal/wintersolden?prm_id_c=RMD-Winter2025&cop_id_c=Website&par_id_c=Skinbanner"
                   className=""
                   data-selector="skin-mobile-link"
@@ -533,7 +534,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                     width={320}
                     fetchPriority="high"
                   />
-                </a>{' '}
+                </Link>{' '}
               </div>
               <label
                 htmlFor="checkbox-skin-mobile"
@@ -554,32 +555,32 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
             <div className="flex__row web4__links">
               <ul className="mainLinks">
                 <li className="align-left">
-                  <a
+                  <Link
                     href="/contact/contacteer-ons"
                     className="contact"
                     data-selector="web4-phone-icon"
                   >
                     Contacteer ons
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     href="https://login.test-aankoop.be/?wtrealm=eur%3a%2f%2fobiz.pro.obizpromo.nl-be%2f&wa=wsignin1.0&_gl=1*x387ll*_ga*ODg5NzU2ODU4LjE1OTcyMzE2MjQ.*_ga_9K2NF23KQW*MTY2ODUwNjAwMS4xMDIuMC4xNjY4NTA2MDAxLjAuMC4w&_gac=1.228120047.1666081277.Cj0KCQjwnbmaBhD-ARIsAGTPcfWK5Hv3BVLmGEgsOme9v6mPu-kaZ8cda3vr3kfajC9kpF7kzOWVbu4aAsUOEALw_wcB&_ga=2.22805883.1315290994.1668506002-821044984.1597672129"
                     data-selector="web4-links"
                     target="_blank"
                   >
                     Members Club
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="/energyguide" data-selector="web4-links">
+                  <Link href="/energyguide" data-selector="web4-links">
                     Energy-guide
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="/acties/ratemydeal" data-selector="web4-links" target="_blank">
+                  <Link href="/acties/ratemydeal" data-selector="web4-links" target="_blank">
                     Rate my deal
-                  </a>
+                  </Link>
                 </li>
                 <input type="checkbox" className="hidden" id="checkbox-allWebsites" />
                 <li className="dropdown">
@@ -588,32 +589,35 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                   </label>
                   <ul className="align-left padding-medium">
                     <li>
-                      <a href="/repairguide" data-selector="web4-flyout-links">
+                      <Link href="/repairguide" data-selector="web4-flyout-links">
                         Repairguide
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="https://www.test-aankoop.be/pers" data-selector="web4-flyout-links">
+                      <Link
+                        href="https://www.test-aankoop.be/pers"
+                        data-selector="web4-flyout-links"
+                      >
                         Pers &amp; Institutioneel
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
+                      <Link
                         href="https://www.test-aankoop.be/invest"
                         data-selector="web4-flyout-links"
                         target="_blank"
                       >
                         Testaankoop invest
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
+                      <Link
                         href="/werken-bij-test-aankoop"
                         data-selector="web4-flyout-links"
                         target="_blank"
                       >
                         Jobs
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </li>
@@ -680,7 +684,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                     data-rendering="ALineHeaderLogo"
                     data-datasource="{F033F3B1-1B8E-41CC-858F-E5041E32B3A2}"
                   >
-                    <a href="/">
+                    <Link href="/">
                       <img
                         src="/-/media/ta/ta-logos-2022/main-nl/logo-nl-be.svg?rev=7b79558a-f851-4f92-a555-8b5f4a17bb67&la=nl-BE&h=55&mw=300&w=300&hash=7A9164EDEA31367261169C054E725BA1"
                         className="no-margin"
@@ -690,7 +694,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                         width={1020}
                         fetchPriority="low"
                       />
-                    </a>
+                    </Link>
                   </div>
                   <div className="flex__col flex__col-xs-narrow no-padding mobile-only search-mobile">
                     <label htmlFor="checkbox-nav-mobile-search">
@@ -705,7 +709,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                     data-datasource="{C931E70B-1217-4041-9DEF-28291B45C40F}"
                   >
                     <span data-plugin="iframeAuthentication">
-                      <a
+                      <Link
                         data-plugin="modal"
                         data-popup-type="inline"
                         href="#aline-authentication-modal"
@@ -716,7 +720,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                         aria-label="Mijn persoonlijke ruimte mobile"
                       >
                         {/*login mobile*/}{' '}
-                      </a>
+                      </Link>
                     </span>
                   </div>
                   <div className="flex__col flex__col-md-9 flex__col-xs-12 search">
@@ -742,13 +746,13 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                   <label className="flex__col flex__col-md-narrow" htmlFor="checkbox-nav-pillar-4">
                     <span>Beleggen</span>
                   </label>
-                  <a
+                  <Link
                     className="flex__col flex__col-md-narrow"
                     href="https://www.test-aankoop.be/voordelen"
                     itemProp="url"
                   >
                     <span itemProp="name">Ledenvoordelen</span>
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="flex__col-md-3 hide-on-mobile header__wrapper__desktop ">
@@ -760,7 +764,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                   data-datasource="{7C8417C8-2515-45DF-943E-BA1E37FE58A3}"
                   role="complementary"
                 >
-                  <a
+                  <Link
                     href="https://ontdek.test-aankoop.be/2023/newmarketplace?prm_id_c=MANFIX1N&par_id_c=manchette&cop_id_c=Newheader&server=flbk"
                     target="_blank"
                     className="hide-on-mobile manchette-link"
@@ -772,7 +776,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                         <span className="star">En kies je cadeau</span>
                       </div>
                     </div>
-                  </a>
+                  </Link>
                 </div>
                 <div
                   className="header__wrapper__desktop__user-info flex__row no-margin"
@@ -782,7 +786,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                   data-datasource="{C931E70B-1217-4041-9DEF-28291B45C40F}"
                 >
                   <span data-plugin="iframeAuthentication">
-                    <a
+                    <Link
                       data-plugin="modal"
                       data-popup-type="inline"
                       href="#aline-authentication-modal"
@@ -792,15 +796,15 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                       data-aline-authentication-target="login"
                     >
                       Aanmelden{' '}
-                    </a>
+                    </Link>
                   </span>{' '}
                   <strong className="separator">|</strong>
-                  <a
+                  <Link
                     className="register"
                     href="/word-supporter?ectx=Y3Q6YWxpbmVfbWVudV9yZWdpc3Rlci5wYS1qb3VybmV5cw&wreply=https%3a%2f%2fwww.test-aankoop.be%2f%3fint_campaign%3dpa-journeys%26int_source%3daline%26int_medium%3dmenu%26int_content%3dnone%26int_term%3dregister"
                   >
                     Registreren
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -848,48 +852,48 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </label>
                           <ul className="level4">
                             <li className="level4__item" itemProp="name">
-                              <a href="/energyguide" target="_blank" itemProp="url">
+                              <Link href="/energyguide" target="_blank" itemProp="url">
                                 Energy-guide
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a
+                              <Link
                                 href="/woning-energie/gas-elektriciteit-mazout-pellets"
                                 itemProp="url"
                               >
                                 Gas, elektriciteit en mazout
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a
+                              <Link
                                 href="/woning-energie/hernieuwbare-energie"
                                 target="_blank"
                                 itemProp="url"
                               >
                                 Zonnepanelen
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/woning-energie/huis-water-verwarmen" itemProp="url">
+                              <Link href="/woning-energie/huis-water-verwarmen" itemProp="url">
                                 Verwarming
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/woning-energie/pellets" itemProp="url">
+                              <Link href="/woning-energie/pellets" itemProp="url">
                                 Pellets
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/woning-energie/ledlampen" itemProp="url">
+                              <Link href="/woning-energie/ledlampen" itemProp="url">
                                 Ledlampen
-                              </a>
+                              </Link>
                             </li>
                             <li className="extra">
                               <div>
                                 <div className="extra__info">
                                   Hier ben je misschien ook in geïnteresseerd :
                                 </div>
-                                <a
+                                <Link
                                   href="https://www.test-aankoop.be/woning-energie/huis-water-verwarmen/dossier/periodiek-nazicht-verwarmingsketel"
                                   className="extra__topic"
                                 >
@@ -897,7 +901,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                   <div className="extra__topic__title">
                                     Onderhoud van jouw verwarmingsketel
                                   </div>
-                                </a>
+                                </Link>
                               </div>
                             </li>
                           </ul>
@@ -913,21 +917,21 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </label>
                           <ul className="level4">
                             <li className="level4__item" itemProp="name">
-                              <a href="/geld/renovatieleningen" itemProp="url">
+                              <Link href="/geld/renovatieleningen" itemProp="url">
                                 Renovatieleningen
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/woning-energie/isolatie" itemProp="url">
+                              <Link href="/woning-energie/isolatie" itemProp="url">
                                 Isolatie
-                              </a>
+                              </Link>
                             </li>
                             <li className="extra">
                               <div>
                                 <div className="extra__info">
                                   Hier ben je misschien ook in geïnteresseerd :
                                 </div>
-                                <a
+                                <Link
                                   href="https://www.test-aankoop.be/woning-energie/kopen/dossier/modelovereenkomsten"
                                   className="extra__topic"
                                 >
@@ -935,7 +939,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                   <div className="extra__topic__title">
                                     Op zoek naar een billijke overeenkomst?
                                   </div>
-                                </a>
+                                </Link>
                               </div>
                             </li>
                           </ul>
@@ -951,39 +955,39 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </label>
                           <ul className="level4">
                             <li className="level4__item" itemProp="name">
-                              <a href="/woning-energie/huis-water-verwarmen" itemProp="url">
+                              <Link href="/woning-energie/huis-water-verwarmen" itemProp="url">
                                 Verwarming
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/woning-energie/vaste-airco" itemProp="url">
+                              <Link href="/woning-energie/vaste-airco" itemProp="url">
                                 Vaste airco
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/woning-energie/mobiele-airco" itemProp="url">
+                              <Link href="/woning-energie/mobiele-airco" itemProp="url">
                                 Mobiele airco
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/woning-energie/luchtontvochtiger" itemProp="url">
+                              <Link href="/woning-energie/luchtontvochtiger" itemProp="url">
                                 Luchtontvochtigers
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a
+                              <Link
                                 href="https://www.test-aankoop.be/gezond/dagelijkse-verzorging/luchtreiniger"
                                 itemProp="url"
                               >
                                 Luchtreinigers
-                              </a>
+                              </Link>
                             </li>
                             <li className="extra">
                               <div>
                                 <div className="extra__info">
                                   Hier ben je misschien ook in geïnteresseerd :
                                 </div>
-                                <a
+                                <Link
                                   href="https://www.test-aankoop.be/woning-energie/huis-koelen/dossier/oververhitting-voorkomen"
                                   className="extra__topic"
                                 >
@@ -991,7 +995,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                   <div className="extra__topic__title">
                                     10 tips om je huis koel te houden
                                   </div>
-                                </a>
+                                </Link>
                               </div>
                             </li>
                           </ul>
@@ -1007,19 +1011,19 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </label>
                           <ul className="level4">
                             <li className="level4__item" itemProp="name">
-                              <a href="/woning-energie/hoofdkussens" itemProp="url">
+                              <Link href="/woning-energie/hoofdkussens" itemProp="url">
                                 Hoofdkussens
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/woning-energie/matrassen" itemProp="url">
+                              <Link href="/woning-energie/matrassen" itemProp="url">
                                 Matrassen
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/woning-energie/matrastoppers" itemProp="url">
+                              <Link href="/woning-energie/matrastoppers" itemProp="url">
                                 Matrastoppers
-                              </a>
+                              </Link>
                             </li>
                           </ul>
                         </li>
@@ -1034,26 +1038,26 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </label>
                           <ul className="level4">
                             <li className="level4__item" itemProp="name">
-                              <a href="/woning-energie/keukenpapier" itemProp="url">
+                              <Link href="/woning-energie/keukenpapier" itemProp="url">
                                 Keukenpapier
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/woning-energie/thermosflessen" itemProp="url">
+                              <Link href="/woning-energie/thermosflessen" itemProp="url">
                                 Thermosflessen
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/woning-energie/wokpannen" itemProp="url">
+                              <Link href="/woning-energie/wokpannen" itemProp="url">
                                 Wokpannen
-                              </a>
+                              </Link>
                             </li>
                             <li className="extra">
                               <div>
                                 <div className="extra__info">
                                   Hier ben je misschien ook in geïnteresseerd :
                                 </div>
-                                <a
+                                <Link
                                   href="https://www.test-aankoop.be/woning-energie/allesreinigers/dossier/wondersponzen"
                                   className="extra__topic"
                                 >
@@ -1061,7 +1065,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                   <div className="extra__topic__title">
                                     Wat je moet weten voor je een wonderspons gaat gebruiken
                                   </div>
-                                </a>
+                                </Link>
                               </div>
                             </li>
                           </ul>
@@ -1077,31 +1081,31 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </label>
                           <ul className="level4">
                             <li className="level4__item" itemProp="name">
-                              <a href="/woning-energie/lakken" itemProp="url">
+                              <Link href="/woning-energie/lakken" itemProp="url">
                                 Lakken
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/woning-energie/muurverven" itemProp="url">
+                              <Link href="/woning-energie/muurverven" itemProp="url">
                                 Muurverven
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/woning-energie/hogedrukreinigers" itemProp="url">
+                              <Link href="/woning-energie/hogedrukreinigers" itemProp="url">
                                 Hogedrukreinigers
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/woning-energie/doe-het-zelf" itemProp="url">
+                              <Link href="/woning-energie/doe-het-zelf" itemProp="url">
                                 Alles over doe-het-zelf
-                              </a>
+                              </Link>
                             </li>
                             <li className="extra">
                               <div>
                                 <div className="extra__info">
                                   Hier ben je misschien ook in geïnteresseerd :
                                 </div>
-                                <a
+                                <Link
                                   href="/gezond/dagelijkse-verzorging/vervuiling/dossier/vervuiling-huis"
                                   className="extra__topic"
                                 >
@@ -1109,7 +1113,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                   <div className="extra__topic__title">
                                     Ongezonde lucht in huis: zo pak je het aan
                                   </div>
-                                </a>
+                                </Link>
                               </div>
                             </li>
                           </ul>
@@ -1125,57 +1129,57 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </label>
                           <ul className="level4">
                             <li className="level4__item" itemProp="name">
-                              <a href="/woning-energie/grasmaaiers" itemProp="url">
+                              <Link href="/woning-energie/grasmaaiers" itemProp="url">
                                 Grasmaaiers
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/woning-energie/robotmaaiers" itemProp="url">
+                              <Link href="/woning-energie/robotmaaiers" itemProp="url">
                                 Robotmaaiers
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/woning-energie/kantenmaaiers" itemProp="url">
+                              <Link href="/woning-energie/kantenmaaiers" itemProp="url">
                                 Kantenmaaiers
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/woning-energie/accu-heggenscharen" itemProp="url">
+                              <Link href="/woning-energie/accu-heggenscharen" itemProp="url">
                                 Accu-heggenscharen
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/woning-energie/takkenscharen" itemProp="url">
+                              <Link href="/woning-energie/takkenscharen" itemProp="url">
                                 Takkenscharen
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/woning-energie/snoeischaren" itemProp="url">
+                              <Link href="/woning-energie/snoeischaren" itemProp="url">
                                 Snoeischaren
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/woning-energie/barbecues" itemProp="url">
+                              <Link href="/woning-energie/barbecues" itemProp="url">
                                 Barbecues
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/woning-energie/hogedrukreinigers" itemProp="url">
+                              <Link href="/woning-energie/hogedrukreinigers" itemProp="url">
                                 Hogedrukreinigers
-                              </a>
+                              </Link>
                             </li>
                             <li className="extra">
                               <div>
                                 <div className="extra__info">
                                   Hier ben je misschien ook in geïnteresseerd :
                                 </div>
-                                <a
+                                <Link
                                   href="https://www.test-aankoop.be/woning-energie/tuin/dossier/onderhoud-gazon"
                                   className="extra__topic"
                                 >
                                   <div className="extra__topic__type">DOSSIER</div>
                                   <div className="extra__topic__title">Onderhoud van je gazon</div>
-                                </a>
+                                </Link>
                               </div>
                             </li>
                           </ul>
@@ -1191,46 +1195,46 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </label>
                           <ul className="level4">
                             <li className="level4__item" itemProp="name">
-                              <a href="/woning-energie/allesreinigers" itemProp="url">
+                              <Link href="/woning-energie/allesreinigers" itemProp="url">
                                 Allesreinigers
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/woning-energie/badkamerreinigers" itemProp="url">
+                              <Link href="/woning-energie/badkamerreinigers" itemProp="url">
                                 Badkamerreinigers
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/woning-energie/wc-reinigers" itemProp="url">
+                              <Link href="/woning-energie/wc-reinigers" itemProp="url">
                                 Wc-reinigers
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/woning-energie/wc-papier" itemProp="url">
+                              <Link href="/woning-energie/wc-papier" itemProp="url">
                                 Wc-papier
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/woning-energie/wasmiddelen" itemProp="url">
+                              <Link href="/woning-energie/wasmiddelen" itemProp="url">
                                 Wasmiddelen
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/woning-energie/afwasmiddelen" itemProp="url">
+                              <Link href="/woning-energie/afwasmiddelen" itemProp="url">
                                 Afwasmiddelen
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/woning-energie/vaatwasmiddelen" itemProp="url">
+                              <Link href="/woning-energie/vaatwasmiddelen" itemProp="url">
                                 Vaatwasmiddelen
-                              </a>
+                              </Link>
                             </li>
                             <li className="extra">
                               <div>
                                 <div className="extra__info">
                                   Hier ben je misschien ook in geïnteresseerd :
                                 </div>
-                                <a
+                                <Link
                                   href="https://www.test-aankoop.be/woning-energie/allesreinigers/dossier/wondersponzen"
                                   className="extra__topic"
                                 >
@@ -1238,18 +1242,18 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                   <div className="extra__topic__title">
                                     Wat je moet weten voor je een wonderspons gaat gebruiken
                                   </div>
-                                </a>
+                                </Link>
                               </div>
                             </li>
                           </ul>
                         </li>
                         <li className="level__seeAllLink" itemProp="name">
-                          <a
+                          <Link
                             href="https://www.test-aankoop.be/overzichtspagina?cat=woning-energie"
                             itemProp="url"
                           >
                             Zie meer
-                          </a>
+                          </Link>
                         </li>
                       </ul>
                     </li>
@@ -1274,46 +1278,50 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </label>
                           <ul className="level4">
                             <li className="level4__item" itemProp="name">
-                              <a href="/huishoudelektro/diepvriezers" itemProp="url">
+                              <Link href="/huishoudelektro/diepvriezers" itemProp="url">
                                 Diepvriezers
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/huishoudelektro/koelkasten" itemProp="url">
+                              <Link href="/huishoudelektro/koelkasten" itemProp="url">
                                 Koelkasten
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/huishoudelektro/ovens" itemProp="url">
+                              <Link href="/huishoudelektro/ovens" itemProp="url">
                                 Ovens
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/huishoudelektro/vaatwassers" itemProp="url">
+                              <Link href="/huishoudelektro/vaatwassers" itemProp="url">
                                 Vaatwassers
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/huishoudelektro/wasmachines" className="red" itemProp="url">
+                              <Link
+                                href="/huishoudelektro/wasmachines"
+                                className="red"
+                                itemProp="url"
+                              >
                                 Wasmachines
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/huishoudelektro/droogkasten" itemProp="url">
+                              <Link href="/huishoudelektro/droogkasten" itemProp="url">
                                 Droogkasten
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/huishoudelektro/betrouwbaarheid" itemProp="url">
+                              <Link href="/huishoudelektro/betrouwbaarheid" itemProp="url">
                                 Betrouwbare merken
-                              </a>
+                              </Link>
                             </li>
                             <li className="extra">
                               <div>
                                 <div className="extra__info">
                                   Hier ben je misschien ook in geïnteresseerd :
                                 </div>
-                                <a
+                                <Link
                                   href="https://www.test-aankoop.be/huishoudelektro/wasmachines/dossier/dossierwasdrogers"
                                   className="extra__topic"
                                 >
@@ -1321,7 +1329,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                   <div className="extra__topic__title">
                                     Wassen en drogen in 1 toestel: voor- en nadelen
                                   </div>
-                                </a>
+                                </Link>
                               </div>
                             </li>
                           </ul>
@@ -1337,56 +1345,56 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </label>
                           <ul className="level4">
                             <li className="level4__item" itemProp="name">
-                              <a href="/huishoudelektro/ovens" itemProp="url">
+                              <Link href="/huishoudelektro/ovens" itemProp="url">
                                 Ovens
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/huishoudelektro/microgolfovens" itemProp="url">
+                              <Link href="/huishoudelektro/microgolfovens" itemProp="url">
                                 Microgolfovens
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/huishoudelektro/airfryers" itemProp="url">
+                              <Link href="/huishoudelektro/airfryers" itemProp="url">
                                 Airfryers
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/huishoudelektro/friteuses" itemProp="url">
+                              <Link href="/huishoudelektro/friteuses" itemProp="url">
                                 Friteuses
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/huishoudelektro/keukenrobots" itemProp="url">
+                              <Link href="/huishoudelektro/keukenrobots" itemProp="url">
                                 Keukenrobots
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/huishoudelektro/multicookers" itemProp="url">
+                              <Link href="/huishoudelektro/multicookers" itemProp="url">
                                 Multicookers
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/huishoudelektro/blenders" itemProp="url">
+                              <Link href="/huishoudelektro/blenders" itemProp="url">
                                 Blenders
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/huishoudelektro/broodmachines" itemProp="url">
+                              <Link href="/huishoudelektro/broodmachines" itemProp="url">
                                 Broodmachines
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/huishoudelektro/soepmakers" itemProp="url">
+                              <Link href="/huishoudelektro/soepmakers" itemProp="url">
                                 Soepmakers
-                              </a>
+                              </Link>
                             </li>
                             <li className="extra">
                               <div>
                                 <div className="extra__info">
                                   Hier ben je misschien ook in geïnteresseerd :
                                 </div>
-                                <a
+                                <Link
                                   href="https://www.test-aankoop.be/huishoudelektro/keukenweegschalen/dossier/nauwkeurig-wegen-met-digitale-keukenweegschaal"
                                   className="extra__topic"
                                 >
@@ -1394,7 +1402,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                   <div className="extra__topic__title">
                                     Zo weeg je nauwkeurig met een digitale keukenweegschaal
                                   </div>
-                                </a>
+                                </Link>
                               </div>
                             </li>
                           </ul>
@@ -1410,21 +1418,21 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </label>
                           <ul className="level4">
                             <li className="level4__item" itemProp="name">
-                              <a href="/huishoudelektro/espressomachines" itemProp="url">
+                              <Link href="/huishoudelektro/espressomachines" itemProp="url">
                                 Koffiemachines
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/huishoudelektro/koffiemachines-filter" itemProp="url">
+                              <Link href="/huishoudelektro/koffiemachines-filter" itemProp="url">
                                 Koffiezetapparaten met filter
-                              </a>
+                              </Link>
                             </li>
                             <li className="extra">
                               <div>
                                 <div className="extra__info">
                                   Hier ben je misschien ook in geïnteresseerd :
                                 </div>
-                                <a
+                                <Link
                                   href="https://www.test-aankoop.be/huishoudelektro/espressomachines/dossier/koffiemachine-schoonmaken"
                                   className="extra__topic"
                                 >
@@ -1432,7 +1440,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                   <div className="extra__topic__title">
                                     Hoe moet ik mijn koffiemachine schoonmaken?{' '}
                                   </div>
-                                </a>
+                                </Link>
                               </div>
                             </li>
                           </ul>
@@ -1448,25 +1456,25 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </label>
                           <ul className="level4">
                             <li className="level4__item" itemProp="name">
-                              <a
+                              <Link
                                 href="https://www.test-aankoop.be/gezond/dagelijkse-verzorging/elektrische-tandenborstels"
                                 itemProp="url"
                               >
                                 Elektrische tandenborstels
-                              </a>
+                              </Link>
                             </li>
                             <li className="extra">
                               <div>
                                 <div className="extra__info">
                                   Hier ben je misschien ook in geïnteresseerd :
                                 </div>
-                                <a
+                                <Link
                                   href="https://www.test-aankoop.be/huishoudelektro/haardrogers/tip/veilig-drogen"
                                   className="extra__topic"
                                 >
                                   <div className="extra__topic__type">TIPS</div>
                                   <div className="extra__topic__title">Je haar veilig föhnen</div>
-                                </a>
+                                </Link>
                               </div>
                             </li>
                           </ul>
@@ -1482,47 +1490,47 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </label>
                           <ul className="level4">
                             <li className="level4__item" itemProp="name">
-                              <a
+                              <Link
                                 href="/huishoudelektro/strijkijzers-en-stoomcentrales"
                                 itemProp="url"
                               >
                                 Strijkijzers &amp; stoomcentrales
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/huishoudelektro/robotstofzuigers" itemProp="url">
+                              <Link href="/huishoudelektro/robotstofzuigers" itemProp="url">
                                 Robotstofzuigers
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/huishoudelektro/steelstofzuigers" itemProp="url">
+                              <Link href="/huishoudelektro/steelstofzuigers" itemProp="url">
                                 Steelstofzuigers
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/huishoudelektro/stofzuigers" itemProp="url">
+                              <Link href="/huishoudelektro/stofzuigers" itemProp="url">
                                 Sledestofzuigers
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/huishoudelektro/stoomreinigers" itemProp="url">
+                              <Link href="/huishoudelektro/stoomreinigers" itemProp="url">
                                 Stoomreinigers
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/woning-energie/hogedrukreinigers" itemProp="url">
+                              <Link href="/woning-energie/hogedrukreinigers" itemProp="url">
                                 Hogedrukreinigers
-                              </a>
+                              </Link>
                             </li>
                           </ul>
                         </li>
                         <li className="level__seeAllLink" itemProp="name">
-                          <a
+                          <Link
                             href="https://www.test-aankoop.be/overzichtspagina?cat=huishoudelektro"
                             itemProp="url"
                           >
                             Zie meer
-                          </a>
+                          </Link>
                         </li>
                       </ul>
                     </li>
@@ -1547,31 +1555,31 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </label>
                           <ul className="level4">
                             <li className="level4__item" itemProp="name">
-                              <a href="/hightech/telecom" itemProp="url">
+                              <Link href="/hightech/telecom" itemProp="url">
                                 Telecomabonnementen
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/hightech/internet" itemProp="url">
+                              <Link href="/hightech/internet" itemProp="url">
                                 Internet
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/hightech/wifi-versterkers" itemProp="url">
+                              <Link href="/hightech/wifi-versterkers" itemProp="url">
                                 Wifi-versterkers
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/familie-prive/webshops" itemProp="url">
+                              <Link href="/familie-prive/webshops" itemProp="url">
                                 Online kopen
-                              </a>
+                              </Link>
                             </li>
                             <li className="extra">
                               <div>
                                 <div className="extra__info">
                                   Hier ben je misschien ook in geïnteresseerd :
                                 </div>
-                                <a
+                                <Link
                                   href="https://www.test-aankoop.be/hightech/internet/dossier/downloaden-of-streamen"
                                   className="extra__topic"
                                 >
@@ -1579,7 +1587,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                   <div className="extra__topic__title">
                                     Wat is het verschil tussen downloaden en streamen?
                                   </div>
-                                </a>
+                                </Link>
                               </div>
                             </li>
                           </ul>
@@ -1595,55 +1603,55 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </label>
                           <ul className="level4">
                             <li className="level4__item" itemProp="name">
-                              <a href="/hightech/gsms-en-smartphones" itemProp="url">
+                              <Link href="/hightech/gsms-en-smartphones" itemProp="url">
                                 Smartphones
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/hightech/telecom" itemProp="url">
+                              <Link href="/hightech/telecom" itemProp="url">
                                 Mobiele abonnementen
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a
+                              <Link
                                 href="/hightech/telecom/tip/becover"
                                 target="_blank"
                                 itemProp="url"
                               >
                                 Netwerkdekking
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/hightech/tablets" itemProp="url">
+                              <Link href="/hightech/tablets" itemProp="url">
                                 Tablets
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/hightech/e-readers" itemProp="url">
+                              <Link href="/hightech/e-readers" itemProp="url">
                                 E-readers
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/hightech/wearables" itemProp="url">
+                              <Link href="/hightech/wearables" itemProp="url">
                                 Smartwatches &amp; activity trackers
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/hightech/universele-usb-c-oplader" itemProp="url">
+                              <Link href="/hightech/universele-usb-c-oplader" itemProp="url">
                                 Universele USB-C Opladers
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/hightech/powerbanks" itemProp="url">
+                              <Link href="/hightech/powerbanks" itemProp="url">
                                 Powerbanks
-                              </a>
+                              </Link>
                             </li>
                             <li className="extra">
                               <div>
                                 <div className="extra__info">
                                   Hier ben je misschien ook in geïnteresseerd :
                                 </div>
-                                <a
+                                <Link
                                   href="https://www.test-aankoop.be/hightech/telecom/dossier/juiste-internetproviders"
                                   className="extra__topic"
                                 >
@@ -1651,7 +1659,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                   <div className="extra__topic__title">
                                     Hoe kies je een internetprovider?
                                   </div>
-                                </a>
+                                </Link>
                               </div>
                             </li>
                           </ul>
@@ -1667,56 +1675,56 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </label>
                           <ul className="level4">
                             <li className="level4__item" itemProp="name">
-                              <a href="/hightech/laptops" itemProp="url">
+                              <Link href="/hightech/laptops" itemProp="url">
                                 Laptops
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/hightech/computerschermen" itemProp="url">
+                              <Link href="/hightech/computerschermen" itemProp="url">
                                 Computerschermen
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/hightech/printers" itemProp="url">
+                              <Link href="/hightech/printers" itemProp="url">
                                 Printers
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/hightech/inktpatronen" itemProp="url">
+                              <Link href="/hightech/inktpatronen" itemProp="url">
                                 Inktpatronen
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/hightech/externe-ssd-schijven" itemProp="url">
+                              <Link href="/hightech/externe-ssd-schijven" itemProp="url">
                                 Externe SSD-schijven
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/hightech/gaming" itemProp="url">
+                              <Link href="/hightech/gaming" itemProp="url">
                                 Gaming
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/hightech/gaming-headset" itemProp="url">
+                              <Link href="/hightech/gaming-headset" itemProp="url">
                                 Gaming headsets
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/hightech/game-consoles" itemProp="url">
+                              <Link href="/hightech/game-consoles" itemProp="url">
                                 Gameconsoles
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/hightech/controllers-spelconsole" itemProp="url">
+                              <Link href="/hightech/controllers-spelconsole" itemProp="url">
                                 Game controllers
-                              </a>
+                              </Link>
                             </li>
                             <li className="extra">
                               <div>
                                 <div className="extra__info">
                                   Hier ben je misschien ook in geïnteresseerd :
                                 </div>
-                                <a
+                                <Link
                                   href="https://www.test-aankoop.be/hightech/laptops/dossier/een-back-up-maken"
                                   className="extra__topic"
                                 >
@@ -1724,7 +1732,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                   <div className="extra__topic__title">
                                     Zo maak je de beste back-ups
                                   </div>
-                                </a>
+                                </Link>
                               </div>
                             </li>
                           </ul>
@@ -1740,41 +1748,41 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </label>
                           <ul className="level4">
                             <li className="level4__item" itemProp="name">
-                              <a href="/hightech/tv-s" itemProp="url">
+                              <Link href="/hightech/tv-s" itemProp="url">
                                 Televisies
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/hightech/soundbars" itemProp="url">
+                              <Link href="/hightech/soundbars" itemProp="url">
                                 Soundbars
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/hightech/koptelefoons-en-oortjes" itemProp="url">
+                              <Link href="/hightech/koptelefoons-en-oortjes" itemProp="url">
                                 Koptelefoons en oortjes
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/hightech/draadloze-speakers" itemProp="url">
+                              <Link href="/hightech/draadloze-speakers" itemProp="url">
                                 Draadloze speakers
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/hightech/dab-plus-radio" itemProp="url">
+                              <Link href="/hightech/dab-plus-radio" itemProp="url">
                                 DAB+ radio&quot;s
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/hightech/beamers" itemProp="url">
+                              <Link href="/hightech/beamers" itemProp="url">
                                 Beamers
-                              </a>
+                              </Link>
                             </li>
                             <li className="extra">
                               <div>
                                 <div className="extra__info">
                                   Hier ben je misschien ook in geïnteresseerd :
                                 </div>
-                                <a
+                                <Link
                                   href="https://www.test-aankoop.be/hightech/tv-s/dossier/hoe-het-beeld-van-uw-televisie-perfect-afstellen"
                                   className="extra__topic"
                                 >
@@ -1782,7 +1790,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                   <div className="extra__topic__title">
                                     Zo stel je het beeld van je televisie perfect af
                                   </div>
-                                </a>
+                                </Link>
                               </div>
                             </li>
                           </ul>
@@ -1798,26 +1806,26 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </label>
                           <ul className="level4">
                             <li className="level4__item" itemProp="name">
-                              <a href="/hightech/foto-video" itemProp="url">
+                              <Link href="/hightech/foto-video" itemProp="url">
                                 Fototoestellen
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/hightech/fotodiensten" itemProp="url">
+                              <Link href="/hightech/fotodiensten" itemProp="url">
                                 Online fotodiensten
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/hightech/batterijen" itemProp="url">
+                              <Link href="/hightech/batterijen" itemProp="url">
                                 Batterijen
-                              </a>
+                              </Link>
                             </li>
                             <li className="extra">
                               <div>
                                 <div className="extra__info">
                                   Hier ben je misschien ook in geïnteresseerd :
                                 </div>
-                                <a
+                                <Link
                                   href="https://www.test-aankoop.be/hightech/fotodiensten/nieuws/beste-fotodiensten"
                                   className="extra__topic"
                                 >
@@ -1825,7 +1833,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                   <div className="extra__topic__title">
                                     De beste diensten voor het maken van fotoalbums
                                   </div>
-                                </a>
+                                </Link>
                               </div>
                             </li>
                           </ul>
@@ -1841,31 +1849,31 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </label>
                           <ul className="level4">
                             <li className="level4__item" itemProp="name">
-                              <a href="/hightech/cloudopslag" itemProp="url">
+                              <Link href="/hightech/cloudopslag" itemProp="url">
                                 Cloudopslag
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/hightech/vpn-software" itemProp="url">
+                              <Link href="/hightech/vpn-software" itemProp="url">
                                 VPN-diensten
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/hightech/antivirus" itemProp="url">
+                              <Link href="/hightech/antivirus" itemProp="url">
                                 Veiligheids- &amp; antivirussoftware
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/hightech/wachtwoordmanagers" itemProp="url">
+                              <Link href="/hightech/wachtwoordmanagers" itemProp="url">
                                 Wachtwoordmanagers
-                              </a>
+                              </Link>
                             </li>
                             <li className="extra">
                               <div>
                                 <div className="extra__info">
                                   Hier ben je misschien ook in geïnteresseerd :
                                 </div>
-                                <a
+                                <Link
                                   href="https://www.test-aankoop.be/hightech/internet/dossier/downloaden-of-streamen"
                                   className="extra__topic"
                                 >
@@ -1873,7 +1881,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                   <div className="extra__topic__title">
                                     Wat is het verschil tussen downloaden en streamen?
                                   </div>
-                                </a>
+                                </Link>
                               </div>
                             </li>
                           </ul>
@@ -1889,51 +1897,51 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </label>
                           <ul className="level4">
                             <li className="level4__item" itemProp="name">
-                              <a href="/hightech/bewakingscamera" itemProp="url">
+                              <Link href="/hightech/bewakingscamera" itemProp="url">
                                 IP camera&quot;s
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/hightech/slimme-video-deurbellen" itemProp="url">
+                              <Link href="/hightech/slimme-video-deurbellen" itemProp="url">
                                 Deurbellen met camera
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/woning-energie/slimme-thermostaten" itemProp="url">
+                              <Link href="/woning-energie/slimme-thermostaten" itemProp="url">
                                 Slimme thermostaten
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/woning-energie/slimme-radiatorknoppen" itemProp="url">
+                              <Link href="/woning-energie/slimme-radiatorknoppen" itemProp="url">
                                 Slimme radiatorknoppen
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/huishoudelektro/robotstofzuigers" itemProp="url">
+                              <Link href="/huishoudelektro/robotstofzuigers" itemProp="url">
                                 Robotstofzuigers
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/hightech/smart-locks" itemProp="url">
+                              <Link href="/hightech/smart-locks" itemProp="url">
                                 Smart locks
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/hightech/slimme-stekkers" itemProp="url">
+                              <Link href="/hightech/slimme-stekkers" itemProp="url">
                                 Slimme stekkers
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/hightech/smart-home" itemProp="url">
+                              <Link href="/hightech/smart-home" itemProp="url">
                                 Alles over slimme woning
-                              </a>
+                              </Link>
                             </li>
                             <li className="extra">
                               <div>
                                 <div className="extra__info">
                                   Hier ben je misschien ook in geïnteresseerd :
                                 </div>
-                                <a
+                                <Link
                                   href="https://www.test-aankoop.be/hightech/bewakingscamera/dossier/veiligheid-en-privacy"
                                   className="extra__topic"
                                 >
@@ -1941,18 +1949,18 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                   <div className="extra__topic__title">
                                     Hoe bescherm ik mijn camera of deurbel tegen hackers?
                                   </div>
-                                </a>
+                                </Link>
                               </div>
                             </li>
                           </ul>
                         </li>
                         <li className="level__seeAllLink" itemProp="name">
-                          <a
+                          <Link
                             href="https://www.test-aankoop.be/overzichtspagina?cat=hightech"
                             itemProp="url"
                           >
                             Zie meer
-                          </a>
+                          </Link>
                         </li>
                       </ul>
                     </li>
@@ -1977,47 +1985,47 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </label>
                           <ul className="level4">
                             <li className="level4__item" itemProp="name">
-                              <a href="/mobiliteit/auto-s" itemProp="url">
+                              <Link href="/mobiliteit/auto-s" itemProp="url">
                                 Auto&quot;s
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a
+                              <Link
                                 href="/mobiliteit/auto-s/vergelijker-elektrische-auto-plug-in-hybride"
                                 itemProp="url"
                               >
                                 Elektrische auto&quot;s &amp; plug-in-hybrides
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a
+                              <Link
                                 href="/mobiliteit/auto-s/vergelijker-tweedehandsautos"
                                 itemProp="url"
                               >
                                 Tweedehandsauto&quot;s
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/mobiliteit/banden" itemProp="url">
+                              <Link href="/mobiliteit/banden" itemProp="url">
                                 Banden
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/geld/autoleningen" itemProp="url">
+                              <Link href="/geld/autoleningen" itemProp="url">
                                 Autoleningen
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/geld/autoverzekeringen" itemProp="url">
+                              <Link href="/geld/autoverzekeringen" itemProp="url">
                                 Autoverzekeringen
-                              </a>
+                              </Link>
                             </li>
                             <li className="extra">
                               <div>
                                 <div className="extra__info">
                                   Hier ben je misschien ook in geïnteresseerd :
                                 </div>
-                                <a
+                                <Link
                                   href="https://www.test-aankoop.be/mobiliteit/openbaar-vervoer-gedeelde-mobiliteit/dossier/autodelen-interessant-voor-jou"
                                   className="extra__topic"
                                 >
@@ -2025,7 +2033,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                   <div className="extra__topic__title">
                                     Autodelen: interessant voor jou?
                                   </div>
-                                </a>
+                                </Link>
                               </div>
                             </li>
                           </ul>
@@ -2041,32 +2049,32 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </label>
                           <ul className="level4">
                             <li className="level4__item" itemProp="name">
-                              <a href="/mobiliteit/fietsen" itemProp="url">
+                              <Link href="/mobiliteit/fietsen" itemProp="url">
                                 Elektrische fietsen
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/mobiliteit/fietshelmen" itemProp="url">
+                              <Link href="/mobiliteit/fietshelmen" itemProp="url">
                                 Fietshelmen
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/hightech/fiets-gps" itemProp="url">
+                              <Link href="/hightech/fiets-gps" itemProp="url">
                                 Fiets-gps
-                              </a>
+                              </Link>
                             </li>
                             <li className="extra">
                               <div>
                                 <div className="extra__info">
                                   Hier ben je misschien ook in geïnteresseerd :
                                 </div>
-                                <a
+                                <Link
                                   href="https://www.test-aankoop.be/mobiliteit/fietsen/dossier/urban-ebikes-2"
                                   className="extra__topic"
                                 >
                                   <div className="extra__topic__type">DOSSIER</div>
                                   <div className="extra__topic__title">De beste urban e-bike</div>
-                                </a>
+                                </Link>
                               </div>
                             </li>
                           </ul>
@@ -2082,22 +2090,22 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </label>
                           <ul className="level4">
                             <li className="level4__item" itemProp="name">
-                              <a
+                              <Link
                                 href="/mobiliteit/openbaar-vervoer-gedeelde-mobiliteit"
                                 itemProp="url"
                               >
                                 Openbaar vervoer &amp; gedeelde mobiliteit
-                              </a>
+                              </Link>
                             </li>
                           </ul>
                         </li>
                         <li className="level__seeAllLink" itemProp="name">
-                          <a
+                          <Link
                             href="https://www.test-aankoop.be/overzichtspagina?cat=mobiliteit"
                             itemProp="url"
                           >
                             Zie meer
-                          </a>
+                          </Link>
                         </li>
                       </ul>
                     </li>
@@ -2122,21 +2130,21 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </label>
                           <ul className="level4">
                             <li className="level4__item" itemProp="name">
-                              <a href="/geld/zichtrekeningen" itemProp="url">
+                              <Link href="/geld/zichtrekeningen" itemProp="url">
                                 Zichtrekeningen
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/geld/kredietkaarten" itemProp="url">
+                              <Link href="/geld/kredietkaarten" itemProp="url">
                                 Kredietkaarten
-                              </a>
+                              </Link>
                             </li>
                             <li className="extra">
                               <div>
                                 <div className="extra__info">
                                   Hier ben je misschien ook in geïnteresseerd :
                                 </div>
-                                <a
+                                <Link
                                   href="https://www.test-aankoop.be/geld/zichtrekeningen/dossier/betalen-met-uw-smartphone"
                                   className="extra__topic"
                                 >
@@ -2144,7 +2152,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                   <div className="extra__topic__title">
                                     Hoe betalen met je smartphone?
                                   </div>
-                                </a>
+                                </Link>
                               </div>
                             </li>
                           </ul>
@@ -2160,37 +2168,37 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </label>
                           <ul className="level4">
                             <li className="level4__item" itemProp="name">
-                              <a href="/geld/hypotheekleningen" itemProp="url">
+                              <Link href="/geld/hypotheekleningen" itemProp="url">
                                 Hypotheekleningen
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/geld/autoleningen" itemProp="url">
+                              <Link href="/geld/autoleningen" itemProp="url">
                                 Autoleningen
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/geld/persoonlijke-leningen" itemProp="url">
+                              <Link href="/geld/persoonlijke-leningen" itemProp="url">
                                 Persoonlijke leningen
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/geld/renovatieleningen" itemProp="url">
+                              <Link href="/geld/renovatieleningen" itemProp="url">
                                 Renovatieleningen
-                              </a>
+                              </Link>
                             </li>
                             <li className="extra">
                               <div>
                                 <div className="extra__info">
                                   Hier ben je misschien ook in geïnteresseerd :
                                 </div>
-                                <a
+                                <Link
                                   href="https://www.test-aankoop.be/geld/persoonlijke-leningen/modelbrief/leningsovereenkomst"
                                   className="extra__topic"
                                 >
                                   <div className="extra__topic__type">MODELDOCUMENT</div>
                                   <div className="extra__topic__title">Leningsovereenkomst</div>
-                                </a>
+                                </Link>
                               </div>
                             </li>
                           </ul>
@@ -2206,39 +2214,39 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </label>
                           <ul className="level4">
                             <li className="level4__item" itemProp="name">
-                              <a href="/geld/autoverzekeringen" itemProp="url">
+                              <Link href="/geld/autoverzekeringen" itemProp="url">
                                 Autoverzekering
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a
+                              <Link
                                 href="https://www.test-aankoop.be/gezond/gezondheidszorg/hospitalisatieverzekering"
                                 itemProp="url"
                               >
                                 Hospitalisatieverzekeringen
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/geld/reisbijstandsverzekeringen" itemProp="url">
+                              <Link href="/geld/reisbijstandsverzekeringen" itemProp="url">
                                 Reisbijstandsverzekeringen
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/geld/familiale-verzekeringen" itemProp="url">
+                              <Link href="/geld/familiale-verzekeringen" itemProp="url">
                                 Familiale verzekeringen
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/geld/verzekeringen" itemProp="url">
+                              <Link href="/geld/verzekeringen" itemProp="url">
                                 Alles over verzekeringen
-                              </a>
+                              </Link>
                             </li>
                             <li className="extra">
                               <div>
                                 <div className="extra__info">
                                   Hier ben je misschien ook in geïnteresseerd :
                                 </div>
-                                <a
+                                <Link
                                   href="https://www.test-aankoop.be/geld/autoverzekeringen/dossier/autoverzekering-voor-jongeren"
                                   className="extra__topic"
                                 >
@@ -2246,7 +2254,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                   <div className="extra__topic__title">
                                     Autoverzekering voor jongeren
                                   </div>
-                                </a>
+                                </Link>
                               </div>
                             </li>
                           </ul>
@@ -2262,26 +2270,29 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </label>
                           <ul className="level4">
                             <li className="level4__item" itemProp="name">
-                              <a href="/geld/spaarrekeningen" itemProp="url">
+                              <Link href="/geld/spaarrekeningen" itemProp="url">
                                 Spaarrekeningen
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/geld/pensioensparen" itemProp="url">
+                              <Link href="/geld/pensioensparen" itemProp="url">
                                 Pensioen en pensioensparen
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="https://www.test-aankoop.be/invest/beleggen" itemProp="url">
+                              <Link
+                                href="https://www.test-aankoop.be/invest/beleggen"
+                                itemProp="url"
+                              >
                                 Beleggen
-                              </a>
+                              </Link>
                             </li>
                             <li className="extra">
                               <div>
                                 <div className="extra__info">
                                   Hier ben je misschien ook in geïnteresseerd :
                                 </div>
-                                <a
+                                <Link
                                   href="https://www.test-aankoop.be/geld/spaarrekeningen/dossier/gunstige-fiscale-regeling-voor-spaarrekeningen"
                                   className="extra__topic"
                                 >
@@ -2289,7 +2300,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                   <div className="extra__topic__title">
                                     Gunstige fiscale regeling voor spaarrekeningen
                                   </div>
-                                </a>
+                                </Link>
                               </div>
                             </li>
                           </ul>
@@ -2305,21 +2316,21 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </label>
                           <ul className="level4">
                             <li className="level4__item" itemProp="name">
-                              <a href="/geld/belastingen" itemProp="url">
+                              <Link href="/geld/belastingen" itemProp="url">
                                 Belastingen
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/familie-prive/erfenis" itemProp="url">
+                              <Link href="/familie-prive/erfenis" itemProp="url">
                                 Overlijden en nalatenschap
-                              </a>
+                              </Link>
                             </li>
                             <li className="extra">
                               <div>
                                 <div className="extra__info">
                                   Hier ben je misschien ook in geïnteresseerd :
                                 </div>
-                                <a
+                                <Link
                                   href="https://www.test-aankoop.be/geld/belastingen/dossier/overhoop-met-de-fiscus"
                                   className="extra__topic"
                                 >
@@ -2327,18 +2338,18 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                   <div className="extra__topic__title">
                                     Je rechten en plichten tegenover de fiscus
                                   </div>
-                                </a>
+                                </Link>
                               </div>
                             </li>
                           </ul>
                         </li>
                         <li className="level__seeAllLink" itemProp="name">
-                          <a
+                          <Link
                             href="https://www.test-aankoop.be/overzichtspagina?cat=geld"
                             itemProp="url"
                           >
                             Zie meer
-                          </a>
+                          </Link>
                         </li>
                       </ul>
                     </li>
@@ -2363,14 +2374,14 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </label>
                           <ul className="level4">
                             <li className="level4__item" itemProp="name">
-                              <a href="/familie-prive/reizen" itemProp="url">
+                              <Link href="/familie-prive/reizen" itemProp="url">
                                 Reizen
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/familie-prive/vrije-tijd" itemProp="url">
+                              <Link href="/familie-prive/vrije-tijd" itemProp="url">
                                 Vrije tijd
-                              </a>
+                              </Link>
                             </li>
                           </ul>
                         </li>
@@ -2385,16 +2396,19 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </label>
                           <ul className="level4">
                             <li className="level4__item" itemProp="name">
-                              <a href="https://www.test-aankoop.be/verhuischecklist" itemProp="url">
+                              <Link
+                                href="https://www.test-aankoop.be/verhuischecklist"
+                                itemProp="url"
+                              >
                                 Verhuischecklist
-                              </a>
+                              </Link>
                             </li>
                             <li className="extra">
                               <div>
                                 <div className="extra__info">
                                   Hier ben je misschien ook in geïnteresseerd :
                                 </div>
-                                <a
+                                <Link
                                   href="https://www.test-aankoop.be/geld/verzekeringen/antwoord-van-expert/verhuizen-en-verzekeringen"
                                   className="extra__topic"
                                 >
@@ -2402,7 +2416,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                   <div className="extra__topic__title">
                                     Wat moet je doen met je verzekering bij verhuis?
                                   </div>
-                                </a>
+                                </Link>
                               </div>
                             </li>
                           </ul>
@@ -2418,45 +2432,45 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </label>
                           <ul className="level4">
                             <li className="level4__item" itemProp="name">
-                              <a href="/familie-prive/ouderschap" itemProp="url">
+                              <Link href="/familie-prive/ouderschap" itemProp="url">
                                 Luiers
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a
+                              <Link
                                 href="https://www.test-aankoop.be/gezond/dagelijkse-verzorging/babydoekjes"
                                 itemProp="url"
                               >
                                 Babydoekjes
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a
+                              <Link
                                 href="https://www.test-aankoop.be/gezond/dagelijkse-verzorging/anti-luisproducten"
                                 itemProp="url"
                               >
                                 Antimuggenmiddelen
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a
+                              <Link
                                 href="https://www.test-aankoop.be/gezond/baby-kinderen/jonge-ouder"
                                 itemProp="url"
                               >
                                 Jonge ouders
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/familie-prive/ouderschap" itemProp="url">
+                              <Link href="/familie-prive/ouderschap" itemProp="url">
                                 Ouderschap
-                              </a>
+                              </Link>
                             </li>
                             <li className="extra">
                               <div>
                                 <div className="extra__info">
                                   Hier ben je misschien ook in geïnteresseerd :
                                 </div>
-                                <a
+                                <Link
                                   href="https://www.test-aankoop.be/familie-prive/luiers/dossier/luiers-wegwerp-of-bio-afbreekbaar"
                                   className="extra__topic"
                                 >
@@ -2465,7 +2479,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                     Kiezen tussen gewone wegwerpluiers of biologisch afbreekbare
                                     luiers?
                                   </div>
-                                </a>
+                                </Link>
                               </div>
                             </li>
                           </ul>
@@ -2481,26 +2495,26 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </label>
                           <ul className="level4">
                             <li className="level4__item" itemProp="name">
-                              <a href="/woning-energie/hondenvoer" itemProp="url">
+                              <Link href="/woning-energie/hondenvoer" itemProp="url">
                                 Hondenvoer
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/woning-energie/kattenvoer" itemProp="url">
+                              <Link href="/woning-energie/kattenvoer" itemProp="url">
                                 Kattenvoer
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/woning-energie/huisdieren" itemProp="url">
+                              <Link href="/woning-energie/huisdieren" itemProp="url">
                                 Alles over huisdieren
-                              </a>
+                              </Link>
                             </li>
                             <li className="extra">
                               <div>
                                 <div className="extra__info">
                                   Hier ben je misschien ook in geïnteresseerd :
                                 </div>
-                                <a
+                                <Link
                                   href="https://www.test-aankoop.be/woning-energie/huisdieren/dossier/kosten-hond-of-kat"
                                   className="extra__topic"
                                 >
@@ -2508,7 +2522,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                   <div className="extra__topic__title">
                                     De kosten van een hond of een kat
                                   </div>
-                                </a>
+                                </Link>
                               </div>
                             </li>
                           </ul>
@@ -2524,31 +2538,31 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </label>
                           <ul className="level4">
                             <li className="level4__item" itemProp="name">
-                              <a href="/familie-prive/webshops" itemProp="url">
+                              <Link href="/familie-prive/webshops" itemProp="url">
                                 Online kopen
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/acties/ratemydeal" itemProp="url">
+                              <Link href="/acties/ratemydeal" itemProp="url">
                                 Rate my deal
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/familie-prive/solden" itemProp="url">
+                              <Link href="/familie-prive/solden" itemProp="url">
                                 Solden &amp; promoties
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/familie-prive/supermarkten" itemProp="url">
+                              <Link href="/familie-prive/supermarkten" itemProp="url">
                                 Supermarkten
-                              </a>
+                              </Link>
                             </li>
                             <li className="extra">
                               <div>
                                 <div className="extra__info">
                                   Hier ben je misschien ook in geïnteresseerd :
                                 </div>
-                                <a
+                                <Link
                                   href="https://www.test-aankoop.be/familie-prive/webshops/dossier/oplichterij-via-internet"
                                   className="extra__topic"
                                 >
@@ -2556,7 +2570,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                   <div className="extra__topic__title">
                                     Oplichterij via internet
                                   </div>
-                                </a>
+                                </Link>
                               </div>
                             </li>
                           </ul>
@@ -2572,16 +2586,16 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </label>
                           <ul className="level4">
                             <li className="level4__item" itemProp="name">
-                              <a href="/familie-prive/duurzaamheid" itemProp="url">
+                              <Link href="/familie-prive/duurzaamheid" itemProp="url">
                                 Duurzaamheid
-                              </a>
+                              </Link>
                             </li>
                             <li className="extra">
                               <div>
                                 <div className="extra__info">
                                   Hier ben je misschien ook in geïnteresseerd :
                                 </div>
-                                <a
+                                <Link
                                   href="https://www.test-aankoop.be/familie-prive/duurzaamheid/dossier/greenwashing"
                                   className="extra__topic"
                                 >
@@ -2589,25 +2603,25 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                   <div className="extra__topic__title">
                                     Laat je niet misleiden door greenwashing
                                   </div>
-                                </a>
+                                </Link>
                               </div>
                             </li>
                           </ul>
                         </li>
                         <li className="level__seeAllLink" itemProp="name">
-                          <a
+                          <Link
                             href="https://www.test-aankoop.be/overzichtspagina?cat=familie-prive"
                             itemProp="url"
                           >
                             Zie meer
-                          </a>
+                          </Link>
                         </li>
                       </ul>
                     </li>
                     <li className="level__seeAllLink" itemProp="name">
-                      <a href="/alles-over-producten-en-diensten" itemProp="url">
+                      <Link href="/alles-over-producten-en-diensten" itemProp="url">
                         Alles over producten en diensten
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </li>
@@ -2638,83 +2652,83 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </label>
                           <ul className="level4">
                             <li className="level4__item" itemProp="name">
-                              <a
+                              <Link
                                 href="https://www.test-aankoop.be/gezond/voeding/meel-mixen-volkorenbrood"
                                 itemProp="url"
                               >
                                 Meel en mixen voor volkorenbrood
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a
+                              <Link
                                 href="https://www.test-aankoop.be/gezond/voeding/olijfolie"
                                 itemProp="url"
                               >
                                 Olijfolie
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a
+                              <Link
                                 href="https://www.test-aankoop.be/gezond/voeding/bolognesesaus"
                                 itemProp="url"
                               >
                                 Bolognesesaus
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a
+                              <Link
                                 href="https://www.test-aankoop.be/gezond/voeding/chips"
                                 itemProp="url"
                               >
                                 Chips
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a
+                              <Link
                                 href="https://www.test-aankoop.be/gezond/voeding/granola"
                                 itemProp="url"
                               >
                                 Granola
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a
+                              <Link
                                 href="https://www.test-aankoop.be/gezond/voeding/mueslirepen"
                                 itemProp="url"
                               >
                                 Mueslirepen
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a
+                              <Link
                                 href="https://www.test-aankoop.be/gezond/voeding/ontbijtgranen"
                                 itemProp="url"
                               >
                                 Ontbijtgranen
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a
+                              <Link
                                 href="https://www.test-aankoop.be/gezond/voeding/beschuiten-crackers"
                                 itemProp="url"
                               >
                                 Beschuiten
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a
+                              <Link
                                 href="https://www.test-aankoop.be/gezond/voeding/pure-chocolade"
                                 itemProp="url"
                               >
                                 Chocolade
-                              </a>
+                              </Link>
                             </li>
                             <li className="extra">
                               <div>
                                 <div className="extra__info">
                                   Hier ben je misschien ook in geïnteresseerd :
                                 </div>
-                                <a
+                                <Link
                                   href="/gezond/voeding/bolognesesaus/antwoord-van-expert/recept-voor-tomatensaus-bolognese"
                                   className="extra__topic"
                                 >
@@ -2722,7 +2736,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                   <div className="extra__topic__title">
                                     Recept voor echte tomatensaus bolognese
                                   </div>
-                                </a>
+                                </Link>
                               </div>
                             </li>
                           </ul>
@@ -2738,64 +2752,64 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </label>
                           <ul className="level4">
                             <li className="level4__item" itemProp="name">
-                              <a
+                              <Link
                                 href="https://www.test-aankoop.be/gezond/voeding/fish-sticks"
                                 itemProp="url"
                               >
                                 Fishsticks
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a
+                              <Link
                                 href="https://www.test-aankoop.be/gezond/voeding/vegetarische-burgers"
                                 itemProp="url"
                               >
                                 Vegetarische burgers
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a
+                              <Link
                                 href="https://www.test-aankoop.be/gezond/voeding/vegetarische-balletjes-falafels"
                                 itemProp="url"
                               >
                                 Vegetarische balletjes en falafel
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/voeding/gekookte-ham" itemProp="url">
+                              <Link href="/voeding/gekookte-ham" itemProp="url">
                                 Gekookte hammen
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a
+                              <Link
                                 href="https://www.test-aankoop.be/gezond/voeding/gevulde-pasta"
                                 itemProp="url"
                               >
                                 Gevulde pasta&quot;s
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a
+                              <Link
                                 href="https://www.test-aankoop.be/gezond/voeding/pizza"
                                 itemProp="url"
                               >
                                 Pizza&quot;s
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a
+                              <Link
                                 href="https://www.test-aankoop.be/gezond/voeding/mozzarella"
                                 itemProp="url"
                               >
                                 Mozzarella&quot;s
-                              </a>
+                              </Link>
                             </li>
                             <li className="extra">
                               <div>
                                 <div className="extra__info">
                                   Hier ben je misschien ook in geïnteresseerd :
                                 </div>
-                                <a
+                                <Link
                                   href="/gezond/voeding/voeding/dossier/vis-alle-nuttige-info"
                                   className="extra__topic"
                                 >
@@ -2803,7 +2817,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                   <div className="extra__topic__title">
                                     Alles wat je over vis moet weten
                                   </div>
-                                </a>
+                                </Link>
                               </div>
                             </li>
                           </ul>
@@ -2819,43 +2833,43 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </label>
                           <ul className="level4">
                             <li className="level4__item" itemProp="name">
-                              <a
+                              <Link
                                 href="https://www.test-aankoop.be/gezond/voeding/melkdesserts"
                                 itemProp="url"
                               >
                                 Melkdesserts
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a
+                              <Link
                                 href="https://www.test-aankoop.be/gezond/voeding/yoghurt"
                                 itemProp="url"
                               >
                                 Yoghurt
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a
+                              <Link
                                 href="https://www.test-aankoop.be/gezond/voeding/zuivel-kinderen"
                                 itemProp="url"
                               >
                                 Zuivelproducten voor kinderen
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a
+                              <Link
                                 href="https://www.test-aankoop.be/gezond/voeding/vanille-ijs"
                                 itemProp="url"
                               >
                                 Vanille-ijs
-                              </a>
+                              </Link>
                             </li>
                             <li className="extra">
                               <div>
                                 <div className="extra__info">
                                   Hier ben je misschien ook in geïnteresseerd :
                                 </div>
-                                <a
+                                <Link
                                   href="/gezond/voeding/yoghurt/nieuws/hoe-zelf-yoghurt-maken"
                                   className="extra__topic"
                                 >
@@ -2863,7 +2877,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                   <div className="extra__topic__title">
                                     Hoe maak je zelf yoghurt? (met video)
                                   </div>
-                                </a>
+                                </Link>
                               </div>
                             </li>
                           </ul>
@@ -2879,37 +2893,37 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </label>
                           <ul className="level4">
                             <li className="level4__item" itemProp="name">
-                              <a
+                              <Link
                                 href="https://www.test-aankoop.be/gezond/voeding/koffie"
                                 itemProp="url"
                               >
                                 Koffie
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/voeding/wijn" itemProp="url">
+                              <Link href="/voeding/wijn" itemProp="url">
                                 Wijn
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/voeding/schuimwijnen" itemProp="url">
+                              <Link href="/voeding/schuimwijnen" itemProp="url">
                                 Schuimwijn
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a
+                              <Link
                                 href="https://www.test-aankoop.be/gezond/voeding/fruitsappen"
                                 itemProp="url"
                               >
                                 Sap
-                              </a>
+                              </Link>
                             </li>
                             <li className="extra">
                               <div>
                                 <div className="extra__info">
                                   Hier ben je misschien ook in geïnteresseerd :
                                 </div>
-                                <a
+                                <Link
                                   href="/gezond/voeding/koffie/dossier/cafeine"
                                   className="extra__topic"
                                 >
@@ -2917,7 +2931,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                   <div className="extra__topic__title">
                                     Wat doet cafeïne met je lichaam?
                                   </div>
-                                </a>
+                                </Link>
                               </div>
                             </li>
                           </ul>
@@ -2933,51 +2947,51 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </label>
                           <ul className="level4">
                             <li className="level4__item" itemProp="name">
-                              <a
+                              <Link
                                 href="https://www.test-aankoop.be/gezond/voeding/etikettering"
                                 itemProp="url"
                               >
                                 Etikettering
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a
+                              <Link
                                 href="https://www.test-aankoop.be/gezond/voeding/gezonde-voeding"
                                 itemProp="url"
                               >
                                 Gezonde voeding
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a
+                              <Link
                                 href="https://www.test-aankoop.be/gezond/voeding/voedingssupplementen"
                                 itemProp="url"
                               >
                                 Voedingssupplementen
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a
+                              <Link
                                 href="https://www.test-aankoop.be/gezond/voeding/vegetarische-voeding"
                                 itemProp="url"
                               >
                                 Vegetarische voeding
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a
+                              <Link
                                 href="https://www.test-aankoop.be/gezond/voeding/intoleranties-en-allergieen"
                                 itemProp="url"
                               >
                                 Allergieën en intoleranties
-                              </a>
+                              </Link>
                             </li>
                             <li className="extra">
                               <div>
                                 <div className="extra__info">
                                   Hier ben je misschien ook in geïnteresseerd :
                                 </div>
-                                <a
+                                <Link
                                   href="/gezond/voeding/gezonde-voeding/dossier/nutri-score"
                                   className="extra__topic"
                                 >
@@ -2985,7 +2999,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                   <div className="extra__topic__title">
                                     Maak gezondere keuzes met de Nutri-Score
                                   </div>
-                                </a>
+                                </Link>
                               </div>
                             </li>
                           </ul>
@@ -3001,35 +3015,35 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </label>
                           <ul className="level4">
                             <li className="level4__item" itemProp="name">
-                              <a
+                              <Link
                                 href="https://www.test-aankoop.be/gezond/voeding/afvallen"
                                 itemProp="url"
                               >
                                 Afvallen
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a
+                              <Link
                                 href="https://www.test-aankoop.be/gezond/voeding/gezonde-voeding/dossier/vergelijkdieten"
                                 itemProp="url"
                               >
                                 Diëten vergelijken
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a
+                              <Link
                                 href="https://www.test-aankoop.be/gezond/voeding/afvallen/bereken-zelf/body-mass-index"
                                 itemProp="url"
                               >
                                 Je BMI berekenen
-                              </a>
+                              </Link>
                             </li>
                             <li className="extra">
                               <div>
                                 <div className="extra__info">
                                   Hier ben je misschien ook in geïnteresseerd :
                                 </div>
-                                <a
+                                <Link
                                   href="/gezond/voeding/gezonde-voeding/dossier/nutri-score"
                                   className="extra__topic"
                                 >
@@ -3037,7 +3051,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                   <div className="extra__topic__title">
                                     Maak gezondere keuzes met de Nutri-Score
                                   </div>
-                                </a>
+                                </Link>
                               </div>
                             </li>
                           </ul>
@@ -3053,35 +3067,35 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </label>
                           <ul className="level4">
                             <li className="level4__item" itemProp="name">
-                              <a
+                              <Link
                                 href="https://www.test-aankoop.be/gezond/voeding/voedselveiligheid-en-additieven"
                                 itemProp="url"
                               >
                                 Voedselveiligheid &amp; additieven
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a
+                              <Link
                                 href="https://www.test-aankoop.be/gezond/voeding/etikettering"
                                 itemProp="url"
                               >
                                 Etikettering
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a
+                              <Link
                                 href="https://www.test-aankoop.be/gezond/voeding/duurzaamheid-en-milieu-impact"
                                 itemProp="url"
                               >
                                 Duurzaamheid &amp; milieu-impact
-                              </a>
+                              </Link>
                             </li>
                             <li className="extra">
                               <div>
                                 <div className="extra__info">
                                   Hier ben je misschien ook in geïnteresseerd :
                                 </div>
-                                <a
+                                <Link
                                   href="/gezond/voeding/duurzaamheid-en-milieu-impact/dossier/duurzamevoeding"
                                   className="extra__topic"
                                 >
@@ -3089,7 +3103,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                   <div className="extra__topic__title">
                                     Duurzame voeding: 10 voorbeelden{' '}
                                   </div>
-                                </a>
+                                </Link>
                               </div>
                             </li>
                           </ul>
@@ -3105,26 +3119,26 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </label>
                           <ul className="level4">
                             <li className="level4__item" itemProp="name">
-                              <a href="/woning-energie/hondenvoer" itemProp="url">
+                              <Link href="/woning-energie/hondenvoer" itemProp="url">
                                 Hondenvoer
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/woning-energie/kattenvoer" itemProp="url">
+                              <Link href="/woning-energie/kattenvoer" itemProp="url">
                                 Kattenvoer
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/woning-energie/huisdieren" itemProp="url">
+                              <Link href="/woning-energie/huisdieren" itemProp="url">
                                 Alles over huisdieren
-                              </a>
+                              </Link>
                             </li>
                             <li className="extra">
                               <div>
                                 <div className="extra__info">
                                   Hier ben je misschien ook in geïnteresseerd :
                                 </div>
-                                <a
+                                <Link
                                   href="https://www.test-aankoop.be/woning-energie/hondenvoer/antwoord-van-expert/hoeveelheid-voer-brokken-hond"
                                   className="extra__topic"
                                 >
@@ -3132,18 +3146,18 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                   <div className="extra__topic__title">
                                     Hoeveel gram brokken moet een hond eten per dag?
                                   </div>
-                                </a>
+                                </Link>
                               </div>
                             </li>
                           </ul>
                         </li>
                         <li className="level__seeAllLink" itemProp="name">
-                          <a
+                          <Link
                             href="https://www.test-aankoop.be/gezond/overzichtspagina?cat=voeding"
                             itemProp="url"
                           >
                             Zie meer
-                          </a>
+                          </Link>
                         </li>
                       </ul>
                     </li>
@@ -3168,35 +3182,35 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </label>
                           <ul className="level4">
                             <li className="level4__item" itemProp="name">
-                              <a
+                              <Link
                                 href="https://www.test-aankoop.be/gezond/dagelijkse-verzorging/zonnecreme"
                                 itemProp="url"
                               >
                                 Zonnecrèmes
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a
+                              <Link
                                 href="https://www.test-aankoop.be/gezond/dagelijkse-verzorging/aftersuns"
                                 itemProp="url"
                               >
                                 Aftersuns
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a
+                              <Link
                                 href="https://www.test-aankoop.be/gezond/dagelijkse-verzorging/uv-werende-kleding"
                                 itemProp="url"
                               >
                                 UV-werende shirts voor kinderen
-                              </a>
+                              </Link>
                             </li>
                             <li className="extra">
                               <div>
                                 <div className="extra__info">
                                   Hier ben je misschien ook in geïnteresseerd :
                                 </div>
-                                <a
+                                <Link
                                   href="/gezond/dagelijkse-verzorging/zonneproducten/dossier/verstandig-in-de-zon"
                                   className="extra__topic"
                                 >
@@ -3204,7 +3218,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                   <div className="extra__topic__title">
                                     Hoe kun je je huid optimaal beschermen?
                                   </div>
-                                </a>
+                                </Link>
                               </div>
                             </li>
                           </ul>
@@ -3220,70 +3234,70 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </label>
                           <ul className="level4">
                             <li className="level4__item" itemProp="name">
-                              <a
+                              <Link
                                 href="https://www.test-aankoop.be/gezond/dagelijkse-verzorging/haarconditioner"
                                 itemProp="url"
                               >
                                 Haarconditioners
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a
+                              <Link
                                 href="https://www.test-aankoop.be/gezond/dagelijkse-verzorging/shampoo-bars"
                                 itemProp="url"
                               >
                                 Shampoobars
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a
+                              <Link
                                 href="https://www.test-aankoop.be/gezond/dagelijkse-verzorging/douchegel"
                                 itemProp="url"
                               >
                                 Douchegels &amp; shower bars
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a
+                              <Link
                                 href="https://www.test-aankoop.be/gezond/dagelijkse-verzorging/antitranspirant-deodorant"
                                 itemProp="url"
                               >
                                 Deodorants
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a
+                              <Link
                                 href="https://www.test-aankoop.be/gezond/dagelijkse-verzorging/elektrische-tandenborstels"
                                 itemProp="url"
                               >
                                 Elektrische tandenborstels
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a
+                              <Link
                                 href="https://www.test-aankoop.be/gezond/dagelijkse-verzorging/tandpastas"
                                 itemProp="url"
                               >
                                 Tandpasta&quot;s
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/woning-energie/scheermessen" itemProp="url">
+                              <Link href="/woning-energie/scheermessen" itemProp="url">
                                 Scheermessen
-                              </a>
+                              </Link>
                             </li>
                             <li className="extra">
                               <div>
                                 <div className="extra__info">
                                   Hier ben je misschien ook in geïnteresseerd :
                                 </div>
-                                <a
+                                <Link
                                   href="/gezond/dagelijkse-verzorging/geteste-producten/dossier/cosmeticalabels"
                                   className="extra__topic"
                                 >
                                   <div className="extra__topic__type">DOSSIER</div>
                                   <div className="extra__topic__title">Cosmeticalabels</div>
-                                </a>
+                                </Link>
                               </div>
                             </li>
                           </ul>
@@ -3299,35 +3313,35 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </label>
                           <ul className="level4">
                             <li className="level4__item" itemProp="name">
-                              <a
+                              <Link
                                 href="https://www.test-aankoop.be/gezond/dagelijkse-verzorging/tampons"
                                 itemProp="url"
                               >
                                 Tampons
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a
+                              <Link
                                 href="https://www.test-aankoop.be/gezond/dagelijkse-verzorging/maandverband"
                                 itemProp="url"
                               >
                                 Maandverbanden
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a
+                              <Link
                                 href="https://www.test-aankoop.be/gezond/dagelijkse-verzorging/babydoekjes"
                                 itemProp="url"
                               >
                                 Babydoekjes
-                              </a>
+                              </Link>
                             </li>
                             <li className="extra">
                               <div>
                                 <div className="extra__info">
                                   Hier ben je misschien ook in geïnteresseerd :
                                 </div>
-                                <a
+                                <Link
                                   href="/gezond/dagelijkse-verzorging/geteste-producten/dossier/intieme-hygiene"
                                   className="extra__topic"
                                 >
@@ -3335,7 +3349,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                   <div className="extra__topic__title">
                                     Geen speciale wasproducten nodig, zo verzorg je je intieme zone
                                   </div>
-                                </a>
+                                </Link>
                               </div>
                             </li>
                           </ul>
@@ -3351,43 +3365,43 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </label>
                           <ul className="level4">
                             <li className="level4__item" itemProp="name">
-                              <a
+                              <Link
                                 href="https://www.test-aankoop.be/gezond/dagelijkse-verzorging/dagcreme"
                                 itemProp="url"
                               >
                                 Dagcrèmes
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a
+                              <Link
                                 href="https://www.test-aankoop.be/gezond/dagelijkse-verzorging/micellair-water"
                                 itemProp="url"
                               >
                                 Micellair water
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a
+                              <Link
                                 href="https://www.test-aankoop.be/gezond/dagelijkse-verzorging/lippenbalsems"
                                 itemProp="url"
                               >
                                 Lippenbalsems
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a
+                              <Link
                                 href="https://www.test-aankoop.be/gezond/dagelijkse-verzorging/mascara"
                                 itemProp="url"
                               >
                                 Mascara
-                              </a>
+                              </Link>
                             </li>
                             <li className="extra">
                               <div>
                                 <div className="extra__info">
                                   Hier ben je misschien ook in geïnteresseerd :
                                 </div>
-                                <a
+                                <Link
                                   href="/gezond/dagelijkse-verzorging/geteste-producten/nieuws/herbruikbare-make-up-doekjes"
                                   className="extra__topic"
                                 >
@@ -3395,7 +3409,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                   <div className="extra__topic__title">
                                     Test van 11 herbruikbare make-up doekjes
                                   </div>
-                                </a>
+                                </Link>
                               </div>
                             </li>
                           </ul>
@@ -3411,43 +3425,43 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </label>
                           <ul className="level4">
                             <li className="level4__item" itemProp="name">
-                              <a
+                              <Link
                                 href="https://www.test-aankoop.be/gezond/dagelijkse-verzorging/antimuggenmiddelen"
                                 itemProp="url"
                               >
                                 Antimuggenmiddelen
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a
+                              <Link
                                 href="https://www.test-aankoop.be/gezond/dagelijkse-verzorging/anti-luisproducten"
                                 itemProp="url"
                               >
                                 Anti-luisproducten
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a
+                              <Link
                                 href="https://www.test-aankoop.be/gezond/dagelijkse-verzorging/condooms"
                                 itemProp="url"
                               >
                                 Condooms
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a
+                              <Link
                                 href="https://www.test-aankoop.be/gezond/dagelijkse-verzorging/oordoppen"
                                 itemProp="url"
                               >
                                 Oordoppen
-                              </a>
+                              </Link>
                             </li>
                             <li className="extra">
                               <div>
                                 <div className="extra__info">
                                   Hier ben je misschien ook in geïnteresseerd :
                                 </div>
-                                <a
+                                <Link
                                   href="/gezond/dagelijkse-verzorging/anti-luisproducten/dossier/luizen-en-hoe-ze-te-lijf-gaan"
                                   className="extra__topic"
                                 >
@@ -3455,7 +3469,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                   <div className="extra__topic__title">
                                     Wat is het beste middel tegen luizen?
                                   </div>
-                                </a>
+                                </Link>
                               </div>
                             </li>
                           </ul>
@@ -3471,24 +3485,24 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </label>
                           <ul className="level4">
                             <li className="level4__item" itemProp="name">
-                              <a
+                              <Link
                                 href="https://www.test-aankoop.be/gezond/dagelijkse-verzorging/hondenshampoo"
                                 itemProp="url"
                               >
                                 Hondenshampoo
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/woning-energie/huisdieren" itemProp="url">
+                              <Link href="/woning-energie/huisdieren" itemProp="url">
                                 Alles over huisdieren
-                              </a>
+                              </Link>
                             </li>
                             <li className="extra">
                               <div>
                                 <div className="extra__info">
                                   Hier ben je misschien ook in geïnteresseerd :
                                 </div>
-                                <a
+                                <Link
                                   href="https://www.test-aankoop.be/woning-energie/hondenvoer/antwoord-van-expert/hoeveelheid-voer-brokken-hond"
                                   className="extra__topic"
                                 >
@@ -3496,18 +3510,18 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                   <div className="extra__topic__title">
                                     Hoeveel gram brokken moet een hond eten per dag?
                                   </div>
-                                </a>
+                                </Link>
                               </div>
                             </li>
                           </ul>
                         </li>
                         <li className="level__seeAllLink" itemProp="name">
-                          <a
+                          <Link
                             href="https://www.test-aankoop.be/gezond/overzichtspagina?cat=dagelijkse-verzorging"
                             itemProp="url"
                           >
                             Zie meer
-                          </a>
+                          </Link>
                         </li>
                       </ul>
                     </li>
@@ -3532,35 +3546,35 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </label>
                           <ul className="level4">
                             <li className="level4__item" itemProp="name">
-                              <a
+                              <Link
                                 href="https://www.test-aankoop.be/gezond/gezondheidszorg/mutualiteiten"
                                 itemProp="url"
                               >
                                 Ziekenfondsen
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a
+                              <Link
                                 href="https://www.test-aankoop.be/gezond/gezondheidszorg/hospitalisatieverzekering"
                                 itemProp="url"
                               >
                                 Hospitalisatieverzekering
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a
+                              <Link
                                 href="https://www.test-aankoop.be/gezond/gezondheidszorg/medische-tarieven"
                                 itemProp="url"
                               >
                                 Gezondheidsuitgaven
-                              </a>
+                              </Link>
                             </li>
                             <li className="extra">
                               <div>
                                 <div className="extra__info">
                                   Hier ben je misschien ook in geïnteresseerd :
                                 </div>
-                                <a
+                                <Link
                                   href="/gezond/gezondheidszorg/hospitalisatie/dossier/wat-met-uw-hospitalisatieverzekering-bij-uw-pensionering"
                                   className="extra__topic"
                                 >
@@ -3568,7 +3582,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                   <div className="extra__topic__title">
                                     Wat met je hospitalisatieverzekering bij pensioen?
                                   </div>
-                                </a>
+                                </Link>
                               </div>
                             </li>
                           </ul>
@@ -3584,27 +3598,27 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </label>
                           <ul className="level4">
                             <li className="level4__item" itemProp="name">
-                              <a
+                              <Link
                                 href="https://www.test-aankoop.be/gezond/gezondheidszorg/hospitalisatieverzekering"
                                 itemProp="url"
                               >
                                 Hospitalisatieverzekering
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a
+                              <Link
                                 href="https://www.test-aankoop.be/gezond/gezondheidszorg/hospitalisatie"
                                 itemProp="url"
                               >
                                 Hospitalisatie
-                              </a>
+                              </Link>
                             </li>
                             <li className="extra">
                               <div>
                                 <div className="extra__info">
                                   Hier ben je misschien ook in geïnteresseerd :
                                 </div>
-                                <a
+                                <Link
                                   href="/gezond/gezondheidszorg/hospitalisatie/bereken-zelf/de-opnameverklaring-van-a-tot-z-bereken"
                                   className="extra__topic"
                                 >
@@ -3612,7 +3626,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                   <div className="extra__topic__title">
                                     De opnameverklaring van a tot z
                                   </div>
-                                </a>
+                                </Link>
                               </div>
                             </li>
                           </ul>
@@ -3628,35 +3642,35 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </label>
                           <ul className="level4">
                             <li className="level4__item" itemProp="name">
-                              <a
+                              <Link
                                 href="https://www.test-aankoop.be/gezond/gezondheidszorg/thermometers"
                                 itemProp="url"
                               >
                                 Thermometers
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a
+                              <Link
                                 href="https://www.test-aankoop.be/gezond/gezondheidszorg/bloeddrukmeters"
                                 itemProp="url"
                               >
                                 Bloeddrukmeters
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a
+                              <Link
                                 href="https://www.test-aankoop.be/gezond/dagelijkse-verzorging/e-health"
                                 itemProp="url"
                               >
                                 E-health
-                              </a>
+                              </Link>
                             </li>
                             <li className="extra">
                               <div>
                                 <div className="extra__info">
                                   Hier ben je misschien ook in geïnteresseerd :
                                 </div>
-                                <a
+                                <Link
                                   href="/gezond/ziekten-en-geneesmiddelen/ziekten-en-gezondheidsproblemen/dossier/alles-wat-je-moet-weten-over-hypertensie"
                                   className="extra__topic"
                                 >
@@ -3664,7 +3678,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                   <div className="extra__topic__title">
                                     Alles wat je moet weten over hypertensie
                                   </div>
-                                </a>
+                                </Link>
                               </div>
                             </li>
                           </ul>
@@ -3680,51 +3694,51 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </label>
                           <ul className="level4">
                             <li className="level4__item" itemProp="name">
-                              <a
+                              <Link
                                 href="https://www.test-aankoop.be/gezond/ziekten-en-geneesmiddelen/ziekten-en-gezondheidsproblemen"
                                 itemProp="url"
                               >
                                 Ziekten
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a
+                              <Link
                                 href="https://www.test-aankoop.be/gezond/ziekten-en-geneesmiddelen/geneesmiddelen"
                                 itemProp="url"
                               >
                                 Geneesmiddelen
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a
+                              <Link
                                 href="https://www.test-aankoop.be/gezond/gezondheidszorg/geestelijk-gezondheid"
                                 itemProp="url"
                               >
                                 Geestelijke gezondheid
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a
+                              <Link
                                 href="https://www.test-aankoop.be/gezond/gezondheidszorg/preventie"
                                 itemProp="url"
                               >
                                 Preventie
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a
+                              <Link
                                 href="https://www.test-aankoop.be/gezond/dagelijkse-verzorging/eerste-hulp"
                                 itemProp="url"
                               >
                                 Eerste hulp
-                              </a>
+                              </Link>
                             </li>
                             <li className="extra">
                               <div>
                                 <div className="extra__info">
                                   Hier ben je misschien ook in geïnteresseerd :
                                 </div>
-                                <a
+                                <Link
                                   href="/gezond/ziekten-en-geneesmiddelen/geneesmiddelen/nieuws/ozempic"
                                   className="extra__topic"
                                 >
@@ -3732,7 +3746,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                   <div className="extra__topic__title">
                                     Ozempic (semaglutide) om te vermageren: dit moet je weten
                                   </div>
-                                </a>
+                                </Link>
                               </div>
                             </li>
                           </ul>
@@ -3748,27 +3762,27 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </label>
                           <ul className="level4">
                             <li className="level4__item" itemProp="name">
-                              <a
+                              <Link
                                 href="https://www.test-aankoop.be/gezond/gezondheidszorg/patientenrechten"
                                 itemProp="url"
                               >
                                 Patiëntenrechten
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a
+                              <Link
                                 href="https://www.test-aankoop.be/gezond/dagelijkse-verzorging/e-health"
                                 itemProp="url"
                               >
                                 E-health
-                              </a>
+                              </Link>
                             </li>
                             <li className="extra">
                               <div>
                                 <div className="extra__info">
                                   Hier ben je misschien ook in geïnteresseerd :
                                 </div>
-                                <a
+                                <Link
                                   href="/gezond/dagelijkse-verzorging/welzijn/nieuws/gezondheids-en-inspanningsapps"
                                   className="extra__topic"
                                 >
@@ -3777,7 +3791,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                     Gezondheids- en inspanningsapps zijn goeie coaches, maar geen
                                     dokters
                                   </div>
-                                </a>
+                                </Link>
                               </div>
                             </li>
                           </ul>
@@ -3793,27 +3807,27 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </label>
                           <ul className="level4">
                             <li className="level4__item" itemProp="name">
-                              <a
+                              <Link
                                 href="https://www.test-aankoop.be/gezond/dagelijkse-verzorging/luchtreiniger"
                                 itemProp="url"
                               >
                                 Luchtreinigers
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a
+                              <Link
                                 href="https://www.test-aankoop.be/gezond/dagelijkse-verzorging/vervuiling"
                                 itemProp="url"
                               >
                                 Milieu- en chemische vervuiling
-                              </a>
+                              </Link>
                             </li>
                             <li className="extra">
                               <div>
                                 <div className="extra__info">
                                   Hier ben je misschien ook in geïnteresseerd :
                                 </div>
-                                <a
+                                <Link
                                   href="/gezond/dagelijkse-verzorging/vervuiling/dossier/pfas-complete-gids"
                                   className="extra__topic"
                                 >
@@ -3821,18 +3835,18 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                   <div className="extra__topic__title">
                                     Wat je moet weten over PFAS
                                   </div>
-                                </a>
+                                </Link>
                               </div>
                             </li>
                           </ul>
                         </li>
                         <li className="level__seeAllLink" itemProp="name">
-                          <a
+                          <Link
                             href="https://www.test-aankoop.be/gezond/overzichtspagina?cat=gezondheidszorg"
                             itemProp="url"
                           >
                             Zie meer
-                          </a>
+                          </Link>
                         </li>
                       </ul>
                     </li>
@@ -3857,27 +3871,27 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </label>
                           <ul className="level4">
                             <li className="level4__item" itemProp="name">
-                              <a
+                              <Link
                                 href="https://www.test-aankoop.be/gezond/baby-kinderen/zwangerschap"
                                 itemProp="url"
                               >
                                 Zwangerschap
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a
+                              <Link
                                 href="https://www.test-aankoop.be/gezond/baby-kinderen/jonge-ouder"
                                 itemProp="url"
                               >
                                 Jonge ouder
-                              </a>
+                              </Link>
                             </li>
                             <li className="extra">
                               <div>
                                 <div className="extra__info">
                                   Hier ben je misschien ook in geïnteresseerd :
                                 </div>
-                                <a
+                                <Link
                                   href="/gezond/baby-kinderen/zwangerschap/dossier/pijnbestrijding"
                                   className="extra__topic"
                                 >
@@ -3885,7 +3899,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                   <div className="extra__topic__title">
                                     Pijn bestrijden tijdens en na je bevalling
                                   </div>
-                                </a>
+                                </Link>
                               </div>
                             </li>
                           </ul>
@@ -3901,40 +3915,40 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </label>
                           <ul className="level4">
                             <li className="level4__item" itemProp="name">
-                              <a href="/familie-prive/luiers" itemProp="url">
+                              <Link href="/familie-prive/luiers" itemProp="url">
                                 Luiers
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a
+                              <Link
                                 href="https://www.test-aankoop.be/gezond/dagelijkse-verzorging/babydoekjes"
                                 itemProp="url"
                               >
                                 Babydoekjes
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a
+                              <Link
                                 href="https://www.test-aankoop.be/gezond/dagelijkse-verzorging/anti-luisproducten"
                                 itemProp="url"
                               >
                                 Anti-luisproducten
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a
+                              <Link
                                 href="https://www.test-aankoop.be/gezond/voeding/zuivel-kinderen"
                                 itemProp="url"
                               >
                                 Zuivelproducten voor kinderen
-                              </a>
+                              </Link>
                             </li>
                             <li className="extra">
                               <div>
                                 <div className="extra__info">
                                   Hier ben je misschien ook in geïnteresseerd :
                                 </div>
-                                <a
+                                <Link
                                   href="https://www.test-aankoop.be/familie-prive/luiers/antwoord-van-expert/luiers-voor-gevoelige-huid"
                                   className="extra__topic"
                                 >
@@ -3942,25 +3956,25 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                   <div className="extra__topic__title">
                                     Welke luiers kiezen voor baby&quot;s met een gevoelige huid?
                                   </div>
-                                </a>
+                                </Link>
                               </div>
                             </li>
                           </ul>
                         </li>
                         <li className="level__seeAllLink" itemProp="name">
-                          <a
+                          <Link
                             href="https://www.test-aankoop.be/gezond/overzichtspagina?cat=baby-kinderen"
                             itemProp="url"
                           >
                             Zie meer
-                          </a>
+                          </Link>
                         </li>
                       </ul>
                     </li>
                     <li className="level__seeAllLink" itemProp="name">
-                      <a href="https://www.test-aankoop.be/gezondheid" itemProp="url">
+                      <Link href="https://www.test-aankoop.be/gezondheid" itemProp="url">
                         Alles over voeding en gezondheid
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </li>
@@ -3981,24 +3995,24 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                       </label>
                       <ul className="level3">
                         <li className="level3__item" itemProp="name">
-                          <a href="/klagen" itemProp="url">
+                          <Link href="/klagen" itemProp="url">
                             Dien online een klacht in
-                          </a>
+                          </Link>
                         </li>
                         <li className="level3__item" itemProp="name">
-                          <a href="/klagen/publieke-klachten" itemProp="url">
+                          <Link href="/klagen/publieke-klachten" itemProp="url">
                             Alle klachten
-                          </a>
+                          </Link>
                         </li>
                         <li className="level3__item" itemProp="name">
-                          <a href="/klagen/mijn-klachten" itemProp="url">
+                          <Link href="/klagen/mijn-klachten" itemProp="url">
                             Mijn klachten
-                          </a>
+                          </Link>
                         </li>
                         <li className="level3__item" itemProp="name">
-                          <a href="/klagen/scorebord" itemProp="url">
+                          <Link href="/klagen/scorebord" itemProp="url">
                             Ranglijst bedrijven
-                          </a>
+                          </Link>
                         </li>
                       </ul>
                     </li>
@@ -4013,9 +4027,9 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                       </label>
                       <ul className="level3">
                         <li className="level3__item" itemProp="name">
-                          <a href="/contact/contacteer-ons/juridisch-advies" itemProp="url">
+                          <Link href="/contact/contacteer-ons/juridisch-advies" itemProp="url">
                             Neem contact op met onze advocaten
-                          </a>
+                          </Link>
                         </li>
                       </ul>
                     </li>
@@ -4040,27 +4054,27 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </label>
                           <ul className="level4">
                             <li className="level4__item" itemProp="name">
-                              <a href="/familie-prive/privacy" itemProp="url">
+                              <Link href="/familie-prive/privacy" itemProp="url">
                                 Privacy
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/familie-prive/erfenis" itemProp="url">
+                              <Link href="/familie-prive/erfenis" itemProp="url">
                                 Erfenis
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/familie-prive/trouwen-en-scheiden" itemProp="url">
+                              <Link href="/familie-prive/trouwen-en-scheiden" itemProp="url">
                                 Trouwen en scheiden
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a
+                              <Link
                                 href="https://www.test-aankoop.be/gezond/gezondheidszorg/patientenrechten"
                                 itemProp="url"
                               >
                                 Patiëntenrechten
-                              </a>
+                              </Link>
                             </li>
                           </ul>
                         </li>
@@ -4075,14 +4089,14 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </label>
                           <ul className="level4">
                             <li className="level4__item" itemProp="name">
-                              <a href="/familie-prive/erfenis" itemProp="url">
+                              <Link href="/familie-prive/erfenis" itemProp="url">
                                 Erfenis
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/geld/belastingen" itemProp="url">
+                              <Link href="/geld/belastingen" itemProp="url">
                                 Belastingen
-                              </a>
+                              </Link>
                             </li>
                           </ul>
                         </li>
@@ -4097,14 +4111,14 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </label>
                           <ul className="level4">
                             <li className="level4__item" itemProp="name">
-                              <a href="/woning-energie/huren" itemProp="url">
+                              <Link href="/woning-energie/huren" itemProp="url">
                                 Huren &amp; verhuren
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/woning-energie/kopen" itemProp="url">
+                              <Link href="/woning-energie/kopen" itemProp="url">
                                 Kopen, verkopen, bouwen &amp; verbouwen
-                              </a>
+                              </Link>
                             </li>
                           </ul>
                         </li>
@@ -4119,26 +4133,26 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </label>
                           <ul className="level4">
                             <li className="level4__item" itemProp="name">
-                              <a href="/familie-prive/webshops" itemProp="url">
+                              <Link href="/familie-prive/webshops" itemProp="url">
                                 Online kopen
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/familie-prive/solden" itemProp="url">
+                              <Link href="/familie-prive/solden" itemProp="url">
                                 Solden &amp; promoties
-                              </a>
+                              </Link>
                             </li>
                             <li className="level4__item" itemProp="name">
-                              <a href="/familie-prive/consumentenrechten" itemProp="url">
+                              <Link href="/familie-prive/consumentenrechten" itemProp="url">
                                 Consumentenrechten
-                              </a>
+                              </Link>
                             </li>
                             <li className="extra">
                               <div>
                                 <div className="extra__info">
                                   Hier ben je misschien ook in geïnteresseerd :
                                 </div>
-                                <a
+                                <Link
                                   href="https://www.test-aankoop.be/familie-prive/webshops/dossier/oplichterij-via-internet"
                                   className="extra__topic"
                                 >
@@ -4146,7 +4160,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                   <div className="extra__topic__title">
                                     Oplichterij via internet
                                   </div>
-                                </a>
+                                </Link>
                               </div>
                             </li>
                           </ul>
@@ -4164,27 +4178,27 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                       </label>
                       <ul className="level3">
                         <li className="level3__item" itemProp="name">
-                          <a href="/te-rap-kapot" itemProp="url">
+                          <Link href="/te-rap-kapot" itemProp="url">
                             Te rap kapot toestellen
-                          </a>
+                          </Link>
                         </li>
                         <li className="level3__item" itemProp="name">
-                          <a href="/mobiliteit/auto-s/nieuws/adblue" itemProp="url">
+                          <Link href="/mobiliteit/auto-s/nieuws/adblue" itemProp="url">
                             Defect AdBlue-systeem
-                          </a>
+                          </Link>
                         </li>
                         <li className="level3__item" itemProp="name">
-                          <a
+                          <Link
                             href="/geld/zichtrekeningen/nieuws/petitie-bankautomaten-batopin"
                             itemProp="url"
                           >
                             Petitie toegankelijkheid bankautomaten
-                          </a>
+                          </Link>
                         </li>
                         <li className="level__seeAllLink" itemProp="name">
-                          <a href="/overzicht-acties" itemProp="url">
+                          <Link href="/overzicht-acties" itemProp="url">
                             Al onze acties
-                          </a>
+                          </Link>
                         </li>
                       </ul>
                     </li>
@@ -4199,59 +4213,59 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                       </label>
                       <ul className="level3">
                         <li className="level3__item" itemProp="name">
-                          <a
+                          <Link
                             href="https://www.test-aankoop.be/overzichtspagina?type=standard-letters&cat=woning-energie"
                             itemProp="url"
                           >
                             Woning &amp; energie
-                          </a>
+                          </Link>
                         </li>
                         <li className="level3__item" itemProp="name">
-                          <a
+                          <Link
                             href="https://www.test-aankoop.be/overzichtspagina?type=standard-letters&cat=hightech"
                             itemProp="url"
                           >
                             Hightech
-                          </a>
+                          </Link>
                         </li>
                         <li className="level3__item" itemProp="name">
-                          <a
+                          <Link
                             href="https://www.test-aankoop.be/overzichtspagina?type=standard-letters&cat=familie-prive"
                             itemProp="url"
                           >
                             Familie &amp; privé
-                          </a>
+                          </Link>
                         </li>
                         <li className="level3__item" itemProp="name">
-                          <a
+                          <Link
                             href="https://www.test-aankoop.be/overzichtspagina?type=standard-letters&cat=geld"
                             itemProp="url"
                           >
                             Geld
-                          </a>
+                          </Link>
                         </li>
                         <li className="level3__item" itemProp="name">
-                          <a
+                          <Link
                             href="https://www.test-aankoop.be/overzichtspagina?type=standard-letters&cat=mobiliteit"
                             itemProp="url"
                           >
                             Mobiliteit
-                          </a>
+                          </Link>
                         </li>
                         <li className="level3__item" itemProp="name">
-                          <a
+                          <Link
                             href="https://www.test-aankoop.be/overzichtspagina?type=standard-letters&cat=dagelijkse-verzorging"
                             itemProp="url"
                           >
                             Dagelijkse verzorging
-                          </a>
+                          </Link>
                         </li>
                       </ul>
                     </li>
                     <li className="level__seeAllLink" itemProp="name">
-                      <a href="/alles-over-je-rechten" itemProp="url">
+                      <Link href="/alles-over-je-rechten" itemProp="url">
                         Alles over je rechten
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </li>
@@ -4272,12 +4286,12 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                       </label>
                       <ul className="level3">
                         <li className="level3__item" itemProp="name">
-                          <a
+                          <Link
                             href="https://www.test-aankoop.be/invest/mijn-portefeuille"
                             itemProp="url"
                           >
                             Creëer uw portefeuille
-                          </a>
+                          </Link>
                         </li>
                       </ul>
                     </li>
@@ -4292,57 +4306,60 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                       </label>
                       <ul className="level3">
                         <li className="level3__item" itemProp="name">
-                          <a
+                          <Link
                             href="https://www.test-aankoop.be/invest/onze-strategieen-en-typeportefeuilles/evenwichtige-belegger"
                             itemProp="url"
                           >
                             Onze strategieën en modelportefeuilles
-                          </a>
+                          </Link>
                         </li>
                         <li className="level3__item" itemProp="name">
-                          <a
+                          <Link
                             href="https://www.test-aankoop.be/invest/beleggen/aandelen"
                             itemProp="url"
                           >
                             Aandelen
-                          </a>
+                          </Link>
                         </li>
                         <li className="level3__item" itemProp="name">
-                          <a
+                          <Link
                             href="https://www.test-aankoop.be/invest/beleggen/fondsen"
                             itemProp="url"
                           >
                             Fondsen
-                          </a>
+                          </Link>
                         </li>
                         <li className="level3__item" itemProp="name">
-                          <a
+                          <Link
                             href="https://www.test-aankoop.be/invest/beleggen/obligaties"
                             itemProp="url"
                           >
                             Obligaties
-                          </a>
+                          </Link>
                         </li>
                         <li className="level3__item" itemProp="name">
-                          <a href="https://www.test-aankoop.be/invest/beleggen/goud" itemProp="url">
+                          <Link
+                            href="https://www.test-aankoop.be/invest/beleggen/goud"
+                            itemProp="url"
+                          >
                             Goud en goudmijnen
-                          </a>
+                          </Link>
                         </li>
                         <li className="level3__item" itemProp="name">
-                          <a
+                          <Link
                             href="https://www.test-aankoop.be/invest/beleggen/vastgoed"
                             itemProp="url"
                           >
                             Vastgoedproducten
-                          </a>
+                          </Link>
                         </li>
                         <li className="level3__item" itemProp="name">
-                          <a
+                          <Link
                             href="https://www.test-aankoop.be/invest/beleggen/markten-en-wisselkoersen"
                             itemProp="url"
                           >
                             Markten en Wisselkoersen
-                          </a>
+                          </Link>
                         </li>
                       </ul>
                     </li>
@@ -4357,36 +4374,36 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                       </label>
                       <ul className="level3">
                         <li className="level3__item" itemProp="name">
-                          <a
+                          <Link
                             href="https://www.test-aankoop.be/invest/onze-strategieen-en-typeportefeuilles/spaarder"
                             itemProp="url"
                           >
                             Onze strategieën en modelportefeuilles
-                          </a>
+                          </Link>
                         </li>
                         <li className="level3__item" itemProp="name">
-                          <a
+                          <Link
                             href="https://www.test-aankoop.be/invest/sparen/spaarrekeningen"
                             itemProp="url"
                           >
                             Spaarrekeningen
-                          </a>
+                          </Link>
                         </li>
                         <li className="level3__item" itemProp="name">
-                          <a
+                          <Link
                             href="https://www.test-aankoop.be/invest/sparen/spaarverzekeringen"
                             itemProp="url"
                           >
                             Spaarverzekeringen
-                          </a>
+                          </Link>
                         </li>
                         <li className="level3__item" itemProp="name">
-                          <a
+                          <Link
                             href="https://www.test-aankoop.be/invest/sparen/pensioensparen"
                             itemProp="url"
                           >
                             Pensioensparen
-                          </a>
+                          </Link>
                         </li>
                       </ul>
                     </li>
@@ -4401,42 +4418,46 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                       </label>
                       <ul className="level3">
                         <li className="level3__item" itemProp="name">
-                          <a
+                          <Link
                             href="https://www.test-aankoop.be/invest/fiscaliteit-en-wetgeving/belastingheffing"
                             itemProp="url"
                           >
                             Belastingheffing
-                          </a>
+                          </Link>
                         </li>
                         <li className="level3__item" itemProp="name">
-                          <a
+                          <Link
                             href="https://www.test-aankoop.be/invest/fiscaliteit-en-wetgeving/veiligheid-van-uw-beleggings-en-spaartegoeden"
                             itemProp="url"
                           >
                             Veiligheid van uw beleggings en spaartegoeden
-                          </a>
+                          </Link>
                         </li>
                         <li className="level3__item" itemProp="name">
-                          <a
+                          <Link
                             href="https://www.test-aankoop.be/invest/sparen/pensioensparen"
                             itemProp="url"
                           >
                             Pensioen
-                          </a>
+                          </Link>
                         </li>
                       </ul>
                     </li>
                     <li className="level__seeAllLink" itemProp="name">
-                      <a href="https://www.test-aankoop.be/invest" itemProp="url">
+                      <Link href="https://www.test-aankoop.be/invest" itemProp="url">
                         Alles over investeren
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </li>
                 <li className="level1__item pillar-5">
-                  <a href="https://www.test-aankoop.be/voordelen" className="main" itemProp="url">
+                  <Link
+                    href="https://www.test-aankoop.be/voordelen"
+                    className="main"
+                    itemProp="url"
+                  >
                     <span itemProp="name">Ledenvoordelen</span>
-                  </a>
+                  </Link>
                 </li>
                 <li className="level1__item">
                   <input type="checkbox" className="hidden level2Checkbox" id="menu-allWebsites" />
@@ -4445,69 +4466,69 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                   </label>
                   <ul className="level2">
                     <li className="level2__item">
-                      <a href="/repairguide" data-selector="web4-navigation-l2link">
+                      <Link href="/repairguide" data-selector="web4-navigation-l2link">
                         Repairguide
-                      </a>
+                      </Link>
                     </li>
                     <li className="level2__item">
-                      <a
+                      <Link
                         href="https://www.test-aankoop.be/pers"
                         data-selector="web4-navigation-l2link"
                       >
                         Pers &amp; Institutioneel
-                      </a>
+                      </Link>
                     </li>
                     <li className="level2__item">
-                      <a
+                      <Link
                         href="https://www.test-aankoop.be/invest"
                         data-selector="web4-navigation-l2link"
                         target="_blank"
                       >
                         Testaankoop invest
-                      </a>
+                      </Link>
                     </li>
                     <li className="level2__item">
-                      <a
+                      <Link
                         href="/werken-bij-test-aankoop"
                         data-selector="web4-navigation-l2link"
                         target="_blank"
                       >
                         Jobs
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </li>
                 <li className="level1__link">
-                  <a
+                  <Link
                     href="https://login.test-aankoop.be/?wtrealm=eur%3a%2f%2fobiz.pro.obizpromo.nl-be%2f&wa=wsignin1.0&_gl=1*x387ll*_ga*ODg5NzU2ODU4LjE1OTcyMzE2MjQ.*_ga_9K2NF23KQW*MTY2ODUwNjAwMS4xMDIuMC4xNjY4NTA2MDAxLjAuMC4w&_gac=1.228120047.1666081277.Cj0KCQjwnbmaBhD-ARIsAGTPcfWK5Hv3BVLmGEgsOme9v6mPu-kaZ8cda3vr3kfajC9kpF7kzOWVbu4aAsUOEALw_wcB&_ga=2.22805883.1315290994.1668506002-821044984.1597672129"
                     data-selector="web4-navigation-l1link"
                     target="_blank"
                   >
                     Members Club
-                  </a>
+                  </Link>
                 </li>
                 <li className="level1__link">
-                  <a href="/energyguide" data-selector="web4-navigation-l1link">
+                  <Link href="/energyguide" data-selector="web4-navigation-l1link">
                     Energy-guide
-                  </a>
+                  </Link>
                 </li>
                 <li className="level1__link">
-                  <a
+                  <Link
                     href="/acties/ratemydeal"
                     data-selector="web4-navigation-l1link"
                     target="_blank"
                   >
                     Rate my deal
-                  </a>
+                  </Link>
                 </li>
                 <li className="level1__link">
-                  <a
+                  <Link
                     href="/contact/contacteer-ons"
                     className="contact"
                     data-selector="web4-navigation-contact"
                   >
                     Contacteer ons
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -4545,7 +4566,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                   />
                                 </picture>
                               </div>
-                              <a
+                              <Link
                                 href="/familie-prive/solden/nieuws/beste-deal?int_source=test-a&int_medium=wel_media&int_term=anonymous"
                                 className="welcome-banner-media-item__card__clickable-zone"
                               >
@@ -4573,7 +4594,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                     <i className="icon icon-decomais-arrow-right" />
                                   </div>
                                 </div>
-                              </a>{' '}
+                              </Link>{' '}
                             </div>
                           </section>
                           {/* welcomeBannerMediaItem end */}
@@ -4604,7 +4625,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           {/* welcomeBannerContentItem start */}
                           <section className="section welcome-banner-content-item">
                             <div className="welcome-banner-content-item__card">
-                              <a
+                              <Link
                                 href="/mobiliteit/fietsen/nieuws/de-beste-elektrische-fietsen-onder-2-500-euro?int_source=test-a&int_medium=wel_content_trend&int_content=news&int_term=anonymous"
                                 className="welcome-banner-content-item__card__clickable-zone"
                               >
@@ -4627,14 +4648,14 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                     advies
                                   </h3>
                                 </div>
-                              </a>{' '}
+                              </Link>{' '}
                             </div>
                           </section>
                           {/* welcomeBannerContentItem end */}
                           {/* welcomeBannerContentItem start */}
                           <section className="section welcome-banner-content-item">
                             <div className="welcome-banner-content-item__card">
-                              <a
+                              <Link
                                 href="/woning-energie/gas-elektriciteit-mazout-pellets/nieuws/nieuwe-vaste-contracten-is-dit-het-moment-om-te-switchen?int_source=test-a&int_medium=wel_content_trend&int_content=news&int_term=anonymous"
                                 className="welcome-banner-content-item__card__clickable-zone"
                               >
@@ -4657,14 +4678,14 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                     voordelig?
                                   </h3>
                                 </div>
-                              </a>{' '}
+                              </Link>{' '}
                             </div>
                           </section>
                           {/* welcomeBannerContentItem end */}
                           {/* welcomeBannerContentItem start */}
                           <section className="section welcome-banner-content-item">
                             <div className="welcome-banner-content-item__card">
-                              <a
+                              <Link
                                 href="/huishoudelektro/stoomreinigers/nieuws/is-een-stoomreiniger-beter-dan-emmer-en-dweil?int_source=test-a&int_medium=wel_content_trend&int_content=news&int_term=anonymous"
                                 className="welcome-banner-content-item__card__clickable-zone"
                               >
@@ -4686,7 +4707,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                     Is een stoomreiniger beter dan emmer en dweil?
                                   </h3>
                                 </div>
-                              </a>{' '}
+                              </Link>{' '}
                             </div>
                           </section>
                           {/* welcomeBannerContentItem end */}
@@ -4762,7 +4783,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                     </div>
                     <div className="welcome-banner-links__content__menus">
                       <div className="welcome-banner-links__content__menus__links">
-                        <a
+                        <Link
                           href="/energyguide?int_source=test-a&int_medium=wel_links&int_term=anonymous"
                           className="welcome-banner-links__content__menus__link btn--tertiary"
                           target="_blank"
@@ -4774,8 +4795,8 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           >
                             Energiefactuur
                           </span>
-                        </a>
-                        <a
+                        </Link>
+                        <Link
                           href="/acties/ratemydeal?int_source=test-a&int_medium=wel_links&int_term=anonymous"
                           className="welcome-banner-links__content__menus__link btn--tertiary"
                           target="_blank"
@@ -4787,8 +4808,8 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           >
                             Vind een goede deal
                           </span>
-                        </a>
-                        <a
+                        </Link>
+                        <Link
                           href="https://www.test-aankoop.be/gezond/voeding/gezonde-voeding?int_source=test-a&int_medium=wel_links&int_term=anonymous"
                           className="welcome-banner-links__content__menus__link btn--tertiary"
                           target="|Custom"
@@ -4800,8 +4821,8 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           >
                             Gezonde voeding
                           </span>
-                        </a>
-                        <a
+                        </Link>
+                        <Link
                           href="/contact/contacteer-ons/juridisch-advies?int_source=test-a&int_medium=wel_links&int_term=anonymous"
                           className="welcome-banner-links__content__menus__link btn--tertiary"
                           target="|Custom"
@@ -4813,8 +4834,8 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           >
                             Juridische bijstand
                           </span>
-                        </a>
-                        <a
+                        </Link>
+                        <Link
                           href="https://www.test-aankoop.be/invest/beleggen?int_source=test-a&int_medium=wel_links&int_term=anonymous"
                           className="welcome-banner-links__content__menus__link btn--tertiary"
                           target="_blank"
@@ -4826,10 +4847,10 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           >
                             Beleggen
                           </span>
-                        </a>{' '}
+                        </Link>{' '}
                       </div>
                       <div className="welcome-banner-links__content__cta">
-                        <a
+                        <Link
                           href="https://ontdek.test-aankoop.be/2023/newmarketplace?prm_id_c=HOMEPAG1N&par_id_c=CTAbutton&cop_id_c=Homepagepanel"
                           className="btn btn--primary welcome-banner-links__content__cta__button"
                           title=""
@@ -4842,7 +4863,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           >
                             Word nu lid
                           </span>
-                        </a>{' '}
+                        </Link>{' '}
                       </div>
                     </div>
                   </div>
@@ -4889,13 +4910,13 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                         </div>
                       </div>
                       <strong className="spotlight-card--title margin--bottom-xsmall">
-                        <a
+                        <Link
                           className="link-underline-never"
                           href="/huishoudelektro/wasmachines/nieuws/stille-wasmachines"
                           title="Wat is de stilste wasmachine?"
                         >
                           Wat is de stilste wasmachine?
-                        </a>
+                        </Link>
                       </strong>
                       <div
                         className="spotlight-card--footer flex__row flex__row--bottom margin--top-xlarge"
@@ -4906,14 +4927,14 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           data-selector="read-more"
                         >
                           <p className="no-margin spotlight-card--read-more">
-                            <a
+                            <Link
                               href="/huishoudelektro/wasmachines/nieuws/stille-wasmachines"
                               title="Wat is de stilste wasmachine?"
                             >
                               <span>
                                 Lees meer <i className="icon icon--small icon-chevron-right" />
                               </span>
-                            </a>
+                            </Link>
                           </p>
                         </div>
                         <div className="flex__col align-right">
@@ -4924,7 +4945,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                               className=""
                             >
                               <div className="relative" data-selector="bookmark">
-                                <a
+                                <Link
                                   href="javascript:void(0)"
                                   title="Naar bewaarde artikelen"
                                   data-plugin="tooltip"
@@ -4939,7 +4960,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                               className=""
                             >
                               <div data-selector="share-links" className="share-links ">
-                                <a
+                                <Link
                                   href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fwww.test-aankoop.be%2f?skipbean=true"
                                   className="icon icon-facebook social__section--facebook "
                                   title="Deel op Facebook"
@@ -4953,8 +4974,8 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                   }}
                                 >
                                   Deel op Facebook
-                                </a>
-                                <a
+                                </Link>
+                                <Link
                                   href="https://twitter.com/intent/tweet?url=https%3a%2f%2fwww.test-aankoop.be%2f?skipbean=true&via=Testaankoop&text=Wat+is+de+stilste+wasmachine%3f"
                                   className="icon icon-twitter social__section--twitter "
                                   title="Deel op Twitter"
@@ -4968,15 +4989,15 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                   }}
                                 >
                                   Deel op Twitter
-                                </a>
-                                <a
+                                </Link>
+                                <Link
                                   href="whatsapp://send?text=Wat+is+de+stilste+wasmachine%3f%20https%3a%2f%2fwww.test-aankoop.be%2f?skipbean=true%3Futm_source%3Dwhatsapp%26utm_campaign%3Dweblink%26utm_medium%3Dsocial"
                                   className="icon icon-whatsapp social__section--whatsapp mobile-only"
                                   title="Deel via WhatsApp"
                                 >
                                   Deel via WhatsApp
-                                </a>
-                                <a
+                                </Link>
+                                <Link
                                   href="#email-modal"
                                   data-selector="email-popup-trigger"
                                   data-url-publication-link="sec://realm/euroconsumers.pro.sitecorecd.nl-be/vMfOckHRTJqL6BdJg_bN0t8nMt-8xFeQYlQFj8oXns4GAsknCq5NtPJCbpOrI9PV3SX-4Z8PZEJvZwry02DKYYuhkn3U7J5VcMZjg1c2-hH1rGJO0"
@@ -4984,9 +5005,9 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                   className="icon icon-mail"
                                 >
                                   Send by Email
-                                </a>
+                                </Link>
                               </div>
-                              <a
+                              <Link
                                 href="#"
                                 onClick={(e) => {
                                   e.preventDefault();
@@ -4995,7 +5016,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                 className="icon icon-share"
                               >
                                 Share..
-                              </a>
+                              </Link>
                               <div
                                 id="form-send-email"
                                 data-plugin="form"
@@ -5013,7 +5034,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                         </div>
                       </div>
                     </div>
-                    <a
+                    <Link
                       href="/huishoudelektro/wasmachines/nieuws/stille-wasmachines"
                       className="spotlight-card__clickable-zone"
                     />
@@ -5037,14 +5058,14 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                         </div>
                       </div>
                       <strong className="spotlight-card--title margin--bottom-xsmall">
-                        <a
+                        <Link
                           className="link-underline-never"
                           href="https://www.test-aankoop.be/gezond/voeding/voedselveiligheid-en-additieven/nieuws/albert-heijn-blauwe-bessen"
                           title="Albert Heijn diepvries blauwe bessen: wat moet je doen als er een terugroepactie is?"
                         >
                           Albert Heijn diepvries blauwe bessen: wat moet je doen als er een
                           terugroepactie is?
-                        </a>
+                        </Link>
                       </strong>
                       <div
                         className="spotlight-card--footer flex__row flex__row--bottom margin--top-xlarge"
@@ -5055,14 +5076,14 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           data-selector="read-more"
                         >
                           <p className="no-margin spotlight-card--read-more">
-                            <a
+                            <Link
                               href="https://www.test-aankoop.be/gezond/voeding/voedselveiligheid-en-additieven/nieuws/albert-heijn-blauwe-bessen"
                               title="Albert Heijn diepvries blauwe bessen: wat moet je doen als er een terugroepactie is?"
                             >
                               <span>
                                 Lees meer <i className="icon icon--small icon-chevron-right" />
                               </span>
-                            </a>
+                            </Link>
                           </p>
                         </div>
                         <div className="flex__col align-right">
@@ -5073,7 +5094,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                               className=""
                             >
                               <div className="relative" data-selector="bookmark">
-                                <a
+                                <Link
                                   href="javascript:void(0)"
                                   title="Naar bewaarde artikelen"
                                   data-plugin="tooltip"
@@ -5088,7 +5109,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                               className=""
                             >
                               <div data-selector="share-links" className="share-links ">
-                                <a
+                                <Link
                                   href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fwww.test-aankoop.be%2f?skipbean=true"
                                   className="icon icon-facebook social__section--facebook "
                                   title="Deel op Facebook"
@@ -5102,8 +5123,8 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                   }}
                                 >
                                   Deel op Facebook
-                                </a>
-                                <a
+                                </Link>
+                                <Link
                                   href="https://twitter.com/intent/tweet?url=https%3a%2f%2fwww.test-aankoop.be%2f?skipbean=true&via=Testaankoop&text=Albert+Heijn+diepvries+blauwe+bessen%3a+wat+moet+je+doen+als+er+een+terugroepactie+is%3f"
                                   className="icon icon-twitter social__section--twitter "
                                   title="Deel op Twitter"
@@ -5117,15 +5138,15 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                   }}
                                 >
                                   Deel op Twitter
-                                </a>
-                                <a
+                                </Link>
+                                <Link
                                   href="whatsapp://send?text=Albert+Heijn+diepvries+blauwe+bessen%3a+wat+moet+je+doen+als+er+een+terugroepactie+is%3f%20https%3a%2f%2fwww.test-aankoop.be%2f?skipbean=true%3Futm_source%3Dwhatsapp%26utm_campaign%3Dweblink%26utm_medium%3Dsocial"
                                   className="icon icon-whatsapp social__section--whatsapp mobile-only"
                                   title="Deel via WhatsApp"
                                 >
                                   Deel via WhatsApp
-                                </a>
-                                <a
+                                </Link>
+                                <Link
                                   href="#email-modal"
                                   data-selector="email-popup-trigger"
                                   data-url-publication-link="sec://realm/euroconsumers.pro.sitecorecd.nl-be/VRbBjrRNLsp4gnx9sdBRMbTAPli4t5ZQwZUw-jJnHGjq9HDLFwPI1W2wdy9izhJQ2h0m1j9ezXQXzFOo2qQqgaudwlqayAwRbZ0Bqaj19Ftn47_c0"
@@ -5133,9 +5154,9 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                   className="icon icon-mail"
                                 >
                                   Send by Email
-                                </a>
+                                </Link>
                               </div>
-                              <a
+                              <Link
                                 href="#"
                                 onClick={(e) => {
                                   e.preventDefault();
@@ -5144,13 +5165,13 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                 className="icon icon-share"
                               >
                                 Share..
-                              </a>
+                              </Link>
                             </div>
                           </div>
                         </div>
                       </div>
                     </div>
-                    <a
+                    <Link
                       href="https://www.test-aankoop.be/gezond/voeding/voedselveiligheid-en-additieven/nieuws/albert-heijn-blauwe-bessen"
                       className="spotlight-card__clickable-zone"
                     />
@@ -5174,13 +5195,13 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                         </div>
                       </div>
                       <strong className="spotlight-card--title margin--bottom-xsmall">
-                        <a
+                        <Link
                           className="link-underline-never"
                           href="/woning-energie/afwasmiddelen/nieuws/top-5-beste-afwasmiddelen"
                           title="De top 5 beste afwasmiddelen"
                         >
                           De top 5 beste afwasmiddelen
-                        </a>
+                        </Link>
                       </strong>
                       <div
                         className="spotlight-card--footer flex__row flex__row--bottom margin--top-xlarge"
@@ -5191,14 +5212,14 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           data-selector="read-more"
                         >
                           <p className="no-margin spotlight-card--read-more">
-                            <a
+                            <Link
                               href="/woning-energie/afwasmiddelen/nieuws/top-5-beste-afwasmiddelen"
                               title="De top 5 beste afwasmiddelen"
                             >
                               <span>
                                 Lees meer <i className="icon icon--small icon-chevron-right" />
                               </span>
-                            </a>
+                            </Link>
                           </p>
                         </div>
                         <div className="flex__col align-right">
@@ -5209,7 +5230,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                               className=""
                             >
                               <div className="relative" data-selector="bookmark">
-                                <a
+                                <Link
                                   href="javascript:void(0)"
                                   title="Naar bewaarde artikelen"
                                   data-plugin="tooltip"
@@ -5224,7 +5245,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                               className=""
                             >
                               <div data-selector="share-links" className="share-links ">
-                                <a
+                                <Link
                                   href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fwww.test-aankoop.be%2f?skipbean=true"
                                   className="icon icon-facebook social__section--facebook "
                                   title="Deel op Facebook"
@@ -5238,8 +5259,8 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                   }}
                                 >
                                   Deel op Facebook
-                                </a>
-                                <a
+                                </Link>
+                                <Link
                                   href="https://twitter.com/intent/tweet?url=https%3a%2f%2fwww.test-aankoop.be%2f?skipbean=true&via=Testaankoop&text=De+5+beste+afwasmiddelen+voor+een+propere+vaat"
                                   className="icon icon-twitter social__section--twitter "
                                   title="Deel op Twitter"
@@ -5253,15 +5274,15 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                   }}
                                 >
                                   Deel op Twitter
-                                </a>
-                                <a
+                                </Link>
+                                <Link
                                   href="whatsapp://send?text=De+5+beste+afwasmiddelen+voor+een+propere+vaat%20https%3a%2f%2fwww.test-aankoop.be%2f?skipbean=true%3Futm_source%3Dwhatsapp%26utm_campaign%3Dweblink%26utm_medium%3Dsocial"
                                   className="icon icon-whatsapp social__section--whatsapp mobile-only"
                                   title="Deel via WhatsApp"
                                 >
                                   Deel via WhatsApp
-                                </a>
-                                <a
+                                </Link>
+                                <Link
                                   href="#email-modal"
                                   data-selector="email-popup-trigger"
                                   data-url-publication-link="sec://realm/euroconsumers.pro.sitecorecd.nl-be/zhok8rWcciwprC8PyybviCxQLfZaZ36ifMl9IVLo_3JO8HNQMMCIhNcdsjYH3jqc6wyPJMrIZeC_TdDoyt2vUZkLcCUM3kqFnok8Q6VLOfwDjb760"
@@ -5269,9 +5290,9 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                   className="icon icon-mail"
                                 >
                                   Send by Email
-                                </a>
+                                </Link>
                               </div>
-                              <a
+                              <Link
                                 href="#"
                                 onClick={(e) => {
                                   e.preventDefault();
@@ -5280,13 +5301,13 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                 className="icon icon-share"
                               >
                                 Share..
-                              </a>
+                              </Link>
                             </div>
                           </div>
                         </div>
                       </div>
                     </div>
-                    <a
+                    <Link
                       href="/woning-energie/afwasmiddelen/nieuws/top-5-beste-afwasmiddelen"
                       className="spotlight-card__clickable-zone"
                     />
@@ -5310,13 +5331,13 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                         </div>
                       </div>
                       <strong className="spotlight-card--title margin--bottom-xsmall">
-                        <a
+                        <Link
                           className="link-underline-never"
                           href="/woning-energie/gas-elektriciteit-mazout-pellets/hoe-kiezen"
                           title="Waar moet je op letten bij het kiezen van je energieleverancier?"
                         >
                           Waar moet je op letten bij het kiezen van je energieleverancier?
-                        </a>
+                        </Link>
                       </strong>
                       <div
                         className="spotlight-card--footer flex__row flex__row--bottom margin--top-xlarge"
@@ -5327,7 +5348,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           data-selector="read-more"
                         >
                           <p className="no-margin spotlight-card--read-more">
-                            <a
+                            <Link
                               href="/woning-energie/gas-elektriciteit-mazout-pellets/hoe-kiezen"
                               title="Waar moet je op letten bij het kiezen van je energieleverancier?"
                             >
@@ -5335,7 +5356,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                 Naar de koopgids{' '}
                                 <i className="icon icon--small icon-chevron-right" />
                               </span>
-                            </a>
+                            </Link>
                           </p>
                         </div>
                         <div className="flex__col align-right">
@@ -5346,7 +5367,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                               className=""
                             >
                               <div className="relative" data-selector="bookmark">
-                                <a
+                                <Link
                                   href="javascript:void(0)"
                                   title="Naar bewaarde artikelen"
                                   data-plugin="tooltip"
@@ -5361,7 +5382,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                               className=""
                             >
                               <div data-selector="share-links" className="share-links ">
-                                <a
+                                <Link
                                   href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fwww.test-aankoop.be%2f?skipbean=true"
                                   className="icon icon-facebook social__section--facebook "
                                   title="Deel op Facebook"
@@ -5375,8 +5396,8 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                   }}
                                 >
                                   Deel op Facebook
-                                </a>
-                                <a
+                                </Link>
+                                <Link
                                   href="https://twitter.com/intent/tweet?url=https%3a%2f%2fwww.test-aankoop.be%2f?skipbean=true&via=Testaankoop&text=Waar+moet+je+op+letten+bij+het+kiezen+van+je+energieleverancier%3f"
                                   className="icon icon-twitter social__section--twitter "
                                   title="Deel op Twitter"
@@ -5390,8 +5411,8 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                   }}
                                 >
                                   Deel op Twitter
-                                </a>
-                                <a
+                                </Link>
+                                <Link
                                   href="#email-modal"
                                   data-selector="email-popup-trigger"
                                   data-url-publication-link="sec://realm/euroconsumers.pro.sitecorecd.nl-be/-wi6pxBTuGWVvh376mpCCwu2GOKxIUM228yH0hPKMUkgA7EuJ0THax3S3vxr6B2bQ4YmlUmKeE99rqGEJEwFkvelJEEOY4zA9xAxzvFC9ca3gzPE0"
@@ -5399,9 +5420,9 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                   className="icon icon-mail"
                                 >
                                   Send by Email
-                                </a>
+                                </Link>
                               </div>
-                              <a
+                              <Link
                                 href="#"
                                 onClick={(e) => {
                                   e.preventDefault();
@@ -5410,13 +5431,13 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                 className="icon icon-share"
                               >
                                 Share..
-                              </a>
+                              </Link>
                             </div>
                           </div>
                         </div>
                       </div>
                     </div>
-                    <a
+                    <Link
                       href="/woning-energie/gas-elektriciteit-mazout-pellets/hoe-kiezen"
                       className="spotlight-card__clickable-zone"
                     />
@@ -5440,13 +5461,13 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                         </div>
                       </div>
                       <strong className="spotlight-card--title margin--bottom-xsmall">
-                        <a
+                        <Link
                           className="link-underline-never"
                           href="/woning-energie/afwasmiddelen/nieuws/dreft-milieuvriendelijk"
                           title="Is Dreft afwasmiddel milieuvriendelijk?"
                         >
                           Is Dreft afwasmiddel milieuvriendelijk?
-                        </a>
+                        </Link>
                       </strong>
                       <div
                         className="spotlight-card--footer flex__row flex__row--bottom margin--top-xlarge"
@@ -5457,14 +5478,14 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           data-selector="read-more"
                         >
                           <p className="no-margin spotlight-card--read-more">
-                            <a
+                            <Link
                               href="/woning-energie/afwasmiddelen/nieuws/dreft-milieuvriendelijk"
                               title="Is Dreft afwasmiddel milieuvriendelijk?"
                             >
                               <span>
                                 Lees meer <i className="icon icon--small icon-chevron-right" />
                               </span>
-                            </a>
+                            </Link>
                           </p>
                         </div>
                         <div className="flex__col align-right">
@@ -5475,7 +5496,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                               className=""
                             >
                               <div className="relative" data-selector="bookmark">
-                                <a
+                                <Link
                                   href="javascript:void(0)"
                                   title="Naar bewaarde artikelen"
                                   data-plugin="tooltip"
@@ -5490,7 +5511,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                               className=""
                             >
                               <div data-selector="share-links" className="share-links ">
-                                <a
+                                <Link
                                   href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fwww.test-aankoop.be%2f?skipbean=true"
                                   className="icon icon-facebook social__section--facebook "
                                   title="Deel op Facebook"
@@ -5504,8 +5525,8 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                   }}
                                 >
                                   Deel op Facebook
-                                </a>
-                                <a
+                                </Link>
+                                <Link
                                   href="https://twitter.com/intent/tweet?url=https%3a%2f%2fwww.test-aankoop.be%2f?skipbean=true&via=Testaankoop&text=Bespaar+je+echt+energie+met+Dreft+Max+Power+afwasmiddel%3f"
                                   className="icon icon-twitter social__section--twitter "
                                   title="Deel op Twitter"
@@ -5519,15 +5540,15 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                   }}
                                 >
                                   Deel op Twitter
-                                </a>
-                                <a
+                                </Link>
+                                <Link
                                   href="whatsapp://send?text=Bespaar+je+echt+energie+met+Dreft+Max+Power+afwasmiddel%3f%20https%3a%2f%2fwww.test-aankoop.be%2f?skipbean=true%3Futm_source%3Dwhatsapp%26utm_campaign%3Dweblink%26utm_medium%3Dsocial"
                                   className="icon icon-whatsapp social__section--whatsapp mobile-only"
                                   title="Deel via WhatsApp"
                                 >
                                   Deel via WhatsApp
-                                </a>
-                                <a
+                                </Link>
+                                <Link
                                   href="#email-modal"
                                   data-selector="email-popup-trigger"
                                   data-url-publication-link="sec://realm/euroconsumers.pro.sitecorecd.nl-be/iIM_B6h96ee_x-Nic4MZqvXNtI3_n_xtA5l3Yg75OFEY3Z6I_qWW_DlNDIN6ee8JIcl3hStQSgA609jMxcUtVsjUzuSNTX2w2ZOKh3HgO7ezIGRl0"
@@ -5535,9 +5556,9 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                   className="icon icon-mail"
                                 >
                                   Send by Email
-                                </a>
+                                </Link>
                               </div>
-                              <a
+                              <Link
                                 href="#"
                                 onClick={(e) => {
                                   e.preventDefault();
@@ -5546,13 +5567,13 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                 className="icon icon-share"
                               >
                                 Share..
-                              </a>
+                              </Link>
                             </div>
                           </div>
                         </div>
                       </div>
                     </div>
-                    <a
+                    <Link
                       href="/woning-energie/afwasmiddelen/nieuws/dreft-milieuvriendelijk"
                       className="spotlight-card__clickable-zone"
                     />
@@ -5576,13 +5597,13 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                         </div>
                       </div>
                       <strong className="spotlight-card--title margin--bottom-xsmall">
-                        <a
+                        <Link
                           className="link-underline-never"
                           href="https://www.test-aankoop.be/gezond/voeding/mueslirepen/nieuws/eiwitverrijkte-producten"
                           title="Eiwitverrijkte producten: nutteloos en duur"
                         >
                           Eiwitverrijkte producten: nutteloos en duur
-                        </a>
+                        </Link>
                       </strong>
                       <div
                         className="spotlight-card--footer flex__row flex__row--bottom margin--top-xlarge"
@@ -5593,14 +5614,14 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           data-selector="read-more"
                         >
                           <p className="no-margin spotlight-card--read-more">
-                            <a
+                            <Link
                               href="https://www.test-aankoop.be/gezond/voeding/mueslirepen/nieuws/eiwitverrijkte-producten"
                               title="Eiwitverrijkte producten: nutteloos en duur"
                             >
                               <span>
                                 Lees meer <i className="icon icon--small icon-chevron-right" />
                               </span>
-                            </a>
+                            </Link>
                           </p>
                         </div>
                         <div className="flex__col align-right">
@@ -5611,7 +5632,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                               className=""
                             >
                               <div className="relative" data-selector="bookmark">
-                                <a
+                                <Link
                                   href="javascript:void(0)"
                                   title="Naar bewaarde artikelen"
                                   data-plugin="tooltip"
@@ -5626,7 +5647,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                               className=""
                             >
                               <div data-selector="share-links" className="share-links ">
-                                <a
+                                <Link
                                   href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fwww.test-aankoop.be%2f?skipbean=true"
                                   className="icon icon-facebook social__section--facebook "
                                   title="Deel op Facebook"
@@ -5640,8 +5661,8 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                   }}
                                 >
                                   Deel op Facebook
-                                </a>
-                                <a
+                                </Link>
+                                <Link
                                   href="https://twitter.com/intent/tweet?url=https%3a%2f%2fwww.test-aankoop.be%2f?skipbean=true&via=Testaankoop&text=Eiwitverrijkte+producten%3a+nutteloos+en+duur"
                                   className="icon icon-twitter social__section--twitter "
                                   title="Deel op Twitter"
@@ -5655,15 +5676,15 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                   }}
                                 >
                                   Deel op Twitter
-                                </a>
-                                <a
+                                </Link>
+                                <Link
                                   href="whatsapp://send?text=Eiwitverrijkte+producten%3a+nutteloos+en+duur%20https%3a%2f%2fwww.test-aankoop.be%2f?skipbean=true%3Futm_source%3Dwhatsapp%26utm_campaign%3Dweblink%26utm_medium%3Dsocial"
                                   className="icon icon-whatsapp social__section--whatsapp mobile-only"
                                   title="Deel via WhatsApp"
                                 >
                                   Deel via WhatsApp
-                                </a>
-                                <a
+                                </Link>
+                                <Link
                                   href="#email-modal"
                                   data-selector="email-popup-trigger"
                                   data-url-publication-link="sec://realm/euroconsumers.pro.sitecorecd.nl-be/79WYYBJA_RVmk0PGPXbkUNjoY7su4Kiu-vYWYdyEZ4lzDZcysQHyONf8Hw9BMv4vGPEmJu_ZG2oyQwQFlTJOGtsra1TS-WfblNgmrTgohuc2x4Fm0"
@@ -5671,9 +5692,9 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                   className="icon icon-mail"
                                 >
                                   Send by Email
-                                </a>
+                                </Link>
                               </div>
-                              <a
+                              <Link
                                 href="#"
                                 onClick={(e) => {
                                   e.preventDefault();
@@ -5682,13 +5703,13 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                 className="icon icon-share"
                               >
                                 Share..
-                              </a>
+                              </Link>
                             </div>
                           </div>
                         </div>
                       </div>
                     </div>
-                    <a
+                    <Link
                       href="https://www.test-aankoop.be/gezond/voeding/mueslirepen/nieuws/eiwitverrijkte-producten"
                       className="spotlight-card__clickable-zone"
                     />
@@ -5697,9 +5718,9 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
               </div>
             </div>
             <div className="spotlight-panel--footer margin--top-large">
-              <a href="/alle-inhoud/nieuws" className="spotlight-panel--button strong">
+              <Link href="/alle-inhoud/nieuws" className="spotlight-panel--button strong">
                 Alles bekijken <i className="icon icon-chevron-right" />
-              </a>{' '}
+              </Link>{' '}
             </div>
           </div>
         </section>
@@ -5737,7 +5758,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                 id="id-85813de4-4cf8-4c9d-99e2-2ba9c6b24422"
               >
                 <div className="tools-panel--tool__content">
-                  <a
+                  <Link
                     href="https://www.test-aankoop.be/woning-energie/vaatwasmiddelen/vergelijker"
                     title="Vaat-wasmiddelen"
                   >
@@ -5758,7 +5779,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                     >
                       Vaat-wasmiddelen
                     </span>
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div
@@ -5766,7 +5787,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                 id="id-53ef0dc8-5ff4-4bc6-9a5b-d021e64283c9"
               >
                 <div className="tools-panel--tool__content">
-                  <a
+                  <Link
                     href="https://www.test-aankoop.be/hightech/laptops/vergelijker"
                     title="Laptops"
                   >
@@ -5787,7 +5808,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                     >
                       Laptops
                     </span>
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div
@@ -5795,7 +5816,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                 id="id-f6451ca2-c07b-4c90-859a-830905eacd53"
               >
                 <div className="tools-panel--tool__content">
-                  <a
+                  <Link
                     href="https://www.test-aankoop.be/huishoudelektro/droogkasten/vergelijker"
                     title="Droogkasten"
                   >
@@ -5816,7 +5837,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                     >
                       Droogkasten
                     </span>
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div
@@ -5824,7 +5845,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                 id="id-ee3a5c77-5b99-48cf-9f40-abfa91dcd5e0"
               >
                 <div className="tools-panel--tool__content">
-                  <a
+                  <Link
                     href="https://www.test-aankoop.be/huishoudelektro/espressomachines/vergelijker"
                     title="Koffie-machines"
                   >
@@ -5845,7 +5866,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                     >
                       Koffie-machines
                     </span>
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div
@@ -5853,7 +5874,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                 id="id-90e49705-01e3-4d23-b541-2f764bfacad9"
               >
                 <div className="tools-panel--tool__content">
-                  <a
+                  <Link
                     href="https://www.test-aankoop.be/hightech/printers/vergelijker"
                     title="Printers"
                   >
@@ -5874,7 +5895,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                     >
                       Printers
                     </span>
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div
@@ -5882,7 +5903,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                 id="id-de2a8ff8-bc83-4475-9a27-0c40f2096390"
               >
                 <div className="tools-panel--tool__content">
-                  <a
+                  <Link
                     href="https://www.test-aankoop.be/woning-energie/afwasmiddelen/vergelijker"
                     title="Afwasmiddelen"
                   >
@@ -5903,17 +5924,17 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                     >
                       Afwasmiddelen
                     </span>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
             <div className="tools-panel--footer">
-              <a
+              <Link
                 href="https://www.test-aankoop.be/alle-inhoud/vergelijkers-tools"
                 className="tools-panel--link link-primary-color"
               >
                 Alles bekijken <i className="icon icon-chevron-right" />
-              </a>{' '}
+              </Link>{' '}
             </div>
           </div>
         </section>
@@ -5956,7 +5977,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                   className="magazines-panel-card-item js-equal-heights-parent"
                   data-selector="magazines-panel-card-item"
                 >
-                  <a
+                  <Link
                     className="magazines-panel-card-item__clickable-zone"
                     href="/alle-inhoud/magazines?magazine=budget-en-recht"
                   >
@@ -5977,7 +5998,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                         data-selector="magazines-panel-card-item-description"
                       />
                     </div>
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div
@@ -5988,7 +6009,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                   className="magazines-panel-card-item js-equal-heights-parent"
                   data-selector="magazines-panel-card-item"
                 >
-                  <a
+                  <Link
                     className="magazines-panel-card-item__clickable-zone"
                     href="/alle-inhoud/magazines?magazine=testaankoop"
                   >
@@ -6009,7 +6030,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                         data-selector="magazines-panel-card-item-description"
                       />
                     </div>
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div
@@ -6020,7 +6041,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                   className="magazines-panel-card-item js-equal-heights-parent"
                   data-selector="magazines-panel-card-item"
                 >
-                  <a
+                  <Link
                     className="magazines-panel-card-item__clickable-zone"
                     href="/alle-inhoud/magazines?magazine=testaankoop-connect"
                   >
@@ -6041,16 +6062,16 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                         data-selector="magazines-panel-card-item-description"
                       />
                     </div>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
             <div className="magazines-panel__footer">
-              <a href="/alle-inhoud/magazines" className="magazines-panel__footer__link">
+              <Link href="/alle-inhoud/magazines" className="magazines-panel__footer__link">
                 {' '}
                 <span>Bekijk alle magazines</span>
                 <i className="icon icon-chevron-right" />
-              </a>{' '}
+              </Link>{' '}
             </div>
           </div>
         </section>
@@ -6078,7 +6099,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                   </div>
                   <div className="flex__row flex__row--centered flex__row--no-gutter margin--bottom-medium special-campaign__container">
                     <div className="flex__col-xs-11 flex__col-md-4 special-campaign__image-container">
-                      <a style={{ height: '100%' }} href="/mobiliteit/auto-s/nieuws/puretech">
+                      <Link style={{ height: '100%' }} href="/mobiliteit/auto-s/nieuws/puretech">
                         <img
                           data-src="/-/media/ta/images/home/mobility/autos/news/2024/teaser moteur.jpg?rev=ad6675cd-15c5-48ed-9833-9f58ecc1ccd4&la=nl-BE&h=197&mw=350&w=350&hash=D1137CB333EB2CC65F7C477D1EA6EF36"
                           height={197}
@@ -6086,19 +6107,19 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           data-plugin="imageComponent"
                           width={350}
                         />
-                      </a>
+                      </Link>
                     </div>
                     <div className="flex__col-xs-11 flex__col-md-7">
                       <div className="padding-xlarge">
                         <p className="label">Mobiliteit </p>
-                        <a
+                        <Link
                           href="/mobiliteit/auto-s/nieuws/puretech"
                           className="link-underline-never"
                         >
                           <h3 className="beta strong margin--bottom-xsmall">
                             Problemen met PureTech: heeft jouw auto een defecte motor?
                           </h3>
-                        </a>
+                        </Link>
                         <p className="margin--bottom-small">
                           PureTech-benzinemotoren in bepaalde modellen van Peugeot, Citroën, Opel en
                           Toyota hebben ernstige technische problemen. We blijven druk uitoefenen op
@@ -6107,24 +6128,24 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                         <div className="flex__row flex__row--no-gutter flex__row--sm-middle margin--top-medium">
                           <div className="flex__col flex__col-xs-12 flex__col-sm-6">
                             <p className="no-margin">
-                              <a
+                              <Link
                                 href="/mobiliteit/auto-s/nieuws/puretech?int_source=consumer&int_medium=hp_actionblock"
                                 className="btn btn--primary uppercase"
                                 target="_blank"
                                 title="Meld het ons"
                               >
                                 Meld het ons
-                              </a>
+                              </Link>
                             </p>
                           </div>
                           <div className="flex__col flex__col-xs-12 flex__col-sm-6 align-right-tablet">
-                            <a
+                            <Link
                               href="/overzicht-acties?int_source=consumer&int_medium=hp_actionblock"
                               className="read-more underline margin--top-small margin--bottom-small"
                               title="Al onze acties"
                             >
                               Al onze acties <i className="icon icon-chevron-right" />
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -6139,7 +6160,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                   </div>
                   <div className="flex__row flex__row--centered flex__row--no-gutter margin--bottom-medium special-campaign__container">
                     <div className="flex__col-xs-11 flex__col-md-4 special-campaign__image-container">
-                      <a
+                      <Link
                         style={{ height: '100%' }}
                         href="https://www.test-aankoop.be/energyguide/mijn-energiebesparingen/isolatie?int_source=consumer&int_medium=hp_actionblock"
                       >
@@ -6150,19 +6171,19 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           data-plugin="imageComponent"
                           width={350}
                         />
-                      </a>
+                      </Link>
                     </div>
                     <div className="flex__col-xs-11 flex__col-md-7">
                       <div className="padding-xlarge">
                         <p className="label">Actie isolatie</p>
-                        <a
+                        <Link
                           href="https://www.test-aankoop.be/energyguide/mijn-energiebesparingen/isolatie?int_source=consumer&int_medium=hp_actionblock"
                           className="link-underline-never"
                         >
                           <h3 className="beta strong margin--bottom-xsmall">
                             Isoleer je huis met Testaankoop en bespaar geld
                           </h3>
-                        </a>
+                        </Link>
                         <p className="margin--bottom-small">
                           Wij vinden voor jou een vakman voor je isolatiewerken. Vul het formulier
                           in en één van onze partners neemt contact met je op. Ter plaatse wordt er
@@ -6172,24 +6193,24 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                         <div className="flex__row flex__row--no-gutter flex__row--sm-middle margin--top-medium">
                           <div className="flex__col flex__col-xs-12 flex__col-sm-6">
                             <p className="no-margin">
-                              <a
+                              <Link
                                 href="https://www.test-aankoop.be/energyguide/mijn-energiebesparingen/isolatie?int_source=consumer&int_medium=hp_actionblock"
                                 className="btn btn--primary uppercase"
                                 target=""
                                 title="Meer weten"
                               >
                                 Meer weten
-                              </a>
+                              </Link>
                             </p>
                           </div>
                           <div className="flex__col flex__col-xs-12 flex__col-sm-6 align-right-tablet">
-                            <a
+                            <Link
                               href="/overzicht-acties"
                               className="read-more underline margin--top-small margin--bottom-small"
                               title="Al onze acties"
                             >
                               Al onze acties <i className="icon icon-chevron-right" />
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -6215,12 +6236,12 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
             </div>
           </div>
         </section>
-        <a className="ot-sdk-show-settings" href="#" hidden />
+        <Link className="ot-sdk-show-settings" href="#" hidden />
         <div data-plugin="form" data-plugin-settings="#form-recommended-settings" hidden>
-          <a href="javascript:void(0)" className="refresh-recommended-info" hidden>
+          <Link href="javascript:void(0)" className="refresh-recommended-info" hidden>
             {' '}
             trigger
-          </a>
+          </Link>
         </div>
         <section className="section section--grey padding--bottom-small padding--top-small z1">
           <div className="conv_offerCards">
@@ -6240,7 +6261,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                       <div className="flex__row">
                         <div className="flex__col-12">
                           <div className="shadowed">
-                            <a
+                            <Link
                               href="https://ontdek.test-aankoop.be/2023/newmarketplace?prm_id_c=CARDS1N&cop_id_c=MembershipPanel&par_id_c=Homepage"
                               target=""
                               className="offerCards__header"
@@ -6254,15 +6275,15 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                   </div>
                                 </div>
                               </div>
-                            </a>
+                            </Link>
                             <div className="offerCards__header-CTA">
-                              <a
+                              <Link
                                 href="https://ontdek.test-aankoop.be/2023/newmarketplace?prm_id_c=CARDS1N&cop_id_c=MembershipPanel&par_id_c=Homepage"
                                 target=""
                                 className="btn btn--pill uppercase"
                               >
                                 Word lid
-                              </a>
+                              </Link>
                               <div className="offerCards__header-CTA__currentPlan">
                                 <span>
                                   <i className="icon-tick" />
@@ -6291,7 +6312,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                   <li>Testaankoop gezond magazine</li>
                                 </ul>{' '}
                               </div>
-                              <a
+                              <Link
                                 href="https://ontdek.test-aankoop.be/2023/newmarketplace?prm_id_c=CARDS1N&cop_id_c=MembershipPanel&par_id_c=Homepage"
                                 target=""
                                 className="offerCards__header-table__group"
@@ -6319,7 +6340,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                 <div className="offerCards__header-table__group__moreLink">
                                   Meer weten? <i className="icon-chevron-right" />
                                 </div>
-                              </a>
+                              </Link>
                             </div>
                           </div>
                         </div>
@@ -6331,7 +6352,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                   <div>
                     Meer info over dit aanbod
                     <br className="mobile-only" />
-                    <a href="/aanbod">Ontdek ons volledig aanbod</a>
+                    <Link href="/aanbod">Ontdek ons volledig aanbod</Link>
                   </div>
                 </div>
               </div>
@@ -6357,7 +6378,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                 data-datasource="{3D1BAB4A-88CB-4EF8-AEB8-1B4357FDD700}"
                 className="flex__row flex__row--xs-center flex__row--md-middle padding--bottom-xlarge padding--top-xlarge our-services__item"
               >
-                <a
+                <Link
                   href="/overzicht-acties"
                   className="Link-underline-never flex__col-xs-10 flex__col-md-5 "
                 >
@@ -6368,25 +6389,25 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                     data-plugin="imageComponent"
                     width={420}
                   />
-                </a>
+                </Link>
                 <div className="align-central flex__col-xs-10 flex__col-md-5">
-                  <a href="/overzicht-acties" className="link-underline-never">
+                  <Link href="/overzicht-acties" className="link-underline-never">
                     {' '}
                     <h3 className="stronger">Groepsacties</h3>{' '}
-                  </a>
+                  </Link>
                   <p className="margin--bottom-medium">
                     Met onze groepsacties kunnen we collectief onze stempel drukken en de rechten
                     van de consument beschermen.
                   </p>
                   <p className="no-margin">
-                    <a
+                    <Link
                       href="/overzicht-acties"
                       className="btn btn--tertiary uppercase"
                       target=""
                       title="Bekijk alle acties"
                     >
                       Bekijk alle acties
-                    </a>
+                    </Link>
                   </p>
                 </div>
               </div>
@@ -6396,7 +6417,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                 data-datasource="{3F5E2E6B-179C-448C-83BE-024486A5B29E}"
                 className="flex__row flex__row--xs-center flex__row--md-middle padding--bottom-xlarge padding--top-xlarge our-services__item"
               >
-                <a
+                <Link
                   href="/klagen"
                   className="Link-underline-never flex__col-xs-10 flex__col-md-5 flex__col-last-medium"
                 >
@@ -6407,25 +6428,25 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                     data-plugin="imageComponent"
                     width={420}
                   />
-                </a>
+                </Link>
                 <div className="align-central flex__col-xs-10 flex__col-md-5">
-                  <a href="/klagen" className="link-underline-never">
+                  <Link href="/klagen" className="link-underline-never">
                     {' '}
                     <h3 className="stronger">Klachtenbox</h3>{' '}
-                  </a>
+                  </Link>
                   <p className="margin--bottom-medium">
                     Een geschil met een bedrijf? Stuur hun nu meteen een klacht en haal je gelijk
                     dankzij ons.
                   </p>
                   <p className="no-margin">
-                    <a
+                    <Link
                       href="/klagen"
                       className="btn btn--tertiary uppercase"
                       target=""
                       title="Dien een klacht in"
                     >
                       Dien een klacht in
-                    </a>
+                    </Link>
                   </p>
                 </div>
               </div>
@@ -6435,7 +6456,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                 data-datasource="{DAD21F08-630E-413C-ACCB-AE059C4B77CA}"
                 className="flex__row flex__row--xs-center flex__row--md-middle padding--bottom-xlarge padding--top-xlarge our-services__item"
               >
-                <a
+                <Link
                   href="https://www.test-aankoop.be/overzichtspagina?type=comparators-and-calculators"
                   className="Link-underline-never flex__col-xs-10 flex__col-md-5 "
                 >
@@ -6446,29 +6467,29 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                     data-plugin="imageComponent"
                     width={420}
                   />
-                </a>
+                </Link>
                 <div className="align-central flex__col-xs-10 flex__col-md-5">
-                  <a
+                  <Link
                     href="https://www.test-aankoop.be/overzichtspagina?type=comparators-and-calculators"
                     className="link-underline-never"
                   >
                     {' '}
                     <h3 className="stronger">Vergelijkers en modules</h3>{' '}
-                  </a>
+                  </Link>
                   <p className="margin--bottom-medium">
                     Wij ondersteunen je in al je aankoopbeslissingen met analyses van allerlei
                     producten en diensten: van smartphones en grasmaaiers tot telecomtarieven en
                     energieprijzen.
                   </p>
                   <p className="no-margin">
-                    <a
+                    <Link
                       href="https://www.test-aankoop.be/overzichtspagina?type=comparators-and-calculators"
                       className="btn btn--tertiary uppercase"
                       target=""
                       title="Gebruik onze tools"
                     >
                       Gebruik onze tools
-                    </a>
+                    </Link>
                   </p>
                 </div>
               </div>
@@ -6501,7 +6522,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
               <div className="flex__col flex__col-xs-narrow">Ontvang onze nieuwsbrief</div>
               <div className="flex__col flex__col-xs-narrow">
                 <span data-plugin="iframeAuthentication">
-                  <a
+                  <Link
                     data-plugin="modal"
                     data-popup-type="inline"
                     href="#aline-authentication-modal"
@@ -6511,7 +6532,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                     data-aline-authentication-target="register"
                   >
                     Ik registreer me{' '}
-                  </a>
+                  </Link>
                 </span>
               </div>
             </div>
@@ -6521,14 +6542,14 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
           <div className="flex__row main-footer__top padding--top-small">
             <div className="flex__col flex__col-xs-narrow" data-selector="footer-contact-left">
               <p className="no-margin">
-                <a
+                <Link
                   href="tel:025423232"
                   className="btn btn--primary btn--pill stronger"
                   data-selector="footer-contact-link"
                 >
                   <i className="icon-phone padding--right-xsmall" />
                   02 542 32 32
-                </a>
+                </Link>
               </p>
             </div>
             <div
@@ -6538,9 +6559,9 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
               <p className="no-margin" data-selector="footer-contact-text"></p>
               <p>
                 <strong className="block">
-                  <a href="/contact/contacteer-ons" target="_self">
+                  <Link href="/contact/contacteer-ons" target="_self">
                     Alle contactgegevens
-                  </a>
+                  </Link>
                 </strong>
               </p>
               <p>Ma tot vr 9-12.30u / 13-17u (vr tot 16u)</p>
@@ -6550,28 +6571,28 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
               className="flex__col-xs-12 flex__col-sm-12 flex__col-md-narrow margin--left-auto margin--right-auto main-footer__top__links"
               data-selector="footer-mainlinks"
             >
-              <a
+              <Link
                 href="/alle-inhoud/magazines"
                 className="strong"
                 data-selector="footer-mainlinks-link"
               >
                 Magazines
-              </a>
-              <a
+              </Link>
+              <Link
                 href="https://www.test-aankoop.be/applications"
                 className="strong"
                 data-selector="footer-mainlinks-link"
               >
                 Mobiele applicaties
-              </a>
-              <a
+              </Link>
+              <Link
                 href="https://ontdek.test-aankoop.be/2023/marketplace?cop_id_c=Link&par_id_c=Web4&prm_id_c=FOOTER1F"
                 className="strong"
                 data-selector="footer-mainlinks-link"
                 target="_blank"
               >
                 Word lid
-              </a>{' '}
+              </Link>{' '}
             </div>
           </div>
           <div
@@ -6587,28 +6608,28 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
               </p>
               <ul className="collapsible__content no-margin" style={{ display: 'none' }}>
                 <li>
-                  <a href="/klagen" data-selector="footer-grouped-link">
+                  <Link href="/klagen" data-selector="footer-grouped-link">
                     Verstuur een klacht
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="/overzicht-acties" data-selector="footer-grouped-link">
+                  <Link href="/overzicht-acties" data-selector="footer-grouped-link">
                     Voer actie met ons
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="/live" data-selector="footer-grouped-link">
+                  <Link href="/live" data-selector="footer-grouped-link">
                     Bekijk onze Live uitzendingen{' '}
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     href="https://detesters.be/"
                     data-selector="footer-grouped-link"
                     target="_blank"
                   >
                     De Testers
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -6619,38 +6640,38 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
               </p>
               <ul className="collapsible__content no-margin" style={{ display: 'none' }}>
                 <li>
-                  <a
+                  <Link
                     href="/hightech/gsms-en-smartphones/vergelijker"
                     data-selector="footer-grouped-link"
                   >
                     Smartphones
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="/hightech/tv-s/vergelijker" data-selector="footer-grouped-link">
+                  <Link href="/hightech/tv-s/vergelijker" data-selector="footer-grouped-link">
                     Televisies
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     href="/woning-energie/gas-elektriciteit-mazout-pellets/simulator"
                     data-selector="footer-grouped-link"
                   >
                     Energie
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="/hightech/telecom/simulator" data-selector="footer-grouped-link">
+                  <Link href="/hightech/telecom/simulator" data-selector="footer-grouped-link">
                     Telecom
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     href="/huishoudelektro/keukenrobots/vergelijker"
                     data-selector="footer-grouped-link"
                   >
                     Keukenrobots
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -6661,35 +6682,35 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
               </p>
               <ul className="collapsible__content no-margin" style={{ display: 'none' }}>
                 <li>
-                  <a
+                  <Link
                     href="https://www.test-aankoop.be/overzichtspagina?type=standard-letters"
                     data-selector="footer-grouped-link"
                   >
                     Onze modeldocumenten
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="/info/ledenvoordelen" data-selector="footer-grouped-link">
+                  <Link href="/info/ledenvoordelen" data-selector="footer-grouped-link">
                     Ledenvoordelen
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="/aanbod" data-selector="footer-grouped-link">
+                  <Link href="/aanbod" data-selector="footer-grouped-link">
                     Ons aanbod
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     href="https://www.test-aankoop.be/mijngegevens/help"
                     data-selector="footer-grouped-link"
                   >
                     Veelgestelde vragen
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="/ta-and-me" data-selector="footer-grouped-link">
+                  <Link href="/ta-and-me" data-selector="footer-grouped-link">
                     TA&amp;Me applicatie
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -6700,29 +6721,29 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
               </p>
               <ul className="collapsible__content no-margin" style={{ display: 'none' }}>
                 <li>
-                  <a href="/info/onze-waarden" data-selector="footer-grouped-link">
+                  <Link href="/info/onze-waarden" data-selector="footer-grouped-link">
                     Onze waarden
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="/info/transparantie" data-selector="footer-grouped-link">
+                  <Link href="/info/transparantie" data-selector="footer-grouped-link">
                     Onze financieringsbronnen
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="/gefinancierde-projecten" data-selector="footer-grouped-link">
+                  <Link href="/gefinancierde-projecten" data-selector="footer-grouped-link">
                     Gefinancierde projecten
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="/info/ta-labels" data-selector="footer-grouped-link">
+                  <Link href="/info/ta-labels" data-selector="footer-grouped-link">
                     Onze labels in je winkelrek
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="/werken-bij-test-aankoop" data-selector="footer-grouped-link">
+                  <Link href="/werken-bij-test-aankoop" data-selector="footer-grouped-link">
                     Werken bij Testaankoop
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -6732,54 +6753,54 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
               <div className="flex__row flex__row--no-gutter" data-selector="footer-legal">
                 <div className="flex__col-xs-12 main-footer__bottom__links">
                   <span className="margin--right-xsmall">© 2025 Testaankoop</span>
-                  <a
+                  <Link
                     href="/info/beleid-inzake-cookies"
                     className="margin--right-xsmall strong"
                     data-selector="footer-legal-link"
                   >
                     Beleid inzake cookies
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     href="https://www.test-aankoop.be/info/algemene-voorwaarden"
                     className="margin--right-xsmall strong"
                     data-selector="footer-legal-link"
                   >
                     Algemene voorwaarden
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     href="/info/privacy"
                     className="margin--right-xsmall strong"
                     data-selector="footer-legal-link"
                   >
                     Privacy
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     href="/info/verantwoordelijke-uitgever"
                     className="margin--right-xsmall strong"
                     data-selector="footer-legal-link"
                   >
                     Verantwoordelijke uitgever
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     href="/info/auteursrecht"
                     className="margin--right-xsmall strong"
                     data-selector="footer-legal-link"
                   >
                     Auteursrecht
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     href="https://www.test-achats.be"
                     className="margin--right-xsmall strong"
                     data-selector="footer-legal-link"
                   >
                     Version française
-                  </a>
+                  </Link>
                 </div>
                 <div
                   className="flex__col-xs-12 main-footer__bottom__social"
                   data-selector="footer-social"
                 >
-                  <a
+                  <Link
                     href="https://www.facebook.com/profile.php?id=100064172166175"
                     className="margin--right-xsmall"
                     aria-label="facebook"
@@ -6788,8 +6809,8 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                   >
                     {' '}
                     <i className="icon-facebook" />
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     href="https://www.instagram.com/testaankoop/"
                     className="margin--right-xsmall"
                     aria-label="Instagram"
@@ -6798,8 +6819,8 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                   >
                     {' '}
                     <i className="icon-instagram" />
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     href="https://www.linkedin.com/company/test-aankoop/?viewAsMember=true"
                     className="margin--right-xsmall"
                     aria-label="LinkedIn"
@@ -6808,8 +6829,8 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                   >
                     {' '}
                     <i className="icon-linkedin" />
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     href="https://www.tiktok.com/@test.aankoop"
                     className="margin--right-xsmall"
                     aria-label="tiktok"
@@ -6818,8 +6839,8 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                   >
                     {' '}
                     <i className="icon-tiktok" />
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     href="https://www.youtube.com/user/Testaankoopvideo"
                     className="margin--right-xsmall"
                     aria-label="youtube"
@@ -6828,8 +6849,8 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                   >
                     {' '}
                     <i className="icon-youtube-play" />
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     href="https://www.test-aankoop.be/rss"
                     className="margin--right-xsmall"
                     aria-label="RSS"
@@ -6838,7 +6859,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                   >
                     {' '}
                     <i className="icon-rss" />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -6846,7 +6867,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
               className="flex__col-xs-12 flex__col-md-narrow main-footer__bottom__logo"
               data-selector="footer-logo"
             >
-              <a href="#">
+              <Link href="#">
                 <img
                   data-src="/-/media/ta/ta-logos-2022/footer-nl/logo-nl-be--footer-v2.png?rev=527c5bff-e27c-43ec-973a-abecf5f71a2d&la=nl-BE&h=30&mw=150&w=150&hash=7A98309A8576F93EDDB925A4C1B61734"
                   className="no-margin img--medium"
@@ -6856,7 +6877,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                   data-plugin="imageComponent"
                   width={150}
                 />
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -6872,10 +6893,10 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
             <div className="bannerContentHiddenTitle stronger">
               Kies deze airfryer of een van de 150 andere cadeau&quot;s
             </div>
-            <a
+            <Link
               href="https://ontdek.test-aankoop.be/2023/newmarketplace?prm_id_c=MOBBAN1N&cop_id_c=Smartphone&par_id_c=SubscribeButton&server=flbk "
               target=""
-            ></a>
+            ></Link>
           </div>
           <div className="bannerContentToggler">
             <i className="icon-chevron-up" />
@@ -6885,13 +6906,13 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
               <div className="bannerContentMainActionsLeft" />
               <div className="bannerContentMainActionsCenter">
                 <div>
-                  <a
+                  <Link
                     href="https://ontdek.test-aankoop.be/2023/newmarketplace?prm_id_c=MOBBAN1N&cop_id_c=Smartphone&par_id_c=SubscribeButton&server=flbk "
                     target=""
                     className="btn btn--pill"
                   >
                     WORD LID
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="bannerContentMainActionsRight">
@@ -6910,7 +6931,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
         <p>
           {/*Button Login Open Modal */}
           <span data-plugin="iframeAuthentication">
-            <a
+            <Link
               data-plugin="modal"
               data-popup-type="inline"
               href="#aline-authentication-modal"
@@ -6921,11 +6942,11 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
               data-aline-authentication-source="aline"
             >
               Aanmelden
-            </a>
+            </Link>
           </span>
           {/*Textlink Create-Account Open Modal */}
           <span data-plugin="iframeAuthentication">
-            <a
+            <Link
               href="#aline-authentication-modal"
               data-register-url="https://login.test-aankoop.be/?wa=registeruser1.0&wtrealm=eur%3a%2f%2feuroconsumers.pro.alinesc.nl-be%2f&wreply=https%3a%2f%2fwww.test-aankoop.be%2fCommonAPI%2fCommonBeanTrigger%2fSendLoginOkMessage%3fReturnUrl%3dsec%253a%252f%252frealm%252feuroconsumers.pro.sitecorecd.nl-be%252fWkhYEnWFe7Yxm0AubwhyocoN57HDrMSd-eDJrx2ZylzaSs7Eo-PCAq7bnOikQOomttk8jLN_0xcIRKeBsHJkqy2nHftxovI6lwwFAXmv1XEdwr2bIVh0jaZAI4RwNrROHmEdOSLZd5Culqo7RDPt6xFIsRGN2tIMOOiTMmpjhsQ8QWIMk5ptSir9t5DEsn9Ae2OLYoR4v7m88tx4askYqlMA7SE1&ectx=Y3Q6aG9tZXBhZ2VfYWxpbmVob21fbm9uZS5lZHNhdmUwbg&customstyle=alineiframev3"
               data-plugin="modal"
@@ -6935,7 +6956,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
               data-aline-authentication-source="aline"
             >
               Registreren
-            </a>
+            </Link>
           </span>
         </p>
       </div>
