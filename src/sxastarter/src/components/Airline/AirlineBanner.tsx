@@ -24,7 +24,7 @@ export const Default = (props: AirlineBannerProps): JSX.Element => {
   const backgroundImageUrl = props.fields.Image.value?.src;
   if (props.fields) {
     return (
-      <section id="home_one_banner" style={{ beackgroundImage: `url(${backgroundImageUrl})` }}>
+      <section id="home_one_banner" style={{ backgroundImage: `url(${backgroundImageUrl})` }}>
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-12">
