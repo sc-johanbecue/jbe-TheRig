@@ -495,7 +495,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
               <label htmlFor="checkbox-skin-desktop" className="toggler">
                 <img
                   src="https://www.test-aankoop.be/-/media/ta/mkg/skins/winterskincollapsed1050x70nl.jpg?rev&la=nl-BE&h=70&mw=1050&w=1050&hash=697620EF7B10837E5FA5C1B9757B9DD2"
-                  className={isExpanded ? 'collapsed' : 'expanded'}
+                  className={isExpanded ? 'expanded' : 'collapsed'}
                   height={70}
                   data-selector="skin-collapsed-image"
                   alt=""
@@ -504,7 +504,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                 />
                 <img
                   src="https://www.test-aankoop.be/-/media/ta/mkg/skins/wintersoldenskinexpanded1050x230nl.jpg?rev&la=nl-BE&h=230&mw=1050&w=1050&hash=24F3469DB636A34BEA648135274E4FD3"
-                  className={isExpanded ? 'expanded' : 'collapsed'}
+                  className={isExpanded ? 'collapsed' : 'expanded'}
                   data-selector="skin-expanded-image"
                   alt=""
                   data-plugin="imageComponent"
