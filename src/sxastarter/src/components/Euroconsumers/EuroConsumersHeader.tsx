@@ -17,7 +17,7 @@ type EuroConsumersHeaderProps = {
 const EuroConsumersHeaderDefaultComponent = (props: EuroConsumersHeaderProps): JSX.Element => (
   <div className={`component promo ${props.params.styles}`}>
     <div className="component-content">
-      <span className="is-empty-hint"></span>
+      <span className="is-empty-hint">EuroConsumers Header</span>
     </div>
   </div>
 );

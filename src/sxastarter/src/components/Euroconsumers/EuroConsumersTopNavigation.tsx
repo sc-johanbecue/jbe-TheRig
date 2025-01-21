@@ -19,7 +19,7 @@ const EuroConsumersTopNavigationDefaultComponent = (
 ): JSX.Element => (
   <div className={`component promo ${props.params.styles}`}>
     <div className="component-content">
-      <span className="is-empty-hint"></span>
+      <span className="is-empty-hint">EuroConsumers Top Navigation</span>
     </div>
   </div>
 );
