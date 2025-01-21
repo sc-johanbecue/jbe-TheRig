@@ -486,7 +486,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
             <div className="hide-on-mobile relative">
               <label htmlFor="checkbox-skin-desktop" className="toggler">
                 <img
-                  data-src="/-/media/ta/mkg/skins/winterskincollapsed1050x70nl.jpg?rev&la=nl-BE&h=70&mw=1050&w=1050&hash=697620EF7B10837E5FA5C1B9757B9DD2"
+                  data-src="https://www.test-aankoop.be/-/media/ta/mkg/skins/winterskincollapsed1050x70nl.jpg?rev&la=nl-BE&h=70&mw=1050&w=1050&hash=697620EF7B10837E5FA5C1B9757B9DD2"
                   className=" collapsed"
                   height={70}
                   data-selector="skin-collapsed-image"
@@ -495,7 +495,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                   width={1050}
                 />
                 <img
-                  data-src="/-/media/ta/mkg/skins/wintersoldenskinexpanded1050x230nl.jpg?rev&la=nl-BE&h=230&mw=1050&w=1050&hash=24F3469DB636A34BEA648135274E4FD3"
+                  data-src="https://www.test-aankoop.be/-/media/ta/mkg/skins/wintersoldenskinexpanded1050x230nl.jpg?rev&la=nl-BE&h=230&mw=1050&w=1050&hash=24F3469DB636A34BEA648135274E4FD3"
                   className=" expanded"
                   data-selector="skin-expanded-image"
                   alt=""
@@ -527,7 +527,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                   data-selector="skin-mobile-link"
                 >
                   <img
-                    src="/-/media/ta/mkg/skins/mobskinnl-320x70.jpg?rev&la=nl-BE&h=70&mw=600&w=320&hash=18FB219E8A50DA23883A54711A5E3827"
+                    src="https://www.test-aankoop.be/-/media/ta/mkg/skins/mobskinnl-320x70.jpg?rev&la=nl-BE&h=70&mw=600&w=320&hash=18FB219E8A50DA23883A54711A5E3827"
                     height={70}
                     data-selector="skin-mobile-image"
                     alt="Skin"
@@ -686,7 +686,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                   >
                     <Link href="/">
                       <img
-                        src="/-/media/ta/ta-logos-2022/main-nl/logo-nl-be.svg?rev=7b79558a-f851-4f92-a555-8b5f4a17bb67&la=nl-BE&h=55&mw=300&w=300&hash=7A9164EDEA31367261169C054E725BA1"
+                        src="https://www.test-aankoop.be/-/media/ta/ta-logos-2022/main-nl/logo-nl-be.svg?rev=7b79558a-f851-4f92-a555-8b5f4a17bb67&la=nl-BE&h=55&mw=300&w=300&hash=7A9164EDEA31367261169C054E725BA1"
                         className="no-margin"
                         height={188}
                         data-selector="header-logo-image"
@@ -4560,7 +4560,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                               <div className="welcome-banner-media-item__card__background-image">
                                 <picture>
                                   <img
-                                    src="/-/media/ta/images/homepage-responsive/new home page ta/welcome-banner/2025/wintersolden-473x473px-nl.jpg?rev=234ff0d5-7875-4629-addd-cf10a39dcb91"
+                                    src="https://www.test-aankoop.be/-/media/ta/images/homepage-responsive/new home page ta/welcome-banner/2025/wintersolden-473x473px-nl.jpg?rev=234ff0d5-7875-4629-addd-cf10a39dcb91"
                                     fetchPriority="high"
                                     alt=""
                                   />
@@ -4895,11 +4895,11 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                 <div className="flex__col-10 flex__col-lg-4">
                   <div className="spotlight-card">
                     <img
-                      data-src="/-/media/ta/images/home/home appliances/washing machines/news/2023/silent machines/washing-machine-silent-1185955360-800x450.jpg?rev=af32c8fb-6052-4b5f-89dc-daa0d639ca6c&mh=400&la=nl-BE&h=400&w=711&hash=DA9FFAB1C856FEFE1AB769191D888D8F"
+                      data-src="https://www.test-aankoop.be/-/media/ta/images/home/home appliances/washing machines/news/2023/silent machines/washing-machine-silent-1185955360-800x450.jpg?rev=af32c8fb-6052-4b5f-89dc-daa0d639ca6c&mh=400&la=nl-BE&h=400&w=711&hash=DA9FFAB1C856FEFE1AB769191D888D8F"
                       className="spotlight-card--image"
                       alt="Stille wasmachine"
                       data-plugin="imageComponent"
-                      src="/-/media/ta/ta-logos-2022/placeholder_ta_615.jpg?rev=5c232392-5ab1-4501-86a8-ecc03960779a&mh=400&h=400&hash=D90974E3C51246B664C3FB15EC5E4D06"
+                      src="https://www.test-aankoop.be/-/media/ta/ta-logos-2022/placeholder_ta_615.jpg?rev=5c232392-5ab1-4501-86a8-ecc03960779a&mh=400&h=400&hash=D90974E3C51246B664C3FB15EC5E4D06"
                     />{' '}
                     <div className="spotlight-card--content">
                       <div className="flex__row flex__row--no-gutter-xs">
@@ -5043,11 +5043,11 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                 <div className="flex__col-10 flex__col-lg-4">
                   <div className="spotlight-card">
                     <img
-                      data-src="/-/media/ta-hline/images/home/food and nutrition/food safety and additives/news/2025/istock-492777948.jpg?rev=1f05fd77-3ca3-49ab-a693-cc5ba30a71c7&mh=400&la=nl-BE&h=400&w=600&hash=744DCC439BBAB5A3B51F51A8C620853C"
+                      data-src="https://www.test-aankoop.be/-/media/ta-hline/images/home/food and nutrition/food safety and additives/news/2025/istock-492777948.jpg?rev=1f05fd77-3ca3-49ab-a693-cc5ba30a71c7&mh=400&la=nl-BE&h=400&w=600&hash=744DCC439BBAB5A3B51F51A8C620853C"
                       className="spotlight-card--image"
                       alt=""
                       data-plugin="imageComponent"
-                      src="/-/media/ta/ta-logos-2022/placeholder_ta_615.jpg?rev=5c232392-5ab1-4501-86a8-ecc03960779a&mh=400&h=400&hash=D90974E3C51246B664C3FB15EC5E4D06"
+                      src="https://www.test-aankoop.be/-/media/ta/ta-logos-2022/placeholder_ta_615.jpg?rev=5c232392-5ab1-4501-86a8-ecc03960779a&mh=400&h=400&hash=D90974E3C51246B664C3FB15EC5E4D06"
                     />{' '}
                     <div className="spotlight-card--content">
                       <div className="flex__row flex__row--no-gutter-xs">
@@ -5180,11 +5180,11 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                 <div className="flex__col-10 flex__col-lg-4">
                   <div className="spotlight-card">
                     <img
-                      data-src="/-/media/ta/images/home/living energy/diswashing-liquid/news/2024/istock-1217832294-modified-9b438b18-1d8d-47be-ba57-0369b7ca35b0.jpg?rev=a3968246-86e8-4c24-afe1-726102856167&mh=400&la=nl-BE&h=400&w=711&hash=928E051B81724E258911C335DA96D90B"
+                      data-src="https://www.test-aankoop.be/-/media/ta/images/home/living energy/diswashing-liquid/news/2024/istock-1217832294-modified-9b438b18-1d8d-47be-ba57-0369b7ca35b0.jpg?rev=a3968246-86e8-4c24-afe1-726102856167&mh=400&la=nl-BE&h=400&w=711&hash=928E051B81724E258911C335DA96D90B"
                       className="spotlight-card--image"
                       alt="Afwasmiddel voor handafwas"
                       data-plugin="imageComponent"
-                      src="/-/media/ta/ta-logos-2022/placeholder_ta_615.jpg?rev=5c232392-5ab1-4501-86a8-ecc03960779a&mh=400&h=400&hash=D90974E3C51246B664C3FB15EC5E4D06"
+                      src="https://www.test-aankoop.be/-/media/ta/ta-logos-2022/placeholder_ta_615.jpg?rev=5c232392-5ab1-4501-86a8-ecc03960779a&mh=400&h=400&hash=D90974E3C51246B664C3FB15EC5E4D06"
                     />{' '}
                     <div className="spotlight-card--content">
                       <div className="flex__row flex__row--no-gutter-xs">
@@ -5316,11 +5316,11 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                 <div className="flex__col-10 flex__col-lg-4">
                   <div className="spotlight-card">
                     <img
-                      data-src="/-/media/ta/images/mobile/services/energyv2/energy_big.jpg?rev=96b97e01-ec48-401f-8489-3cef575ba5cf&mh=400&la=nl-BE&h=400&w=711&hash=72082B68EE85DC72C12BEF1E2364804A"
+                      data-src="https://www.test-aankoop.be/-/media/ta/images/mobile/services/energyv2/energy_big.jpg?rev=96b97e01-ec48-401f-8489-3cef575ba5cf&mh=400&la=nl-BE&h=400&w=711&hash=72082B68EE85DC72C12BEF1E2364804A"
                       className="spotlight-card--image"
                       alt="Koopgids energieleverancier gas en elektriciteit"
                       data-plugin="imageComponent"
-                      src="/-/media/ta/ta-logos-2022/placeholder_ta_615.jpg?rev=5c232392-5ab1-4501-86a8-ecc03960779a&mh=400&h=400&hash=D90974E3C51246B664C3FB15EC5E4D06"
+                      src="https://www.test-aankoop.be/-/media/ta/ta-logos-2022/placeholder_ta_615.jpg?rev=5c232392-5ab1-4501-86a8-ecc03960779a&mh=400&h=400&hash=D90974E3C51246B664C3FB15EC5E4D06"
                     />{' '}
                     <div className="spotlight-card--content">
                       <div className="flex__row flex__row--no-gutter-xs">
@@ -5446,11 +5446,11 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                 <div className="flex__col-10 flex__col-lg-4">
                   <div className="spotlight-card">
                     <img
-                      data-src="/-/media/ta/images/home/living energy/diswashing-liquid/news/2024/dreft milieuvriendelijk/_3146-dreft.png?rev=9eafcefe-da5d-4792-a626-e305771c6bb9&mh=400&la=nl-BE&h=400&w=711&hash=A8A739047D2AEE6FE247E2034CE85A25"
+                      data-src="https://www.test-aankoop.be/-/media/ta/images/home/living energy/diswashing-liquid/news/2024/dreft milieuvriendelijk/_3146-dreft.png?rev=9eafcefe-da5d-4792-a626-e305771c6bb9&mh=400&la=nl-BE&h=400&w=711&hash=A8A739047D2AEE6FE247E2034CE85A25"
                       className="spotlight-card--image"
                       alt="Is Dreft afwasmiddel milieuvriendelijk? "
                       data-plugin="imageComponent"
-                      src="/-/media/ta/ta-logos-2022/placeholder_ta_615.jpg?rev=5c232392-5ab1-4501-86a8-ecc03960779a&mh=400&h=400&hash=D90974E3C51246B664C3FB15EC5E4D06"
+                      src="https://www.test-aankoop.be/-/media/ta/ta-logos-2022/placeholder_ta_615.jpg?rev=5c232392-5ab1-4501-86a8-ecc03960779a&mh=400&h=400&hash=D90974E3C51246B664C3FB15EC5E4D06"
                     />{' '}
                     <div className="spotlight-card--content">
                       <div className="flex__row flex__row--no-gutter-xs">
@@ -5582,11 +5582,11 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                 <div className="flex__col-10 flex__col-lg-4">
                   <div className="spotlight-card">
                     <img
-                      data-src="/-/media/ta-hline/images/home/food and nutrition/cereal-bars/news/2024/best-cereals/barres-cereales-teaser_ok.jpg?rev=570a7611-90e9-45a8-9eef-6dcdc63ebc2c&mh=400&la=nl-BE&h=400&w=711&hash=8439F5036BB5E0B0A5C2FAD780F6DACE"
+                      data-src="https://www.test-aankoop.be/-/media/ta-hline/images/home/food and nutrition/cereal-bars/news/2024/best-cereals/barres-cereales-teaser_ok.jpg?rev=570a7611-90e9-45a8-9eef-6dcdc63ebc2c&mh=400&la=nl-BE&h=400&w=711&hash=8439F5036BB5E0B0A5C2FAD780F6DACE"
                       className="spotlight-card--image"
                       alt="proteïne repen"
                       data-plugin="imageComponent"
-                      src="/-/media/ta/ta-logos-2022/placeholder_ta_615.jpg?rev=5c232392-5ab1-4501-86a8-ecc03960779a&mh=400&h=400&hash=D90974E3C51246B664C3FB15EC5E4D06"
+                      src="https://www.test-aankoop.be/-/media/ta/ta-logos-2022/placeholder_ta_615.jpg?rev=5c232392-5ab1-4501-86a8-ecc03960779a&mh=400&h=400&hash=D90974E3C51246B664C3FB15EC5E4D06"
                     />{' '}
                     <div className="spotlight-card--content">
                       <div className="flex__row flex__row--no-gutter-xs">
@@ -5768,9 +5768,9 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                       data-plugin="imageComponent"
                       width={335}
                       height={395}
-                      data-src="/-/media/global-artwork/home-appliances/dishwasher-detergents/dishwasher-detergents.svg?rev=0acd7249-a3e5-43e4-85bd-8020c05f149c&mw=330&hash=FCED9F539C5B9F5FF1FE0E224CDD2BE0"
+                      data-src="https://www.test-aankoop.be/-/media/global-artwork/home-appliances/dishwasher-detergents/dishwasher-detergents.svg?rev=0acd7249-a3e5-43e4-85bd-8020c05f149c&mw=330&hash=FCED9F539C5B9F5FF1FE0E224CDD2BE0"
                       alt="Vaat-wasmiddelen"
-                      src="/-/media/global-artwork/home-appliances/dishwasher-detergents/dishwasher-detergents.svg?rev=0acd7249-a3e5-43e4-85bd-8020c05f149c&mw=330&hash=FCED9F539C5B9F5FF1FE0E224CDD2BE0"
+                      src="https://www.test-aankoop.be/-/media/global-artwork/home-appliances/dishwasher-detergents/dishwasher-detergents.svg?rev=0acd7249-a3e5-43e4-85bd-8020c05f149c&mw=330&hash=FCED9F539C5B9F5FF1FE0E224CDD2BE0"
                     />
                     <span
                       className="tools-panel--tool-title"
@@ -5797,9 +5797,9 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                       data-plugin="imageComponent"
                       width={335}
                       height={395}
-                      data-src="/-/media/global-artwork/hightech/laptop/laptops.svg?rev=022ce088-a4f0-46cd-b95e-b9050c526067&mw=330&hash=8FBC65485C45B85B6D821FDCAF78CE41"
+                      data-src="https://www.test-aankoop.be/-/media/global-artwork/hightech/laptop/laptops.svg?rev=022ce088-a4f0-46cd-b95e-b9050c526067&mw=330&hash=8FBC65485C45B85B6D821FDCAF78CE41"
                       alt="Laptops"
-                      src="/-/media/global-artwork/hightech/laptop/laptops.svg?rev=022ce088-a4f0-46cd-b95e-b9050c526067&mw=330&hash=8FBC65485C45B85B6D821FDCAF78CE41"
+                      src="https://www.test-aankoop.be/-/media/global-artwork/hightech/laptop/laptops.svg?rev=022ce088-a4f0-46cd-b95e-b9050c526067&mw=330&hash=8FBC65485C45B85B6D821FDCAF78CE41"
                     />
                     <span
                       className="tools-panel--tool-title"
@@ -5826,9 +5826,9 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                       data-plugin="imageComponent"
                       width={335}
                       height={395}
-                      data-src="/-/media/global-artwork/home-appliances/tumble-dryers/tumble_dryers.svg?rev=62c54399-a767-4f61-a430-d61c43f99b1e&mw=330&hash=7D6732A01402DF0294E45442AC5420F1"
+                      data-src="https://www.test-aankoop.be/-/media/global-artwork/home-appliances/tumble-dryers/tumble_dryers.svg?rev=62c54399-a767-4f61-a430-d61c43f99b1e&mw=330&hash=7D6732A01402DF0294E45442AC5420F1"
                       alt="Droogkasten"
-                      src="/-/media/global-artwork/home-appliances/tumble-dryers/tumble_dryers.svg?rev=62c54399-a767-4f61-a430-d61c43f99b1e&mw=330&hash=7D6732A01402DF0294E45442AC5420F1"
+                      src="https://www.test-aankoop.be/-/media/global-artwork/home-appliances/tumble-dryers/tumble_dryers.svg?rev=62c54399-a767-4f61-a430-d61c43f99b1e&mw=330&hash=7D6732A01402DF0294E45442AC5420F1"
                     />
                     <span
                       className="tools-panel--tool-title"
@@ -5855,9 +5855,9 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                       data-plugin="imageComponent"
                       width={335}
                       height={395}
-                      data-src="/-/media/global-artwork/home-appliances/expressomachines/expressomachines.svg?rev=ab7b7639-5b47-40e4-9fd3-010b80fbbb15&mw=330&hash=2B637084F85812ABB5048E842276C91B"
+                      data-src="https://www.test-aankoop.be/-/media/global-artwork/home-appliances/expressomachines/expressomachines.svg?rev=ab7b7639-5b47-40e4-9fd3-010b80fbbb15&mw=330&hash=2B637084F85812ABB5048E842276C91B"
                       alt="Koffie-machines"
-                      src="/-/media/global-artwork/home-appliances/expressomachines/expressomachines.svg?rev=ab7b7639-5b47-40e4-9fd3-010b80fbbb15&mw=330&hash=2B637084F85812ABB5048E842276C91B"
+                      src="https://www.test-aankoop.be/-/media/global-artwork/home-appliances/expressomachines/expressomachines.svg?rev=ab7b7639-5b47-40e4-9fd3-010b80fbbb15&mw=330&hash=2B637084F85812ABB5048E842276C91B"
                     />
                     <span
                       className="tools-panel--tool-title"
@@ -5884,9 +5884,9 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                       data-plugin="imageComponent"
                       width={335}
                       height={395}
-                      data-src="/-/media/global-artwork/hightech/printers/printers.svg?rev=c8c6c8f8-d316-43cc-8717-f3e67aff0123&mw=330&hash=FFBB08ACA0AF33236B2F5B80F0455201"
+                      data-src="https://www.test-aankoop.be/-/media/global-artwork/hightech/printers/printers.svg?rev=c8c6c8f8-d316-43cc-8717-f3e67aff0123&mw=330&hash=FFBB08ACA0AF33236B2F5B80F0455201"
                       alt="Printers"
-                      src="/-/media/global-artwork/hightech/printers/printers.svg?rev=c8c6c8f8-d316-43cc-8717-f3e67aff0123&mw=330&hash=FFBB08ACA0AF33236B2F5B80F0455201"
+                      src="https://www.test-aankoop.be/-/media/global-artwork/hightech/printers/printers.svg?rev=c8c6c8f8-d316-43cc-8717-f3e67aff0123&mw=330&hash=FFBB08ACA0AF33236B2F5B80F0455201"
                     />
                     <span
                       className="tools-panel--tool-title"
@@ -5913,9 +5913,9 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                       data-plugin="imageComponent"
                       width={335}
                       height={395}
-                      data-src="/-/media/global-artwork/living-energy/dish%20detergents/seg_detergent_dish.svg?rev=6e4088dc-67ae-43c8-8187-5418da0bbfcd&mw=330&hash=81EE6F3BEC3DA195F7905FABD0C93336"
+                      data-src="https://www.test-aankoop.be/-/media/global-artwork/living-energy/dish%20detergents/seg_detergent_dish.svg?rev=6e4088dc-67ae-43c8-8187-5418da0bbfcd&mw=330&hash=81EE6F3BEC3DA195F7905FABD0C93336"
                       alt="Afwasmiddelen"
-                      src="/-/media/global-artwork/living-energy/dish%20detergents/seg_detergent_dish.svg?rev=6e4088dc-67ae-43c8-8187-5418da0bbfcd&mw=330&hash=81EE6F3BEC3DA195F7905FABD0C93336"
+                      src="https://www.test-aankoop.be/-/media/global-artwork/living-energy/dish%20detergents/seg_detergent_dish.svg?rev=6e4088dc-67ae-43c8-8187-5418da0bbfcd&mw=330&hash=81EE6F3BEC3DA195F7905FABD0C93336"
                     />
                     <span
                       className="tools-panel--tool-title"
@@ -5982,7 +5982,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                     href="/alle-inhoud/magazines?magazine=budget-en-recht"
                   >
                     <img
-                      src="/-/media/ta/resources/paper publications/budget recht/2025/298/br_298/br298cover.jpg?rev=580ff9a2-15a0-44f2-85b3-3d21b4a6e60e&la=nl-BE&h=808&w=595&hash=D70C4F037A2F22A9EF1225FFB51F670D"
+                      src="https://www.test-aankoop.be/-/media/ta/resources/paper publications/budget recht/2025/298/br_298/br298cover.jpg?rev=580ff9a2-15a0-44f2-85b3-3d21b4a6e60e&la=nl-BE&h=808&w=595&hash=D70C4F037A2F22A9EF1225FFB51F670D"
                       className="magazines-panel-card-item__image"
                       alt=""
                     />
@@ -6014,7 +6014,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                     href="/alle-inhoud/magazines?magazine=testaankoop"
                   >
                     <img
-                      src="/-/media/ta/resources/paper publications/testaankoop/2025/703/aa_703/aa703001001cover.jpg?rev=d1ebbc25-7262-4dc0-976c-b7d181c1d3ad&la=nl-BE&h=808&w=595&hash=6141DEBBE8EBC74507E33934895D3598"
+                      src="https://www.test-aankoop.be/-/media/ta/resources/paper publications/testaankoop/2025/703/aa_703/aa703001001cover.jpg?rev=d1ebbc25-7262-4dc0-976c-b7d181c1d3ad&la=nl-BE&h=808&w=595&hash=6141DEBBE8EBC74507E33934895D3598"
                       className="magazines-panel-card-item__image"
                       alt=""
                     />
@@ -6046,7 +6046,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                     href="/alle-inhoud/magazines?magazine=testaankoop-connect"
                   >
                     <img
-                      src="/-/media/ta/resources/paper publications/test connect/2025/56/tcn56/cn56001001cover.jpg?rev=27518fce-5668-45b9-8ee9-39015b8988c4&la=nl-BE&h=901&w=664&hash=5305FB07783A467C4CCCABBF6345DD5C"
+                      src="https://www.test-aankoop.be/-/media/ta/resources/paper publications/test connect/2025/56/tcn56/cn56001001cover.jpg?rev=27518fce-5668-45b9-8ee9-39015b8988c4&la=nl-BE&h=901&w=664&hash=5305FB07783A467C4CCCABBF6345DD5C"
                       className="magazines-panel-card-item__image"
                       alt=""
                     />
@@ -6101,7 +6101,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                     <div className="flex__col-xs-11 flex__col-md-4 special-campaign__image-container">
                       <Link style={{ height: '100%' }} href="/mobiliteit/auto-s/nieuws/puretech">
                         <img
-                          data-src="/-/media/ta/images/home/mobility/autos/news/2024/teaser moteur.jpg?rev=ad6675cd-15c5-48ed-9833-9f58ecc1ccd4&la=nl-BE&h=197&mw=350&w=350&hash=D1137CB333EB2CC65F7C477D1EA6EF36"
+                          data-src="https://www.test-aankoop.be/-/media/ta/images/home/mobility/autos/news/2024/teaser moteur.jpg?rev=ad6675cd-15c5-48ed-9833-9f58ecc1ccd4&la=nl-BE&h=197&mw=350&w=350&hash=D1137CB333EB2CC65F7C477D1EA6EF36"
                           height={197}
                           alt="Problemen met PureTech: heeft jouw auto een defecte motor? "
                           data-plugin="imageComponent"
@@ -6165,7 +6165,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                         href="https://www.test-aankoop.be/energyguide/mijn-energiebesparingen/isolatie?int_source=consumer&int_medium=hp_actionblock"
                       >
                         <img
-                          data-src="/-/media/ta/images/homepage-responsive/action panel/2024/isolatie_istock-1212830587-152x111.jpg?rev=225b05ec-84e0-4bf1-9a6f-da1261f210c0&la=nl-BE&h=197&mw=350&w=350&hash=EDB4B4B1C48E2D82B71A441B75A3A26E"
+                          data-src="https://www.test-aankoop.be/-/media/ta/images/homepage-responsive/action panel/2024/isolatie_istock-1212830587-152x111.jpg?rev=225b05ec-84e0-4bf1-9a6f-da1261f210c0&la=nl-BE&h=197&mw=350&w=350&hash=EDB4B4B1C48E2D82B71A441B75A3A26E"
                           height={197}
                           alt="Isoleer je huis met Testaankoop en bespaar geld"
                           data-plugin="imageComponent"
@@ -6383,7 +6383,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                   className="Link-underline-never flex__col-xs-10 flex__col-md-5 "
                 >
                   <img
-                    data-src="/-/media/ta/images/homepage-responsive/new-a-line/our-services/servico_03.jpg?rev=a6933a9b-b109-462b-90a9-4164b3024866&la=nl-BE&h=254&mw=420&w=420&hash=854CE77AC2BBAA1B23AEB17B0B1B5F82"
+                    data-src="https://www.test-aankoop.be/-/media/ta/images/homepage-responsive/new-a-line/our-services/servico_03.jpg?rev=a6933a9b-b109-462b-90a9-4164b3024866&la=nl-BE&h=254&mw=420&w=420&hash=854CE77AC2BBAA1B23AEB17B0B1B5F82"
                     height={254}
                     alt="Bekijk onze acties"
                     data-plugin="imageComponent"
@@ -6422,7 +6422,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                   className="Link-underline-never flex__col-xs-10 flex__col-md-5 flex__col-last-medium"
                 >
                   <img
-                    data-src="/-/media/ta/images/homepage-responsive/new-a-line/our-services/complain-power.jpg?rev=741b96a9-e28b-46f8-b6a7-536ef8c733a0&la=nl-BE&h=219&mw=420&w=420&hash=FBC68491D87445BB606DF5DF524CFEB4"
+                    data-src="https://www.test-aankoop.be/-/media/ta/images/homepage-responsive/new-a-line/our-services/complain-power.jpg?rev=741b96a9-e28b-46f8-b6a7-536ef8c733a0&la=nl-BE&h=219&mw=420&w=420&hash=FBC68491D87445BB606DF5DF524CFEB4"
                     height={219}
                     alt="Klachtenmodule"
                     data-plugin="imageComponent"
@@ -6461,7 +6461,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                   className="Link-underline-never flex__col-xs-10 flex__col-md-5 "
                 >
                   <img
-                    data-src="/-/media/ocu/varia/cabereca_nl_3_16x9.jpg?rev=2bfdbe15-53d9-46a8-b162-9d3f2ea2f423&la=nl-BE&h=236&mw=420&w=420&hash=902118CDA4B4A8E09ADD30DBB2823F93"
+                    data-src="https://www.test-aankoop.be/-/media/ocu/varia/cabereca_nl_3_16x9.jpg?rev=2bfdbe15-53d9-46a8-b162-9d3f2ea2f423&la=nl-BE&h=236&mw=420&w=420&hash=902118CDA4B4A8E09ADD30DBB2823F93"
                     height={236}
                     alt="Koopwijzers en modules"
                     data-plugin="imageComponent"
@@ -6869,7 +6869,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
             >
               <Link href="#">
                 <img
-                  data-src="/-/media/ta/ta-logos-2022/footer-nl/logo-nl-be--footer-v2.png?rev=527c5bff-e27c-43ec-973a-abecf5f71a2d&la=nl-BE&h=30&mw=150&w=150&hash=7A98309A8576F93EDDB925A4C1B61734"
+                  data-src="https://www.test-aankoop.be/-/media/ta/ta-logos-2022/footer-nl/logo-nl-be--footer-v2.png?rev=527c5bff-e27c-43ec-973a-abecf5f71a2d&la=nl-BE&h=30&mw=150&w=150&hash=7A98309A8576F93EDDB925A4C1B61734"
                   className="no-margin img--medium"
                   height={30}
                   data-selector="footer-logo-image"
