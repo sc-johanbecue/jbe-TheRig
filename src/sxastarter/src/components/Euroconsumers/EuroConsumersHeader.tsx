@@ -250,7 +250,7 @@ export const Default = (props: EuroConsumersHeaderProps): JSX.Element => {
                   </span>
                   <strong className="separator">|</strong>
                   <JssLink
-                    field={props.fields.Login}
+                    field={props.fields.Register}
                     className="register"
                     href="/word-supporter?ectx=Y3Q6YWxpbmVfbWVudV9yZWdpc3Rlci5wYS1qb3VybmV5cw&wreply=https%3a%2f%2fwww.test-aankoop.be%2f%3fint_campaign%3dpa-journeys%26int_source%3daline%26int_medium%3dmenu%26int_content%3dnone%26int_term%3dregister"
                   />
