@@ -1,12 +1,11 @@
+/* eslint-disable jsx-a11y/role-has-required-aria-props */
 import React from 'react';
-import { LinkField, ImageField } from '@sitecore-jss/sitecore-jss-nextjs';
+import { LinkField, Link as JssLink } from '@sitecore-jss/sitecore-jss-nextjs';
 import Link from 'next/link';
 
 interface Fields {
-  CollapsedImage: ImageField;
-  ExpandedImage: ImageField;
-  MobileImage: ImageField;
-  Link: LinkField;
+  Login: LinkField;
+  Register: LinkField;
 }
 
 type EuroConsumersHeaderProps = {
@@ -120,12 +119,62 @@ export const Default = (props: EuroConsumersHeaderProps): JSX.Element => {
                         data-aline-authentication-target="login"
                         aria-label="Mijn persoonlijke ruimte mobile"
                       >
-                        {/*login mobile*/}{' '}
+                        {/*login mobile*/}
                       </Link>
                     </span>
                   </div>
                   <div className="flex__col flex__col-md-9 flex__col-xs-12 search">
-                    <div id="algolia-search" />
+                    <div id="algolia-search">
+                      <div
+                        id="searchAutocomplete"
+                        className="aa-Autocomplete"
+                        role="combobox"
+                        aria-expanded="false"
+                        aria-haspopup="listbox"
+                        aria-labelledby="autocomplete-0-label"
+                      >
+                        <form
+                          className="search-form aa-Form"
+                          id="SearchForm"
+                          method="post"
+                          role="search"
+                          action=""
+                          noValidate
+                        >
+                          <div className="search-input">
+                            <span className="search-input-clearable">
+                              <input
+                                id="autocomplete-0-input"
+                                aria-label="cerca"
+                                input-mode="search"
+                                name="SearchedKeyword"
+                                type="search"
+                                className="search-input"
+                                aria-autocomplete="both"
+                                aria-labelledby="autocomplete-0-label"
+                                autoComplete="off"
+                                autoCorrect="off"
+                                autoCapitalize="off"
+                                enterKeyHint="search"
+                                spellCheck="false"
+                                placeholder="Je zoekterm"
+                                maxLength={512}
+                                data-selector="searchAutocomplete"
+                                value=""
+                              />
+                              <span className="clearable">
+                                <span className="icon-x-2"></span>
+                              </span>
+                            </span>
+                            <i className="icon-search-2"></i>
+                            <button type="submit" className="search-submit">
+                              Zoek
+                            </button>
+                          </div>
+                          <div className="search-panel"></div>
+                        </form>
+                      </div>
+                    </div>
                   </div>
                 </div>
                 <div
@@ -187,7 +236,8 @@ export const Default = (props: EuroConsumersHeaderProps): JSX.Element => {
                   data-datasource="{C931E70B-1217-4041-9DEF-28291B45C40F}"
                 >
                   <span data-plugin="iframeAuthentication">
-                    <Link
+                    <JssLink
+                      field={props.fields.Login}
                       data-plugin="modal"
                       data-popup-type="inline"
                       href="#aline-authentication-modal"
@@ -195,17 +245,14 @@ export const Default = (props: EuroConsumersHeaderProps): JSX.Element => {
                       data-login-url="https://login.test-aankoop.be/?wa=wsignin1.0&wtrealm=eur%3a%2f%2feuroconsumers.pro.alinesc.nl-be%2f&wreply=https%3a%2f%2fwww.test-aankoop.be%2fCommonAPI%2fCommonBeanTrigger%2fSendLoginOkMessage%3fReturnUrl%3dsec%253a%252f%252frealm%252feuroconsumers.pro.sitecorecd.nl-be%252fy3frn5CjWlh94_5VtDKtKBSoe6b6UkAr5ZlwFRo5H4-iS2LhpzswEfjBFBOpXbpEMVL6XaJ_oojxLanEnpI2_StwqlCW1a2Jv5f5GQFqp0qcb3UEAc6E7DYVg1l0lCpzxpJmwBSRmd8_1riW9dKKVOoXFNGxEAIhLH0mMzydwqZZrx1YQQR27ROSZ9cV8M8tIxmK1eYKkwbsVCKX005HOIL2I6U1&ectx=Y3Q6YWxpbmVfbWVudV9sb2ctaW4ucGEtam91cm5leXM&customstyle=alineiframev3"
                       data-selector="aline-authentication-modal--btn-trigger"
                       data-aline-authentication-target="login"
-                    >
-                      Aanmelden
-                    </Link>
+                    />
                   </span>
                   <strong className="separator">|</strong>
-                  <Link
+                  <JssLink
+                    field={props.fields.Login}
                     className="register"
                     href="/word-supporter?ectx=Y3Q6YWxpbmVfbWVudV9yZWdpc3Rlci5wYS1qb3VybmV5cw&wreply=https%3a%2f%2fwww.test-aankoop.be%2f%3fint_campaign%3dpa-journeys%26int_source%3daline%26int_medium%3dmenu%26int_content%3dnone%26int_term%3dregister"
-                  >
-                    Registreren
-                  </Link>
+                  />
                 </div>
               </div>
             </div>
