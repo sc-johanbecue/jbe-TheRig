@@ -60,14 +60,14 @@ export const Default = (props: EuroConsumersSkinProps): JSX.Element => {
                 <JssImage
                   field={props.fields.CollapsedImage}
                   className="collapsed"
-                  style={isExpanded ? { display: 'none' } : { display: 'inherit' }}
+                  style={isExpanded ? { display: 'none' } : { display: 'block' }}
                   height={70}
                   width={1050}
                 />
                 <JssImage
                   field={props.fields.ExpandedImage}
                   className="expanded"
-                  style={isExpanded ? { display: 'inherit' } : { display: 'none' }}
+                  style={isExpanded ? { display: 'block' } : { display: 'none' }}
                 />
               </label>
               <div>
