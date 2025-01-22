@@ -1,5 +1,11 @@
 import React from 'react';
-import { LinkField, ImageField } from '@sitecore-jss/sitecore-jss-nextjs';
+import {
+  LinkField,
+  ImageField,
+  Placeholder,
+  ComponentParams,
+  ComponentRendering,
+} from '@sitecore-jss/sitecore-jss-nextjs';
 import Link from 'next/link';
 
 interface Fields {
@@ -10,6 +16,7 @@ interface Fields {
 }
 
 type EuroConsumersTopNavigationProps = {
+  rendering: ComponentRendering & { params: ComponentParams };
   params: { [key: string]: string };
   fields: Fields;
 };
@@ -25,6 +32,8 @@ const EuroConsumersTopNavigationDefaultComponent = (
 );
 
 export const Default = (props: EuroConsumersTopNavigationProps): JSX.Element => {
+  const phKeyTopNavigation = `topNavigation-${props.params.DynamicPlaceholderId}`;
+
   if (props.fields) {
     return (
       <nav
@@ -36,6 +45,7 @@ export const Default = (props: EuroConsumersTopNavigationProps): JSX.Element => 
       >
         <div className="constrained">
           <div className="flex__row web4__links">
+            <Placeholder name={phKeyTopNavigation} rendering={props.rendering} />
             <ul className="mainLinks">
               <li className="align-left">
                 <Link
