@@ -76,6 +76,7 @@ export const Default = (props: EuroConsumersSkinProps): JSX.Element => {
                   htmlFor="checkbox-skin-desktop"
                   className="icon-chevron-down"
                   style={{ color: 'White' }}
+                  onClick={handleToggle}
                 />
               </div>
             </div>
@@ -98,7 +99,6 @@ export const Default = (props: EuroConsumersSkinProps): JSX.Element => {
                 htmlFor="checkbox-skin-mobile"
                 className="flex__col flex__col-xs-1 icon-x-2 no-padding"
                 style={{ color: 'White' }}
-                onClick={handleToggle}
               />
             </div>
           </div>
