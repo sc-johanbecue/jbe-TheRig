@@ -83,6 +83,7 @@ export const Default = (props: EuroConsumersHeaderProps): JSX.Element => {
                     data-type="ALineHeaderLogoController"
                     data-rendering="ALineHeaderLogo"
                     data-datasource="{F033F3B1-1B8E-41CC-858F-E5041E32B3A2}"
+                    style={{ display: 'block' }}
                   >
                     <Link href="/">
                       <img
