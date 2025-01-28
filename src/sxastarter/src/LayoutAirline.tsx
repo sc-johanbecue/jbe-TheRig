@@ -110,10 +110,10 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
           rel="stylesheet"
           href="https://www.sportingkampenhout.be/Sitecore/airline/assets/css/bootstrap.min.css"
         />
-        <script
+        {/* <script
           defer
           src="https://www.sportingkampenhout.be/Sitecore/airline/static/js/main.e22c0515.js"
-        ></script>
+        ></script> */}
         {/* https://www.sportingkampenhout.be/Sitecore/airline/static/css/main.6dddffd7.css */}
         <link
           href="https://xmc-sitecoresaa9e21-jbetherig-custom.sitecorecloud.io/-/media/Feature/Airline/styling/main"
