@@ -47,7 +47,7 @@ export const Default = (props: EuroConsumersMagazine): JSX.Element => {
             <JssImage
               field={props.fields.Image}
               className="magazines-panel-card-item__image"
-              style={{ width: '120px' }}
+              style={{ maxWidth: '120px', width: '120px' }}
             />
             <div className="magazines-panel-card-item__infos">
               <h3 className="magazines-panel-card-item__infos__title stronger">
