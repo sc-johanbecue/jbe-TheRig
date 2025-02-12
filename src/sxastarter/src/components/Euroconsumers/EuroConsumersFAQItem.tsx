@@ -1,5 +1,6 @@
 /* eslint-disable jsx-a11y/role-has-required-aria-props */
 import React from 'react';
+import { useState } from 'react';
 import { TextField, Text } from '@sitecore-jss/sitecore-jss-nextjs';
 
 interface Fields {
@@ -21,6 +22,12 @@ const EuroConsumersFAQItemDefaultComponent = (props: EuroConsumersFAQItemProps):
 );
 
 export const Default = (props: EuroConsumersFAQItemProps): JSX.Element => {
+  const [isVisible, setIsVisible] = useState(false);
+
+  const toggleVisibility = () => {
+    setIsVisible(!isVisible);
+  };
+
   if (props.fields) {
     return (
       <div
@@ -35,7 +42,7 @@ export const Default = (props: EuroConsumersFAQItemProps): JSX.Element => {
           aria-controls="collapsibleContent-4686"
           role="button"
         >
-          <i className="icon-chevron-down icon--heavy"></i>
+          <i className="icon-chevron-down icon--heavy" onClick={toggleVisibility}></i>
           <Text field={props.fields.Question} />
         </h3>
         <div
@@ -49,6 +56,13 @@ export const Default = (props: EuroConsumersFAQItemProps): JSX.Element => {
           <Text field={props.fields.Answer} />
           <p></p>
         </div>
+        <style jsx>
+          {`
+            .toggle-content {
+              transition: opacity 0.3s ease;
+            }
+          `}
+        </style>
       </div>
     );
   }
