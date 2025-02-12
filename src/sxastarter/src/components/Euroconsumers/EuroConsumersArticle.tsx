@@ -160,7 +160,7 @@ export const Default = (props: EuroConsumersArticleProps): JSX.Element => {
           </div> */}
           <div
             id="step-by-step__guide"
-            className="flex__col-xs-12 flex__col-xs-12 flex__col-lg-8 margin--left-auto margin--bottom-xlarge"
+            className="flex__col-xs-12 flex__col-xs-12 flex__col-lg-12 margin--left-auto margin--bottom-xlarge"
             data-selector="for-scraping"
           >
             <div
