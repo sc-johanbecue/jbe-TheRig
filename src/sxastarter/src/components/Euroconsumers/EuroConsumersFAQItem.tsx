@@ -50,7 +50,7 @@ export const Default = (props: EuroConsumersFAQItemProps): JSX.Element => {
           id="collapsibleContent-4686"
           role="region"
           aria-labelledby="collapsibleTrigger-3202"
-          style={{ display: 'none' }}
+          style={{ display: isVisible ? 'inherit' : 'none' }}
         >
           <p></p>
           <Text field={props.fields.Answer} />
