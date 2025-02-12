@@ -29,7 +29,7 @@ const EuroConsumersFAQDefaultComponent = (props: EuroConsumersFAQProps): JSX.Ele
 );
 
 export const Default = (props: EuroConsumersFAQProps): JSX.Element => {
-  const phFAQItems = `offerItems-${props.params.DynamicPlaceholderId}`;
+  const phFAQItems = `faqItems-${props.params.DynamicPlaceholderId}`;
 
   if (props.fields) {
     return (
