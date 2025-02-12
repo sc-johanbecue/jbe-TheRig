@@ -3,6 +3,7 @@
  * This Layout is needed for Starter Kit.
  */
 import React from 'react';
+import { useState, useEffect } from 'react';
 import Head from 'next/head';
 import {
   Placeholder,
@@ -38,6 +39,23 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
   const fields = route?.fields as RouteFields;
   const isPageEditing = layoutData.sitecore.context.pageEditing;
   const mainClassPageEditing = isPageEditing ? 'editing-mode' : 'prod-mode';
+
+  const [isFixed, setIsFixed] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 50) {
+        setIsFixed(true);
+      } else {
+        setIsFixed(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
 
   return (
     <>
@@ -454,7 +472,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
       {/* root placeholder for the app, which we add components to using route data */}
       <div className={mainClassPageEditing}>
         <div>Name: {layoutData.sitecore.context.site?.name}</div>
-        <header className="FEOMHeader">
+        <header className={`FEOMHeader ${isFixed ? 'is-fixed' : ''}`}>
           {route && <Placeholder name="headless-header" rendering={route} />}
         </header>
         <main>
