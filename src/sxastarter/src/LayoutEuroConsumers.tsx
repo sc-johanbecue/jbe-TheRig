@@ -471,7 +471,6 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
 
       {/* root placeholder for the app, which we add components to using route data */}
       <div className={mainClassPageEditing}>
-        <div>Name: {layoutData.sitecore.context.site?.name}</div>
         <header className={`FEOMHeader ${isFixed ? 'is-fixed' : ''}`}>
           {route && <Placeholder name="headless-header" rendering={route} />}
         </header>
