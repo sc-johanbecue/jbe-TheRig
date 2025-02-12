@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/role-has-required-aria-props */
 import React from 'react';
 import { LinkField } from '@sitecore-jss/sitecore-jss-nextjs';
+import Link from 'next/link';
 
 interface Fields {
   Login: LinkField;
@@ -52,7 +53,7 @@ export const Default = (props: EuroConsumersArticleProps): JSX.Element => {
                   className="no-margin margin--top-large desktop-only"
                 >
                   <li>
-                    <a
+                    <Link
                       data-plugin="scrollToTarget"
                       data-plugin-settings="#scroll-to-target-settings"
                       href="#welke-type-van-koelkast-zoek-je"
@@ -63,10 +64,10 @@ export const Default = (props: EuroConsumersArticleProps): JSX.Element => {
                       className="has-plugin active"
                     >
                       Welke type van koelkast zoek je?
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
+                    <Link
                       data-plugin="scrollToTarget"
                       data-plugin-settings="#scroll-to-target-settings"
                       href="#functies-waarmee-je-rekening-moet-houden"
@@ -77,10 +78,10 @@ export const Default = (props: EuroConsumersArticleProps): JSX.Element => {
                       className="has-plugin"
                     >
                       Functies waarmee je rekening moet houden
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
+                    <Link
                       data-plugin="scrollToTarget"
                       data-plugin-settings="#scroll-to-target-settings"
                       href="#merken-van-koelkasten-vergelijken"
@@ -91,10 +92,10 @@ export const Default = (props: EuroConsumersArticleProps): JSX.Element => {
                       className="has-plugin"
                     >
                       Merken van koelkasten vergelijken
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
+                    <Link
                       data-plugin="scrollToTarget"
                       data-plugin-settings="#scroll-to-target-settings"
                       href="#veelgestelde-vragen"
@@ -105,7 +106,7 @@ export const Default = (props: EuroConsumersArticleProps): JSX.Element => {
                       className="has-plugin"
                     >
                       Veelgestelde vragen
-                    </a>
+                    </Link>
                   </li>
                 </ul>
                 <div className="hide-on-desktop form form--group">
@@ -187,9 +188,9 @@ export const Default = (props: EuroConsumersArticleProps): JSX.Element => {
                   <li>
                     <strong>Combi-bottom-toestellen</strong> zijn het populairst in ons land. We
                     richten{' '}
-                    <a href="/huishoudelektro/koelkasten/vergelijker">
+                    <Link href="/huishoudelektro/koelkasten/vergelijker">
                       <b>onze test</b>
-                    </a>
+                    </Link>
                     &nbsp;vooral op dit type apparaat. Ze hebben meestal een groter vriesvak dan de
                     combi-top, al verlies je een beetje ruimte doordat er lades in zitten, wat bij
                     de combi-top niet het geval is.
@@ -212,9 +213,9 @@ export const Default = (props: EuroConsumersArticleProps): JSX.Element => {
                   model van 82 cm (onder het aanrecht) worden ingebouwd. Jammer genoeg is het
                   energieverbruik van veel van inbouwkoelkasten 178 cm voor verbetering vatbaar. Je
                   leest er meer over in ons{' '}
-                  <a href="/huishoudelektro/koelkasten/dossier/inbouwmodellen">
+                  <Link href="/huishoudelektro/koelkasten/dossier/inbouwmodellen">
                     <b>dossier inbouwkoelkasten</b>
-                  </a>
+                  </Link>
                   .
                 </p>
                 <h3>Tafelmodel (1 deur)</h3>
@@ -226,9 +227,9 @@ export const Default = (props: EuroConsumersArticleProps): JSX.Element => {
                 <h3>Amerikaanse koelkast (2 of 3 deuren)</h3>
                 <p>
                   Als je veel ruimte hebt, kun je kiezen voor een zogenoemde &ldquo;
-                  <a href="/huishoudelektro/koelkasten/dossier/amerikaanse-koelkast">
+                  <Link href="/huishoudelektro/koelkasten/dossier/amerikaanse-koelkast">
                     <b>Amerikaanse koelkast</b>
-                  </a>
+                  </Link>
                   &ldquo;: een model waarbij koelkast en diepvriezer naast elkaar staan, met elk een
                   aparte deur (een &ldquo;side-by-side&ldquo; koelkast).
                 </p>
@@ -253,13 +254,13 @@ export const Default = (props: EuroConsumersArticleProps): JSX.Element => {
                 </ul>
                 <div>&nbsp;</div>
               </div>
-              <a
+              <Link
                 className="block step-by-step__scroll-to-top hide-on-desktop has-plugin"
                 data-plugin="scrollToTarget"
                 href="#step-by-step__navigation"
               >
                 Terug naar boven
-              </a>
+              </Link>
               {/* <script type="application/json" id="46cd431f-4664-4c7b-81cc-ee9a1af4cad2-waypoint-settings">
         {
         "offset": 150,
@@ -279,7 +280,7 @@ export const Default = (props: EuroConsumersArticleProps): JSX.Element => {
                 <aside className="nba-panel margin--top-large margin--bottom-xlarge padding--top-large padding--bottom-large">
                   <div className="flex__row">
                     <div className="flex__col flex__col-xs-12 flex__col-md-5 relative">
-                      <a
+                      <Link
                         href="/huishoudelektro/koelkasten/vergelijker?int_campaign=product-hub&amp;int_source=hubv2&amp;int_medium=hub-advice&amp;int_content=results-page&amp;int_term=cross-linking-banner"
                         className="relative "
                       >
@@ -294,26 +295,26 @@ export const Default = (props: EuroConsumersArticleProps): JSX.Element => {
                           fetchPriority="low"
                           src="/-/media/ta/ta-logos-2022/placeholder_ta_615.jpg?rev=5c232392-5ab1-4501-86a8-ecc03960779a&amp;h=162&amp;w=275&amp;hash=26BE1D883D3CA3D8886EA31FC02000BC"
                         />
-                      </a>
+                      </Link>
                     </div>
                     <div className="flex__col flex__col-xs-12 flex__col-md-7">
-                      <a
+                      <Link
                         href="/huishoudelektro/koelkasten/vergelijker?int_campaign=product-hub&amp;int_source=hubv2&amp;int_medium=hub-advice&amp;int_content=results-page&amp;int_term=cross-linking-banner"
                         className="link-underline-never"
                       >
                         <h3 className="stronger no-margin">
                           Op zoek naar de beste koelkast met diepvriezer onderaan?
                         </h3>
-                      </a>
+                      </Link>
                       <p>We hebben meer dan 40 koelkasten met diepvriezer onderaan getest.&nbsp;</p>
                       <p className="no-margin">
-                        <a
+                        <Link
                           href="/huishoudelektro/koelkasten/vergelijker?int_campaign=product-hub&amp;int_source=hubv2&amp;int_medium=hub-advice&amp;int_content=results-page&amp;int_term=cross-linking-banner"
                           title="Vergelijk en kies"
                           className="btn btn--primary"
                         >
                           Vergelijk en kies
-                        </a>
+                        </Link>
                       </p>
                     </div>
                   </div>
@@ -498,9 +499,9 @@ export const Default = (props: EuroConsumersArticleProps): JSX.Element => {
                   zuinigste energieklasse.
                   <br />
                   Raadpleeg{' '}
-                  <a href="/huishoudelektro/koelkasten/dossier/een-zuinige-koelkast-kiezen">
+                  <Link href="/huishoudelektro/koelkasten/dossier/een-zuinige-koelkast-kiezen">
                     ons dossier
-                  </a>
+                  </Link>
                   &nbsp;om meer te lezen over deze herziening, om te ontdekken hoe je het
                   energielabel moet interpreteren en om het verbruik volgens het nieuwe label te
                   berekenen.
@@ -522,13 +523,13 @@ export const Default = (props: EuroConsumersArticleProps): JSX.Element => {
                   ijsblokjes- of waterdispenser bijvoorbeeld), wat het energieverbruik doet oplopen.
                 </p>
               </div>
-              <a
+              <Link
                 className="block step-by-step__scroll-to-top hide-on-desktop has-plugin"
                 data-plugin="scrollToTarget"
                 href="#step-by-step__navigation"
               >
                 Terug naar boven
-              </a>
+              </Link>
               <script
                 type="application/json"
                 id="776cf53c-74f1-460a-bb73-f3e6f33321f2-waypoint-settings"
@@ -552,7 +553,7 @@ export const Default = (props: EuroConsumersArticleProps): JSX.Element => {
                 <aside className="nba-panel margin--top-large margin--bottom-xlarge padding--top-large padding--bottom-large">
                   <div className="flex__row">
                     <div className="flex__col flex__col-xs-12 flex__col-md-5 relative">
-                      <a
+                      <Link
                         href="/huishoudelektro/koelkasten/dossier/een-zuinige-koelkast-kiezen?int_campaign=product-hub&amp;int_source=hubv2&amp;int_medium=hub-advice&amp;int_content=dossier&amp;int_term=cross-linking-banner"
                         className="relative "
                       >
@@ -567,15 +568,15 @@ export const Default = (props: EuroConsumersArticleProps): JSX.Element => {
                           fetchPriority="low"
                           src="/-/media/ta/ta-logos-2022/placeholder_ta_615.jpg?rev=5c232392-5ab1-4501-86a8-ecc03960779a&amp;h=162&amp;w=275&amp;hash=26BE1D883D3CA3D8886EA31FC02000BC"
                         />{' '}
-                      </a>
+                      </Link>
                     </div>
                     <div className="flex__col flex__col-xs-12 flex__col-md-7">
-                      <a
+                      <Link
                         href="/huishoudelektro/koelkasten/dossier/een-zuinige-koelkast-kiezen?int_campaign=product-hub&amp;int_source=hubv2&amp;int_medium=hub-advice&amp;int_content=dossier&amp;int_term=cross-linking-banner"
                         className="link-underline-never"
                       >
                         <h3 className="stronger no-margin">Een zuinige koelkast kiezen</h3>
-                      </a>
+                      </Link>
                       <p>
                         Hoeveel elektriciteit een koelkast verbruikt, lees je af van het
                         energielabel. Vanaf november 2020 kon je het nieuwe, herziene label al bij
@@ -583,13 +584,13 @@ export const Default = (props: EuroConsumersArticleProps): JSX.Element => {
                         kracht.
                       </p>
                       <p className="no-margin">
-                        <a
+                        <Link
                           href="/huishoudelektro/koelkasten/dossier/een-zuinige-koelkast-kiezen?int_campaign=product-hub&amp;int_source=hubv2&amp;int_medium=hub-advice&amp;int_content=dossier&amp;int_term=cross-linking-banner"
                           title="Lees meer over het nieuw energielabel "
                           className="btn btn--primary"
                         >
                           Lees meer over het nieuw energielabel{' '}
-                        </a>
+                        </Link>
                       </p>
                     </div>
                   </div>
@@ -638,18 +639,18 @@ export const Default = (props: EuroConsumersArticleProps): JSX.Element => {
                 <p>
                   In onze koopwijzer kun je gericht zoeken door te filteren op prijs, kwaliteit,
                   tevredenheidsindex ... Zo vind je gemakkelijk de{' '}
-                  <a href="/huishoudelektro/koelkasten/vergelijker">
+                  <Link href="/huishoudelektro/koelkasten/vergelijker">
                     koelkast die voor jou de beste keuze is.
-                  </a>
+                  </Link>
                 </p>
               </div>
-              <a
+              <Link
                 className="block step-by-step__scroll-to-top hide-on-desktop has-plugin"
                 data-plugin="scrollToTarget"
                 href="#step-by-step__navigation"
               >
                 Terug naar boven
-              </a>
+              </Link>
               <script
                 type="application/json"
                 id="45df589c-b2f5-42e9-adf7-1bdd001349c6-waypoint-settings"
@@ -673,7 +674,7 @@ export const Default = (props: EuroConsumersArticleProps): JSX.Element => {
                 <aside className="nba-panel margin--top-large margin--bottom-xlarge padding--top-large padding--bottom-large">
                   <div className="flex__row">
                     <div className="flex__col flex__col-xs-12 flex__col-md-5 relative">
-                      <a
+                      <Link
                         href="/huishoudelektro/koelkasten/dossier/betrouwbaarheid-koelkasten?int_campaign=product-hub&amp;int_source=hubv2&amp;int_medium=hub-advice&amp;int_content=dossier&amp;int_term=cross-linking-banner"
                         className="relative "
                       >
@@ -688,29 +689,29 @@ export const Default = (props: EuroConsumersArticleProps): JSX.Element => {
                           fetchPriority="low"
                           src="/-/media/ta/ta-logos-2022/placeholder_ta_615.jpg?rev=5c232392-5ab1-4501-86a8-ecc03960779a&amp;h=162&amp;w=275&amp;hash=26BE1D883D3CA3D8886EA31FC02000BC"
                         />{' '}
-                      </a>
+                      </Link>
                     </div>
                     <div className="flex__col flex__col-xs-12 flex__col-md-7">
-                      <a
+                      <Link
                         href="/huishoudelektro/koelkasten/dossier/betrouwbaarheid-koelkasten?int_campaign=product-hub&amp;int_source=hubv2&amp;int_medium=hub-advice&amp;int_content=dossier&amp;int_term=cross-linking-banner"
                         className="link-underline-never"
                       >
                         <h3 className="stronger no-margin">Betrouwbaarheid van de koelkasten</h3>
-                      </a>
+                      </Link>
                       <p>
                         Een koelkast is een hele investering, dus kies je het best voor een
                         betrouwbaar merk. Om te weten welke merken je het minst in de steek laten,
                         hebben we een enquête afgenomen bij zo&quot;n 46 000 gebruikers.
                       </p>
                       <p className="no-margin">
-                        <a
+                        <Link
                           href="/huishoudelektro/koelkasten/dossier/betrouwbaarheid-koelkasten?int_campaign=product-hub&amp;int_source=hubv2&amp;int_medium=hub-advice&amp;int_content=dossier&amp;int_term=cross-linking-banner"
                           title=" Naar de betrouwbare merken"
                           className="btn btn--primary"
                         >
                           {' '}
                           Naar de betrouwbare merken
-                        </a>
+                        </Link>
                       </p>
                     </div>
                   </div>
@@ -833,9 +834,9 @@ export const Default = (props: EuroConsumersArticleProps): JSX.Element => {
                         <p>
                           Met onze tools kun je flink wat geld uitsparen. Kijk in de eerste plaats
                           naar het{' '}
-                          <a href="https://www.test-aankoop.be/applicaties/detail?app=besteprijs">
+                          <Link href="https://www.test-aankoop.be/applicaties/detail?app=besteprijs">
                             label &ldquo;Beste Koop&ldquo;
-                          </a>
+                          </Link>
                           . Die onderscheiding leidt je naar het toestel met de beste
                           prijs-kwaliteitverhouding. Je komt te weten in welke fysieke of
                           onlinewinkel je er de laagste prijs voor betaalt.
@@ -843,9 +844,9 @@ export const Default = (props: EuroConsumersArticleProps): JSX.Element => {
                           <br />
                           Heb je nog niet beslist welk merk van koelkast je wilt kopen? Kijk naar de
                           testresultaten van de populaire{' '}
-                          <a className="wysiwyg" href="/huishoudelektro/koelkasten/vergelijker">
+                          <Link className="wysiwyg" href="/huishoudelektro/koelkasten/vergelijker">
                             koelvriescombinaties met diepvriesgedeelte onderaan
-                          </a>
+                          </Link>
                           &nbsp;(combi-bottoms).
                           <br />
                         </p>
@@ -904,13 +905,13 @@ export const Default = (props: EuroConsumersArticleProps): JSX.Element => {
                     </div>
                   </div>
                 </div>
-                <a
+                <Link
                   className="block step-by-step__scroll-to-top hide-on-desktop has-plugin"
                   data-plugin="scrollToTarget"
                   href="#step-by-step__navigation"
                 >
                   Terug naar boven
-                </a>
+                </Link>
               </div>
               <script type="application/json" id="faq-waypoint-settings">
                 {/* {
