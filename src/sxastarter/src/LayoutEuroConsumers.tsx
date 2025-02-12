@@ -482,7 +482,6 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
           <div id="footer">{route && <Placeholder name="headless-footer" rendering={route} />}</div>
         </footer>
       </div>
-
       <div
         id="f7cfc672-78d9-4306-a1b4-2870ccebcbc3"
         className="sticky-banner-footer mobile-only hidden"
@@ -525,41 +524,6 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
             <div className="bannerContentMainCaption uppercase">Ontdek Testaankoop voor €2</div>
           </div>
         </div>
-      </div>
-      <div id="authentication-callout-bookmark" className="mfp-hide">
-        <h2 className="stronger">Meld je aan om dit artikel te bewaren.</h2>
-        <p />
-        <p>
-          {/*Button Login Open Modal */}
-          <span data-plugin="iframeAuthentication">
-            <Link
-              data-plugin="modal"
-              data-popup-type="inline"
-              href="#aline-authentication-modal"
-              className="btn btn--primary btn--large btn btn--large btn--primary"
-              data-login-url="https://login.test-aankoop.be/?wa=wsignin1.0&wtrealm=eur%3a%2f%2feuroconsumers.pro.alinesc.nl-be%2f&wreply=https%3a%2f%2fwww.test-aankoop.be%2fCommonAPI%2fCommonBeanTrigger%2fSendLoginOkMessage%3fReturnUrl%3dsec%253a%252f%252frealm%252feuroconsumers.pro.sitecorecd.nl-be%252fQXWmAPQN7bHGdmqzWr_Gbfhm0UyRsNOzyGjFLtyjriOMeVgAyGh3P-iTF3jO6vzUtF-EViOja18XM2R9EaUZX61U80xPo_5rkjFCkHQ9t2ODvcgjtXJhMw8nst6PkvlBiSKKrlrU0jYigSpJp5Dh5MiI3nNWDFnIOzYV1RXfi7yguajZ0&ectx=Y3Q6YWxpbmUtaG9tZQ&customstyle=alineiframev3"
-              data-selector="aline-authentication-modal--btn-trigger"
-              data-aline-authentication-target="login"
-              data-aline-authentication-source="aline"
-            >
-              Aanmelden
-            </Link>
-          </span>
-          {/*Textlink Create-Account Open Modal */}
-          <span data-plugin="iframeAuthentication">
-            <Link
-              href="#aline-authentication-modal"
-              data-register-url="https://login.test-aankoop.be/?wa=registeruser1.0&wtrealm=eur%3a%2f%2feuroconsumers.pro.alinesc.nl-be%2f&wreply=https%3a%2f%2fwww.test-aankoop.be%2fCommonAPI%2fCommonBeanTrigger%2fSendLoginOkMessage%3fReturnUrl%3dsec%253a%252f%252frealm%252feuroconsumers.pro.sitecorecd.nl-be%252fWkhYEnWFe7Yxm0AubwhyocoN57HDrMSd-eDJrx2ZylzaSs7Eo-PCAq7bnOikQOomttk8jLN_0xcIRKeBsHJkqy2nHftxovI6lwwFAXmv1XEdwr2bIVh0jaZAI4RwNrROHmEdOSLZd5Culqo7RDPt6xFIsRGN2tIMOOiTMmpjhsQ8QWIMk5ptSir9t5DEsn9Ae2OLYoR4v7m88tx4askYqlMA7SE1&ectx=Y3Q6aG9tZXBhZ2VfYWxpbmVob21fbm9uZS5lZHNhdmUwbg&customstyle=alineiframev3"
-              data-plugin="modal"
-              data-popup-type="inline"
-              data-selector="aline-authentication-modal--btn-trigger"
-              data-aline-authentication-target="register"
-              data-aline-authentication-source="aline"
-            >
-              Registreren
-            </Link>
-          </span>
-        </p>
       </div>
       <div className="hidden">
         <div
