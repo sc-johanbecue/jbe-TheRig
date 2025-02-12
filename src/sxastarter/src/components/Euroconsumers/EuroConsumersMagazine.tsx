@@ -36,6 +36,12 @@ export const Default = (props: EuroConsumersMagazine): JSX.Element => {
         className="flex__col-xs-10 flex__col-lg-4 box js-equal-heights-parent"
         data-selector="magazines-panel-cards-div"
       >
+        <style jsx>{`
+          .magazines-panel-card-item__image {
+            max-width: 120px;
+            width: 120px;
+          }
+        `}</style>
         <div
           className="magazines-panel-card-item js-equal-heights-parent"
           data-selector="magazines-panel-card-item"
@@ -44,12 +50,13 @@ export const Default = (props: EuroConsumersMagazine): JSX.Element => {
             href={`${props.fields.Link.value.href}`}
             className="magazines-panel-card-item__clickable-zone"
           >
-            <JssImage
-              field={props.fields.Image}
-              className="magazines-panel-card-item__image"
-              width="120px"
-              style={{ maxWidth: '120px', width: '120px' }}
-            />
+            <div style={{ maxWidth: '120px', width: '120px' }}>
+              <JssImage
+                field={props.fields.Image}
+                className="magazines-panel-card-item__image"
+                width="120px"
+              />
+            </div>
             <div className="magazines-panel-card-item__infos">
               <h3 className="magazines-panel-card-item__infos__title stronger">
                 <Text field={props.fields.Title} />
