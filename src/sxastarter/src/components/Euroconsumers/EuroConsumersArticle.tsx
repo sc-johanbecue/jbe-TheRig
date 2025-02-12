@@ -37,7 +37,7 @@ export const Default = (props: EuroConsumersArticleProps): JSX.Element => {
               // }
             }
           </script>
-
+          {/* 
           <div
             id="step-by-step__navigation"
             className="step-by-step__navigation flex__col-xs-12 flex__col-lg-4"
@@ -157,7 +157,7 @@ export const Default = (props: EuroConsumersArticleProps): JSX.Element => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
           <div
             id="step-by-step__guide"
             className="flex__col-xs-12 flex__col-xs-12 flex__col-lg-8 margin--left-auto margin--bottom-xlarge"
