@@ -6,8 +6,8 @@ import {
   Text,
   Image as JssImage,
   LinkField,
-  Link as JssLink,
 } from '@sitecore-jss/sitecore-jss-nextjs';
+import Link from 'next/link';
 
 interface Fields {
   Image: ImageField;
@@ -40,7 +40,10 @@ export const Default = (props: EuroConsumersMagazine): JSX.Element => {
           className="magazines-panel-card-item js-equal-heights-parent"
           data-selector="magazines-panel-card-item"
         >
-          <JssLink field={props.fields.Link} className="magazines-panel-card-item__clickable-zone">
+          <Link
+            href={`${props.fields.Link.value.href}`}
+            className="magazines-panel-card-item__clickable-zone"
+          >
             <JssImage field={props.fields.Image} className="magazines-panel-card-item__image" />
             <div className="magazines-panel-card-item__infos">
               <h3 className="magazines-panel-card-item__infos__title stronger">
@@ -54,7 +57,7 @@ export const Default = (props: EuroConsumersMagazine): JSX.Element => {
                 data-selector="magazines-panel-card-item-description"
               />
             </div>
-          </JssLink>
+          </Link>
         </div>
       </div>
     );
