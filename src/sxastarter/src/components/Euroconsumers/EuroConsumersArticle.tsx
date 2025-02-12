@@ -463,7 +463,6 @@ export const Default = (props: EuroConsumersArticleProps): JSX.Element => {
         } */}
               </script>
             </div>
-
             <div
               data-type="ALineCrossLinkingBannerController"
               data-rendering="GeneralCrossLinkingBanner"
@@ -518,7 +517,6 @@ export const Default = (props: EuroConsumersArticleProps): JSX.Element => {
                 </aside>
               </div>
             </div>
-
             <div
               data-type="ALineAdviceParagraphController"
               data-rendering="AdviceParagraph"
@@ -584,7 +582,6 @@ export const Default = (props: EuroConsumersArticleProps): JSX.Element => {
         } */}
               </script>
             </div>
-
             <div
               data-type="ALineCrossLinkingBannerController"
               data-rendering="GeneralCrossLinkingBanner"
@@ -638,210 +635,6 @@ export const Default = (props: EuroConsumersArticleProps): JSX.Element => {
                   </div>
                 </aside>
               </div>
-            </div>
-
-            <div
-              data-type="ALineAdviceFaqController"
-              data-rendering="AdviceFAQcontainer"
-              data-datasource="{4E7739F7-A2E0-4229-80B1-4B67F3508952}"
-              className=""
-            >
-              <div
-                data-plugin="waypointScroll"
-                data-plugin-settings="#faq-waypoint-settings"
-                id="veelgestelde-vragen"
-                className="step-by-step__guide padding--top-medium padding--bottom-medium has-plugin"
-              >
-                <h2 className="stronger advice-container">Veelgestelde vragen</h2>
-                <div className="article-paragraph-container__segment-content">
-                  <p>We beantwoorden je veelgestelde vragen over de aankoop van een koelkast.</p>
-                  <div data-plugin="collapsible" className="has-plugin">
-                    <div
-                      className="collapsible__item "
-                      data-active="false"
-                      data-selector="search-content-scraper"
-                    >
-                      <h3
-                        className="no-margin collapsible__head strong block "
-                        id="collapsibleTrigger-7298"
-                        aria-expanded="false"
-                        aria-controls="collapsibleContent-1310"
-                        role="button"
-                      >
-                        <i className="icon-chevron-down icon--heavy"></i>Hoeveel kost een koelkast?
-                      </h3>
-                      <div
-                        className="collapsible__content"
-                        id="collapsibleContent-1310"
-                        role="region"
-                        aria-labelledby="collapsibleTrigger-7298"
-                        style={{ display: 'none' }}
-                      >
-                        <p>
-                          Als je ervoor kiest om een nieuwe koelkast te kopen, weet dan dat er
-                          toestellen te vinden zijn in alle prijzen. Je vindt een kleiner model voor
-                          € 100 (bv. een tafelkoelkast), maar ook erg grote, moderne en goed
-                          uitgeruste modellen van wel € 6 500. Die prijs is volledig afhankelijk van
-                          het type koelkast dat je kiest, van de maat, het type technologie, het
-                          energieverbruik, het merk en van de winkel waar je het toestel
-                          uiteindelijk koopt.
-                        </p>
-                      </div>
-                    </div>
-
-                    <div
-                      className="collapsible__item "
-                      data-active="false"
-                      data-selector="search-content-scraper"
-                    >
-                      <h3
-                        className="no-margin collapsible__head strong block "
-                        id="collapsibleTrigger-3202"
-                        aria-expanded="false"
-                        aria-controls="collapsibleContent-4686"
-                        role="button"
-                      >
-                        <i className="icon-chevron-down icon--heavy"></i>Is een tweedehands koelkast
-                        een goed idee?
-                      </h3>
-                      <div
-                        className="collapsible__content"
-                        id="collapsibleContent-4686"
-                        role="region"
-                        aria-labelledby="collapsibleTrigger-3202"
-                        style={{ display: 'none' }}
-                      >
-                        <p></p>
-                        <p>
-                          Soms biedt zich de kans aan om een tweedehands koelkast te kopen tegen een
-                          zacht prijsje. Doorgaans raden we een tweedehands huishoudapparaat enkel
-                          aan voor sporadisch gebruik, ook al verbruikt het wat meer dan een nieuw
-                          toestel. Zo kan bijvoorbeeld een tweedehands wasmachine je prima diensten
-                          bewijzen als je pakweg maar een keer wast per week.
-                        </p>
-                        <p>
-                          Wordt je huishoudtoestel daarentegen intensief gebruikt, wat bij een
-                          koelkast zeker het geval is aangezien ze 24 op 24 en 7 op 7 is
-                          ingeschakeld, dan kies je het best voor een nieuw en goed presterend
-                          toestel. Een flink deel van de aankoopprijs zul je door de jaren heel
-                          kunnen terugwinnen dankzij het lagere energieverbruik.
-                        </p>
-                        <p></p>
-                      </div>
-                    </div>
-
-                    <div
-                      className="collapsible__item "
-                      data-active="false"
-                      data-selector="search-content-scraper"
-                    >
-                      <h3
-                        className="no-margin collapsible__head strong block "
-                        id="collapsibleTrigger-2494"
-                        aria-expanded="false"
-                        aria-controls="collapsibleContent-5111"
-                        role="button"
-                      >
-                        <i className="icon-chevron-down icon--heavy"></i>Waar een nieuwe koelkast
-                        kopen?
-                      </h3>
-                      <div
-                        className="collapsible__content"
-                        id="collapsibleContent-5111"
-                        role="region"
-                        aria-labelledby="collapsibleTrigger-2494"
-                        style={{ display: 'none' }}
-                      >
-                        <p>
-                          Met onze tools kun je flink wat geld uitsparen. Kijk in de eerste plaats
-                          naar het{' '}
-                          <Link href="https://www.test-aankoop.be/applicaties/detail?app=besteprijs">
-                            label &ldquo;Beste Koop&ldquo;
-                          </Link>
-                          . Die onderscheiding leidt je naar het toestel met de beste
-                          prijs-kwaliteitverhouding. Je komt te weten in welke fysieke of
-                          onlinewinkel je er de laagste prijs voor betaalt.
-                          <br />
-                          <br />
-                          Heb je nog niet beslist welk merk van koelkast je wilt kopen? Kijk naar de
-                          testresultaten van de populaire{' '}
-                          <Link className="wysiwyg" href="/huishoudelektro/koelkasten/vergelijker">
-                            koelvriescombinaties met diepvriesgedeelte onderaan
-                          </Link>
-                          &nbsp;(combi-bottoms).
-                          <br />
-                        </p>
-                        <div>&nbsp;</div>
-                        <p></p>
-                      </div>
-                    </div>
-
-                    <div
-                      className="collapsible__item "
-                      data-active="false"
-                      data-selector="search-content-scraper"
-                    >
-                      <h3
-                        className="no-margin collapsible__head strong block "
-                        id="collapsibleTrigger-4838"
-                        aria-expanded="false"
-                        aria-controls="collapsibleContent-4155"
-                        role="button"
-                      >
-                        <i className="icon-chevron-down icon--heavy"></i>Welke garantie heb ik op
-                        mijn koelkast?
-                      </h3>
-                      <div
-                        className="collapsible__content"
-                        id="collapsibleContent-4155"
-                        role="region"
-                        aria-labelledby="collapsibleTrigger-4838"
-                        style={{ display: 'none' }}
-                      >
-                        <p></p>
-                        <p>
-                          Sinds 2004 geldt een wettelijke garantie van twee jaar op alle
-                          huishoudtoestellen die in België zijn gekocht. In de eerste twee jaar na
-                          aankoop mag je steeds de kosteloze reparatie of de vervanging van de
-                          koelkast eisen. Duikt het probleem op in de eerste zes maanden, dan hoef
-                          je enkel het defect aan te tonen. Nadien moet je kunnen aantonen dat het
-                          gebrek bestond bij de aankoop, wat zonder expertise bijna onmogelijk is.
-                        </p>
-                        <p>
-                          De meeste fabrikanten van huishoudtoestellen hebben, bovenop de wettelijke
-                          garantie, een eigen fabrieksgarantie, ook commerciële waarborg genoemd.
-                          Als je moeilijkheden ondervindt om bij de verkoper je wettelijke garantie
-                          te doen gelden als een panne plots opduikt na meer dan zes maanden, kun je
-                          je altijd nog tot de fabrikant wenden. De meeste grote merken zoals Bosch,
-                          Whirlpool, Siemens, Samsung ... bieden een dergelijke commerciële garantie
-                          onder bepaalde voorwaarden.
-                        </p>
-                        <p>
-                          Bovendien zal de verkoper bij aankoop van de koelkast vaak voorstellen een
-                          contract te tekenen voor een verlengde garantietermijn (gewoonlijk tot
-                          drie jaar).
-                        </p>
-                        <p></p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <Link
-                  className="block step-by-step__scroll-to-top hide-on-desktop has-plugin"
-                  data-plugin="scrollToTarget"
-                  href="#step-by-step__navigation"
-                >
-                  Terug naar boven
-                </Link>
-              </div>
-              <script type="application/json" id="faq-waypoint-settings">
-                {/* {
-        "offset": 150,
-        "once": false,
-        "callbackIn": "EC.HubStepByStep.WaypointIn",
-        "callbackOut": "EC.HubStepByStep.WaypointOut"
-        } */}
-              </script>
             </div>
           </div>
         </div>
