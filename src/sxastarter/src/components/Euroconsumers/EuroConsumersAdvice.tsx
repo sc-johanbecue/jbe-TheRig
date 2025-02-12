@@ -1,11 +1,12 @@
 /* eslint-disable jsx-a11y/role-has-required-aria-props */
 import React from 'react';
-import { LinkField } from '@sitecore-jss/sitecore-jss-nextjs';
+import { TextField, ImageField, Image as JssImage, Text } from '@sitecore-jss/sitecore-jss-nextjs';
 import Link from 'next/link';
 
 interface Fields {
-  Login: LinkField;
-  Register: LinkField;
+  Title: TextField;
+  Image: ImageField;
+  Content: TextField;
 }
 
 type EuroConsumersArticleProps = {
@@ -34,24 +35,21 @@ export const Default = (props: EuroConsumersArticleProps): JSX.Element => {
           <div className="constrained">
             <div className="flex__row hub-description-advice__details align-central">
               <div className="flex__col-xs-12">
-                <img
-                  data-src="/-/media/global-artwork/home-appliances/cold-appliances/segments/seg-freezer-bottom.svg?rev=42bc3d04-fe3c-4d3a-857d-4717c757f2cc&amp;la=nl-BE&amp;h=276&amp;mw=315&amp;w=315&amp;hash=781D33BAA10E681B7D8134A295A4C96D"
+                <JssImage
+                  field={props.fields.Image}
                   className="margin--left-auto margin--right-auto"
                   height="276"
-                  alt="Koelkast met diepvriezer onderaan"
                   width="315"
                   fetchPriority="high"
-                  src="/-/media/global-artwork/home-appliances/cold-appliances/segments/seg-freezer-bottom.svg?rev=42bc3d04-fe3c-4d3a-857d-4717c757f2cc"
-                />{' '}
+                />
               </div>
               <div className="flex__col-xs-12 padding--top-xlarge">
-                <h1 className="beta stronger">Hoe kies je een koelkast?</h1>
+                <h1 className="beta stronger">
+                  <Text field={props.fields.Title} />
+                </h1>
                 <h2 className="stronger margin--bottom-xsmall"></h2>
                 <p className="no-margin">
-                  Ben je op zoek naar een nieuwe koelkast, met of zonder diepvriezer, dan heb je een
-                  steeds uitgebreider en gevarieerder gamma om uit te kiezen. Belangrijk is dat je
-                  een model kiest dat voldoet aan jouw behoeften. Hoe? We overlopen de belangrijkste
-                  criteria.
+                  <Text field={props.fields.Content}></Text>
                 </p>
 
                 <div className="padding--top-large padding--bottom-xsmall">
@@ -161,10 +159,6 @@ export const Default = (props: EuroConsumersArticleProps): JSX.Element => {
                             </i>
                           </Link>
                         </div>
-
-                        <script type="application/json" id="print-settings">
-                          {}
-                        </script>
                       </div>
 
                       <div
