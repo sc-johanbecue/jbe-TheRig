@@ -1,11 +1,13 @@
 /* eslint-disable jsx-a11y/role-has-required-aria-props */
 import React from 'react';
-import { LinkField } from '@sitecore-jss/sitecore-jss-nextjs';
+import { TextField, Text } from '@sitecore-jss/sitecore-jss-nextjs';
 import Link from 'next/link';
 
 interface Fields {
-  Login: LinkField;
-  Register: LinkField;
+  Title: TextField;
+  Introduction: TextField;
+  Content: TextField;
+  AdditionalContent: TextField;
 }
 
 type EuroConsumersArticleProps = {
@@ -174,85 +176,12 @@ export const Default = (props: EuroConsumersArticleProps): JSX.Element => {
                 className="step-by-step__guide padding--top-medium padding--bottom-medium has-plugin"
                 data-selector="search-content-scraper"
               >
-                <h2 className="stronger">Welke type van koelkast zoek je?</h2>
-                <h3>Koel- en vriescombinatie (2 deuren)</h3>
-                <p>
-                  De meeste gezinnen hebben een <strong>tweedeurskoelkast</strong>, waarbij koelkast
-                  en diepvriezer afzonderlijke compartimenten onder elkaar zijn.
-                </p>
-                <ul>
-                  <li>
-                    Bij een <strong>combi-top-toestel</strong> bevindt het vriesgedeelte zich boven
-                    de koelkast, bij een combi-bottom eronder.
-                  </li>
-                  <li>
-                    <strong>Combi-bottom-toestellen</strong> zijn het populairst in ons land. We
-                    richten{' '}
-                    <Link href="/huishoudelektro/koelkasten/vergelijker">
-                      <b>onze test</b>
-                    </Link>
-                    &nbsp;vooral op dit type apparaat. Ze hebben meestal een groter vriesvak dan de
-                    combi-top, al verlies je een beetje ruimte doordat er lades in zitten, wat bij
-                    de combi-top niet het geval is.
-                  </li>
-                </ul>
-                <h3>Inbouwmodel (1 of 2 deuren)</h3>
-                <p>
-                  Wil je dat je koelkast volledig opgaat in je keukeninterieur, dan moet je kiezen
-                  voor een <strong>inbouwmodel</strong>. In tegenstelling tot een vrijstaande
-                  koelkast moet die in een nis worden geplaatst. Dit type is ook uitgerust met een{' '}
-                  <b>specifiek ventilatiesysteem</b>.
-                </p>
-                <p>
-                  Toestellen die <strong>volledig ingebouwd</strong> zijn, dus niet enkel in een{' '}
-                  <strong>nis geplaatst</strong> maar ook afgewerkt met een{' '}
-                  <strong>meubelpaneel</strong>, doen je keuken er mooi als één geheel uitzien.
-                  Interessant als je de ruimte in je keuken optimaal wilt benutten en ze als één
-                  harmonieus geheel wilt laten ogen. Veelal wordt gekozen voor een ééndeursmodel van
-                  122 cm hoog, al kan ook een combi-bottom model van zo’n 178 cm of een kleiner
-                  model van 82 cm (onder het aanrecht) worden ingebouwd. Jammer genoeg is het
-                  energieverbruik van veel van inbouwkoelkasten 178 cm voor verbetering vatbaar. Je
-                  leest er meer over in ons{' '}
-                  <Link href="/huishoudelektro/koelkasten/dossier/inbouwmodellen">
-                    <b>dossier inbouwkoelkasten</b>
-                  </Link>
-                  .
-                </p>
-                <h3>Tafelmodel (1 deur)</h3>
-                <p>
-                  Er zijn ook de zogenoemde <strong>tafelmodellen</strong>, met een hoogte tot 90
-                  cm. Ze hebben één deur en kunnen een vriesvak bevatten. Tafelmodellen worden vaak
-                  gebruikt als<b> tweede koelkast</b> of voor op een studentenkot.
-                </p>
-                <h3>Amerikaanse koelkast (2 of 3 deuren)</h3>
-                <p>
-                  Als je veel ruimte hebt, kun je kiezen voor een zogenoemde &ldquo;
-                  <Link href="/huishoudelektro/koelkasten/dossier/amerikaanse-koelkast">
-                    <b>Amerikaanse koelkast</b>
-                  </Link>
-                  &ldquo;: een model waarbij koelkast en diepvriezer naast elkaar staan, met elk een
-                  aparte deur (een &ldquo;side-by-side&ldquo; koelkast).
-                </p>
-                <ul>
-                  <li>
-                    Al is er een verschil tussen de echte <strong>Amerikaanse side-by-side</strong>{' '}
-                    en de Europese. De eerste is doorgaans 178 cm hoog en in totaal 90 cm breed, met
-                    een smal vriesgedeelte aan de linkerkant (waarbij je soms ook nog eens ruimte
-                    verliest door de ijsblokjesmaker/waterverdeler).
-                  </li>
-                  <li>
-                    De <strong>Europese variant</strong> bestaat uit twee aparte, gelijkwaardige
-                    delen van elk 60 cm breed. Zij staan naast elkaar als één geheel.
-                  </li>
-                  <li>
-                    Het &ldquo;<strong>French door</strong>&ldquo;-type combineert het
-                    combi-bottom-principe met dat van een Amerikaanse side-by-side-koelkast:
-                    bovenaan is er een koelcompartiment van zo’n 90 cm breed met twee openzwaaiende
-                    deuren, onderaan is er het vriesgedeelte met een of twee lades (of één
-                    frontpaneel waarachter dan twee lades zitten).
-                  </li>
-                </ul>
-                <div>&nbsp;</div>
+                <h2 className="stronger">
+                  <Text field={props.fields.Title} />
+                </h2>
+                <Text field={props.fields.Introduction} />
+                <Text field={props.fields.Content} />
+                <Text field={props.fields.AdditionalContent} />
               </div>
               <Link
                 className="block step-by-step__scroll-to-top hide-on-desktop has-plugin"
@@ -261,14 +190,6 @@ export const Default = (props: EuroConsumersArticleProps): JSX.Element => {
               >
                 Terug naar boven
               </Link>
-              {/* <script type="application/json" id="46cd431f-4664-4c7b-81cc-ee9a1af4cad2-waypoint-settings">
-        {
-        "offset": 150,
-        "once": false,
-        "callbackIn": "EC.HubStepByStep.WaypointIn",
-        "callbackOut": "EC.HubStepByStep.WaypointOut"
-        }
-    </script> */}
             </div>
             <div
               data-type="ALineCrossLinkingBannerController"
