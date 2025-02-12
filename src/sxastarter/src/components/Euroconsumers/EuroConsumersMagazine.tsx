@@ -44,7 +44,11 @@ export const Default = (props: EuroConsumersMagazine): JSX.Element => {
             href={`${props.fields.Link.value.href}`}
             className="magazines-panel-card-item__clickable-zone"
           >
-            <JssImage field={props.fields.Image} className="magazines-panel-card-item__image" />
+            <JssImage
+              field={props.fields.Image}
+              className="magazines-panel-card-item__image"
+              style={{ width: '120px' }}
+            />
             <div className="magazines-panel-card-item__infos">
               <h3 className="magazines-panel-card-item__infos__title stronger">
                 <Text field={props.fields.Title} />
