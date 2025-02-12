@@ -87,6 +87,7 @@ export const Default = (props: EuroConsumersArticleProps): JSX.Element => {
                         <div
                           data-selector="share-links"
                           className="share-links share-links--single-page"
+                          style={{ display: 'none' }}
                         >
                           <Link
                             href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fwww.test-aankoop.be%2fhuishoudelektro%2fkoelkasten%2fhoe-kiezen?skipbean=true"
