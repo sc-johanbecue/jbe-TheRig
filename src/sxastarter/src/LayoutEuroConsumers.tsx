@@ -485,7 +485,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
         <header className={`FEOMHeader ${isFixed ? 'is-fixed' : ''}`}>
           {route && <Placeholder name="headless-header" rendering={route} />}
         </header>
-        <main role="main" id="main">
+        <main role="main" id="main" style={{ marginLeft: '30px', marginRight: '30px' }}>
           <div id="content" style={{ paddingTop: `${isFixed ? '' : '100px'}` }}>
             {route && <Placeholder name="headless-main" rendering={route} />}
           </div>
