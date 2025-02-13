@@ -486,7 +486,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
           {route && <Placeholder name="headless-header" rendering={route} />}
         </header>
         <main role="main" id="main">
-          <div id="content" style={{ paddingTop: `${isFixed ? '100px' : ''}` }}>
+          <div id="content" style={{ paddingTop: `${isFixed ? '' : '100px'}` }}>
             {route && <Placeholder name="headless-main" rendering={route} />}
           </div>
         </main>
