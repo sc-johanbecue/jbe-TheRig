@@ -478,6 +478,13 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
           src="//tglyr.co/latest.js?n=o"
           className="optanon-category-C0003"
         ></script>
+        <style jsx>{`
+          .rte-align-center {
+            text-align: center;
+            align-content: center;
+            align-items: center;
+          }
+        `}</style>
       </Head>
 
       {/* root placeholder for the app, which we add components to using route data */}
