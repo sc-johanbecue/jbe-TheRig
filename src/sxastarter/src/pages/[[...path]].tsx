@@ -60,6 +60,8 @@ const SitecorePage = ({
   const CotySite = layoutData.sitecore.context.site?.name?.toLowerCase() == 'coty'.toLowerCase();
   const AirlineSite =
     layoutData.sitecore.context.site?.name?.toLowerCase() == 'airline'.toLowerCase();
+  const ManUtdSite =
+    layoutData.sitecore.context.site?.name?.toLowerCase() == 'man-utd'.toLowerCase();
   const EuroConsumersSite =
     layoutData.sitecore.context.site?.name?.toLowerCase() == 'euroconsumers'.toLowerCase();
 
@@ -98,6 +100,8 @@ const SitecorePage = ({
         ) : CotySite ? (
           <LayoutCoty layoutData={layoutData} headLinks={headLinks} />
         ) : AirlineSite ? (
+          <LayoutAirline layoutData={layoutData} headLinks={headLinks} />
+        ) : ManUtdSite ? (
           <LayoutAirline layoutData={layoutData} headLinks={headLinks} />
         ) : EuroConsumersSite ? (
           <LayoutEuroConsumers layoutData={layoutData} headLinks={headLinks} />
