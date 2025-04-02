@@ -28,6 +28,12 @@ import { sitecorePagePropsFactory } from 'lib/page-props-factory';
 import { componentBuilder } from 'temp/componentBuilder';
 import { sitemapFetcher } from 'lib/sitemap-fetcher';
 
+import '82c79a564f3ac4be.css';
+import '7258364f27e782a5.css';
+import '7258364f27e782a5.css';
+import 'hotjar.css';
+import 'messenger.css';
+
 const SitecorePage = ({
   notFound,
   componentProps,
