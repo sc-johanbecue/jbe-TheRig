@@ -1,0 +1,288 @@
+
+            #q-messenger-frame-skip-link {
+              animation: none 0s ease 0s 1 normal none running !important;
+              -webkit-backface-visibility: visible !important;
+              backface-visibility: visible !important;
+              background: transparent none repeat 0 0 / auto auto padding-box border-box scroll !important;
+              border: medium none currentColor !important;
+              border-collapse: separate !important;
+              -o-border-image: none !important;
+              border-image: none !important;
+              border-radius: 0 !important;
+              border-spacing: 0 !important;
+              bottom: auto !important;
+              box-shadow: none !important;
+              box-sizing: content-box !important;
+              caption-side: top !important;
+              clear: none !important;
+              clip: auto !important;
+              color: #000 !important;
+              -moz-columns: auto !important;
+              columns: auto !important;
+              -moz-column-count: auto !important;
+              column-count: auto !important;
+              -moz-column-fill: balance !important;
+              column-fill: balance !important;
+              grid-column-gap: normal !important;
+              -moz-column-gap: normal !important;
+              column-gap: normal !important;
+              -moz-column-rule: medium none currentColor !important;
+              column-rule: medium none currentColor !important;
+              -moz-column-span: 1 !important;
+              column-span: 1 !important;
+              -moz-column-width: auto !important;
+              column-width: auto !important;
+              content: normal !important;
+              counter-increment: none !important;
+              counter-reset: none !important;
+              cursor: auto !important;
+              direction: ltr !important;
+              display: inline !important;
+              empty-cells: show !important;
+              float: none !important;
+              font-family: serif !important;
+              font-size: medium !important;
+              font-style: normal !important;
+              font-feature-settings: normal !important;
+              font-variant: normal !important;
+              font-weight: normal !important;
+              font-stretch: normal !important;
+              line-height: normal !important;
+              height: auto !important;
+              -webkit-hyphens: none !important;
+              hyphens: none !important;
+              left: auto !important;
+              letter-spacing: normal !important;
+              list-style: disc outside none !important;
+              margin: 0 !important;
+              max-height: none !important;
+              max-width: none !important;
+              min-height: 0 !important;
+              min-width: 0 !important;
+              opacity: 1 !important;
+              orphans: 2 !important;
+              outline: medium none invert !important;
+              overflow: visible !important;
+              overflow-x: visible !important;
+              overflow-y: visible !important;
+              padding: 0 !important;
+              page-break-after: auto !important;
+              page-break-before: auto !important;
+              page-break-inside: auto !important;
+              perspective: none !important;
+              perspective-origin: 50% 50% !important;
+              position: static !important;
+              right: auto !important;
+              -moz-tab-size: 8 !important;
+              -o-tab-size: 8 !important;
+              tab-size: 8 !important;
+              table-layout: auto !important;
+              text-align: left !important;
+              -moz-text-align-last: auto !important;
+              text-align-last: auto !important;
+              text-decoration: none !important;
+              text-indent: 0 !important;
+              text-shadow: none !important;
+              text-transform: none !important;
+              top: auto !important;
+              transform: none !important;
+              transform-origin: 50% 50% 0 !important;
+              transform-style: flat !important;
+              transition: none 0s ease 0s !important;
+              unicode-bidi: normal !important;
+              vertical-align: baseline !important;
+              visibility: visible !important;
+              white-space: normal !important;
+              widows: 2 !important;
+              width: auto !important;
+              word-spacing: normal !important;
+              z-index: auto !important;
+              all: initial !important;
+              border: 0 !important;
+              clip: rect(1px, 1px, 1px, 1px) !important;
+              -webkit-clip-path: inset(50%) !important;
+              clip-path: inset(50%) !important;
+              height: 1px !important;
+              overflow: hidden !important;
+              margin: -1px !important;
+              padding: 0 !important;
+              position: absolute !important;
+              width: 1px !important;
+              white-space: nowrap !important;
+            }
+            #q-messenger-frame-skip-link:focus {
+              animation: none 0s ease 0s 1 normal none running !important;
+              -webkit-backface-visibility: visible !important;
+              backface-visibility: visible !important;
+              background: transparent none repeat 0 0 / auto auto padding-box border-box scroll !important;
+              border: medium none currentColor !important;
+              border-collapse: separate !important;
+              -o-border-image: none !important;
+              border-image: none !important;
+              border-radius: 0 !important;
+              border-spacing: 0 !important;
+              bottom: auto !important;
+              box-shadow: none !important;
+              box-sizing: content-box !important;
+              caption-side: top !important;
+              clear: none !important;
+              clip: auto !important;
+              color: #000 !important;
+              -moz-columns: auto !important;
+              columns: auto !important;
+              -moz-column-count: auto !important;
+              column-count: auto !important;
+              -moz-column-fill: balance !important;
+              column-fill: balance !important;
+              grid-column-gap: normal !important;
+              -moz-column-gap: normal !important;
+              column-gap: normal !important;
+              -moz-column-rule: medium none currentColor !important;
+              column-rule: medium none currentColor !important;
+              -moz-column-span: 1 !important;
+              column-span: 1 !important;
+              -moz-column-width: auto !important;
+              column-width: auto !important;
+              content: normal !important;
+              counter-increment: none !important;
+              counter-reset: none !important;
+              cursor: auto !important;
+              direction: ltr !important;
+              display: inline !important;
+              empty-cells: show !important;
+              float: none !important;
+              font-family: serif !important;
+              font-size: medium !important;
+              font-style: normal !important;
+              font-feature-settings: normal !important;
+              font-variant: normal !important;
+              font-weight: normal !important;
+              font-stretch: normal !important;
+              line-height: normal !important;
+              height: auto !important;
+              -webkit-hyphens: none !important;
+              hyphens: none !important;
+              left: auto !important;
+              letter-spacing: normal !important;
+              list-style: disc outside none !important;
+              margin: 0 !important;
+              max-height: none !important;
+              max-width: none !important;
+              min-height: 0 !important;
+              min-width: 0 !important;
+              opacity: 1 !important;
+              orphans: 2 !important;
+              outline: medium none invert !important;
+              overflow: visible !important;
+              overflow-x: visible !important;
+              overflow-y: visible !important;
+              padding: 0 !important;
+              page-break-after: auto !important;
+              page-break-before: auto !important;
+              page-break-inside: auto !important;
+              perspective: none !important;
+              perspective-origin: 50% 50% !important;
+              position: static !important;
+              right: auto !important;
+              -moz-tab-size: 8 !important;
+              -o-tab-size: 8 !important;
+              tab-size: 8 !important;
+              table-layout: auto !important;
+              text-align: left !important;
+              -moz-text-align-last: auto !important;
+              text-align-last: auto !important;
+              text-decoration: none !important;
+              text-indent: 0 !important;
+              text-shadow: none !important;
+              text-transform: none !important;
+              top: auto !important;
+              transform: none !important;
+              transform-origin: 50% 50% 0 !important;
+              transform-style: flat !important;
+              transition: none 0s ease 0s !important;
+              unicode-bidi: normal !important;
+              vertical-align: baseline !important;
+              visibility: visible !important;
+              white-space: normal !important;
+              widows: 2 !important;
+              width: auto !important;
+              word-spacing: normal !important;
+              z-index: auto !important;
+              all: initial !important;
+              position: fixed !important;
+              top: 10px !important;
+              left: 10px !important;
+              z-index: 2147483647 !important;
+              background: #fafafa !important;
+              color: #122124 !important;
+              padding: 1rem !important;
+              cursor: pointer !important;
+              border-radius: 4px !important;
+              outline: 2px solid -webkit-focus-ring-color !important;
+              outline-offset: 2px !important;
+            }
+            #q-messenger-frame {
+              position: fixed !important;
+              z-index: 2147483642 !important;
+              display: block !important;
+              visibility: visible !important;
+              content-visibility: visible !important;
+              opacity: 1 !important;
+              top: auto !important;
+              left: auto !important;
+              bottom: calc(0px + 0px) !important;
+              bottom: calc(0px + var(--qualified-offer-footer-height, 0px)) !important;
+              right: 0 !important;
+              height: 0 !important;
+              width: 0 !important;
+              overflow: hidden !important;
+              background-color: rgba(0, 0, 0, 0) !important;
+              border: 0 !important;
+            }
+            #q-messenger-frame.qlfd-maximized,
+            #q-messenger-frame.maximized {
+              max-height: calc(100dvh - 150px);
+              min-height: 480px;
+              width: 538px !important;
+            }
+            #q-messenger-frame.qlfd-maximized.qlfd-is-mobile,
+            #q-messenger-frame.maximized.qlfd-is-mobile {
+              height: 100% !important;
+              width: 100% !important;
+              min-height: 100% !important;
+              max-height: 100% !important;
+            }
+            #q-messenger-frame.qlfd-full-height {
+              height: 100% !important;
+              width: 320px !important;
+              min-height: 100% !important;
+              max-height: 100% !important;
+            }
+            #q-messenger-frame.qlfd-disable-pointer-events {
+              pointer-events: none !important;
+            }
+            #q-messenger-frame.qlfd-embedded {
+              position: relative !important;
+              height: 100% !important;
+              width: 100% !important;
+              min-height: 100% !important;
+              max-height: 100% !important;
+              z-index: 0 !important;
+              pointer-events: all !important;
+            }
+            #q-messenger-frame.qlfd-full-screen {
+              position: fixed !important;
+              height: 100dvh !important;
+              width: 100% !important;
+              max-height: 100dvh;
+              z-index: 2147483647 !important;
+            }
+            #q-messenger-frame.qlfd-not-full-screen {
+              transition: background-color 300ms, height 0s 300ms, width 0s 300ms !important;
+            }
+            /* *[\:has\(\%23q-messenger-frame.qlfd-full-screen.qlfd-embedded\)] {
+              z-index: unset !important;
+            } */
+            *:has(#q-messenger-frame.qlfd-full-screen.qlfd-embedded) {
+              z-index: unset !important;
+            }
