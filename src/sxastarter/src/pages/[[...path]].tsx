@@ -13,6 +13,7 @@ import LayoutDubaiWTC from 'src/LayoutDubaiWTC';
 import LayoutJumeirah from 'src/LayoutJumeirah';
 import LayoutCoty from 'src/LayoutCoty';
 import LayoutAirline from 'src/LayoutAirline';
+import LayoutSodexo from 'src/LayoutSodexo';
 import LayoutEuroConsumers from 'src/LayoutEuroConsumers';
 import {
   RenderingType,
@@ -64,6 +65,8 @@ const SitecorePage = ({
     layoutData.sitecore.context.site?.name?.toLowerCase() == 'man-utd'.toLowerCase();
   const EuroConsumersSite =
     layoutData.sitecore.context.site?.name?.toLowerCase() == 'euroconsumers'.toLowerCase();
+  const SodexoSite =
+    layoutData.sitecore.context.site?.name?.toLowerCase() == 'sodexo'.toLowerCase();
 
   return (
     <ComponentPropsContext value={componentProps}>
@@ -101,8 +104,8 @@ const SitecorePage = ({
           <LayoutCoty layoutData={layoutData} headLinks={headLinks} />
         ) : AirlineSite ? (
           <LayoutAirline layoutData={layoutData} headLinks={headLinks} />
-        ) : ManUtdSite ? (
-          <LayoutAirline layoutData={layoutData} headLinks={headLinks} />
+        ) : SodexoSite ? (
+          <LayoutSodexo layoutData={layoutData} headLinks={headLinks} />
         ) : EuroConsumersSite ? (
           <LayoutEuroConsumers layoutData={layoutData} headLinks={headLinks} />
         ) : (
