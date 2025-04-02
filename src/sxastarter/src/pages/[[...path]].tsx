@@ -61,8 +61,6 @@ const SitecorePage = ({
   const CotySite = layoutData.sitecore.context.site?.name?.toLowerCase() == 'coty'.toLowerCase();
   const AirlineSite =
     layoutData.sitecore.context.site?.name?.toLowerCase() == 'airline'.toLowerCase();
-  const ManUtdSite =
-    layoutData.sitecore.context.site?.name?.toLowerCase() == 'man-utd'.toLowerCase();
   const EuroConsumersSite =
     layoutData.sitecore.context.site?.name?.toLowerCase() == 'euroconsumers'.toLowerCase();
   const SodexoSite =
