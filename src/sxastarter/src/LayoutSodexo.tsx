@@ -14,11 +14,11 @@ import {
 import config from 'temp/config';
 import Scripts from 'src/Scripts';
 import Link from 'next/link';
-import './assets/sodexo/82c79a564f3ac4be.module.css';
-import './assets/sodexo/7258364f27e782a5.module.css';
-import './assets/sodexo/7258364f27e782a5.module.css';
-import './assets/sodexo/hotjar.module.css';
-import './assets/sodexo/messenger.module.css';
+import 'assets/sodexo/82c79a564f3ac4be.module.css';
+import 'assets/sodexo/7258364f27e782a5.module.css';
+import 'assets/sodexo/7258364f27e782a5.module.css';
+import 'assets/sodexo/hotjar.module.css';
+import 'assets/sodexo/messenger.module.css';
 
 // Prefix public assets with a public URL to enable compatibility with Sitecore Experience Editor.
 // If you're not supporting the Experience Editor, you can remove this.
