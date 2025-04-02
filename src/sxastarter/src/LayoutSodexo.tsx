@@ -14,11 +14,11 @@ import {
 import config from 'temp/config';
 import Scripts from 'src/Scripts';
 import Link from 'next/link';
-import '82c79a564f3ac4be.module.css';
-import '7258364f27e782a5.module.css';
-import '7258364f27e782a5.module.css';
-import 'hotjar.module.css';
-import 'messenger.module.css';
+import '82c79a564f3ac4be.css';
+import '7258364f27e782a5.css';
+import '7258364f27e782a5.css';
+import 'hotjar.css';
+import 'messenger.css';
 
 // Prefix public assets with a public URL to enable compatibility with Sitecore Experience Editor.
 // If you're not supporting the Experience Editor, you can remove this.
