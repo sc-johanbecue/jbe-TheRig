@@ -5734,6 +5734,7 @@
   -webkit-box-orient: vertical;
   display: -webkit-box;
   -webkit-line-clamp: 3;
+  line-clamp: 3;
   overflow: hidden;
   text-overflow: ellipsis;
   word-wrap: break-word;
@@ -5742,6 +5743,7 @@
   -webkit-box-orient: vertical;
   display: -webkit-box;
   -webkit-line-clamp: 4;
+  line-clamp: 4;
   overflow: hidden;
   text-overflow: ellipsis;
   word-wrap: break-word;
@@ -5750,6 +5752,7 @@
   -webkit-box-orient: vertical;
   display: -webkit-box;
   -webkit-line-clamp: 5;
+  line-clamp: 5;
   overflow: hidden;
   text-overflow: ellipsis;
   word-wrap: break-word;
@@ -6022,6 +6025,7 @@
   -webkit-box-orient: vertical;
   display: -webkit-box;
   -webkit-line-clamp: 2;
+  line-clamp: 2;
   overflow: hidden;
   text-overflow: ellipsis;
   word-wrap: break-word;
@@ -8563,6 +8567,7 @@
   -webkit-box-orient: vertical;
   display: -webkit-box;
   -webkit-line-clamp: 2;
+  line-clamp: 2;
   overflow: hidden;
   text-overflow: ellipsis;
   word-wrap: break-word;
@@ -8945,6 +8950,7 @@
   -webkit-box-orient: vertical;
   display: -webkit-box;
   -webkit-line-clamp: 3;
+  line-clamp: 3;
   overflow: hidden;
   text-overflow: ellipsis;
   word-wrap: break-word;
@@ -9337,6 +9343,7 @@
   -webkit-box-orient: vertical;
   display: -webkit-box;
   -webkit-line-clamp: 3;
+  line-clamp: 3;
   overflow: hidden;
   text-overflow: ellipsis;
   word-wrap: break-word;
@@ -9345,6 +9352,7 @@
   -webkit-box-orient: vertical;
   display: -webkit-box;
   -webkit-line-clamp: 4;
+  line-clamp: 4;
   overflow: hidden;
   text-overflow: ellipsis;
   word-wrap: break-word;
@@ -9370,6 +9378,7 @@
     -webkit-box-orient: vertical;
     display: -webkit-box;
     -webkit-line-clamp: 2;
+    line-clamp: 2;
     overflow: hidden;
     text-overflow: ellipsis;
     word-wrap: break-word;
@@ -9379,6 +9388,7 @@
     -webkit-box-orient: vertical;
     display: -webkit-box;
     -webkit-line-clamp: 1;
+    line-clamp: 1;
     overflow: hidden;
     text-overflow: ellipsis;
     word-wrap: break-word;
@@ -11006,6 +11016,7 @@
   -webkit-box-orient: vertical;
   display: -webkit-box;
   -webkit-line-clamp: 3;
+  line-clamp: 3;
   overflow: hidden;
   text-overflow: ellipsis;
   word-wrap: break-word;
@@ -11014,6 +11025,7 @@
 @media (min-width: 1024px) {
   .MagazineSlideCard_text__CUPAo {
     -webkit-line-clamp: 2;
+    line-clamp: 2;
     padding-top: 0;
   }
   .MagazineSlideCard_text-active__u1YlD,
@@ -11026,6 +11038,7 @@
   }
   .MagazineSlideCard_text-active__u1YlD {
     -webkit-line-clamp: 3;
+    line-clamp: 3;
     padding-top: 0.625rem;
   }
 }
@@ -11229,6 +11242,7 @@
     -webkit-box-orient: vertical;
     display: -webkit-box;
     -webkit-line-clamp: 10;
+    line-clamp: 10;
     overflow: hidden;
     text-overflow: ellipsis;
     word-wrap: break-word;
@@ -11486,6 +11500,7 @@
   -webkit-box-orient: vertical;
   display: -webkit-box;
   -webkit-line-clamp: 5;
+  line-clamp: 5;
   overflow: hidden;
   text-overflow: ellipsis;
   word-wrap: break-word;
@@ -13962,6 +13977,7 @@
   -webkit-box-orient: vertical;
   display: -webkit-box;
   -webkit-line-clamp: 3;
+  line-clamp: 3;
   overflow: hidden;
   text-overflow: ellipsis;
   word-wrap: break-word;
@@ -13971,6 +13987,7 @@
   -webkit-box-orient: vertical;
   display: -webkit-box;
   -webkit-line-clamp: 2;
+  line-clamp: 2;
   overflow: hidden;
   text-overflow: ellipsis;
   word-wrap: break-word;
@@ -13999,6 +14016,7 @@
     -webkit-box-orient: vertical;
     display: -webkit-box;
     -webkit-line-clamp: 2;
+    line-clamp: 2;
     overflow: hidden;
     text-overflow: ellipsis;
     word-wrap: break-word;
@@ -14014,6 +14032,7 @@
     -webkit-box-orient: vertical;
     display: -webkit-box;
     -webkit-line-clamp: 1;
+    line-clamp: 1;
     overflow: hidden;
     text-overflow: ellipsis;
     word-wrap: break-word;
@@ -14038,6 +14057,7 @@
     -webkit-box-orient: vertical;
     display: -webkit-box;
     -webkit-line-clamp: 2;
+    line-clamp: 2;
     overflow: hidden;
     text-overflow: ellipsis;
     word-wrap: break-word;
@@ -14155,6 +14175,7 @@
   -webkit-box-orient: vertical;
   display: -webkit-box;
   -webkit-line-clamp: 1;
+  line-clamp: 1;
   overflow: hidden;
   text-overflow: ellipsis;
   word-wrap: break-word;
@@ -14587,6 +14608,7 @@
     -webkit-box-orient: vertical;
     display: -webkit-box;
     -webkit-line-clamp: 1;
+    line-clamp: 1;
     overflow: hidden;
     text-overflow: ellipsis;
     word-wrap: break-word;
@@ -17868,6 +17890,7 @@
 }
 .styles_search-result-card__content__title__9I6wV {
   -webkit-line-clamp: 3;
+  line-clamp: 3;
   margin-bottom: 0.5rem;
 }
 .styles_search-result-card__content__summary__qyHjo,
@@ -17880,6 +17903,7 @@
 }
 .styles_search-result-card__content__summary__qyHjo {
   -webkit-line-clamp: 2;
+  line-clamp: 2;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.75rem;
@@ -17908,6 +17932,7 @@
     -webkit-box-orient: vertical;
     display: -webkit-box;
     -webkit-line-clamp: 2;
+    line-clamp: 2;
     overflow: hidden;
     text-overflow: ellipsis;
     word-wrap: break-word;
@@ -17922,6 +17947,7 @@
     -webkit-box-orient: vertical;
     display: -webkit-box;
     -webkit-line-clamp: 1;
+    line-clamp: 1;
     overflow: hidden;
     text-overflow: ellipsis;
     word-wrap: break-word;
@@ -17945,6 +17971,7 @@
     -webkit-box-orient: vertical;
     display: -webkit-box;
     -webkit-line-clamp: 2;
+    line-clamp: 2;
     overflow: hidden;
     text-overflow: ellipsis;
     word-wrap: break-word;
@@ -18336,6 +18363,7 @@
   -webkit-box-orient: vertical;
   display: -webkit-box;
   -webkit-line-clamp: 3;
+  line-clamp: 3;
   overflow: hidden;
   text-overflow: ellipsis;
   word-wrap: break-word;
@@ -18988,6 +19016,7 @@
   width: 75%;
   display: -webkit-box;
   -webkit-line-clamp: 4;
+  line-clamp: 4;
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
