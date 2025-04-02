@@ -28,11 +28,11 @@ import { sitecorePagePropsFactory } from 'lib/page-props-factory';
 import { componentBuilder } from 'temp/componentBuilder';
 import { sitemapFetcher } from 'lib/sitemap-fetcher';
 
-import 'src/sxastarter/src/assets/sodexo/82c79a564f3ac4be.css';
-import 'src/sxastarter/src/assets/sodexo/7258364f27e782a5.css';
-import 'src/sxastarter/src/assets/sodexo/d1c4779c33d3f3bd.css';
-import 'src/sxastarter/src/assets/sodexo/hotjar.css';
-import 'src/sxastarter/src/assets/sodexo/messenger.css';
+import '../assets/82c79a564f3ac4be.css';
+import '../assets/7258364f27e782a5.css';
+import '../assets/d1c4779c33d3f3bd.css';
+import '../assets/hotjar.css';
+import '../assets/messenger.css';
 
 const SitecorePage = ({
   notFound,
