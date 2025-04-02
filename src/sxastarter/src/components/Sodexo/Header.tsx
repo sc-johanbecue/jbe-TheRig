@@ -1,5 +1,6 @@
 import React from 'react';
 import { TextField, Text, ImageField } from '@sitecore-jss/sitecore-jss-nextjs';
+import Link from 'next/link';
 
 interface Fields {
   Title: TextField;
@@ -27,7 +28,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
         <div className="Header_header__content__YuahI Header_header__content--hide__Zn37G">
           <div className="MainNavMobile_main-nav-mobile__33IiE">
             <div className="MainNavMobile_main-nav-mobile__header__UAcKF">
-              <a
+              <Link
                 title="Opens homepage (same window)"
                 target="_self"
                 className="Button_btn__Xvq6a MainNavMobile_main-nav-mobile__header__logo__neAwj Button_btn--link__JI8fR Button_btn--unshaped__MfqLg"
@@ -42,9 +43,9 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                   className="main-nav-mobile__header__img"
                   src="https://edge.sitecorecloud.io/sodexofrance1-sodexocorpsites-prod-e74c/media/Project/Sodexo-Corp/Global/Media-prod/Images/Logos/Sodexo_Logotype_Blue.png?h=32&amp;w=97"
                 />
-              </a>
+              </Link>
               <div className="MainNavMobile_main-nav-mobile__header__items__7hMro">
-                <a
+                <Link
                   title=""
                   target="_self"
                   className="Button_btn__Xvq6a MainNavMobile_main-nav-mobile__header__button__WiPJV Button_btn--link__JI8fR Button_btn--unshaped__MfqLg"
@@ -57,7 +58,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                       <use xlinkHref="#icons_search"></use>
                     </svg>
                   </span>
-                </a>
+                </Link>
                 <button
                   aria-label="Open"
                   className="Button_btn__Xvq6a MainNavMobile_main-nav-mobile__header__button__WiPJV MainNavMobile_main-nav-mobile__header__button--no-collapse___BlDD Button_btn--unshaped__MfqLg"
@@ -186,25 +187,25 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
               >
                 <ul className="SupNav_sup-nav__items__OjN_T">
                   <li className="SupNav_sup-nav__item__8bdW7 SupNav_sup-nav__item_skip-to-content__xkvcu">
-                    <a
+                    <Link
                       href="#id_main_skip_to_content"
                       className="Button_btn__Xvq6a SupNav_sup-nav__item__skip-button__sINS2 Button_btn--white__F9cW2 Button_btn--link__JI8fR Button_btn--unshaped__MfqLg Button_btn--unshaped-white__RvzsU"
                       title=""
                       target="_self"
                     >
                       Go to content
-                    </a>
+                    </Link>
                   </li>
                   <li className="SupNav_sup-nav__item__8bdW7">
                     <div className="LineSlide_line-slide__mrcBo" data-theme="white">
-                      <a
+                      <Link
                         title="Opens page (same window)"
                         target="_self"
                         className="Button_btn__Xvq6a LineSlide_line-slide__button__hD2YY SupNav_sup-nav__item__button__yPRgg Button_btn--white__F9cW2 Button_btn--link__JI8fR Button_btn--unshaped__MfqLg Button_btn--unshaped-white__RvzsU"
                         href="/contact-us"
                       >
                         Contact Us
-                      </a>
+                      </Link>
                     </div>
                   </li>
                   <li className="SupNav_sup-nav__item__8bdW7">
@@ -228,9 +229,12 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                       className="HeaderLanguageSelector_selector__1J9ck"
                     >
                       <div className="LineSlide_line-slide__mrcBo" data-theme="white">
-                        <a className="LineSlide_line-slide__button__hD2YY font-semibold" href="/fr">
+                        <Link
+                          className="LineSlide_line-slide__button__hD2YY font-semibold"
+                          href="/fr"
+                        >
                           fr
-                        </a>
+                        </Link>
                       </div>
                       <span className="HeaderLanguageSelector_separator__7DZ_l">/</span>
                     </div>
@@ -239,12 +243,12 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                       className="HeaderLanguageSelector_selector__1J9ck"
                     >
                       <div className="LineSlide_line-slide__mrcBo" data-theme="white">
-                        <a
+                        <Link
                           className="LineSlide_line-slide__button__hD2YY font-semibold"
                           href="https://www.sodexo.com/"
                         >
                           en
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </li>
@@ -259,25 +263,25 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
           >
             <ul className="SupNav_sup-nav__items__OjN_T">
               <li className="SupNav_sup-nav__item__8bdW7 SupNav_sup-nav__item_skip-to-content__xkvcu">
-                <a
+                <Link
                   href="#id_main_skip_to_content"
                   className="Button_btn__Xvq6a SupNav_sup-nav__item__skip-button__sINS2 Button_btn--white__F9cW2 Button_btn--link__JI8fR Button_btn--unshaped__MfqLg Button_btn--unshaped-white__RvzsU"
                   title=""
                   target="_self"
                 >
                   Go to content
-                </a>
+                </Link>
               </li>
               <li className="SupNav_sup-nav__item__8bdW7">
                 <div className="LineSlide_line-slide__mrcBo" data-theme="white">
-                  <a
+                  <Link
                     title="Opens page (same window)"
                     target="_self"
                     className="Button_btn__Xvq6a LineSlide_line-slide__button__hD2YY SupNav_sup-nav__item__button__yPRgg Button_btn--white__F9cW2 Button_btn--link__JI8fR Button_btn--unshaped__MfqLg Button_btn--unshaped-white__RvzsU"
                     href="/contact-us"
                   >
                     Contact Us
-                  </a>
+                  </Link>
                 </div>
               </li>
               <li className="SupNav_sup-nav__item__8bdW7">
@@ -298,9 +302,9 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                   className="HeaderLanguageSelector_selector__1J9ck"
                 >
                   <div className="LineSlide_line-slide__mrcBo" data-theme="white">
-                    <a className="LineSlide_line-slide__button__hD2YY font-semibold" href="/fr">
+                    <Link className="LineSlide_line-slide__button__hD2YY font-semibold" href="/fr">
                       fr
-                    </a>
+                    </Link>
                   </div>
                   <span className="HeaderLanguageSelector_separator__7DZ_l">/</span>
                 </div>
@@ -309,12 +313,12 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                   className="HeaderLanguageSelector_selector__1J9ck"
                 >
                   <div className="LineSlide_line-slide__mrcBo" data-theme="white">
-                    <a
+                    <Link
                       className="LineSlide_line-slide__button__hD2YY font-semibold"
                       href="https://www.sodexo.com/"
                     >
                       en
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </li>
@@ -324,7 +328,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
             <nav aria-label="Main navigation" className="MainNav_main-nav__W_abG" role="navigation">
               <ul className="MainNav_main-nav__items__yB2c3" role="menubar">
                 <li className="MainNav_main-nav__item___rOZL">
-                  <a
+                  <Link
                     title="Opens homepage (same window)"
                     target="_self"
                     className="Button_btn__Xvq6a MainNav_main-nav__item__logo__ReTIR Button_btn--link__JI8fR Button_btn--unshaped__MfqLg"
@@ -338,7 +342,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                       height="42"
                       src="https://edge.sitecorecloud.io/sodexofrance1-sodexocorpsites-prod-e74c/media/Project/Sodexo-Corp/Global/Media-prod/Images/Logos/Sodexo_Logotype_Blue.png?h=42&amp;iar=0&amp;w=131"
                     />
-                  </a>
+                  </Link>
                 </li>
                 <li className="MainNav_main-nav__item___rOZL">
                   <div
@@ -398,7 +402,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                           <ul className="MegaMenu_megamenu__items__ol09A">
                             <li className="MegaMenu_megamenu__item__drU0L">
                               <div className="circle-scale">
-                                <a
+                                <Link
                                   title=""
                                   target="_self"
                                   className="Button_btn__Xvq6a CircleScale_circle-scale__button__8OW5R CircleScale_circle-scale__button--red__zIRaj MegaMenu_megamenu__item__link__EntFb Button_btn--blue__16_CO Button_btn--link__JI8fR Button_btn--unshaped__MfqLg Button_btn--unshaped-blue__zPYkC"
@@ -414,12 +418,12 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                       <use xlinkHref="#icons_arrow"></use>
                                     </svg>
                                   </span>
-                                </a>
+                                </Link>
                               </div>
                             </li>
                             <li className="MegaMenu_megamenu__item__drU0L">
                               <div className="circle-scale">
-                                <a
+                                <Link
                                   title=""
                                   target="_self"
                                   className="Button_btn__Xvq6a CircleScale_circle-scale__button__8OW5R CircleScale_circle-scale__button--red__zIRaj MegaMenu_megamenu__item__link__EntFb Button_btn--blue__16_CO Button_btn--link__JI8fR Button_btn--unshaped__MfqLg Button_btn--unshaped-blue__zPYkC"
@@ -435,12 +439,12 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                       <use xlinkHref="#icons_arrow"></use>
                                     </svg>
                                   </span>
-                                </a>
+                                </Link>
                               </div>
                             </li>
                             <li className="MegaMenu_megamenu__item__drU0L">
                               <div className="circle-scale">
-                                <a
+                                <Link
                                   title=""
                                   target="_self"
                                   className="Button_btn__Xvq6a CircleScale_circle-scale__button__8OW5R CircleScale_circle-scale__button--red__zIRaj MegaMenu_megamenu__item__link__EntFb Button_btn--blue__16_CO Button_btn--link__JI8fR Button_btn--unshaped__MfqLg Button_btn--unshaped-blue__zPYkC"
@@ -456,12 +460,12 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                       <use xlinkHref="#icons_arrow"></use>
                                     </svg>
                                   </span>
-                                </a>
+                                </Link>
                               </div>
                             </li>
                             <li className="MegaMenu_megamenu__item__drU0L">
                               <div className="circle-scale">
-                                <a
+                                <Link
                                   title=""
                                   target="_self"
                                   className="Button_btn__Xvq6a CircleScale_circle-scale__button__8OW5R CircleScale_circle-scale__button--red__zIRaj MegaMenu_megamenu__item__link__EntFb Button_btn--blue__16_CO Button_btn--link__JI8fR Button_btn--unshaped__MfqLg Button_btn--unshaped-blue__zPYkC"
@@ -477,12 +481,12 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                       <use xlinkHref="#icons_arrow"></use>
                                     </svg>
                                   </span>
-                                </a>
+                                </Link>
                               </div>
                             </li>
                             <li className="MegaMenu_megamenu__item__drU0L">
                               <div className="circle-scale">
-                                <a
+                                <Link
                                   title=""
                                   target="_self"
                                   className="Button_btn__Xvq6a CircleScale_circle-scale__button__8OW5R CircleScale_circle-scale__button--red__zIRaj MegaMenu_megamenu__item__link__EntFb Button_btn--blue__16_CO Button_btn--link__JI8fR Button_btn--unshaped__MfqLg Button_btn--unshaped-blue__zPYkC"
@@ -498,12 +502,12 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                       <use xlinkHref="#icons_arrow"></use>
                                     </svg>
                                   </span>
-                                </a>
+                                </Link>
                               </div>
                             </li>
                             <li className="MegaMenu_megamenu__item__drU0L">
                               <div className="circle-scale">
-                                <a
+                                <Link
                                   title=""
                                   target="_self"
                                   className="Button_btn__Xvq6a CircleScale_circle-scale__button__8OW5R CircleScale_circle-scale__button--red__zIRaj MegaMenu_megamenu__item__link__EntFb Button_btn--blue__16_CO Button_btn--link__JI8fR Button_btn--unshaped__MfqLg Button_btn--unshaped-blue__zPYkC"
@@ -519,12 +523,12 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                       <use xlinkHref="#icons_arrow"></use>
                                     </svg>
                                   </span>
-                                </a>
+                                </Link>
                               </div>
                             </li>
                             <li className="MegaMenu_megamenu__item__drU0L">
                               <div className="circle-scale">
-                                <a
+                                <Link
                                   title=""
                                   target="_self"
                                   className="Button_btn__Xvq6a CircleScale_circle-scale__button__8OW5R CircleScale_circle-scale__button--red__zIRaj MegaMenu_megamenu__item__link__EntFb Button_btn--blue__16_CO Button_btn--link__JI8fR Button_btn--unshaped__MfqLg Button_btn--unshaped-blue__zPYkC"
@@ -540,7 +544,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                       <use xlinkHref="#icons_arrow"></use>
                                     </svg>
                                   </span>
-                                </a>
+                                </Link>
                               </div>
                             </li>
                           </ul>
@@ -564,7 +568,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                             <p className="MegaMenuPush_megamenu-push__description__L24Xd MegaMenuPush_font-body-small__uG15h">
                               Discover how we are creating a better everyday in the our report.
                             </p>
-                            <a
+                            <Link
                               title=""
                               target="_self"
                               className="Button_btn__Xvq6a MegaMenuPush_megamenu-push__button__PmRwc Button_btn--link__JI8fR Button_btn--outline-blue__W1LG6"
@@ -579,7 +583,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                   <use xlinkHref="#icons_arrow"></use>
                                 </svg>
                               </span>
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -667,7 +671,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                               <ul className="MegaMenu_megamenu__subItem__fxm_D">
                                 <li className="MegaMenu_megamenu__item__drU0L">
                                   <div className="circle-scale">
-                                    <a
+                                    <Link
                                       title="Opens page (same window)"
                                       target="_self"
                                       className="Button_btn__Xvq6a CircleScale_circle-scale__button__8OW5R CircleScale_circle-scale__button--red__zIRaj MegaMenu_megamenu__item__link__EntFb Button_btn--blue__16_CO Button_btn--link__JI8fR Button_btn--unshaped__MfqLg Button_btn--unshaped-blue__zPYkC"
@@ -683,12 +687,12 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                           <use xlinkHref="#icons_arrow"></use>
                                         </svg>
                                       </span>
-                                    </a>
+                                    </Link>
                                   </div>
                                 </li>
                                 <li className="MegaMenu_megamenu__item__drU0L">
                                   <div className="circle-scale">
-                                    <a
+                                    <Link
                                       title="Opens page (same window)"
                                       target="_self"
                                       className="Button_btn__Xvq6a CircleScale_circle-scale__button__8OW5R CircleScale_circle-scale__button--red__zIRaj MegaMenu_megamenu__item__link__EntFb Button_btn--blue__16_CO Button_btn--link__JI8fR Button_btn--unshaped__MfqLg Button_btn--unshaped-blue__zPYkC"
@@ -704,12 +708,12 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                           <use xlinkHref="#icons_arrow"></use>
                                         </svg>
                                       </span>
-                                    </a>
+                                    </Link>
                                   </div>
                                 </li>
                                 <li className="MegaMenu_megamenu__item__drU0L">
                                   <div className="circle-scale">
-                                    <a
+                                    <Link
                                       title="Opens page (same window)"
                                       target="_self"
                                       className="Button_btn__Xvq6a CircleScale_circle-scale__button__8OW5R CircleScale_circle-scale__button--red__zIRaj MegaMenu_megamenu__item__link__EntFb Button_btn--blue__16_CO Button_btn--link__JI8fR Button_btn--unshaped__MfqLg Button_btn--unshaped-blue__zPYkC"
@@ -725,12 +729,12 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                           <use xlinkHref="#icons_arrow"></use>
                                         </svg>
                                       </span>
-                                    </a>
+                                    </Link>
                                   </div>
                                 </li>
                                 <li className="MegaMenu_megamenu__item__drU0L">
                                   <div className="circle-scale">
-                                    <a
+                                    <Link
                                       title="Opens page (same window)"
                                       target="_self"
                                       className="Button_btn__Xvq6a CircleScale_circle-scale__button__8OW5R CircleScale_circle-scale__button--red__zIRaj MegaMenu_megamenu__item__link__EntFb Button_btn--blue__16_CO Button_btn--link__JI8fR Button_btn--unshaped__MfqLg Button_btn--unshaped-blue__zPYkC"
@@ -746,12 +750,12 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                           <use xlinkHref="#icons_arrow"></use>
                                         </svg>
                                       </span>
-                                    </a>
+                                    </Link>
                                   </div>
                                 </li>
                                 <li className="MegaMenu_megamenu__item__drU0L">
                                   <div className="circle-scale">
-                                    <a
+                                    <Link
                                       title="Opens page (same window)"
                                       target="_self"
                                       className="Button_btn__Xvq6a CircleScale_circle-scale__button__8OW5R CircleScale_circle-scale__button--red__zIRaj MegaMenu_megamenu__item__link__EntFb Button_btn--blue__16_CO Button_btn--link__JI8fR Button_btn--unshaped__MfqLg Button_btn--unshaped-blue__zPYkC"
@@ -767,14 +771,14 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                           <use xlinkHref="#icons_arrow"></use>
                                         </svg>
                                       </span>
-                                    </a>
+                                    </Link>
                                   </div>
                                 </li>
                               </ul>
                             </li>
                             <li className="MegaMenu_megamenu__item__drU0L">
                               <div className="circle-scale">
-                                <a
+                                <Link
                                   title=""
                                   target="_self"
                                   className="Button_btn__Xvq6a CircleScale_circle-scale__button__8OW5R CircleScale_circle-scale__button--red__zIRaj MegaMenu_megamenu__item__link__EntFb Button_btn--blue__16_CO Button_btn--link__JI8fR Button_btn--unshaped__MfqLg Button_btn--unshaped-blue__zPYkC"
@@ -790,12 +794,12 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                       <use xlinkHref="#icons_arrow"></use>
                                     </svg>
                                   </span>
-                                </a>
+                                </Link>
                               </div>
                             </li>
                             <li className="MegaMenu_megamenu__item__drU0L">
                               <div className="circle-scale">
-                                <a
+                                <Link
                                   title=""
                                   target="_self"
                                   className="Button_btn__Xvq6a CircleScale_circle-scale__button__8OW5R CircleScale_circle-scale__button--red__zIRaj MegaMenu_megamenu__item__link__EntFb Button_btn--blue__16_CO Button_btn--link__JI8fR Button_btn--unshaped__MfqLg Button_btn--unshaped-blue__zPYkC"
@@ -811,12 +815,12 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                       <use xlinkHref="#icons_arrow"></use>
                                     </svg>
                                   </span>
-                                </a>
+                                </Link>
                               </div>
                             </li>
                             <li className="MegaMenu_megamenu__item__drU0L">
                               <div className="circle-scale">
-                                <a
+                                <Link
                                   title=""
                                   target="_self"
                                   className="Button_btn__Xvq6a CircleScale_circle-scale__button__8OW5R CircleScale_circle-scale__button--red__zIRaj MegaMenu_megamenu__item__link__EntFb Button_btn--blue__16_CO Button_btn--link__JI8fR Button_btn--unshaped__MfqLg Button_btn--unshaped-blue__zPYkC"
@@ -832,12 +836,12 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                       <use xlinkHref="#icons_arrow"></use>
                                     </svg>
                                   </span>
-                                </a>
+                                </Link>
                               </div>
                             </li>
                             <li className="MegaMenu_megamenu__item__drU0L">
                               <div className="circle-scale">
-                                <a
+                                <Link
                                   title=""
                                   target="_self"
                                   className="Button_btn__Xvq6a CircleScale_circle-scale__button__8OW5R CircleScale_circle-scale__button--red__zIRaj MegaMenu_megamenu__item__link__EntFb Button_btn--blue__16_CO Button_btn--link__JI8fR Button_btn--unshaped__MfqLg Button_btn--unshaped-blue__zPYkC"
@@ -853,7 +857,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                       <use xlinkHref="#icons_arrow"></use>
                                     </svg>
                                   </span>
-                                </a>
+                                </Link>
                               </div>
                             </li>
                           </ul>
@@ -879,7 +883,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                               enhance our guests’ experience whether they are at a work, a sporting
                               event or their school cafeteria.
                             </p>
-                            <a
+                            <Link
                               title="Opens page (same window)"
                               target="_self"
                               className="Button_btn__Xvq6a MegaMenuPush_megamenu-push__button__PmRwc Button_btn--link__JI8fR Button_btn--outline-blue__W1LG6"
@@ -894,7 +898,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                   <use xlinkHref="#icons_arrow"></use>
                                 </svg>
                               </span>
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -983,7 +987,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                               <ul className="MegaMenu_megamenu__subItem__fxm_D">
                                 <li className="MegaMenu_megamenu__item__drU0L">
                                   <div className="circle-scale">
-                                    <a
+                                    <Link
                                       title=""
                                       target="_self"
                                       className="Button_btn__Xvq6a CircleScale_circle-scale__button__8OW5R CircleScale_circle-scale__button--red__zIRaj MegaMenu_megamenu__item__link__EntFb Button_btn--blue__16_CO Button_btn--link__JI8fR Button_btn--unshaped__MfqLg Button_btn--unshaped-blue__zPYkC"
@@ -999,12 +1003,12 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                           <use xlinkHref="#icons_arrow"></use>
                                         </svg>
                                       </span>
-                                    </a>
+                                    </Link>
                                   </div>
                                 </li>
                                 <li className="MegaMenu_megamenu__item__drU0L">
                                   <div className="circle-scale">
-                                    <a
+                                    <Link
                                       title=""
                                       target="_self"
                                       className="Button_btn__Xvq6a CircleScale_circle-scale__button__8OW5R CircleScale_circle-scale__button--red__zIRaj MegaMenu_megamenu__item__link__EntFb Button_btn--blue__16_CO Button_btn--link__JI8fR Button_btn--unshaped__MfqLg Button_btn--unshaped-blue__zPYkC"
@@ -1020,12 +1024,12 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                           <use xlinkHref="#icons_arrow"></use>
                                         </svg>
                                       </span>
-                                    </a>
+                                    </Link>
                                   </div>
                                 </li>
                                 <li className="MegaMenu_megamenu__item__drU0L">
                                   <div className="circle-scale">
-                                    <a
+                                    <Link
                                       title=""
                                       target="_self"
                                       className="Button_btn__Xvq6a CircleScale_circle-scale__button__8OW5R CircleScale_circle-scale__button--red__zIRaj MegaMenu_megamenu__item__link__EntFb Button_btn--blue__16_CO Button_btn--link__JI8fR Button_btn--unshaped__MfqLg Button_btn--unshaped-blue__zPYkC"
@@ -1041,12 +1045,12 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                           <use xlinkHref="#icons_arrow"></use>
                                         </svg>
                                       </span>
-                                    </a>
+                                    </Link>
                                   </div>
                                 </li>
                                 <li className="MegaMenu_megamenu__item__drU0L">
                                   <div className="circle-scale">
-                                    <a
+                                    <Link
                                       title=""
                                       target="_self"
                                       className="Button_btn__Xvq6a CircleScale_circle-scale__button__8OW5R CircleScale_circle-scale__button--red__zIRaj MegaMenu_megamenu__item__link__EntFb Button_btn--blue__16_CO Button_btn--link__JI8fR Button_btn--unshaped__MfqLg Button_btn--unshaped-blue__zPYkC"
@@ -1062,12 +1066,12 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                           <use xlinkHref="#icons_arrow"></use>
                                         </svg>
                                       </span>
-                                    </a>
+                                    </Link>
                                   </div>
                                 </li>
                                 <li className="MegaMenu_megamenu__item__drU0L">
                                   <div className="circle-scale">
-                                    <a
+                                    <Link
                                       title=""
                                       target="_self"
                                       className="Button_btn__Xvq6a CircleScale_circle-scale__button__8OW5R CircleScale_circle-scale__button--red__zIRaj MegaMenu_megamenu__item__link__EntFb Button_btn--blue__16_CO Button_btn--link__JI8fR Button_btn--unshaped__MfqLg Button_btn--unshaped-blue__zPYkC"
@@ -1083,12 +1087,12 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                           <use xlinkHref="#icons_arrow"></use>
                                         </svg>
                                       </span>
-                                    </a>
+                                    </Link>
                                   </div>
                                 </li>
                                 <li className="MegaMenu_megamenu__item__drU0L">
                                   <div className="circle-scale">
-                                    <a
+                                    <Link
                                       title=""
                                       target="_self"
                                       className="Button_btn__Xvq6a CircleScale_circle-scale__button__8OW5R CircleScale_circle-scale__button--red__zIRaj MegaMenu_megamenu__item__link__EntFb Button_btn--blue__16_CO Button_btn--link__JI8fR Button_btn--unshaped__MfqLg Button_btn--unshaped-blue__zPYkC"
@@ -1104,7 +1108,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                           <use xlinkHref="#icons_arrow"></use>
                                         </svg>
                                       </span>
-                                    </a>
+                                    </Link>
                                   </div>
                                 </li>
                               </ul>
@@ -1129,7 +1133,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                               <ul className="MegaMenu_megamenu__subItem__fxm_D">
                                 <li className="MegaMenu_megamenu__item__drU0L">
                                   <div className="circle-scale">
-                                    <a
+                                    <Link
                                       title=""
                                       target="_self"
                                       className="Button_btn__Xvq6a CircleScale_circle-scale__button__8OW5R CircleScale_circle-scale__button--red__zIRaj MegaMenu_megamenu__item__link__EntFb Button_btn--blue__16_CO Button_btn--link__JI8fR Button_btn--unshaped__MfqLg Button_btn--unshaped-blue__zPYkC"
@@ -1145,12 +1149,12 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                           <use xlinkHref="#icons_arrow"></use>
                                         </svg>
                                       </span>
-                                    </a>
+                                    </Link>
                                   </div>
                                 </li>
                                 <li className="MegaMenu_megamenu__item__drU0L">
                                   <div className="circle-scale">
-                                    <a
+                                    <Link
                                       title=""
                                       target="_self"
                                       className="Button_btn__Xvq6a CircleScale_circle-scale__button__8OW5R CircleScale_circle-scale__button--red__zIRaj MegaMenu_megamenu__item__link__EntFb Button_btn--blue__16_CO Button_btn--link__JI8fR Button_btn--unshaped__MfqLg Button_btn--unshaped-blue__zPYkC"
@@ -1166,12 +1170,12 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                           <use xlinkHref="#icons_arrow"></use>
                                         </svg>
                                       </span>
-                                    </a>
+                                    </Link>
                                   </div>
                                 </li>
                                 <li className="MegaMenu_megamenu__item__drU0L">
                                   <div className="circle-scale">
-                                    <a
+                                    <Link
                                       title=""
                                       target="_self"
                                       className="Button_btn__Xvq6a CircleScale_circle-scale__button__8OW5R CircleScale_circle-scale__button--red__zIRaj MegaMenu_megamenu__item__link__EntFb Button_btn--blue__16_CO Button_btn--link__JI8fR Button_btn--unshaped__MfqLg Button_btn--unshaped-blue__zPYkC"
@@ -1187,7 +1191,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                           <use xlinkHref="#icons_arrow"></use>
                                         </svg>
                                       </span>
-                                    </a>
+                                    </Link>
                                   </div>
                                 </li>
                               </ul>
@@ -1212,7 +1216,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                               <ul className="MegaMenu_megamenu__subItem__fxm_D">
                                 <li className="MegaMenu_megamenu__item__drU0L">
                                   <div className="circle-scale">
-                                    <a
+                                    <Link
                                       title=""
                                       target="_self"
                                       className="Button_btn__Xvq6a CircleScale_circle-scale__button__8OW5R CircleScale_circle-scale__button--red__zIRaj MegaMenu_megamenu__item__link__EntFb Button_btn--blue__16_CO Button_btn--link__JI8fR Button_btn--unshaped__MfqLg Button_btn--unshaped-blue__zPYkC"
@@ -1228,12 +1232,12 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                           <use xlinkHref="#icons_arrow"></use>
                                         </svg>
                                       </span>
-                                    </a>
+                                    </Link>
                                   </div>
                                 </li>
                                 <li className="MegaMenu_megamenu__item__drU0L">
                                   <div className="circle-scale">
-                                    <a
+                                    <Link
                                       title=""
                                       target="_self"
                                       className="Button_btn__Xvq6a CircleScale_circle-scale__button__8OW5R CircleScale_circle-scale__button--red__zIRaj MegaMenu_megamenu__item__link__EntFb Button_btn--blue__16_CO Button_btn--link__JI8fR Button_btn--unshaped__MfqLg Button_btn--unshaped-blue__zPYkC"
@@ -1249,7 +1253,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                           <use xlinkHref="#icons_arrow"></use>
                                         </svg>
                                       </span>
-                                    </a>
+                                    </Link>
                                   </div>
                                 </li>
                               </ul>
@@ -1274,7 +1278,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                               <ul className="MegaMenu_megamenu__subItem__fxm_D">
                                 <li className="MegaMenu_megamenu__item__drU0L">
                                   <div className="circle-scale">
-                                    <a
+                                    <Link
                                       title=""
                                       target="_self"
                                       className="Button_btn__Xvq6a CircleScale_circle-scale__button__8OW5R CircleScale_circle-scale__button--red__zIRaj MegaMenu_megamenu__item__link__EntFb Button_btn--blue__16_CO Button_btn--link__JI8fR Button_btn--unshaped__MfqLg Button_btn--unshaped-blue__zPYkC"
@@ -1290,12 +1294,12 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                           <use xlinkHref="#icons_arrow"></use>
                                         </svg>
                                       </span>
-                                    </a>
+                                    </Link>
                                   </div>
                                 </li>
                                 <li className="MegaMenu_megamenu__item__drU0L">
                                   <div className="circle-scale">
-                                    <a
+                                    <Link
                                       title=""
                                       target="_self"
                                       className="Button_btn__Xvq6a CircleScale_circle-scale__button__8OW5R CircleScale_circle-scale__button--red__zIRaj MegaMenu_megamenu__item__link__EntFb Button_btn--blue__16_CO Button_btn--link__JI8fR Button_btn--unshaped__MfqLg Button_btn--unshaped-blue__zPYkC"
@@ -1311,12 +1315,12 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                           <use xlinkHref="#icons_arrow"></use>
                                         </svg>
                                       </span>
-                                    </a>
+                                    </Link>
                                   </div>
                                 </li>
                                 <li className="MegaMenu_megamenu__item__drU0L">
                                   <div className="circle-scale">
-                                    <a
+                                    <Link
                                       title=""
                                       target="_self"
                                       className="Button_btn__Xvq6a CircleScale_circle-scale__button__8OW5R CircleScale_circle-scale__button--red__zIRaj MegaMenu_megamenu__item__link__EntFb Button_btn--blue__16_CO Button_btn--link__JI8fR Button_btn--unshaped__MfqLg Button_btn--unshaped-blue__zPYkC"
@@ -1332,12 +1336,12 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                           <use xlinkHref="#icons_arrow"></use>
                                         </svg>
                                       </span>
-                                    </a>
+                                    </Link>
                                   </div>
                                 </li>
                                 <li className="MegaMenu_megamenu__item__drU0L">
                                   <div className="circle-scale">
-                                    <a
+                                    <Link
                                       title=""
                                       target="_self"
                                       className="Button_btn__Xvq6a CircleScale_circle-scale__button__8OW5R CircleScale_circle-scale__button--red__zIRaj MegaMenu_megamenu__item__link__EntFb Button_btn--blue__16_CO Button_btn--link__JI8fR Button_btn--unshaped__MfqLg Button_btn--unshaped-blue__zPYkC"
@@ -1353,7 +1357,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                           <use xlinkHref="#icons_arrow"></use>
                                         </svg>
                                       </span>
-                                    </a>
+                                    </Link>
                                   </div>
                                 </li>
                               </ul>
@@ -1380,7 +1384,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                               Inspiring stories, lasting impact. Discover Stop Hunger&quot;s 2024
                               Impact Report
                             </p>
-                            <a
+                            <Link
                               href="https://www.stop-hunger.org/cms/render/live/en/sites/stophunger/home/actualites/news/content-col1-area/latest-news/2024-stop-hunger-impact-report.html"
                               className="Button_btn__Xvq6a MegaMenuPush_megamenu-push__button__PmRwc Button_btn--link__JI8fR Button_btn--outline-blue__W1LG6"
                               title="Opens website (new window)"
@@ -1396,7 +1400,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                   <use xlinkHref="#icons_arrow"></use>
                                 </svg>
                               </span>
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -1460,7 +1464,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                           <ul className="MegaMenu_megamenu__items__ol09A">
                             <li className="MegaMenu_megamenu__item__drU0L">
                               <div className="circle-scale">
-                                <a
+                                <Link
                                   title=""
                                   target="_self"
                                   className="Button_btn__Xvq6a CircleScale_circle-scale__button__8OW5R CircleScale_circle-scale__button--red__zIRaj MegaMenu_megamenu__item__link__EntFb Button_btn--blue__16_CO Button_btn--link__JI8fR Button_btn--unshaped__MfqLg Button_btn--unshaped-blue__zPYkC"
@@ -1476,12 +1480,12 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                       <use xlinkHref="#icons_arrow"></use>
                                     </svg>
                                   </span>
-                                </a>
+                                </Link>
                               </div>
                             </li>
                             <li className="MegaMenu_megamenu__item__drU0L">
                               <div className="circle-scale">
-                                <a
+                                <Link
                                   title="Opens page (same window)"
                                   target="_self"
                                   className="Button_btn__Xvq6a CircleScale_circle-scale__button__8OW5R CircleScale_circle-scale__button--red__zIRaj MegaMenu_megamenu__item__link__EntFb Button_btn--blue__16_CO Button_btn--link__JI8fR Button_btn--unshaped__MfqLg Button_btn--unshaped-blue__zPYkC"
@@ -1497,7 +1501,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                       <use xlinkHref="#icons_arrow"></use>
                                     </svg>
                                   </span>
-                                </a>
+                                </Link>
                               </div>
                             </li>
                           </ul>
@@ -1522,7 +1526,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                               Get inspired by the creativity of our 8 eco-chef finalists as they
                               crafted delicious, planet-friendly dishes in the grand final in Paris.
                             </p>
-                            <a
+                            <Link
                               title="Opens page (same window)"
                               target="_self"
                               className="Button_btn__Xvq6a MegaMenuPush_megamenu-push__button__PmRwc Button_btn--link__JI8fR Button_btn--outline-blue__W1LG6"
@@ -1537,7 +1541,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                   <use xlinkHref="#icons_arrow"></use>
                                 </svg>
                               </span>
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -1608,7 +1612,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                           <ul className="MegaMenu_megamenu__items__ol09A">
                             <li className="MegaMenu_megamenu__item__drU0L">
                               <div className="circle-scale">
-                                <a
+                                <Link
                                   title=""
                                   target="_self"
                                   className="Button_btn__Xvq6a CircleScale_circle-scale__button__8OW5R CircleScale_circle-scale__button--red__zIRaj MegaMenu_megamenu__item__link__EntFb Button_btn--blue__16_CO Button_btn--link__JI8fR Button_btn--unshaped__MfqLg Button_btn--unshaped-blue__zPYkC"
@@ -1624,12 +1628,12 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                       <use xlinkHref="#icons_arrow"></use>
                                     </svg>
                                   </span>
-                                </a>
+                                </Link>
                               </div>
                             </li>
                             <li className="MegaMenu_megamenu__item__drU0L">
                               <div className="circle-scale">
-                                <a
+                                <Link
                                   title=""
                                   target="_self"
                                   className="Button_btn__Xvq6a CircleScale_circle-scale__button__8OW5R CircleScale_circle-scale__button--red__zIRaj MegaMenu_megamenu__item__link__EntFb Button_btn--blue__16_CO Button_btn--link__JI8fR Button_btn--unshaped__MfqLg Button_btn--unshaped-blue__zPYkC"
@@ -1645,12 +1649,12 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                       <use xlinkHref="#icons_arrow"></use>
                                     </svg>
                                   </span>
-                                </a>
+                                </Link>
                               </div>
                             </li>
                             <li className="MegaMenu_megamenu__item__drU0L">
                               <div className="circle-scale">
-                                <a
+                                <Link
                                   title=""
                                   target="_self"
                                   className="Button_btn__Xvq6a CircleScale_circle-scale__button__8OW5R CircleScale_circle-scale__button--red__zIRaj MegaMenu_megamenu__item__link__EntFb Button_btn--blue__16_CO Button_btn--link__JI8fR Button_btn--unshaped__MfqLg Button_btn--unshaped-blue__zPYkC"
@@ -1666,12 +1670,12 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                       <use xlinkHref="#icons_arrow"></use>
                                     </svg>
                                   </span>
-                                </a>
+                                </Link>
                               </div>
                             </li>
                             <li className="MegaMenu_megamenu__item__drU0L">
                               <div className="circle-scale">
-                                <a
+                                <Link
                                   title=""
                                   target="_self"
                                   className="Button_btn__Xvq6a CircleScale_circle-scale__button__8OW5R CircleScale_circle-scale__button--red__zIRaj MegaMenu_megamenu__item__link__EntFb Button_btn--blue__16_CO Button_btn--link__JI8fR Button_btn--unshaped__MfqLg Button_btn--unshaped-blue__zPYkC"
@@ -1687,12 +1691,12 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                       <use xlinkHref="#icons_arrow"></use>
                                     </svg>
                                   </span>
-                                </a>
+                                </Link>
                               </div>
                             </li>
                             <li className="MegaMenu_megamenu__item__drU0L">
                               <div className="circle-scale">
-                                <a
+                                <Link
                                   title=""
                                   target="_self"
                                   className="Button_btn__Xvq6a CircleScale_circle-scale__button__8OW5R CircleScale_circle-scale__button--red__zIRaj MegaMenu_megamenu__item__link__EntFb Button_btn--blue__16_CO Button_btn--link__JI8fR Button_btn--unshaped__MfqLg Button_btn--unshaped-blue__zPYkC"
@@ -1708,7 +1712,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                       <use xlinkHref="#icons_arrow"></use>
                                     </svg>
                                   </span>
-                                </a>
+                                </Link>
                               </div>
                             </li>
                           </ul>
@@ -1807,7 +1811,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                               <ul className="MegaMenu_megamenu__subItem__fxm_D">
                                 <li className="MegaMenu_megamenu__item__drU0L">
                                   <div className="circle-scale">
-                                    <a
+                                    <Link
                                       title=""
                                       target="_self"
                                       className="Button_btn__Xvq6a CircleScale_circle-scale__button__8OW5R CircleScale_circle-scale__button--red__zIRaj MegaMenu_megamenu__item__link__EntFb Button_btn--blue__16_CO Button_btn--link__JI8fR Button_btn--unshaped__MfqLg Button_btn--unshaped-blue__zPYkC"
@@ -1823,12 +1827,12 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                           <use xlinkHref="#icons_arrow"></use>
                                         </svg>
                                       </span>
-                                    </a>
+                                    </Link>
                                   </div>
                                 </li>
                                 <li className="MegaMenu_megamenu__item__drU0L">
                                   <div className="circle-scale">
-                                    <a
+                                    <Link
                                       title=""
                                       target="_self"
                                       className="Button_btn__Xvq6a CircleScale_circle-scale__button__8OW5R CircleScale_circle-scale__button--red__zIRaj MegaMenu_megamenu__item__link__EntFb Button_btn--blue__16_CO Button_btn--link__JI8fR Button_btn--unshaped__MfqLg Button_btn--unshaped-blue__zPYkC"
@@ -1844,12 +1848,12 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                           <use xlinkHref="#icons_arrow"></use>
                                         </svg>
                                       </span>
-                                    </a>
+                                    </Link>
                                   </div>
                                 </li>
                                 <li className="MegaMenu_megamenu__item__drU0L">
                                   <div className="circle-scale">
-                                    <a
+                                    <Link
                                       title="Opens page (same window)"
                                       target="_self"
                                       className="Button_btn__Xvq6a CircleScale_circle-scale__button__8OW5R CircleScale_circle-scale__button--red__zIRaj MegaMenu_megamenu__item__link__EntFb Button_btn--blue__16_CO Button_btn--link__JI8fR Button_btn--unshaped__MfqLg Button_btn--unshaped-blue__zPYkC"
@@ -1865,12 +1869,12 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                           <use xlinkHref="#icons_arrow"></use>
                                         </svg>
                                       </span>
-                                    </a>
+                                    </Link>
                                   </div>
                                 </li>
                                 <li className="MegaMenu_megamenu__item__drU0L">
                                   <div className="circle-scale">
-                                    <a
+                                    <Link
                                       title=""
                                       target="_self"
                                       className="Button_btn__Xvq6a CircleScale_circle-scale__button__8OW5R CircleScale_circle-scale__button--red__zIRaj MegaMenu_megamenu__item__link__EntFb Button_btn--blue__16_CO Button_btn--link__JI8fR Button_btn--unshaped__MfqLg Button_btn--unshaped-blue__zPYkC"
@@ -1886,12 +1890,12 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                           <use xlinkHref="#icons_arrow"></use>
                                         </svg>
                                       </span>
-                                    </a>
+                                    </Link>
                                   </div>
                                 </li>
                                 <li className="MegaMenu_megamenu__item__drU0L">
                                   <div className="circle-scale">
-                                    <a
+                                    <Link
                                       title=""
                                       target="_self"
                                       className="Button_btn__Xvq6a CircleScale_circle-scale__button__8OW5R CircleScale_circle-scale__button--red__zIRaj MegaMenu_megamenu__item__link__EntFb Button_btn--blue__16_CO Button_btn--link__JI8fR Button_btn--unshaped__MfqLg Button_btn--unshaped-blue__zPYkC"
@@ -1907,7 +1911,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                           <use xlinkHref="#icons_arrow"></use>
                                         </svg>
                                       </span>
-                                    </a>
+                                    </Link>
                                   </div>
                                 </li>
                               </ul>
@@ -1932,7 +1936,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                               <ul className="MegaMenu_megamenu__subItem__fxm_D">
                                 <li className="MegaMenu_megamenu__item__drU0L">
                                   <div className="circle-scale">
-                                    <a
+                                    <Link
                                       title=""
                                       target="_self"
                                       className="Button_btn__Xvq6a CircleScale_circle-scale__button__8OW5R CircleScale_circle-scale__button--red__zIRaj MegaMenu_megamenu__item__link__EntFb Button_btn--blue__16_CO Button_btn--link__JI8fR Button_btn--unshaped__MfqLg Button_btn--unshaped-blue__zPYkC"
@@ -1948,12 +1952,12 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                           <use xlinkHref="#icons_arrow"></use>
                                         </svg>
                                       </span>
-                                    </a>
+                                    </Link>
                                   </div>
                                 </li>
                                 <li className="MegaMenu_megamenu__item__drU0L">
                                   <div className="circle-scale">
-                                    <a
+                                    <Link
                                       title=""
                                       target="_self"
                                       className="Button_btn__Xvq6a CircleScale_circle-scale__button__8OW5R CircleScale_circle-scale__button--red__zIRaj MegaMenu_megamenu__item__link__EntFb Button_btn--blue__16_CO Button_btn--link__JI8fR Button_btn--unshaped__MfqLg Button_btn--unshaped-blue__zPYkC"
@@ -1969,7 +1973,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                           <use xlinkHref="#icons_arrow"></use>
                                         </svg>
                                       </span>
-                                    </a>
+                                    </Link>
                                   </div>
                                 </li>
                               </ul>
@@ -1994,7 +1998,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                               <ul className="MegaMenu_megamenu__subItem__fxm_D">
                                 <li className="MegaMenu_megamenu__item__drU0L">
                                   <div className="circle-scale">
-                                    <a
+                                    <Link
                                       title=""
                                       target="_self"
                                       className="Button_btn__Xvq6a CircleScale_circle-scale__button__8OW5R CircleScale_circle-scale__button--red__zIRaj MegaMenu_megamenu__item__link__EntFb Button_btn--blue__16_CO Button_btn--link__JI8fR Button_btn--unshaped__MfqLg Button_btn--unshaped-blue__zPYkC"
@@ -2010,12 +2014,12 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                           <use xlinkHref="#icons_arrow"></use>
                                         </svg>
                                       </span>
-                                    </a>
+                                    </Link>
                                   </div>
                                 </li>
                                 <li className="MegaMenu_megamenu__item__drU0L">
                                   <div className="circle-scale">
-                                    <a
+                                    <Link
                                       title=""
                                       target="_self"
                                       className="Button_btn__Xvq6a CircleScale_circle-scale__button__8OW5R CircleScale_circle-scale__button--red__zIRaj MegaMenu_megamenu__item__link__EntFb Button_btn--blue__16_CO Button_btn--link__JI8fR Button_btn--unshaped__MfqLg Button_btn--unshaped-blue__zPYkC"
@@ -2031,12 +2035,12 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                           <use xlinkHref="#icons_arrow"></use>
                                         </svg>
                                       </span>
-                                    </a>
+                                    </Link>
                                   </div>
                                 </li>
                                 <li className="MegaMenu_megamenu__item__drU0L">
                                   <div className="circle-scale">
-                                    <a
+                                    <Link
                                       title=""
                                       target="_self"
                                       className="Button_btn__Xvq6a CircleScale_circle-scale__button__8OW5R CircleScale_circle-scale__button--red__zIRaj MegaMenu_megamenu__item__link__EntFb Button_btn--blue__16_CO Button_btn--link__JI8fR Button_btn--unshaped__MfqLg Button_btn--unshaped-blue__zPYkC"
@@ -2052,12 +2056,12 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                           <use xlinkHref="#icons_arrow"></use>
                                         </svg>
                                       </span>
-                                    </a>
+                                    </Link>
                                   </div>
                                 </li>
                                 <li className="MegaMenu_megamenu__item__drU0L">
                                   <div className="circle-scale">
-                                    <a
+                                    <Link
                                       title=""
                                       target="_self"
                                       className="Button_btn__Xvq6a CircleScale_circle-scale__button__8OW5R CircleScale_circle-scale__button--red__zIRaj MegaMenu_megamenu__item__link__EntFb Button_btn--blue__16_CO Button_btn--link__JI8fR Button_btn--unshaped__MfqLg Button_btn--unshaped-blue__zPYkC"
@@ -2073,7 +2077,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                           <use xlinkHref="#icons_arrow"></use>
                                         </svg>
                                       </span>
-                                    </a>
+                                    </Link>
                                   </div>
                                 </li>
                               </ul>
@@ -2098,7 +2102,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                               <ul className="MegaMenu_megamenu__subItem__fxm_D">
                                 <li className="MegaMenu_megamenu__item__drU0L">
                                   <div className="circle-scale">
-                                    <a
+                                    <Link
                                       title=""
                                       target="_self"
                                       className="Button_btn__Xvq6a CircleScale_circle-scale__button__8OW5R CircleScale_circle-scale__button--red__zIRaj MegaMenu_megamenu__item__link__EntFb Button_btn--blue__16_CO Button_btn--link__JI8fR Button_btn--unshaped__MfqLg Button_btn--unshaped-blue__zPYkC"
@@ -2114,12 +2118,12 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                           <use xlinkHref="#icons_arrow"></use>
                                         </svg>
                                       </span>
-                                    </a>
+                                    </Link>
                                   </div>
                                 </li>
                                 <li className="MegaMenu_megamenu__item__drU0L">
                                   <div className="circle-scale">
-                                    <a
+                                    <Link
                                       title=""
                                       target="_self"
                                       className="Button_btn__Xvq6a CircleScale_circle-scale__button__8OW5R CircleScale_circle-scale__button--red__zIRaj MegaMenu_megamenu__item__link__EntFb Button_btn--blue__16_CO Button_btn--link__JI8fR Button_btn--unshaped__MfqLg Button_btn--unshaped-blue__zPYkC"
@@ -2135,12 +2139,12 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                           <use xlinkHref="#icons_arrow"></use>
                                         </svg>
                                       </span>
-                                    </a>
+                                    </Link>
                                   </div>
                                 </li>
                                 <li className="MegaMenu_megamenu__item__drU0L">
                                   <div className="circle-scale">
-                                    <a
+                                    <Link
                                       title=""
                                       target="_self"
                                       className="Button_btn__Xvq6a CircleScale_circle-scale__button__8OW5R CircleScale_circle-scale__button--red__zIRaj MegaMenu_megamenu__item__link__EntFb Button_btn--blue__16_CO Button_btn--link__JI8fR Button_btn--unshaped__MfqLg Button_btn--unshaped-blue__zPYkC"
@@ -2156,12 +2160,12 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                           <use xlinkHref="#icons_arrow"></use>
                                         </svg>
                                       </span>
-                                    </a>
+                                    </Link>
                                   </div>
                                 </li>
                                 <li className="MegaMenu_megamenu__item__drU0L">
                                   <div className="circle-scale">
-                                    <a
+                                    <Link
                                       title=""
                                       target="_self"
                                       className="Button_btn__Xvq6a CircleScale_circle-scale__button__8OW5R CircleScale_circle-scale__button--red__zIRaj MegaMenu_megamenu__item__link__EntFb Button_btn--blue__16_CO Button_btn--link__JI8fR Button_btn--unshaped__MfqLg Button_btn--unshaped-blue__zPYkC"
@@ -2177,12 +2181,12 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                           <use xlinkHref="#icons_arrow"></use>
                                         </svg>
                                       </span>
-                                    </a>
+                                    </Link>
                                   </div>
                                 </li>
                                 <li className="MegaMenu_megamenu__item__drU0L">
                                   <div className="circle-scale">
-                                    <a
+                                    <Link
                                       title=""
                                       target="_self"
                                       className="Button_btn__Xvq6a CircleScale_circle-scale__button__8OW5R CircleScale_circle-scale__button--red__zIRaj MegaMenu_megamenu__item__link__EntFb Button_btn--blue__16_CO Button_btn--link__JI8fR Button_btn--unshaped__MfqLg Button_btn--unshaped-blue__zPYkC"
@@ -2198,7 +2202,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                           <use xlinkHref="#icons_arrow"></use>
                                         </svg>
                                       </span>
-                                    </a>
+                                    </Link>
                                   </div>
                                 </li>
                               </ul>
@@ -2223,7 +2227,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                               <ul className="MegaMenu_megamenu__subItem__fxm_D">
                                 <li className="MegaMenu_megamenu__item__drU0L">
                                   <div className="circle-scale">
-                                    <a
+                                    <Link
                                       title=""
                                       target="_self"
                                       className="Button_btn__Xvq6a CircleScale_circle-scale__button__8OW5R CircleScale_circle-scale__button--red__zIRaj MegaMenu_megamenu__item__link__EntFb Button_btn--blue__16_CO Button_btn--link__JI8fR Button_btn--unshaped__MfqLg Button_btn--unshaped-blue__zPYkC"
@@ -2239,12 +2243,12 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                           <use xlinkHref="#icons_arrow"></use>
                                         </svg>
                                       </span>
-                                    </a>
+                                    </Link>
                                   </div>
                                 </li>
                                 <li className="MegaMenu_megamenu__item__drU0L">
                                   <div className="circle-scale">
-                                    <a
+                                    <Link
                                       title=""
                                       target="_self"
                                       className="Button_btn__Xvq6a CircleScale_circle-scale__button__8OW5R CircleScale_circle-scale__button--red__zIRaj MegaMenu_megamenu__item__link__EntFb Button_btn--blue__16_CO Button_btn--link__JI8fR Button_btn--unshaped__MfqLg Button_btn--unshaped-blue__zPYkC"
@@ -2260,12 +2264,12 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                           <use xlinkHref="#icons_arrow"></use>
                                         </svg>
                                       </span>
-                                    </a>
+                                    </Link>
                                   </div>
                                 </li>
                                 <li className="MegaMenu_megamenu__item__drU0L">
                                   <div className="circle-scale">
-                                    <a
+                                    <Link
                                       title=""
                                       target="_self"
                                       className="Button_btn__Xvq6a CircleScale_circle-scale__button__8OW5R CircleScale_circle-scale__button--red__zIRaj MegaMenu_megamenu__item__link__EntFb Button_btn--blue__16_CO Button_btn--link__JI8fR Button_btn--unshaped__MfqLg Button_btn--unshaped-blue__zPYkC"
@@ -2281,12 +2285,12 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                           <use xlinkHref="#icons_arrow"></use>
                                         </svg>
                                       </span>
-                                    </a>
+                                    </Link>
                                   </div>
                                 </li>
                                 <li className="MegaMenu_megamenu__item__drU0L">
                                   <div className="circle-scale">
-                                    <a
+                                    <Link
                                       title=""
                                       target="_self"
                                       className="Button_btn__Xvq6a CircleScale_circle-scale__button__8OW5R CircleScale_circle-scale__button--red__zIRaj MegaMenu_megamenu__item__link__EntFb Button_btn--blue__16_CO Button_btn--link__JI8fR Button_btn--unshaped__MfqLg Button_btn--unshaped-blue__zPYkC"
@@ -2302,7 +2306,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                           <use xlinkHref="#icons_arrow"></use>
                                         </svg>
                                       </span>
-                                    </a>
+                                    </Link>
                                   </div>
                                 </li>
                               </ul>
@@ -2327,7 +2331,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                               <ul className="MegaMenu_megamenu__subItem__fxm_D">
                                 <li className="MegaMenu_megamenu__item__drU0L">
                                   <div className="circle-scale">
-                                    <a
+                                    <Link
                                       title=""
                                       target="_self"
                                       className="Button_btn__Xvq6a CircleScale_circle-scale__button__8OW5R CircleScale_circle-scale__button--red__zIRaj MegaMenu_megamenu__item__link__EntFb Button_btn--blue__16_CO Button_btn--link__JI8fR Button_btn--unshaped__MfqLg Button_btn--unshaped-blue__zPYkC"
@@ -2343,12 +2347,12 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                           <use xlinkHref="#icons_arrow"></use>
                                         </svg>
                                       </span>
-                                    </a>
+                                    </Link>
                                   </div>
                                 </li>
                                 <li className="MegaMenu_megamenu__item__drU0L">
                                   <div className="circle-scale">
-                                    <a
+                                    <Link
                                       title=""
                                       target="_self"
                                       className="Button_btn__Xvq6a CircleScale_circle-scale__button__8OW5R CircleScale_circle-scale__button--red__zIRaj MegaMenu_megamenu__item__link__EntFb Button_btn--blue__16_CO Button_btn--link__JI8fR Button_btn--unshaped__MfqLg Button_btn--unshaped-blue__zPYkC"
@@ -2364,12 +2368,12 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                           <use xlinkHref="#icons_arrow"></use>
                                         </svg>
                                       </span>
-                                    </a>
+                                    </Link>
                                   </div>
                                 </li>
                                 <li className="MegaMenu_megamenu__item__drU0L">
                                   <div className="circle-scale">
-                                    <a
+                                    <Link
                                       title=""
                                       target="_self"
                                       className="Button_btn__Xvq6a CircleScale_circle-scale__button__8OW5R CircleScale_circle-scale__button--red__zIRaj MegaMenu_megamenu__item__link__EntFb Button_btn--blue__16_CO Button_btn--link__JI8fR Button_btn--unshaped__MfqLg Button_btn--unshaped-blue__zPYkC"
@@ -2385,12 +2389,12 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                           <use xlinkHref="#icons_arrow"></use>
                                         </svg>
                                       </span>
-                                    </a>
+                                    </Link>
                                   </div>
                                 </li>
                                 <li className="MegaMenu_megamenu__item__drU0L">
                                   <div className="circle-scale">
-                                    <a
+                                    <Link
                                       title=""
                                       target="_self"
                                       className="Button_btn__Xvq6a CircleScale_circle-scale__button__8OW5R CircleScale_circle-scale__button--red__zIRaj MegaMenu_megamenu__item__link__EntFb Button_btn--blue__16_CO Button_btn--link__JI8fR Button_btn--unshaped__MfqLg Button_btn--unshaped-blue__zPYkC"
@@ -2406,14 +2410,14 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                           <use xlinkHref="#icons_arrow"></use>
                                         </svg>
                                       </span>
-                                    </a>
+                                    </Link>
                                   </div>
                                 </li>
                               </ul>
                             </li>
                             <li className="MegaMenu_megamenu__item__drU0L">
                               <div className="circle-scale">
-                                <a
+                                <Link
                                   title=""
                                   target="_self"
                                   className="Button_btn__Xvq6a CircleScale_circle-scale__button__8OW5R CircleScale_circle-scale__button--red__zIRaj MegaMenu_megamenu__item__link__EntFb Button_btn--blue__16_CO Button_btn--link__JI8fR Button_btn--unshaped__MfqLg Button_btn--unshaped-blue__zPYkC"
@@ -2429,7 +2433,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                       <use xlinkHref="#icons_arrow"></use>
                                     </svg>
                                   </span>
-                                </a>
+                                </Link>
                               </div>
                             </li>
                           </ul>
@@ -2453,7 +2457,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                             <p className="MegaMenuPush_megamenu-push__description__L24Xd MegaMenuPush_font-body-small__uG15h">
                               Thursday, March 20th 2025
                             </p>
-                            <a
+                            <Link
                               href="https://edge.media-server.com/mmc/p/oxxxitwa/"
                               className="Button_btn__Xvq6a MegaMenuPush_megamenu-push__button__PmRwc Button_btn--link__JI8fR Button_btn--outline-blue__W1LG6"
                               title="Opens web page (new window)"
@@ -2469,7 +2473,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                   <use xlinkHref="#icons_arrow"></use>
                                 </svg>
                               </span>
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -2531,7 +2535,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                           <ul className="MegaMenu_megamenu__items__ol09A">
                             <li className="MegaMenu_megamenu__item__drU0L">
                               <div className="circle-scale">
-                                <a
+                                <Link
                                   title=""
                                   target="_self"
                                   className="Button_btn__Xvq6a CircleScale_circle-scale__button__8OW5R CircleScale_circle-scale__button--red__zIRaj MegaMenu_megamenu__item__link__EntFb Button_btn--blue__16_CO Button_btn--link__JI8fR Button_btn--unshaped__MfqLg Button_btn--unshaped-blue__zPYkC"
@@ -2547,7 +2551,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                       <use xlinkHref="#icons_arrow"></use>
                                     </svg>
                                   </span>
-                                </a>
+                                </Link>
                               </div>
                             </li>
                           </ul>
@@ -2573,7 +2577,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                 </li>
                 <li className="MainRightNav_main-right-nav__item__muzGi">
                   <div className="IconSlide_icon-slide__Zlul4" data-theme="light">
-                    <a
+                    <Link
                       title=""
                       target="_self"
                       className="Button_btn__Xvq6a IconSlide_icon-slide__button__TOG0Q MainRightNav_main-right-nav__button__myVXL Button_btn--link__JI8fR Button_btn--unshaped__MfqLg"
@@ -2586,7 +2590,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                           <use xlinkHref="#icons_search"></use>
                         </svg>
                       </span>
-                    </a>
+                    </Link>
                   </div>
                 </li>
               </ul>
