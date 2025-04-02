@@ -15,6 +15,12 @@ import config from 'temp/config';
 import Scripts from 'src/Scripts';
 import Link from 'next/link';
 
+import 'src/sxastarter/src/styles/sodexo/82c79a564f3ac4be.css';
+import 'src/sxastarter/src/styles/sodexo/7258364f27e782a5.css';
+import 'src/sxastarter/src/styles/sodexo//d1c4779c33d3f3bd.css';
+import 'src/sxastarter/src/styles/sodexo/hotjar.css';
+import 'src/sxastarter/src/styles/sodexo/messenger.css';
+
 // Prefix public assets with a public URL to enable compatibility with Sitecore Experience Editor.
 // If you're not supporting the Experience Editor, you can remove this.
 const publicUrl = config.publicUrl;
