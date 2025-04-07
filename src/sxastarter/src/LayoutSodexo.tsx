@@ -15,12 +15,6 @@ import config from 'temp/config';
 import Scripts from 'src/Scripts';
 import Link from 'next/link';
 
-import './src/styles/sodexo/82c79a564f3ac4be.css';
-import './src/styles/sodexo/7258364f27e782a5.css';
-import './src/styles/sodexo//d1c4779c33d3f3bd.css';
-import './src/styles/sodexo/hotjar.css';
-import './src/styles/sodexo/messenger.css';
-
 // Prefix public assets with a public URL to enable compatibility with Sitecore Experience Editor.
 // If you're not supporting the Experience Editor, you can remove this.
 const publicUrl = config.publicUrl;
@@ -153,11 +147,6 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
           async
           src="https://t.contentsquare.net/uxa/4a912ed65f01e.js"
         />
-        <script
-          type="text/javascript"
-          async
-          src="https://static.hotjar.com/c/hotjar-5005374.js?sv=7"
-        />
         <script type="text/javascript" async src="https://tag.aticdn.net/piano-analytics.js" />
         <script
           type="text/javascript"
@@ -165,18 +154,43 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
           src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js?did=af68c76a-4d0f-439d-b71a-a520761e4b2f"
         />
         <script async src="https://www.googletagmanager.com/gtm.js?id=GTM-N3W8DT6" />
-        <script defer noModule src="/_next/static/chunks/polyfills-78c92fac7aa8fdd8.js" />
-        <script src="/_next/static/chunks/webpack-298d49d36da548df.js" defer />
-        <script src="/_next/static/chunks/framework-9620da855a94eb57.js" defer />
-        <script src="/_next/static/chunks/main-2facddc7a75f0c44.js" defer />
-        <script src="/_next/static/chunks/pages/_app-341dbd0e54409f54.js" defer />
-        <script src="/_next/static/chunks/4333364f-94584e990f9d6ab0.js" defer />
-        <script src="/_next/static/chunks/975-6f5469cf380f081c.js" defer />
-        <script src="/_next/static/chunks/840-93f0fed481957f6f.js" defer />
-        <script src="/_next/static/chunks/285-ed29a8c86bcb6bd9.js" defer />
-        <script src="/_next/static/chunks/pages/%5B%5B...path%5D%5D-149ec4c58b8ca9df.js" defer />
-        <script src="/_next/static/fjQkXPGL6oDwYVwaJbw8e/_buildManifest.js" defer />
-        <script src="/_next/static/fjQkXPGL6oDwYVwaJbw8e/_ssgManifest.js" defer />
+        <script
+          defer
+          noModule
+          src="https://www.sodexo.com/_next/static/chunks/polyfills-78c92fac7aa8fdd8.js"
+        />
+        <script
+          src="https://www.sodexo.com/_next/static/chunks/webpack-298d49d36da548df.js"
+          defer
+        />
+        <script
+          src="https://www.sodexo.com/_next/static/chunks/framework-9620da855a94eb57.js"
+          defer
+        />
+        <script src="https://www.sodexo.com/_next/static/chunks/main-2facddc7a75f0c44.js" defer />
+        <script
+          src="https://www.sodexo.com/_next/static/chunks/pages/_app-341dbd0e54409f54.js"
+          defer
+        />
+        <script
+          src="https://www.sodexo.com/_next/static/chunks/4333364f-94584e990f9d6ab0.js"
+          defer
+        />
+        <script src="https://www.sodexo.com/_next/static/chunks/975-6f5469cf380f081c.js" defer />
+        <script src="https://www.sodexo.com/_next/static/chunks/840-93f0fed481957f6f.js" defer />
+        <script src="https://www.sodexo.com/_next/static/chunks/285-ed29a8c86bcb6bd9.js" defer />
+        <script
+          src="https://www.sodexo.com/_next/static/chunks/pages/%5B%5B...path%5D%5D-149ec4c58b8ca9df.js"
+          defer
+        />
+        <script
+          src="https://www.sodexo.com/_next/static/fjQkXPGL6oDwYVwaJbw8e/_buildManifest.js"
+          defer
+        />
+        <script
+          src="https://www.sodexo.com/_next/static/fjQkXPGL6oDwYVwaJbw8e/_ssgManifest.js"
+          defer
+        />
         <style id="__jsx-264729537" jsx>
           {`
           :root{--font-family-base: 'Theme Base', 'Open Sans', sans-serif;
@@ -4610,7 +4624,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                 >
                   <div className="splide__track" aria-atomic="false" aria-live="polite">
                     <ul className="splide__list">
-                      <li className="splide__slide" role="group">
+                      <li className="splide__slide" role="group" style={{ visibility: 'visible' }}>
                         <article className="LatestNewsSlide_latest-news-slide__WLk__">
                           <div className="LatestNewsSlide_latest-news-slide__image__ZWzY7">
                             <div className="PushImage_push-image__V6naY PushImage_push-image--layout__PwSJd">
