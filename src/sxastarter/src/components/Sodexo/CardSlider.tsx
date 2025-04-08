@@ -63,7 +63,11 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
               aria-live="polite"
             >
               <ul className="splide__list">
-                <li className="splide__slide CardsSlider_cards-slider__item__ZGzEh" role="group">
+                <li
+                  className="splide__slide CardsSlider_cards-slider__item__ZGzEh"
+                  role="group"
+                  style={{ visibility: 'visible' }}
+                >
                   <article className="Card_card-container__BrcrH CardsSlider_cards-slider__card__scWqG Card_card-container--hover-effect__xG_UX">
                     <div className="Card_card-container__picture__q2urq">
                       <img
@@ -115,7 +119,11 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                     </section>
                   </article>
                 </li>
-                <li className="splide__slide CardsSlider_cards-slider__item__ZGzEh" role="group">
+                <li
+                  className="splide__slide CardsSlider_cards-slider__item__ZGzEh"
+                  role="group"
+                  style={{ visibility: 'visible' }}
+                >
                   <article className="Card_card-container__BrcrH CardsSlider_cards-slider__card__scWqG Card_card-container--hover-effect__xG_UX">
                     <div className="Card_card-container__picture__q2urq">
                       <img
@@ -167,7 +175,11 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                     </section>
                   </article>
                 </li>
-                <li className="splide__slide CardsSlider_cards-slider__item__ZGzEh" role="group">
+                <li
+                  className="splide__slide CardsSlider_cards-slider__item__ZGzEh"
+                  role="group"
+                  style={{ visibility: 'visible' }}
+                >
                   <article className="Card_card-container__BrcrH CardsSlider_cards-slider__card__scWqG Card_card-container--hover-effect__xG_UX">
                     <div className="Card_card-container__picture__q2urq">
                       <img
