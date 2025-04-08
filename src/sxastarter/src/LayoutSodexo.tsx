@@ -137,16 +137,15 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
           href="https://www.sodexo.com/_next/static/css/3db612bef2d48975.css"
           data-n-p=""
         />
-        <noscript data-n-css=""></noscript>
-        <script
+        {/* <script
           defer
           noModule
           src="https://www.sodexo.com/_next/static/chunks/polyfills-78c92fac7aa8fdd8.js"
         />
-        <script
+        {/* <script
           src="https://www.sodexo.com/_next/static/chunks/webpack-298d49d36da548df.js"
           defer
-        />
+        /> */}
         <script
           src="https://www.sodexo.com/_next/static/chunks/framework-9620da855a94eb57.js"
           defer
@@ -175,12 +174,12 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
           src="https://www.sodexo.com/_next/static/chunks/285-d2992df5a9b0fd43.js"
           defer
         ></script>
-        <script
+        {/* <script
           src="/_next/static/chunks/pages/%5B%5B...path%5D%5D-9d39efe77f46ae8b.js"
           defer
-        ></script>
-        <script src="/_next/static/B89m4RlNzSQnVapLfGlJg/_buildManifest.js" defer></script>
-        <script src="/_next/static/B89m4RlNzSQnVapLfGlJg/_ssgManifest.js" defer></script>
+        ></script> */}
+        {/* <script src="/_next/static/B89m4RlNzSQnVapLfGlJg/_buildManifest.js" defer></script>
+        <script src="/_next/static/B89m4RlNzSQnVapLfGlJg/_ssgManifest.js" defer></script> */}
       </Head>
 
       {/* root placeholder for the app, which we add components to using route data */}
@@ -297,7 +296,11 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                 >
                   <div className="splide__track" aria-atomic="false" aria-live="polite">
                     <ul className="splide__list">
-                      <li className="splide__slide" role="group">
+                      <li
+                        className="splide__slide"
+                        role="group"
+                        style={{ visibility: 'visible', width: 'calc(100%)' }}
+                      >
                         <article className="LatestNewsSlide_latest-news-slide__WLk__">
                           <div className="LatestNewsSlide_latest-news-slide__image__ZWzY7">
                             <div className="PushImage_push-image__V6naY PushImage_push-image--layout__PwSJd">
@@ -353,7 +356,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </div>
                         </article>
                       </li>
-                      <li className="splide__slide" role="group">
+                      <li className="splide__slide" role="group" style={{ width: 'calc(100%)' }}>
                         <article className="LatestNewsSlide_latest-news-slide__WLk__">
                           <div className="LatestNewsSlide_latest-news-slide__image__ZWzY7">
                             <div className="PushImage_push-image__V6naY PushImage_push-image--layout__PwSJd">
@@ -408,7 +411,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </div>
                         </article>
                       </li>
-                      <li className="splide__slide" role="group">
+                      <li className="splide__slide" role="group" style={{ width: 'calc(100%)' }}>
                         <article className="LatestNewsSlide_latest-news-slide__WLk__">
                           <div className="LatestNewsSlide_latest-news-slide__image__ZWzY7">
                             <div className="PushImage_push-image__V6naY PushImage_push-image--layout__PwSJd">
@@ -480,7 +483,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </div>
                         </article>
                       </li>
-                      <li className="splide__slide" role="group">
+                      <li className="splide__slide" role="group" style={{ width: 'calc(100%)' }}>
                         <article className="LatestNewsSlide_latest-news-slide__WLk__">
                           <div className="LatestNewsSlide_latest-news-slide__image__ZWzY7">
                             <div className="PushImage_push-image__V6naY PushImage_push-image--layout__PwSJd">
@@ -549,7 +552,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           </div>
                         </article>
                       </li>
-                      <li className="splide__slide" role="group">
+                      <li className="splide__slide" role="group" style={{ width: 'calc(100%)' }}>
                         <article className="LatestNewsSlide_latest-news-slide__WLk__">
                           <div className="LatestNewsSlide_latest-news-slide__image__ZWzY7">
                             <div className="PushImage_push-image__V6naY PushImage_push-image--layout__PwSJd">
