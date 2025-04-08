@@ -47,8 +47,8 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
         <style jsx>{`
           @media (min-width: 769px) {
             :global(.CardsSlider_cards-slider__item__slider__item__JBE) {
-              flex: 0 0 33%;
-              max-width: 33%;
+              flex: 0 0 32%;
+              max-width: 32%;
             }
           }
 
