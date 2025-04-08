@@ -96,25 +96,6 @@ export const Default = (props: SodexoBrandDetailProps): JSX.Element => {
               }}
               field={props.fields.LogoImage}
             />
-            <img
-              alt=""
-              loading="lazy"
-              decoding="async"
-              data-nimg="fill"
-              className=""
-              style={{
-                position: 'absolute',
-                height: '100%',
-                width: '100%',
-                left: '0',
-                top: '0',
-                right: '0',
-                bottom: '0',
-                objectFit: 'contain',
-                color: 'transparent',
-              }}
-              src="https://edge.sitecorecloud.io/sodexofrance1-sodexocorpsites-prod-e74c/media/Project/Sodexo-Corp/Global/Media-prod/Images/Logos/Modern-Recipe-white-logo.png?h=140&amp;iar=0&amp;w=542"
-            />
             <span className="HeroFeatureBanner_hero-feature__logo-alt__8C3nM"></span>
           </h1>
           <JssLink field={props.fields.Link}></JssLink>
