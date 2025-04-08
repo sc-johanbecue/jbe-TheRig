@@ -216,12 +216,12 @@ export const Default = (props: SodexoBrandDetailProps): JSX.Element => {
               </div>
             </div>
             <div className="BannerCard_banner-card__content__JcBKs" data-grid-layout="global">
-              <div className="opacity-in AnimateIn_opacity-in__animation--part1__2X1EP AnimateIn_opacity-in__animation__7ET9C">
+              <div className="">
                 <h2 className="BannerCard_banner-card__title__z7y_B">
                   <Text field={props.fields.Approach1SubTitle} />
                 </h2>
               </div>
-              <div className="opacity-in AnimateIn_opacity-in__animation--part2__rqjWC AnimateIn_opacity-in__animation__7ET9C">
+              <div className="">
                 <div className="BannerCard_banner-card__text__XOb09">
                   <RichText field={props.fields.Approach1Text} />
                 </div>
@@ -263,12 +263,12 @@ export const Default = (props: SodexoBrandDetailProps): JSX.Element => {
               className="BannerCard_banner-card__content__JcBKs BannerCard_banner-card__content--reversed__mMBDq"
               data-grid-layout="global"
             >
-              <div className="opacity-in AnimateIn_opacity-in__animation--part1__2X1EP AnimateIn_opacity-in__animation__7ET9C">
+              <div className="">
                 <h2 className="BannerCard_banner-card__title__z7y_B">
                   <Text field={props.fields.Approach2SubTitle} />
                 </h2>
               </div>
-              <div className="opacity-in AnimateIn_opacity-in__animation--part2__rqjWC AnimateIn_opacity-in__animation__7ET9C">
+              <div className="">
                 <div className="BannerCard_banner-card__text__XOb09">
                   <RichText field={props.fields.Approach2Text} />
                 </div>
@@ -304,12 +304,12 @@ export const Default = (props: SodexoBrandDetailProps): JSX.Element => {
               </div>
             </div>
             <div className="BannerCard_banner-card__content__JcBKs" data-grid-layout="global">
-              <div className="opacity-in AnimateIn_opacity-in__animation--part1__2X1EP AnimateIn_opacity-in__animation__7ET9C">
+              <div className="">
                 <h2 className="BannerCard_banner-card__title__z7y_B">
                   <Text field={props.fields.Approach3SubTitle} />
                 </h2>
               </div>
-              <div className="opacity-in AnimateIn_opacity-in__animation--part2__rqjWC AnimateIn_opacity-in__animation__7ET9C">
+              <div className="">
                 <div className="BannerCard_banner-card__text__XOb09">
                   <RichText field={props.fields.Approach3Text} />
                 </div>
