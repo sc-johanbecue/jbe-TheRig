@@ -1,11 +1,30 @@
 import React from 'react';
-import { TextField, ImageField } from '@sitecore-jss/sitecore-jss-nextjs';
+import {
+  TextField,
+  ImageField,
+  RichTextField,
+  LinkField,
+  Text,
+  Link as JssLink,
+  Image as JssImage,
+  RichText,
+} from '@sitecore-jss/sitecore-jss-nextjs';
 import Link from 'next/link';
 
 interface Fields {
-  Title: TextField;
-  Subtitle: TextField;
-  Image: ImageField;
+  Title1: TextField;
+  Text1: RichTextField;
+  Link1: LinkField;
+  Image1: ImageField;
+  Title2: TextField;
+  Text2: RichTextField;
+  Link2: LinkField;
+  Image2: ImageField;
+
+  Title3: TextField;
+  Text3: RichTextField;
+  Link3: LinkField;
+  Image3: ImageField;
 }
 
 type SodexoBannerProps = {
@@ -70,6 +89,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                 >
                   <article className="Card_card-container__BrcrH CardsSlider_cards-slider__card__scWqG Card_card-container--hover-effect__xG_UX">
                     <div className="Card_card-container__picture__q2urq">
+                      <JssImage field={props.fields.Image1} />
                       <img
                         alt="Modern-Recipe-Banner-Card"
                         fetchPriority="high"
@@ -91,14 +111,17 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                     </div>
                     <section className="Card_card-container__presentation__Q_aCH">
                       <p className="Card_card-container__presentation-typo__1ENx9 Card_font-body__qRScb Card_font-bold__8gf2G">
+                        <Text field={props.fields.Title1} />
                         All day food for modern living
                       </p>
                       <div className="Card_font-h4__Idw5p Card_font-base__PyGMI">
+                        <RichText field={props.fields.Text1} />
                         Modern Recipe is designed to meet expectations of today&quot;s
                         talents, bringing together the ingredients that matter the most
                         for top-notch corporate dining experiences. 
                       </div>
                       <div className="Card_card-container__presentation-buttons__rDbZU">
+                        <JssLink field={props.fields.Link1} />
                         <Link
                           title="Opens page (same window)"
                           target="_self"
@@ -126,6 +149,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                 >
                   <article className="Card_card-container__BrcrH CardsSlider_cards-slider__card__scWqG Card_card-container--hover-effect__xG_UX">
                     <div className="Card_card-container__picture__q2urq">
+                      <JssImage field={props.fields.Image2} />
                       <img
                         alt="Kitchen-Works-Banner-Card"
                         fetchPriority="high"
@@ -147,14 +171,17 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                     </div>
                     <section className="Card_card-container__presentation__Q_aCH">
                       <p className="Card_card-container__presentation-typo__1ENx9 Card_font-body__qRScb Card_font-bold__8gf2G">
+                        <Text field={props.fields.Title2} />
                         Making eating well, easy
                       </p>
                       <div className="Card_font-h4__Idw5p Card_font-base__PyGMI">
+                        <RichText field={props.fields.Text2} />
                         Delicious, honest food, in great company and in an environment where you can
                         truly disconnect from work. A no-compromise approach to convenience, value,
                         taste, nutrition and freshness.{' '}
                       </div>
                       <div className="Card_card-container__presentation-buttons__rDbZU">
+                        <JssLink field={props.fields.Link2} />
                         <Link
                           title="Opens page (same window)"
                           target="_self"
@@ -182,6 +209,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                 >
                   <article className="Card_card-container__BrcrH CardsSlider_cards-slider__card__scWqG Card_card-container--hover-effect__xG_UX">
                     <div className="Card_card-container__picture__q2urq">
+                      <JssImage field={props.fields.Image3} />
                       <img
                         alt="The-good-eating-company-Banner-Card"
                         fetchPriority="high"
@@ -203,14 +231,17 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                     </div>
                     <section className="Card_card-container__presentation__Q_aCH">
                       <p className="Card_card-container__presentation-typo__1ENx9 Card_font-body__qRScb Card_font-bold__8gf2G">
+                        <Text field={props.fields.Title3} />
                         Discover new depths of delicious
                       </p>
                       <div className="Card_font-h4__Idw5p Card_font-base__PyGMI">
+                        <RichText field={props.fields.Text3} />
                         At The Good Eating Company, we are passionate about simple cuisine, made
                         exceptionally well. We curate food experiences that put a twist on the
                         ordinary, inviting guests to discover new depths of delicious each day.{' '}
                       </div>
                       <div className="Card_card-container__presentation-buttons__rDbZU">
+                        <JssLink field={props.fields.Link3} />
                         <Link
                           title="Opens page (same window)"
                           target="_self"
