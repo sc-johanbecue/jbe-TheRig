@@ -213,36 +213,36 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                   data-grid-layout="global"
                 >
                   <div className="Media_media__NhvS6" id="">
-                    <div className="PushImage_push-image__V6naY PushImage_push-image--layout__PwSJd ImageBannerCard_image-banner-card__image-container__dd7MU">
+                    <div className="ImageBannerCard_image-banner-card__image-container__dd7MU">
                       <img
                         alt=""
                         loading="lazy"
                         decoding="async"
                         data-nimg="fill"
                         className=""
-                        // style={{
-                        //   position: 'absolute',
-                        //   height: '100%',
-                        //   width: '100%',
-                        //   left: '0',
-                        //   top: '0',
-                        //   right: '0',
-                        //   bottom: '0',
-                        //   objectFit: 'cover',
-                        //   color: 'transparent',
-                        // }}
+                        style={{
+                          position: 'absolute',
+                          height: '100%',
+                          width: '100%',
+                          left: '0',
+                          top: '0',
+                          right: '0',
+                          bottom: '0',
+                          objectFit: 'cover',
+                          color: 'transparent',
+                        }}
                         src="https://edge.sitecorecloud.io/sodexofrance1-sodexocorpsites-prod-e74c/media/Project/Sodexo-Corp/Global/Media-prod/Images/BannerCard-503x503/Sodexo-2024-Report-EN.jpg?h=503&amp;iar=0&amp;w=503"
                       />
                     </div>
                   </div>
                 </div>
                 <div className="BannerCard_banner-card__content__JcBKs" data-grid-layout="global">
-                  <div className="opacity-in AnimateIn_opacity-in__animation--part1__2X1EP AnimateIn_opacity-in__animation__7ET9C">
+                  <div className="">
                     <h2 className="BannerCard_banner-card__title__z7y_B">
                       Integrated Report Fiscal 2024
                     </h2>
                   </div>
-                  <div className="opacity-in AnimateIn_opacity-in__animation--part2__rqjWC AnimateIn_opacity-in__animation__7ET9C">
+                  <div className="">
                     <div className="BannerCard_banner-card__text__XOb09">
                       <p>
                         Discover or rediscover Sodexo, our fundamentals, unique business model,
@@ -308,12 +308,12 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                   className="BannerCard_banner-card__content__JcBKs BannerCard_banner-card__content--reversed__mMBDq"
                   data-grid-layout="global"
                 >
-                  <div className="opacity-in AnimateIn_opacity-in__animation--part1__2X1EP AnimateIn_opacity-in__animation__7ET9C">
+                  <div className="">
                     <h2 className="BannerCard_banner-card__title__z7y_B BannerCard_banner-card__title--half-bolded__nYE1S">
                       Working at Sodexo is more than a job
                     </h2>
                   </div>
-                  <div className="opacity-in AnimateIn_opacity-in__animation--part2__rqjWC AnimateIn_opacity-in__animation__7ET9C">
+                  <div className="">
                     <div className="BannerCard_banner-card__text__XOb09">
                       <p>
                         Joining Sodexo means being part of a company where your work goes beyond the
