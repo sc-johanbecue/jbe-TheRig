@@ -202,16 +202,6 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
           <div className="jsx-1675192690 jsx-1640501015 Layout_main__4tP_M">
             {route && <Placeholder name="headless-main" rendering={route} />}
             <section
-              className="ContentBlock_content-block__PkQ1i"
-              data-grid-layout="global"
-              id="bcb4e2cb-b76d-43b3-a382-c358013e1e1e"
-            >
-              <div className="RichText_rich-text__Xj3Dc" data-testid="rich-text">
-                <h2 className="rte-align-center">Food brands that meet your needs</h2>
-              </div>
-            </section>
-
-            <section
               data-full-width="false"
               data-grid-layout="global"
               id="50feeb9c-a6c2-48a1-ac65-330f74b929bc"

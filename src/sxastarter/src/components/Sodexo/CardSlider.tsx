@@ -11,6 +11,7 @@ import {
 } from '@sitecore-jss/sitecore-jss-nextjs';
 
 interface Fields {
+  Title: TextField;
   Title1: TextField;
   Text1: RichTextField;
   Link1: LinkField;
@@ -64,6 +65,17 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
             gap: 1rem;
           }
         `}</style>
+        <section
+          className="ContentBlock_content-block__PkQ1i"
+          data-grid-layout="global"
+          id="bcb4e2cb-b76d-43b3-a382-c358013e1e1e"
+        >
+          <div className="RichText_rich-text__Xj3Dc" data-testid="rich-text">
+            <h2 className="rte-align-center">
+              <Text field={props.fields.Title} />
+            </h2>
+          </div>
+        </section>
         <section
           className="CardsSlider_cards-slider__fSELa"
           id="bf831cab-1a1c-45ea-b9c3-ac49ac2815a2"
