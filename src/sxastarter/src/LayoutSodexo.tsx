@@ -4,6 +4,7 @@
  */
 import React from 'react';
 import Head from 'next/head';
+import Link from 'next/link';
 import {
   Placeholder,
   LayoutServiceData,
@@ -229,7 +230,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                 <p className="HeroEditorial-module_metadata__L37Uu font-body font-bold">
                   Apr 04, 2025
                 </p>
-                <a
+                <Link
                   id="715b0434-73e7-4a6d-929a-eb5dfe21ff5f"
                   target=""
                   className=""
@@ -239,9 +240,9 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                   <h1 className="HeroEditorial-module_title__ppi-b font-hero-title">
                     H1 Fiscal 2025 results
                   </h1>
-                </a>
+                </Link>
                 <p className="HeroEditorial-module_description__VNc38 font-body"> </p>
-                <a
+                <Link
                   title="Opens page (same window)"
                   target="_self"
                   className="Button_btn__Xvq6a Button_btn--red-waves__OSCcE Button_btn--link__JI8fR Button_btn--without-border__wYHqY"
@@ -256,7 +257,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                       <use xlinkHref="#icons_arrow"></use>
                     </svg>
                   </span>
-                </a>
+                </Link>
               </div>
             </section>
             <div className="HeroLatestNews_hero-latest-news__slider__wZ9xe">
@@ -270,7 +271,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                       Sodexo is the global leader in sustainable food and valued experiences at
                       every moment in life.
                     </p>
-                    <a
+                    <Link
                       target="_self"
                       className="Button_btn__Xvq6a Button_btn--items-center__L2yWE Button_btn--link__JI8fR Button_btn--outline-blue__W1LG6"
                       href="/news/newsroom"
@@ -284,7 +285,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           <use xlinkHref="#icons_arrow"></use>
                         </svg>
                       </span>
-                    </a>
+                    </Link>
                   </section>
                 </div>
                 <section
@@ -337,7 +338,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                               Intelligence” category, by the 2024 DSIN Trophies jury. Learn more.
                             </div>
                             <div className="LatestNewsSlide_latest-news-slide__content__buttons__5sWAm">
-                              <a
+                              <Link
                                 target="_self"
                                 className="Button_btn__Xvq6a LatestNewsSlide_latest-news-slide__content__buttons--link__W_tAU Button_btn--blue__16_CO Button_btn--items-center__L2yWE Button_btn--link__JI8fR Button_btn--unshaped__MfqLg Button_btn--unshaped-blue__zPYkC"
                                 href="/news/newsroom/2025/alice-guehennec-awarded-best-cdio-data-ai-dsin"
@@ -351,7 +352,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                     <use xlinkHref="#icons_arrow"></use>
                                   </svg>
                                 </span>
-                              </a>
+                              </Link>
                             </div>
                           </div>
                         </article>
@@ -392,7 +393,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                               terms of workplace equality.
                             </div>
                             <div className="LatestNewsSlide_latest-news-slide__content__buttons__5sWAm">
-                              <a
+                              <Link
                                 target="_self"
                                 className="Button_btn__Xvq6a LatestNewsSlide_latest-news-slide__content__buttons--link__W_tAU Button_btn--blue__16_CO Button_btn--items-center__L2yWE Button_btn--link__JI8fR Button_btn--unshaped__MfqLg Button_btn--unshaped-blue__zPYkC"
                                 href="/news/newsroom/2025/equileap-2025"
@@ -406,7 +407,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                     <use xlinkHref="#icons_arrow"></use>
                                   </svg>
                                 </span>
-                              </a>
+                              </Link>
                             </div>
                           </div>
                         </article>
@@ -450,7 +451,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                               practices. Learn more.
                             </div>
                             <div className="LatestNewsSlide_latest-news-slide__content__buttons__5sWAm">
-                              <a
+                              <Link
                                 target="_self"
                                 className="Button_btn__Xvq6a LatestNewsSlide_latest-news-slide__content__buttons--link__W_tAU Button_btn--blue__16_CO Button_btn--items-center__L2yWE Button_btn--link__JI8fR Button_btn--unshaped__MfqLg Button_btn--unshaped-blue__zPYkC"
                                 href="/news/newsroom/2025/sodexo-named-one-of-the-world-most-ethical-companies-by-ethisphere-for-the-second-year-in-a-row"
@@ -464,8 +465,8 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                     <use xlinkHref="#icons_arrow"></use>
                                   </svg>
                                 </span>
-                              </a>
-                              <a
+                              </Link>
+                              <Link
                                 href="https://edge.sitecorecloud.io/sodexofrance1-sodexocorpsites-prod-e74c/media/Project/Sodexo-Corp/Global/Documents/press-releases/2025/PR-Sodexo-Worlds-Most-Ethical-Companies-Ethisphere-2025.pdf"
                                 aria-label="Download"
                                 className="Button_btn__Xvq6a LatestNewsSlide_latest-news-slide__file-button__9IU2p Button_btn--unshaped__MfqLg"
@@ -478,7 +479,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                     <use xlinkHref="#icons_download"></use>
                                   </svg>
                                 </span>
-                              </a>
+                              </Link>
                             </div>
                           </div>
                         </article>
@@ -519,7 +520,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                               more.
                             </div>
                             <div className="LatestNewsSlide_latest-news-slide__content__buttons__5sWAm">
-                              <a
+                              <Link
                                 target="_self"
                                 className="Button_btn__Xvq6a LatestNewsSlide_latest-news-slide__content__buttons--link__W_tAU Button_btn--blue__16_CO Button_btn--items-center__L2yWE Button_btn--link__JI8fR Button_btn--unshaped__MfqLg Button_btn--unshaped-blue__zPYkC"
                                 href="/news/newsroom/2025/significant-contract-with-santos-australia"
@@ -533,8 +534,8 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                     <use xlinkHref="#icons_arrow"></use>
                                   </svg>
                                 </span>
-                              </a>
-                              <a
+                              </Link>
+                              <Link
                                 href="https://edge.sitecorecloud.io/sodexofrance1-sodexocorpsites-prod-e74c/media/Project/Sodexo-Corp/Global/Documents/press-releases/2025/PR-Sodexo-in-Australia-x-Santos.pdf"
                                 aria-label="Download"
                                 className="Button_btn__Xvq6a LatestNewsSlide_latest-news-slide__file-button__9IU2p Button_btn--unshaped__MfqLg"
@@ -547,7 +548,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                     <use xlinkHref="#icons_download"></use>
                                   </svg>
                                 </span>
-                              </a>
+                              </Link>
                             </div>
                           </div>
                         </article>
@@ -589,7 +590,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                               until 2036. Learn more.
                             </div>
                             <div className="LatestNewsSlide_latest-news-slide__content__buttons__5sWAm">
-                              <a
+                              <Link
                                 target="_self"
                                 className="Button_btn__Xvq6a LatestNewsSlide_latest-news-slide__content__buttons--link__W_tAU Button_btn--blue__16_CO Button_btn--items-center__L2yWE Button_btn--link__JI8fR Button_btn--unshaped__MfqLg Button_btn--unshaped-blue__zPYkC"
                                 href="/news/newsroom/2025/mucem-selects-michelin-star-chef-alexandre-mazzia-and-sodexo-live"
@@ -603,7 +604,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                     <use xlinkHref="#icons_arrow"></use>
                                   </svg>
                                 </span>
-                              </a>
+                              </Link>
                             </div>
                           </div>
                         </article>
@@ -703,7 +704,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           for top-notch corporate dining experiences. 
                         </div>
                         <div className="Card_card-container__presentation-buttons__rDbZU">
-                          <a
+                          <Link
                             title="Opens page (same window)"
                             target="_self"
                             className="Button_btn__Xvq6a card-container__presentation-buttons-link Button_btn--blue__16_CO Button_btn--items-center__L2yWE Button_btn--link__JI8fR Button_btn--unshaped__MfqLg Button_btn--unshaped-blue__zPYkC"
@@ -718,7 +719,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                 <use xlinkHref="#icons_arrow"></use>
                               </svg>
                             </span>
-                          </a>
+                          </Link>
                         </div>
                       </section>
                     </article>
@@ -755,7 +756,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           value, taste, nutrition and freshness.{' '}
                         </div>
                         <div className="Card_card-container__presentation-buttons__rDbZU">
-                          <a
+                          <Link
                             title="Opens page (same window)"
                             target="_self"
                             className="Button_btn__Xvq6a card-container__presentation-buttons-link Button_btn--blue__16_CO Button_btn--items-center__L2yWE Button_btn--link__JI8fR Button_btn--unshaped__MfqLg Button_btn--unshaped-blue__zPYkC"
@@ -770,7 +771,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                 <use xlinkHref="#icons_arrow"></use>
                               </svg>
                             </span>
-                          </a>
+                          </Link>
                         </div>
                       </section>
                     </article>
@@ -807,7 +808,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                           ordinary, inviting guests to discover new depths of delicious each day.{' '}
                         </div>
                         <div className="Card_card-container__presentation-buttons__rDbZU">
-                          <a
+                          <Link
                             title="Opens page (same window)"
                             target="_self"
                             className="Button_btn__Xvq6a card-container__presentation-buttons-link Button_btn--blue__16_CO Button_btn--items-center__L2yWE Button_btn--link__JI8fR Button_btn--unshaped__MfqLg Button_btn--unshaped-blue__zPYkC"
@@ -822,7 +823,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                 <use xlinkHref="#icons_arrow"></use>
                               </svg>
                             </span>
-                          </a>
+                          </Link>
                         </div>
                       </section>
                     </article>
@@ -912,7 +913,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                     </p>
                   </div>
                 </div>
-                <a
+                <Link
                   title="Opens page (same window)"
                   target="_self"
                   className="Button_btn__Xvq6a BannerCard_banner-card__button__xbgXJ Button_btn--link__JI8fR Button_btn--outline-blue__W1LG6"
@@ -927,7 +928,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                       <use xlinkHref="#icons_arrow"></use>
                     </svg>
                   </span>
-                </a>
+                </Link>
               </div>
             </div>
           </section>
@@ -986,7 +987,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                     </p>
                   </div>
                 </div>
-                <a
+                <Link
                   title="Opens web page (same window)"
                   target="_self"
                   className="Button_btn__Xvq6a BannerCard_banner-card__button__xbgXJ Button_btn--link__JI8fR Button_btn--outline-blue__W1LG6"
@@ -1001,7 +1002,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                       <use xlinkHref="#icons_arrow"></use>
                     </svg>
                   </span>
-                </a>
+                </Link>
               </div>
             </div>
           </section>
@@ -1037,7 +1038,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                 Services that are right for you.
               </p>
               <div className="FullBanner_full-banner__content__cta___kqUy">
-                <a
+                <Link
                   title="Opens page (same window)"
                   target="_self"
                   className="Button_btn__Xvq6a Button_btn--red-waves__OSCcE Button_btn--items-center__L2yWE Button_btn--link__JI8fR Button_btn--without-border__wYHqY"
@@ -1052,7 +1053,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                       <use xlinkHref="#icons_arrow"></use>
                     </svg>
                   </span>
-                </a>
+                </Link>
               </div>
             </div>
           </section>
@@ -1538,7 +1539,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                   </ul>
                 </div>
               </div>
-              <a
+              <Link
                 target="_self"
                 className="Button_btn__Xvq6a RedirectionSelector_redirection-selector__button__rYXbK RedirectionSelector_redirection-selector__button--disabled__dGyPX Button_btn--red-waves__OSCcE Button_btn--link__JI8fR"
                 href="/"
@@ -1552,7 +1553,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                     <use xlinkHref="#icons_arrow"></use>
                   </svg>
                 </span>
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -1561,52 +1562,52 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
         <div className="Footer_footer__container__9eH4G">
           <div className="Footer_footer__head__mIP7D Footer_footer__head--with-share-price__jtoxJ">
             <div className="Footer_footer__head__logo__OaDzG">
-              <a href="/">
+              <Link href="/">
                 <img
                   alt="Sodoxo Logo"
                   width="134"
                   height="45"
                   src="https://edge.sitecorecloud.io/sodexofrance1-sodexocorpsites-prod-e74c/media/Project/Sodexo-Corp/Global/Media-prod/Images/Logos/Sodexo_Logotype_White.png?h=45&amp;iar=0&amp;w=134"
                 />
-              </a>
+              </Link>
             </div>
             <div className="Footer_footer__head__socials__msT4u Footer_footer__head__socials--with-share-price__D93x_">
               <ul className="Footer_footer__head__socials__list__QTegF">
                 <li>
-                  <a href="https://twitter.com/sodexogroup" target="_blank">
+                  <Link href="https://twitter.com/sodexogroup" target="_blank">
                     <span className="Icon_icon__qNAb6" style={{ height: '48px', width: '48px' }}>
                       <svg aria-hidden="true" viewBox="0 0 48 48">
                         <use xlinkHref="#icons_twitter"></use>
                       </svg>
                     </span>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="https://www.linkedin.com/company/sodexo/" target="_blank">
+                  <Link href="https://www.linkedin.com/company/sodexo/" target="_blank">
                     <span className="Icon_icon__qNAb6" style={{ height: '48px', width: '48px' }}>
                       <svg aria-hidden="true" viewBox="0 0 48 48">
                         <use xlinkHref="#icons_linkedin"></use>
                       </svg>
                     </span>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="https://www.instagram.com/sodexogroup/" target="_blank">
+                  <Link href="https://www.instagram.com/sodexogroup/" target="_blank">
                     <span className="Icon_icon__qNAb6" style={{ height: '48px', width: '48px' }}>
                       <svg aria-hidden="true" viewBox="0 0 48 48">
                         <use xlinkHref="#icons_instagram"></use>
                       </svg>
                     </span>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="https://www.youtube.com/user/SodexoGroup" target="_blank">
+                  <Link href="https://www.youtube.com/user/SodexoGroup" target="_blank">
                     <span className="Icon_icon__qNAb6" style={{ height: '48px', width: '48px' }}>
                       <svg aria-hidden="true" viewBox="0 0 48 48">
                         <use xlinkHref="#icons_youtube"></use>
                       </svg>
                     </span>
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -1625,33 +1626,33 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
               </p>
               <ul>
                 <li className="FooterNavigation_navItem__v16e9">
-                  <a
+                  <Link
                     target=""
                     className="FooterLink_footer-link__V8b7V"
                     href="/about-us/sodexo-in-brief"
                   >
                     Sodexo in Brief
-                  </a>
+                  </Link>
                 </li>
                 <li className="FooterNavigation_navItem__v16e9">
-                  <a
+                  <Link
                     title="Opens web page (same window)"
                     target=""
                     className="FooterLink_footer-link__V8b7V"
                     href="/about-us/our-history"
                   >
                     Our History
-                  </a>
+                  </Link>
                 </li>
                 <li className="FooterNavigation_navItem__v16e9">
-                  <a
+                  <Link
                     title="Opens web page (same window)"
                     target=""
                     className="FooterLink_footer-link__V8b7V"
                     href="/working-at-sodexo/more-than-a-job"
                   >
                     Working at Sodexo
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </nav>
@@ -1692,33 +1693,33 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                   >
                     <ul>
                       <li className="FooterNavigation_navItem__v16e9">
-                        <a
+                        <Link
                           target=""
                           className="FooterLink_footer-link__V8b7V"
                           href="/about-us/sodexo-in-brief"
                         >
                           Sodexo in Brief
-                        </a>
+                        </Link>
                       </li>
                       <li className="FooterNavigation_navItem__v16e9">
-                        <a
+                        <Link
                           title="Opens web page (same window)"
                           target=""
                           className="FooterLink_footer-link__V8b7V"
                           href="/about-us/our-history"
                         >
                           Our History
-                        </a>
+                        </Link>
                       </li>
                       <li className="FooterNavigation_navItem__v16e9">
-                        <a
+                        <Link
                           title="Opens web page (same window)"
                           target=""
                           className="FooterLink_footer-link__V8b7V"
                           href="/working-at-sodexo/more-than-a-job"
                         >
                           Working at Sodexo
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>
@@ -1738,34 +1739,34 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
               </p>
               <ul>
                 <li className="FooterNavigation_navItem__v16e9">
-                  <a
+                  <Link
                     title="Opens web page (same window)"
                     target=""
                     className="FooterLink_footer-link__V8b7V"
                     href="/brands-services/food/services"
                   >
                     Food
-                  </a>
+                  </Link>
                 </li>
                 <li className="FooterNavigation_navItem__v16e9">
-                  <a
+                  <Link
                     title="Opens web page (same window)"
                     target=""
                     className="FooterLink_footer-link__V8b7V"
                     href="/corporate-responsibility/impact-on-communities/responsible-sourcing"
                   >
                     Responsible Sourcing
-                  </a>
+                  </Link>
                 </li>
                 <li className="FooterNavigation_navItem__v16e9">
-                  <a
+                  <Link
                     title="Opens web page (same window)"
                     target=""
                     className="FooterLink_footer-link__V8b7V"
                     href="/corporate-responsibility/impact-on-environment/saving-resources-reducing-waste"
                   >
                     Reducing Food Waste
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </nav>
@@ -1806,34 +1807,34 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                   >
                     <ul>
                       <li className="FooterNavigation_navItem__v16e9">
-                        <a
+                        <Link
                           title="Opens web page (same window)"
                           target=""
                           className="FooterLink_footer-link__V8b7V"
                           href="/brands-services/food/services"
                         >
                           Food
-                        </a>
+                        </Link>
                       </li>
                       <li className="FooterNavigation_navItem__v16e9">
-                        <a
+                        <Link
                           title="Opens web page (same window)"
                           target=""
                           className="FooterLink_footer-link__V8b7V"
                           href="/corporate-responsibility/impact-on-communities/responsible-sourcing"
                         >
                           Responsible Sourcing
-                        </a>
+                        </Link>
                       </li>
                       <li className="FooterNavigation_navItem__v16e9">
-                        <a
+                        <Link
                           title="Opens web page (same window)"
                           target=""
                           className="FooterLink_footer-link__V8b7V"
                           href="/corporate-responsibility/impact-on-environment/saving-resources-reducing-waste"
                         >
                           Reducing Food Waste
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>
@@ -1853,44 +1854,44 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
               </p>
               <ul>
                 <li className="FooterNavigation_navItem__v16e9">
-                  <a
+                  <Link
                     title="Opens web page (same window)"
                     target=""
                     className="FooterLink_footer-link__V8b7V"
                     href="/investors/shareholders/benefits-registered-shareholder"
                   >
                     Investors
-                  </a>
+                  </Link>
                 </li>
                 <li className="FooterNavigation_navItem__v16e9">
-                  <a
+                  <Link
                     title="Opens web page (same window)"
                     target=""
                     className="FooterLink_footer-link__V8b7V"
                     href="/working-at-sodexo/more-than-a-job"
                   >
                     Career Seekers
-                  </a>
+                  </Link>
                 </li>
                 <li className="FooterNavigation_navItem__v16e9">
-                  <a
+                  <Link
                     title="Opens web page (same window)"
                     target=""
                     className="FooterLink_footer-link__V8b7V"
                     href="/news/newsroom"
                   >
                     Newsroom
-                  </a>
+                  </Link>
                 </li>
                 <li className="FooterNavigation_navItem__v16e9">
-                  <a
+                  <Link
                     title="Opens web page (same window)"
                     target=""
                     className="FooterLink_footer-link__V8b7V"
                     href="/contact-us"
                   >
                     Contact Us
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </nav>
@@ -1931,44 +1932,44 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                   >
                     <ul>
                       <li className="FooterNavigation_navItem__v16e9">
-                        <a
+                        <Link
                           title="Opens web page (same window)"
                           target=""
                           className="FooterLink_footer-link__V8b7V"
                           href="/investors/shareholders/benefits-registered-shareholder"
                         >
                           Investors
-                        </a>
+                        </Link>
                       </li>
                       <li className="FooterNavigation_navItem__v16e9">
-                        <a
+                        <Link
                           title="Opens web page (same window)"
                           target=""
                           className="FooterLink_footer-link__V8b7V"
                           href="/working-at-sodexo/more-than-a-job"
                         >
                           Career Seekers
-                        </a>
+                        </Link>
                       </li>
                       <li className="FooterNavigation_navItem__v16e9">
-                        <a
+                        <Link
                           title="Opens web page (same window)"
                           target=""
                           className="FooterLink_footer-link__V8b7V"
                           href="/news/newsroom"
                         >
                           Newsroom
-                        </a>
+                        </Link>
                       </li>
                       <li className="FooterNavigation_navItem__v16e9">
-                        <a
+                        <Link
                           title="Opens web page (same window)"
                           target=""
                           className="FooterLink_footer-link__V8b7V"
                           href="/contact-us"
                         >
                           Contact Us
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>
@@ -1988,14 +1989,14 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
               </p>
               <ul>
                 <li className="FooterNavigation_navItem__v16e9">
-                  <a
+                  <Link
                     title="Opens web page (same window)"
                     target=""
                     className="FooterLink_footer-link__V8b7V"
                     href="/contact-us"
                   >
                     Frequently Asked Questions
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </nav>
@@ -2036,14 +2037,14 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                   >
                     <ul>
                       <li className="FooterNavigation_navItem__v16e9">
-                        <a
+                        <Link
                           title="Opens web page (same window)"
                           target=""
                           className="FooterLink_footer-link__V8b7V"
                           href="/contact-us"
                         >
                           Frequently Asked Questions
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>
@@ -2056,62 +2057,62 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
               <p>© 2025 Sodexo. All rights reserved</p>
             </li>
             <li className="Footer_footer-placeholder__item__Ygn2f Footer_footer__legal__item__XHCzb">
-              <a
+              <Link
                 title="Opens page (same window)"
                 target=""
                 className="FooterLink_footer-link__V8b7V"
                 href="/legal/legal-privacy"
               >
                 Terms &amp; Conditions
-              </a>
+              </Link>
             </li>
             <li className="Footer_footer-placeholder__item__Ygn2f Footer_footer__legal__item__XHCzb">
-              <a
+              <Link
                 title="Opens page (new window)"
                 target=""
                 className="FooterLink_footer-link__V8b7V"
                 href="/legal/cookie-policy"
               >
                 Cookie Policy
-              </a>
+              </Link>
             </li>
             <li className="Footer_footer-placeholder__item__Ygn2f Footer_footer__legal__item__XHCzb">
-              <a
+              <Link
                 href="javascript:;return false;"
                 className="FooterLink_footer-link__V8b7V ot-sdk-show-settings"
               >
                 Cookie Preferences
-              </a>
+              </Link>
             </li>
             <li className="Footer_footer-placeholder__item__Ygn2f Footer_footer__legal__item__XHCzb">
-              <a
+              <Link
                 title="Opens page (same window)"
                 target=""
                 className="FooterLink_footer-link__V8b7V"
                 href="/legal/online-data-protection-policy"
               >
                 Online Privacy Policy
-              </a>
+              </Link>
             </li>
             <li className="Footer_footer-placeholder__item__Ygn2f Footer_footer__legal__item__XHCzb">
-              <a
+              <Link
                 title="Opens page (new window)"
                 target=""
                 className="FooterLink_footer-link__V8b7V"
                 href="/legal/global-data-protection-policy"
               >
                 Data Protection Policy
-              </a>
+              </Link>
             </li>
             <li className="Footer_footer-placeholder__item__Ygn2f Footer_footer__legal__item__XHCzb">
-              <a
+              <Link
                 href="https://vdp.sodexo.com"
                 className="FooterLink_footer-link__V8b7V"
                 title="Opens website (new window)"
                 target=""
               >
                 Vulnerability Disclosure Policy{' '}
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
@@ -2158,7 +2159,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                   >
                     <ul>
                       <li className="Footer_footer-placeholder__item__Ygn2f Footer_footer__external__placeholder__oLAAZ">
-                        <a href="undefined" className="FooterLink_footer-link__V8b7V"></a>
+                        <Link href="undefined" className="FooterLink_footer-link__V8b7V"></Link>
                       </li>
                     </ul>
                   </div>
@@ -2169,7 +2170,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
               <p>Sodexo other websites</p>
             </li>
             <li className="Footer_footer-placeholder__item__Ygn2f Footer_footer__external__item__qc_so Footer_footer__external-item_desktop__2n0NP">
-              <a href="undefined" className="FooterLink_footer-link__V8b7V"></a>
+              <Link href="undefined" className="FooterLink_footer-link__V8b7V"></Link>
             </li>
           </ul>
         </div>
