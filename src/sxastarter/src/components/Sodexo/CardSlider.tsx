@@ -9,7 +9,6 @@ import {
   Image as JssImage,
   RichText,
 } from '@sitecore-jss/sitecore-jss-nextjs';
-import Link from 'next/link';
 
 interface Fields {
   Title1: TextField;
@@ -46,14 +45,14 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
       <>
         <style jsx>{`
           @media (min-width: 768px) {
-            :global(.CardsSlider_cards-slider__item__ZGzEh) {
+            :global(.CardsSlider_cards-slider__item__slider__item__JBE) {
               flex: 0 0 33.3%;
               max-width: 33.3%;
             }
           }
 
           @media (max-width: 767px) {
-            :global(.CardsSlider_cards-slider__item__ZGzEh) {
+            :global(.CardsSlider_cards-slider__item__slider__item__JBE) {
               flex: 0 0 100%;
               max-width: 100%;
             }
@@ -83,52 +82,26 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
             >
               <ul className="splide__list">
                 <li
-                  className="splide__slide CardsSlider_cards-slider__item__ZGzEh"
+                  className="splide__slide CardsSlider_cards-slider__item__slider__item__JBE"
                   role="group"
                   style={{ visibility: 'visible' }}
                 >
                   <article className="Card_card-container__BrcrH CardsSlider_cards-slider__card__scWqG Card_card-container--hover-effect__xG_UX">
                     <div className="Card_card-container__picture__q2urq">
                       <JssImage field={props.fields.Image1} />
-                      <img
-                        alt="Modern-Recipe-Banner-Card"
-                        fetchPriority="high"
-                        decoding="async"
-                        data-nimg="fill"
-                        // style={{
-                        //   position: 'absolute',
-                        //   height: '100%',
-                        //   width: '100%',
-                        //   left: '0',
-                        //   top: '0',
-                        //   right: '0',
-                        //   bottom: '0',
-                        //   objectFit: 'cover',
-                        //   color: 'transparent',
-                        // }}
-                        src="https://edge.sitecorecloud.io/sodexofrance1-sodexocorpsites-prod-e74c/media/Project/Sodexo-Corp/Global/Media-prod/Images/BannerCard-503x503/Modern-Recipe-Banner-Card.jpg?h=608&amp;iar=0&amp;w=608"
-                      />
                     </div>
                     <section className="Card_card-container__presentation__Q_aCH">
                       <p className="Card_card-container__presentation-typo__1ENx9 Card_font-body__qRScb Card_font-bold__8gf2G">
                         <Text field={props.fields.Title1} />
-                        All day food for modern living
                       </p>
                       <div className="Card_font-h4__Idw5p Card_font-base__PyGMI">
                         <RichText field={props.fields.Text1} />
-                        Modern Recipe is designed to meet expectations of today&quot;s
-                        talents, bringing together the ingredients that matter the most
-                        for top-notch corporate dining experiences. 
                       </div>
                       <div className="Card_card-container__presentation-buttons__rDbZU">
-                        <JssLink field={props.fields.Link1} />
-                        <Link
-                          title="Opens page (same window)"
-                          target="_self"
+                        <JssLink
+                          field={props.fields.Link1}
                           className="Button_btn__Xvq6a card-container__presentation-buttons-link Button_btn--blue__16_CO Button_btn--items-center__L2yWE Button_btn--link__JI8fR Button_btn--unshaped__MfqLg Button_btn--unshaped-blue__zPYkC"
-                          href="/brands-services/food/brands/modern-recipe"
                         >
-                          Learn more
                           <span
                             className="Icon_icon__qNAb6 Icon_icon--red__KxdQl Icon_icon--arrow-rtl__xN7T5"
                             style={{ height: '24px', width: '24px' }}
@@ -137,58 +110,32 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                               <use xlinkHref="#icons_arrow"></use>
                             </svg>
                           </span>
-                        </Link>
+                        </JssLink>
                       </div>
                     </section>
                   </article>
                 </li>
                 <li
-                  className="splide__slide CardsSlider_cards-slider__item__ZGzEh"
+                  className="splide__slide CardsSlider_cards-slider__item__slider__item__JBE"
                   role="group"
                   style={{ visibility: 'visible' }}
                 >
                   <article className="Card_card-container__BrcrH CardsSlider_cards-slider__card__scWqG Card_card-container--hover-effect__xG_UX">
                     <div className="Card_card-container__picture__q2urq">
                       <JssImage field={props.fields.Image2} />
-                      <img
-                        alt="Kitchen-Works-Banner-Card"
-                        fetchPriority="high"
-                        decoding="async"
-                        data-nimg="fill"
-                        // style={{
-                        //   position: 'absolute',
-                        //   height: '100%',
-                        //   width: '100%',
-                        //   left: '0',
-                        //   top: '0',
-                        //   right: '0',
-                        //   bottom: '0',
-                        //   objectFit: 'cover',
-                        //   color: 'transparent',
-                        // }}
-                        src="https://edge.sitecorecloud.io/sodexofrance1-sodexocorpsites-prod-e74c/media/Project/Sodexo-Corp/Global/Media-prod/Images/BannerCard-503x503/Kitchen-Works-Banner-Card.jpg?h=608&amp;iar=0&amp;w=608"
-                      />
                     </div>
                     <section className="Card_card-container__presentation__Q_aCH">
                       <p className="Card_card-container__presentation-typo__1ENx9 Card_font-body__qRScb Card_font-bold__8gf2G">
                         <Text field={props.fields.Title2} />
-                        Making eating well, easy
                       </p>
                       <div className="Card_font-h4__Idw5p Card_font-base__PyGMI">
                         <RichText field={props.fields.Text2} />
-                        Delicious, honest food, in great company and in an environment where you can
-                        truly disconnect from work. A no-compromise approach to convenience, value,
-                        taste, nutrition and freshness.{' '}
                       </div>
                       <div className="Card_card-container__presentation-buttons__rDbZU">
-                        <JssLink field={props.fields.Link2} />
-                        <Link
-                          title="Opens page (same window)"
-                          target="_self"
+                        <JssLink
+                          field={props.fields.Link2}
                           className="Button_btn__Xvq6a card-container__presentation-buttons-link Button_btn--blue__16_CO Button_btn--items-center__L2yWE Button_btn--link__JI8fR Button_btn--unshaped__MfqLg Button_btn--unshaped-blue__zPYkC"
-                          href="/brands-services/food/brands/kitchen-works"
                         >
-                          Learn more
                           <span
                             className="Icon_icon__qNAb6 Icon_icon--red__KxdQl Icon_icon--arrow-rtl__xN7T5"
                             style={{ height: '24px', width: '24px' }}
@@ -197,58 +144,32 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                               <use xlinkHref="#icons_arrow"></use>
                             </svg>
                           </span>
-                        </Link>
+                        </JssLink>
                       </div>
                     </section>
                   </article>
                 </li>
                 <li
-                  className="splide__slide CardsSlider_cards-slider__item__ZGzEh"
+                  className="splide__slide CardsSlider_cards-slider__item__slider__item__JBE"
                   role="group"
                   style={{ visibility: 'visible' }}
                 >
                   <article className="Card_card-container__BrcrH CardsSlider_cards-slider__card__scWqG Card_card-container--hover-effect__xG_UX">
                     <div className="Card_card-container__picture__q2urq">
                       <JssImage field={props.fields.Image3} />
-                      <img
-                        alt="The-good-eating-company-Banner-Card"
-                        fetchPriority="high"
-                        decoding="async"
-                        data-nimg="fill"
-                        // style={{
-                        //   position: 'absolute',
-                        //   height: '100%',
-                        //   width: '100%',
-                        //   left: '0',
-                        //   top: '0',
-                        //   right: '0',
-                        //   bottom: '0',
-                        //   objectFit: 'cover',
-                        //   color: 'transparent',
-                        // }}
-                        src="https://edge.sitecorecloud.io/sodexofrance1-sodexocorpsites-prod-e74c/media/Project/Sodexo-Corp/Global/Media-prod/Images/BannerCard-503x503/The-good-eating-company-Banner-Card.jpg?h=608&amp;iar=0&amp;w=608"
-                      />
                     </div>
                     <section className="Card_card-container__presentation__Q_aCH">
                       <p className="Card_card-container__presentation-typo__1ENx9 Card_font-body__qRScb Card_font-bold__8gf2G">
                         <Text field={props.fields.Title3} />
-                        Discover new depths of delicious
                       </p>
                       <div className="Card_font-h4__Idw5p Card_font-base__PyGMI">
                         <RichText field={props.fields.Text3} />
-                        At The Good Eating Company, we are passionate about simple cuisine, made
-                        exceptionally well. We curate food experiences that put a twist on the
-                        ordinary, inviting guests to discover new depths of delicious each day.{' '}
                       </div>
                       <div className="Card_card-container__presentation-buttons__rDbZU">
-                        <JssLink field={props.fields.Link3} />
-                        <Link
-                          title="Opens page (same window)"
-                          target="_self"
+                        <JssLink
+                          field={props.fields.Link3}
                           className="Button_btn__Xvq6a card-container__presentation-buttons-link Button_btn--blue__16_CO Button_btn--items-center__L2yWE Button_btn--link__JI8fR Button_btn--unshaped__MfqLg Button_btn--unshaped-blue__zPYkC"
-                          href="/brands-services/food/brands/the-good-eating-company"
                         >
-                          Learn more
                           <span
                             className="Icon_icon__qNAb6 Icon_icon--red__KxdQl Icon_icon--arrow-rtl__xN7T5"
                             style={{ height: '24px', width: '24px' }}
@@ -257,7 +178,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                               <use xlinkHref="#icons_arrow"></use>
                             </svg>
                           </span>
-                        </Link>
+                        </JssLink>
                       </div>
                     </section>
                   </article>
