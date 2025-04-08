@@ -701,7 +701,7 @@ export const Default = (props: SodexoBrandDetailProps): JSX.Element => {
             style={{ background: '#F4D8D3', color: '#004C4E' }}
           >
             <div className="HeroCard_hero-card__content__HzbPp HeroCard_hero-card__content--full-width__vDOre">
-              <div className="opacity-in AnimateIn_opacity-in__animation--part1__2X1EP AnimateIn_opacity-in__animation__7ET9C">
+              <div className="">
                 <h2 className="HeroCard_hero-card__content__heading__T_TA9 HeroCard_font-h2__IH7ti">
                   Give your employees the workplace experience they deserve
                 </h2>

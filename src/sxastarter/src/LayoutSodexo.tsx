@@ -288,17 +288,17 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                         decoding="async"
                         data-nimg="fill"
                         className=""
-                        // style={{
-                        //   position: 'absolute',
-                        //   height: '100%',
-                        //   width: '100%',
-                        //   left: '0',
-                        //   top: '0',
-                        //   right: '0',
-                        //   bottom: '0',
-                        //   objectFit: 'cover',
-                        //   color: 'transparent',
-                        // }}
+                        style={{
+                          position: 'absolute',
+                          height: '100%',
+                          width: '100%',
+                          left: '0',
+                          top: '0',
+                          right: '0',
+                          bottom: '0',
+                          objectFit: 'cover',
+                          color: 'transparent',
+                        }}
                         src="https://edge.sitecorecloud.io/sodexofrance1-sodexocorpsites-prod-e74c/media/Project/Sodexo-Corp/Global/Media-prod/Images/Banner-card-608x342/HP-Employees3.jpg?h=342&amp;iar=0&amp;w=608"
                       />
                     </div>
@@ -355,16 +355,16 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                   decoding="async"
                   data-nimg="fill"
                   className="FullBanner_full-banner__background__image__y2_xF"
-                  // style={{
-                  //   position: 'absolute',
-                  //   height: '100%',
-                  //   width: '100%',
-                  //   left: '0',
-                  //   top: '0',
-                  //   right: '0',
-                  //   bottom: '0',
-                  //   color: 'transparent',
-                  // }}
+                  style={{
+                    position: 'absolute',
+                    height: '100%',
+                    width: '100%',
+                    left: '0',
+                    top: '0',
+                    right: '0',
+                    bottom: '0',
+                    color: 'transparent',
+                  }}
                   src="https://edge.sitecorecloud.io/sodexofrance1-sodexocorpsites-prod-e74c/media/Project/Sodexo-Corp/Global/Media-prod/Images/HeroLatestNews-1440x690/making-sustainable-food-convenient-homepage-banner.jpg?h=690&amp;iar=0&amp;w=1440"
                 />
               </figure>
