@@ -45,14 +45,14 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
     return (
       <>
         <style jsx>{`
-          @media (min-width: 768px) {
+          @media (min-width: 769px) {
             :global(.CardsSlider_cards-slider__item__slider__item__JBE) {
-              flex: 0 0 33.3%;
-              max-width: 33.3%;
+              flex: 0 0 33%;
+              max-width: 33%;
             }
           }
 
-          @media (max-width: 767px) {
+          @media (max-width: 768px) {
             :global(.CardsSlider_cards-slider__item__slider__item__JBE) {
               flex: 0 0 100%;
               max-width: 100%;
@@ -100,7 +100,20 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                 >
                   <article className="Card_card-container__BrcrH CardsSlider_cards-slider__card__scWqG Card_card-container--hover-effect__xG_UX">
                     <div className="Card_card-container__picture__q2urq">
-                      <JssImage field={props.fields.Image1} />
+                      <JssImage
+                        field={props.fields.Image1}
+                        style={{
+                          position: 'absolute',
+                          height: '100%',
+                          width: '100%',
+                          left: '0',
+                          top: '0',
+                          right: '0',
+                          bottom: '0',
+                          objectFit: 'cover',
+                          color: 'transparent',
+                        }}
+                      />
                     </div>
                     <section className="Card_card-container__presentation__Q_aCH">
                       <p className="Card_card-container__presentation-typo__1ENx9 Card_font-body__qRScb Card_font-bold__8gf2G">
@@ -134,7 +147,20 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                 >
                   <article className="Card_card-container__BrcrH CardsSlider_cards-slider__card__scWqG Card_card-container--hover-effect__xG_UX">
                     <div className="Card_card-container__picture__q2urq">
-                      <JssImage field={props.fields.Image2} />
+                      <JssImage
+                        field={props.fields.Image2}
+                        style={{
+                          position: 'absolute',
+                          height: '100%',
+                          width: '100%',
+                          left: '0',
+                          top: '0',
+                          right: '0',
+                          bottom: '0',
+                          objectFit: 'cover',
+                          color: 'transparent',
+                        }}
+                      />
                     </div>
                     <section className="Card_card-container__presentation__Q_aCH">
                       <p className="Card_card-container__presentation-typo__1ENx9 Card_font-body__qRScb Card_font-bold__8gf2G">
@@ -168,7 +194,20 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                 >
                   <article className="Card_card-container__BrcrH CardsSlider_cards-slider__card__scWqG Card_card-container--hover-effect__xG_UX">
                     <div className="Card_card-container__picture__q2urq">
-                      <JssImage field={props.fields.Image3} />
+                      <JssImage
+                        field={props.fields.Image3}
+                        style={{
+                          position: 'absolute',
+                          height: '100%',
+                          width: '100%',
+                          left: '0',
+                          top: '0',
+                          right: '0',
+                          bottom: '0',
+                          objectFit: 'cover',
+                          color: 'transparent',
+                        }}
+                      />
                     </div>
                     <section className="Card_card-container__presentation__Q_aCH">
                       <p className="Card_card-container__presentation-typo__1ENx9 Card_font-body__qRScb Card_font-bold__8gf2G">

@@ -130,17 +130,17 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                             decoding="async"
                             data-nimg="fill"
                             className="PushImage_push-image--rounded-bottom-left__3k2A8"
-                            // style={{
-                            //   position: 'absolute',
-                            //   height: '100%',
-                            //   width: '100%',
-                            //   left: '0',
-                            //   top: '0',
-                            //   right: '0',
-                            //   bottom: '0',
-                            //   objectFit: 'cover',
-                            //   color: 'transparent',
-                            // }}
+                            style={{
+                              position: 'absolute',
+                              height: '100%',
+                              width: '100%',
+                              left: '0',
+                              top: '0',
+                              right: '0',
+                              bottom: '0',
+                              objectFit: 'cover',
+                              color: 'transparent',
+                            }}
                             src="https://edge.sitecorecloud.io/sodexofrance1-sodexocorpsites-prod-e74c/media/Project/Sodexo-Corp/Global/Media-prod/Images/Banner-1240x698/news/2025/Prix-DSIN.jpg?h=698&amp;iar=0&amp;w=1240"
                           />
                         </div>
