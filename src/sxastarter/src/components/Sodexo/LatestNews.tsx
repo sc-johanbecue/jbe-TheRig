@@ -29,11 +29,11 @@ export const Default = (props: BrandDetailProps): JSX.Element => {
           /* Responsive grid columns only between 576px and 1023px */
           @media (min-width: 577px) and (max-width: 1023px) {
             .responsive-grid-2-5 {
-              grid-column: 2 / 5;
+              grid-column: 2 / 5 !important;
             }
 
             .responsive-grid-6-13 {
-              grid-column: 6 / 13;
+              grid-column: 6 / 13 !important;
             }
           }
         `}</style>
