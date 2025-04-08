@@ -18,6 +18,11 @@ interface Fields {
   LogoImage: ImageField;
   ShortDescription: RichTextField;
   FeatureImage: ImageField;
+  ApproachTitle: TextField;
+  ApproachDescription: RichTextField;
+  Approach1Image: ImageField;
+  Approach1SubTitle: TextField;
+  Approach1Text: RichTextField;
 }
 
 type SodexoBrandDetailProps = {
@@ -145,20 +150,9 @@ export const Default = (props: SodexoBrandDetailProps): JSX.Element => {
             >
               <h2 className="font-hero-title">
                 <Text field={props.fields.HeroTitle} />
-                All day food for modern living
               </h2>
               <div>
                 <RichText field={props.fields.ShortDescription} />
-                <p>
-                  Modern Recipe is designed to meet expectations of today&quot;s talents,
-                   bringing together the ingredients that matter the most for top-notch
-                  corporate dining experiences. 
-                </p>
-                <p>&nbsp;</p>
-                <p>
-                  Food that&quot;s healthy and delicious, sustainable and affordable, with that
-                  &lsquo;taken care of&rsquo; feeling anytime of day.
-                </p>
               </div>
               <div className="CardFeature_buttons__ZommA"></div>
             </div>
@@ -204,7 +198,7 @@ export const Default = (props: SodexoBrandDetailProps): JSX.Element => {
         </div>
         <section id="d61295e3-26b9-42f4-ac81-f820f16ffec7">
           <h2 className="H2Title_h2title__nPUYH H2Title_font-h2__h_TJR H2Title_h2title_center__zlb94">
-            Our approach
+            <Text field={props.fields.ApproachTitle} />
           </h2>
         </section>
         <section
@@ -213,11 +207,7 @@ export const Default = (props: SodexoBrandDetailProps): JSX.Element => {
           id="72f88748-d345-4cbe-9e54-7dd205da2e06"
         >
           <div className="RichText_rich-text__Xj3Dc" data-testid="rich-text">
-            <p>
-              Our special recipe is the combination of a sincere interest in promoting health and
-              well-being in the workplace and an unwavering commitment to offering your team a
-              welcome of the highest hospitality standards.&nbsp;
-            </p>
+            <RichText field={props.fields.ApproachDescription} />
           </div>
         </section>
         <section
@@ -230,6 +220,20 @@ export const Default = (props: SodexoBrandDetailProps): JSX.Element => {
             <div className="BannerCard_banner-card__image-wrapper__T8qZB" data-grid-layout="global">
               <div className="Media_media__NhvS6" id="">
                 <div className="PushImage_push-image__V6naY PushImage_push-image--layout__PwSJd ImageBannerCard_image-banner-card__image-container__dd7MU">
+                  <JssImage
+                    field={props.fields.Approach1Image}
+                    style={{
+                      position: 'absolute',
+                      height: '100%',
+                      width: '100%',
+                      left: '0',
+                      top: '0',
+                      right: '0',
+                      bottom: '0',
+                      objectFit: 'cover',
+                      color: 'transparent',
+                    }}
+                  />
                   <img
                     alt="Modern-Recipe-AcaiBowl"
                     loading="lazy"
@@ -254,10 +258,14 @@ export const Default = (props: SodexoBrandDetailProps): JSX.Element => {
             </div>
             <div className="BannerCard_banner-card__content__JcBKs" data-grid-layout="global">
               <div className="opacity-in AnimateIn_opacity-in__animation--part1__2X1EP AnimateIn_opacity-in__animation__7ET9C">
-                <h2 className="BannerCard_banner-card__title__z7y_B">Everyday delicious</h2>
+                <h2 className="BannerCard_banner-card__title__z7y_B">
+                  <Text field={props.fields.Approach1SubTitle} />
+                  Everyday delicious
+                </h2>
               </div>
               <div className="opacity-in AnimateIn_opacity-in__animation--part2__rqjWC AnimateIn_opacity-in__animation__7ET9C">
                 <div className="BannerCard_banner-card__text__XOb09">
+                  <RichText field={props.fields.Approach1Text} />
                   <p>Say hello to healthy meets delicious.&nbsp;&nbsp;</p>
                   <p>
                     From power breakfasts and long lunches to coffee catch-ups and grab-and-go
