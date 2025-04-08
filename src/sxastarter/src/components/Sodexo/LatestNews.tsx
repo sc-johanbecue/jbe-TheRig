@@ -26,7 +26,7 @@ export const Default = (props: BrandDetailProps): JSX.Element => {
     return (
       <>
         <style jsx>{`
-          @media (min-width: 577px) and (max-width: 1023px) {
+          @media (min-width: 769px) and (max-width: 1279px) {
             .responsive-grid-2-5 {
               grid-column: 2 / 5 !important;
             }
