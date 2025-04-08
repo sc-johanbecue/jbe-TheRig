@@ -8,12 +8,12 @@ interface Fields {
   Image: ImageField;
 }
 
-type SodexoBannerProps = {
+type BrandDetailProps = {
   params: { [key: string]: string };
   fields: Fields;
 };
 
-const SodexoBannerDefaultComponent = (props: SodexoBannerProps): JSX.Element => (
+const BrandDetailDefaultComponent = (props: BrandDetailProps): JSX.Element => (
   <div className={`component promo ${props.params.styles}`}>
     <div className="component-content">
       <span className="is-empty-hint"></span>
@@ -21,7 +21,7 @@ const SodexoBannerDefaultComponent = (props: SodexoBannerProps): JSX.Element => 
   </div>
 );
 
-export const Default = (props: SodexoBannerProps): JSX.Element => {
+export const Default = (props: BrandDetailProps): JSX.Element => {
   if (props.fields) {
     return (
       <>
@@ -483,5 +483,5 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
     );
   }
 
-  return <SodexoBannerDefaultComponent {...props} />;
+  return <BrandDetailDefaultComponent {...props} />;
 };
