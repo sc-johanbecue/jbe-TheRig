@@ -160,12 +160,8 @@ export const Default = (props: SodexoBrandDetailProps): JSX.Element => {
               className="ParallaxCards_media__G_q5n"
               style={{ '--dynamic-translate-y': '1.5rem' } as React.CSSProperties}
             >
-              <JssImage field={props.fields.FeatureImage} />
-              <img
-                alt=""
-                loading="lazy"
-                decoding="async"
-                data-nimg="fill"
+              <JssImage
+                field={props.fields.FeatureImage}
                 className="ParallaxCards_image__ijs8m"
                 style={{
                   position: 'absolute',
@@ -177,7 +173,6 @@ export const Default = (props: SodexoBrandDetailProps): JSX.Element => {
                   bottom: '0',
                   color: 'transparent',
                 }}
-                src="https://edge.sitecorecloud.io/sodexofrance1-sodexocorpsites-prod-e74c/media/Project/Sodexo-Corp/Global/Media-prod/Images/CardFeature/Modern-Recipe-Card-Feature.jpg?h=620&amp;iar=0&amp;w=620"
               />
             </div>
           </div>
