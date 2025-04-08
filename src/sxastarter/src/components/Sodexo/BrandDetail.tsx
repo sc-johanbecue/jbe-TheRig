@@ -23,6 +23,12 @@ interface Fields {
   Approach1Image: ImageField;
   Approach1SubTitle: TextField;
   Approach1Text: RichTextField;
+  Approach2Image: ImageField;
+  Approach2SubTitle: TextField;
+  Approach2Text: RichTextField;
+  Approach3Image: ImageField;
+  Approach3SubTitle: TextField;
+  Approach3Text: RichTextField;
 }
 
 type SodexoBrandDetailProps = {
@@ -98,13 +104,9 @@ export const Default = (props: SodexoBrandDetailProps): JSX.Element => {
             />
             <span className="HeroFeatureBanner_hero-feature__logo-alt__8C3nM"></span>
           </h1>
-          <JssLink field={props.fields.Link}></JssLink>
-          <Link
-            href="https://www.modernrecipe.sodexo.com/"
+          <JssLink
+            field={props.fields.Link}
             className="Button_btn__Xvq6a HeroFeatureBanner_hero-feature__button__cwRsx Button_btn--white__F9cW2 Button_btn--items-center__L2yWE Button_btn--link__JI8fR"
-            title="Opens website (new window)"
-            target="_blank"
-            rel="noopener noreferrer"
           >
             Experience Modern Recipe
             <span
@@ -115,7 +117,7 @@ export const Default = (props: SodexoBrandDetailProps): JSX.Element => {
                 <use xlinkHref="#icons_arrow"></use>
               </svg>
             </span>
-          </Link>
+          </JssLink>
         </section>
         <section className="ParallaxCards_container__fRqjr">
           <div className="ParallaxCards_body__f4Pk8" id="e89e65b9-6123-44f7-a514-c2ac71557f7f">
@@ -210,25 +212,6 @@ export const Default = (props: SodexoBrandDetailProps): JSX.Element => {
                       color: 'transparent',
                     }}
                   />
-                  <img
-                    alt="Modern-Recipe-AcaiBowl"
-                    loading="lazy"
-                    decoding="async"
-                    data-nimg="fill"
-                    className=""
-                    style={{
-                      position: 'absolute',
-                      height: '100%',
-                      width: '100%',
-                      left: '0',
-                      top: '0',
-                      right: '0',
-                      bottom: '0',
-                      objectFit: 'cover',
-                      color: 'transparent',
-                    }}
-                    src="https://edge.sitecorecloud.io/sodexofrance1-sodexocorpsites-prod-e74c/media/Project/Sodexo-Corp/Global/Media-prod/Images/BannerCard-503x503/Modern-Recipe-AcaiBowl.jpg?h=503&amp;iar=0&amp;w=503"
-                  />
                 </div>
               </div>
             </div>
@@ -236,18 +219,11 @@ export const Default = (props: SodexoBrandDetailProps): JSX.Element => {
               <div className="opacity-in AnimateIn_opacity-in__animation--part1__2X1EP AnimateIn_opacity-in__animation__7ET9C">
                 <h2 className="BannerCard_banner-card__title__z7y_B">
                   <Text field={props.fields.Approach1SubTitle} />
-                  Everyday delicious
                 </h2>
               </div>
               <div className="opacity-in AnimateIn_opacity-in__animation--part2__rqjWC AnimateIn_opacity-in__animation__7ET9C">
                 <div className="BannerCard_banner-card__text__XOb09">
                   <RichText field={props.fields.Approach1Text} />
-                  <p>Say hello to healthy meets delicious.&nbsp;&nbsp;</p>
-                  <p>
-                    From power breakfasts and long lunches to coffee catch-ups and grab-and-go
-                    snacks, Modern Recipe provides good-for-you dishes, snacks and beverages at work
-                    that are exciting, delicious and craveable.
-                  </p>
                 </div>
               </div>
             </div>
@@ -266,12 +242,8 @@ export const Default = (props: SodexoBrandDetailProps): JSX.Element => {
             >
               <div className="Media_media__NhvS6" id="">
                 <div className="PushImage_push-image__V6naY PushImage_push-image--layout__PwSJd ImageBannerCard_image-banner-card__image-container__dd7MU">
-                  <img
-                    alt="Modern-Recipe-Employee"
-                    loading="lazy"
-                    decoding="async"
-                    data-nimg="fill"
-                    className=""
+                  <JssImage
+                    field={props.fields.Approach2Image}
                     style={{
                       position: 'absolute',
                       height: '100%',
@@ -283,7 +255,6 @@ export const Default = (props: SodexoBrandDetailProps): JSX.Element => {
                       objectFit: 'cover',
                       color: 'transparent',
                     }}
-                    src="https://edge.sitecorecloud.io/sodexofrance1-sodexocorpsites-prod-e74c/media/Project/Sodexo-Corp/Global/Media-prod/Images/BannerCard-503x503/Modern-Recipe-Employee.jpg?h=503&amp;iar=0&amp;w=503"
                   />
                 </div>
               </div>
@@ -293,20 +264,13 @@ export const Default = (props: SodexoBrandDetailProps): JSX.Element => {
               data-grid-layout="global"
             >
               <div className="opacity-in AnimateIn_opacity-in__animation--part1__2X1EP AnimateIn_opacity-in__animation__7ET9C">
-                <h2 className="BannerCard_banner-card__title__z7y_B">Memorable Experiences</h2>
+                <h2 className="BannerCard_banner-card__title__z7y_B">
+                  <Text field={props.fields.Approach2SubTitle} />
+                </h2>
               </div>
               <div className="opacity-in AnimateIn_opacity-in__animation--part2__rqjWC AnimateIn_opacity-in__animation__7ET9C">
                 <div className="BannerCard_banner-card__text__XOb09">
-                  <p>
-                    Convenience shouldn’t mean compromising on amazing workplace experiences.&nbsp;
-                  </p>
-                  <p>
-                    <br />
-                  </p>
-                  <p>
-                    With a warm welcome and familiar smile, every visitor needs to feel taken care
-                    of - from long stays to short visits and everything in between.&nbsp;
-                  </p>
+                  <RichText field={props.fields.Approach2Text} />
                 </div>
               </div>
             </div>
@@ -322,12 +286,7 @@ export const Default = (props: SodexoBrandDetailProps): JSX.Element => {
             <div className="BannerCard_banner-card__image-wrapper__T8qZB" data-grid-layout="global">
               <div className="Media_media__NhvS6" id="">
                 <div className="PushImage_push-image__V6naY PushImage_push-image--layout__PwSJd ImageBannerCard_image-banner-card__image-container__dd7MU">
-                  <img
-                    alt=""
-                    loading="lazy"
-                    decoding="async"
-                    data-nimg="fill"
-                    className=""
+                  <JssImage
                     style={{
                       position: 'absolute',
                       height: '100%',
@@ -339,27 +298,20 @@ export const Default = (props: SodexoBrandDetailProps): JSX.Element => {
                       objectFit: 'cover',
                       color: 'transparent',
                     }}
-                    src="https://edge.sitecorecloud.io/sodexofrance1-sodexocorpsites-prod-e74c/media/Project/Sodexo-Corp/Global/Media-prod/Images/BannerCard-503x503/Modern-Recipe-Salmon.jpg?h=503&amp;iar=0&amp;w=503"
+                    field={props.fields.Approach3Image}
                   />
                 </div>
               </div>
             </div>
             <div className="BannerCard_banner-card__content__JcBKs" data-grid-layout="global">
               <div className="opacity-in AnimateIn_opacity-in__animation--part1__2X1EP AnimateIn_opacity-in__animation__7ET9C">
-                <h2 className="BannerCard_banner-card__title__z7y_B">Ingredients for better</h2>
+                <h2 className="BannerCard_banner-card__title__z7y_B">
+                  <Text field={props.fields.Approach3SubTitle} />
+                </h2>
               </div>
               <div className="opacity-in AnimateIn_opacity-in__animation--part2__rqjWC AnimateIn_opacity-in__animation__7ET9C">
                 <div className="BannerCard_banner-card__text__XOb09">
-                  <p>
-                    Embracing sustainable eating at work shouldn’t mean compromising on cost.&nbsp;
-                  </p>
-                  <p>
-                    <br />
-                  </p>
-                  <p>
-                    With plant-forward menus, we prioritize nutrition, animal welfare and local
-                    sourcing to prepare food that’s responsible, sustainable and accessible.&nbsp;
-                  </p>
+                  <RichText field={props.fields.Approach3Text} />
                 </div>
               </div>
             </div>
