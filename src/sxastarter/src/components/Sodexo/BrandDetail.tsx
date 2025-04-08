@@ -1,19 +1,31 @@
 import React from 'react';
-import { TextField, ImageField } from '@sitecore-jss/sitecore-jss-nextjs';
+import {
+  TextField,
+  ImageField,
+  LinkField,
+  RichTextField,
+  RichText,
+  Text,
+  Image as JssImage,
+  Link as JssLink,
+} from '@sitecore-jss/sitecore-jss-nextjs';
 import Link from 'next/link';
 
 interface Fields {
-  Title: TextField;
-  Subtitle: TextField;
-  Image: ImageField;
+  HeroTitle: TextField;
+  HeroBannerImage: ImageField;
+  Link: LinkField;
+  LogoImage: ImageField;
+  ShortDescription: RichTextField;
+  FeatureImage: ImageField;
 }
 
-type SodexoBannerProps = {
+type SodexoBrandDetailProps = {
   params: { [key: string]: string };
   fields: Fields;
 };
 
-const SodexoBannerDefaultComponent = (props: SodexoBannerProps): JSX.Element => (
+const SodexoBrandDetailDefaultComponent = (props: SodexoBrandDetailProps): JSX.Element => (
   <div className={`component promo ${props.params.styles}`}>
     <div className="component-content">
       <span className="is-empty-hint"></span>
@@ -21,7 +33,7 @@ const SodexoBannerDefaultComponent = (props: SodexoBannerProps): JSX.Element => 
   </div>
 );
 
-export const Default = (props: SodexoBannerProps): JSX.Element => {
+export const Default = (props: SodexoBrandDetailProps): JSX.Element => {
   if (props.fields) {
     return (
       <div className="jsx-3448995667 jsx-24671738 Layout_main__4tP_M">
@@ -31,6 +43,20 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
           data-grid-layout="global"
         >
           <div className="HeroFeatureBanner_hero-feature__background-container__jddjR HeroFeatureBanner_hero-feature__background-overlay__t4GgB hero-feature__background-image-.25">
+            <JssImage
+              field={props.fields.HeroBannerImage}
+              className="HeroFeatureBanner_hero-feature__background-image__TUG2E"
+              style={{
+                position: 'absolute',
+                height: '100%',
+                width: '100%',
+                left: '0',
+                top: '0',
+                right: '0',
+                bottom: '0',
+                color: 'transparent',
+              }}
+            />
             <img
               alt="Modern-Recipe-Hero-Feature"
               loading="lazy"
@@ -51,6 +77,20 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
             />
           </div>
           <h1 className="HeroFeatureBanner_hero-feature__logo-container__Bjain HeroFeatureBanner_hero-feature__logo-container--elongated__Efp9U">
+            <JssImage
+              style={{
+                position: 'absolute',
+                height: '100%',
+                width: '100%',
+                left: '0',
+                top: '0',
+                right: '0',
+                bottom: '0',
+                objectFit: 'contain',
+                color: 'transparent',
+              }}
+              field={props.fields.LogoImage}
+            />
             <img
               alt=""
               loading="lazy"
@@ -72,6 +112,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
             />
             <span className="HeroFeatureBanner_hero-feature__logo-alt__8C3nM"></span>
           </h1>
+          <JssLink field={props.fields.Link}></JssLink>
           <Link
             href="https://www.modernrecipe.sodexo.com/"
             className="Button_btn__Xvq6a HeroFeatureBanner_hero-feature__button__cwRsx Button_btn--white__F9cW2 Button_btn--items-center__L2yWE Button_btn--link__JI8fR"
@@ -102,8 +143,12 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                 } as React.CSSProperties
               }
             >
-              <h2 className="font-hero-title">All day food for modern living</h2>
+              <h2 className="font-hero-title">
+                <Text field={props.fields.HeroTitle} />
+                All day food for modern living
+              </h2>
               <div>
+                <RichText field={props.fields.ShortDescription} />
                 <p>
                   Modern Recipe is designed to meet expectations of today&quot;s talents,
                    bringing together the ingredients that matter the most for top-notch
@@ -121,6 +166,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
               className="ParallaxCards_media__G_q5n"
               style={{ '--dynamic-translate-y': '1.5rem' } as React.CSSProperties}
             >
+              <JssImage field={props.fields.FeatureImage} />
               <img
                 alt=""
                 loading="lazy"
@@ -752,5 +798,5 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
     );
   }
 
-  return <SodexoBannerDefaultComponent {...props} />;
+  return <SodexoBrandDetailDefaultComponent {...props} />;
 };
