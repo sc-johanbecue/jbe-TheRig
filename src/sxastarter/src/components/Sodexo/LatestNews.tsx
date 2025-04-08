@@ -80,10 +80,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
           </div>
         </section>
         <div className="HeroLatestNews_hero-latest-news__slider__wZ9xe">
-          <div
-            className="Surface_surface__Y0_rx LatestNews_latest-news__9Eyrq"
-            style={{ gridColumn: '2 / 5' }}
-          >
+          <div className="Surface_surface__Y0_rx LatestNews_latest-news__9Eyrq responsive-grid-2-5">
             <div className="LatestNews_latest-news__introduction__Ne3xZ">
               <section className="LatestNewsIntro_latest-news-intro__jva9R">
                 <h2 className="LatestNewsIntro_latest-news-intro__title__hBsQZ LatestNewsIntro_font-h2__HtlRu">
@@ -111,12 +108,11 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
               </section>
             </div>
             <section
-              className="splide splide Slider_slider__CJilF LatestNews_latest-news__slider__ptqhR"
+              className="splide splide Slider_slider__CJilF LatestNews_latest-news__slider__ptqhR responsive-grid-6-13"
               aria-labelledby=""
               aria-roledescription="carousel"
               data-grid-layout="global"
               role="region"
-              style={{ gridColumn: '6 / 13' }}
             >
               <div className="splide__track" aria-atomic="false" aria-live="polite">
                 <ul className="splide__list">
