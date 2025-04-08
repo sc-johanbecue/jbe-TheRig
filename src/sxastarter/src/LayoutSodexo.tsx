@@ -3045,17 +3045,17 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                     decoding="async"
                     data-nimg="fill"
                     className="HeroEditorial-module_image__CkIvM"
-                    style={{
-                      position: 'absolute',
-                      height: '100%',
-                      width: '100%',
-                      left: '0',
-                      top: '0',
-                      right: '0',
-                      bottom: '0',
-                      objectFit: 'cover',
-                      color: 'transparent',
-                    }}
+                    // style={{
+                    //   position: 'absolute',
+                    //   height: '100%',
+                    //   width: '100%',
+                    //   left: '0',
+                    //   top: '0',
+                    //   right: '0',
+                    //   bottom: '0',
+                    //   objectFit: 'cover',
+                    //   color: 'transparent',
+                    // }}
                     src="https://edge.sitecorecloud.io/sodexofrance1-sodexocorpsites-prod-e74c/media/Project/Sodexo-Corp/Global/Media-prod/Images/Banner-1240x698/news/2025/H1-2025-Banner.jpg?h=698&amp;iar=0&amp;w=1240"
                   />
                 </div>
@@ -3161,17 +3161,17 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                   decoding="async"
                                   data-nimg="fill"
                                   className="PushImage_push-image--rounded-bottom-left__3k2A8"
-                                  style={{
-                                    position: 'absolute',
-                                    height: '100%',
-                                    width: '100%',
-                                    left: '0',
-                                    top: '0',
-                                    right: '0',
-                                    bottom: '0',
-                                    objectFit: 'cover',
-                                    color: 'transparent',
-                                  }}
+                                  // style={{
+                                  //   position: 'absolute',
+                                  //   height: '100%',
+                                  //   width: '100%',
+                                  //   left: '0',
+                                  //   top: '0',
+                                  //   right: '0',
+                                  //   bottom: '0',
+                                  //   objectFit: 'cover',
+                                  //   color: 'transparent',
+                                  // }}
                                   src="https://edge.sitecorecloud.io/sodexofrance1-sodexocorpsites-prod-e74c/media/Project/Sodexo-Corp/Global/Media-prod/Images/Banner-1240x698/news/2025/Facilities-Maintenance.jpg?h=698&amp;iar=0&amp;w=1240"
                                 />
                               </div>
@@ -3240,17 +3240,17 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                   decoding="async"
                                   data-nimg="fill"
                                   className="PushImage_push-image--rounded-bottom-left__3k2A8"
-                                  style={{
-                                    position: 'absolute',
-                                    height: '100%',
-                                    width: '100%',
-                                    left: '0',
-                                    top: '0',
-                                    right: '0',
-                                    bottom: '0',
-                                    objectFit: 'cover',
-                                    color: 'transparent',
-                                  }}
+                                  // style={{
+                                  //   position: 'absolute',
+                                  //   height: '100%',
+                                  //   width: '100%',
+                                  //   left: '0',
+                                  //   top: '0',
+                                  //   right: '0',
+                                  //   bottom: '0',
+                                  //   objectFit: 'cover',
+                                  //   color: 'transparent',
+                                  // }}
                                   src="https://edge.sitecorecloud.io/sodexofrance1-sodexocorpsites-prod-e74c/media/Project/Sodexo-Corp/Global/Media-prod/Images/Banner-1240x698/news/2025/Contract-Mucem-2025.jpg?h=698&amp;iar=0&amp;w=1240"
                                 />
                               </div>
@@ -3305,17 +3305,17 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                   decoding="async"
                                   data-nimg="fill"
                                   className="PushImage_push-image--rounded-bottom-left__3k2A8"
-                                  style={{
-                                    position: 'absolute',
-                                    height: '100%',
-                                    width: '100%',
-                                    left: '0',
-                                    top: '0',
-                                    right: '0',
-                                    bottom: '0',
-                                    objectFit: 'cover',
-                                    color: 'transparent',
-                                  }}
+                                  // style={{
+                                  //   position: 'absolute',
+                                  //   height: '100%',
+                                  //   width: '100%',
+                                  //   left: '0',
+                                  //   top: '0',
+                                  //   right: '0',
+                                  //   bottom: '0',
+                                  //   objectFit: 'cover',
+                                  //   color: 'transparent',
+                                  // }}
                                   src="https://edge.sitecorecloud.io/sodexofrance1-sodexocorpsites-prod-e74c/media/Project/Sodexo-Corp/Global/Media-prod/Images/Banner-1240x698/news/2025/Prix-DSIN.jpg?h=698&amp;iar=0&amp;w=1240"
                                 />
                               </div>
@@ -3370,17 +3370,17 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                   decoding="async"
                                   data-nimg="fill"
                                   className="PushImage_push-image--rounded-bottom-left__3k2A8"
-                                  style={{
-                                    position: 'absolute',
-                                    height: '100%',
-                                    width: '100%',
-                                    left: '0',
-                                    top: '0',
-                                    right: '0',
-                                    bottom: '0',
-                                    objectFit: 'cover',
-                                    color: 'transparent',
-                                  }}
+                                  // style={{
+                                  //   position: 'absolute',
+                                  //   height: '100%',
+                                  //   width: '100%',
+                                  //   left: '0',
+                                  //   top: '0',
+                                  //   right: '0',
+                                  //   bottom: '0',
+                                  //   objectFit: 'cover',
+                                  //   color: 'transparent',
+                                  // }}
                                   src="https://edge.sitecorecloud.io/sodexofrance1-sodexocorpsites-prod-e74c/media/Project/Sodexo-Corp/Global/Media-prod/Images/Banner-1240x698/news/2025/Equileap-2025-banner.jpg?h=698&amp;iar=0&amp;w=1240"
                                 />
                               </div>
@@ -3437,17 +3437,17 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                   decoding="async"
                                   data-nimg="fill"
                                   className="PushImage_push-image--rounded-bottom-left__3k2A8"
-                                  style={{
-                                    position: 'absolute',
-                                    height: '100%',
-                                    width: '100%',
-                                    left: '0',
-                                    top: '0',
-                                    right: '0',
-                                    bottom: '0',
-                                    objectFit: 'cover',
-                                    color: 'transparent',
-                                  }}
+                                  // style={{
+                                  //   position: 'absolute',
+                                  //   height: '100%',
+                                  //   width: '100%',
+                                  //   left: '0',
+                                  //   top: '0',
+                                  //   right: '0',
+                                  //   bottom: '0',
+                                  //   objectFit: 'cover',
+                                  //   color: 'transparent',
+                                  // }}
                                   src="https://edge.sitecorecloud.io/sodexofrance1-sodexocorpsites-prod-e74c/media/Project/Sodexo-Corp/Global/Media-prod/Images/Banner-1240x698/news/2025/Ethisphere-march-2025-banner.jpg?h=440&amp;iar=0&amp;w=990"
                                 />
                               </div>
@@ -3519,17 +3519,17 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                   decoding="async"
                                   data-nimg="fill"
                                   className="PushImage_push-image--rounded-bottom-left__3k2A8"
-                                  style={{
-                                    position: 'absolute',
-                                    height: '100%',
-                                    width: '100%',
-                                    left: '0',
-                                    top: '0',
-                                    right: '0',
-                                    bottom: '0',
-                                    objectFit: 'cover',
-                                    color: 'transparent',
-                                  }}
+                                  // style={{
+                                  //   position: 'absolute',
+                                  //   height: '100%',
+                                  //   width: '100%',
+                                  //   left: '0',
+                                  //   top: '0',
+                                  //   right: '0',
+                                  //   bottom: '0',
+                                  //   objectFit: 'cover',
+                                  //   color: 'transparent',
+                                  // }}
                                   src="https://edge.sitecorecloud.io/sodexofrance1-sodexocorpsites-prod-e74c/media/Project/Sodexo-Corp/Global/Media-prod/Images/Banner-1240x698/news/2025/Facilities-Maintenance.jpg?h=698&amp;iar=0&amp;w=1240"
                                 />
                               </div>
@@ -3600,17 +3600,17 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                   decoding="async"
                                   data-nimg="fill"
                                   className="PushImage_push-image--rounded-bottom-left__3k2A8"
-                                  style={{
-                                    position: 'absolute',
-                                    height: '100%',
-                                    width: '100%',
-                                    left: '0',
-                                    top: '0',
-                                    right: '0',
-                                    bottom: '0',
-                                    objectFit: 'cover',
-                                    color: 'transparent',
-                                  }}
+                                  // style={{
+                                  //   position: 'absolute',
+                                  //   height: '100%',
+                                  //   width: '100%',
+                                  //   left: '0',
+                                  //   top: '0',
+                                  //   right: '0',
+                                  //   bottom: '0',
+                                  //   objectFit: 'cover',
+                                  //   color: 'transparent',
+                                  // }}
                                   src="https://edge.sitecorecloud.io/sodexofrance1-sodexocorpsites-prod-e74c/media/Project/Sodexo-Corp/Global/Media-prod/Images/Banner-1240x698/news/2025/Contract-Mucem-2025.jpg?h=698&amp;iar=0&amp;w=1240"
                                 />
                               </div>
@@ -3667,17 +3667,17 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                   decoding="async"
                                   data-nimg="fill"
                                   className="PushImage_push-image--rounded-bottom-left__3k2A8"
-                                  style={{
-                                    position: 'absolute',
-                                    height: '100%',
-                                    width: '100%',
-                                    left: '0',
-                                    top: '0',
-                                    right: '0',
-                                    bottom: '0',
-                                    objectFit: 'cover',
-                                    color: 'transparent',
-                                  }}
+                                  // style={{
+                                  //   position: 'absolute',
+                                  //   height: '100%',
+                                  //   width: '100%',
+                                  //   left: '0',
+                                  //   top: '0',
+                                  //   right: '0',
+                                  //   bottom: '0',
+                                  //   objectFit: 'cover',
+                                  //   color: 'transparent',
+                                  // }}
                                   src="https://edge.sitecorecloud.io/sodexofrance1-sodexocorpsites-prod-e74c/media/Project/Sodexo-Corp/Global/Media-prod/Images/Banner-1240x698/news/2025/Prix-DSIN.jpg?h=698&amp;iar=0&amp;w=1240"
                                 />
                               </div>
@@ -3732,17 +3732,17 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                                   decoding="async"
                                   data-nimg="fill"
                                   className="PushImage_push-image--rounded-bottom-left__3k2A8"
-                                  style={{
-                                    position: 'absolute',
-                                    height: '100%',
-                                    width: '100%',
-                                    left: '0',
-                                    top: '0',
-                                    right: '0',
-                                    bottom: '0',
-                                    objectFit: 'cover',
-                                    color: 'transparent',
-                                  }}
+                                  // style={{
+                                  //   position: 'absolute',
+                                  //   height: '100%',
+                                  //   width: '100%',
+                                  //   left: '0',
+                                  //   top: '0',
+                                  //   right: '0',
+                                  //   bottom: '0',
+                                  //   objectFit: 'cover',
+                                  //   color: 'transparent',
+                                  // }}
                                   src="https://edge.sitecorecloud.io/sodexofrance1-sodexocorpsites-prod-e74c/media/Project/Sodexo-Corp/Global/Media-prod/Images/Banner-1240x698/news/2025/Equileap-2025-banner.jpg?h=698&amp;iar=0&amp;w=1240"
                                 />
                               </div>
@@ -3872,17 +3872,17 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                             fetchPriority="high"
                             decoding="async"
                             data-nimg="fill"
-                            style={{
-                              position: 'absolute',
-                              height: '100%',
-                              width: '100%',
-                              left: '0',
-                              top: '0',
-                              right: '0',
-                              bottom: '0',
-                              objectFit: 'cover',
-                              color: 'transparent',
-                            }}
+                            // style={{
+                            //   position: 'absolute',
+                            //   height: '100%',
+                            //   width: '100%',
+                            //   left: '0',
+                            //   top: '0',
+                            //   right: '0',
+                            //   bottom: '0',
+                            //   objectFit: 'cover',
+                            //   color: 'transparent',
+                            // }}
                             src="https://edge.sitecorecloud.io/sodexofrance1-sodexocorpsites-prod-e74c/media/Project/Sodexo-Corp/Global/Media-prod/Images/BannerCard-503x503/Modern-Recipe-Banner-Card.jpg?h=608&amp;iar=0&amp;w=608"
                           />
                         </div>
@@ -3933,17 +3933,17 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                             fetchPriority="high"
                             decoding="async"
                             data-nimg="fill"
-                            style={{
-                              position: 'absolute',
-                              height: '100%',
-                              width: '100%',
-                              left: '0',
-                              top: '0',
-                              right: '0',
-                              bottom: '0',
-                              objectFit: 'cover',
-                              color: 'transparent',
-                            }}
+                            // style={{
+                            //   position: 'absolute',
+                            //   height: '100%',
+                            //   width: '100%',
+                            //   left: '0',
+                            //   top: '0',
+                            //   right: '0',
+                            //   bottom: '0',
+                            //   objectFit: 'cover',
+                            //   color: 'transparent',
+                            // }}
                             src="https://edge.sitecorecloud.io/sodexofrance1-sodexocorpsites-prod-e74c/media/Project/Sodexo-Corp/Global/Media-prod/Images/BannerCard-503x503/Kitchen-Works-Banner-Card.jpg?h=608&amp;iar=0&amp;w=608"
                           />
                         </div>
@@ -3994,17 +3994,17 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                             fetchPriority="high"
                             decoding="async"
                             data-nimg="fill"
-                            style={{
-                              position: 'absolute',
-                              height: '100%',
-                              width: '100%',
-                              left: '0',
-                              top: '0',
-                              right: '0',
-                              bottom: '0',
-                              objectFit: 'cover',
-                              color: 'transparent',
-                            }}
+                            // style={{
+                            //   position: 'absolute',
+                            //   height: '100%',
+                            //   width: '100%',
+                            //   left: '0',
+                            //   top: '0',
+                            //   right: '0',
+                            //   bottom: '0',
+                            //   objectFit: 'cover',
+                            //   color: 'transparent',
+                            // }}
                             src="https://edge.sitecorecloud.io/sodexofrance1-sodexocorpsites-prod-e74c/media/Project/Sodexo-Corp/Global/Media-prod/Images/BannerCard-503x503/The-good-eating-company-Banner-Card.jpg?h=608&amp;iar=0&amp;w=608"
                           />
                         </div>
@@ -4056,17 +4056,17 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                             fetchPriority="high"
                             decoding="async"
                             data-nimg="fill"
-                            style={{
-                              position: 'absolute',
-                              height: '100%',
-                              width: '100%',
-                              left: '0',
-                              top: '0',
-                              right: '0',
-                              bottom: '0',
-                              objectFit: 'cover',
-                              color: 'transparent',
-                            }}
+                            // style={{
+                            //   position: 'absolute',
+                            //   height: '100%',
+                            //   width: '100%',
+                            //   left: '0',
+                            //   top: '0',
+                            //   right: '0',
+                            //   bottom: '0',
+                            //   objectFit: 'cover',
+                            //   color: 'transparent',
+                            // }}
                             src="https://edge.sitecorecloud.io/sodexofrance1-sodexocorpsites-prod-e74c/media/Project/Sodexo-Corp/Global/Media-prod/Images/BannerCard-503x503/Modern-Recipe-Banner-Card.jpg?h=608&amp;iar=0&amp;w=608"
                           />
                         </div>
@@ -4117,17 +4117,17 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                             fetchPriority="high"
                             decoding="async"
                             data-nimg="fill"
-                            style={{
-                              position: 'absolute',
-                              height: '100%',
-                              width: '100%',
-                              left: '0',
-                              top: '0',
-                              right: '0',
-                              bottom: '0',
-                              objectFit: 'cover',
-                              color: 'transparent',
-                            }}
+                            // style={{
+                            //   position: 'absolute',
+                            //   height: '100%',
+                            //   width: '100%',
+                            //   left: '0',
+                            //   top: '0',
+                            //   right: '0',
+                            //   bottom: '0',
+                            //   objectFit: 'cover',
+                            //   color: 'transparent',
+                            // }}
                             src="https://edge.sitecorecloud.io/sodexofrance1-sodexocorpsites-prod-e74c/media/Project/Sodexo-Corp/Global/Media-prod/Images/BannerCard-503x503/Kitchen-Works-Banner-Card.jpg?h=608&amp;iar=0&amp;w=608"
                           />
                         </div>
@@ -4178,17 +4178,17 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                             fetchPriority="high"
                             decoding="async"
                             data-nimg="fill"
-                            style={{
-                              position: 'absolute',
-                              height: '100%',
-                              width: '100%',
-                              left: '0',
-                              top: '0',
-                              right: '0',
-                              bottom: '0',
-                              objectFit: 'cover',
-                              color: 'transparent',
-                            }}
+                            // style={{
+                            //   position: 'absolute',
+                            //   height: '100%',
+                            //   width: '100%',
+                            //   left: '0',
+                            //   top: '0',
+                            //   right: '0',
+                            //   bottom: '0',
+                            //   objectFit: 'cover',
+                            //   color: 'transparent',
+                            // }}
                             src="https://edge.sitecorecloud.io/sodexofrance1-sodexocorpsites-prod-e74c/media/Project/Sodexo-Corp/Global/Media-prod/Images/BannerCard-503x503/The-good-eating-company-Banner-Card.jpg?h=608&amp;iar=0&amp;w=608"
                           />
                         </div>
@@ -4239,17 +4239,17 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                             fetchPriority="high"
                             decoding="async"
                             data-nimg="fill"
-                            style={{
-                              position: 'absolute',
-                              height: '100%',
-                              width: '100%',
-                              left: '0',
-                              top: '0',
-                              right: '0',
-                              bottom: '0',
-                              objectFit: 'cover',
-                              color: 'transparent',
-                            }}
+                            // style={{
+                            //   position: 'absolute',
+                            //   height: '100%',
+                            //   width: '100%',
+                            //   left: '0',
+                            //   top: '0',
+                            //   right: '0',
+                            //   bottom: '0',
+                            //   objectFit: 'cover',
+                            //   color: 'transparent',
+                            // }}
                             src="https://edge.sitecorecloud.io/sodexofrance1-sodexocorpsites-prod-e74c/media/Project/Sodexo-Corp/Global/Media-prod/Images/BannerCard-503x503/Modern-Recipe-Banner-Card.jpg?h=608&amp;iar=0&amp;w=608"
                           />
                         </div>
@@ -4298,17 +4298,17 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                             fetchPriority="high"
                             decoding="async"
                             data-nimg="fill"
-                            style={{
-                              position: 'absolute',
-                              height: '100%',
-                              width: '100%',
-                              left: '0',
-                              top: '0',
-                              right: '0',
-                              bottom: '0',
-                              objectFit: 'cover',
-                              color: 'transparent',
-                            }}
+                            // style={{
+                            //   position: 'absolute',
+                            //   height: '100%',
+                            //   width: '100%',
+                            //   left: '0',
+                            //   top: '0',
+                            //   right: '0',
+                            //   bottom: '0',
+                            //   objectFit: 'cover',
+                            //   color: 'transparent',
+                            // }}
                             src="https://edge.sitecorecloud.io/sodexofrance1-sodexocorpsites-prod-e74c/media/Project/Sodexo-Corp/Global/Media-prod/Images/BannerCard-503x503/Kitchen-Works-Banner-Card.jpg?h=608&amp;iar=0&amp;w=608"
                           />
                         </div>
@@ -4357,17 +4357,17 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                             fetchPriority="high"
                             decoding="async"
                             data-nimg="fill"
-                            style={{
-                              position: 'absolute',
-                              height: '100%',
-                              width: '100%',
-                              left: '0',
-                              top: '0',
-                              right: '0',
-                              bottom: '0',
-                              objectFit: 'cover',
-                              color: 'transparent',
-                            }}
+                            // style={{
+                            //   position: 'absolute',
+                            //   height: '100%',
+                            //   width: '100%',
+                            //   left: '0',
+                            //   top: '0',
+                            //   right: '0',
+                            //   bottom: '0',
+                            //   objectFit: 'cover',
+                            //   color: 'transparent',
+                            // }}
                             src="https://edge.sitecorecloud.io/sodexofrance1-sodexocorpsites-prod-e74c/media/Project/Sodexo-Corp/Global/Media-prod/Images/BannerCard-503x503/The-good-eating-company-Banner-Card.jpg?h=608&amp;iar=0&amp;w=608"
                           />
                         </div>
@@ -4418,17 +4418,17 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                             fetchPriority="high"
                             decoding="async"
                             data-nimg="fill"
-                            style={{
-                              position: 'absolute',
-                              height: '100%',
-                              width: '100%',
-                              left: '0',
-                              top: '0',
-                              right: '0',
-                              bottom: '0',
-                              objectFit: 'cover',
-                              color: 'transparent',
-                            }}
+                            // style={{
+                            //   position: 'absolute',
+                            //   height: '100%',
+                            //   width: '100%',
+                            //   left: '0',
+                            //   top: '0',
+                            //   right: '0',
+                            //   bottom: '0',
+                            //   objectFit: 'cover',
+                            //   color: 'transparent',
+                            // }}
                             src="https://edge.sitecorecloud.io/sodexofrance1-sodexocorpsites-prod-e74c/media/Project/Sodexo-Corp/Global/Media-prod/Images/BannerCard-503x503/Modern-Recipe-Banner-Card.jpg?h=608&amp;iar=0&amp;w=608"
                           />
                         </div>
@@ -4479,17 +4479,17 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                             fetchPriority="high"
                             decoding="async"
                             data-nimg="fill"
-                            style={{
-                              position: 'absolute',
-                              height: '100%',
-                              width: '100%',
-                              left: '0',
-                              top: '0',
-                              right: '0',
-                              bottom: '0',
-                              objectFit: 'cover',
-                              color: 'transparent',
-                            }}
+                            // style={{
+                            //   position: 'absolute',
+                            //   height: '100%',
+                            //   width: '100%',
+                            //   left: '0',
+                            //   top: '0',
+                            //   right: '0',
+                            //   bottom: '0',
+                            //   objectFit: 'cover',
+                            //   color: 'transparent',
+                            // }}
                             src="https://edge.sitecorecloud.io/sodexofrance1-sodexocorpsites-prod-e74c/media/Project/Sodexo-Corp/Global/Media-prod/Images/BannerCard-503x503/Kitchen-Works-Banner-Card.jpg?h=608&amp;iar=0&amp;w=608"
                           />
                         </div>
@@ -4540,17 +4540,17 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                             fetchPriority="high"
                             decoding="async"
                             data-nimg="fill"
-                            style={{
-                              position: 'absolute',
-                              height: '100%',
-                              width: '100%',
-                              left: '0',
-                              top: '0',
-                              right: '0',
-                              bottom: '0',
-                              objectFit: 'cover',
-                              color: 'transparent',
-                            }}
+                            // style={{
+                            //   position: 'absolute',
+                            //   height: '100%',
+                            //   width: '100%',
+                            //   left: '0',
+                            //   top: '0',
+                            //   right: '0',
+                            //   bottom: '0',
+                            //   objectFit: 'cover',
+                            //   color: 'transparent',
+                            // }}
                             src="https://edge.sitecorecloud.io/sodexofrance1-sodexocorpsites-prod-e74c/media/Project/Sodexo-Corp/Global/Media-prod/Images/BannerCard-503x503/The-good-eating-company-Banner-Card.jpg?h=608&amp;iar=0&amp;w=608"
                           />
                         </div>
@@ -4602,17 +4602,17 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                             fetchPriority="high"
                             decoding="async"
                             data-nimg="fill"
-                            style={{
-                              position: 'absolute',
-                              height: '100%',
-                              width: '100%',
-                              left: '0',
-                              top: '0',
-                              right: '0',
-                              bottom: '0',
-                              objectFit: 'cover',
-                              color: 'transparent',
-                            }}
+                            // style={{
+                            //   position: 'absolute',
+                            //   height: '100%',
+                            //   width: '100%',
+                            //   left: '0',
+                            //   top: '0',
+                            //   right: '0',
+                            //   bottom: '0',
+                            //   objectFit: 'cover',
+                            //   color: 'transparent',
+                            // }}
                             src="https://edge.sitecorecloud.io/sodexofrance1-sodexocorpsites-prod-e74c/media/Project/Sodexo-Corp/Global/Media-prod/Images/BannerCard-503x503/Modern-Recipe-Banner-Card.jpg?h=608&amp;iar=0&amp;w=608"
                           />
                         </div>
@@ -4663,17 +4663,17 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                             fetchPriority="high"
                             decoding="async"
                             data-nimg="fill"
-                            style={{
-                              position: 'absolute',
-                              height: '100%',
-                              width: '100%',
-                              left: '0',
-                              top: '0',
-                              right: '0',
-                              bottom: '0',
-                              objectFit: 'cover',
-                              color: 'transparent',
-                            }}
+                            // style={{
+                            //   position: 'absolute',
+                            //   height: '100%',
+                            //   width: '100%',
+                            //   left: '0',
+                            //   top: '0',
+                            //   right: '0',
+                            //   bottom: '0',
+                            //   objectFit: 'cover',
+                            //   color: 'transparent',
+                            // }}
                             src="https://edge.sitecorecloud.io/sodexofrance1-sodexocorpsites-prod-e74c/media/Project/Sodexo-Corp/Global/Media-prod/Images/BannerCard-503x503/Kitchen-Works-Banner-Card.jpg?h=608&amp;iar=0&amp;w=608"
                           />
                         </div>
@@ -4724,17 +4724,17 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                             fetchPriority="high"
                             decoding="async"
                             data-nimg="fill"
-                            style={{
-                              position: 'absolute',
-                              height: '100%',
-                              width: '100%',
-                              left: '0',
-                              top: '0',
-                              right: '0',
-                              bottom: '0',
-                              objectFit: 'cover',
-                              color: 'transparent',
-                            }}
+                            // style={{
+                            //   position: 'absolute',
+                            //   height: '100%',
+                            //   width: '100%',
+                            //   left: '0',
+                            //   top: '0',
+                            //   right: '0',
+                            //   bottom: '0',
+                            //   objectFit: 'cover',
+                            //   color: 'transparent',
+                            // }}
                             src="https://edge.sitecorecloud.io/sodexofrance1-sodexocorpsites-prod-e74c/media/Project/Sodexo-Corp/Global/Media-prod/Images/BannerCard-503x503/The-good-eating-company-Banner-Card.jpg?h=608&amp;iar=0&amp;w=608"
                           />
                         </div>
@@ -4833,17 +4833,17 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                         decoding="async"
                         data-nimg="fill"
                         className=""
-                        style={{
-                          position: 'absolute',
-                          height: '100%',
-                          width: '100%',
-                          left: '0',
-                          top: '0',
-                          right: '0',
-                          bottom: '0',
-                          objectFit: 'cover',
-                          color: 'transparent',
-                        }}
+                        // style={{
+                        //   position: 'absolute',
+                        //   height: '100%',
+                        //   width: '100%',
+                        //   left: '0',
+                        //   top: '0',
+                        //   right: '0',
+                        //   bottom: '0',
+                        //   objectFit: 'cover',
+                        //   color: 'transparent',
+                        // }}
                         src="https://edge.sitecorecloud.io/sodexofrance1-sodexocorpsites-prod-e74c/media/Project/Sodexo-Corp/Global/Media-prod/Images/BannerCard-503x503/Sodexo-2024-Report-EN.jpg?h=503&amp;iar=0&amp;w=503"
                       />
                     </div>
@@ -4901,17 +4901,17 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                         decoding="async"
                         data-nimg="fill"
                         className=""
-                        style={{
-                          position: 'absolute',
-                          height: '100%',
-                          width: '100%',
-                          left: '0',
-                          top: '0',
-                          right: '0',
-                          bottom: '0',
-                          objectFit: 'cover',
-                          color: 'transparent',
-                        }}
+                        // style={{
+                        //   position: 'absolute',
+                        //   height: '100%',
+                        //   width: '100%',
+                        //   left: '0',
+                        //   top: '0',
+                        //   right: '0',
+                        //   bottom: '0',
+                        //   objectFit: 'cover',
+                        //   color: 'transparent',
+                        // }}
                         src="https://edge.sitecorecloud.io/sodexofrance1-sodexocorpsites-prod-e74c/media/Project/Sodexo-Corp/Global/Media-prod/Images/Banner-card-608x342/HP-Employees3.jpg?h=342&amp;iar=0&amp;w=608"
                       />
                     </div>
@@ -4971,16 +4971,16 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                   decoding="async"
                   data-nimg="fill"
                   className="FullBanner_full-banner__background__image__y2_xF"
-                  style={{
-                    position: 'absolute',
-                    height: '100%',
-                    width: '100%',
-                    left: '0',
-                    top: '0',
-                    right: '0',
-                    bottom: '0',
-                    color: 'transparent',
-                  }}
+                  // style={{
+                  //   position: 'absolute',
+                  //   height: '100%',
+                  //   width: '100%',
+                  //   left: '0',
+                  //   top: '0',
+                  //   right: '0',
+                  //   bottom: '0',
+                  //   color: 'transparent',
+                  // }}
                   src="https://edge.sitecorecloud.io/sodexofrance1-sodexocorpsites-prod-e74c/media/Project/Sodexo-Corp/Global/Media-prod/Images/HeroLatestNews-1440x690/making-sustainable-food-convenient-homepage-banner.jpg?h=690&amp;iar=0&amp;w=1440"
                 />
               </figure>
