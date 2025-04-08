@@ -72,7 +72,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
             />
             <span className="HeroFeatureBanner_hero-feature__logo-alt__8C3nM"></span>
           </h1>
-          <a
+          <Link
             href="https://www.modernrecipe.sodexo.com/"
             className="Button_btn__Xvq6a HeroFeatureBanner_hero-feature__button__cwRsx Button_btn--white__F9cW2 Button_btn--items-center__L2yWE Button_btn--link__JI8fR"
             title="Opens website (new window)"
@@ -88,7 +88,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                 <use xlinkHref="#icons_arrow"></use>
               </svg>
             </span>
-          </a>
+          </Link>
         </section>
         <section className="ParallaxCards_container__fRqjr">
           <div className="ParallaxCards_body__f4Pk8" id="e89e65b9-6123-44f7-a514-c2ac71557f7f">
@@ -729,7 +729,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                   <p>Talk to our expert team</p>
                 </div>
               </div>
-              <a
+              <Link
                 title=""
                 target="_self"
                 className="Button_btn__Xvq6a HeroCard_hero-card__content__link__DCWSU Button_btn--white__F9cW2 Button_btn--link__JI8fR"
@@ -744,7 +744,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                     <use xlinkHref="#icons_arrow"></use>
                   </svg>
                 </span>
-              </a>
+              </Link>
             </div>
           </div>
         </section>
