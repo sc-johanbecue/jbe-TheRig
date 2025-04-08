@@ -28,35 +28,36 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
         <section className="OpacityOverlayBannerLayout-module_container__-umdD color-neutral HeroEditorial-module_editorial__1oU40 color-white">
           <div className="OpacityOverlayBannerLayout-module_background__6YRNF OpacityOverlayBannerLayout-module_opacity25__I8iCN OpacityOverlayBannerLayout-module_withOverlay__9E6Pf">
             <img
-              alt="Superbowl 25"
+              alt=""
               loading="eager"
               decoding="async"
               data-nimg="fill"
               className="HeroEditorial-module_image__CkIvM"
-              style={{
-                position: 'absolute',
-                height: '100%',
-                width: '100%',
-                left: '0',
-                top: '0',
-                right: '0',
-                bottom: '0',
-                objectFit: 'cover',
-                color: 'transparent',
-              }}
-              src="https://edge.sitecorecloud.io/sodexofrance1-sodexocorpsites-prod-e74c/media/Project/Sodexo-Corp/Global/Media-prod/Images/Banner-1240x698/blog/2025/superbowl-25-banner-2.jpg?h=698&amp;iar=0&amp;w=1240"
+              // style={{
+              //   position: 'absolute',
+              //   height: '100%',
+              //   width: '100%',
+              //   left: '0',
+              //   top: '0',
+              //   right: '0',
+              //   bottom: '0',
+              //   objectFit: 'cover',
+              //   color: 'transparent',
+              // }}
+              src="https://edge.sitecorecloud.io/sodexofrance1-sodexocorpsites-prod-e74c/media/Project/Sodexo-Corp/Global/Media-prod/Images/Banner-1240x698/news/2025/H1-2025-Banner.jpg?h=698&amp;iar=0&amp;w=1240"
             />
           </div>
           <div className="HeroEditorial-module_content__rjYwE">
-            <p className="HeroEditorial-module_metadata__L37Uu font-body font-bold"></p>
+            <p className="HeroEditorial-module_metadata__L37Uu font-body font-bold">Apr 04, 2025</p>
             <Link
+              id="715b0434-73e7-4a6d-929a-eb5dfe21ff5f"
+              target=""
               className=""
               title="Opens page (same window)"
-              id="{070EA548-849E-452A-82D4-4CED8EA19DC0}"
-              href="/blog/our-everyday-stories/business-stories/2025/superbowl-25"
+              href="/investors/financial-results-and-publications/financial-results"
             >
               <h1 className="HeroEditorial-module_title__ppi-b font-hero-title">
-                Experience exceptional moments at the world&#x27;s largest sporting events
+                H1 Fiscal 2025 results
               </h1>
             </Link>
             <p className="HeroEditorial-module_description__VNc38 font-body"> </p>
@@ -64,7 +65,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
               title="Opens page (same window)"
               target="_self"
               className="Button_btn__Xvq6a Button_btn--red-waves__OSCcE Button_btn--link__JI8fR Button_btn--without-border__wYHqY"
-              href="/blog/our-everyday-stories/business-stories/2025/superbowl-25"
+              href="/investors/financial-results-and-publications/financial-results"
             >
               Learn more
               <span
@@ -115,7 +116,11 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
             >
               <div className="splide__track" aria-atomic="false" aria-live="polite">
                 <ul className="splide__list">
-                  <li className="splide__slide" role="group" style={{ visibility: 'visible' }}>
+                  <li
+                    className="splide__slide"
+                    role="group"
+                    style={{ visibility: 'visible', width: 'calc(100%)' }}
+                  >
                     <article className="LatestNewsSlide_latest-news-slide__WLk__">
                       <div className="LatestNewsSlide_latest-news-slide__image__ZWzY7">
                         <div className="PushImage_push-image__V6naY PushImage_push-image--layout__PwSJd">
@@ -125,17 +130,17 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                             decoding="async"
                             data-nimg="fill"
                             className="PushImage_push-image--rounded-bottom-left__3k2A8"
-                            style={{
-                              position: 'absolute',
-                              height: '100%',
-                              width: '100%',
-                              left: '0',
-                              top: '0',
-                              right: '0',
-                              bottom: '0',
-                              objectFit: 'cover',
-                              color: 'transparent',
-                            }}
+                            // style={{
+                            //   position: 'absolute',
+                            //   height: '100%',
+                            //   width: '100%',
+                            //   left: '0',
+                            //   top: '0',
+                            //   right: '0',
+                            //   bottom: '0',
+                            //   objectFit: 'cover',
+                            //   color: 'transparent',
+                            // }}
                             src="https://edge.sitecorecloud.io/sodexofrance1-sodexocorpsites-prod-e74c/media/Project/Sodexo-Corp/Global/Media-prod/Images/Banner-1240x698/news/2025/Prix-DSIN.jpg?h=698&amp;iar=0&amp;w=1240"
                           />
                         </div>
@@ -171,7 +176,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                       </div>
                     </article>
                   </li>
-                  <li className="splide__slide" role="group">
+                  <li className="splide__slide" role="group" style={{ width: 'calc(100%)' }}>
                     <article className="LatestNewsSlide_latest-news-slide__WLk__">
                       <div className="LatestNewsSlide_latest-news-slide__image__ZWzY7">
                         <div className="PushImage_push-image__V6naY PushImage_push-image--layout__PwSJd">
@@ -181,25 +186,25 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                             decoding="async"
                             data-nimg="fill"
                             className="PushImage_push-image--rounded-bottom-left__3k2A8"
-                            style={{
-                              position: 'absolute',
-                              height: '100%',
-                              width: '100%',
-                              left: '0',
-                              top: '0',
-                              right: '0',
-                              bottom: '0',
-                              objectFit: 'cover',
-                              color: 'transparent',
-                            }}
+                            // style={{
+                            //   position: 'absolute',
+                            //   height: '100%',
+                            //   width: '100%',
+                            //   left: '0',
+                            //   top: '0',
+                            //   right: '0',
+                            //   bottom: '0',
+                            //   objectFit: 'cover',
+                            //   color: 'transparent',
+                            // }}
                             src="https://edge.sitecorecloud.io/sodexofrance1-sodexocorpsites-prod-e74c/media/Project/Sodexo-Corp/Global/Media-prod/Images/Banner-1240x698/news/2025/Equileap-2025-banner.jpg?h=698&amp;iar=0&amp;w=1240"
                           />
                         </div>
                       </div>
                       <div className="LatestNewsSlide_latest-news-slide__content__fT26E">
                         <h3 className="LatestNewsSlide_latest-news-slide__content__title__0TF1Y LatestNewsSlide_font-h3__9qeWo">
-                          Sodexo makes significant progress in Equileap&quot;s global ranking,
-                          reaching 4th place in France
+                          Sodexo makes significant progress in Equileap’s global ranking, reaching
+                          4th place in France
                         </h3>
                         <div className="LatestNewsSlide_latest-news-slide__content__text__oVqab">
                           Sodexo is pleased to announce its significant progress in the 2025
@@ -226,7 +231,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                       </div>
                     </article>
                   </li>
-                  <li className="splide__slide" role="group">
+                  <li className="splide__slide" role="group" style={{ width: 'calc(100%)' }}>
                     <article className="LatestNewsSlide_latest-news-slide__WLk__">
                       <div className="LatestNewsSlide_latest-news-slide__image__ZWzY7">
                         <div className="PushImage_push-image__V6naY PushImage_push-image--layout__PwSJd">
@@ -236,33 +241,33 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                             decoding="async"
                             data-nimg="fill"
                             className="PushImage_push-image--rounded-bottom-left__3k2A8"
-                            style={{
-                              position: 'absolute',
-                              height: '100%',
-                              width: '100%',
-                              left: '0',
-                              top: '0',
-                              right: '0',
-                              bottom: '0',
-                              objectFit: 'cover',
-                              color: 'transparent',
-                            }}
+                            // style={{
+                            //   position: 'absolute',
+                            //   height: '100%',
+                            //   width: '100%',
+                            //   left: '0',
+                            //   top: '0',
+                            //   right: '0',
+                            //   bottom: '0',
+                            //   objectFit: 'cover',
+                            //   color: 'transparent',
+                            // }}
                             src="https://edge.sitecorecloud.io/sodexofrance1-sodexocorpsites-prod-e74c/media/Project/Sodexo-Corp/Global/Media-prod/Images/Banner-1240x698/news/2025/Ethisphere-march-2025-banner.jpg?h=440&amp;iar=0&amp;w=990"
                           />
                         </div>
                       </div>
                       <div className="LatestNewsSlide_latest-news-slide__content__fT26E">
                         <h3 className="LatestNewsSlide_latest-news-slide__content__title__0TF1Y LatestNewsSlide_font-h3__9qeWo">
-                          Sodexo named one of the World&quot;s Most Ethical Companies® by Ethisphere
-                          for the second year in a row
+                          Sodexo named one of the World’s Most Ethical Companies® by Ethisphere for
+                          the second year in a row
                         </h3>
                         <div className="LatestNewsSlide_latest-news-slide__content__text__oVqab">
-                          Sodexo is proud to announce its recognition as one of the World&quot;s
-                          Most Ethical Compagnies® for the second consecutive year. Issued by
-                          Ethisphere, a global leader in defining and advancing the standards of
-                          ethical business, this annual recognition honors Sodexo&quot;s continuous
-                          commitment to business integrity through best-in-class policies and
-                          practices. Learn more.
+                          Sodexo is proud to announce its recognition as one of the World’s Most
+                          Ethical Compagnies® for the second consecutive year. Issued by Ethisphere,
+                          a global leader in defining and advancing the standards of ethical
+                          business, this annual recognition honors Sodexo’s continuous commitment to
+                          business integrity through best-in-class policies and practices. Learn
+                          more.
                         </div>
                         <div className="LatestNewsSlide_latest-news-slide__content__buttons__5sWAm">
                           <Link
@@ -298,7 +303,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                       </div>
                     </article>
                   </li>
-                  <li className="splide__slide" role="group">
+                  <li className="splide__slide" role="group" style={{ width: 'calc(100%)' }}>
                     <article className="LatestNewsSlide_latest-news-slide__WLk__">
                       <div className="LatestNewsSlide_latest-news-slide__image__ZWzY7">
                         <div className="PushImage_push-image__V6naY PushImage_push-image--layout__PwSJd">
@@ -308,17 +313,17 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                             decoding="async"
                             data-nimg="fill"
                             className="PushImage_push-image--rounded-bottom-left__3k2A8"
-                            style={{
-                              position: 'absolute',
-                              height: '100%',
-                              width: '100%',
-                              left: '0',
-                              top: '0',
-                              right: '0',
-                              bottom: '0',
-                              objectFit: 'cover',
-                              color: 'transparent',
-                            }}
+                            // style={{
+                            //   position: 'absolute',
+                            //   height: '100%',
+                            //   width: '100%',
+                            //   left: '0',
+                            //   top: '0',
+                            //   right: '0',
+                            //   bottom: '0',
+                            //   objectFit: 'cover',
+                            //   color: 'transparent',
+                            // }}
                             src="https://edge.sitecorecloud.io/sodexofrance1-sodexocorpsites-prod-e74c/media/Project/Sodexo-Corp/Global/Media-prod/Images/Banner-1240x698/news/2025/Facilities-Maintenance.jpg?h=698&amp;iar=0&amp;w=1240"
                           />
                         </div>
@@ -326,7 +331,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                       <div className="LatestNewsSlide_latest-news-slide__content__fT26E">
                         <h3 className="LatestNewsSlide_latest-news-slide__content__title__0TF1Y LatestNewsSlide_font-h3__9qeWo">
                           Sodexo awarded a significant contract with Santos, cementing its
-                          market-leading position in Australia&quot;s energy and resources sector
+                          market-leading position in Australia’s energy and resources sector
                         </h3>
                         <div className="LatestNewsSlide_latest-news-slide__content__text__oVqab">
                           Sodexo in Australia has been awarded a large five-year contract with
@@ -366,7 +371,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                       </div>
                     </article>
                   </li>
-                  <li className="splide__slide" role="group">
+                  <li className="splide__slide" role="group" style={{ width: 'calc(100%)' }}>
                     <article className="LatestNewsSlide_latest-news-slide__WLk__">
                       <div className="LatestNewsSlide_latest-news-slide__image__ZWzY7">
                         <div className="PushImage_push-image__V6naY PushImage_push-image--layout__PwSJd">
@@ -376,17 +381,17 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                             decoding="async"
                             data-nimg="fill"
                             className="PushImage_push-image--rounded-bottom-left__3k2A8"
-                            style={{
-                              position: 'absolute',
-                              height: '100%',
-                              width: '100%',
-                              left: '0',
-                              top: '0',
-                              right: '0',
-                              bottom: '0',
-                              objectFit: 'cover',
-                              color: 'transparent',
-                            }}
+                            // style={{
+                            //   position: 'absolute',
+                            //   height: '100%',
+                            //   width: '100%',
+                            //   left: '0',
+                            //   top: '0',
+                            //   right: '0',
+                            //   bottom: '0',
+                            //   objectFit: 'cover',
+                            //   color: 'transparent',
+                            // }}
                             src="https://edge.sitecorecloud.io/sodexofrance1-sodexocorpsites-prod-e74c/media/Project/Sodexo-Corp/Global/Media-prod/Images/Banner-1240x698/news/2025/Contract-Mucem-2025.jpg?h=698&amp;iar=0&amp;w=1240"
                           />
                         </div>
@@ -434,7 +439,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                       aria-label="Previous slide"
                       className="Button_btn__Xvq6a SliderArrows_slider-arrows__arrow--rotated__VJ_fE Button_btn--unshaped__MfqLg"
                     >
-                      <span className="Icon_icon__qNAb6 SliderArrows_slider-arrows__arrow-icon__qHj5H SliderArrows_slider-arrows__arrow-icon_big__N13YL Icon_icon--white__ymQDN Icon_icon--bg-red__sbGiT">
+                      <span className="Icon_icon__qNAb6 SliderArrows_slider-arrows__arrow-icon__qHj5H SliderArrows_slider-arrows__arrow-icon_big__N13YL Icon_icon--white__ymQDN Icon_icon--arrow-rtl__xN7T5 Icon_icon--bg-red__sbGiT">
                         <svg aria-hidden="false">
                           <use xlinkHref="#icons_chevron"></use>
                         </svg>
@@ -446,7 +451,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                       aria-label="Next slide"
                       className="Button_btn__Xvq6a Button_btn--unshaped__MfqLg"
                     >
-                      <span className="Icon_icon__qNAb6 SliderArrows_slider-arrows__arrow-icon__qHj5H SliderArrows_slider-arrows__arrow-icon_big__N13YL Icon_icon--white__ymQDN Icon_icon--bg-red__sbGiT">
+                      <span className="Icon_icon__qNAb6 SliderArrows_slider-arrows__arrow-icon__qHj5H SliderArrows_slider-arrows__arrow-icon_big__N13YL Icon_icon--white__ymQDN Icon_icon--arrow-rtl__xN7T5 Icon_icon--bg-red__sbGiT">
                         <svg aria-hidden="false">
                           <use xlinkHref="#icons_chevron"></use>
                         </svg>

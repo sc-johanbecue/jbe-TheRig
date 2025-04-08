@@ -24,7 +24,7 @@ const SodexoBannerDefaultComponent = (props: SodexoBannerProps): JSX.Element => 
 export const Default = (props: SodexoBannerProps): JSX.Element => {
   if (props.fields) {
     return (
-      <header className="Header_header__lDmSR Header_header--hide__ec1NG" role="banner">
+      <header>
         <div className="Header_header__content__YuahI Header_header__content--hide__Zn37G">
           <div className="MainNavMobile_main-nav-mobile__33IiE">
             <div className="MainNavMobile_main-nav-mobile__header__UAcKF">
