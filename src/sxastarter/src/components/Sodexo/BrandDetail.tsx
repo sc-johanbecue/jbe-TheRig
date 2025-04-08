@@ -29,6 +29,8 @@ interface Fields {
   Approach3Image: ImageField;
   Approach3SubTitle: TextField;
   Approach3Text: RichTextField;
+  Quote: TextField;
+  QuoteSignature: TextField;
 }
 
 type SodexoBrandDetailProps = {
@@ -331,17 +333,16 @@ export const Default = (props: SodexoBrandDetailProps): JSX.Element => {
                 <use xlinkHref="#icons_quote"></use>
               </svg>
             </span>
-            <div className="opacity-in AnimateIn_opacity-in__animation--part1__2X1EP AnimateIn_opacity-in__animation__7ET9C">
+            <div className="">
               <blockquote className="Quote_font-h2__Zo2o0" data-testid="quote-title">
-                The food is fresh, flavorful, it’s something different, something that is
-                unexpected, I might even try on a daily basis!
+                <Text field={props.fields.Quote} />
               </blockquote>
             </div>
-            <div className="opacity-in AnimateIn_opacity-in__animation--part2__rqjWC AnimateIn_opacity-in__animation__7ET9C">
+            <div className="">
               <div className="Signature_signature__rtQMD color-primary quote__signature">
                 <figcaption className="signature__caption Signature_signature__caption--separator__sncSA">
                   <span className="Signature_signature__text__ueKZ6 Signature_signature__text--bold__8NAqe Signature_font-body-big__Yuawj Signature_font-bold__CQHPs Signature_font-heading__uv1Aw">
-                    A delighted Modern Recipe visitor{' '}
+                    <Text field={props.fields.QuoteSignature} />
                   </span>
                 </figcaption>
               </div>
