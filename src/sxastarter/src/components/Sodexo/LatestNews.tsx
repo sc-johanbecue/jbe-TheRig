@@ -26,7 +26,6 @@ export const Default = (props: BrandDetailProps): JSX.Element => {
     return (
       <>
         <style jsx>{`
-          /* Responsive grid columns only between 576px and 1023px */
           @media (min-width: 577px) and (max-width: 1023px) {
             .responsive-grid-2-5 {
               grid-column: 2 / 5 !important;
@@ -34,6 +33,14 @@ export const Default = (props: BrandDetailProps): JSX.Element => {
 
             .responsive-grid-6-13 {
               grid-column: 6 / 13 !important;
+            }
+
+            .LatestNews_latest-news__slider__ptqhR {
+              grid-column: 6 / 13 !important;
+            }
+
+            .LatestNewsIntro_latest-news-intro__jva9R {
+              grid-column: 2 / 5 !important;
             }
           }
         `}</style>
@@ -97,7 +104,7 @@ export const Default = (props: BrandDetailProps): JSX.Element => {
           <div className="HeroLatestNews_hero-latest-news__slider__wZ9xe">
             <div className="Surface_surface__Y0_rx LatestNews_latest-news__9Eyrq responsive-grid-2-5">
               <div className="LatestNews_latest-news__introduction__Ne3xZ">
-                <section className="LatestNewsIntro_latest-news-intro__jva9R">
+                <section className="LatestNewsIntro_latest-news-intro__jva9R responsive-grid-2-5">
                   <h2 className="LatestNewsIntro_latest-news-intro__title__hBsQZ LatestNewsIntro_font-h2__HtlRu">
                     Read our latest news
                   </h2>
