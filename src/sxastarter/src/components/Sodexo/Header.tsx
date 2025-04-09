@@ -71,7 +71,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                     role="menuitem"
                     href="/How-can-we-help-you"
                   >
-                    <span className="Icon_icon__qNAb6" style={{ height: '32px', width: '32px;' }}>
+                    <span className="Icon_icon__qNAb6" style={{ height: '32px', width: '32px' }}>
                       <svg aria-hidden="true" viewBox="0 0 32 32">
                         <use xlinkHref="#icons_search"></use>
                       </svg>
@@ -82,7 +82,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                     className="Button_btn__Xvq6a MainNavMobile_main-nav-mobile__header__button__WiPJV MainNavMobile_main-nav-mobile__header__button--no-collapse___BlDD Button_btn--unshaped__MfqLg"
                     role="menuitem"
                   >
-                    <span className="Icon_icon__qNAb6" style={{ height: '32px', width: '32px;' }}>
+                    <span className="Icon_icon__qNAb6" style={{ height: '32px', width: '32px' }}>
                       <svg aria-hidden="true" viewBox="0 0 32 32">
                         <use xlinkHref="#icons_burger"></use>
                       </svg>
@@ -108,7 +108,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                         <span>About Us</span>
                         <span
                           className="Icon_icon__qNAb6"
-                          style={{ height: '24px', width: '24px;' }}
+                          style={{ height: '24px', width: '24px' }}
                         >
                           <svg aria-hidden="true" viewBox="0 0 24 24">
                             <use xlinkHref="#icons_chevron"></use>
@@ -124,7 +124,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                         <span>Brands &amp; Services</span>
                         <span
                           className="Icon_icon__qNAb6"
-                          style={{ height: '24px', width: '24px;' }}
+                          style={{ height: '24px', width: '24px' }}
                         >
                           <svg aria-hidden="true" viewBox="0 0 24 24">
                             <use xlinkHref="#icons_chevron"></use>
@@ -140,7 +140,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                         <span>Corporate Responsibility</span>
                         <span
                           className="Icon_icon__qNAb6"
-                          style={{ height: '24px', width: '24px;' }}
+                          style={{ height: '24px', width: '24px' }}
                         >
                           <svg aria-hidden="true" viewBox="0 0 24 24">
                             <use xlinkHref="#icons_chevron"></use>
@@ -156,7 +156,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                         <span>Insights</span>
                         <span
                           className="Icon_icon__qNAb6"
-                          style={{ height: '24px', width: '24px;' }}
+                          style={{ height: '24px', width: '24px' }}
                         >
                           <svg aria-hidden="true" viewBox="0 0 24 24">
                             <use xlinkHref="#icons_chevron"></use>
@@ -172,7 +172,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                         <span>Working at Sodexo</span>
                         <span
                           className="Icon_icon__qNAb6"
-                          style={{ height: '24px', width: '24px;' }}
+                          style={{ height: '24px', width: '24px' }}
                         >
                           <svg aria-hidden="true" viewBox="0 0 24 24">
                             <use xlinkHref="#icons_chevron"></use>
@@ -193,7 +193,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                         <span>Investors</span>
                         <span
                           className="Icon_icon__qNAb6"
-                          style={{ height: '24px', width: '24px;' }}
+                          style={{ height: '24px', width: '24px' }}
                         >
                           <svg aria-hidden="true" viewBox="0 0 24 24">
                             <use xlinkHref="#icons_chevron"></use>
@@ -209,7 +209,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                         <span>Newsroom</span>
                         <span
                           className="Icon_icon__qNAb6"
-                          style={{ height: '24px', width: '24px;' }}
+                          style={{ height: '24px', width: '24px' }}
                         >
                           <svg aria-hidden="true" viewBox="0 0 24 24">
                             <use xlinkHref="#icons_chevron"></use>
@@ -253,7 +253,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                           <span>Location</span>
                           <span
                             className="Icon_icon__qNAb6"
-                            style={{ height: '24px', width: '24px;' }}
+                            style={{ height: '24px', width: '24px' }}
                           >
                             <svg aria-hidden="true" viewBox="0 0 24 24">
                               <use xlinkHref="#icons_planet"></use>
@@ -327,7 +327,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                   <div className="LineSlide_line-slide__mrcBo" data-theme="white">
                     <button className="Button_btn__Xvq6a LineSlide_line-slide__button__hD2YY SupNav_sup-nav__item__button__yPRgg Button_btn--white__F9cW2 Button_btn--reverse__NQ5qh Button_btn--unshaped__MfqLg Button_btn--unshaped-white__RvzsU">
                       <span>Location</span>
-                      <span className="Icon_icon__qNAb6" style={{ height: '24px', width: '24px;' }}>
+                      <span className="Icon_icon__qNAb6" style={{ height: '24px', width: '24px' }}>
                         <svg aria-hidden="true" viewBox="0 0 24 24">
                           <use xlinkHref="#icons_planet"></use>
                         </svg>
@@ -406,7 +406,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                           <span>About Us</span>
                           <span
                             className="Icon_icon__qNAb6"
-                            style={{ height: '16px', width: '16px;' }}
+                            style={{ height: '16px', width: '16px' }}
                           >
                             <svg aria-hidden="true" viewBox="0 0 16 16">
                               <use xlinkHref="#icons_chevron"></use>
@@ -436,7 +436,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                             >
                               <span
                                 className="Icon_icon__qNAb6"
-                                style={{ height: '24px', width: '24px;' }}
+                                style={{ height: '24px', width: '24px' }}
                               >
                                 <svg aria-hidden="true" viewBox="0 0 24 24">
                                   <use xlinkHref="#icons_cross"></use>
@@ -458,7 +458,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                     Sodexo in Brief
                                     <span
                                       className="Icon_icon__qNAb6 Icon_icon--arrow-rtl__xN7T5"
-                                      style={{ height: '32px', width: '32px;' }}
+                                      style={{ height: '32px', width: '32px' }}
                                     >
                                       <svg aria-hidden="true" viewBox="0 0 32 32">
                                         <use xlinkHref="#icons_arrow"></use>
@@ -479,7 +479,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                     Our mission and ambition
                                     <span
                                       className="Icon_icon__qNAb6 Icon_icon--arrow-rtl__xN7T5"
-                                      style={{ height: '32px', width: '32px;' }}
+                                      style={{ height: '32px', width: '32px' }}
                                     >
                                       <svg aria-hidden="true" viewBox="0 0 32 32">
                                         <use xlinkHref="#icons_arrow"></use>
@@ -500,7 +500,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                     Sodexo Leadership Team
                                     <span
                                       className="Icon_icon__qNAb6 Icon_icon--arrow-rtl__xN7T5"
-                                      style={{ height: '32px', width: '32px;' }}
+                                      style={{ height: '32px', width: '32px' }}
                                     >
                                       <svg aria-hidden="true" viewBox="0 0 32 32">
                                         <use xlinkHref="#icons_arrow"></use>
@@ -521,7 +521,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                     Board of Directors
                                     <span
                                       className="Icon_icon__qNAb6 Icon_icon--arrow-rtl__xN7T5"
-                                      style={{ height: '32px', width: '32px;' }}
+                                      style={{ height: '32px', width: '32px' }}
                                     >
                                       <svg aria-hidden="true" viewBox="0 0 32 32">
                                         <use xlinkHref="#icons_arrow"></use>
@@ -542,7 +542,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                     Our Innovation Approach
                                     <span
                                       className="Icon_icon__qNAb6 Icon_icon--arrow-rtl__xN7T5"
-                                      style={{ height: '32px', width: '32px;' }}
+                                      style={{ height: '32px', width: '32px' }}
                                     >
                                       <svg aria-hidden="true" viewBox="0 0 32 32">
                                         <use xlinkHref="#icons_arrow"></use>
@@ -563,7 +563,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                     Our History
                                     <span
                                       className="Icon_icon__qNAb6 Icon_icon--arrow-rtl__xN7T5"
-                                      style={{ height: '32px', width: '32px;' }}
+                                      style={{ height: '32px', width: '32px' }}
                                     >
                                       <svg aria-hidden="true" viewBox="0 0 32 32">
                                         <use xlinkHref="#icons_arrow"></use>
@@ -584,7 +584,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                     Our Awards
                                     <span
                                       className="Icon_icon__qNAb6 Icon_icon--arrow-rtl__xN7T5"
-                                      style={{ height: '32px', width: '32px;' }}
+                                      style={{ height: '32px', width: '32px' }}
                                     >
                                       <svg aria-hidden="true" viewBox="0 0 32 32">
                                         <use xlinkHref="#icons_arrow"></use>
@@ -623,7 +623,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                 Download the report
                                 <span
                                   className="Icon_icon__qNAb6 Icon_icon--arrow-rtl__xN7T5"
-                                  style={{ height: '24px', width: '24px;' }}
+                                  style={{ height: '24px', width: '24px' }}
                                 >
                                   <svg aria-hidden="true" viewBox="0 0 24 24">
                                     <use xlinkHref="#icons_arrow"></use>
@@ -652,7 +652,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                           <span>Brands &amp; Services</span>
                           <span
                             className="Icon_icon__qNAb6"
-                            style={{ height: '16px', width: '16px;' }}
+                            style={{ height: '16px', width: '16px' }}
                           >
                             <svg aria-hidden="true" viewBox="0 0 16 16">
                               <use xlinkHref="#icons_chevron"></use>
@@ -687,7 +687,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                             >
                               <span
                                 className="Icon_icon__qNAb6"
-                                style={{ height: '24px', width: '24px;' }}
+                                style={{ height: '24px', width: '24px' }}
                               >
                                 <svg aria-hidden="true" viewBox="0 0 24 24">
                                   <use xlinkHref="#icons_cross"></use>
@@ -706,7 +706,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                     <span>Food Brands &amp; Services</span>
                                     <span
                                       className="Icon_icon__qNAb6"
-                                      style={{ height: '32px', width: '32px;' }}
+                                      style={{ height: '32px', width: '32px' }}
                                     >
                                       <svg aria-hidden="true" viewBox="0 0 32 32">
                                         <use xlinkHref="#icons_chevron"></use>
@@ -727,7 +727,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                         Brands Overview
                                         <span
                                           className="Icon_icon__qNAb6 Icon_icon--arrow-rtl__xN7T5"
-                                          style={{ height: '32px', width: '32px;' }}
+                                          style={{ height: '32px', width: '32px' }}
                                         >
                                           <svg aria-hidden="true" viewBox="0 0 32 32">
                                             <use xlinkHref="#icons_arrow"></use>
@@ -748,7 +748,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                         Modern Recipe
                                         <span
                                           className="Icon_icon__qNAb6 Icon_icon--arrow-rtl__xN7T5"
-                                          style={{ height: '32px', width: '32px;' }}
+                                          style={{ height: '32px', width: '32px' }}
                                         >
                                           <svg aria-hidden="true" viewBox="0 0 32 32">
                                             <use xlinkHref="#icons_arrow"></use>
@@ -769,7 +769,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                         Kitchen Works
                                         <span
                                           className="Icon_icon__qNAb6 Icon_icon--arrow-rtl__xN7T5"
-                                          style={{ height: '32px', width: '32px;' }}
+                                          style={{ height: '32px', width: '32px' }}
                                         >
                                           <svg aria-hidden="true" viewBox="0 0 32 32">
                                             <use xlinkHref="#icons_arrow"></use>
@@ -790,7 +790,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                         The Good Eating Company
                                         <span
                                           className="Icon_icon__qNAb6 Icon_icon--arrow-rtl__xN7T5"
-                                          style={{ height: '32px', width: '32px;' }}
+                                          style={{ height: '32px', width: '32px' }}
                                         >
                                           <svg aria-hidden="true" viewBox="0 0 32 32">
                                             <use xlinkHref="#icons_arrow"></use>
@@ -811,7 +811,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                         Food Services
                                         <span
                                           className="Icon_icon__qNAb6 Icon_icon--arrow-rtl__xN7T5"
-                                          style={{ height: '32px', width: '32px;' }}
+                                          style={{ height: '32px', width: '32px' }}
                                         >
                                           <svg aria-hidden="true" viewBox="0 0 32 32">
                                             <use xlinkHref="#icons_arrow"></use>
@@ -834,7 +834,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                     Facility Management Services
                                     <span
                                       className="Icon_icon__qNAb6 Icon_icon--arrow-rtl__xN7T5"
-                                      style={{ height: '32px', width: '32px;' }}
+                                      style={{ height: '32px', width: '32px' }}
                                     >
                                       <svg aria-hidden="true" viewBox="0 0 32 32">
                                         <use xlinkHref="#icons_arrow"></use>
@@ -855,7 +855,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                     Sodexo Live!
                                     <span
                                       className="Icon_icon__qNAb6 Icon_icon--arrow-rtl__xN7T5"
-                                      style={{ height: '32px', width: '32px;' }}
+                                      style={{ height: '32px', width: '32px' }}
                                     >
                                       <svg aria-hidden="true" viewBox="0 0 32 32">
                                         <use xlinkHref="#icons_arrow"></use>
@@ -876,7 +876,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                     Entegra
                                     <span
                                       className="Icon_icon__qNAb6 Icon_icon--arrow-rtl__xN7T5"
-                                      style={{ height: '32px', width: '32px;' }}
+                                      style={{ height: '32px', width: '32px' }}
                                     >
                                       <svg aria-hidden="true" viewBox="0 0 32 32">
                                         <use xlinkHref="#icons_arrow"></use>
@@ -897,7 +897,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                     Circles
                                     <span
                                       className="Icon_icon__qNAb6 Icon_icon--arrow-rtl__xN7T5"
-                                      style={{ height: '32px', width: '32px;' }}
+                                      style={{ height: '32px', width: '32px' }}
                                     >
                                       <svg aria-hidden="true" viewBox="0 0 32 32">
                                         <use xlinkHref="#icons_arrow"></use>
@@ -938,7 +938,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                 Learn more
                                 <span
                                   className="Icon_icon__qNAb6 Icon_icon--arrow-rtl__xN7T5"
-                                  style={{ height: '24px', width: '24px;' }}
+                                  style={{ height: '24px', width: '24px' }}
                                 >
                                   <svg aria-hidden="true" viewBox="0 0 24 24">
                                     <use xlinkHref="#icons_arrow"></use>
@@ -967,7 +967,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                           <span>Corporate Responsibility</span>
                           <span
                             className="Icon_icon__qNAb6"
-                            style={{ height: '16px', width: '16px;' }}
+                            style={{ height: '16px', width: '16px' }}
                           >
                             <svg aria-hidden="true" viewBox="0 0 16 16">
                               <use xlinkHref="#icons_chevron"></use>
@@ -1003,7 +1003,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                             >
                               <span
                                 className="Icon_icon__qNAb6"
-                                style={{ height: '24px', width: '24px;' }}
+                                style={{ height: '24px', width: '24px' }}
                               >
                                 <svg aria-hidden="true" viewBox="0 0 24 24">
                                   <use xlinkHref="#icons_cross"></use>
@@ -1022,7 +1022,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                     <span>Our Commitments</span>
                                     <span
                                       className="Icon_icon__qNAb6"
-                                      style={{ height: '32px', width: '32px;' }}
+                                      style={{ height: '32px', width: '32px' }}
                                     >
                                       <svg aria-hidden="true" viewBox="0 0 32 32">
                                         <use xlinkHref="#icons_chevron"></use>
@@ -1043,7 +1043,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                         CSR Commitments &amp; Progress
                                         <span
                                           className="Icon_icon__qNAb6 Icon_icon--arrow-rtl__xN7T5"
-                                          style={{ height: '32px', width: '32px;' }}
+                                          style={{ height: '32px', width: '32px' }}
                                         >
                                           <svg aria-hidden="true" viewBox="0 0 32 32">
                                             <use xlinkHref="#icons_arrow"></use>
@@ -1064,7 +1064,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                         Materiality Matrix
                                         <span
                                           className="Icon_icon__qNAb6 Icon_icon--arrow-rtl__xN7T5"
-                                          style={{ height: '32px', width: '32px;' }}
+                                          style={{ height: '32px', width: '32px' }}
                                         >
                                           <svg aria-hidden="true" viewBox="0 0 32 32">
                                             <use xlinkHref="#icons_arrow"></use>
@@ -1085,7 +1085,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                         Partnerships
                                         <span
                                           className="Icon_icon__qNAb6 Icon_icon--arrow-rtl__xN7T5"
-                                          style={{ height: '32px', width: '32px;' }}
+                                          style={{ height: '32px', width: '32px' }}
                                         >
                                           <svg aria-hidden="true" viewBox="0 0 32 32">
                                             <use xlinkHref="#icons_arrow"></use>
@@ -1106,7 +1106,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                         Policies and Positioning
                                         <span
                                           className="Icon_icon__qNAb6 Icon_icon--arrow-rtl__xN7T5"
-                                          style={{ height: '32px', width: '32px;' }}
+                                          style={{ height: '32px', width: '32px' }}
                                         >
                                           <svg aria-hidden="true" viewBox="0 0 32 32">
                                             <use xlinkHref="#icons_arrow"></use>
@@ -1127,7 +1127,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                         Business Integrity
                                         <span
                                           className="Icon_icon__qNAb6 Icon_icon--arrow-rtl__xN7T5"
-                                          style={{ height: '32px', width: '32px;' }}
+                                          style={{ height: '32px', width: '32px' }}
                                         >
                                           <svg aria-hidden="true" viewBox="0 0 32 32">
                                             <use xlinkHref="#icons_arrow"></use>
@@ -1148,7 +1148,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                         Human Rights
                                         <span
                                           className="Icon_icon__qNAb6 Icon_icon--arrow-rtl__xN7T5"
-                                          style={{ height: '32px', width: '32px;' }}
+                                          style={{ height: '32px', width: '32px' }}
                                         >
                                           <svg aria-hidden="true" viewBox="0 0 32 32">
                                             <use xlinkHref="#icons_arrow"></use>
@@ -1168,7 +1168,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                     <span>Impact on Individuals</span>
                                     <span
                                       className="Icon_icon__qNAb6"
-                                      style={{ height: '32px', width: '32px;' }}
+                                      style={{ height: '32px', width: '32px' }}
                                     >
                                       <svg aria-hidden="true" viewBox="0 0 32 32">
                                         <use xlinkHref="#icons_chevron"></use>
@@ -1189,7 +1189,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                         Healthy &amp; Sustainable Eating
                                         <span
                                           className="Icon_icon__qNAb6 Icon_icon--arrow-rtl__xN7T5"
-                                          style={{ height: '32px', width: '32px;' }}
+                                          style={{ height: '32px', width: '32px' }}
                                         >
                                           <svg aria-hidden="true" viewBox="0 0 32 32">
                                             <use xlinkHref="#icons_arrow"></use>
@@ -1210,7 +1210,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                         Responsible Sourcing
                                         <span
                                           className="Icon_icon__qNAb6 Icon_icon--arrow-rtl__xN7T5"
-                                          style={{ height: '32px', width: '32px;' }}
+                                          style={{ height: '32px', width: '32px' }}
                                         >
                                           <svg aria-hidden="true" viewBox="0 0 32 32">
                                             <use xlinkHref="#icons_arrow"></use>
@@ -1231,7 +1231,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                         Our Health and Safety Culture
                                         <span
                                           className="Icon_icon__qNAb6 Icon_icon--arrow-rtl__xN7T5"
-                                          style={{ height: '32px', width: '32px;' }}
+                                          style={{ height: '32px', width: '32px' }}
                                         >
                                           <svg aria-hidden="true" viewBox="0 0 32 32">
                                             <use xlinkHref="#icons_arrow"></use>
@@ -1251,7 +1251,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                     <span>Impact on Communities</span>
                                     <span
                                       className="Icon_icon__qNAb6"
-                                      style={{ height: '32px', width: '32px;' }}
+                                      style={{ height: '32px', width: '32px' }}
                                     >
                                       <svg aria-hidden="true" viewBox="0 0 32 32">
                                         <use xlinkHref="#icons_chevron"></use>
@@ -1272,7 +1272,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                         Community Support
                                         <span
                                           className="Icon_icon__qNAb6 Icon_icon--arrow-rtl__xN7T5"
-                                          style={{ height: '32px', width: '32px;' }}
+                                          style={{ height: '32px', width: '32px' }}
                                         >
                                           <svg aria-hidden="true" viewBox="0 0 32 32">
                                             <use xlinkHref="#icons_arrow"></use>
@@ -1293,7 +1293,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                         Responsible Sourcing
                                         <span
                                           className="Icon_icon__qNAb6 Icon_icon--arrow-rtl__xN7T5"
-                                          style={{ height: '32px', width: '32px;' }}
+                                          style={{ height: '32px', width: '32px' }}
                                         >
                                           <svg aria-hidden="true" viewBox="0 0 32 32">
                                             <use xlinkHref="#icons_arrow"></use>
@@ -1313,7 +1313,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                     <span>Impact on Environment</span>
                                     <span
                                       className="Icon_icon__qNAb6"
-                                      style={{ height: '32px', width: '32px;' }}
+                                      style={{ height: '32px', width: '32px' }}
                                     >
                                       <svg aria-hidden="true" viewBox="0 0 32 32">
                                         <use xlinkHref="#icons_chevron"></use>
@@ -1334,7 +1334,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                         Our Contribution for Climate
                                         <span
                                           className="Icon_icon__qNAb6 Icon_icon--arrow-rtl__xN7T5"
-                                          style={{ height: '32px', width: '32px;' }}
+                                          style={{ height: '32px', width: '32px' }}
                                         >
                                           <svg aria-hidden="true" viewBox="0 0 32 32">
                                             <use xlinkHref="#icons_arrow"></use>
@@ -1355,7 +1355,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                         Saving Resources and Reducing Waste
                                         <span
                                           className="Icon_icon__qNAb6 Icon_icon--arrow-rtl__xN7T5"
-                                          style={{ height: '32px', width: '32px;' }}
+                                          style={{ height: '32px', width: '32px' }}
                                         >
                                           <svg aria-hidden="true" viewBox="0 0 32 32">
                                             <use xlinkHref="#icons_arrow"></use>
@@ -1376,7 +1376,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                         Committed to sustainable eating
                                         <span
                                           className="Icon_icon__qNAb6 Icon_icon--arrow-rtl__xN7T5"
-                                          style={{ height: '32px', width: '32px;' }}
+                                          style={{ height: '32px', width: '32px' }}
                                         >
                                           <svg aria-hidden="true" viewBox="0 0 32 32">
                                             <use xlinkHref="#icons_arrow"></use>
@@ -1397,7 +1397,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                         Responsible Sourcing
                                         <span
                                           className="Icon_icon__qNAb6 Icon_icon--arrow-rtl__xN7T5"
-                                          style={{ height: '32px', width: '32px;' }}
+                                          style={{ height: '32px', width: '32px' }}
                                         >
                                           <svg aria-hidden="true" viewBox="0 0 32 32">
                                             <use xlinkHref="#icons_arrow"></use>
@@ -1440,7 +1440,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                 Read the report
                                 <span
                                   className="Icon_icon__qNAb6 Icon_icon--arrow-rtl__xN7T5"
-                                  style={{ height: '24px', width: '24px;' }}
+                                  style={{ height: '24px', width: '24px' }}
                                 >
                                   <svg aria-hidden="true" viewBox="0 0 24 24">
                                     <use xlinkHref="#icons_arrow"></use>
@@ -1469,7 +1469,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                           <span>Insights</span>
                           <span
                             className="Icon_icon__qNAb6"
-                            style={{ height: '16px', width: '16px;' }}
+                            style={{ height: '16px', width: '16px' }}
                           >
                             <svg aria-hidden="true" viewBox="0 0 16 16">
                               <use xlinkHref="#icons_chevron"></use>
@@ -1498,7 +1498,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                             >
                               <span
                                 className="Icon_icon__qNAb6"
-                                style={{ height: '24px', width: '24px;' }}
+                                style={{ height: '24px', width: '24px' }}
                               >
                                 <svg aria-hidden="true" viewBox="0 0 24 24">
                                   <use xlinkHref="#icons_cross"></use>
@@ -1520,7 +1520,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                     Our everyday stories
                                     <span
                                       className="Icon_icon__qNAb6 Icon_icon--arrow-rtl__xN7T5"
-                                      style={{ height: '32px', width: '32px;' }}
+                                      style={{ height: '32px', width: '32px' }}
                                     >
                                       <svg aria-hidden="true" viewBox="0 0 32 32">
                                         <use xlinkHref="#icons_arrow"></use>
@@ -1541,7 +1541,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                     Our people stories
                                     <span
                                       className="Icon_icon__qNAb6 Icon_icon--arrow-rtl__xN7T5"
-                                      style={{ height: '32px', width: '32px;' }}
+                                      style={{ height: '32px', width: '32px' }}
                                     >
                                       <svg aria-hidden="true" viewBox="0 0 32 32">
                                         <use xlinkHref="#icons_arrow"></use>
@@ -1582,7 +1582,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                 Watch the video
                                 <span
                                   className="Icon_icon__qNAb6 Icon_icon--arrow-rtl__xN7T5"
-                                  style={{ height: '24px', width: '24px;' }}
+                                  style={{ height: '24px', width: '24px' }}
                                 >
                                   <svg aria-hidden="true" viewBox="0 0 24 24">
                                     <use xlinkHref="#icons_arrow"></use>
@@ -1611,7 +1611,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                           <span>Working at Sodexo</span>
                           <span
                             className="Icon_icon__qNAb6"
-                            style={{ height: '16px', width: '16px;' }}
+                            style={{ height: '16px', width: '16px' }}
                           >
                             <svg aria-hidden="true" viewBox="0 0 16 16">
                               <use xlinkHref="#icons_chevron"></use>
@@ -1647,7 +1647,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                             >
                               <span
                                 className="Icon_icon__qNAb6"
-                                style={{ height: '24px', width: '24px;' }}
+                                style={{ height: '24px', width: '24px' }}
                               >
                                 <svg aria-hidden="true" viewBox="0 0 24 24">
                                   <use xlinkHref="#icons_cross"></use>
@@ -1669,7 +1669,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                     More than a job
                                     <span
                                       className="Icon_icon__qNAb6 Icon_icon--arrow-rtl__xN7T5"
-                                      style={{ height: '32px', width: '32px;' }}
+                                      style={{ height: '32px', width: '32px' }}
                                     >
                                       <svg aria-hidden="true" viewBox="0 0 32 32">
                                         <use xlinkHref="#icons_arrow"></use>
@@ -1690,7 +1690,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                     Find a job
                                     <span
                                       className="Icon_icon__qNAb6 Icon_icon--arrow-rtl__xN7T5"
-                                      style={{ height: '32px', width: '32px;' }}
+                                      style={{ height: '32px', width: '32px' }}
                                     >
                                       <svg aria-hidden="true" viewBox="0 0 32 32">
                                         <use xlinkHref="#icons_arrow"></use>
@@ -1711,7 +1711,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                     Belonging &amp; Inclusion
                                     <span
                                       className="Icon_icon__qNAb6 Icon_icon--arrow-rtl__xN7T5"
-                                      style={{ height: '32px', width: '32px;' }}
+                                      style={{ height: '32px', width: '32px' }}
                                     >
                                       <svg aria-hidden="true" viewBox="0 0 32 32">
                                         <use xlinkHref="#icons_arrow"></use>
@@ -1732,7 +1732,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                     People Stories
                                     <span
                                       className="Icon_icon__qNAb6 Icon_icon--arrow-rtl__xN7T5"
-                                      style={{ height: '32px', width: '32px;' }}
+                                      style={{ height: '32px', width: '32px' }}
                                     >
                                       <svg aria-hidden="true" viewBox="0 0 32 32">
                                         <use xlinkHref="#icons_arrow"></use>
@@ -1753,7 +1753,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                     Vita
                                     <span
                                       className="Icon_icon__qNAb6 Icon_icon--arrow-rtl__xN7T5"
-                                      style={{ height: '32px', width: '32px;' }}
+                                      style={{ height: '32px', width: '32px' }}
                                     >
                                       <svg aria-hidden="true" viewBox="0 0 32 32">
                                         <use xlinkHref="#icons_arrow"></use>
@@ -1801,7 +1801,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                           <span>Investors</span>
                           <span
                             className="Icon_icon__qNAb6"
-                            style={{ height: '16px', width: '16px;' }}
+                            style={{ height: '16px', width: '16px' }}
                           >
                             <svg aria-hidden="true" viewBox="0 0 16 16">
                               <use xlinkHref="#icons_chevron"></use>
@@ -1828,7 +1828,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                             >
                               <span
                                 className="Icon_icon__qNAb6"
-                                style={{ height: '24px', width: '24px;' }}
+                                style={{ height: '24px', width: '24px' }}
                               >
                                 <svg aria-hidden="true" viewBox="0 0 24 24">
                                   <use xlinkHref="#icons_cross"></use>
@@ -1847,7 +1847,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                     <span>Financial Results and Publications</span>
                                     <span
                                       className="Icon_icon__qNAb6"
-                                      style={{ height: '32px', width: '32px;' }}
+                                      style={{ height: '32px', width: '32px' }}
                                     >
                                       <svg aria-hidden="true" viewBox="0 0 32 32">
                                         <use xlinkHref="#icons_chevron"></use>
@@ -1868,7 +1868,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                         Financial Results
                                         <span
                                           className="Icon_icon__qNAb6 Icon_icon--arrow-rtl__xN7T5"
-                                          style={{ height: '32px', width: '32px;' }}
+                                          style={{ height: '32px', width: '32px' }}
                                         >
                                           <svg aria-hidden="true" viewBox="0 0 32 32">
                                             <use xlinkHref="#icons_arrow"></use>
@@ -1889,7 +1889,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                         Universal Registration Document
                                         <span
                                           className="Icon_icon__qNAb6 Icon_icon--arrow-rtl__xN7T5"
-                                          style={{ height: '32px', width: '32px;' }}
+                                          style={{ height: '32px', width: '32px' }}
                                         >
                                           <svg aria-hidden="true" viewBox="0 0 32 32">
                                             <use xlinkHref="#icons_arrow"></use>
@@ -1910,7 +1910,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                         Integrated Report Fiscal 2024
                                         <span
                                           className="Icon_icon__qNAb6 Icon_icon--arrow-rtl__xN7T5"
-                                          style={{ height: '32px', width: '32px;' }}
+                                          style={{ height: '32px', width: '32px' }}
                                         >
                                           <svg aria-hidden="true" viewBox="0 0 32 32">
                                             <use xlinkHref="#icons_arrow"></use>
@@ -1931,7 +1931,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                         Presentation archive
                                         <span
                                           className="Icon_icon__qNAb6 Icon_icon--arrow-rtl__xN7T5"
-                                          style={{ height: '32px', width: '32px;' }}
+                                          style={{ height: '32px', width: '32px' }}
                                         >
                                           <svg aria-hidden="true" viewBox="0 0 32 32">
                                             <use xlinkHref="#icons_arrow"></use>
@@ -1952,7 +1952,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                         Pluxee Spin-off and Listing
                                         <span
                                           className="Icon_icon__qNAb6 Icon_icon--arrow-rtl__xN7T5"
-                                          style={{ height: '32px', width: '32px;' }}
+                                          style={{ height: '32px', width: '32px' }}
                                         >
                                           <svg aria-hidden="true" viewBox="0 0 32 32">
                                             <use xlinkHref="#icons_arrow"></use>
@@ -1972,7 +1972,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                     <span>News</span>
                                     <span
                                       className="Icon_icon__qNAb6"
-                                      style={{ height: '32px', width: '32px;' }}
+                                      style={{ height: '32px', width: '32px' }}
                                     >
                                       <svg aria-hidden="true" viewBox="0 0 32 32">
                                         <use xlinkHref="#icons_chevron"></use>
@@ -1993,7 +1993,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                         Press Releases
                                         <span
                                           className="Icon_icon__qNAb6 Icon_icon--arrow-rtl__xN7T5"
-                                          style={{ height: '32px', width: '32px;' }}
+                                          style={{ height: '32px', width: '32px' }}
                                         >
                                           <svg aria-hidden="true" viewBox="0 0 32 32">
                                             <use xlinkHref="#icons_arrow"></use>
@@ -2014,7 +2014,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                         Financial Calendar
                                         <span
                                           className="Icon_icon__qNAb6 Icon_icon--arrow-rtl__xN7T5"
-                                          style={{ height: '32px', width: '32px;' }}
+                                          style={{ height: '32px', width: '32px' }}
                                         >
                                           <svg aria-hidden="true" viewBox="0 0 32 32">
                                             <use xlinkHref="#icons_arrow"></use>
@@ -2034,7 +2034,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                     <span>Shareholders</span>
                                     <span
                                       className="Icon_icon__qNAb6"
-                                      style={{ height: '32px', width: '32px;' }}
+                                      style={{ height: '32px', width: '32px' }}
                                     >
                                       <svg aria-hidden="true" viewBox="0 0 32 32">
                                         <use xlinkHref="#icons_chevron"></use>
@@ -2055,7 +2055,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                         Benefits of being a registered shareholder
                                         <span
                                           className="Icon_icon__qNAb6 Icon_icon--arrow-rtl__xN7T5"
-                                          style={{ height: '32px', width: '32px;' }}
+                                          style={{ height: '32px', width: '32px' }}
                                         >
                                           <svg aria-hidden="true" viewBox="0 0 32 32">
                                             <use xlinkHref="#icons_arrow"></use>
@@ -2076,7 +2076,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                         Shareholder Meetings
                                         <span
                                           className="Icon_icon__qNAb6 Icon_icon--arrow-rtl__xN7T5"
-                                          style={{ height: '32px', width: '32px;' }}
+                                          style={{ height: '32px', width: '32px' }}
                                         >
                                           <svg aria-hidden="true" viewBox="0 0 32 32">
                                             <use xlinkHref="#icons_arrow"></use>
@@ -2097,7 +2097,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                         Share Ownership
                                         <span
                                           className="Icon_icon__qNAb6 Icon_icon--arrow-rtl__xN7T5"
-                                          style={{ height: '32px', width: '32px;' }}
+                                          style={{ height: '32px', width: '32px' }}
                                         >
                                           <svg aria-hidden="true" viewBox="0 0 32 32">
                                             <use xlinkHref="#icons_arrow"></use>
@@ -2118,7 +2118,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                         Bellon SA
                                         <span
                                           className="Icon_icon__qNAb6 Icon_icon--arrow-rtl__xN7T5"
-                                          style={{ height: '32px', width: '32px;' }}
+                                          style={{ height: '32px', width: '32px' }}
                                         >
                                           <svg aria-hidden="true" viewBox="0 0 32 32">
                                             <use xlinkHref="#icons_arrow"></use>
@@ -2138,7 +2138,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                     <span>Governance</span>
                                     <span
                                       className="Icon_icon__qNAb6"
-                                      style={{ height: '32px', width: '32px;' }}
+                                      style={{ height: '32px', width: '32px' }}
                                     >
                                       <svg aria-hidden="true" viewBox="0 0 32 32">
                                         <use xlinkHref="#icons_chevron"></use>
@@ -2159,7 +2159,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                         Board of Directors
                                         <span
                                           className="Icon_icon__qNAb6 Icon_icon--arrow-rtl__xN7T5"
-                                          style={{ height: '32px', width: '32px;' }}
+                                          style={{ height: '32px', width: '32px' }}
                                         >
                                           <svg aria-hidden="true" viewBox="0 0 32 32">
                                             <use xlinkHref="#icons_arrow"></use>
@@ -2180,7 +2180,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                         Sodexo Leadership Team
                                         <span
                                           className="Icon_icon__qNAb6 Icon_icon--arrow-rtl__xN7T5"
-                                          style={{ height: '32px', width: '32px;' }}
+                                          style={{ height: '32px', width: '32px' }}
                                         >
                                           <svg aria-hidden="true" viewBox="0 0 32 32">
                                             <use xlinkHref="#icons_arrow"></use>
@@ -2201,7 +2201,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                         Risk factors
                                         <span
                                           className="Icon_icon__qNAb6 Icon_icon--arrow-rtl__xN7T5"
-                                          style={{ height: '32px', width: '32px;' }}
+                                          style={{ height: '32px', width: '32px' }}
                                         >
                                           <svg aria-hidden="true" viewBox="0 0 32 32">
                                             <use xlinkHref="#icons_arrow"></use>
@@ -2222,7 +2222,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                         Corporate Officers Compensation
                                         <span
                                           className="Icon_icon__qNAb6 Icon_icon--arrow-rtl__xN7T5"
-                                          style={{ height: '32px', width: '32px;' }}
+                                          style={{ height: '32px', width: '32px' }}
                                         >
                                           <svg aria-hidden="true" viewBox="0 0 32 32">
                                             <use xlinkHref="#icons_arrow"></use>
@@ -2243,7 +2243,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                         Related-party Transactions
                                         <span
                                           className="Icon_icon__qNAb6 Icon_icon--arrow-rtl__xN7T5"
-                                          style={{ height: '32px', width: '32px;' }}
+                                          style={{ height: '32px', width: '32px' }}
                                         >
                                           <svg aria-hidden="true" viewBox="0 0 32 32">
                                             <use xlinkHref="#icons_arrow"></use>
@@ -2263,7 +2263,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                     <span>Sodexo Share</span>
                                     <span
                                       className="Icon_icon__qNAb6"
-                                      style={{ height: '32px', width: '32px;' }}
+                                      style={{ height: '32px', width: '32px' }}
                                     >
                                       <svg aria-hidden="true" viewBox="0 0 32 32">
                                         <use xlinkHref="#icons_chevron"></use>
@@ -2284,7 +2284,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                         Share Price
                                         <span
                                           className="Icon_icon__qNAb6 Icon_icon--arrow-rtl__xN7T5"
-                                          style={{ height: '32px', width: '32px;' }}
+                                          style={{ height: '32px', width: '32px' }}
                                         >
                                           <svg aria-hidden="true" viewBox="0 0 32 32">
                                             <use xlinkHref="#icons_arrow"></use>
@@ -2305,7 +2305,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                         Share Profile
                                         <span
                                           className="Icon_icon__qNAb6 Icon_icon--arrow-rtl__xN7T5"
-                                          style={{ height: '32px', width: '32px;' }}
+                                          style={{ height: '32px', width: '32px' }}
                                         >
                                           <svg aria-hidden="true" viewBox="0 0 32 32">
                                             <use xlinkHref="#icons_arrow"></use>
@@ -2326,7 +2326,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                         Dividends
                                         <span
                                           className="Icon_icon__qNAb6 Icon_icon--arrow-rtl__xN7T5"
-                                          style={{ height: '32px', width: '32px;' }}
+                                          style={{ height: '32px', width: '32px' }}
                                         >
                                           <svg aria-hidden="true" viewBox="0 0 32 32">
                                             <use xlinkHref="#icons_arrow"></use>
@@ -2347,7 +2347,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                         ADR
                                         <span
                                           className="Icon_icon__qNAb6 Icon_icon--arrow-rtl__xN7T5"
-                                          style={{ height: '32px', width: '32px;' }}
+                                          style={{ height: '32px', width: '32px' }}
                                         >
                                           <svg aria-hidden="true" viewBox="0 0 32 32">
                                             <use xlinkHref="#icons_arrow"></use>
@@ -2367,7 +2367,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                     <span>Debt and Bonds</span>
                                     <span
                                       className="Icon_icon__qNAb6"
-                                      style={{ height: '32px', width: '32px;' }}
+                                      style={{ height: '32px', width: '32px' }}
                                     >
                                       <svg aria-hidden="true" viewBox="0 0 32 32">
                                         <use xlinkHref="#icons_chevron"></use>
@@ -2388,7 +2388,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                         Financing Strategy
                                         <span
                                           className="Icon_icon__qNAb6 Icon_icon--arrow-rtl__xN7T5"
-                                          style={{ height: '32px', width: '32px;' }}
+                                          style={{ height: '32px', width: '32px' }}
                                         >
                                           <svg aria-hidden="true" viewBox="0 0 32 32">
                                             <use xlinkHref="#icons_arrow"></use>
@@ -2409,7 +2409,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                         Debt Structure
                                         <span
                                           className="Icon_icon__qNAb6 Icon_icon--arrow-rtl__xN7T5"
-                                          style={{ height: '32px', width: '32px;' }}
+                                          style={{ height: '32px', width: '32px' }}
                                         >
                                           <svg aria-hidden="true" viewBox="0 0 32 32">
                                             <use xlinkHref="#icons_arrow"></use>
@@ -2430,7 +2430,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                         Credit Rating
                                         <span
                                           className="Icon_icon__qNAb6 Icon_icon--arrow-rtl__xN7T5"
-                                          style={{ height: '32px', width: '32px;' }}
+                                          style={{ height: '32px', width: '32px' }}
                                         >
                                           <svg aria-hidden="true" viewBox="0 0 32 32">
                                             <use xlinkHref="#icons_arrow"></use>
@@ -2451,7 +2451,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                         Debt Documentation
                                         <span
                                           className="Icon_icon__qNAb6 Icon_icon--arrow-rtl__xN7T5"
-                                          style={{ height: '32px', width: '32px;' }}
+                                          style={{ height: '32px', width: '32px' }}
                                         >
                                           <svg aria-hidden="true" viewBox="0 0 32 32">
                                             <use xlinkHref="#icons_arrow"></use>
@@ -2474,7 +2474,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                     Regulated Information
                                     <span
                                       className="Icon_icon__qNAb6 Icon_icon--arrow-rtl__xN7T5"
-                                      style={{ height: '32px', width: '32px;' }}
+                                      style={{ height: '32px', width: '32px' }}
                                     >
                                       <svg aria-hidden="true" viewBox="0 0 32 32">
                                         <use xlinkHref="#icons_arrow"></use>
@@ -2514,7 +2514,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                 Watch the webcast
                                 <span
                                   className="Icon_icon__qNAb6 Icon_icon--arrow-rtl__xN7T5"
-                                  style={{ height: '24px', width: '24px;' }}
+                                  style={{ height: '24px', width: '24px' }}
                                 >
                                   <svg aria-hidden="true" viewBox="0 0 24 24">
                                     <use xlinkHref="#icons_arrow"></use>
@@ -2543,7 +2543,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                           <span>Newsroom</span>
                           <span
                             className="Icon_icon__qNAb6"
-                            style={{ height: '16px', width: '16px;' }}
+                            style={{ height: '16px', width: '16px' }}
                           >
                             <svg aria-hidden="true" viewBox="0 0 16 16">
                               <use xlinkHref="#icons_chevron"></use>
@@ -2570,7 +2570,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                             >
                               <span
                                 className="Icon_icon__qNAb6"
-                                style={{ height: '24px', width: '24px;' }}
+                                style={{ height: '24px', width: '24px' }}
                               >
                                 <svg aria-hidden="true" viewBox="0 0 24 24">
                                   <use xlinkHref="#icons_cross"></use>
@@ -2592,7 +2592,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                                     Newsroom
                                     <span
                                       className="Icon_icon__qNAb6 Icon_icon--arrow-rtl__xN7T5"
-                                      style={{ height: '32px', width: '32px;' }}
+                                      style={{ height: '32px', width: '32px' }}
                                     >
                                       <svg aria-hidden="true" viewBox="0 0 32 32">
                                         <use xlinkHref="#icons_arrow"></use>
@@ -2634,7 +2634,7 @@ export const Default = (props: SodexoBannerProps): JSX.Element => {
                       >
                         <span
                           className="Icon_icon__qNAb6"
-                          style={{ height: '32px', width: '32px;' }}
+                          style={{ height: '32px', width: '32px' }}
                         >
                           <svg aria-hidden="true" viewBox="0 0 32 32">
                             <use xlinkHref="#icons_search"></use>
