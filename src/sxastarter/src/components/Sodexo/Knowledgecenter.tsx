@@ -1,5 +1,6 @@
 import React from 'react';
-import { MoreHorizontal, Maximize2, Plus, Download } from 'lucide-react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEllipsisH, faExpand, faPlus, faDownload } from '@fortawesome/free-solid-svg-icons';
 import { TextField } from '@sitecore-jss/sitecore-jss-nextjs';
 
 interface Fields {
@@ -27,7 +28,6 @@ export const Default = (props: SodexoProps): JSX.Element => {
       date: 'July 04, 2024',
       type: 'PPT',
       size: '114.5 Mb',
-      icon: '/file-icons/ppt-icon.svg',
     },
     {
       id: 2,
@@ -35,7 +35,6 @@ export const Default = (props: SodexoProps): JSX.Element => {
       date: 'May 12, 2024',
       type: 'PDF',
       size: '98 Mb',
-      icon: '/file-icons/pdf-icon.svg',
     },
     {
       id: 3,
@@ -43,7 +42,6 @@ export const Default = (props: SodexoProps): JSX.Element => {
       date: 'June 15, 2024',
       type: 'PDF',
       size: '120.4 Mb',
-      icon: '/file-icons/pdf-icon.svg',
     },
     {
       id: 4,
@@ -51,7 +49,6 @@ export const Default = (props: SodexoProps): JSX.Element => {
       date: 'June 30, 2024',
       type: 'PDF',
       size: '120.4 Mb',
-      icon: '/file-icons/pdf-icon.svg',
     },
     {
       id: 5,
@@ -59,7 +56,6 @@ export const Default = (props: SodexoProps): JSX.Element => {
       date: 'August 12, 2024',
       type: 'WORD',
       size: '3.5 Mb',
-      icon: '/file-icons/word-icon.svg',
     },
   ];
 
@@ -103,7 +99,7 @@ export const Default = (props: SodexoProps): JSX.Element => {
                 padding: '5px',
               }}
             >
-              <MoreHorizontal size={18} color="#666" />
+              <FontAwesomeIcon icon={faEllipsisH} size="sm" color="#666" />
             </button>
             <button
               style={{
@@ -113,7 +109,7 @@ export const Default = (props: SodexoProps): JSX.Element => {
                 padding: '5px',
               }}
             >
-              <Maximize2 size={18} color="#666" />
+              <FontAwesomeIcon icon={faExpand} size="sm" color="#666" />
             </button>
             <button
               style={{
@@ -123,7 +119,7 @@ export const Default = (props: SodexoProps): JSX.Element => {
                 padding: '5px',
               }}
             >
-              <Plus size={18} color="#666" />
+              <FontAwesomeIcon icon={faPlus} size="sm" color="#666" />
             </button>
           </div>
         </div>
@@ -274,7 +270,7 @@ export const Default = (props: SodexoProps): JSX.Element => {
                     padding: '5px',
                   }}
                 >
-                  <Download size={16} color="#666" />
+                  <FontAwesomeIcon icon={faDownload} size="sm" color="#666" />
                 </button>
               </div>
             </div>
