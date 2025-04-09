@@ -1,9 +1,19 @@
 import React from 'react';
-import Image from 'next/image';
-import { TextField } from '@sitecore-jss/sitecore-jss-nextjs';
+import { TextField, ImageField, Text, Image as JssImage } from '@sitecore-jss/sitecore-jss-nextjs';
 
 interface Fields {
-  Title: TextField;
+  Title1: TextField;
+  SubTitle1: TextField;
+  Title2: TextField;
+  SubTitle2: TextField;
+  Title3: TextField;
+  SubTitle3: TextField;
+  Title4: TextField;
+  SubTitle4: TextField;
+  Image1: ImageField;
+  Image2: ImageField;
+  Image3: ImageField;
+  Image4: ImageField;
 }
 
 type SodexoProps = {
@@ -20,34 +30,6 @@ const SodexoDefaultComponent = (props: SodexoProps): JSX.Element => (
 );
 
 export const Default = (props: SodexoProps): JSX.Element => {
-  const promotedItems = [
-    {
-      id: 1,
-      title: 'Sodexo revenues & awards 2024',
-      subtitle: "Let's discover the award winner in your area",
-      image: '/placeholder.svg?height=400&width=600',
-      size: 'large',
-    },
-    {
-      id: 2,
-      title: 'Food safety: new circular coming up and latest innovation report',
-      image: '/placeholder.svg?height=200&width=400',
-      size: 'medium',
-    },
-    {
-      id: 3,
-      title: 'Top Stories UK: A year at Sodexo',
-      image: '/placeholder.svg?height=150&width=200',
-      size: 'small',
-    },
-    {
-      id: 4,
-      title: 'Touching the lives of 86 million consumers with excellence',
-      image: '/placeholder.svg?height=150&width=200',
-      size: 'small',
-    },
-  ];
-
   if (props.fields) {
     return (
       <div
@@ -69,12 +51,7 @@ export const Default = (props: SodexoProps): JSX.Element => {
             height: '500px',
           }}
         >
-          <Image
-            src={promotedItems[0].image || '/placeholder.svg'}
-            alt={promotedItems[0].title}
-            fill
-            style={{ objectFit: 'cover' }}
-          />
+          <JssImage field={props.fields.Image1} alt="" fill style={{ objectFit: 'cover' }} />
           <div
             style={{
               position: 'absolute',
@@ -93,9 +70,11 @@ export const Default = (props: SodexoProps): JSX.Element => {
                 fontWeight: 'bold',
               }}
             >
-              {promotedItems[0].title}
+              <Text field={props.fields.Title1} />
             </h3>
-            <p style={{ margin: 0, fontSize: '16px' }}>{promotedItems[0].subtitle}</p>
+            <p style={{ margin: 0, fontSize: '16px' }}>
+              <Text field={props.fields.SubTitle1} />
+            </p>
           </div>
         </div>
 
@@ -109,9 +88,9 @@ export const Default = (props: SodexoProps): JSX.Element => {
             height: '240px',
           }}
         >
-          <Image
-            src={promotedItems[1].image || '/placeholder.svg'}
-            alt={promotedItems[1].title}
+          <JssImage
+            field={props.fields.Image2}
+            alt={props.fields.Title1.value}
             fill
             style={{ objectFit: 'cover' }}
           />
@@ -133,7 +112,7 @@ export const Default = (props: SodexoProps): JSX.Element => {
                 fontWeight: 'bold',
               }}
             >
-              {promotedItems[1].title}
+              <Text field={props.fields.Title2} />
             </h3>
           </div>
         </div>
@@ -147,45 +126,79 @@ export const Default = (props: SodexoProps): JSX.Element => {
             gap: '15px',
           }}
         >
-          {promotedItems.slice(2).map((item) => (
+          <div
+            style={{
+              borderRadius: '10px',
+              overflow: 'hidden',
+              position: 'relative',
+              height: '240px',
+            }}
+          >
+            <JssImage
+              field={props.fields.Image3}
+              alt={props.fields.Title3.value}
+              fill
+              style={{ objectFit: 'cover' }}
+            />
             <div
-              key={item.id}
               style={{
-                borderRadius: '10px',
-                overflow: 'hidden',
-                position: 'relative',
-                height: '240px',
+                position: 'absolute',
+                bottom: 0,
+                left: 0,
+                right: 0,
+                background: 'linear-gradient(to top, rgba(0,0,0,0.8), transparent)',
+                padding: '10px',
+                color: 'white',
               }}
             >
-              <Image
-                src={item.image || '/placeholder.svg'}
-                alt={item.title}
-                fill
-                style={{ objectFit: 'cover' }}
-              />
-              <div
+              <h3
                 style={{
-                  position: 'absolute',
-                  bottom: 0,
-                  left: 0,
-                  right: 0,
-                  background: 'linear-gradient(to top, rgba(0,0,0,0.8), transparent)',
-                  padding: '10px',
-                  color: 'white',
+                  margin: 0,
+                  fontSize: '14px',
+                  fontWeight: 'bold',
                 }}
               >
-                <h3
-                  style={{
-                    margin: 0,
-                    fontSize: '14px',
-                    fontWeight: 'bold',
-                  }}
-                >
-                  {item.title}
-                </h3>
-              </div>
+                <Text field={props.fields.Title3} />
+              </h3>
             </div>
-          ))}
+          </div>
+
+          <div
+            style={{
+              borderRadius: '10px',
+              overflow: 'hidden',
+              position: 'relative',
+              height: '240px',
+            }}
+          >
+            <JssImage
+              field={props.fields.Image4}
+              alt={props.fields.Title4.value}
+              fill
+              style={{ objectFit: 'cover' }}
+            />
+            <div
+              style={{
+                position: 'absolute',
+                bottom: 0,
+                left: 0,
+                right: 0,
+                background: 'linear-gradient(to top, rgba(0,0,0,0.8), transparent)',
+                padding: '10px',
+                color: 'white',
+              }}
+            >
+              <h3
+                style={{
+                  margin: 0,
+                  fontSize: '14px',
+                  fontWeight: 'bold',
+                }}
+              >
+                <Text field={props.fields.Title4} />
+              </h3>
+            </div>
+          </div>
         </div>
       </div>
     );
