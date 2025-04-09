@@ -51,7 +51,12 @@ export const Default = (props: SodexoProps): JSX.Element => {
             height: '500px',
           }}
         >
-          <JssImage field={props.fields.Image1} alt="" fill style={{ objectFit: 'cover' }} />
+          <JssImage
+            field={props.fields.Image1}
+            alt=""
+            fill
+            style={{ objectFit: 'cover', height: '500px' }}
+          />
           <div
             style={{
               position: 'absolute',
@@ -90,9 +95,9 @@ export const Default = (props: SodexoProps): JSX.Element => {
         >
           <JssImage
             field={props.fields.Image2}
-            alt={props.fields.Title1.value}
+            alt={props.fields.Title2.value}
             fill
-            style={{ objectFit: 'cover' }}
+            style={{ objectFit: 'cover', height: '240px' }}
           />
           <div
             style={{
@@ -138,7 +143,7 @@ export const Default = (props: SodexoProps): JSX.Element => {
               field={props.fields.Image3}
               alt={props.fields.Title3.value}
               fill
-              style={{ objectFit: 'cover' }}
+              style={{ objectFit: 'cover', height: '240px' }}
             />
             <div
               style={{
@@ -175,7 +180,7 @@ export const Default = (props: SodexoProps): JSX.Element => {
               field={props.fields.Image4}
               alt={props.fields.Title4.value}
               fill
-              style={{ objectFit: 'cover' }}
+              style={{ objectFit: 'cover', height: '240px' }}
             />
             <div
               style={{
