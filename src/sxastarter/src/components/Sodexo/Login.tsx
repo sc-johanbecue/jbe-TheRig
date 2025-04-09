@@ -183,7 +183,7 @@ export default function SodexoLogin() {
       {/* Left side - Background image */}
       <div style={loginStyles.imageContainer as React.CSSProperties}>
         <Image
-          src="/placeholder.svg?height=1080&width=1920"
+          src="https://aadcdn.msauthimages.net/c1c6b6c8-ixj3k6amayqz22utwrf-u-euflejghqjvhehsg1tc1a/logintenantbranding/0/illustration?ts=638327998932952380"
           alt="Sodexo uniform"
           fill
           style={loginStyles.backgroundImage as React.CSSProperties}
