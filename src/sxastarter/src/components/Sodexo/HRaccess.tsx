@@ -1,6 +1,12 @@
 import React from 'react';
 import Image from 'next/image';
-import { MoreHorizontal, Maximize2, Plus, Star } from 'lucide-react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+  faEllipsisH,
+  faExpand,
+  faPlus,
+  faStar as solidStar,
+} from '@fortawesome/free-solid-svg-icons';
 import { TextField } from '@sitecore-jss/sitecore-jss-nextjs';
 
 interface Fields {
@@ -91,7 +97,7 @@ export const Default = (props: SodexoProps): JSX.Element => {
                 padding: '5px',
               }}
             >
-              <MoreHorizontal size={18} color="#666" />
+              <FontAwesomeIcon icon={faEllipsisH} size="sm" color="#666" />
             </button>
             <button
               style={{
@@ -101,7 +107,7 @@ export const Default = (props: SodexoProps): JSX.Element => {
                 padding: '5px',
               }}
             >
-              <Maximize2 size={18} color="#666" />
+              <FontAwesomeIcon icon={faExpand} size="sm" color="#666" />
             </button>
             <button
               style={{
@@ -111,7 +117,7 @@ export const Default = (props: SodexoProps): JSX.Element => {
                 padding: '5px',
               }}
             >
-              <Plus size={18} color="#666" />
+              <FontAwesomeIcon icon={faPlus} size="sm" color="#666" />
             </button>
           </div>
         </div>
@@ -202,7 +208,7 @@ export const Default = (props: SodexoProps): JSX.Element => {
                       padding: '0',
                     }}
                   >
-                    <MoreHorizontal size={16} color="#666" />
+                    <FontAwesomeIcon icon={faEllipsisH} size="xs" color="#666" />
                   </button>
                 </div>
 
@@ -224,11 +230,12 @@ export const Default = (props: SodexoProps): JSX.Element => {
                   }}
                 >
                   {[...Array(5)].map((_, i) => (
-                    <Star
+                    <FontAwesomeIcon
                       key={i}
-                      size={14}
-                      fill={i < training.rating ? '#ffc107' : 'none'}
+                      icon={solidStar}
+                      size="xs"
                       color={i < training.rating ? '#ffc107' : '#ccc'}
+                      style={{ height: '20px' }}
                     />
                   ))}
                   <span
