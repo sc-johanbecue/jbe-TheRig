@@ -28,19 +28,19 @@ export const Default = (props: BrandDetailProps): JSX.Element => {
         <style jsx>{`
           @media (min-width: 769px) and (max-width: 1279px) {
             .responsive-grid-2-5 {
-              grid-column: 3 / 1 !important;
+              grid-column: 6 / 23 !important;
             }
 
             .responsive-grid-6-13 {
-              grid-column: 5 / 7 !important;
+              grid-column: 6 / 13 !important;
             }
 
             .LatestNews_latest-news__slider__ptqhR {
-              grid-column: 5 / 7 !important;
+              grid-column: 6 / 13 !important;
             }
 
             .LatestNews_latest-news__introduction__Ne3xZ {
-              grid-column: 3 / 1 !important;
+              grid-column: 6 / 23 !important;
             }
           }
         `}</style>
