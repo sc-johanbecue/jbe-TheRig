@@ -7,134 +7,6 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { TextField, ImageField, Image as JssImage } from '@sitecore-jss/sitecore-jss-nextjs';
 
-const loginStyles = {
-  container: {
-    display: 'flex',
-    minHeight: '100vh',
-    width: '100%',
-  },
-  imageContainer: {
-    display: 'none',
-    position: 'relative',
-    width: '66.666%',
-    '@media (min-width: 768px)': {
-      display: 'block',
-    },
-  },
-  backgroundImage: {
-    objectFit: 'cover',
-  },
-  formContainer: {
-    width: '100%',
-    padding: '32px',
-    display: 'flex',
-    flexDirection: 'column',
-    '@media (min-width: 768px)': {
-      width: '33.333%',
-    },
-  },
-  logoContainer: {
-    display: 'flex',
-    justifyContent: 'flex-end',
-    marginBottom: '48px',
-  },
-  formContent: {
-    flexGrow: 1,
-  },
-  heading: {
-    fontSize: '24px',
-    fontWeight: 500,
-    color: '#333',
-    marginBottom: '32px',
-  },
-  form: {
-    display: 'flex',
-    flexDirection: 'column',
-    gap: '24px',
-  },
-  inputGroup: {
-    position: 'relative',
-  },
-  input: {
-    width: '100%',
-    padding: '8px 0',
-    border: 'none',
-    borderBottom: '2px solid #2e3192',
-    outline: 'none',
-    fontSize: '16px',
-    backgroundColor: 'transparent',
-  },
-  errorMessage: {
-    color: 'red',
-    fontSize: '14px',
-    marginTop: '8px',
-  },
-  buttonContainer: {
-    display: 'flex',
-    justifyContent: 'flex-end',
-    paddingTop: '16px',
-  },
-  button: {
-    backgroundColor: '#2e3192',
-    color: 'white',
-    border: 'none',
-    padding: '8px 32px',
-    fontSize: '16px',
-    cursor: 'pointer',
-    transition: 'background-color 0.3s',
-    ':hover': {
-      backgroundColor: '#232578',
-    },
-  },
-  legalSection: {
-    marginTop: '64px',
-  },
-  legalHeading: {
-    color: '#2e3192',
-    fontWeight: 500,
-    marginBottom: '8px',
-    fontSize: '16px',
-  },
-  link: {
-    color: '#2e3192',
-    textDecoration: 'none',
-    ':hover': {
-      textDecoration: 'underline',
-    },
-  },
-  footer: {
-    marginTop: 'auto',
-    paddingTop: '32px',
-    display: 'flex',
-    justifyContent: 'flex-end',
-    gap: '16px',
-  },
-  footerLink: {
-    color: '#666',
-    fontSize: '14px',
-    textDecoration: 'none',
-    ':hover': {
-      textDecoration: 'underline',
-    },
-  },
-  successContainer: {
-    display: 'flex',
-    justifyContent: 'center',
-    alignItems: 'center',
-    minHeight: '100vh',
-    backgroundColor: '#f5f5f5',
-  },
-  successCard: {
-    backgroundColor: 'white',
-    padding: '40px',
-    borderRadius: '8px',
-    boxShadow: '0 4px 12px rgba(0, 0, 0, 0.1)',
-    textAlign: 'center',
-    maxWidth: '400px',
-    width: '100%',
-  },
-};
-
 interface Fields {
   Title: TextField;
   Subtitle: TextField;
@@ -171,12 +43,38 @@ export default function SodexoLogin(props: BrandDetailProps) {
 
   if (isLoggedIn) {
     return (
-      <div style={loginStyles.successContainer as React.CSSProperties}>
-        <div style={loginStyles.successCard as React.CSSProperties}>
+      <div
+        style={{
+          display: 'flex',
+          justifyContent: 'center',
+          alignItems: 'center',
+          minHeight: '100vh',
+          backgroundColor: '#f5f5f5',
+        }}
+      >
+        <div
+          style={{
+            backgroundColor: 'white',
+            padding: '40px',
+            borderRadius: '8px',
+            boxShadow: '0 4px 12px rgba(0, 0, 0, 0.1)',
+            textAlign: 'center',
+            maxWidth: '400px',
+            width: '100%',
+          }}
+        >
           <h1 style={{ color: '#2e3192', marginBottom: '20px' }}>Login Successful</h1>
           <p>Welcome to Sodexo!</p>
           <button
-            style={loginStyles.button as React.CSSProperties}
+            style={{
+              backgroundColor: '#2e3192',
+              color: 'white',
+              border: 'none',
+              padding: '8px 32px',
+              fontSize: '16px',
+              cursor: 'pointer',
+              marginTop: '20px',
+            }}
             onClick={() => {
               setIsLoggedIn(false);
               setEmail('');
@@ -191,51 +89,143 @@ export default function SodexoLogin(props: BrandDetailProps) {
   }
 
   return (
-    <div style={loginStyles.container as React.CSSProperties}>
+    <div
+      style={{
+        display: 'flex',
+        minHeight: '100vh',
+        width: '100%',
+      }}
+    >
       {/* Left side - Background image */}
-      <div style={loginStyles.imageContainer as React.CSSProperties}>
+      <div
+        style={{
+          position: 'relative',
+        }}
+      >
         <JssImage
           field={props.fields.Image}
-          style={loginStyles.backgroundImage as React.CSSProperties}
+          style={{
+            objectFit: 'cover',
+            width: '1920',
+            height: '1080',
+          }}
         />
       </div>
 
       {/* Right side - Login form */}
-      <div style={loginStyles.formContainer as React.CSSProperties}>
-        <div style={loginStyles.logoContainer as React.CSSProperties}>
+      <div
+        style={{
+          padding: '32px',
+          display: 'flex',
+          flexDirection: 'column',
+        }}
+      >
+        <div
+          style={{
+            display: 'flex',
+            justifyContent: 'flex-end',
+            marginBottom: '48px',
+          }}
+        >
           <Image src="/sodexo-logo.svg" alt="Sodexo Logo" width={120} height={40} priority />
         </div>
 
-        <div style={loginStyles.formContent as React.CSSProperties}>
-          <h1 style={loginStyles.heading as React.CSSProperties}>Sign in</h1>
+        <div
+          style={{
+            flexGrow: 1,
+          }}
+        >
+          <h1
+            style={{
+              fontSize: '24px',
+              fontWeight: 500,
+              color: '#333',
+              marginBottom: '32px',
+            }}
+          >
+            Sign in
+          </h1>
 
-          <form onSubmit={handleSubmit} style={loginStyles.form as React.CSSProperties}>
-            <div style={loginStyles.inputGroup as React.CSSProperties}>
+          <form
+            onSubmit={handleSubmit}
+            style={{
+              display: 'flex',
+              flexDirection: 'column',
+              gap: '24px',
+            }}
+          >
+            <div
+              style={{
+                position: 'relative',
+              }}
+            >
               <input
                 type="email"
                 placeholder="username@sodexo.com"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                style={loginStyles.input as React.CSSProperties}
+                style={{
+                  width: '100%',
+                  padding: '8px 0',
+                  border: 'none',
+                  borderBottom: '2px solid #2e3192',
+                  outline: 'none',
+                  fontSize: '16px',
+                  backgroundColor: 'transparent',
+                }}
                 required
               />
             </div>
-            <div style={loginStyles.inputGroup as React.CSSProperties}>
+            <div
+              style={{
+                position: 'relative',
+              }}
+            >
               <input
                 type="password"
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
                 style={{
-                  borderBottomColor: '#ccc',
+                  width: '100%',
+                  padding: '8px 0',
+                  border: 'none',
+                  borderBottom: '2px solid #ccc',
+                  outline: 'none',
+                  fontSize: '16px',
+                  backgroundColor: 'transparent',
                 }}
                 required
               />
             </div>
-            {error && <div style={loginStyles.errorMessage as React.CSSProperties}>{error}</div>}
-            <div style={loginStyles.buttonContainer as React.CSSProperties}>
+            {error && (
+              <div
+                style={{
+                  color: 'red',
+                  fontSize: '14px',
+                  marginTop: '8px',
+                }}
+              >
+                {error}
+              </div>
+            )}
+            <div
+              style={{
+                display: 'flex',
+                justifyContent: 'flex-end',
+                paddingTop: '16px',
+              }}
+            >
               <button
                 type="submit"
-                style={loginStyles.button as React.CSSProperties}
+                style={{
+                  backgroundColor: '#2e3192',
+                  color: 'white',
+                  border: 'none',
+                  padding: '8px 32px',
+                  fontSize: '16px',
+                  cursor: isLoading ? 'not-allowed' : 'pointer',
+                  opacity: isLoading ? 0.7 : 1,
+                }}
                 disabled={isLoading}
               >
                 {isLoading ? 'Loading...' : 'Next'}
@@ -243,21 +233,60 @@ export default function SodexoLogin(props: BrandDetailProps) {
             </div>
           </form>
 
-          <div style={loginStyles.legalSection as React.CSSProperties}>
-            <h2 style={loginStyles.legalHeading as React.CSSProperties}>
+          <div
+            style={{
+              marginTop: '64px',
+            }}
+          >
+            <h2
+              style={{
+                color: '#2e3192',
+                fontWeight: 500,
+                marginBottom: '8px',
+                fontSize: '16px',
+              }}
+            >
               Legal Warning & Support Information
             </h2>
-            <Link href="#" style={loginStyles.link as React.CSSProperties}>
+            <Link
+              href="#"
+              style={{
+                color: '#2e3192',
+                textDecoration: 'none',
+              }}
+            >
               Link to document
             </Link>
           </div>
         </div>
 
-        <div style={loginStyles.footer as React.CSSProperties}>
-          <Link href="#" style={loginStyles.footerLink as React.CSSProperties}>
+        <div
+          style={{
+            marginTop: 'auto',
+            paddingTop: '32px',
+            display: 'flex',
+            justifyContent: 'flex-end',
+            gap: '16px',
+          }}
+        >
+          <Link
+            href="#"
+            style={{
+              color: '#666',
+              fontSize: '14px',
+              textDecoration: 'none',
+            }}
+          >
             Terms of use
           </Link>
-          <Link href="#" style={loginStyles.footerLink as React.CSSProperties}>
+          <Link
+            href="#"
+            style={{
+              color: '#666',
+              fontSize: '14px',
+              textDecoration: 'none',
+            }}
+          >
             Privacy & cookies
           </Link>
         </div>

@@ -185,7 +185,6 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
 
       {/* root placeholder for the app, which we add components to using route data */}
       <div className={mainClassPageEditing}>
-        <div>Name: {layoutData.sitecore.context.site?.name}</div>
         <header
           className="Header_header__lDmSR Header_header--hide__ec1NG"
           role="banner"
@@ -201,7 +200,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
         >
           <div className="jsx-1675192690 jsx-1640501015 Layout_main__4tP_M">
             {route && <Placeholder name="headless-main" rendering={route} />}
-            <section
+            {/* <section
               data-full-width="false"
               data-grid-layout="global"
               id="50feeb9c-a6c2-48a1-ac65-330f74b929bc"
@@ -892,7 +891,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
                   </span>
                 </Link>
               </div>
-            </div>
+            </div> */}
           </div>
         </main>
         <footer className="Surface_surface__Y0_rx Footer_footer__TvKAw color-white" id="footer">
