@@ -1,9 +1,10 @@
-import Image from 'next/image';
-import { TextField } from '@sitecore-jss/sitecore-jss-nextjs';
+import { TextField, ImageField, Text, Image as JssImage } from '@sitecore-jss/sitecore-jss-nextjs';
 import { Mic } from 'lucide-react';
 
 interface Fields {
-  Title: TextField;
+  FirstName: TextField;
+  LastName: TextField;
+  Image: ImageField;
 }
 
 type SodexoProps = {
@@ -46,8 +47,8 @@ export const Default = (props: SodexoProps): JSX.Element => {
               border: '3px solid white',
             }}
           >
-            <Image
-              src="/placeholder.svg?height=100&width=100"
+            <JssImage
+              field={props.fields.Image}
               alt="Profile"
               width={100}
               height={100}
@@ -71,9 +72,9 @@ export const Default = (props: SodexoProps): JSX.Element => {
                 fontWeight: 'bold',
               }}
             >
-              Rayan
+              <Text field={props.fields.FirstName} />
               <br />
-              Carpenter !
+              <Text field={props.fields.LastName} />!
             </h2>
           </div>
         </div>
