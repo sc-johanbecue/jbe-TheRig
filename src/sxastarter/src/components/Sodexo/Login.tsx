@@ -5,6 +5,7 @@ import type React from 'react';
 import { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import { TextField, ImageField, Image as JssImage } from '@sitecore-jss/sitecore-jss-nextjs';
 
 const loginStyles = {
   container: {
@@ -134,7 +135,18 @@ const loginStyles = {
   },
 };
 
-export default function SodexoLogin() {
+interface Fields {
+  Title: TextField;
+  Subtitle: TextField;
+  Image: ImageField;
+}
+
+type BrandDetailProps = {
+  params: { [key: string]: string };
+  fields: Fields;
+};
+
+export default function SodexoLogin(props: BrandDetailProps) {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
@@ -182,12 +194,9 @@ export default function SodexoLogin() {
     <div style={loginStyles.container as React.CSSProperties}>
       {/* Left side - Background image */}
       <div style={loginStyles.imageContainer as React.CSSProperties}>
-        <Image
-          src="https://aadcdn.msauthimages.net/c1c6b6c8-ixj3k6amayqz22utwrf-u-euflejghqjvhehsg1tc1a/logintenantbranding/0/illustration?ts=638327998932952380"
-          alt="Sodexo uniform"
-          fill
+        <JssImage
+          field={props.fields.Image}
           style={loginStyles.backgroundImage as React.CSSProperties}
-          priority
         />
       </div>
 
