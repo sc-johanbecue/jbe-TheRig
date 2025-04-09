@@ -25,9 +25,19 @@ const SodexoDefaultComponent = (props: SodexoProps): JSX.Element => (
 );
 
 export const Default = (props: SodexoProps): JSX.Element => {
-  const phKeyMenuProfile = `menuProfile-${props.params.DynamicPlaceholderId}`;
-  const phKeyPromotedContent = `promotedContent-${props.params.DynamicPlaceholderId}`;
-  const phKeyHrAccessKnowledgeCenter = `hrAccessKnowledgeCenter-${props.params.DynamicPlaceholderId}`;
+  let phKeyMenuProfile;
+  let phKeyPromotedContent;
+  let phKeyHrAccessKnowledgeCenter;
+  if (props.params?.DynamicPlaceholderId == undefined) {
+    phKeyMenuProfile = `menuProfile`;
+    phKeyPromotedContent = `promotedContent`;
+    phKeyHrAccessKnowledgeCenter = `hrAccessKnowledgeCenter`;
+  } else {
+    phKeyMenuProfile = `menuProfile-${props.params.DynamicPlaceholderId}`;
+    phKeyPromotedContent = `promotedContent-${props.params.DynamicPlaceholderId}`;
+    phKeyHrAccessKnowledgeCenter = `hrAccessKnowledgeCenter-${props.params.DynamicPlaceholderId}`;
+  }
+
   if (props.fields) {
     return (
       <div
