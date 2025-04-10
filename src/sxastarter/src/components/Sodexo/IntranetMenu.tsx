@@ -1,9 +1,8 @@
-import Image from 'next/image';
 import Link from 'next/link';
-import { TextField } from '@sitecore-jss/sitecore-jss-nextjs';
+import { ImageField, Image as JssImage } from '@sitecore-jss/sitecore-jss-nextjs';
 
 interface Fields {
-  Title: TextField;
+  Logo: ImageField;
 }
 
 type SodexoProps = {
@@ -70,7 +69,7 @@ export const Default = (props: SodexoProps): JSX.Element => {
           </ul>
         </nav>
         <div>
-          <Image src="/sodexo-logo-white.svg" alt="Sodexo Logo" width={100} height={30} priority />
+          <JssImage field={props.fields.Logo} alt="Sodexo Logo" width={100} height={30} priority />
         </div>
       </div>
     );
