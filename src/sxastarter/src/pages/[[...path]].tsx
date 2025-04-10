@@ -15,6 +15,8 @@ import LayoutCoty from 'src/LayoutCoty';
 import LayoutAirline from 'src/LayoutAirline';
 import LayoutSodexo from 'src/LayoutSodexo';
 import LayoutEuroConsumers from 'src/LayoutEuroConsumers';
+import LayoutSodexoIntranet from 'src/LayoutSodexoIntranet';
+
 import {
   RenderingType,
   SitecoreContext,
@@ -65,6 +67,8 @@ const SitecorePage = ({
     layoutData.sitecore.context.site?.name?.toLowerCase() == 'euroconsumers'.toLowerCase();
   const SodexoSite =
     layoutData.sitecore.context.site?.name?.toLowerCase() == 'sodexo'.toLowerCase();
+  const SodexoIntranetSite =
+    layoutData.sitecore.context.site?.name?.toLowerCase() == 'sodexointranet'.toLowerCase();
 
   return (
     <ComponentPropsContext value={componentProps}>
@@ -104,6 +108,8 @@ const SitecorePage = ({
           <LayoutAirline layoutData={layoutData} headLinks={headLinks} />
         ) : SodexoSite ? (
           <LayoutSodexo layoutData={layoutData} headLinks={headLinks} />
+        ) : SodexoIntranetSite ? (
+          <LayoutSodexoIntranet layoutData={layoutData} headLinks={headLinks} />
         ) : EuroConsumersSite ? (
           <LayoutEuroConsumers layoutData={layoutData} headLinks={headLinks} />
         ) : (
